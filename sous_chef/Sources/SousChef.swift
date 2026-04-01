@@ -58,7 +58,7 @@ struct SousChef: AsyncParsableCommand {
         if let lastSampleTime {
             try await analyzer.finalizeAndFinish(through: lastSampleTime)
         } else {
-            try analyzer.cancelAndFinishNow()
+            await analyzer.cancelAndFinishNow()
         }
 
         segments = try await resultsTask.value
@@ -80,8 +80,8 @@ struct SousChef: AsyncParsableCommand {
 
         for run in text.runs {
             if let timeRange = run.audioTimeRange {
-                let start = CMTimeGetSeconds(timeRange.lowerBound)
-                let end = CMTimeGetSeconds(timeRange.upperBound)
+                let start = CMTimeGetSeconds(timeRange.start)
+                let end = CMTimeGetSeconds(timeRange.start + timeRange.duration)
                 if earliest == nil || start < earliest! { earliest = start }
                 if latest == nil || end > latest! { latest = end }
             }
