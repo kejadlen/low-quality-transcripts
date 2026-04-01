@@ -12,14 +12,8 @@ module CookingIssues
     end
 
     def slug
-      formatted_number = format("%03d", number)
-      safe_title = title
-        .downcase
-        .gsub(/[^a-z0-9\s-]/, "")
-        .gsub(/\s+/, "-")
-        .gsub(/-+/, "-")
-        .sub(/-$/, "")
-      "#{formatted_number}-#{safe_title}"
+      safe_title = title.downcase.gsub(/[^a-z0-9]+/, "-").chomp("-")
+      format("%03d-%s", number, safe_title)
     end
   end
 
