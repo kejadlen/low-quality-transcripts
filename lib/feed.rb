@@ -10,7 +10,7 @@ module CookingIssues
         number: number,
         title: item.at_xpath("title").text,
         published_at: item.at_xpath("pubDate").text,
-        audio_url: item.at_xpath("enclosure")&.[]("url")
+        audio_url: item.at_xpath("enclosure")["url"]
       )
     end
 
