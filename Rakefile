@@ -21,8 +21,8 @@ file HRN_FEED => CACHE_DIR do
   File.write(HRN_FEED, response.body)
 end
 
-def feed
-  @feed ||= CookingIssues::Feed.new(HRN_FEED)
+def episodes
+  @episodes ||= CookingIssues::Feed.parse(HRN_FEED)
 end
 
 # --- Tasks ---
@@ -31,7 +31,6 @@ task default: :sync
 
 desc "Fetch the feed, download episodes missing transcripts"
 task sync: HRN_FEED do
-  episodes = feed.episodes
   puts "Found #{episodes.size} episodes in feed."
 
   sync = CookingIssues::Sync.new(episodes)
@@ -40,7 +39,7 @@ end
 
 desc "List all episodes from the feed"
 task episodes: HRN_FEED do
-  feed.episodes.sort_by(&:number).each do |ep|
+  episodes.sort_by(&:number).each do |ep|
     status = Dir.glob(File.join(TRANSCRIPTS_DIR, "#{ep.slug}.*")).any? ? "✓" : " "
     puts "[#{status}] #{ep.number}. #{ep.title}"
   end
@@ -50,8 +49,9 @@ desc "Transcribe an episode by number (e.g., rake transcribe[42])"
 task :transcribe, [:number] => HRN_FEED do |_t, args|
   abort "Usage: rake transcribe[NUMBER]" unless args[:number]
 
-  ep = feed[args[:number].to_i]
+  ep = episodes.find { |e| e.number == args[:number].to_i }
   abort "Episode #{args[:number]} not found in feed." unless ep
+
   audio = File.join(AUDIO_DIR, "#{ep.slug}.mp3")
   abort "Audio not found: #{audio}\nRun `rake sync` first." unless File.exist?(audio)
 
