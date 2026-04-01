@@ -24,6 +24,10 @@ module CookingIssues
       @episodes ||= parse(File.read(@path))
     end
 
+    def [](number)
+      episodes.find { |e| e.number == number }
+    end
+
     private
 
     def parse(xml)

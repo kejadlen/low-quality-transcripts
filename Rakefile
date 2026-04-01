@@ -25,12 +25,6 @@ def feed
   @feed ||= CookingIssues::Feed.new(HRN_FEED)
 end
 
-def find_episode(number)
-  ep = feed.episodes.find { |e| e.number == number.to_i }
-  abort "Episode #{number} not found in feed." unless ep
-  ep
-end
-
 # --- Tasks ---
 
 task default: :sync
@@ -56,7 +50,8 @@ desc "Transcribe an episode by number (e.g., rake transcribe[42])"
 task :transcribe, [:number] => HRN_FEED do |_t, args|
   abort "Usage: rake transcribe[NUMBER]" unless args[:number]
 
-  ep = find_episode(args[:number])
+  ep = feed[args[:number].to_i]
+  abort "Episode #{args[:number]} not found in feed." unless ep
   audio = File.join(AUDIO_DIR, "#{ep.slug}.mp3")
   abort "Audio not found: #{audio}\nRun `rake sync` first." unless File.exist?(audio)
 
