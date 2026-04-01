@@ -79,3 +79,16 @@ task :transcribe, [:number] => :setup do |_t, args|
   transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
   Rake::Task[transcript].invoke
 end
+
+desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
+task :retranscribe, [:number] => :setup do |_t, args|
+  abort "Usage: rake retranscribe[NUMBER]" unless args[:number]
+
+  ep = episodes.find { |e| e.number == args[:number].to_i }
+  abort "Episode #{args[:number]} not found in feed." unless ep
+
+  transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
+  FileUtils.rm_f(transcript)
+  Rake::Task[transcript].reenable
+  Rake::Task[transcript].invoke
+end
