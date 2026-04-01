@@ -27,6 +27,10 @@ module Transcribers
     def register
       raise NotImplementedError, "#{self.class}#register not implemented"
     end
+
+    def render(json_path, txt_path)
+      raise NotImplementedError, "#{self.class}#render not implemented"
+    end
   end
 
   class Whisperx < Base
@@ -46,6 +50,39 @@ module Transcribers
   end
 
   class WhisperCpp < Base
+    # Milliseconds of silence between segments that triggers a paragraph break.
+    PARAGRAPH_GAP_MS = 500
+
+    def render(json_path, txt_path)
+      data = JSON.parse(File.read(json_path))
+      segments = data["transcription"]
+
+      paragraphs = []
+      current = []
+
+      segments.each_with_index do |seg, i|
+        if i > 0
+          gap = seg["offsets"]["from"] - segments[i - 1]["offsets"]["to"]
+          if gap >= PARAGRAPH_GAP_MS
+            paragraphs << flush_paragraph(current)
+            current = []
+          end
+        end
+        current << seg
+      end
+      paragraphs << flush_paragraph(current) unless current.empty?
+
+      File.write(txt_path, paragraphs.join("\n\n"))
+    end
+
+    private
+
+    def flush_paragraph(segments)
+      timestamp = segments.first["timestamps"]["from"].sub(/^00:/, "")
+      text = segments.map { |s| s["text"].strip }.join(" ")
+      "[#{timestamp}] #{text}"
+    end
+
     def register_model(name)
       models_dir = MODELS_DIR
       script = DOWNLOAD_SCRIPT

@@ -1,3 +1,4 @@
+require "json"
 require "net/http"
 require "pathname"
 require "uri"
@@ -40,6 +41,10 @@ def transcript_path(ep)
   (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.json").to_s
 end
 
+def text_path(ep)
+  (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.txt").to_s
+end
+
 EPISODES.values.each do |ep|
   transcript_dir = (TRANSCRIPTS_DIR / TRANSCRIBER.name).to_s
   directory transcript_dir
@@ -55,22 +60,28 @@ EPISODES.values.each do |ep|
   file transcript => [audio, transcript_dir, *TRANSCRIBER.prereqs] do
     TRANSCRIBER.call(audio, transcript)
   end
+
+  txt = text_path(ep)
+
+  file txt => transcript do
+    TRANSCRIBER.render(transcript, txt)
+  end
 end
 
 task default: :sync
 
-desc "Download and transcribe all episodes"
+desc "Download, transcribe, and render all episodes"
 task :sync do
   # The feed is reverse-chronological; process oldest episodes first.
   EPISODES.values.sort_by(&:number).each do |ep|
-    Rake::Task[transcript_path(ep)].invoke
+    Rake::Task[text_path(ep)].invoke
   end
 end
 
 desc "List all episodes from the feed"
 task :episodes do
   EPISODES.values.sort_by(&:number).each do |ep|
-    status = Pathname(transcript_path(ep)).exist? ? "✓" : " "
+    status = Pathname(text_path(ep)).exist? ? "✓" : " "
     puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
 end
@@ -82,7 +93,7 @@ task :transcribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  Rake::Task[transcript_path(ep)].invoke
+  Rake::Task[text_path(ep)].invoke
 end
 
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
@@ -92,8 +103,11 @@ task :retranscribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  path = Pathname(transcript_path(ep))
-  path.delete if path.exist?
+  json = Pathname(transcript_path(ep))
+  txt = Pathname(text_path(ep))
+  json.delete if json.exist?
+  txt.delete if txt.exist?
+  Rake::Task[text_path(ep)].reenable
   Rake::Task[transcript_path(ep)].reenable
-  Rake::Task[transcript_path(ep)].invoke
+  Rake::Task[text_path(ep)].invoke
 end
