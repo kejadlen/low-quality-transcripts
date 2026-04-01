@@ -9,8 +9,9 @@ module Transcribers
     when "whisper-cpp-large" then WhisperCppLarge.new
     when "whisper-cpp-tdrz" then WhisperCppTdrz.new
     when "sous_chef" then SousChef.new
+    when "mlx" then Mlx.new
     else
-      abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', or 'sous_chef'."
+      abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', 'sous_chef', or 'mlx'."
     end
   end
 
@@ -64,8 +65,7 @@ module Transcribers
   end
 
   class WhisperCppLarge < WhisperCpp
-    # MODEL = "large-v3-turbo"
-    MODEL = "large-v3"
+    MODEL = "large-v3-turbo"
 
     def name = "whisper-cpp-large"
     def prereqs = [Transcribers.model_path(MODEL).to_s]
@@ -118,6 +118,18 @@ module Transcribers
 
     def call(audio_path, transcript_path)
       sh BINARY.to_s, audio_path, transcript_path
+    end
+  end
+
+  class Mlx < Base
+    SCRIPT = Pathname("bin/mlx-transcribe")
+
+    def name = "mlx"
+    def register; end
+
+    def call(audio_path, transcript_path)
+      hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
+      sh SCRIPT.to_s, audio_path, transcript_path, "--hf-token", hf_token
     end
   end
 end

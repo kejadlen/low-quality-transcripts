@@ -1,0 +1,131 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "mlx-whisper",
+#     "pyannote.audio",
+#     "torch",
+#     "torchaudio",
+# ]
+# ///
+
+"""Transcribe audio with mlx-whisper and diarize with pyannote."""
+
+import argparse
+import sys
+from pathlib import Path
+
+import mlx_whisper
+from pyannote.audio import Pipeline
+
+
+def transcribe(audio_path: str, model: str) -> dict:
+    """Run mlx-whisper transcription, returning segments with timestamps."""
+    return mlx_whisper.transcribe(
+        audio_path,
+        path_or_hf_repo=model,
+        word_timestamps=True,
+        verbose=False,
+    )
+
+
+def diarize(audio_path: str, hf_token: str) -> Pipeline:
+    """Run pyannote speaker diarization."""
+    import torch
+
+    pipeline = Pipeline.from_pretrained(
+        "pyannote/speaker-diarization-3.1",
+        token=hf_token,
+    )
+    if torch.backends.mps.is_available():
+        pipeline.to(torch.device("mps"))
+    elif torch.cuda.is_available():
+        pipeline.to(torch.device("cuda"))
+    return pipeline(audio_path)
+
+
+def assign_speakers(segments: list[dict], diarization) -> list[dict]:
+    """Assign a speaker label to each whisper segment based on diarization overlap."""
+    labeled = []
+    for seg in segments:
+        seg_start = seg["start"]
+        seg_end = seg["end"]
+        # Find the diarization speaker with the most overlap.
+        best_speaker = None
+        best_overlap = 0.0
+        for turn, _, speaker in diarization.itertracks(yield_label=True):
+            overlap_start = max(seg_start, turn.start)
+            overlap_end = min(seg_end, turn.end)
+            overlap = max(0.0, overlap_end - overlap_start)
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_speaker = speaker
+        labeled.append({**seg, "speaker": best_speaker or "UNKNOWN"})
+    return labeled
+
+
+def format_time(seconds: float) -> str:
+    """Format seconds as H:MM:SS or M:SS."""
+    h = int(seconds) // 3600
+    m = (int(seconds) % 3600) // 60
+    s = int(seconds) % 60
+    if h > 0:
+        return f"{h}:{m:02d}:{s:02d}"
+    return f"{m}:{s:02d}"
+
+
+def format_output(segments: list[dict]) -> str:
+    """Format labeled segments as timestamped, speaker-attributed lines."""
+    lines = []
+    for seg in segments:
+        start = format_time(seg["start"])
+        end = format_time(seg["end"])
+        speaker = seg["speaker"]
+        text = seg["text"].strip()
+        lines.append(f"[{start} → {end} | {speaker}] {text}")
+    return "\n".join(lines)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("audio", help="Path to audio file")
+    parser.add_argument("output", help="Path to write transcript")
+    parser.add_argument(
+        "--model",
+        default="mlx-community/whisper-large-v3-turbo",
+        help="MLX whisper model (default: mlx-community/whisper-large-v3-turbo)",
+    )
+    parser.add_argument(
+        "--hf-token",
+        default=None,
+        help="Hugging Face token for pyannote (default: $HUGGING_FACE_TOKEN)",
+    )
+    args = parser.parse_args()
+
+    import os
+
+    hf_token = args.hf_token or os.environ.get("HUGGING_FACE_TOKEN")
+    if not hf_token:
+        print("Set --hf-token or $HUGGING_FACE_TOKEN for diarization.", file=sys.stderr)
+        sys.exit(1)
+
+    audio = args.audio
+    if not Path(audio).exists():
+        print(f"Audio file not found: {audio}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"Transcribing {audio}...", file=sys.stderr)
+    result = transcribe(audio, args.model)
+
+    print("Diarizing...", file=sys.stderr)
+    diarization = diarize(audio, hf_token)
+
+    segments = assign_speakers(result["segments"], diarization)
+    text = format_output(segments)
+
+    Path(args.output).write_text(text, encoding="utf-8")
+    print(f"Done. Wrote {len(segments)} segments to {args.output}.", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

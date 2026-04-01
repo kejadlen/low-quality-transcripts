@@ -25,7 +25,7 @@ end
 
 load File.expand_path("transcribers.rake", __dir__)
 
-TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "whisperx"))
+TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "whisper-cpp-large"))
 TRANSCRIBER.register
 
 Rake::Task[HRN_FEED.to_s].invoke
