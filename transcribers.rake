@@ -22,11 +22,29 @@ module Transcribers
     include Rake::DSL
 
     def prereqs = []
+
+    def register
+      raise NotImplementedError, "#{self.class}#register not implemented"
+    end
+  end
+
+  class Whisperx < Base
+    def name = "whisperx"
     def register; end
 
-    private
+    def call(audio_path, transcript_path)
+      hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
+      sh "uvx", "whisperx", audio_path,
+        "--model", "large-v3",
+        "--compute_type", "int8",
+        "--device", "cpu",
+        "--diarize", "--hf_token", hf_token,
+        "--output_dir", File.dirname(transcript_path),
+        "--output_format", "txt"
+    end
+  end
 
-    # Shared setup for whisper.cpp model downloads.
+  class WhisperCpp < Base
     def register_model(name)
       models_dir = MODELS_DIR
       script = DOWNLOAD_SCRIPT
@@ -45,23 +63,9 @@ module Transcribers
     end
   end
 
-  class Whisperx < Base
-    def name = "whisperx"
-
-    def call(audio_path, transcript_path)
-      hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
-      sh "whisperx", audio_path,
-        "--model", "large-v3",
-        "--compute_type", "int8",
-        "--device", "cpu",
-        "--diarize", "--hf_token", hf_token,
-        "--output_dir", File.dirname(transcript_path),
-        "--output_format", "txt"
-    end
-  end
-
-  class WhisperCppLarge < Base
-    MODEL = "large-v3-turbo"
+  class WhisperCppLarge < WhisperCpp
+    # MODEL = "large-v3-turbo"
+    MODEL = "large-v3"
 
     def name = "whisper-cpp-large"
     def prereqs = [Transcribers.model_path(MODEL).to_s]
@@ -79,7 +83,7 @@ module Transcribers
     end
   end
 
-  class WhisperCppTdrz < Base
+  class WhisperCppTdrz < WhisperCpp
     MODEL = "small.en-tdrz"
 
     def name = "whisper-cpp-tdrz"
@@ -106,7 +110,8 @@ module Transcribers
     def prereqs = [BINARY.to_s]
 
     def register
-      file BINARY.to_s do
+      sources = FileList["sous_chef/**/*.swift"].exclude(%r{/\.build/})
+      file BINARY.to_s => sources do
         sh "cd sous_chef && swift build -c release"
       end
     end

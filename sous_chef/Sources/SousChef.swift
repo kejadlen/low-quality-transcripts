@@ -23,7 +23,7 @@ struct SousChef: AsyncParsableCommand {
         guard let locale = await SpeechTranscriber.supportedLocale(equivalentTo: Locale(identifier: "en-US")) else {
             throw TranscriptionError.unsupportedLocale
         }
-        let transcriber = SpeechTranscriber(locale: locale, preset: .transcription)
+        let transcriber = SpeechTranscriber(locale: locale, preset: .timeIndexedTranscriptionWithAlternatives)
 
         // Install assets if needed.
         if let request = try await AssetInventory.assetInstallationRequest(supporting: [transcriber]) {
@@ -39,13 +39,15 @@ struct SousChef: AsyncParsableCommand {
 
         // Collect results in a separate task.
         let resultsTask = Task {
-            var segments: [String] = []
+            var lines: [String] = []
             for try await result in transcriber.results {
                 let text = String(result.text.characters)
-                segments.append(text)
-                log("  \(text)")
+                let timestamp = Self.formatTimestamp(result.text)
+                let line = "[\(timestamp)] \(text)"
+                lines.append(line)
+                log("  \(line)")
             }
-            return segments
+            return lines
         }
 
         // Run the analysis.
@@ -59,13 +61,29 @@ struct SousChef: AsyncParsableCommand {
             await analyzer.cancelAndFinishNow()
         }
 
-        let segments = try await resultsTask.value
+        let lines = try await resultsTask.value
 
-        // Write plain text output.
-        let text = segments.joined(separator: "\n")
+        // Write timestamped transcript.
+        let text = lines.joined(separator: "\n")
         try text.write(to: outputURL, atomically: true, encoding: .utf8)
 
-        log("Done. Wrote \(segments.count) segments to \(output).")
+        log("Done. Wrote \(lines.count) segments to \(output).")
+    }
+
+    /// Extract the start time from the first audioTimeRange attribute in the result text.
+    private static func formatTimestamp(_ text: AttributedString) -> String {
+        for run in text.runs {
+            if let timeRange = run[AttributeScopes.SpeechAttributes.TimeRangeAttribute.self] {
+                let seconds = CMTimeGetSeconds(timeRange.start)
+                let h = Int(seconds) / 3600
+                let m = (Int(seconds) % 3600) / 60
+                let s = Int(seconds) % 60
+                return h > 0
+                    ? String(format: "%d:%02d:%02d", h, m, s)
+                    : String(format: "%d:%02d", m, s)
+            }
+        }
+        return "?:??"
     }
 
     private func log(_ message: String) {
