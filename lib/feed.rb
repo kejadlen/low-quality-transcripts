@@ -1,12 +1,8 @@
-require "net/http"
 require "nokogiri"
-require "uri"
 
 module CookingIssues
   # Parses a podcast RSS feed and returns episode data.
   class Feed
-    FEED_URL = "https://rss.art19.com/cooking-issues"
-
     Episode = Struct.new(:number, :title, :published_at, :audio_url, keyword_init: true) do
       def slug
         formatted_number = format("%03d", number)
@@ -20,23 +16,15 @@ module CookingIssues
       end
     end
 
-    def initialize(url = FEED_URL)
-      @url = url
+    def initialize(path)
+      @path = path
     end
 
     def episodes
-      @episodes ||= parse(fetch)
+      @episodes ||= parse(File.read(@path))
     end
 
     private
-
-    def fetch
-      uri = URI(@url)
-      response = Net::HTTP.get_response(uri)
-      raise "Feed returned #{response.code}" unless response.is_a?(Net::HTTPSuccess)
-
-      response.body
-    end
 
     def parse(xml)
       doc = Nokogiri::XML(xml)
