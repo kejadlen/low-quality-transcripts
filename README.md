@@ -1,40 +1,69 @@
 # Cooking Issues transcripts
 
-Transcripts of the [Cooking Issues](https://heritageradionetwork.org/series/cooking-issues/) podcast, hosted by Dave Arnold on Heritage Radio Network. Transcribed locally on macOS using Apple's [SpeechAnalyzer](https://developer.apple.com/documentation/speechanalyzer) framework. This project covers transcription only — search is planned separately.
+Transcripts of the [Cooking Issues](https://heritageradionetwork.org/series/cooking-issues/) podcast, hosted by Dave Arnold on Heritage Radio Network. Transcribed locally using swappable transcription backends.
 
 ## How it works
 
-A Ruby harness pulls episodes from two podcast feeds, and a Swift CLI transcribes the audio. Transcripts are committed to this repo as flat files, one per episode.
-
-The pipeline looks like this:
+A Rake pipeline downloads episodes from the RSS feed, transcribes audio to JSON, and renders readable text. Each transcriber is a self-contained class that registers its own Rake tasks for setup and dependencies.
 
 ```
-Feed (RSS) → Ruby harness → Swift transcriber → transcript files
+RSS feed → download audio → transcribe (JSON) → render (text)
 ```
 
-### Feeds
+## Transcribers
 
-Episodes come from two sources:
+Set the backend with `TRANSCRIBER=name`. Each transcriber writes a JSON file with its native output format, then renders it to timestamped, paragraphed text.
 
-- Heritage Radio Network: https://heritageradionetwork.org/series/cooking-issues/
-- Patreon (private feed)
+| Name | Engine | Diarization | Notes |
+|------|--------|-------------|-------|
+| `whisper-cpp-large` | whisper.cpp (large-v3-turbo) | No | Default. Fast on Apple Silicon via Metal. |
+| `whisper-cpp-tdrz` | whisper.cpp (small.en-tdrz) | tinydiarize | Lightweight model with basic speaker turns. |
+| `sous_chef` | Apple SpeechAnalyzer | No | macOS 26+ only. Word-level segments. |
+| `mlx` | mlx-whisper | No | Runs on Apple Silicon via MLX. |
+| `mlx-diarize` | mlx-whisper + pyannote | Yes | Speaker labels via pyannote. Requires HF token. |
+| `whisperx` | WhisperX | Yes | CPU-based, uses pyannote for diarization. |
 
-### Components
+## Usage
 
-The Ruby harness manages the pipeline: fetching RSS feeds, downloading episodes, invoking the transcriber, and organizing output.
+```sh
+# Transcribe a single episode
+rake transcribe[42]
 
-The Swift CLI accepts an audio file and writes a transcript using SpeechAnalyzer. It runs as a standalone command-line tool that the Ruby harness shells out to.
+# Transcribe all episodes
+rake sync
 
-### Output
+# Re-transcribe (deletes existing JSON and text, then rebuilds)
+rake retranscribe[42]
 
-Transcripts live in this repo, one file per episode. The output format is not yet determined — we'll use whatever structure SpeechAnalyzer provides and refine from there.
+# List episodes and their transcription status
+rake episodes
+
+# Use a different transcriber
+TRANSCRIBER=mlx rake transcribe[1]
+```
+
+Transcribers that use pyannote for diarization (`mlx-diarize`, `whisperx`) need a Hugging Face token with access to the [pyannote/speaker-diarization-3.1](https://hf.co/pyannote/speaker-diarization-3.1) and [pyannote/segmentation-3.0](https://hf.co/pyannote/segmentation-3.0) gated models:
+
+```sh
+export HUGGING_FACE_TOKEN=hf_...
+```
+
+## Output
+
+Transcripts live in `transcripts/<transcriber>/`, with a JSON file (full transcription data) and a text file (rendered for reading) per episode:
+
+```
+transcripts/whisper-cpp-large/001-episode-1-cooking-issues-debuts.json
+transcripts/whisper-cpp-large/001-episode-1-cooking-issues-debuts.txt
+```
+
+The text renderer groups segments into paragraphs based on silence gaps between them. The gap threshold varies by transcriber since some produce sentence-level segments and others produce word-level segments.
 
 ## Requirements
 
-- macOS 26 or later (SpeechAnalyzer requires macOS Tahoe)
-- Xcode 26 or later
-- Ruby 3.x
-
-## Status
-
-Early development.
+- Ruby 3.x with Bundler
+- At least one transcriber's dependencies:
+  - **whisper-cpp**: `whisper-cli` (install via Homebrew or build from source)
+  - **sous_chef**: macOS 26+, Xcode 26+ (builds automatically)
+  - **mlx / mlx-diarize**: Python 3.10+, [uv](https://github.com/astral-sh/uv) (dependencies managed automatically via inline script metadata)
+  - **whisperx**: Python 3.10+, uv
