@@ -12,7 +12,7 @@ struct SousChef: AsyncParsableCommand {
     @Argument(help: "Path to the input audio file.")
     var input: String
 
-    @Argument(help: "Path to write the output JSON transcript.")
+    @Argument(help: "Path to write the output transcript.")
     var output: String
 
     func run() async throws {
@@ -23,7 +23,7 @@ struct SousChef: AsyncParsableCommand {
         guard let locale = await SpeechTranscriber.supportedLocale(equivalentTo: Locale(identifier: "en-US")) else {
             throw TranscriptionError.unsupportedLocale
         }
-        let transcriber = SpeechTranscriber(locale: locale, preset: .timeIndexedTranscriptionWithAlternatives)
+        let transcriber = SpeechTranscriber(locale: locale, preset: .transcription)
 
         // Install assets if needed.
         if let request = try await AssetInventory.assetInstallationRequest(supporting: [transcriber]) {
@@ -38,16 +38,14 @@ struct SousChef: AsyncParsableCommand {
         let analyzer = SpeechAnalyzer(modules: [transcriber])
 
         // Collect results in a separate task.
-        var segments: [Segment] = []
         let resultsTask = Task {
-            var collected: [Segment] = []
+            var segments: [String] = []
             for try await result in transcriber.results {
                 let text = String(result.text.characters)
-                let timeRange = extractTimeRange(from: result.text)
-                collected.append(Segment(text: text, start: timeRange?.start, end: timeRange?.end))
+                segments.append(text)
                 log("  \(text)")
             }
-            return collected
+            return segments
         }
 
         // Run the analysis.
@@ -61,34 +59,13 @@ struct SousChef: AsyncParsableCommand {
             await analyzer.cancelAndFinishNow()
         }
 
-        segments = try await resultsTask.value
+        let segments = try await resultsTask.value
 
-        // Write JSON output.
-        let transcript = Transcript(segments: segments)
-        let encoder = JSONEncoder()
-        encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
-        let data = try encoder.encode(transcript)
-        try data.write(to: outputURL)
+        // Write plain text output.
+        let text = segments.joined(separator: "\n")
+        try text.write(to: outputURL, atomically: true, encoding: .utf8)
 
         log("Done. Wrote \(segments.count) segments to \(output).")
-    }
-
-    private func extractTimeRange(from text: AttributedString) -> (start: Double, end: Double)? {
-        // Walk the attributed string looking for time range attributes.
-        var earliest: Double?
-        var latest: Double?
-
-        for run in text.runs {
-            if let timeRange = run.audioTimeRange {
-                let start = CMTimeGetSeconds(timeRange.start)
-                let end = CMTimeGetSeconds(timeRange.start + timeRange.duration)
-                if earliest == nil || start < earliest! { earliest = start }
-                if latest == nil || end > latest! { latest = end }
-            }
-        }
-
-        guard let start = earliest, let end = latest else { return nil }
-        return (start, end)
     }
 
     private func log(_ message: String) {
@@ -105,14 +82,4 @@ enum TranscriptionError: Error, CustomStringConvertible {
             "en-US is not supported on this device."
         }
     }
-}
-
-struct Transcript: Encodable {
-    let segments: [Segment]
-}
-
-struct Segment: Encodable {
-    let text: String
-    let start: Double?
-    let end: Double?
 }

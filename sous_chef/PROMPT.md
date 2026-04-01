@@ -24,11 +24,8 @@ care about is `SpeechTranscriber`, which does speech-to-text.
   and audio input, controls the session lifecycle.
 - `SpeechTranscriber` — a module that produces transcription results.
   Created with a locale and a preset.
-- `SpeechTranscriber.Preset` — predefined configurations. The relevant
-  ones for offline file transcription:
-  - `.transcription` — basic accurate transcription, no timestamps
-  - `.timeIndexedTranscriptionWithAlternatives` — transcription with
-    audio time ranges and alternative interpretations
+- `SpeechTranscriber.Preset` — predefined configurations. We use
+  `.transcription` for basic accurate transcription with no timestamps.
 - `SpeechTranscriber.Result` — a phrase of transcribed speech. Has:
   - `.text` — an `AttributedString` with the best interpretation. Can
     carry `audioTimeRange` attributes when the preset includes them.
@@ -95,23 +92,8 @@ To get plain text: `String(result.text.characters)`
 
 ## Output format
 
-Write JSON to the output path. Structure:
-
-```json
-{
-  "segments": [
-    {
-      "text": "transcribed text for this segment",
-      "start": 0.0,
-      "end": 5.23
-    }
-  ]
-}
-```
-
-Each segment corresponds to one `SpeechTranscriber.Result`. Times are
-in seconds from the start of the audio file. If time range attributes
-are unavailable, omit `start` and `end`.
+Write plain text to the output path. Each `SpeechTranscriber.Result`
+becomes one line, joined with newlines.
 
 ## Build
 

@@ -21,7 +21,7 @@ module CookingIssues
     end
 
     def transcript_path
-      audio_path.pathmap("%{^cache/audio/,transcripts/}X.json")
+      audio_path.pathmap("%{^cache/audio/,transcripts/}X.txt")
     end
   end
 
