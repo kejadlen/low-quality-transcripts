@@ -60,15 +60,19 @@ def transcribe(ep, audio_path, transcript_path)
       "--diarize", "--hf_token", hf_token,
       "--output_dir", File.dirname(transcript_path),
       "--output_format", "txt"
-  when "whisper-cpp"
-    model_path = MODELS_DIR / "ggml-#{WHISPER_MODEL}.bin"
-    Rake::Task[:model].invoke unless model_path.exist?
+  when "whisper-cpp-large"
+    model_path = MODELS_DIR / "ggml-large-v3-turbo.bin"
+    Rake::Task[:model].invoke("large-v3-turbo") unless model_path.exist?
+    sh "whisper-cpp", "--model", model_path.to_s, "--tdrz", "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
+  when "whisper-cpp-tdrz"
+    model_path = MODELS_DIR / "ggml-small.en-tdrz.bin"
+    Rake::Task[:model].invoke("small.en-tdrz") unless model_path.exist?
     sh "whisper-cpp", "--model", model_path.to_s, "--tdrz", "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
   when "sous_chef"
     Rake::Task[SOUS_CHEF.to_s].invoke
     sh SOUS_CHEF.to_s, audio_path, transcript_path
   else
-    abort "Unknown transcriber: #{TRANSCRIBER}. Use 'whisperx', 'whisper-cpp', or 'sous_chef'."
+    abort "Unknown transcriber: #{TRANSCRIBER}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', or 'sous_chef'."
   end
 end
 
