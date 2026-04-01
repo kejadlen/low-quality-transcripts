@@ -47,6 +47,7 @@ task default: :sync
 
 desc "Download and transcribe all episodes"
 task :sync do
+  # The feed is reverse-chronological; process oldest episodes first.
   EPISODES.sort_by(&:number).each do |ep|
     transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
     Rake::Task[transcript].invoke
@@ -55,7 +56,7 @@ end
 
 desc "List all episodes from the feed"
 task :episodes do
-  EPISODES.each do |ep|
+  EPISODES.sort_by(&:number).each do |ep|
     status = File.exist?(File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")) ? "✓" : " "
     puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
