@@ -1,22 +1,18 @@
 require "net/http"
 require "pathname"
 require "uri"
+
 require_relative "lib/feed"
 require_relative "lib/download"
-
-TRANSCRIBER = ENV.fetch("TRANSCRIBER", "whisperx")
 
 CACHE_DIR = Pathname("cache")
 AUDIO_DIR = CACHE_DIR / "audio"
 TRANSCRIPTS_DIR = Pathname("transcripts")
-SOUS_CHEF = Pathname("sous_chef/.build/release/sous_chef")
 HRN_FEED = CACHE_DIR / "hrn_feed.xml"
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
-MODELS_DIR = CACHE_DIR / "models"
 
 directory CACHE_DIR.to_s
 directory AUDIO_DIR.to_s
-directory MODELS_DIR.to_s
 
 file HRN_FEED.to_s => CACHE_DIR.to_s do
   puts "Downloading HRN feed..."
@@ -27,24 +23,10 @@ file HRN_FEED.to_s => CACHE_DIR.to_s do
   HRN_FEED.write(response.body)
 end
 
-file SOUS_CHEF.to_s do
-  sh "cd sous_chef && swift build -c release"
-end
+load File.expand_path("transcribers.rake", __dir__)
 
-DOWNLOAD_SCRIPT = CACHE_DIR / "download-ggml-model.sh"
-DOWNLOAD_SCRIPT_URL = "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/models/download-ggml-model.sh"
-
-file DOWNLOAD_SCRIPT.to_s => CACHE_DIR.to_s do
-  puts "Downloading whisper model script..."
-  CookingIssues::Download.fetch(DOWNLOAD_SCRIPT_URL, DOWNLOAD_SCRIPT.to_s)
-  chmod 0o755, DOWNLOAD_SCRIPT.to_s
-end
-
-desc "Download a whisper.cpp GGML model (e.g., rake model[large-v3-turbo])"
-task :model, [:name] => [DOWNLOAD_SCRIPT.to_s, MODELS_DIR.to_s] do |_t, args|
-  abort "Usage: rake model[NAME]" unless args[:name]
-  sh DOWNLOAD_SCRIPT.to_s, args[:name], MODELS_DIR.to_s
-end
+TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "whisperx"))
+TRANSCRIBER.register
 
 Rake::Task[HRN_FEED.to_s].invoke
 
@@ -55,38 +37,11 @@ def audio_path(ep)
 end
 
 def transcript_path(ep)
-  (TRANSCRIPTS_DIR / TRANSCRIBER / "#{ep.slug}.txt").to_s
-end
-
-def transcribe(ep, audio_path, transcript_path)
-  case TRANSCRIBER
-  when "whisperx"
-    hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
-    sh "whisperx", audio_path,
-      "--model", "large-v3",
-      "--compute_type", "int8",
-      "--device", "cpu",
-      "--diarize", "--hf_token", hf_token,
-      "--output_dir", File.dirname(transcript_path),
-      "--output_format", "txt"
-  when "whisper-cpp-large"
-    model_path = MODELS_DIR / "ggml-large-v3-turbo.bin"
-    Rake::Task[:model].invoke("large-v3-turbo") unless model_path.exist?
-    sh "whisper-cli", "--model", model_path.to_s, "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
-  when "whisper-cpp-tdrz"
-    model_path = MODELS_DIR / "ggml-small.en-tdrz.bin"
-    Rake::Task[:model].invoke("small.en-tdrz") unless model_path.exist?
-    sh "whisper-cli", "--model", model_path.to_s, "-tdrz", "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
-  when "sous_chef"
-    Rake::Task[SOUS_CHEF.to_s].invoke
-    sh SOUS_CHEF.to_s, audio_path, transcript_path
-  else
-    abort "Unknown transcriber: #{TRANSCRIBER}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', or 'sous_chef'."
-  end
+  (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.txt").to_s
 end
 
 EPISODES.values.each do |ep|
-  transcript_dir = (TRANSCRIPTS_DIR / TRANSCRIBER).to_s
+  transcript_dir = (TRANSCRIPTS_DIR / TRANSCRIBER.name).to_s
   directory transcript_dir
 
   audio = audio_path(ep)
@@ -97,12 +52,10 @@ EPISODES.values.each do |ep|
     CookingIssues::Download.fetch(ep.audio_url, audio)
   end
 
-  file transcript => [audio, transcript_dir] do
-    transcribe(ep, audio, transcript)
+  file transcript => [audio, transcript_dir, *TRANSCRIBER.prereqs] do
+    TRANSCRIBER.call(audio, transcript)
   end
 end
-
-# --- Tasks ---
 
 task default: :sync
 
