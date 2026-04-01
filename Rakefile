@@ -41,7 +41,7 @@ desc "List all episodes from the feed"
 task episodes: HRN_FEED do
   episodes.sort_by(&:number).each do |ep|
     status = Dir.glob(File.join(TRANSCRIPTS_DIR, "#{ep.slug}.*")).any? ? "✓" : " "
-    puts "[#{status}] #{ep.number}. #{ep.title}"
+    puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
 end
 
