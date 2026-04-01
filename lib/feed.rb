@@ -20,8 +20,8 @@ module CookingIssues
       "cache/audio/#{slug}.mp3"
     end
 
-    def transcript_path
-      audio_path.pathmap("%{^cache/audio/,transcripts/}X.txt")
+    def transcript_path(method)
+      audio_path.pathmap("%{^cache/audio/,transcripts/#{method}/}X.txt")
     end
   end
 
