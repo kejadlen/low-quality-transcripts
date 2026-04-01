@@ -27,7 +27,7 @@ Rake::Task[HRN_FEED].invoke
 
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
 
-EPISODES.each do |ep|
+EPISODES.values do |ep|
   audio = File.join(AUDIO_DIR, "#{ep.slug}.mp3")
   file audio => AUDIO_DIR do
     puts "Downloading #{ep.slug}..."
@@ -47,8 +47,7 @@ task default: :sync
 
 desc "Download and transcribe all episodes"
 task :sync do
-  # The feed is reverse-chronological; process oldest episodes first.
-  EPISODES.sort_by(&:number).each do |ep|
+  EPISODES.values.each do |ep|
     transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
     Rake::Task[transcript].invoke
   end
@@ -56,7 +55,7 @@ end
 
 desc "List all episodes from the feed"
 task :episodes do
-  EPISODES.sort_by(&:number).each do |ep|
+  EPISODES.values.each do |ep|
     status = File.exist?(File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")) ? "✓" : " "
     puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
@@ -66,7 +65,7 @@ desc "Transcribe an episode by number (e.g., rake transcribe[42])"
 task :transcribe, [:number] do |_t, args|
   abort "Usage: rake transcribe[NUMBER]" unless args[:number]
 
-  ep = EPISODES.find { |e| e.number == args[:number].to_i }
+  ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
   transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
@@ -77,7 +76,7 @@ desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
 task :retranscribe, [:number] do |_t, args|
   abort "Usage: rake retranscribe[NUMBER]" unless args[:number]
 
-  ep = EPISODES.find { |e| e.number == args[:number].to_i }
+  ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
   transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")

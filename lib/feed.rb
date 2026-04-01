@@ -20,7 +20,10 @@ module CookingIssues
   module Feed
     def self.parse(path)
       doc = Nokogiri::XML(File.read(path))
-      doc.xpath("//item").map { |item| Episode.parse(item) }
+      doc.xpath("//item")
+        .map { Episode.parse(it) }
+        .sort_by(&:number)
+        .to_h { [it.number, it] }
     end
   end
 end
