@@ -27,7 +27,7 @@ Rake::Task[HRN_FEED].invoke
 
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
 
-EPISODES.values do |ep|
+EPISODES.values.each do |ep|
   audio = File.join(AUDIO_DIR, "#{ep.slug}.mp3")
   file audio => AUDIO_DIR do
     puts "Downloading #{ep.slug}..."
