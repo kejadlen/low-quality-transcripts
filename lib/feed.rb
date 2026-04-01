@@ -3,7 +3,7 @@ require "nokogiri"
 module CookingIssues
   # Parses a podcast RSS feed and returns episode data.
   class Feed
-    Episode = Struct.new(:number, :title, :published_at, :audio_url, keyword_init: true) do
+    Episode = Data.define(:number, :title, :published_at, :audio_url) do
       def slug
         formatted_number = format("%03d", number)
         safe_title = title
