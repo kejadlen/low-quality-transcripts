@@ -5,7 +5,6 @@ require_relative "lib/feed"
 require_relative "lib/download"
 
 TRANSCRIBER = ENV.fetch("TRANSCRIBER", "whisperx")
-WHISPER_MODEL = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
 
 CACHE_DIR = Pathname("cache")
 AUDIO_DIR = CACHE_DIR / "audio"
@@ -41,10 +40,10 @@ file DOWNLOAD_SCRIPT.to_s => CACHE_DIR.to_s do
   chmod 0o755, DOWNLOAD_SCRIPT.to_s
 end
 
-desc "Download a whisper.cpp GGML model (default: large-v3-turbo, override with WHISPER_MODEL)"
+desc "Download a whisper.cpp GGML model (e.g., rake model[large-v3-turbo])"
 task :model, [:name] => [DOWNLOAD_SCRIPT.to_s, MODELS_DIR.to_s] do |_t, args|
-  model = args[:name] || WHISPER_MODEL
-  sh DOWNLOAD_SCRIPT.to_s, model, MODELS_DIR.to_s
+  abort "Usage: rake model[NAME]" unless args[:name]
+  sh DOWNLOAD_SCRIPT.to_s, args[:name], MODELS_DIR.to_s
 end
 
 Rake::Task[HRN_FEED.to_s].invoke
