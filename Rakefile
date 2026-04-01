@@ -67,6 +67,7 @@ task :transcribe, [:number] => HRN_FEED do |_t, args|
   end
 
   FileUtils.mkdir_p(TRANSCRIPTS_DIR)
-  puts "Transcribing #{ep.number}. #{ep.title}..."
-  sh "sous_chef/build/release/sous_chef", audio, transcript
+  puts "TODO: transcribe #{ep.number}. #{ep.title}"
+  puts "  audio: #{audio}"
+  puts "  transcript: #{transcript}"
 end
