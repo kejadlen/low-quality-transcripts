@@ -10,8 +10,9 @@ module Transcribers
     when "whisper-cpp-tdrz" then WhisperCppTdrz.new
     when "sous_chef" then SousChef.new
     when "mlx" then Mlx.new
+    when "mlx-diarize" then MlxDiarize.new
     else
-      abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', 'sous_chef', or 'mlx'."
+      abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', 'sous_chef', 'mlx', or 'mlx-diarize'."
     end
   end
 
@@ -142,6 +143,10 @@ module Transcribers
 
   class SousChef < Base
     BINARY = Pathname("sous_chef/.build/release/sous_chef")
+    # Sous_chef produces word-level segments, so gaps between words are
+    # much shorter than sentence-level transcribers. A higher threshold
+    # avoids splitting mid-sentence.
+    PARAGRAPH_GAP_S = 3
 
     def name = "sous_chef"
     def prereqs = [BINARY.to_s]
@@ -156,17 +161,111 @@ module Transcribers
     def call(audio_path, transcript_path)
       sh BINARY.to_s, audio_path, transcript_path
     end
+
+    def render(json_path, txt_path)
+      segments = JSON.parse(File.read(json_path))
+
+      paragraphs = []
+      current = []
+
+      segments.each_with_index do |seg, i|
+        if i > 0 && seg["start"] && segments[i - 1]["end"]
+          gap = seg["start"] - segments[i - 1]["end"]
+          if gap >= PARAGRAPH_GAP_S
+            paragraphs << flush_paragraph(current)
+            current = []
+          end
+        end
+        current << seg
+      end
+      paragraphs << flush_paragraph(current) unless current.empty?
+
+      File.write(txt_path, paragraphs.join("\n\n"))
+    end
+
+    private
+
+    def flush_paragraph(segments)
+      timestamp = format_time(segments.first["start"])
+      text = segments.map { |s| s["text"].strip }.join(" ")
+      "[#{timestamp}] #{text}"
+    end
+
+    def format_time(seconds)
+      return "?:??" unless seconds
+      total = seconds.to_i
+      h = total / 3600
+      m = (total % 3600) / 60
+      s = total % 60
+      h > 0 ? format("%d:%02d:%02d", h, m, s) : format("%d:%02d", m, s)
+    end
   end
 
   class Mlx < Base
     SCRIPT = Pathname("bin/mlx-transcribe")
+    PARAGRAPH_GAP_S = 0.5
 
     def name = "mlx"
     def register; end
 
     def call(audio_path, transcript_path)
+      sh SCRIPT.to_s, audio_path, transcript_path
+    end
+
+    def render(json_path, txt_path)
+      data = JSON.parse(File.read(json_path))
+      segments = data["segments"]
+
+      paragraphs = []
+      current = []
+
+      segments.each_with_index do |seg, i|
+        if i > 0
+          gap = seg["start"] - segments[i - 1]["end"]
+          if gap >= PARAGRAPH_GAP_S
+            paragraphs << flush_paragraph(current)
+            current = []
+          end
+        end
+        current << seg
+      end
+      paragraphs << flush_paragraph(current) unless current.empty?
+
+      File.write(txt_path, paragraphs.join("\n\n"))
+    end
+
+    private
+
+    def flush_paragraph(segments)
+      timestamp = format_time(segments.first["start"])
+      text = segments.map { |s| s["text"].strip }.join(" ")
+      "[#{timestamp}] #{text}"
+    end
+
+    def format_time(seconds)
+      total = seconds.to_i
+      h = total / 3600
+      m = (total % 3600) / 60
+      s = total % 60
+      h > 0 ? format("%d:%02d:%02d", h, m, s) : format("%d:%02d", m, s)
+    end
+  end
+
+  class MlxDiarize < Mlx
+    def name = "mlx-diarize"
+
+    def call(audio_path, transcript_path)
       hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
-      sh SCRIPT.to_s, audio_path, transcript_path, "--hf-token", hf_token
+      sh SCRIPT.to_s, audio_path, transcript_path, "--diarize", "--hf-token", hf_token
+    end
+
+    private
+
+    def flush_paragraph(segments)
+      timestamp = format_time(segments.first["start"])
+      speaker = segments.first["speaker"]
+      text = segments.map { |s| s["text"].strip }.join(" ")
+      speaker ? "[#{timestamp} | #{speaker}] #{text}" : "[#{timestamp}] #{text}"
     end
   end
 end

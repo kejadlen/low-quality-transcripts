@@ -9,7 +9,7 @@
 # ]
 # ///
 
-"""Transcribe audio with mlx-whisper and diarize with pyannote. Outputs JSON."""
+"""Transcribe audio with mlx-whisper, optionally diarize with pyannote. Outputs JSON."""
 
 import argparse
 import json
@@ -17,7 +17,6 @@ import sys
 from pathlib import Path
 
 import mlx_whisper
-from pyannote.audio import Pipeline
 
 
 def transcribe(audio_path: str, model: str) -> dict:
@@ -33,6 +32,7 @@ def transcribe(audio_path: str, model: str) -> dict:
 def diarize(audio_path: str, hf_token: str):
     """Run pyannote speaker diarization."""
     import torch
+    from pyannote.audio import Pipeline
 
     pipeline = Pipeline.from_pretrained(
         "pyannote/speaker-diarization-3.1",
@@ -75,6 +75,11 @@ def main():
         help="MLX whisper model (default: mlx-community/whisper-large-v3-turbo)",
     )
     parser.add_argument(
+        "--diarize",
+        action="store_true",
+        help="Run pyannote speaker diarization (requires --hf-token)",
+    )
+    parser.add_argument(
         "--hf-token",
         default=None,
         help="Hugging Face token for pyannote (default: $HUGGING_FACE_TOKEN)",
@@ -83,11 +88,6 @@ def main():
 
     import os
 
-    hf_token = args.hf_token or os.environ.get("HUGGING_FACE_TOKEN")
-    if not hf_token:
-        print("Set --hf-token or $HUGGING_FACE_TOKEN for diarization.", file=sys.stderr)
-        sys.exit(1)
-
     audio = args.audio
     if not Path(audio).exists():
         print(f"Audio file not found: {audio}", file=sys.stderr)
@@ -95,13 +95,17 @@ def main():
 
     print(f"Transcribing {audio}...", file=sys.stderr)
     result = transcribe(audio, args.model)
+    segments = result["segments"]
 
-    print("Diarizing...", file=sys.stderr)
-    diarization = diarize(audio, hf_token)
+    if args.diarize:
+        hf_token = args.hf_token or os.environ.get("HUGGING_FACE_TOKEN")
+        if not hf_token:
+            print("Set --hf-token or $HUGGING_FACE_TOKEN for diarization.", file=sys.stderr)
+            sys.exit(1)
+        print("Diarizing...", file=sys.stderr)
+        diarization_result = diarize(audio, hf_token)
+        segments = assign_speakers(segments, diarization_result)
 
-    segments = assign_speakers(result["segments"], diarization)
-
-    # Write the full mlx-whisper result with speaker labels merged in.
     output = {
         "text": result["text"],
         "language": result.get("language"),
