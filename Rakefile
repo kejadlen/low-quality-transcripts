@@ -7,6 +7,7 @@ require_relative "lib/download"
 CACHE_DIR = "cache"
 AUDIO_DIR = "audio"
 TRANSCRIPTS_DIR = "transcripts"
+SOUS_CHEF = "sous_chef/.build/release/sous_chef"
 HRN_FEED = File.join(CACHE_DIR, "hrn_feed.xml")
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
 
@@ -23,6 +24,10 @@ file HRN_FEED => CACHE_DIR do
   File.write(HRN_FEED, response.body)
 end
 
+file SOUS_CHEF do
+  sh "cd sous_chef && swift build -c release"
+end
+
 Rake::Task[HRN_FEED].invoke
 
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
@@ -33,9 +38,8 @@ EPISODES.values.each do |ep|
     CookingIssues::Download.fetch(ep.audio_url, ep.audio_path)
   end
 
-  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR] do
-    puts "Transcribing #{ep.number}. #{ep.title}..."
-    puts "  TODO: sous_chef #{ep.audio_path} #{ep.transcript_path}"
+  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR, SOUS_CHEF] do
+    sh SOUS_CHEF, ep.audio_path, ep.transcript_path
   end
 end
 
