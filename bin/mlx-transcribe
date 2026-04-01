@@ -9,9 +9,10 @@
 # ]
 # ///
 
-"""Transcribe audio with mlx-whisper and diarize with pyannote."""
+"""Transcribe audio with mlx-whisper and diarize with pyannote. Outputs JSON."""
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -29,7 +30,7 @@ def transcribe(audio_path: str, model: str) -> dict:
     )
 
 
-def diarize(audio_path: str, hf_token: str) -> Pipeline:
+def diarize(audio_path: str, hf_token: str):
     """Run pyannote speaker diarization."""
     import torch
 
@@ -64,32 +65,10 @@ def assign_speakers(segments: list[dict], diarization) -> list[dict]:
     return labeled
 
 
-def format_time(seconds: float) -> str:
-    """Format seconds as H:MM:SS or M:SS."""
-    h = int(seconds) // 3600
-    m = (int(seconds) % 3600) // 60
-    s = int(seconds) % 60
-    if h > 0:
-        return f"{h}:{m:02d}:{s:02d}"
-    return f"{m}:{s:02d}"
-
-
-def format_output(segments: list[dict]) -> str:
-    """Format labeled segments as timestamped, speaker-attributed lines."""
-    lines = []
-    for seg in segments:
-        start = format_time(seg["start"])
-        end = format_time(seg["end"])
-        speaker = seg["speaker"]
-        text = seg["text"].strip()
-        lines.append(f"[{start} → {end} | {speaker}] {text}")
-    return "\n".join(lines)
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("audio", help="Path to audio file")
-    parser.add_argument("output", help="Path to write transcript")
+    parser.add_argument("output", help="Path to write JSON transcript")
     parser.add_argument(
         "--model",
         default="mlx-community/whisper-large-v3-turbo",
@@ -121,9 +100,17 @@ def main():
     diarization = diarize(audio, hf_token)
 
     segments = assign_speakers(result["segments"], diarization)
-    text = format_output(segments)
 
-    Path(args.output).write_text(text, encoding="utf-8")
+    # Write the full mlx-whisper result with speaker labels merged in.
+    output = {
+        "text": result["text"],
+        "language": result.get("language"),
+        "segments": segments,
+    }
+    Path(args.output).write_text(
+        json.dumps(output, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     print(f"Done. Wrote {len(segments)} segments to {args.output}.", file=sys.stderr)
 
 

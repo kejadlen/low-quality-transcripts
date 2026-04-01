@@ -37,7 +37,7 @@ def audio_path(ep)
 end
 
 def transcript_path(ep)
-  (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.txt").to_s
+  (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.json").to_s
 end
 
 EPISODES.values.each do |ep|

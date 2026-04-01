@@ -39,15 +39,21 @@ struct SousChef: AsyncParsableCommand {
 
         // Collect results in a separate task.
         let resultsTask = Task {
-            var lines: [String] = []
+            var segments: [Segment] = []
             for try await result in transcriber.results {
                 let text = String(result.text.characters)
-                let timestamp = Self.formatTimestamp(result.text)
-                let line = "[\(timestamp)] \(text)"
-                lines.append(line)
-                log("  \(line)")
+                let timeRange = Self.extractTimeRange(result.text)
+                let alternatives = result.alternatives.map { String($0.characters) }
+                let segment = Segment(
+                    text: text,
+                    start: timeRange?.start,
+                    end: timeRange?.end,
+                    alternatives: alternatives.isEmpty ? nil : alternatives
+                )
+                segments.append(segment)
+                log("  [\(segment.startFormatted)] \(text)")
             }
-            return lines
+            return segments
         }
 
         // Run the analysis.
@@ -61,33 +67,49 @@ struct SousChef: AsyncParsableCommand {
             await analyzer.cancelAndFinishNow()
         }
 
-        let lines = try await resultsTask.value
+        let segments = try await resultsTask.value
 
-        // Write timestamped transcript.
-        let text = lines.joined(separator: "\n")
-        try text.write(to: outputURL, atomically: true, encoding: .utf8)
+        // Write JSON output.
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+        let data = try encoder.encode(segments)
+        try data.write(to: outputURL)
 
-        log("Done. Wrote \(lines.count) segments to \(output).")
+        log("Done. Wrote \(segments.count) segments to \(output).")
     }
 
-    /// Extract the start time from the first audioTimeRange attribute in the result text.
-    private static func formatTimestamp(_ text: AttributedString) -> String {
+    /// Extract the time range from the first audioTimeRange attribute in the result text.
+    private static func extractTimeRange(_ text: AttributedString) -> (start: Double, end: Double)? {
         for run in text.runs {
             if let timeRange = run[AttributeScopes.SpeechAttributes.TimeRangeAttribute.self] {
-                let seconds = CMTimeGetSeconds(timeRange.start)
-                let h = Int(seconds) / 3600
-                let m = (Int(seconds) % 3600) / 60
-                let s = Int(seconds) % 60
-                return h > 0
-                    ? String(format: "%d:%02d:%02d", h, m, s)
-                    : String(format: "%d:%02d", m, s)
+                let start = CMTimeGetSeconds(timeRange.start)
+                let end = CMTimeGetSeconds(timeRange.start + timeRange.duration)
+                return (start, end)
             }
         }
-        return "?:??"
+        return nil
     }
 
     private func log(_ message: String) {
         FileHandle.standardError.write(Data((message + "\n").utf8))
+    }
+}
+
+struct Segment: Encodable {
+    let text: String
+    let start: Double?
+    let end: Double?
+    let alternatives: [String]?
+
+    var startFormatted: String {
+        guard let start else { return "?:??" }
+        let total = Int(start)
+        let h = total / 3600
+        let m = (total % 3600) / 60
+        let s = total % 60
+        return h > 0
+            ? String(format: "%d:%02d:%02d", h, m, s)
+            : String(format: "%d:%02d", m, s)
     }
 }
 

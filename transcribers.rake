@@ -41,7 +41,7 @@ module Transcribers
         "--device", "cpu",
         "--diarize", "--hf_token", hf_token,
         "--output_dir", File.dirname(transcript_path),
-        "--output_format", "txt"
+        "--output_format", "json"
     end
   end
 
@@ -77,8 +77,8 @@ module Transcribers
     def call(audio_path, transcript_path)
       sh "whisper-cli",
         "--model", Transcribers.model_path(MODEL).to_s,
-        "--output-txt",
-        "--output-file", transcript_path.delete_suffix(".txt"),
+        "--output-json",
+        "--output-file", transcript_path.delete_suffix(".json"),
         audio_path
     end
   end
@@ -97,8 +97,8 @@ module Transcribers
       sh "whisper-cli",
         "--model", Transcribers.model_path(MODEL).to_s,
         "-tdrz",
-        "--output-txt",
-        "--output-file", transcript_path.delete_suffix(".txt"),
+        "--output-json",
+        "--output-file", transcript_path.delete_suffix(".json"),
         audio_path
     end
   end
