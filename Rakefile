@@ -7,7 +7,6 @@ require_relative "lib/download"
 CACHE_DIR = Pathname("cache")
 AUDIO_DIR = CACHE_DIR / "audio"
 TRANSCRIPTS_DIR = Pathname("transcripts")
-SOUS_CHEF = Pathname("sous_chef/.build/release/sous_chef")
 HRN_FEED = CACHE_DIR / "hrn_feed.xml"
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
 
@@ -24,10 +23,6 @@ file HRN_FEED.to_s => CACHE_DIR.to_s do
   HRN_FEED.write(response.body)
 end
 
-file SOUS_CHEF.to_s do
-  sh "cd sous_chef && swift build -c release"
-end
-
 Rake::Task[HRN_FEED.to_s].invoke
 
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
@@ -38,8 +33,13 @@ EPISODES.values.each do |ep|
     CookingIssues::Download.fetch(ep.audio_url, ep.audio_path)
   end
 
-  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR.to_s, SOUS_CHEF.to_s] do
-    sh SOUS_CHEF.to_s, ep.audio_path, ep.transcript_path
+  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR.to_s] do
+    hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
+    sh "whisperx", ep.audio_path,
+      "--model", "large-v3",
+      "--diarize", "--hf_token", hf_token,
+      "--output_dir", TRANSCRIPTS_DIR.to_s,
+      "--output_format", "txt"
   end
 end
 
