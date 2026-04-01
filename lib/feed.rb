@@ -3,11 +3,8 @@ require "nokogiri"
 module CookingIssues
   Episode = Data.define(:number, :title, :published_at, :audio_url) do
     def self.parse(item)
-      number = item.at_xpath("itunes:episode")&.text&.to_i
-      return nil unless number && number > 0
-
       new(
-        number: number,
+        number: item.at_xpath("itunes:episode").text.to_i,
         title: item.at_xpath("title").text,
         published_at: item.at_xpath("pubDate").text,
         audio_url: item.at_xpath("enclosure")["url"]
@@ -29,7 +26,7 @@ module CookingIssues
   module Feed
     def self.parse(path)
       doc = Nokogiri::XML(File.read(path))
-      doc.xpath("//item").filter_map { |item| Episode.parse(item) }
+      doc.xpath("//item").map { |item| Episode.parse(item) }
     end
   end
 end
