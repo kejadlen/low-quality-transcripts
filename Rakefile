@@ -28,16 +28,14 @@ Rake::Task[HRN_FEED].invoke
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
 
 EPISODES.values.each do |ep|
-  audio = File.join(AUDIO_DIR, "#{ep.slug}.mp3")
-  file audio => AUDIO_DIR do
+  file ep.audio_path => AUDIO_DIR do
     puts "Downloading #{ep.slug}..."
-    CookingIssues::Download.fetch(ep.audio_url, audio)
+    CookingIssues::Download.fetch(ep.audio_url, ep.audio_path)
   end
 
-  transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
-  file transcript => [audio, TRANSCRIPTS_DIR] do
+  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR] do
     puts "Transcribing #{ep.number}. #{ep.title}..."
-    puts "  TODO: sous_chef #{audio} #{transcript}"
+    puts "  TODO: sous_chef #{ep.audio_path} #{ep.transcript_path}"
   end
 end
 
@@ -47,16 +45,16 @@ task default: :sync
 
 desc "Download and transcribe all episodes"
 task :sync do
-  EPISODES.values.each do |ep|
-    transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
-    Rake::Task[transcript].invoke
+  # The feed is reverse-chronological; process oldest episodes first.
+  EPISODES.values.sort_by(&:number).each do |ep|
+    Rake::Task[ep.transcript_path].invoke
   end
 end
 
 desc "List all episodes from the feed"
 task :episodes do
-  EPISODES.values.each do |ep|
-    status = File.exist?(File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")) ? "✓" : " "
+  EPISODES.values.sort_by(&:number).each do |ep|
+    status = File.exist?(ep.transcript_path) ? "✓" : " "
     puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
 end
@@ -68,8 +66,7 @@ task :transcribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
-  Rake::Task[transcript].invoke
+  Rake::Task[ep.transcript_path].invoke
 end
 
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
@@ -79,8 +76,7 @@ task :retranscribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  transcript = File.join(TRANSCRIPTS_DIR, "#{ep.slug}.json")
-  FileUtils.rm_f(transcript)
-  Rake::Task[transcript].reenable
-  Rake::Task[transcript].invoke
+  FileUtils.rm_f(ep.transcript_path)
+  Rake::Task[ep.transcript_path].reenable
+  Rake::Task[ep.transcript_path].invoke
 end

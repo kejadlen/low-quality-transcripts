@@ -15,6 +15,14 @@ module CookingIssues
       safe_title = title.downcase.gsub(/[^a-z0-9]+/, "-").chomp("-")
       format("%03d-%s", number, safe_title)
     end
+
+    def audio_path
+      "audio/#{slug}.mp3"
+    end
+
+    def transcript_path
+      audio_path.pathmap("%{^audio/,transcripts/}X.json")
+    end
   end
 
   module Feed
