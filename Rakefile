@@ -37,6 +37,8 @@ EPISODES.values.each do |ep|
     hf_token = ENV.fetch("HUGGING_FACE_TOKEN") { abort "Set HUGGING_FACE_TOKEN for diarization." }
     sh "whisperx", ep.audio_path,
       "--model", "large-v3",
+      "--compute_type", "int8",
+      "--device", "cpu",
       "--diarize", "--hf_token", hf_token,
       "--output_dir", TRANSCRIPTS_DIR.to_s,
       "--output_format", "txt"
