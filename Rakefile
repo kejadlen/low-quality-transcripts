@@ -43,11 +43,14 @@ def transcribe(ep, audio_path, transcript_path)
       "--diarize", "--hf_token", hf_token,
       "--output_dir", File.dirname(transcript_path),
       "--output_format", "txt"
+  when "whisper-cpp"
+    model = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
+    sh "whisper-cpp", "--model", model, "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
   when "sous_chef"
     Rake::Task[SOUS_CHEF.to_s].invoke
     sh SOUS_CHEF.to_s, audio_path, transcript_path
   else
-    abort "Unknown transcriber: #{TRANSCRIBER}. Use 'whisperx' or 'sous_chef'."
+    abort "Unknown transcriber: #{TRANSCRIBER}. Use 'whisperx', 'whisper-cpp', or 'sous_chef'."
   end
 end
 
