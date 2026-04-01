@@ -15,14 +15,6 @@ module CookingIssues
       safe_title = title.downcase.gsub(/[^a-z0-9]+/, "-").chomp("-")
       format("%03d-%s", number, safe_title)
     end
-
-    def audio_path
-      "cache/audio/#{slug}.mp3"
-    end
-
-    def transcript_path(method)
-      audio_path.pathmap("%{^cache/audio/,transcripts/#{method}/}X.txt")
-    end
   end
 
   module Feed

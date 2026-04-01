@@ -4,14 +4,15 @@ require "uri"
 require_relative "lib/feed"
 require_relative "lib/download"
 
+TRANSCRIBER = ENV.fetch("TRANSCRIBER", "whisperx")
+WHISPER_MODEL = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
+
 CACHE_DIR = Pathname("cache")
 AUDIO_DIR = CACHE_DIR / "audio"
 TRANSCRIPTS_DIR = Pathname("transcripts")
 SOUS_CHEF = Pathname("sous_chef/.build/release/sous_chef")
 HRN_FEED = CACHE_DIR / "hrn_feed.xml"
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
-TRANSCRIBER = ENV.fetch("TRANSCRIBER", "whisperx")
-WHISPER_MODEL = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
 MODELS_DIR = CACHE_DIR / "models"
 
 directory CACHE_DIR.to_s
@@ -50,6 +51,14 @@ Rake::Task[HRN_FEED.to_s].invoke
 
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
 
+def audio_path(ep)
+  (AUDIO_DIR / "#{ep.slug}.mp3").to_s
+end
+
+def transcript_path(ep)
+  (TRANSCRIPTS_DIR / TRANSCRIBER / "#{ep.slug}.txt").to_s
+end
+
 def transcribe(ep, audio_path, transcript_path)
   case TRANSCRIBER
   when "whisperx"
@@ -81,13 +90,16 @@ EPISODES.values.each do |ep|
   transcript_dir = (TRANSCRIPTS_DIR / TRANSCRIBER).to_s
   directory transcript_dir
 
-  file ep.audio_path => AUDIO_DIR.to_s do
+  audio = audio_path(ep)
+  transcript = transcript_path(ep)
+
+  file audio => AUDIO_DIR.to_s do
     puts "Downloading #{ep.slug}..."
-    CookingIssues::Download.fetch(ep.audio_url, ep.audio_path)
+    CookingIssues::Download.fetch(ep.audio_url, audio)
   end
 
-  file ep.transcript_path(TRANSCRIBER) => [ep.audio_path, transcript_dir] do
-    transcribe(ep, ep.audio_path, ep.transcript_path(TRANSCRIBER))
+  file transcript => [audio, transcript_dir] do
+    transcribe(ep, audio, transcript)
   end
 end
 
@@ -99,14 +111,14 @@ desc "Download and transcribe all episodes"
 task :sync do
   # The feed is reverse-chronological; process oldest episodes first.
   EPISODES.values.sort_by(&:number).each do |ep|
-    Rake::Task[ep.transcript_path(TRANSCRIBER)].invoke
+    Rake::Task[transcript_path(ep)].invoke
   end
 end
 
 desc "List all episodes from the feed"
 task :episodes do
   EPISODES.values.sort_by(&:number).each do |ep|
-    status = Pathname(ep.transcript_path(TRANSCRIBER)).exist? ? "✓" : " "
+    status = Pathname(transcript_path(ep)).exist? ? "✓" : " "
     puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
 end
@@ -118,7 +130,7 @@ task :transcribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  Rake::Task[ep.transcript_path(TRANSCRIBER)].invoke
+  Rake::Task[transcript_path(ep)].invoke
 end
 
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
@@ -128,8 +140,8 @@ task :retranscribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  path = Pathname(ep.transcript_path(TRANSCRIBER))
+  path = Pathname(transcript_path(ep))
   path.delete if path.exist?
-  Rake::Task[ep.transcript_path(TRANSCRIBER)].reenable
-  Rake::Task[ep.transcript_path(TRANSCRIBER)].invoke
+  Rake::Task[transcript_path(ep)].reenable
+  Rake::Task[transcript_path(ep)].invoke
 end
