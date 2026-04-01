@@ -11,9 +11,14 @@ SOUS_CHEF = Pathname("sous_chef/.build/release/sous_chef")
 HRN_FEED = CACHE_DIR / "hrn_feed.xml"
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
 TRANSCRIBER = ENV.fetch("TRANSCRIBER", "whisperx")
+WHISPER_MODEL = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
+MODELS_DIR = CACHE_DIR / "models"
+DOWNLOAD_SCRIPT = CACHE_DIR / "download-ggml-model.sh"
+DOWNLOAD_SCRIPT_URL = "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/models/download-ggml-model.sh"
 
 directory CACHE_DIR.to_s
 directory AUDIO_DIR.to_s
+directory MODELS_DIR.to_s
 
 file HRN_FEED.to_s => CACHE_DIR.to_s do
   puts "Downloading HRN feed..."
@@ -26,6 +31,18 @@ end
 
 file SOUS_CHEF.to_s do
   sh "cd sous_chef && swift build -c release"
+end
+
+file DOWNLOAD_SCRIPT.to_s => CACHE_DIR.to_s do
+  puts "Downloading whisper model script..."
+  CookingIssues::Download.fetch(DOWNLOAD_SCRIPT_URL, DOWNLOAD_SCRIPT.to_s)
+  chmod DOWNLOAD_SCRIPT.to_s, 0o755
+end
+
+desc "Download a whisper.cpp GGML model (default: large-v3-turbo, override with WHISPER_MODEL)"
+task :model, [:name] => [DOWNLOAD_SCRIPT.to_s, MODELS_DIR.to_s] do |_t, args|
+  model = args[:name] || WHISPER_MODEL
+  sh DOWNLOAD_SCRIPT.to_s, model, MODELS_DIR.to_s
 end
 
 Rake::Task[HRN_FEED.to_s].invoke
@@ -44,8 +61,9 @@ def transcribe(ep, audio_path, transcript_path)
       "--output_dir", File.dirname(transcript_path),
       "--output_format", "txt"
   when "whisper-cpp"
-    model = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
-    sh "whisper-cpp", "--model", model, "--tdrz", "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
+    model_path = MODELS_DIR / "ggml-#{WHISPER_MODEL}.bin"
+    Rake::Task[:model].invoke unless model_path.exist?
+    sh "whisper-cpp", "--model", model_path.to_s, "--tdrz", "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
   when "sous_chef"
     Rake::Task[SOUS_CHEF.to_s].invoke
     sh SOUS_CHEF.to_s, audio_path, transcript_path
