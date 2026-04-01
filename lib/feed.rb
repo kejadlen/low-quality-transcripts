@@ -17,11 +17,11 @@ module CookingIssues
     end
 
     def audio_path
-      "audio/#{slug}.mp3"
+      "cache/audio/#{slug}.mp3"
     end
 
     def transcript_path
-      audio_path.pathmap("%{^audio/,transcripts/}X.json")
+      audio_path.pathmap("%{^cache/audio/,transcripts/}X.json")
     end
   end
 

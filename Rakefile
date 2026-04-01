@@ -1,45 +1,45 @@
-require "fileutils"
 require "net/http"
+require "pathname"
 require "uri"
 require_relative "lib/feed"
 require_relative "lib/download"
 
-CACHE_DIR = "cache"
-AUDIO_DIR = "audio"
-TRANSCRIPTS_DIR = "transcripts"
-SOUS_CHEF = "sous_chef/.build/release/sous_chef"
-HRN_FEED = File.join(CACHE_DIR, "hrn_feed.xml")
+CACHE_DIR = Pathname("cache")
+AUDIO_DIR = CACHE_DIR / "audio"
+TRANSCRIPTS_DIR = Pathname("transcripts")
+SOUS_CHEF = Pathname("sous_chef/.build/release/sous_chef")
+HRN_FEED = CACHE_DIR / "hrn_feed.xml"
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
 
-directory CACHE_DIR
-directory AUDIO_DIR
-directory TRANSCRIPTS_DIR
+directory CACHE_DIR.to_s
+directory AUDIO_DIR.to_s
+directory TRANSCRIPTS_DIR.to_s
 
-file HRN_FEED => CACHE_DIR do
+file HRN_FEED.to_s => CACHE_DIR.to_s do
   puts "Downloading HRN feed..."
   uri = URI(HRN_FEED_URL)
   response = Net::HTTP.get_response(uri)
   raise "Feed returned #{response.code}" unless response.is_a?(Net::HTTPSuccess)
 
-  File.write(HRN_FEED, response.body)
+  HRN_FEED.write(response.body)
 end
 
-file SOUS_CHEF do
+file SOUS_CHEF.to_s do
   sh "cd sous_chef && swift build -c release"
 end
 
-Rake::Task[HRN_FEED].invoke
+Rake::Task[HRN_FEED.to_s].invoke
 
 EPISODES = CookingIssues::Feed.parse(HRN_FEED)
 
 EPISODES.values.each do |ep|
-  file ep.audio_path => AUDIO_DIR do
+  file ep.audio_path => AUDIO_DIR.to_s do
     puts "Downloading #{ep.slug}..."
     CookingIssues::Download.fetch(ep.audio_url, ep.audio_path)
   end
 
-  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR, SOUS_CHEF] do
-    sh SOUS_CHEF, ep.audio_path, ep.transcript_path
+  file ep.transcript_path => [ep.audio_path, TRANSCRIPTS_DIR.to_s, SOUS_CHEF.to_s] do
+    sh SOUS_CHEF.to_s, ep.audio_path, ep.transcript_path
   end
 end
 
@@ -58,7 +58,7 @@ end
 desc "List all episodes from the feed"
 task :episodes do
   EPISODES.values.sort_by(&:number).each do |ep|
-    status = File.exist?(ep.transcript_path) ? "✓" : " "
+    status = Pathname(ep.transcript_path).exist? ? "✓" : " "
     puts "[#{status}] #{ep.slug}  #{ep.title}"
   end
 end
@@ -80,7 +80,7 @@ task :retranscribe, [:number] do |_t, args|
   ep = EPISODES[args[:number].to_i]
   abort "Episode #{args[:number]} not found in feed." unless ep
 
-  FileUtils.rm_f(ep.transcript_path)
+  Pathname(ep.transcript_path).delete if Pathname(ep.transcript_path).exist?
   Rake::Task[ep.transcript_path].reenable
   Rake::Task[ep.transcript_path].invoke
 end
