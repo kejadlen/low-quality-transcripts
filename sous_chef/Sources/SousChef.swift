@@ -20,7 +20,7 @@ struct SousChef: AsyncParsableCommand {
         let outputURL = URL(fileURLWithPath: output)
 
         // Set up the transcriber.
-        guard let locale = SpeechTranscriber.supportedLocale(equivalentTo: Locale(identifier: "en-US")) else {
+        guard let locale = await SpeechTranscriber.supportedLocale(equivalentTo: Locale(identifier: "en-US")) else {
             throw TranscriptionError.unsupportedLocale
         }
         let transcriber = SpeechTranscriber(locale: locale, preset: .timeIndexedTranscriptionWithAlternatives)
