@@ -45,7 +45,7 @@ def transcribe(ep, audio_path, transcript_path)
       "--output_format", "txt"
   when "whisper-cpp"
     model = ENV.fetch("WHISPER_MODEL", "large-v3-turbo")
-    sh "whisper-cpp", "--model", model, "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
+    sh "whisper-cpp", "--model", model, "--tdrz", "--output-txt", "--output-file", transcript_path.delete_suffix(".txt"), audio_path
   when "sous_chef"
     Rake::Task[SOUS_CHEF.to_s].invoke
     sh SOUS_CHEF.to_s, audio_path, transcript_path
