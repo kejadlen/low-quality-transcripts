@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    nio4r (2.7.5)
     nokogiri (1.19.2-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.19.2-aarch64-linux-musl)
@@ -17,6 +18,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.2-x86_64-linux-musl)
       racc (~> 1.4)
+    puma (7.2.0)
+      nio4r (~> 2.0)
     racc (1.8.1)
     rake (13.3.1)
 
@@ -32,7 +35,8 @@ PLATFORMS
 
 DEPENDENCIES
   nokogiri
+  puma
   rake
 
 BUNDLED WITH
-   4.0.9
+  4.0.9

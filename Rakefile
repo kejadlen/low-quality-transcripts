@@ -123,8 +123,6 @@ task :retranscribe, [:number] do |_t, args|
   Rake::Task[et.text_path].invoke
 end
 
-PAGES_DIR = Pathname("pages")
-
 desc "Generate HTML transcript pages"
 task :pages do
   require "cgi"
@@ -145,15 +143,39 @@ task :pages do
       }
     end
 
-  PAGES_DIR.mkpath
+  CONFIG.pages_dir.mkpath
 
   transcripts.each do |ep|
     html = episode_template.result(binding)
-    (PAGES_DIR / "#{ep[:slug]}.html").write(html)
+    (CONFIG.pages_dir / "#{ep[:slug]}.html").write(html)
   end
 
   html = index_template.result(binding)
-  (PAGES_DIR / "index.html").write(html)
+  (CONFIG.pages_dir / "index.html").write(html)
 
   puts "Generated #{transcripts.length} episode pages + index."
+
+  sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+end
+
+desc "Serve the generated pages locally"
+task serve: :pages do
+  require "puma"
+  require "puma/configuration"
+  require "puma/launcher"
+  require "rack/files"
+
+  files = Rack::Files.new(CONFIG.pages_dir.to_s)
+  app = ->(env) do
+    env["PATH_INFO"] = "/index.html" if env["PATH_INFO"] == "/"
+    files.call(env)
+  end
+  config = Puma::Configuration.new do |c|
+    c.port 8000
+    c.app app
+    c.log_requests
+  end
+
+  puts "Serving #{CONFIG.pages_dir} at http://localhost:8000"
+  Puma::Launcher.new(config).run
 end

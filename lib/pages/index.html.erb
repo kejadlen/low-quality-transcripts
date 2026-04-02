@@ -4,10 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cooking Issues Transcripts</title>
+<link href="pagefind/pagefind-ui.css" rel="stylesheet">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: system-ui, sans-serif; line-height: 1.6; color: #222; max-width: 50rem; margin: 0 auto; padding: 1rem; }
   h1 { margin-bottom: 1rem; }
+  #search { margin-bottom: 1.5rem; }
   ul { list-style: none; }
   li { padding: 0.4rem 0; border-bottom: 1px solid #eee; }
   a { color: #0066cc; text-decoration: none; }
@@ -17,6 +19,9 @@
 <body>
 
 <h1>Cooking Issues Transcripts</h1>
+
+<div id="search"></div>
+
 <p><%= transcripts.length %> episodes</p>
 
 <ul>
@@ -24,6 +29,13 @@
   <li><a href="<%= ep[:slug] %>.html"><%= CGI.escapeHTML("#{ep[:number]}. #{ep[:title]}") %></a></li>
 <% end %>
 </ul>
+
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>
 
 </body>
 </html>
