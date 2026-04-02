@@ -114,18 +114,6 @@ task :transcribe, [:number] do |_t, args|
   Rake::Task[text_path(i, ep)].invoke
 end
 
-desc "Move intermediate files from transcripts/ to cache/"
-task :migrate_cache do
-  EPISODES.each_with_index do |ep, i|
-    old_path = TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{episode_slug(i, ep)}.json"
-    new_path = Pathname(transcript_path(i, ep))
-    next unless old_path.exist?
-
-    new_path.dirname.mkpath
-    FileUtils.mv(old_path.to_s, new_path.to_s)
-    puts "Moved #{old_path} → #{new_path}"
-  end
-end
 
 load File.expand_path("lib/tasks/site.rake", __dir__)
 
