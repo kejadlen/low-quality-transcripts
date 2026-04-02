@@ -68,6 +68,9 @@ end
 # --- Per-episode file tasks ---
 
 EPISODE_TASKS.each do |et|
+  # Text files are committed but audio and transcripts are not.
+  # Skip the download/transcribe/render chain in CI so the HTML
+  # task doesn't try to rebuild the entire pipeline.
   unless ENV["CI"]
     file et.audio_path => CONFIG.audio_dir.to_s do
       puts "Downloading #{et.slug}..."
