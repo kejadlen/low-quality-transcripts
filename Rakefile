@@ -9,8 +9,12 @@ require_relative "lib/download"
 CACHE_DIR = Pathname("cache")
 AUDIO_DIR = CACHE_DIR / "audio"
 TRANSCRIPTS_DIR = Pathname("transcripts")
+
 HRN_FEED = CACHE_DIR / "hrn_feed.xml"
 HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
+
+PATREON_FEED = CACHE_DIR / "patreon_feed.xml"
+PATREON_FEED_URL = ENV.fetch("PATREON_FEED_URL")
 
 directory CACHE_DIR.to_s
 directory AUDIO_DIR.to_s
@@ -24,14 +28,20 @@ file HRN_FEED.to_s => CACHE_DIR.to_s do
   HRN_FEED.write(response.body)
 end
 
+file PATREON_FEED.to_s => CACHE_DIR.to_s do
+  puts "Downloading Patreon feed..."
+  CookingIssues::Download.fetch(PATREON_FEED_URL, PATREON_FEED.to_s)
+end
+
 load File.expand_path("lib/tasks/transcribers.rake", __dir__)
 
 TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "sous_chef"))
 TRANSCRIBER.register
 
 Rake::Task[HRN_FEED.to_s].invoke
+Rake::Task[PATREON_FEED.to_s].invoke
 
-EPISODES = CookingIssues::Feed.parse(HRN_FEED)
+EPISODES = CookingIssues::Feed.parse(HRN_FEED) + CookingIssues::Feed.parse(PATREON_FEED)
 
 def episode_slug(index, ep)
   format("%03d-%s", index + 1, ep.slug)
