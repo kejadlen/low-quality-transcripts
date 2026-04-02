@@ -156,14 +156,17 @@ task :pages do
 
   puts "Generated #{transcripts.length} episode pages + index."
 
-  sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
-
   # TODO: Uncomment when DNS is ready for custom domain.
   # (CONFIG.pages_dir / "CNAME").write("low-quality-transcripts.kejadlen.dev")
 end
 
+desc "Index pages for search with Pagefind"
+task pagefind: :pages do
+  sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+end
+
 desc "Serve the generated pages locally"
-task serve: :pages do
+task serve: :pagefind do
   require "puma"
   require "puma/configuration"
   require "puma/launcher"
