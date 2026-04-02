@@ -161,10 +161,13 @@ file INDEX_HTML_PATH => EPISODE_HTML_PATHS do
   File.write(INDEX_HTML_PATH, html)
 
   puts "Generated #{transcripts.length} episode pages + index."
-
-  # TODO: Uncomment when DNS is ready for custom domain.
-  # (CONFIG.pages_dir / "CNAME").write("low-quality-transcripts.kejadlen.dev")
 end
+
+# TODO: Uncomment when DNS is ready for custom domain.
+# CNAME_PATH = (CONFIG.pages_dir / "CNAME").to_s
+# file CNAME_PATH => CONFIG.pages_dir.to_s do
+#   File.write(CNAME_PATH, "low-quality-transcripts.kejadlen.dev")
+# end
 
 ALL_HTML_PATHS = EPISODE_HTML_PATHS + [INDEX_HTML_PATH]
 
