@@ -81,6 +81,21 @@ EPISODE_TASKS.each do |et|
   file et.text_path => [et.transcript_path, CONFIG.text_dir.to_s] do
     CONFIG.transcriber.render(et.transcript_path, et.text_path)
   end
+
+  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s] do
+    require "cgi"
+    require "erb"
+
+    template = ERB.new(File.read(File.expand_path("lib/pages/episode.html.erb", __dir__)))
+    ep = {
+      number: et.number,
+      title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
+      slug: et.slug,
+      audio_url: et.episode.audio_url,
+      text: File.read(et.text_path)
+    }
+    File.write(et.html_path, template.result_with_hash(ep:))
+  end
 end
 
 # --- Tasks ---
@@ -123,35 +138,25 @@ task :retranscribe, [:number] do |_t, args|
   Rake::Task[et.text_path].invoke
 end
 
+directory CONFIG.pages_dir.to_s
+
+EPISODE_HTML_TASKS = EPISODE_TASKS.select { |et| Pathname(et.text_path).exist? }
+
 desc "Generate HTML transcript pages"
-task :pages do
+task pages: EPISODE_HTML_TASKS.map(&:html_path) do
   require "cgi"
   require "erb"
 
-  templates_dir = File.expand_path("lib/pages", __dir__)
-  index_template = ERB.new(File.read("#{templates_dir}/index.html.erb"))
-  episode_template = ERB.new(File.read("#{templates_dir}/episode.html.erb"))
-
-  transcripts = EPISODE_TASKS
-    .select { |et| Pathname(et.text_path).exist? }
-    .map do |et|
-      {
-        number: et.number,
-        title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
-        slug: et.slug,
-        audio_url: et.episode.audio_url,
-        text: File.read(et.text_path)
-      }
-    end
-
-  CONFIG.pages_dir.mkpath
-
-  transcripts.each do |ep|
-    html = episode_template.result_with_hash(ep:)
-    (CONFIG.pages_dir / "#{ep[:slug]}.html").write(html)
+  template = ERB.new(File.read(File.expand_path("lib/pages/index.html.erb", __dir__)))
+  transcripts = EPISODE_HTML_TASKS.map do |et|
+    {
+      number: et.number,
+      title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
+      slug: et.slug,
+    }
   end
 
-  html = index_template.result_with_hash(transcripts:)
+  html = template.result_with_hash(transcripts:)
   (CONFIG.pages_dir / "index.html").write(html)
 
   puts "Generated #{transcripts.length} episode pages + index."
@@ -162,7 +167,16 @@ end
 
 desc "Index pages for search with Pagefind"
 task pagefind: :pages do
+  stamp = CONFIG.pages_dir / ".pagefind-stamp"
+  html_files = FileList["#{CONFIG.pages_dir}/*.html"]
+
+  if stamp.exist?
+    stamp_mtime = stamp.mtime
+    next if html_files.all? { |f| File.mtime(f) <= stamp_mtime }
+  end
+
   sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+  FileUtils.touch(stamp.to_s)
 end
 
 desc "Serve the generated pages locally"
