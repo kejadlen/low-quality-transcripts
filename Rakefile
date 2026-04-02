@@ -137,7 +137,7 @@ task :pages do
     .map do |et|
       {
         number: et.number,
-        title: et.episode.title,
+        title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
         slug: et.slug,
         text: File.read(et.text_path)
       }
@@ -146,11 +146,11 @@ task :pages do
   CONFIG.pages_dir.mkpath
 
   transcripts.each do |ep|
-    html = episode_template.result(binding)
+    html = episode_template.result_with_hash(ep:)
     (CONFIG.pages_dir / "#{ep[:slug]}.html").write(html)
   end
 
-  html = index_template.result(binding)
+  html = index_template.result_with_hash(transcripts:)
   (CONFIG.pages_dir / "index.html").write(html)
 
   puts "Generated #{transcripts.length} episode pages + index."
