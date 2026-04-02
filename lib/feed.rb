@@ -1,10 +1,9 @@
 require "nokogiri"
 
 module CookingIssues
-  Episode = Data.define(:number, :title, :published_at, :audio_url) do
+  Episode = Data.define(:title, :published_at, :audio_url) do
     def self.parse(item)
       new(
-        number: item.at_xpath("itunes:episode").text.to_i,
         title: item.at_xpath("title").text,
         published_at: item.at_xpath("pubDate").text,
         audio_url: item.at_xpath("enclosure")["url"]
@@ -12,8 +11,7 @@ module CookingIssues
     end
 
     def slug
-      safe_title = title.downcase.gsub(/[^a-z0-9]+/, "-").chomp("-")
-      format("%03d-%s", number, safe_title)
+      title.downcase.gsub(/[^a-z0-9]+/, "-").chomp("-")
     end
   end
 
@@ -22,8 +20,7 @@ module CookingIssues
       doc = Nokogiri::XML(File.read(path))
       doc.xpath("//item")
         .map { Episode.parse(it) }
-        .sort_by(&:number)
-        .to_h { [it.number, it] }
+        .reverse
     end
   end
 end

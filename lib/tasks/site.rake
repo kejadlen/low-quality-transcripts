@@ -5,18 +5,20 @@ SITE_DIR = Pathname("site")
 
 desc "Generate an HTML page of transcripts"
 task :site do
-  episodes = EPISODES.values.sort_by(&:number).select { |ep| Pathname(text_path(ep)).exist? }
+  transcripts = []
+  EPISODES.each_with_index do |ep, i|
+    txt = Pathname(text_path(i, ep))
+    next unless txt.exist?
 
-  transcripts = episodes.map do |ep|
-    {
-      number: ep.number,
+    transcripts << {
+      number: i + 1,
       title: ep.title,
-      slug: ep.slug,
-      text: File.read(text_path(ep))
+      slug: episode_slug(i, ep),
+      text: txt.read
     }
   end
 
-  template = File.read(File.expand_path("lib/site.html.erb", __dir__))
+  template = File.read(File.expand_path("../../site.html.erb", __FILE__))
   html = ERB.new(template).result(binding)
 
   SITE_DIR.mkpath
