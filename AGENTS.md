@@ -67,6 +67,5 @@ model paths. Others use no constructor arguments.
 | `rake episodes` | List episodes with transcription status |
 | `rake transcribe[N]` | Transcribe a single episode by number |
 | `rake retranscribe[N]` | Re-transcribe from scratch |
-| `rake html` | Generate HTML transcript pages |
-| `rake pagefind` | Index pages for search with Pagefind |
+| `rake html` | Generate HTML transcript pages and search index |
 | `rake serve` | Build and serve the site locally on port 8000 |

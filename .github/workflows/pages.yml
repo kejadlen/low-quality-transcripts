@@ -30,7 +30,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Generate pages
-        run: bundle exec rake pagefind
+        run: bundle exec rake html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
