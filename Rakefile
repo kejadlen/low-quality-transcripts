@@ -15,7 +15,12 @@ CONFIG.transcriber.register
 
 # --- Feed downloads ---
 
-[CONFIG.cache_dir, CONFIG.audio_dir, CONFIG.transcriber_cache_dir, CONFIG.text_dir].each do |dir|
+[
+  CONFIG.cache_dir,
+  CONFIG.audio_dir,
+  CONFIG.transcriber_cache_dir,
+  CONFIG.text_dir,
+].each do |dir|
   directory dir.to_s
 end
 
@@ -28,13 +33,31 @@ file CONFIG.hrn_feed_path.to_s => CONFIG.cache_dir.to_s do
   CONFIG.hrn_feed_path.write(response.body)
 end
 
-file CONFIG.acast_feed_path.to_s => CONFIG.cache_dir.to_s do
-  puts "Downloading Acast feed..."
-  CookingIssues::Download.fetch(CONFIG.acast_feed_url, CONFIG.acast_feed_path.to_s)
+task :fetch_acast_feed => CONFIG.cache_dir.to_s do
+  uri = URI(CONFIG.acast_feed_url)
+  request = Net::HTTP::Get.new(uri)
+  request["If-None-Match"] = CONFIG.acast_etag_path.read.strip if CONFIG.acast_etag_path.exist?
+
+  Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+    http.request(request) do |response|
+      case response
+      when Net::HTTPNotModified
+        puts "Acast feed unchanged."
+      when Net::HTTPSuccess
+        File.open(CONFIG.acast_feed_path.to_s, "wb") do |f|
+          response.read_body { |chunk| f.write(chunk) }
+        end
+        CONFIG.acast_etag_path.write(response["etag"]) if response["etag"]
+        puts "Acast feed updated."
+      else
+        raise "Acast feed returned #{response.code}"
+      end
+    end
+  end
 end
 
 Rake::Task[CONFIG.hrn_feed_path.to_s].invoke
-Rake::Task[CONFIG.acast_feed_path.to_s].invoke
+Rake::Task[:fetch_acast_feed].invoke
 
 episodes = CookingIssues::Feed.parse(CONFIG.hrn_feed_path) +
            CookingIssues::Feed.parse(CONFIG.acast_feed_path)

@@ -9,6 +9,7 @@ module CookingIssues
     :hrn_feed_url,
     :acast_feed_path,
     :acast_feed_url,
+    :acast_etag_path,
     :transcriber,
     :transcriber_cache_dir,
     :text_dir
@@ -25,6 +26,7 @@ module CookingIssues
         hrn_feed_url: "https://rss.art19.com/cooking-issues",
         acast_feed_path: cache_dir / "acast_feed.xml",
         acast_feed_url: "https://feeds.acast.com/public/shows/cooking-issues-with-dave-arnold",
+        acast_etag_path: cache_dir / "acast_feed.etag",
         transcriber: transcriber,
         transcriber_cache_dir: cache_dir / transcriber.name,
         text_dir: Pathname("transcripts") / transcriber.name
