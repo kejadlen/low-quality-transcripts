@@ -26,13 +26,13 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Generate site
-        run: bundle exec rake site
+      - name: Generate pages
+        run: bundle exec rake pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: pages
 
   deploy:
     needs: build

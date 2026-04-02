@@ -123,4 +123,28 @@ task :retranscribe, [:number] do |_t, args|
   Rake::Task[et.text_path].invoke
 end
 
-load File.expand_path("lib/tasks/site.rake", __dir__)
+PAGES_DIR = Pathname("pages")
+
+desc "Generate an HTML page of transcripts"
+task :pages do
+  require "cgi"
+  require "erb"
+
+  transcripts = EPISODE_TASKS
+    .select { |et| Pathname(et.text_path).exist? }
+    .map do |et|
+      {
+        number: et.number,
+        title: et.episode.title,
+        slug: et.slug,
+        text: File.read(et.text_path)
+      }
+    end
+
+  template = File.read(File.expand_path("lib/pages.html.erb", __dir__))
+  html = ERB.new(template).result(binding)
+
+  PAGES_DIR.mkpath
+  (PAGES_DIR / "index.html").write(html)
+  puts "Generated pages/index.html with #{transcripts.length} episodes."
+end
