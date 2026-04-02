@@ -4,6 +4,7 @@ require "pathname"
 require "uri"
 
 require_relative "lib/config"
+require_relative "lib/episode_task"
 require_relative "lib/feed"
 require_relative "lib/download"
 
@@ -11,24 +12,6 @@ load File.expand_path("lib/tasks/transcribers.rake", __dir__)
 
 CONFIG = CookingIssues::Config.from_env(Transcribers)
 CONFIG.transcriber.register
-
-# --- Path helpers ---
-
-def episode_slug(index, ep)
-  format("%03d-%s", index + 1, ep.slug)
-end
-
-def audio_path(index, ep)
-  (CONFIG.audio_dir / "#{episode_slug(index, ep)}.mp3").to_s
-end
-
-def transcript_path(index, ep)
-  (CONFIG.transcriber_cache_dir / "#{episode_slug(index, ep)}.json").to_s
-end
-
-def text_path(index, ep)
-  (CONFIG.text_dir / "#{episode_slug(index, ep)}.txt").to_s
-end
 
 # --- Feed downloads ---
 
@@ -53,27 +36,27 @@ end
 Rake::Task[CONFIG.hrn_feed_path.to_s].invoke
 Rake::Task[CONFIG.patreon_feed_path.to_s].invoke
 
-EPISODES = CookingIssues::Feed.parse(CONFIG.hrn_feed_path) +
+episodes = CookingIssues::Feed.parse(CONFIG.hrn_feed_path) +
            CookingIssues::Feed.parse(CONFIG.patreon_feed_path)
+
+EPISODE_TASKS = episodes.map.with_index do |ep, i|
+  CookingIssues::EpisodeTask.new(index: i, episode: ep, config: CONFIG)
+end
 
 # --- Per-episode file tasks ---
 
-EPISODES.each_with_index do |ep, i|
-  audio = audio_path(i, ep)
-  transcript = transcript_path(i, ep)
-  txt = text_path(i, ep)
-
-  file audio => CONFIG.audio_dir.to_s do
-    puts "Downloading #{episode_slug(i, ep)}..."
-    CookingIssues::Download.fetch(ep.audio_url, audio)
+EPISODE_TASKS.each do |et|
+  file et.audio_path => CONFIG.audio_dir.to_s do
+    puts "Downloading #{et.slug}..."
+    CookingIssues::Download.fetch(et.episode.audio_url, et.audio_path)
   end
 
-  file transcript => [audio, CONFIG.transcriber_cache_dir.to_s, *CONFIG.transcriber.prereqs] do
-    CONFIG.transcriber.call(audio, transcript)
+  file et.transcript_path => [et.audio_path, CONFIG.transcriber_cache_dir.to_s, *CONFIG.transcriber.prereqs] do
+    CONFIG.transcriber.call(et.audio_path, et.transcript_path)
   end
 
-  file txt => [transcript, CONFIG.text_dir.to_s] do
-    CONFIG.transcriber.render(transcript, txt)
+  file et.text_path => [et.transcript_path, CONFIG.text_dir.to_s] do
+    CONFIG.transcriber.render(et.transcript_path, et.text_path)
   end
 end
 
@@ -83,16 +66,14 @@ task default: :sync
 
 desc "Download, transcribe, and render all episodes"
 task :sync do
-  EPISODES.each_with_index do |ep, i|
-    Rake::Task[text_path(i, ep)].invoke
-  end
+  EPISODE_TASKS.each { |et| Rake::Task[et.text_path].invoke }
 end
 
 desc "List all episodes from the feed"
 task :episodes do
-  EPISODES.each_with_index do |ep, i|
-    status = Pathname(text_path(i, ep)).exist? ? "✓" : " "
-    puts "[#{status}] #{episode_slug(i, ep)}  #{ep.title}"
+  EPISODE_TASKS.each do |et|
+    status = Pathname(et.text_path).exist? ? "✓" : " "
+    puts "[#{status}] #{et.slug}  #{et.episode.title}"
   end
 end
 
@@ -100,26 +81,23 @@ desc "Transcribe an episode by number (e.g., rake transcribe[42])"
 task :transcribe, [:number] do |_t, args|
   abort "Usage: rake transcribe[NUMBER]" unless args[:number]
 
-  i = args[:number].to_i - 1
-  ep = EPISODES.fetch(i) { abort "Episode #{args[:number]} not found in feed." }
+  et = EPISODE_TASKS.fetch(args[:number].to_i - 1) { abort "Episode #{args[:number]} not found in feed." }
 
-  Rake::Task[text_path(i, ep)].invoke
+  Rake::Task[et.text_path].invoke
 end
 
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
 task :retranscribe, [:number] do |_t, args|
   abort "Usage: rake retranscribe[NUMBER]" unless args[:number]
 
-  i = args[:number].to_i - 1
-  ep = EPISODES.fetch(i) { abort "Episode #{args[:number]} not found in feed." }
+  et = EPISODE_TASKS.fetch(args[:number].to_i - 1) { abort "Episode #{args[:number]} not found in feed." }
 
-  json = Pathname(transcript_path(i, ep))
-  txt = Pathname(text_path(i, ep))
-  json.delete if json.exist?
-  txt.delete if txt.exist?
-  Rake::Task[text_path(i, ep)].reenable
-  Rake::Task[transcript_path(i, ep)].reenable
-  Rake::Task[text_path(i, ep)].invoke
+  [et.transcript_path, et.text_path].each do |path|
+    p = Pathname(path)
+    p.delete if p.exist?
+    Rake::Task[path].reenable
+  end
+  Rake::Task[et.text_path].invoke
 end
 
 load File.expand_path("lib/tasks/site.rake", __dir__)
