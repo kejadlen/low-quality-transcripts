@@ -17,6 +17,7 @@
   h6.timestamp + p { margin-top: 0; }
   :target { background: #fff3a8; }
   [data-pagefind-highlight] { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
+  footer { margin-top: 2rem; color: #888; font-size: 0.85rem; }
   .player { position: sticky; bottom: 0; background: #f8f8f8; border-top: 1px solid #ddd; padding: 0.5rem 0; margin: 0 -1rem; padding-left: 1rem; padding-right: 1rem; }
   .player-note { font-size: 0.8rem; color: #888; margin-bottom: 0.25rem; }
   .player audio { width: 100%; }
@@ -37,6 +38,10 @@
     <p><%= CGI.escapeHTML(para) %></p>
   <% end %>
 <% end %>
+
+<footer>
+  <p>Source on <a href="https://git.kejadlen.dev/alpha/low-quality-transcripts">git.kejadlen.dev</a>. PRs welcome on <a href="https://github.com/kejadlen/low-quality-transcripts">GitHub</a>.</p>
+</footer>
 
 <div class="player">
   <p class="player-note">Timestamps may be off due to dynamic ad insertion.</p>
