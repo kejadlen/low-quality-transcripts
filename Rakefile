@@ -24,9 +24,9 @@ file HRN_FEED.to_s => CACHE_DIR.to_s do
   HRN_FEED.write(response.body)
 end
 
-load File.expand_path("transcribers.rake", __dir__)
+load File.expand_path("lib/tasks/transcribers.rake", __dir__)
 
-TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "whisper-cpp-large"))
+TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "sous_chef"))
 TRANSCRIBER.register
 
 Rake::Task[HRN_FEED.to_s].invoke
@@ -37,18 +37,23 @@ def audio_path(ep)
   (AUDIO_DIR / "#{ep.slug}.mp3").to_s
 end
 
+TRANSCRIBER_CACHE_DIR = CACHE_DIR / TRANSCRIBER.name
+
+directory TRANSCRIBER_CACHE_DIR.to_s
+
 def transcript_path(ep)
-  (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.json").to_s
+  (TRANSCRIBER_CACHE_DIR / "#{ep.slug}.json").to_s
 end
 
 def text_path(ep)
   (TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.txt").to_s
 end
 
-EPISODES.values.each do |ep|
-  transcript_dir = (TRANSCRIPTS_DIR / TRANSCRIBER.name).to_s
-  directory transcript_dir
+TEXT_DIR = TRANSCRIPTS_DIR / TRANSCRIBER.name
 
+directory TEXT_DIR.to_s
+
+EPISODES.values.each do |ep|
   audio = audio_path(ep)
   transcript = transcript_path(ep)
 
@@ -57,13 +62,13 @@ EPISODES.values.each do |ep|
     CookingIssues::Download.fetch(ep.audio_url, audio)
   end
 
-  file transcript => [audio, transcript_dir, *TRANSCRIBER.prereqs] do
+  file transcript => [audio, TRANSCRIBER_CACHE_DIR.to_s, *TRANSCRIBER.prereqs] do
     TRANSCRIBER.call(audio, transcript)
   end
 
   txt = text_path(ep)
 
-  file txt => transcript do
+  file txt => [transcript, TEXT_DIR.to_s] do
     TRANSCRIBER.render(transcript, txt)
   end
 end
@@ -95,6 +100,21 @@ task :transcribe, [:number] do |_t, args|
 
   Rake::Task[text_path(ep)].invoke
 end
+
+desc "Move intermediate files from transcripts/ to cache/"
+task :migrate_cache do
+  EPISODES.values.each do |ep|
+    old_path = TRANSCRIPTS_DIR / TRANSCRIBER.name / "#{ep.slug}.json"
+    new_path = Pathname(transcript_path(ep))
+    next unless old_path.exist?
+
+    new_path.dirname.mkpath
+    FileUtils.mv(old_path.to_s, new_path.to_s)
+    puts "Moved #{old_path} → #{new_path}"
+  end
+end
+
+load File.expand_path("lib/tasks/site.rake", __dir__)
 
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
 task :retranscribe, [:number] do |_t, args|
