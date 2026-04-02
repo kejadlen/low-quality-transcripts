@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cooking Issues Transcripts</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; line-height: 1.6; color: #222; max-width: 50rem; margin: 0 auto; padding: 1rem; }
+  h1 { margin-bottom: 1rem; }
+  ul { list-style: none; }
+  li { padding: 0.4rem 0; border-bottom: 1px solid #eee; }
+  a { color: #0066cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<h1>Cooking Issues Transcripts</h1>
+<p><%= transcripts.length %> episodes</p>
+
+<ul>
+<% transcripts.each do |ep| %>
+  <li><a href="<%= ep[:slug] %>.html"><%= CGI.escapeHTML("#{ep[:number]}. #{ep[:title]}") %></a></li>
+<% end %>
+</ul>
+
+</body>
+</html>

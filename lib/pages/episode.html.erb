@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= CGI.escapeHTML("#{ep[:number]}. #{ep[:title]}") %> — Cooking Issues</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; line-height: 1.6; color: #222; max-width: 50rem; margin: 0 auto; padding: 1rem; }
+  h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+  .back { display: inline-block; margin-bottom: 1rem; color: #0066cc; text-decoration: none; }
+  .back:hover { text-decoration: underline; }
+  p { margin-bottom: 1em; }
+  .timestamp { color: #888; font-size: 0.85rem; font-family: monospace; }
+</style>
+</head>
+<body>
+
+<a class="back" href="index.html">← All episodes</a>
+<h1><%= CGI.escapeHTML("#{ep[:number]}. #{ep[:title]}") %></h1>
+
+<% ep[:text].split("\n\n").each do |para| %>
+  <% if para =~ /\A\[([^\]]+)\]\s*(.*)/ %>
+    <p><span class="timestamp">[<%= CGI.escapeHTML($1) %>]</span> <%= CGI.escapeHTML($2) %></p>
+  <% else %>
+    <p><%= CGI.escapeHTML(para) %></p>
+  <% end %>
+<% end %>
+
+</body>
+</html>

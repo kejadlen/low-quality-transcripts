@@ -125,10 +125,14 @@ end
 
 PAGES_DIR = Pathname("pages")
 
-desc "Generate an HTML page of transcripts"
+desc "Generate HTML transcript pages"
 task :pages do
   require "cgi"
   require "erb"
+
+  templates_dir = File.expand_path("lib/pages", __dir__)
+  index_template = ERB.new(File.read("#{templates_dir}/index.html.erb"))
+  episode_template = ERB.new(File.read("#{templates_dir}/episode.html.erb"))
 
   transcripts = EPISODE_TASKS
     .select { |et| Pathname(et.text_path).exist? }
@@ -141,10 +145,15 @@ task :pages do
       }
     end
 
-  template = File.read(File.expand_path("lib/pages.html.erb", __dir__))
-  html = ERB.new(template).result(binding)
-
   PAGES_DIR.mkpath
+
+  transcripts.each do |ep|
+    html = episode_template.result(binding)
+    (PAGES_DIR / "#{ep[:slug]}.html").write(html)
+  end
+
+  html = index_template.result(binding)
   (PAGES_DIR / "index.html").write(html)
-  puts "Generated pages/index.html with #{transcripts.length} episodes."
+
+  puts "Generated #{transcripts.length} episode pages + index."
 end
