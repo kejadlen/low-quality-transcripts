@@ -65,6 +65,9 @@ EPISODE_TASKS = episodes.map.with_index do |ep, i|
   CookingIssues::EpisodeTask.new(index: i, episode: ep, config: CONFIG)
 end
 
+EPISODE_TEMPLATE_PATH = File.expand_path("lib/pages/episode.html.erb", __dir__)
+INDEX_TEMPLATE_PATH = File.expand_path("lib/pages/index.html.erb", __dir__)
+
 # --- Per-episode file tasks ---
 
 EPISODE_TASKS.each do |et|
@@ -86,11 +89,11 @@ EPISODE_TASKS.each do |et|
     end
   end
 
-  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s] do
+  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s, EPISODE_TEMPLATE_PATH] do
     require "cgi"
     require "erb"
 
-    template = ERB.new(File.read(File.expand_path("lib/pages/episode.html.erb", __dir__)))
+    template = ERB.new(File.read(EPISODE_TEMPLATE_PATH))
     ep = {
       number: et.number,
       title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
@@ -148,11 +151,11 @@ EPISODE_HTML_TASKS = EPISODE_TASKS.select { |et| Pathname(et.text_path).exist? }
 EPISODE_HTML_PATHS = EPISODE_HTML_TASKS.map(&:html_path)
 INDEX_HTML_PATH = (CONFIG.pages_dir / "index.html").to_s
 
-file INDEX_HTML_PATH => EPISODE_HTML_PATHS do
+file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, INDEX_TEMPLATE_PATH] do
   require "cgi"
   require "erb"
 
-  template = ERB.new(File.read(File.expand_path("lib/pages/index.html.erb", __dir__)))
+  template = ERB.new(File.read(INDEX_TEMPLATE_PATH))
   transcripts = EPISODE_HTML_TASKS.map do |et|
     {
       number: et.number,
