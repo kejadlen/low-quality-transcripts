@@ -14,6 +14,7 @@
   li { padding: 0.4rem 0; border-bottom: 1px solid #eee; }
   a { color: #0066cc; text-decoration: none; }
   a:hover { text-decoration: underline; }
+  footer { margin-top: 2rem; color: #888; font-size: 0.85rem; }
 </style>
 </head>
 <body>
@@ -29,6 +30,10 @@
   <li><a href="<%= ep[:slug] %>.html"><%= CGI.escapeHTML("#{ep[:number]}. #{ep[:title]}") %></a></li>
 <% end %>
 </ul>
+
+<footer>
+  <p>Source on <a href="https://git.kejadlen.dev/alpha/low-quality-transcripts">git.kejadlen.dev</a>. PRs welcome on <a href="https://github.com/kejadlen/low-quality-transcripts">GitHub</a>.</p>
+</footer>
 
 <script src="./pagefind/pagefind-ui.js"></script>
 <script>
