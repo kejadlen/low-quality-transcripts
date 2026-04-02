@@ -81,7 +81,11 @@ EPISODE_TASKS.each do |et|
     CONFIG.transcriber.render(et.transcript_path, et.text_path)
   end
 
-  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s] do
+  # Skip the text file's task chain — in CI the text files are
+  # committed but audio and transcripts aren't present.
+  file et.html_path => [CONFIG.pages_dir.to_s] do |t|
+    next if File.exist?(t.name) && File.mtime(t.name) >= File.mtime(et.text_path)
+
     require "cgi"
     require "erb"
 
