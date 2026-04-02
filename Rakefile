@@ -139,6 +139,7 @@ task :pages do
         number: et.number,
         title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
         slug: et.slug,
+        audio_url: et.episode.audio_url,
         text: File.read(et.text_path)
       }
     end
