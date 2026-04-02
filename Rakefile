@@ -174,9 +174,14 @@ ALL_HTML_PATHS = EPISODE_HTML_PATHS + [INDEX_HTML_PATH]
 desc "Generate HTML transcript pages"
 task html: ALL_HTML_PATHS
 
+PAGEFIND_STAMP = (CONFIG.pages_dir / ".pagefind-stamp").to_s
+
 desc "Index pages for search with Pagefind"
-task pagefind: ALL_HTML_PATHS do
+task pagefind: PAGEFIND_STAMP
+
+file PAGEFIND_STAMP => ALL_HTML_PATHS do
   sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+  FileUtils.touch(PAGEFIND_STAMP)
 end
 
 desc "Serve the generated pages locally"
