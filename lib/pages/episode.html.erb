@@ -18,6 +18,7 @@
   :target { background: #fff3a8; }
   [data-pagefind-highlight] { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
   .player { position: sticky; bottom: 0; background: #f8f8f8; border-top: 1px solid #ddd; padding: 0.5rem 0; margin: 0 -1rem; padding-left: 1rem; padding-right: 1rem; }
+  .player-note { font-size: 0.8rem; color: #888; margin-bottom: 0.25rem; }
   .player audio { width: 100%; }
 </style>
 </head>
@@ -38,6 +39,7 @@
 <% end %>
 
 <div class="player">
+  <p class="player-note">Timestamps may be off due to dynamic ad insertion.</p>
   <audio id="audio" controls preload="none" src="<%= CGI.escapeHTML(ep[:audio_url]) %>"></audio>
 </div>
 
