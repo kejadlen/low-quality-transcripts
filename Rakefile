@@ -156,6 +156,8 @@ task :pages do
   puts "Generated #{transcripts.length} episode pages + index."
 
   sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+
+  (CONFIG.pages_dir / "CNAME").write("low-quality-transcripts.kejadlen.dev")
 end
 
 desc "Serve the generated pages locally"
