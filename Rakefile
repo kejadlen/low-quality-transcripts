@@ -157,7 +157,8 @@ task :pages do
 
   sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
 
-  (CONFIG.pages_dir / "CNAME").write("low-quality-transcripts.kejadlen.dev")
+  # TODO: Uncomment when DNS is ready for custom domain.
+  # (CONFIG.pages_dir / "CNAME").write("low-quality-transcripts.kejadlen.dev")
 end
 
 desc "Serve the generated pages locally"
