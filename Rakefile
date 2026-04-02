@@ -141,9 +141,10 @@ end
 directory CONFIG.pages_dir.to_s
 
 EPISODE_HTML_TASKS = EPISODE_TASKS.select { |et| Pathname(et.text_path).exist? }
+EPISODE_HTML_PATHS = EPISODE_HTML_TASKS.map(&:html_path)
+INDEX_HTML_PATH = (CONFIG.pages_dir / "index.html").to_s
 
-desc "Generate HTML transcript pages"
-task pages: EPISODE_HTML_TASKS.map(&:html_path) do
+file INDEX_HTML_PATH => EPISODE_HTML_PATHS do
   require "cgi"
   require "erb"
 
@@ -157,7 +158,7 @@ task pages: EPISODE_HTML_TASKS.map(&:html_path) do
   end
 
   html = template.result_with_hash(transcripts:)
-  (CONFIG.pages_dir / "index.html").write(html)
+  File.write(INDEX_HTML_PATH, html)
 
   puts "Generated #{transcripts.length} episode pages + index."
 
@@ -165,18 +166,14 @@ task pages: EPISODE_HTML_TASKS.map(&:html_path) do
   # (CONFIG.pages_dir / "CNAME").write("low-quality-transcripts.kejadlen.dev")
 end
 
+ALL_HTML_PATHS = EPISODE_HTML_PATHS + [INDEX_HTML_PATH]
+
+desc "Generate HTML transcript pages"
+task pages: ALL_HTML_PATHS
+
 desc "Index pages for search with Pagefind"
-task pagefind: :pages do
-  stamp = CONFIG.pages_dir / ".pagefind-stamp"
-  html_files = FileList["#{CONFIG.pages_dir}/*.html"]
-
-  if stamp.exist?
-    stamp_mtime = stamp.mtime
-    next if html_files.all? { |f| File.mtime(f) <= stamp_mtime }
-  end
-
+task pagefind: ALL_HTML_PATHS do
   sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
-  FileUtils.touch(stamp.to_s)
 end
 
 desc "Serve the generated pages locally"
