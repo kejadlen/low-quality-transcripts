@@ -172,7 +172,7 @@ end
 ALL_HTML_PATHS = EPISODE_HTML_PATHS + [INDEX_HTML_PATH]
 
 desc "Generate HTML transcript pages"
-task pages: ALL_HTML_PATHS
+task html: ALL_HTML_PATHS
 
 desc "Index pages for search with Pagefind"
 task pagefind: ALL_HTML_PATHS do
