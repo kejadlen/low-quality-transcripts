@@ -166,7 +166,7 @@ task serve: :pages do
   require "puma"
   require "puma/configuration"
   require "puma/launcher"
-  require "rack/files"
+  require "rack"
 
   files = Rack::Files.new(CONFIG.pages_dir.to_s)
   app = ->(env) do

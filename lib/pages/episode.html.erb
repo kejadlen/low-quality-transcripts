@@ -11,7 +11,8 @@
   .back { display: inline-block; margin-bottom: 1rem; color: #0066cc; text-decoration: none; }
   .back:hover { text-decoration: underline; }
   p { margin-bottom: 1em; }
-  .timestamp { color: #888; font-size: 0.85rem; font-family: monospace; }
+  h6.timestamp { color: #888; font-size: 0.85rem; font-family: monospace; font-weight: normal; margin-bottom: 0.25em; }
+  h6.timestamp + p { margin-top: 0; }
   :target { background: #fff3a8; }
   [data-pagefind-highlight] { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
 </style>
@@ -22,9 +23,10 @@
 <h1><%= CGI.escapeHTML("#{ep[:number]}. #{ep[:title]}") %></h1>
 
 <% ep[:text].split("\n\n").each_with_index do |para, i| %>
-  <% if para =~ /\A\[([^\]]+)\]\s*(.*)/ %>
-    <% anchor = $1.gsub(/[^0-9:]/, "").gsub(":", "-") %>
-    <p id="t-<%= anchor %>"><span class="timestamp">[<%= CGI.escapeHTML($1) %>]</span> <%= CGI.escapeHTML($2) %></p>
+  <% if (m = para.match(/\A\[([^\]]+)\]\s*(.*)/)) %>
+    <% anchor = m[1].gsub(/[^0-9:]/, "").gsub(":", "-") %>
+    <h6 id="t-<%= anchor %>" class="timestamp">[<%= CGI.escapeHTML(m[1]) %>]</h6>
+    <p><%= CGI.escapeHTML(m[2]) %></p>
   <% else %>
     <p><%= CGI.escapeHTML(para) %></p>
   <% end %>

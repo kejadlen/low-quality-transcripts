@@ -17,7 +17,7 @@ module CookingIssues
   ) do
     def self.from_env(transcribers)
       cache_dir = Pathname("cache")
-      transcriber = transcribers.resolve(ENV.fetch("TRANSCRIBER", "sous_chef"), cache_dir: cache_dir)
+      transcriber = transcribers.resolve(ENV.fetch("TRANSCRIBER", "parakeet"), cache_dir: cache_dir)
 
       new(
         cache_dir: cache_dir,
