@@ -8,7 +8,7 @@ require_relative "lib/episode_task"
 require_relative "lib/feed"
 require_relative "lib/download"
 
-load File.expand_path("lib/tasks/transcribers.rake", __dir__)
+require_relative "lib/transcribers"
 
 CONFIG = CookingIssues::Config.from_env(Transcribers)
 CONFIG.transcriber.register
@@ -28,16 +28,16 @@ file CONFIG.hrn_feed_path.to_s => CONFIG.cache_dir.to_s do
   CONFIG.hrn_feed_path.write(response.body)
 end
 
-file CONFIG.patreon_feed_path.to_s => CONFIG.cache_dir.to_s do
-  puts "Downloading Patreon feed..."
-  CookingIssues::Download.fetch(CONFIG.patreon_feed_url, CONFIG.patreon_feed_path.to_s)
+file CONFIG.acast_feed_path.to_s => CONFIG.cache_dir.to_s do
+  puts "Downloading Acast feed..."
+  CookingIssues::Download.fetch(CONFIG.acast_feed_url, CONFIG.acast_feed_path.to_s)
 end
 
 Rake::Task[CONFIG.hrn_feed_path.to_s].invoke
-Rake::Task[CONFIG.patreon_feed_path.to_s].invoke
+Rake::Task[CONFIG.acast_feed_path.to_s].invoke
 
 episodes = CookingIssues::Feed.parse(CONFIG.hrn_feed_path) +
-           CookingIssues::Feed.parse(CONFIG.patreon_feed_path)
+           CookingIssues::Feed.parse(CONFIG.acast_feed_path)
 
 EPISODE_TASKS = episodes.map.with_index do |ep, i|
   CookingIssues::EpisodeTask.new(index: i, episode: ep, config: CONFIG)

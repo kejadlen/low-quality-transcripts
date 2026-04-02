@@ -1,13 +1,11 @@
 module Transcribers
-  MODELS_DIR = CACHE_DIR / "models"
-  DOWNLOAD_SCRIPT = CACHE_DIR / "download-ggml-model.sh"
   DOWNLOAD_SCRIPT_URL = "https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/models/download-ggml-model.sh"
 
-  def self.resolve(name)
+  def self.resolve(name, cache_dir:)
     case name
     when "whisperx" then Whisperx.new
-    when "whisper-cpp-large" then WhisperCppLarge.new
-    when "whisper-cpp-tdrz" then WhisperCppTdrz.new
+    when "whisper-cpp-large" then WhisperCppLarge.new(cache_dir)
+    when "whisper-cpp-tdrz" then WhisperCppTdrz.new(cache_dir)
     when "sous_chef" then SousChef.new
     when "mlx" then Mlx.new
     when "mlx-diarize" then MlxDiarize.new
@@ -15,10 +13,6 @@ module Transcribers
     else
       abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', 'sous_chef', 'mlx', 'mlx-diarize', or 'parakeet'."
     end
-  end
-
-  def self.model_path(name)
-    MODELS_DIR / "ggml-#{name}.bin"
   end
 
   class Base
@@ -55,6 +49,12 @@ module Transcribers
     # Milliseconds of silence between segments that triggers a paragraph break.
     PARAGRAPH_GAP_MS = 500
 
+    def initialize(cache_dir)
+      @models_dir = cache_dir / "models"
+      @download_script = cache_dir / "download-ggml-model.sh"
+      @cache_dir = cache_dir
+    end
+
     def render(json_path, txt_path)
       data = JSON.parse(File.read(json_path))
       segments = data["transcription"]
@@ -79,6 +79,10 @@ module Transcribers
 
     private
 
+    def model_path(name)
+      @models_dir / "ggml-#{name}.bin"
+    end
+
     def flush_paragraph(segments)
       timestamp = segments.first["timestamps"]["from"].sub(/^00:/, "")
       text = segments.map { |s| s["text"].strip }.join(" ")
@@ -86,18 +90,18 @@ module Transcribers
     end
 
     def register_model(name)
-      models_dir = MODELS_DIR
-      script = DOWNLOAD_SCRIPT
+      models_dir = @models_dir
+      script = @download_script
 
       directory models_dir.to_s
 
-      file script.to_s => CACHE_DIR.to_s do
+      file script.to_s => @cache_dir.to_s do
         puts "Downloading whisper model script..."
         CookingIssues::Download.fetch(DOWNLOAD_SCRIPT_URL, script.to_s)
         script.chmod(0o755)
       end
 
-      file Transcribers.model_path(name).to_s => [script.to_s, models_dir.to_s] do
+      file model_path(name).to_s => [script.to_s, models_dir.to_s] do
         sh script.to_s, name, models_dir.to_s
       end
     end
@@ -107,7 +111,7 @@ module Transcribers
     MODEL = "large-v3-turbo"
 
     def name = "whisper-cpp-large"
-    def prereqs = [Transcribers.model_path(MODEL).to_s]
+    def prereqs = [model_path(MODEL).to_s]
 
     def register
       register_model(MODEL)
@@ -115,7 +119,7 @@ module Transcribers
 
     def call(audio_path, transcript_path)
       sh "whisper-cli",
-        "--model", Transcribers.model_path(MODEL).to_s,
+        "--model", model_path(MODEL).to_s,
         "--output-json",
         "--output-file", transcript_path.delete_suffix(".json"),
         audio_path
@@ -126,7 +130,7 @@ module Transcribers
     MODEL = "small.en-tdrz"
 
     def name = "whisper-cpp-tdrz"
-    def prereqs = [Transcribers.model_path(MODEL).to_s]
+    def prereqs = [model_path(MODEL).to_s]
 
     def register
       register_model(MODEL)
@@ -134,7 +138,7 @@ module Transcribers
 
     def call(audio_path, transcript_path)
       sh "whisper-cli",
-        "--model", Transcribers.model_path(MODEL).to_s,
+        "--model", model_path(MODEL).to_s,
         "-tdrz",
         "--output-json",
         "--output-file", transcript_path.delete_suffix(".json"),
