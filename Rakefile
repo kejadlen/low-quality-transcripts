@@ -68,24 +68,22 @@ end
 # --- Per-episode file tasks ---
 
 EPISODE_TASKS.each do |et|
-  file et.audio_path => CONFIG.audio_dir.to_s do
-    puts "Downloading #{et.slug}..."
-    CookingIssues::Download.fetch(et.episode.audio_url, et.audio_path)
+  unless ENV["CI"]
+    file et.audio_path => CONFIG.audio_dir.to_s do
+      puts "Downloading #{et.slug}..."
+      CookingIssues::Download.fetch(et.episode.audio_url, et.audio_path)
+    end
+
+    file et.transcript_path => [et.audio_path, CONFIG.transcriber_cache_dir.to_s, *CONFIG.transcriber.prereqs] do
+      CONFIG.transcriber.call(et.audio_path, et.transcript_path)
+    end
+
+    file et.text_path => [et.transcript_path, CONFIG.text_dir.to_s] do
+      CONFIG.transcriber.render(et.transcript_path, et.text_path)
+    end
   end
 
-  file et.transcript_path => [et.audio_path, CONFIG.transcriber_cache_dir.to_s, *CONFIG.transcriber.prereqs] do
-    CONFIG.transcriber.call(et.audio_path, et.transcript_path)
-  end
-
-  file et.text_path => [et.transcript_path, CONFIG.text_dir.to_s] do
-    CONFIG.transcriber.render(et.transcript_path, et.text_path)
-  end
-
-  # Skip the text file's task chain — in CI the text files are
-  # committed but audio and transcripts aren't present.
-  file et.html_path => [CONFIG.pages_dir.to_s] do |t|
-    next if File.exist?(t.name) && File.mtime(t.name) >= File.mtime(et.text_path)
-
+  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s] do
     require "cgi"
     require "erb"
 
