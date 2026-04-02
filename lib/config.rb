@@ -1,5 +1,7 @@
 require "pathname"
 
+require_relative "transcribers"
+
 module CookingIssues
   Config = Data.define(
     :cache_dir,
@@ -15,9 +17,9 @@ module CookingIssues
     :transcriber_cache_dir,
     :text_dir
   ) do
-    def self.from_env(transcribers)
+    def self.from_env(transcriber_key:)
       cache_dir = Pathname("cache")
-      transcriber = transcribers.resolve(ENV.fetch("TRANSCRIBER", "parakeet"), cache_dir: cache_dir)
+      transcriber = Transcribers.resolve(transcriber_key, cache_dir: cache_dir)
 
       new(
         cache_dir: cache_dir,

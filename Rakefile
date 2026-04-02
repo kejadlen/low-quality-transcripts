@@ -8,9 +8,8 @@ require_relative "lib/episode_task"
 require_relative "lib/feed"
 require_relative "lib/download"
 
-require_relative "lib/transcribers"
-
-CONFIG = CookingIssues::Config.from_env(Transcribers)
+transcriber_key = ENV.fetch("TRANSCRIBER", "parakeet")
+CONFIG = CookingIssues::Config.from_env(transcriber_key:)
 CONFIG.transcriber.register
 
 # --- Feed downloads ---
