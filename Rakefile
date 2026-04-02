@@ -3,28 +3,14 @@ require "net/http"
 require "pathname"
 require "uri"
 
+require_relative "lib/config"
 require_relative "lib/feed"
 require_relative "lib/download"
 
-# --- Configuration ---
-
-CACHE_DIR = Pathname("cache")
-AUDIO_DIR = CACHE_DIR / "audio"
-TRANSCRIPTS_DIR = Pathname("transcripts")
-
-HRN_FEED = CACHE_DIR / "hrn_feed.xml"
-HRN_FEED_URL = "https://rss.art19.com/cooking-issues"
-
-PATREON_FEED = CACHE_DIR / "patreon_feed.xml"
-PATREON_FEED_URL = ENV.fetch("PATREON_FEED_URL")
-
 load File.expand_path("lib/tasks/transcribers.rake", __dir__)
 
-TRANSCRIBER = Transcribers.resolve(ENV.fetch("TRANSCRIBER", "sous_chef"))
-TRANSCRIBER.register
-
-TRANSCRIBER_CACHE_DIR = CACHE_DIR / TRANSCRIBER.name
-TEXT_DIR = TRANSCRIPTS_DIR / TRANSCRIBER.name
+CONFIG = CookingIssues::Config.from_env(Transcribers)
+CONFIG.transcriber.register
 
 # --- Path helpers ---
 
@@ -33,42 +19,42 @@ def episode_slug(index, ep)
 end
 
 def audio_path(index, ep)
-  (AUDIO_DIR / "#{episode_slug(index, ep)}.mp3").to_s
+  (CONFIG.audio_dir / "#{episode_slug(index, ep)}.mp3").to_s
 end
 
 def transcript_path(index, ep)
-  (TRANSCRIBER_CACHE_DIR / "#{episode_slug(index, ep)}.json").to_s
+  (CONFIG.transcriber_cache_dir / "#{episode_slug(index, ep)}.json").to_s
 end
 
 def text_path(index, ep)
-  (TEXT_DIR / "#{episode_slug(index, ep)}.txt").to_s
+  (CONFIG.text_dir / "#{episode_slug(index, ep)}.txt").to_s
 end
 
 # --- Feed downloads ---
 
-directory CACHE_DIR.to_s
-directory AUDIO_DIR.to_s
-directory TRANSCRIBER_CACHE_DIR.to_s
-directory TEXT_DIR.to_s
+[CONFIG.cache_dir, CONFIG.audio_dir, CONFIG.transcriber_cache_dir, CONFIG.text_dir].each do |dir|
+  directory dir.to_s
+end
 
-file HRN_FEED.to_s => CACHE_DIR.to_s do
+file CONFIG.hrn_feed_path.to_s => CONFIG.cache_dir.to_s do
   puts "Downloading HRN feed..."
-  uri = URI(HRN_FEED_URL)
+  uri = URI(CONFIG.hrn_feed_url)
   response = Net::HTTP.get_response(uri)
   raise "Feed returned #{response.code}" unless response.is_a?(Net::HTTPSuccess)
 
-  HRN_FEED.write(response.body)
+  CONFIG.hrn_feed_path.write(response.body)
 end
 
-file PATREON_FEED.to_s => CACHE_DIR.to_s do
+file CONFIG.patreon_feed_path.to_s => CONFIG.cache_dir.to_s do
   puts "Downloading Patreon feed..."
-  CookingIssues::Download.fetch(PATREON_FEED_URL, PATREON_FEED.to_s)
+  CookingIssues::Download.fetch(CONFIG.patreon_feed_url, CONFIG.patreon_feed_path.to_s)
 end
 
-Rake::Task[HRN_FEED.to_s].invoke
-Rake::Task[PATREON_FEED.to_s].invoke
+Rake::Task[CONFIG.hrn_feed_path.to_s].invoke
+Rake::Task[CONFIG.patreon_feed_path.to_s].invoke
 
-EPISODES = CookingIssues::Feed.parse(HRN_FEED) + CookingIssues::Feed.parse(PATREON_FEED)
+EPISODES = CookingIssues::Feed.parse(CONFIG.hrn_feed_path) +
+           CookingIssues::Feed.parse(CONFIG.patreon_feed_path)
 
 # --- Per-episode file tasks ---
 
@@ -77,17 +63,17 @@ EPISODES.each_with_index do |ep, i|
   transcript = transcript_path(i, ep)
   txt = text_path(i, ep)
 
-  file audio => AUDIO_DIR.to_s do
+  file audio => CONFIG.audio_dir.to_s do
     puts "Downloading #{episode_slug(i, ep)}..."
     CookingIssues::Download.fetch(ep.audio_url, audio)
   end
 
-  file transcript => [audio, TRANSCRIBER_CACHE_DIR.to_s, *TRANSCRIBER.prereqs] do
-    TRANSCRIBER.call(audio, transcript)
+  file transcript => [audio, CONFIG.transcriber_cache_dir.to_s, *CONFIG.transcriber.prereqs] do
+    CONFIG.transcriber.call(audio, transcript)
   end
 
-  file txt => [transcript, TEXT_DIR.to_s] do
-    TRANSCRIBER.render(transcript, txt)
+  file txt => [transcript, CONFIG.text_dir.to_s] do
+    CONFIG.transcriber.render(transcript, txt)
   end
 end
 
