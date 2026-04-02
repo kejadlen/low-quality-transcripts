@@ -13,7 +13,7 @@
   p { margin-bottom: 1em; }
   .timestamp { color: #888; font-size: 0.85rem; font-family: monospace; }
   :target { background: #fff3a8; }
-  mark { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
+  [data-pagefind-highlight] { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
 </style>
 </head>
 <body>
@@ -30,34 +30,9 @@
   <% end %>
 <% end %>
 
-<script>
-// Highlight search terms from the pagefind query parameter.
-const params = new URLSearchParams(window.location.search);
-const query = params.get("q");
-if (query) {
-  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-  const nodes = [];
-  while (walker.nextNode()) nodes.push(walker.currentNode);
-
-  nodes.forEach(node => {
-    if (node.parentElement.closest("h1, .back, script, style")) return;
-    let html = node.textContent;
-    let replaced = false;
-    terms.forEach(term => {
-      const regex = new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi");
-      if (regex.test(html)) {
-        html = html.replace(regex, "<mark>$1</mark>");
-        replaced = true;
-      }
-    });
-    if (replaced) {
-      const span = document.createElement("span");
-      span.innerHTML = html;
-      node.parentNode.replaceChild(span, node);
-    }
-  });
-}
+<script type="module">
+  await import("./pagefind/pagefind-highlight.js");
+  new PagefindHighlight({ highlightParam: "highlight" });
 </script>
 
 </body>
