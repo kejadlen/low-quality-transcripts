@@ -1,0 +1,65 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "parakeet-mlx",
+# ]
+# ///
+
+"""Transcribe audio with parakeet-mlx. Outputs JSON."""
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from parakeet_mlx import from_pretrained
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("audio", help="Path to audio file")
+    parser.add_argument("output", help="Path to write JSON transcript")
+    parser.add_argument(
+        "--model",
+        default="mlx-community/parakeet-tdt-0.6b-v3",
+        help="Parakeet model (default: mlx-community/parakeet-tdt-0.6b-v3)",
+    )
+    args = parser.parse_args()
+
+    audio = args.audio
+    if not Path(audio).exists():
+        print(f"Audio file not found: {audio}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"Loading model {args.model}...", file=sys.stderr)
+    model = from_pretrained(args.model)
+
+    print(f"Transcribing {audio}...", file=sys.stderr)
+    result = model.transcribe(audio, chunk_duration=120.0, overlap_duration=15.0)
+
+    output = {
+        "text": result.text,
+        "sentences": [
+            {
+                "text": s.text,
+                "start": s.start,
+                "end": s.end,
+                "tokens": [
+                    {"text": t.text, "start": t.start, "end": t.end}
+                    for t in s.tokens
+                ],
+            }
+            for s in result.sentences
+        ],
+    }
+
+    Path(args.output).write_text(
+        json.dumps(output, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"Done. Wrote {len(result.sentences)} sentences to {args.output}.", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

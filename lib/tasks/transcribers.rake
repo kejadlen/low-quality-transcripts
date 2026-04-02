@@ -11,8 +11,9 @@ module Transcribers
     when "sous_chef" then SousChef.new
     when "mlx" then Mlx.new
     when "mlx-diarize" then MlxDiarize.new
+    when "parakeet" then Parakeet.new
     else
-      abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', 'sous_chef', 'mlx', or 'mlx-diarize'."
+      abort "Unknown transcriber: #{name}. Use 'whisperx', 'whisper-cpp-large', 'whisper-cpp-tdrz', 'sous_chef', 'mlx', 'mlx-diarize', or 'parakeet'."
     end
   end
 
@@ -266,6 +267,45 @@ module Transcribers
       speaker = segments.first["speaker"]
       text = segments.map { |s| s["text"].strip }.join(" ")
       speaker ? "[#{timestamp} | #{speaker}] #{text}" : "[#{timestamp}] #{text}"
+    end
+  end
+
+  class Parakeet < Base
+    SCRIPT = Pathname("bin/parakeet-transcribe")
+    # Chunking overlap produces negative gaps between sentences, so
+    # gap-based splitting doesn't work. Group by sentence count instead.
+    SENTENCES_PER_PARAGRAPH = 5
+
+    def name = "parakeet"
+    def register; end
+
+    def call(audio_path, transcript_path)
+      sh SCRIPT.to_s, audio_path, transcript_path
+    end
+
+    def render(json_path, txt_path)
+      data = JSON.parse(File.read(json_path))
+      paragraphs = data["sentences"].each_slice(SENTENCES_PER_PARAGRAPH).map do |group|
+        flush_paragraph(group)
+      end
+
+      File.write(txt_path, paragraphs.join("\n\n"))
+    end
+
+    private
+
+    def flush_paragraph(sentences)
+      timestamp = format_time(sentences.first["start"])
+      text = sentences.map { |s| s["text"].strip }.join(" ")
+      "[#{timestamp}] #{text}"
+    end
+
+    def format_time(seconds)
+      total = seconds.to_i
+      h = total / 3600
+      m = (total % 3600) / 60
+      s = total % 60
+      h > 0 ? format("%d:%02d:%02d", h, m, s) : format("%d:%02d", m, s)
     end
   end
 end
