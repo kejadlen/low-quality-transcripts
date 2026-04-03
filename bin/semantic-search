@@ -158,9 +158,8 @@ def search_cmd(args):
         SELECT p.episode, p.timestamp, p.text, v.distance
         FROM vec_paragraphs v
         JOIN paragraphs p ON p.id = v.id
-        WHERE v.embedding MATCH ?
+        WHERE v.embedding MATCH ? AND k = ?
         ORDER BY v.distance
-        LIMIT ?
         """,
         (serialize_f32(query_embedding.tolist()), args.limit),
     ).fetchall()
