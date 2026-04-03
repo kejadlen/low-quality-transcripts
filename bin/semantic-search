@@ -94,6 +94,7 @@ def index_cmd(args):
 
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     db = sqlite3.connect(DB_PATH)
+    db.enable_load_extension(True)
     sqlite_vec.load(db)
     init_db(db)
     init_vec_table(db, dim)
@@ -147,6 +148,7 @@ def search_cmd(args):
     model = SentenceTransformer(MODEL_NAME)
 
     db = sqlite3.connect(DB_PATH)
+    db.enable_load_extension(True)
     sqlite_vec.load(db)
 
     query_embedding = model.encode([args.query])[0]
