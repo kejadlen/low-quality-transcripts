@@ -1,3 +1,5 @@
+require "cgi"
+require "erb"
 require "json"
 require "net/http"
 require "pathname"
@@ -65,8 +67,21 @@ EPISODE_TASKS = episodes.map.with_index do |ep, i|
   CookingIssues::EpisodeTask.new(index: i, episode: ep, config: CONFIG)
 end
 
+LAYOUT_TEMPLATE_PATH = File.expand_path("lib/pages/layout.html.erb", __dir__)
 EPISODE_TEMPLATE_PATH = File.expand_path("lib/pages/episode.html.erb", __dir__)
 INDEX_TEMPLATE_PATH = File.expand_path("lib/pages/index.html.erb", __dir__)
+
+# Renders an inner template inside the shared layout.
+# page_vars are passed to the inner template; layout_vars supply
+# title, styles, head, scripts, and post_footer to the layout.
+def render_page(inner_path, page_vars:, layout_vars:)
+  inner = ERB.new(File.read(inner_path))
+  content = inner.result_with_hash(**page_vars)
+
+  layout = ERB.new(File.read(LAYOUT_TEMPLATE_PATH))
+  defaults = { head: "", styles: "", scripts: "", post_footer: "" }
+  layout.result_with_hash(**defaults, **layout_vars, content:)
+end
 
 # --- Per-episode file tasks ---
 
@@ -89,11 +104,7 @@ EPISODE_TASKS.each do |et|
     end
   end
 
-  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s, EPISODE_TEMPLATE_PATH] do
-    require "cgi"
-    require "erb"
-
-    template = ERB.new(File.read(EPISODE_TEMPLATE_PATH))
+  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s, LAYOUT_TEMPLATE_PATH, EPISODE_TEMPLATE_PATH] do
     ep = {
       number: et.number,
       title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
@@ -101,7 +112,61 @@ EPISODE_TASKS.each do |et|
       audio_url: et.episode.audio_url,
       text: File.read(et.text_path)
     }
-    File.write(et.html_path, template.result_with_hash(ep:))
+
+    html = render_page(EPISODE_TEMPLATE_PATH,
+      page_vars: { ep: },
+      layout_vars: {
+        title: "#{CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}")} — Cooking Issues",
+        styles: <<~CSS,
+          body { padding-bottom: 5rem; }
+          h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+          .back { display: inline-block; margin-bottom: 1rem; color: #0066cc; text-decoration: none; }
+          .back:hover { text-decoration: underline; }
+          p { margin-bottom: 1em; }
+          h6.timestamp { color: #888; font-size: 0.85rem; font-family: monospace; font-weight: normal; margin-bottom: 0.25em; }
+          h6.timestamp a { color: inherit; text-decoration: none; }
+          h6.timestamp a:hover { text-decoration: underline; color: #0066cc; }
+          h6.timestamp + p { margin-top: 0; }
+          :target { background: #fff3a8; }
+          [data-pagefind-highlight] { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
+          .player { position: sticky; bottom: 0; background: #f8f8f8; border-top: 1px solid #ddd; padding: 0.5rem 0; margin: 0 -1rem; padding-left: 1rem; padding-right: 1rem; }
+          .player-note { font-size: 0.8rem; color: #888; margin-bottom: 0.25rem; }
+          .player audio { width: 100%; }
+        CSS
+        post_footer: <<~HTML,
+          <div class="player">
+            <p class="player-note">Timestamps may be off due to dynamic ad insertion.</p>
+            <audio id="audio" controls preload="none" src="#{CGI.escapeHTML(ep.fetch(:audio_url))}"></audio>
+          </div>
+        HTML
+        scripts: <<~HTML,
+          <script type="module">
+            const audio = document.getElementById("audio");
+
+            function parseTimestamp(ts) {
+              const parts = ts.split(":").map(Number);
+              if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+              if (parts.length === 2) return parts[0] * 60 + parts[1];
+              return parts[0];
+            }
+
+            document.addEventListener("click", (e) => {
+              const link = e.target.closest("[data-seek]");
+              if (!link) return;
+              e.preventDefault();
+              const seconds = parseTimestamp(link.dataset.seek);
+              audio.currentTime = seconds;
+              audio.play();
+              history.replaceState(null, "", link.getAttribute("href"));
+            });
+
+            await import("./pagefind/pagefind-highlight.js");
+            new PagefindHighlight({ highlightParam: "highlight" });
+          </script>
+        HTML
+      })
+
+    File.write(et.html_path, html)
   end
 end
 
@@ -151,20 +216,36 @@ EPISODE_HTML_TASKS = EPISODE_TASKS.select { |et| Pathname(et.text_path).exist? }
 EPISODE_HTML_PATHS = EPISODE_HTML_TASKS.map(&:html_path)
 INDEX_HTML_PATH = (CONFIG.pages_dir / "index.html").to_s
 
-file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, INDEX_TEMPLATE_PATH] do
-  require "cgi"
-  require "erb"
-
-  template = ERB.new(File.read(INDEX_TEMPLATE_PATH))
-  transcripts = EPISODE_HTML_TASKS.map do |et|
+file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLATE_PATH] do
+  transcripts = EPISODE_HTML_TASKS.map { |et|
     {
       number: et.number,
       title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
       slug: et.slug,
     }
-  end
+  }
 
-  html = template.result_with_hash(transcripts:)
+  html = render_page(INDEX_TEMPLATE_PATH,
+    page_vars: { transcripts: },
+    layout_vars: {
+      title: "Cooking Issues Transcripts",
+      head: '<link href="./pagefind/pagefind-ui.css" rel="stylesheet">',
+      styles: <<~CSS,
+        h1 { margin-bottom: 1rem; }
+        #search { margin-bottom: 1.5rem; }
+        ul { list-style: none; }
+        li { padding: 0.4rem 0; border-bottom: 1px solid #eee; }
+      CSS
+      scripts: <<~HTML,
+        <script src="./pagefind/pagefind-ui.js"></script>
+        <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search", showSubResults: true, highlightParam: "highlight" });
+          });
+        </script>
+      HTML
+    })
+
   File.write(INDEX_HTML_PATH, html)
 
   puts "Generated #{transcripts.length} episode pages + index."
