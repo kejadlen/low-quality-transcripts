@@ -1,0 +1,185 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Full-text search over podcast transcripts using SQLite FTS5 with BM25.
+#
+# Usage:
+#   fts-search index [TRANSCRIPTS_DIR]   Build the FTS5 database
+#   fts-search search QUERY [-n LIMIT]   Search transcripts
+
+DB_PATH="cache/fts.db"
+
+init_db() {
+  mkdir -p "$(dirname "$DB_PATH")"
+  sqlite3 "$DB_PATH" <<'SQL'
+CREATE TABLE IF NOT EXISTS paragraphs (
+    id INTEGER PRIMARY KEY,
+    episode TEXT NOT NULL,
+    timestamp TEXT,
+    text TEXT NOT NULL
+);
+CREATE VIRTUAL TABLE IF NOT EXISTS fts_paragraphs USING fts5(
+    text,
+    content=paragraphs,
+    content_rowid=id,
+    tokenize='porter unicode61'
+);
+CREATE TABLE IF NOT EXISTS indexed_episodes (
+    episode TEXT PRIMARY KEY
+);
+SQL
+}
+
+# Parse a transcript file into SQL INSERT statements.
+# Paragraphs are separated by blank lines. Timestamps look like [H:MM:SS].
+parse_and_insert() {
+  local text_file="$1"
+  local episode
+  episode="$(basename "$text_file" .txt)"
+
+  # Check if already indexed.
+  local already
+  already=$(sqlite3 "$DB_PATH" "SELECT COUNT(*) FROM indexed_episodes WHERE episode = '${episode//\'/\'\'}';")
+  if [[ "$already" -gt 0 ]]; then
+    return 1
+  fi
+
+  # Use awk to parse paragraphs and produce SQL INSERTs.
+  # mawk-compatible: no match() with capture groups.
+  awk -v episode="$episode" '
+    BEGIN {
+      para = ""
+      ts = ""
+    }
+
+    function flush() {
+      if (para == "") return
+      # Escape single quotes for SQL.
+      gsub(/\047/, "\047\047", para)
+      gsub(/\047/, "\047\047", ts)
+      ts_val = (ts == "" ? "NULL" : "\047" ts "\047")
+      print "INSERT INTO paragraphs (episode, timestamp, text) VALUES (\047" episode "\047, " ts_val ", \047" para "\047);"
+      print "INSERT INTO fts_paragraphs (rowid, text) VALUES (last_insert_rowid(), \047" para "\047);"
+      para = ""
+      ts = ""
+    }
+
+    /^$/ { flush(); next }
+
+    {
+      line = $0
+      if (para == "" && substr(line, 1, 1) == "[") {
+        # Extract timestamp from [...]
+        idx = index(line, "] ")
+        if (idx > 0) {
+          ts = substr(line, 2, idx - 2)
+          line = substr(line, idx + 2)
+        }
+      }
+      if (para != "") para = para " "
+      para = para line
+    }
+
+    END { flush() }
+  ' "$text_file"
+
+  local safe_episode="${episode//\'/\'\'}"
+  echo "INSERT INTO indexed_episodes (episode) VALUES ('$safe_episode');"
+}
+
+index_cmd() {
+  local transcripts_dir="${1:-transcripts/parakeet}"
+
+  if [[ ! -d "$transcripts_dir" ]]; then
+    echo "Transcripts directory not found: $transcripts_dir" >&2
+    exit 1
+  fi
+
+  local text_files
+  text_files=($(find "$transcripts_dir" -name '*.txt' | sort))
+
+  if [[ ${#text_files[@]} -eq 0 ]]; then
+    echo "No .txt files in $transcripts_dir" >&2
+    exit 1
+  fi
+
+  init_db
+
+  local count=0
+  local skipped=0
+  local total=${#text_files[@]}
+
+  for text_file in "${text_files[@]}"; do
+    local sql
+    sql=$(parse_and_insert "$text_file") || { skipped=$((skipped + 1)); continue; }
+    echo "BEGIN; $sql COMMIT;" | sqlite3 "$DB_PATH"
+    count=$((count + 1))
+
+    if (( count % 50 == 0 )) || (( count + skipped == total )); then
+      echo "  $count indexed, $skipped skipped of $total" >&2
+    fi
+  done
+
+  if [[ $count -eq 0 ]]; then
+    echo "All episodes already indexed." >&2
+  else
+    local db_total
+    db_total=$(sqlite3 "$DB_PATH" "SELECT COUNT(*) FROM paragraphs;")
+    echo "Done. $db_total paragraphs in database." >&2
+  fi
+}
+
+search_cmd() {
+  local query=""
+  local limit=10
+
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      -n|--limit) limit="$2"; shift 2 ;;
+      *) query="$1"; shift ;;
+    esac
+  done
+
+  if [[ -z "$query" ]]; then
+    echo "Usage: fts-search search QUERY [-n LIMIT]" >&2
+    exit 1
+  fi
+
+  if [[ ! -f "$DB_PATH" ]]; then
+    echo "Database not found: $DB_PATH. Run 'index' first." >&2
+    exit 1
+  fi
+
+  # Escape single quotes in query.
+  local safe_query="${query//\'/\'\'}"
+
+  sqlite3 -separator '	' "$DB_PATH" <<SQL |
+SELECT p.episode, p.timestamp, substr(p.text, 1, 200), fts.rank
+FROM fts_paragraphs fts
+JOIN paragraphs p ON p.id = fts.rowid
+WHERE fts_paragraphs MATCH '$safe_query'
+ORDER BY fts.rank
+LIMIT $limit;
+SQL
+  while IFS=$'\t' read -r episode timestamp text rank; do
+    local ts=""
+    [[ -n "$timestamp" ]] && ts="[$timestamp] "
+    [[ ${#text} -ge 200 ]] && text="${text}..."
+    echo ""
+    echo "$episode"
+    echo "  ${ts}${text}"
+    printf "  bm25: %.4f\n" "$rank"
+  done
+}
+
+case "${1:-}" in
+  index)  shift; index_cmd "$@" ;;
+  search) shift; search_cmd "$@" ;;
+  *)
+    echo "Full-text search over podcast transcripts using SQLite FTS5 with BM25." >&2
+    echo "" >&2
+    echo "Usage:" >&2
+    echo "  fts-search index [TRANSCRIPTS_DIR]   Build the FTS5 database" >&2
+    echo "  fts-search search QUERY [-n LIMIT]    Search transcripts" >&2
+    ;;
+esac
