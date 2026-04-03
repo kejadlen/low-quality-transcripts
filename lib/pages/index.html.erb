@@ -2,8 +2,6 @@
 
 <div id="search"></div>
 
-<p><%= transcripts.length %> episodes</p>
-
 <ul>
 <% transcripts.reverse.each do |ep| %>
   <li><a href="<%= ep.fetch(:slug) %>.html"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></a></li>
