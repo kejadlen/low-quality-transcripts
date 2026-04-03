@@ -1,0 +1,203 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "sentence-transformers",
+#     "sqlite-vec",
+# ]
+# ///
+
+"""Semantic search over podcast transcripts using sqlite-vec.
+
+Subcommands:
+  index   Build the vector database from transcript text files.
+  search  Find paragraphs semantically similar to a query.
+"""
+
+import argparse
+import re
+import sqlite3
+import struct
+import sys
+from pathlib import Path
+
+import sqlite_vec
+from sentence_transformers import SentenceTransformer
+
+
+DB_PATH = Path("cache/semantic.db")
+MODEL_NAME = "all-MiniLM-L6-v2"
+
+
+def serialize_f32(vector):
+    """Serialize a list of floats into a compact binary format for sqlite-vec."""
+    return struct.pack(f"{len(vector)}f", *vector)
+
+
+def parse_paragraphs(text_path):
+    """Split a transcript file into (timestamp, text) paragraphs."""
+    text = text_path.read_text(encoding="utf-8")
+    paragraphs = []
+    for para in text.split("\n\n"):
+        para = para.strip()
+        if not para:
+            continue
+        m = re.match(r"\[([^\]]+)\]\s*(.*)", para, re.DOTALL)
+        if m:
+            paragraphs.append((m.group(1), m.group(2)))
+        else:
+            paragraphs.append((None, para))
+    return paragraphs
+
+
+def init_db(db):
+    """Create tables if they don't exist."""
+    db.execute("""
+        CREATE TABLE IF NOT EXISTS paragraphs (
+            id INTEGER PRIMARY KEY,
+            episode TEXT NOT NULL,
+            timestamp TEXT,
+            text TEXT NOT NULL
+        )
+    """)
+    db.execute("""
+        CREATE TABLE IF NOT EXISTS indexed_episodes (
+            episode TEXT PRIMARY KEY
+        )
+    """)
+
+
+def init_vec_table(db, dim):
+    """Create the vec0 virtual table if it doesn't exist."""
+    db.execute(f"""
+        CREATE VIRTUAL TABLE IF NOT EXISTS vec_paragraphs USING vec0(
+            id INTEGER PRIMARY KEY,
+            embedding float[{dim}]
+        )
+    """)
+
+
+def index_cmd(args):
+    transcripts_dir = Path(args.transcripts_dir)
+    if not transcripts_dir.exists():
+        print(f"Transcripts directory not found: {transcripts_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    text_files = sorted(transcripts_dir.glob("*.txt"))
+    if not text_files:
+        print(f"No .txt files in {transcripts_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"Loading model {MODEL_NAME}...", file=sys.stderr)
+    model = SentenceTransformer(MODEL_NAME)
+    dim = model.get_sentence_embedding_dimension()
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    db = sqlite3.connect(DB_PATH)
+    sqlite_vec.load(db)
+    init_db(db)
+    init_vec_table(db, dim)
+
+    # Find which episodes are already indexed.
+    indexed = {row[0] for row in db.execute("SELECT episode FROM indexed_episodes").fetchall()}
+
+    to_index = [f for f in text_files if f.stem not in indexed]
+    if not to_index:
+        print("All episodes already indexed.", file=sys.stderr)
+        return
+
+    print(f"Indexing {len(to_index)} episodes ({len(text_files) - len(to_index)} already done)...", file=sys.stderr)
+
+    for i, text_file in enumerate(to_index):
+        episode = text_file.stem
+        paragraphs = parse_paragraphs(text_file)
+        if not paragraphs:
+            continue
+
+        texts = [t for _, t in paragraphs]
+        embeddings = model.encode(texts, show_progress_bar=False)
+
+        for (timestamp, text), embedding in zip(paragraphs, embeddings):
+            cursor = db.execute(
+                "INSERT INTO paragraphs (episode, timestamp, text) VALUES (?, ?, ?)",
+                (episode, timestamp, text),
+            )
+            db.execute(
+                "INSERT INTO vec_paragraphs (id, embedding) VALUES (?, ?)",
+                (cursor.lastrowid, serialize_f32(embedding.tolist())),
+            )
+
+        db.execute("INSERT INTO indexed_episodes (episode) VALUES (?)", (episode,))
+        db.commit()
+
+        if (i + 1) % 50 == 0 or i + 1 == len(to_index):
+            print(f"  {i + 1}/{len(to_index)} episodes indexed", file=sys.stderr)
+
+    total = db.execute("SELECT COUNT(*) FROM paragraphs").fetchone()[0]
+    print(f"Done. {total} paragraphs in database.", file=sys.stderr)
+    db.close()
+
+
+def search_cmd(args):
+    if not DB_PATH.exists():
+        print(f"Database not found: {DB_PATH}. Run 'index' first.", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"Loading model {MODEL_NAME}...", file=sys.stderr)
+    model = SentenceTransformer(MODEL_NAME)
+
+    db = sqlite3.connect(DB_PATH)
+    sqlite_vec.load(db)
+
+    query_embedding = model.encode([args.query])[0]
+
+    rows = db.execute(
+        """
+        SELECT p.episode, p.timestamp, p.text, v.distance
+        FROM vec_paragraphs v
+        JOIN paragraphs p ON p.id = v.id
+        WHERE v.embedding MATCH ?
+        ORDER BY v.distance
+        LIMIT ?
+        """,
+        (serialize_f32(query_embedding.tolist()), args.limit),
+    ).fetchall()
+
+    for episode, timestamp, text, distance in rows:
+        ts = f"[{timestamp}] " if timestamp else ""
+        # Truncate long paragraphs for display.
+        display = text[:200] + "..." if len(text) > 200 else text
+        print(f"\n{episode}")
+        print(f"  {ts}{display}")
+        print(f"  distance: {distance:.4f}")
+
+    db.close()
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="command")
+
+    idx = sub.add_parser("index", help="Build the vector database")
+    idx.add_argument(
+        "transcripts_dir",
+        nargs="?",
+        default="transcripts/parakeet",
+        help="Directory containing .txt transcript files",
+    )
+
+    srch = sub.add_parser("search", help="Search for similar paragraphs")
+    srch.add_argument("query", help="Search query")
+    srch.add_argument("-n", "--limit", type=int, default=10, help="Number of results")
+
+    args = parser.parse_args()
+    if args.command == "index":
+        index_cmd(args)
+    elif args.command == "search":
+        search_cmd(args)
+    else:
+        parser.print_help()
+
+
+if __name__ == "__main__":
+    main()
