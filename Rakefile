@@ -229,7 +229,10 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLA
     page_vars: { transcripts: },
     layout_vars: {
       title: "Cooking Issues Transcripts",
-      head: '<link href="./pagefind/pagefind-ui.css" rel="stylesheet">',
+      head: <<~HEAD,
+        <link href="./pagefind/pagefind-ui.css" rel="stylesheet">
+        <link rel="canonical" href="https://issues.cooking/" />
+      HEAD
       styles: <<~CSS,
         h1 { margin-bottom: 1rem; }
         #search { margin-bottom: 1.5rem; }
