@@ -262,10 +262,11 @@ end
 
 ALL_HTML_PATHS = EPISODE_HTML_PATHS + [INDEX_HTML_PATH]
 
+PAGEFIND_VERSION = "1.5.2"
 PAGEFIND_STAMP = (CONFIG.pages_dir / ".pagefind-stamp").to_s
 
 file PAGEFIND_STAMP => ALL_HTML_PATHS do
-  sh "uv", "run", "--with", "pagefind[bin]", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+  sh "uv", "run", "--with", "pagefind[bin]==#{PAGEFIND_VERSION}", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
   FileUtils.touch(PAGEFIND_STAMP)
 end
 
