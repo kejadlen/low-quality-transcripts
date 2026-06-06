@@ -230,21 +230,52 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLA
     layout_vars: {
       title: "Cooking Issues Transcripts",
       head: <<~HEAD,
-        <link href="./pagefind/pagefind-ui.css" rel="stylesheet">
+        <link href="./pagefind/pagefind-component-ui.css" rel="stylesheet">
         <link rel="canonical" href="https://issues.cooking/" />
       HEAD
       styles: <<~CSS,
         h1 { margin-bottom: 1rem; }
-        #search { margin-bottom: 1.5rem; }
+        pagefind-modal-trigger { margin-bottom: 1.5rem; display: block; }
         ul { list-style: none; }
         li { padding: 0.4rem 0; border-bottom: 1px solid #eee; }
+        #sort-control {
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          margin-left: auto;
+          font: 12px/1 system-ui, -apple-system, sans-serif;
+          color: var(--pf-text-muted, #767676);
+        }
+        #sort-select {
+          font: inherit;
+          color: inherit;
+          background: transparent;
+          border: none;
+          cursor: pointer;
+        }
       CSS
       scripts: <<~HTML,
-        <script src="./pagefind/pagefind-ui.js"></script>
+        <script src="./pagefind/pagefind-component-ui.js"></script>
         <script>
-          window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showSubResults: true, highlightParam: "highlight" });
+          const instance = window.PagefindComponents.getInstanceManager().getInstance('default');
+          const sortSelect = document.getElementById('sort-select');
+          let sortConfig = null;
+
+          function applySort(value) {
+            sortConfig = value ? { episode_number: value } : null;
+            instance.triggerSearch(instance.searchTerm || '');
+          }
+
+          instance.on('results', () => {
+            const pf = instance.__pagefind__;
+            if (pf && !pf._sortPatched) {
+              const orig = pf.search.bind(pf);
+              pf.search = (term, opts = {}) => orig(term, sortConfig ? { ...opts, sort: sortConfig } : opts);
+              pf._sortPatched = true;
+            }
           });
+
+          sortSelect.addEventListener('change', (e) => applySort(e.target.value));
         </script>
       HTML
     })

@@ -1,5 +1,5 @@
 <a class="back" href="index.html">← All episodes</a>
-<h1><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></h1>
+<h1 data-pagefind-sort="episode_number:<%= ep.fetch(:number) %>"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></h1>
 
 <% ep.fetch(:text).split("\n\n").each do |para| %>
   <% if (m = para.match(/\A\[([^\]]+)\]\s*(.*)/)) %>

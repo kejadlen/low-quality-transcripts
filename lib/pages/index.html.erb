@@ -1,6 +1,24 @@
 <h1>Cooking Issues Transcripts</h1>
 
-<div id="search"></div>
+<pagefind-config preload></pagefind-config>
+<pagefind-modal-trigger></pagefind-modal-trigger>
+<pagefind-modal>
+  <pagefind-modal-header>
+    <pagefind-input></pagefind-input>
+  </pagefind-modal-header>
+  <pagefind-modal-body>
+    <pagefind-summary></pagefind-summary>
+    <pagefind-results></pagefind-results>
+  </pagefind-modal-body>
+  <pagefind-modal-footer>
+    <pagefind-keyboard-hints></pagefind-keyboard-hints>
+    <label id="sort-control">Sort: <select id="sort-select">
+      <option value="">Relevance</option>
+      <option value="desc">Episode # ↓</option>
+      <option value="asc">Episode # ↑</option>
+    </select></label>
+  </pagefind-modal-footer>
+</pagefind-modal>
 
 <ul>
 <% transcripts.reverse.each do |ep| %>
