@@ -253,6 +253,12 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLA
           border: none;
           cursor: pointer;
         }
+        :is(*, #\\#):is(*, #\\#):is(*, #\\#) .pf-result-excerpt,
+        :is(*, #\\#):is(*, #\\#):is(*, #\\#) .pf-heading-excerpt {
+          white-space: normal;
+          overflow: visible;
+          text-overflow: clip;
+        }
       CSS
       scripts: <<~HTML,
         <script src="./pagefind/pagefind-component-ui.js"></script>
