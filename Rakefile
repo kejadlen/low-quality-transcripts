@@ -282,6 +282,16 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLA
           });
 
           sortSelect.addEventListener('change', (e) => applySort(e.target.value));
+
+          let searchTimer;
+          instance.on('results', () => {
+            const term = instance.searchTerm;
+            if (!term) return;
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+              window.goatcounter?.count({ path: 'search:' + term, title: 'Search: ' + term, event: true });
+            }, 800);
+          });
         </script>
       HTML
     })
