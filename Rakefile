@@ -3,6 +3,7 @@ require "erb"
 require "json"
 require "net/http"
 require "pathname"
+require "time"
 require "uri"
 
 require_relative "lib/config"
@@ -66,6 +67,8 @@ episodes = CookingIssues::Feed.parse(CONFIG.hrn_feed_path) +
 EPISODE_TASKS = episodes.map.with_index do |ep, i|
   CookingIssues::EpisodeTask.new(index: i, episode: ep, config: CONFIG)
 end
+
+BASE_URL = "https://issues.cooking"
 
 LAYOUT_TEMPLATE_PATH = File.expand_path("lib/pages/layout.html.erb", __dir__)
 EPISODE_TEMPLATE_PATH = File.expand_path("lib/pages/episode.html.erb", __dir__)
@@ -231,7 +234,7 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLA
       title: "Cooking Issues Transcripts",
       head: <<~HEAD,
         <link href="./pagefind/pagefind-component-ui.css" rel="stylesheet">
-        <link rel="canonical" href="https://issues.cooking/" />
+        <link rel="canonical" href="#{BASE_URL}/" />
       HEAD
       styles: <<~CSS,
         h1 { margin-bottom: 1rem; }
@@ -309,6 +312,52 @@ end
 
 ALL_HTML_PATHS = EPISODE_HTML_PATHS + [INDEX_HTML_PATH]
 
+SITEMAP_PATH = (CONFIG.pages_dir / "sitemap.xml").to_s
+ROBOTS_PATH = (CONFIG.pages_dir / "robots.txt").to_s
+
+# pubDate is RFC 822; sitemaps want W3C datetime. A malformed date costs one
+# lastmod hint, so drop it rather than fail the build.
+def sitemap_lastmod(pub_date)
+  Time.rfc2822(pub_date).utc.xmlschema
+rescue ArgumentError
+  nil
+end
+
+file SITEMAP_PATH => [*ALL_HTML_PATHS, CONFIG.pages_dir.to_s] do
+  entries = EPISODE_HTML_TASKS.map { |et|
+    { loc: "#{BASE_URL}/#{et.slug}.html", lastmod: sitemap_lastmod(et.episode.published_at) }
+  }
+  entries.unshift({ loc: "#{BASE_URL}/", lastmod: entries.filter_map { it.fetch(:lastmod) }.max })
+
+  urls = entries.map { |entry|
+    lastmod = entry.fetch(:lastmod)
+    <<~XML.chomp
+      <url>
+      <loc>#{entry.fetch(:loc)}</loc>
+      #{"<lastmod>#{lastmod}</lastmod>" if lastmod}
+      </url>
+    XML
+  }
+
+  File.write(SITEMAP_PATH, <<~XML)
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    #{urls.join("\n")}
+    </urlset>
+  XML
+
+  puts "Generated sitemap with #{entries.length} URLs."
+end
+
+file ROBOTS_PATH => CONFIG.pages_dir.to_s do
+  File.write(ROBOTS_PATH, <<~TXT)
+    User-agent: *
+    Allow: /
+
+    Sitemap: #{BASE_URL}/sitemap.xml
+  TXT
+end
+
 PAGEFIND_VERSION = "1.5.2"
 PAGEFIND_STAMP = (CONFIG.pages_dir / ".pagefind-stamp").to_s
 
@@ -318,7 +367,7 @@ file PAGEFIND_STAMP => ALL_HTML_PATHS do
 end
 
 desc "Generate HTML transcript pages and search index"
-task html: [*ALL_HTML_PATHS, PAGEFIND_STAMP]
+task html: [*ALL_HTML_PATHS, SITEMAP_PATH, ROBOTS_PATH, PAGEFIND_STAMP]
 
 desc "Serve the generated pages locally"
 task serve: :html do
