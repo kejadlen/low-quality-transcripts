@@ -120,6 +120,9 @@ EPISODE_TASKS.each do |et|
       page_vars: { ep: },
       layout_vars: {
         title: "#{CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}")} — Cooking Issues",
+        # Self-referential so pagefind-highlight's ?highlight= URLs don't read
+        # as duplicates.
+        head: %(<link rel="canonical" href="#{BASE_URL}/#{et.slug}.html" />\n),
         styles: <<~CSS,
           body { padding-bottom: 5rem; }
           h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
