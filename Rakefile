@@ -69,10 +69,29 @@ EPISODE_TASKS = episodes.map.with_index do |ep, i|
 end
 
 BASE_URL = "https://issues.cooking"
+RAKEFILE_PATH = File.expand_path(__FILE__)
 
-LAYOUT_TEMPLATE_PATH = File.expand_path("lib/pages/layout.html.erb", __dir__)
-EPISODE_TEMPLATE_PATH = File.expand_path("lib/pages/episode.html.erb", __dir__)
-INDEX_TEMPLATE_PATH = File.expand_path("lib/pages/index.html.erb", __dir__)
+def page_source(name) = File.expand_path("lib/pages/#{name}", __dir__)
+
+LAYOUT_TEMPLATE_PATH = page_source("layout.html.erb")
+EPISODE_TEMPLATE_PATH = page_source("episode.html.erb")
+INDEX_TEMPLATE_PATH = page_source("index.html.erb")
+
+# Titles, canonicals, and the player are rendered here, so this file is a page source too.
+EPISODE_PAGE_SOURCES = [
+  RAKEFILE_PATH,
+  LAYOUT_TEMPLATE_PATH,
+  EPISODE_TEMPLATE_PATH,
+  page_source("episode.css"),
+  page_source("episode.js"),
+]
+INDEX_PAGE_SOURCES = [
+  RAKEFILE_PATH,
+  LAYOUT_TEMPLATE_PATH,
+  INDEX_TEMPLATE_PATH,
+  page_source("index.css"),
+  page_source("index.js"),
+]
 
 # Renders an inner template inside the shared layout.
 # page_vars are passed to the inner template; layout_vars supply
@@ -84,6 +103,12 @@ def render_page(inner_path, page_vars:, layout_vars:)
   layout = ERB.new(File.read(LAYOUT_TEMPLATE_PATH))
   defaults = { head: "", styles: "", scripts: "", post_footer: "" }
   layout.result_with_hash(**defaults, **layout_vars, content:)
+end
+
+# Inlined rather than linked so the assets stay out of Ruby heredocs, where
+# a stray #{} would interpolate.
+def inline_script(name, type: nil)
+  %(<script#{%( type="#{type}") if type}>\n#{File.read(page_source(name))}</script>\n)
 end
 
 # --- Per-episode file tasks ---
@@ -107,7 +132,7 @@ EPISODE_TASKS.each do |et|
     end
   end
 
-  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s, LAYOUT_TEMPLATE_PATH, EPISODE_TEMPLATE_PATH] do
+  file et.html_path => [et.text_path, CONFIG.pages_dir.to_s, *EPISODE_PAGE_SOURCES] do
     ep = {
       number: et.number,
       title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
@@ -123,53 +148,14 @@ EPISODE_TASKS.each do |et|
         # Self-referential so pagefind-highlight's ?highlight= URLs don't read
         # as duplicates.
         head: %(<link rel="canonical" href="#{BASE_URL}/#{et.slug}.html" />\n),
-        styles: <<~CSS,
-          body { padding-bottom: 5rem; }
-          h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
-          .back { display: inline-block; margin-bottom: 1rem; color: #0066cc; text-decoration: none; }
-          .back:hover { text-decoration: underline; }
-          p { margin-bottom: 1em; }
-          h6.timestamp { color: #888; font-size: 0.85rem; font-family: monospace; font-weight: normal; margin-bottom: 0.25em; }
-          h6.timestamp a { color: inherit; text-decoration: none; }
-          h6.timestamp a:hover { text-decoration: underline; color: #0066cc; }
-          h6.timestamp + p { margin-top: 0; }
-          :target { background: #fff3a8; }
-          [data-pagefind-highlight] { background: #fff3a8; padding: 0 2px; border-radius: 2px; }
-          .player { position: sticky; bottom: 0; background: #f8f8f8; border-top: 1px solid #ddd; padding: 0.5rem 0; margin: 0 -1rem; padding-left: 1rem; padding-right: 1rem; }
-          .player-note { font-size: 0.8rem; color: #888; margin-bottom: 0.25rem; }
-          .player audio { width: 100%; }
-        CSS
+        styles: File.read(page_source("episode.css")),
         post_footer: <<~HTML,
           <div class="player">
             <p class="player-note">Timestamps may be off due to dynamic ad insertion.</p>
             <audio id="audio" controls preload="none" src="#{CGI.escapeHTML(ep.fetch(:audio_url))}"></audio>
           </div>
         HTML
-        scripts: <<~HTML,
-          <script type="module">
-            const audio = document.getElementById("audio");
-
-            function parseTimestamp(ts) {
-              const parts = ts.split(":").map(Number);
-              if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
-              if (parts.length === 2) return parts[0] * 60 + parts[1];
-              return parts[0];
-            }
-
-            document.addEventListener("click", (e) => {
-              const link = e.target.closest("[data-seek]");
-              if (!link) return;
-              e.preventDefault();
-              const seconds = parseTimestamp(link.dataset.seek);
-              audio.currentTime = seconds;
-              audio.play();
-              history.replaceState(null, "", link.getAttribute("href"));
-            });
-
-            await import("./pagefind/pagefind-highlight.js");
-            new PagefindHighlight({ highlightParam: "highlight" });
-          </script>
-        HTML
+        scripts: inline_script("episode.js", type: "module"),
       })
 
     File.write(et.html_path, html)
@@ -222,7 +208,7 @@ EPISODE_HTML_TASKS = EPISODE_TASKS.select { |et| Pathname(et.text_path).exist? }
 EPISODE_HTML_PATHS = EPISODE_HTML_TASKS.map(&:html_path)
 INDEX_HTML_PATH = (CONFIG.pages_dir / "index.html").to_s
 
-file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLATE_PATH] do
+file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, *INDEX_PAGE_SOURCES] do
   transcripts = EPISODE_HTML_TASKS.map { |et|
     {
       number: et.number,
@@ -239,67 +225,8 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, LAYOUT_TEMPLATE_PATH, INDEX_TEMPLA
         <link href="./pagefind/pagefind-component-ui.css" rel="stylesheet">
         <link rel="canonical" href="#{BASE_URL}/" />
       HEAD
-      styles: <<~CSS,
-        h1 { margin-bottom: 1rem; }
-        pagefind-modal-trigger { margin-bottom: 1.5rem; display: block; }
-        ul { list-style: none; }
-        li { padding: 0.4rem 0; border-bottom: 1px solid #eee; }
-        #sort-control {
-          display: inline-flex;
-          align-items: center;
-          gap: 4px;
-          margin-left: auto;
-          font: 12px/1 system-ui, -apple-system, sans-serif;
-          color: var(--pf-text-muted, #767676);
-        }
-        #sort-select {
-          font: inherit;
-          color: inherit;
-          background: transparent;
-          border: none;
-          cursor: pointer;
-        }
-        :is(*, #\\#):is(*, #\\#):is(*, #\\#) .pf-result-excerpt,
-        :is(*, #\\#):is(*, #\\#):is(*, #\\#) .pf-heading-excerpt {
-          white-space: normal;
-          overflow: visible;
-          text-overflow: clip;
-        }
-      CSS
-      scripts: <<~HTML,
-        <script src="./pagefind/pagefind-component-ui.js"></script>
-        <script>
-          const instance = window.PagefindComponents.getInstanceManager().getInstance('default');
-          const sortSelect = document.getElementById('sort-select');
-          let sortConfig = null;
-
-          function applySort(value) {
-            sortConfig = value ? { episode_number: value } : null;
-            instance.triggerSearch(instance.searchTerm || '');
-          }
-
-          instance.on('results', () => {
-            const pf = instance.__pagefind__;
-            if (pf && !pf._sortPatched) {
-              const orig = pf.search.bind(pf);
-              pf.search = (term, opts = {}) => orig(term, sortConfig ? { ...opts, sort: sortConfig } : opts);
-              pf._sortPatched = true;
-            }
-          });
-
-          sortSelect.addEventListener('change', (e) => applySort(e.target.value));
-
-          let searchTimer;
-          instance.on('results', () => {
-            const term = instance.searchTerm;
-            if (!term) return;
-            clearTimeout(searchTimer);
-            searchTimer = setTimeout(() => {
-              window.goatcounter?.count({ path: 'search:' + term, title: 'Search: ' + term, event: true });
-            }, 800);
-          });
-        </script>
-      HTML
+      styles: File.read(page_source("index.css")),
+      scripts: %(<script src="./pagefind/pagefind-component-ui.js"></script>\n) + inline_script("index.js"),
     })
 
   File.write(INDEX_HTML_PATH, html)
@@ -326,7 +253,7 @@ rescue ArgumentError
   nil
 end
 
-file SITEMAP_PATH => [*ALL_HTML_PATHS, CONFIG.pages_dir.to_s] do
+file SITEMAP_PATH => [*ALL_HTML_PATHS, RAKEFILE_PATH, CONFIG.pages_dir.to_s] do
   entries = EPISODE_HTML_TASKS.map { |et|
     { loc: "#{BASE_URL}/#{et.slug}.html", lastmod: sitemap_lastmod(et.episode.published_at) }
   }
@@ -352,7 +279,7 @@ file SITEMAP_PATH => [*ALL_HTML_PATHS, CONFIG.pages_dir.to_s] do
   puts "Generated sitemap with #{entries.length} URLs."
 end
 
-file ROBOTS_PATH => CONFIG.pages_dir.to_s do
+file ROBOTS_PATH => [RAKEFILE_PATH, CONFIG.pages_dir.to_s] do
   File.write(ROBOTS_PATH, <<~TXT)
     User-agent: *
     Allow: /
