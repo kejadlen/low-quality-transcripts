@@ -224,26 +224,34 @@ task :transcribe, [:number] do |_t, args|
   Rake::Task[et.text_path].invoke
 end
 
-desc "Extract entities from every transcribed episode"
-task :entities do
-  # One bad episode shouldn't end an overnight run.
-  failures = EPISODE_TASKS.select { File.exist?(it.text_path) }.filter_map do |et|
-    Rake::Task[et.entities_path].invoke
-    nil
-  rescue => e
-    warn "#{et.slug}: #{e.message}"
-    et.slug
+# Namespaced because `directory "entities/parakeet"` already defines an
+# `entities` task, which would swallow a top-level one.
+namespace :entities do
+  desc "Extract entities from the next N unextracted episodes, or all of them (e.g., rake entities:next[5])"
+  task :next, [:limit] do |_t, args|
+    pending = EPISODE_TASKS.select { File.exist?(it.text_path) && !File.exist?(it.entities_path) }
+    pending = pending.first(Integer(args[:limit])) if args[:limit]
+    puts "Extracting #{pending.size} episodes."
+
+    # One bad episode shouldn't end an overnight run.
+    failures = pending.filter_map do |et|
+      Rake::Task[et.entities_path].invoke
+      nil
+    rescue => e
+      warn "#{et.slug}: #{e.message}"
+      et.slug
+    end
+    abort "Entity extraction failed for: #{failures.join(", ")}" unless failures.empty?
   end
-  abort "Entity extraction failed for: #{failures.join(", ")}" unless failures.empty?
-end
 
-desc "Extract entities from an episode by number (e.g., rake extract_entities[42])"
-task :extract_entities, [:number] do |_t, args|
-  abort "Usage: rake extract_entities[NUMBER]" unless args[:number]
+  desc "Extract entities from an episode by number (e.g., rake entities:episode[42])"
+  task :episode, [:number] do |_t, args|
+    abort "Usage: rake entities:episode[NUMBER]" unless args[:number]
 
-  et = EPISODE_TASKS.fetch(args[:number].to_i - 1) { abort "Episode #{args[:number]} not found in feed." }
+    et = EPISODE_TASKS.fetch(args[:number].to_i - 1) { abort "Episode #{args[:number]} not found in feed." }
 
-  Rake::Task[et.entities_path].invoke
+    Rake::Task[et.entities_path].invoke
+  end
 end
 
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"

@@ -86,8 +86,8 @@ model paths. Others use no constructor arguments.
 | `rake episodes` | List episodes with transcription status |
 | `rake transcribe[N]` | Transcribe a single episode by number |
 | `rake retranscribe[N]` | Re-transcribe from scratch |
-| `rake entities` | Extract entities from every transcribed episode |
-| `rake extract_entities[N]` | Extract entities from a single episode |
+| `rake entities:next[N]` | Extract entities from the next N unextracted episodes (all if N is omitted) |
+| `rake entities:episode[N]` | Extract entities from a single episode |
 | `rake test` | Run the unit tests |
 | `rake html` | Generate HTML transcript pages and search index |
 | `rake serve` | Build and serve the site locally on port 8000 |
