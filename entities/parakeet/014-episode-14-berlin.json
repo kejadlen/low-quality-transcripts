@@ -1,10 +1,44 @@
 {
  "model": "mlx-community/Qwen3-8B-4bit",
  "prompt_version": 2,
- "failed_chunks": [
-  0
- ],
+ "failed_chunks": [],
  "mentions": [
+  {
+   "canonical": "Acme Smoked Fish",
+   "type": "place",
+   "surface": "Acme Smoked Fish",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Blue Hill Bay",
+   "type": "place",
+   "surface": "Blue Hill Bay",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Ruby Bay",
+   "type": "place",
+   "surface": "Ruby Bay",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:51"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:23"
+  },
   {
    "canonical": "Dave Arnold",
    "type": "person",
@@ -30,40 +64,40 @@
    "ts": "1:38"
   },
   {
-   "canonical": "Nastasha",
-   "type": "person",
-   "surface": "Nastasha",
-   "ts": "0:51"
-  },
-  {
-   "canonical": "Nastasha",
-   "type": "person",
-   "surface": "Nastasha",
-   "ts": "1:04"
-  },
-  {
-   "canonical": "Nastasha",
-   "type": "person",
-   "surface": "Nastasha",
-   "ts": "1:23"
-  },
-  {
-   "canonical": "Acme Smoked Fish",
-   "type": "place",
-   "surface": "Acme Smoked Fish",
-   "ts": "0:00"
-  },
-  {
-   "canonical": "Greenpoint, Brooklyn",
-   "type": "place",
-   "surface": "Greenpoint, Brooklyn",
-   "ts": "0:00"
-  },
-  {
    "canonical": "Berlin Cocktail Conference",
    "type": "place",
    "surface": "Berlin Cocktail Conference",
    "ts": "0:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:38"
+  },
+  {
+   "canonical": "Schinderhannes",
+   "type": "person",
+   "surface": "Schinderhannes",
+   "ts": "1:55"
   },
   {
    "canonical": "Apple Juice",
@@ -87,30 +121,6 @@
    "canonical": "Apple Juice",
    "type": "ingredient",
    "surface": "apple juice",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Whiskey",
-   "type": "ingredient",
-   "surface": "whiskey",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Whiskey",
-   "type": "ingredient",
-   "surface": "whiskey",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Tequila",
-   "type": "ingredient",
-   "surface": "tequila",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Bourbon",
-   "type": "ingredient",
-   "surface": "bourbon",
    "ts": "3:57"
   },
   {
@@ -150,27 +160,105 @@
    "ts": "3:57"
   },
   {
-   "canonical": "Ashmead's Kernel",
+   "canonical": "Whiskey",
    "type": "ingredient",
-   "surface": "Ashmead's kernel",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Spitzenberg",
-   "type": "ingredient",
-   "surface": "Spitzenberg",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Ice Cubes",
-   "type": "equipment",
-   "surface": "ice cubes",
+   "surface": "whiskey",
    "ts": "3:12"
+  },
+  {
+   "canonical": "Whiskey",
+   "type": "ingredient",
+   "surface": "whiskey",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Tequila",
+   "type": "ingredient",
+   "surface": "tequila",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "1:55"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "5:28"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "6:03"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "6:10"
+  },
+  {
+   "canonical": "Ale",
+   "type": "ingredient",
+   "surface": "ale",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Lager",
+   "type": "ingredient",
+   "surface": "lager",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Brandy",
+   "type": "ingredient",
+   "surface": "brandy",
+   "ts": "3:57"
   },
   {
    "canonical": "Red Hot Poker",
    "type": "equipment",
    "surface": "red hot poker",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Apple Juice Ice Cubes",
+   "type": "technique",
+   "surface": "apple juice",
+   "ts": "1:55"
+  },
+  {
+   "canonical": "Apple Juice Ice Cubes",
+   "type": "technique",
+   "surface": "apple juice",
+   "ts": "2:30"
+  },
+  {
+   "canonical": "Apple Juice Ice Cubes",
+   "type": "technique",
+   "surface": "apple juice",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "Apple Juice Ice Cubes",
+   "type": "technique",
+   "surface": "apple juice",
    "ts": "3:57"
   },
   {
@@ -192,141 +280,39 @@
    "ts": "3:12"
   },
   {
-   "canonical": "Flaming",
+   "canonical": "Oxidation",
    "type": "technique",
-   "surface": "flame",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
+   "surface": "oxidize",
    "ts": "3:12"
   },
   {
-   "canonical": "Clarification",
+   "canonical": "Oxidation",
    "type": "technique",
-   "surface": "clarify",
+   "surface": "oxidize",
    "ts": "3:57"
   },
   {
-   "canonical": "Clarification",
+   "canonical": "Flavor Enhancement",
    "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
+   "surface": "show the flavors",
    "ts": "3:57"
   },
   {
-   "canonical": "Clarification",
+   "canonical": "Acid-Sugar Balance",
    "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
+   "surface": "acid sugar balance",
    "ts": "3:57"
   },
   {
-   "canonical": "Clarification",
+   "canonical": "Thermal Wallop",
    "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
+   "surface": "thermal wallop",
    "ts": "3:57"
   },
   {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:57"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
-   "ts": "3:12"
-  },
-  {
-   "canonical": "Clarification",
-   "type": "technique",
-   "surface": "clarify",
+   "canonical": "Hot Stone",
+   "type": "equipment",
+   "surface": "hot stone",
    "ts": "3:57"
   },
   {

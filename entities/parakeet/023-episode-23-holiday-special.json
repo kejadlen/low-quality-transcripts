@@ -1,9 +1,7 @@
 {
  "model": "mlx-community/Qwen3-8B-4bit",
  "prompt_version": 2,
- "failed_chunks": [
-  1
- ],
+ "failed_chunks": [],
  "mentions": [
   {
    "canonical": "Dave Arnold",
@@ -408,6 +406,12 @@
    "ts": "12:16"
   },
   {
+   "canonical": "PID control",
+   "type": "technique",
+   "surface": "P I D control",
+   "ts": "12:16"
+  },
+  {
    "canonical": "Ziploc",
    "type": "equipment",
    "surface": "Ziploc",
@@ -436,12 +440,6 @@
    "type": "technique",
    "surface": "sous vide",
    "ts": "11:56"
-  },
-  {
-   "canonical": "PID control",
-   "type": "technique",
-   "surface": "P I D control",
-   "ts": "12:16"
   },
   {
    "canonical": "tenderloin",
@@ -528,88 +526,208 @@
    "ts": "13:38"
   },
   {
-   "canonical": "sous vide circulator",
-   "type": "equipment",
-   "surface": "circulator",
-   "ts": "10:41"
-  },
-  {
-   "canonical": "sous vide circulator",
-   "type": "equipment",
-   "surface": "circulator",
-   "ts": "11:05"
-  },
-  {
-   "canonical": "sous vide circulator",
-   "type": "equipment",
-   "surface": "circulator",
-   "ts": "12:16"
-  },
-  {
-   "canonical": "low temperature cooking",
-   "type": "technique",
-   "surface": "low temp",
-   "ts": "8:55"
-  },
-  {
-   "canonical": "low temperature cooking",
-   "type": "technique",
-   "surface": "low temperature",
-   "ts": "11:40"
-  },
-  {
-   "canonical": "low temperature cooking",
-   "type": "technique",
-   "surface": "low temp",
-   "ts": "11:56"
-  },
-  {
-   "canonical": "low temperature cooking",
-   "type": "technique",
-   "surface": "low temp",
-   "ts": "12:28"
-  },
-  {
-   "canonical": "low temperature cooking",
-   "type": "technique",
-   "surface": "low temp",
-   "ts": "12:48"
-  },
-  {
-   "canonical": "low temperature cooking",
-   "type": "technique",
-   "surface": "low temp",
+   "canonical": "standing rib roast",
+   "type": "ingredient",
+   "surface": "standing rib roast",
    "ts": "13:38"
   },
   {
-   "canonical": "searing",
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:14"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastash",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Rib Steak",
+   "type": "ingredient",
+   "surface": "rib steak",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Rib Steak",
+   "type": "ingredient",
+   "surface": "rib steak",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Rib Steak",
+   "type": "ingredient",
+   "surface": "rib steak",
+   "ts": "14:38"
+  },
+  {
+   "canonical": "Rib Steak",
+   "type": "ingredient",
+   "surface": "rib steak",
+   "ts": "16:17"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "11:17"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "11:40"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "12:28"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "12:48"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "14:38"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Tenderloin",
+   "type": "ingredient",
+   "surface": "tenderloin",
+   "ts": "16:17"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "11:17"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "11:40"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "11:56"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "14:38"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "14:38"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "11:40"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "16:52"
+  },
+  {
+   "canonical": "Celsius",
+   "type": "technique",
+   "surface": "Celsius",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Seared",
    "type": "technique",
    "surface": "sear",
    "ts": "12:48"
   },
   {
-   "canonical": "searing",
+   "canonical": "Seared",
    "type": "technique",
    "surface": "sear",
    "ts": "14:17"
   },
   {
-   "canonical": "searing",
+   "canonical": "Seared",
    "type": "technique",
    "surface": "sear",
    "ts": "15:16"
   },
   {
-   "canonical": "sous vide bath",
-   "type": "equipment",
-   "surface": "bath",
-   "ts": "12:28"
+   "canonical": "Internal Temperature",
+   "type": "technique",
+   "surface": "internal temperatures",
+   "ts": "15:16"
   },
   {
-   "canonical": "sous vide bath",
-   "type": "equipment",
-   "surface": "bath",
-   "ts": "14:38"
+   "canonical": "Centigrade",
+   "type": "technique",
+   "surface": "Celsius",
+   "ts": "15:16"
   },
   {
    "canonical": "Nastasha",
