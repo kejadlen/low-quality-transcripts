@@ -96,6 +96,8 @@ def main():
     ap.add_argument("--model", default="mlx-community/Qwen3-8B-4bit")
     ap.add_argument("--chunk-chars", type=int, default=10000)
     ap.add_argument("--repetition-penalty", type=float, default=1.05)
+    ap.add_argument("--max-splits", type=int, default=3,
+                    help="How many times a failing chunk may be halved and retried (default: 3, down to eighths)")
     args = ap.parse_args()
 
     model, tok = load(args.model)
@@ -119,16 +121,20 @@ def main():
                 if it.get("type") in TYPES and isinstance(it.get("canonical"), str)]
         return ents, (bad > 0 or truncated), out
 
+    def extract_with_retry(chunk, splits_left):
+        ents, bad, out = extract(chunk)
+        if not bad or splits_left == 0 or len(chunk) < 2:
+            return ents, bad, out
+        # Loops are less likely with fewer entities to list, so retry in halves.
+        mid = len(chunk) // 2
+        results = [extract_with_retry(half, splits_left - 1) for half in (chunk[:mid], chunk[mid:])]
+        return ([e for r in results for e in r[0]],
+                any(r[1] for r in results),
+                next((r[2] for r in results if r[1]), results[-1][2]))
+
     mentions, failed = [], []
     for i, chunk in enumerate(chunks(paragraphs(args.text.read_text(encoding="utf-8")), args.chunk_chars)):
-        ents, bad, out = extract(chunk)
-        if bad and len(chunk) > 1:
-            # Loops are less likely with fewer entities to list, so retry in halves.
-            mid = len(chunk) // 2
-            results = [extract(chunk[:mid]), extract(chunk[mid:])]
-            ents = [e for r in results for e in r[0]]
-            bad = any(r[1] for r in results)
-            out = results[-1][2]
+        ents, bad, out = extract_with_retry(chunk, args.max_splits)
         if bad:
             failed.append(i)
             print(f"chunk {i} failed: ...{out[-300:]}", file=sys.stderr)
