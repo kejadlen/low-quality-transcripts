@@ -1,0 +1,997 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Acme Smoked Fish",
+   "type": "place",
+   "surface": "Acme",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Acme Smoked Fish",
+   "type": "place",
+   "surface": "Acme",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "rotovap",
+   "type": "equipment",
+   "surface": "roto vap",
+   "ts": "6:03"
+  },
+  {
+   "canonical": "rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "2:37"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "7:47"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "8:10"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "8:24"
+  },
+  {
+   "canonical": "cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "5:45"
+  },
+  {
+   "canonical": "cilantro",
+   "type": "ingredient",
+   "surface": "Cilantro",
+   "ts": "6:03"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "3:15"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "6:03"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "N2O",
+   "type": "ingredient",
+   "surface": "N2O",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "N2O",
+   "type": "ingredient",
+   "surface": "N2O",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "N2O",
+   "type": "ingredient",
+   "surface": "N2O",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "12:52"
+  },
+  {
+   "canonical": "Ultrasound",
+   "type": "technique",
+   "surface": "ultrasound",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Ultrasound",
+   "type": "technique",
+   "surface": "ultrasound",
+   "ts": "14:55"
+  },
+  {
+   "canonical": "Ultrasound",
+   "type": "technique",
+   "surface": "ultrasound",
+   "ts": "15:23"
+  },
+  {
+   "canonical": "Ultrasound",
+   "type": "technique",
+   "surface": "ultrasound",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "16:56"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Sous Vide Coffee",
+   "type": "technique",
+   "surface": "sous vide coffee",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Kyoto Coffee",
+   "type": "place",
+   "surface": "Kyoto",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Cold Brew",
+   "type": "technique",
+   "surface": "cold coffee",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "12:52"
+  },
+  {
+   "canonical": "Nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "Nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "12:52"
+  },
+  {
+   "canonical": "Guinness",
+   "type": "place",
+   "surface": "Guinness",
+   "ts": "12:52"
+  },
+  {
+   "canonical": "Marbling",
+   "type": "technique",
+   "surface": "marbling",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Fat Content",
+   "type": "technique",
+   "surface": "fat content",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Fat Content",
+   "type": "technique",
+   "surface": "fat content",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Food Science",
+   "type": "place",
+   "surface": "Food Science",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "718-497-2128",
+   "type": "place",
+   "surface": "718-497-2128",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "718-497-2128",
+   "type": "place",
+   "surface": "718-497-2128",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "21:33"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "23:06"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "27:28"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Derek",
+   "type": "person",
+   "surface": "Derek",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "23:06"
+  },
+  {
+   "canonical": "Cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Creme Anglaise",
+   "type": "ingredient",
+   "surface": "creme anglaise",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Creme Anglaise",
+   "type": "ingredient",
+   "surface": "creme anglaise",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Creme Anglaise",
+   "type": "ingredient",
+   "surface": "Creme anglaise",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "Celep",
+   "type": "ingredient",
+   "surface": "Celep",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "Salap",
+   "type": "ingredient",
+   "surface": "salap",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Salap",
+   "type": "ingredient",
+   "surface": "salap",
+   "ts": "29:57"
+  },
+  {
+   "canonical": "Paco Jet",
+   "type": "equipment",
+   "surface": "Paco Jet",
+   "ts": "29:57"
+  },
+  {
+   "canonical": "Nisa Helu",
+   "type": "person",
+   "surface": "Nisa Helu",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Distilled Water",
+   "type": "ingredient",
+   "surface": "distilled water",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Distilled Water",
+   "type": "ingredient",
+   "surface": "distilled water",
+   "ts": "21:33"
+  },
+  {
+   "canonical": "Distilled Water",
+   "type": "ingredient",
+   "surface": "distilled water",
+   "ts": "21:47"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "21:47"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "Egg Yolks",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Egg Yolks",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Egg Whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "26:52"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "29:57"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "26:52"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "29:57"
+  },
+  {
+   "canonical": "Stretchy Ice Cream",
+   "type": "ingredient",
+   "surface": "stretchy ice cream",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "New York Times",
+   "type": "place",
+   "surface": "New York Times",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Val",
+   "type": "person",
+   "surface": "Val",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "Val",
+   "type": "person",
+   "surface": "Val",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "30:48"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Doug Baldwin",
+   "type": "person",
+   "surface": "Douglas Baldwin",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Nathan Mirvold",
+   "type": "person",
+   "surface": "Nathan Mirvold",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "30:48"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "Sou vide",
+   "ts": "39:00"
+  },
+  {
+   "canonical": "thermocoupler",
+   "type": "equipment",
+   "surface": "thermocoupler",
+   "ts": "36:17"
+  },
+  {
+   "canonical": "thermocoupler",
+   "type": "equipment",
+   "surface": "thermocoupler",
+   "ts": "36:30"
+  },
+  {
+   "canonical": "pork chop",
+   "type": "ingredient",
+   "surface": "pork chop",
+   "ts": "35:29"
+  },
+  {
+   "canonical": "pork chop",
+   "type": "ingredient",
+   "surface": "pork chop",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "pork chop",
+   "type": "ingredient",
+   "surface": "pork chop",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temp",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temp",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "rendering of fat",
+   "type": "technique",
+   "surface": "rendering of fat",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "pre-sear",
+   "type": "technique",
+   "surface": "pre-sear",
+   "ts": "37:09"
+  },
+  {
+   "canonical": "lactic acid bacteria",
+   "type": "ingredient",
+   "surface": "lactic acid bacteria",
+   "ts": "39:00"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "40:32"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "40:57"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "45:53"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Herald",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Tales of the Cocktail",
+   "type": "place",
+   "surface": "Tales of the Cocktail",
+   "ts": "40:32"
+  },
+  {
+   "canonical": "Tales of the Cocktail",
+   "type": "place",
+   "surface": "Tales of the Cocktail",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary institute",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporation",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous V",
+   "ts": "41:05"
+  },
+  {
+   "canonical": "brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "41:12"
+  },
+  {
+   "canonical": "brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "43:18"
+  },
+  {
+   "canonical": "brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "44:06"
+  },
+  {
+   "canonical": "brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "44:21"
+  },
+  {
+   "canonical": "brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "46:46"
+  },
+  {
+   "canonical": "foam",
+   "type": "technique",
+   "surface": "foam",
+   "ts": "46:46"
+  },
+  {
+   "canonical": "foam",
+   "type": "technique",
+   "surface": "foam",
+   "ts": "47:23"
+  },
+  {
+   "canonical": "Xanthan gum",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "47:23"
+  },
+  {
+   "canonical": "lecithin",
+   "type": "ingredient",
+   "surface": "lecithin",
+   "ts": "47:23"
+  },
+  {
+   "canonical": "cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "aqueous ozone",
+   "type": "ingredient",
+   "surface": "aqueous ozone",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillations",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "pellicle",
+   "type": "technique",
+   "surface": "pellicle",
+   "ts": "44:21"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "49:19"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "49:19"
+  },
+  {
+   "canonical": "Harris Radio Network",
+   "type": "place",
+   "surface": "Harris Radio Network",
+   "ts": "49:19"
+  },
+  {
+   "canonical": "Acme Smoked Fish",
+   "type": "place",
+   "surface": "Acme Smoked Fish",
+   "ts": "49:19"
+  }
+ ]
+}

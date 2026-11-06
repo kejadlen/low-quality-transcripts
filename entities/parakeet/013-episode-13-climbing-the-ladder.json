@@ -1,0 +1,937 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "CVAP",
+   "type": "equipment",
+   "surface": "CVAP",
+   "ts": "2:01"
+  },
+  {
+   "canonical": "CVAP",
+   "type": "equipment",
+   "surface": "CVAP",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "CVAP",
+   "type": "equipment",
+   "surface": "CVAP",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "CVAP",
+   "type": "equipment",
+   "surface": "CVAP",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "combi oven",
+   "type": "equipment",
+   "surface": "COMBY oven",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "VWR circulator",
+   "type": "equipment",
+   "surface": "VWR circulator",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "CLR",
+   "type": "ingredient",
+   "surface": "CLR",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "calcium deposits",
+   "type": "ingredient",
+   "surface": "calcium deposits",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "calcium deposits",
+   "type": "ingredient",
+   "surface": "calcium deposits",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "bleach",
+   "type": "ingredient",
+   "surface": "bleach",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "bleach",
+   "type": "ingredient",
+   "surface": "bleach",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "tortilla chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "prime rib",
+   "type": "ingredient",
+   "surface": "prime rib",
+   "ts": "6:18"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "NRA",
+   "type": "place",
+   "surface": "NRA",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "National Restaurant Show",
+   "type": "place",
+   "surface": "National Restaurant Show",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "University surplus auction",
+   "type": "place",
+   "surface": "university surplus auction",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "Winston",
+   "type": "person",
+   "surface": "Winston",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Colonel Sanders",
+   "type": "person",
+   "surface": "Colonel Sanders",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Nathan Mirvold",
+   "type": "person",
+   "surface": "Nathan Mirvold",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "Howard Richardson",
+   "type": "person",
+   "surface": "Howard Richardson",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "11:59"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "Red",
+   "type": "person",
+   "surface": "Red",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Red",
+   "type": "person",
+   "surface": "red",
+   "ts": "13:44"
+  },
+  {
+   "canonical": "Red",
+   "type": "person",
+   "surface": "red",
+   "ts": "14:33"
+  },
+  {
+   "canonical": "Red",
+   "type": "person",
+   "surface": "Red",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "Nathan",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Nathan",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Williams and Sonoma",
+   "type": "place",
+   "surface": "Williams and Sonoma",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Electric Fly Racket",
+   "type": "equipment",
+   "surface": "electric fly rackets",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Immersion Circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "13:44"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "14:08"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Chicken Thigh",
+   "type": "ingredient",
+   "surface": "chicken thigh",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "Beet",
+   "type": "ingredient",
+   "surface": "beets",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Beet",
+   "type": "ingredient",
+   "surface": "beets",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Syrah Granage",
+   "type": "ingredient",
+   "surface": "Syrah Granage",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Food Grade Lubricant",
+   "type": "ingredient",
+   "surface": "food grade lubricant",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "WD-40",
+   "type": "ingredient",
+   "surface": "WD forty",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "9:17"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "Bearing",
+   "type": "equipment",
+   "surface": "bearing",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Spade Terminal",
+   "type": "equipment",
+   "surface": "spade terminals",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Fly Swatter",
+   "type": "equipment",
+   "surface": "electric fly rackets",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Lizard",
+   "type": "ingredient",
+   "surface": "lizard",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "15:54"
+  },
+  {
+   "canonical": "Ziploc",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "15:54"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "15:54"
+  },
+  {
+   "canonical": "electric fly zapper",
+   "type": "equipment",
+   "surface": "electric fly zapper",
+   "ts": "15:54"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "15:54"
+  },
+  {
+   "canonical": "vacuum bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "19:49"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "20:17"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "21:39"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "22:44"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "soy milk",
+   "type": "ingredient",
+   "surface": "soy milk",
+   "ts": "19:49"
+  },
+  {
+   "canonical": "soy milk",
+   "type": "ingredient",
+   "surface": "soy milk",
+   "ts": "20:17"
+  },
+  {
+   "canonical": "milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "milk protein",
+   "type": "ingredient",
+   "surface": "milk protein",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "milk protein",
+   "type": "ingredient",
+   "surface": "milk protein",
+   "ts": "19:49"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "19:49"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Brian",
+   "type": "person",
+   "surface": "Brian",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Brian",
+   "type": "person",
+   "surface": "Brian",
+   "ts": "19:07"
+  },
+  {
+   "canonical": "NOMA cookbook",
+   "type": "place",
+   "surface": "NOMA cookbook",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "21:39"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "19:49"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "20:17"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "21:39"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "22:44"
+  },
+  {
+   "canonical": "Yuba",
+   "type": "ingredient",
+   "surface": "Yuba",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "Milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Milk skin",
+   "type": "ingredient",
+   "surface": "milk skin",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "Cabbage cream",
+   "type": "ingredient",
+   "surface": "cabbage cream",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "Noma book",
+   "type": "place",
+   "surface": "Noma book",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "William Shirtleaf",
+   "type": "person",
+   "surface": "William Shirtleaf",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "The Book of Tofu",
+   "type": "ingredient",
+   "surface": "The Book of Tofu",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "The Book of Tofu",
+   "type": "ingredient",
+   "surface": "the book of tofu",
+   "ts": "24:42"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Attica",
+   "type": "place",
+   "surface": "Attica",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Attica",
+   "type": "place",
+   "surface": "Attica",
+   "ts": "27:54"
+  },
+  {
+   "canonical": "Attica",
+   "type": "place",
+   "surface": "Attica",
+   "ts": "28:27"
+  },
+  {
+   "canonical": "WD-50",
+   "type": "place",
+   "surface": "WD-50",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Moto",
+   "type": "place",
+   "surface": "Moto",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Townhouse",
+   "type": "place",
+   "surface": "Townhouse",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Asabuco",
+   "type": "ingredient",
+   "surface": "Asabuco",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "veal shank",
+   "type": "ingredient",
+   "surface": "veal shank",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "30:06"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "30:58"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "Pressure cooker",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Nathan Myhrvold",
+   "type": "person",
+   "surface": "Nathan Miraval",
+   "ts": "32:21"
+  },
+  {
+   "canonical": "Nathan Myhrvold",
+   "type": "person",
+   "surface": "Nathan Miravold",
+   "ts": "32:42"
+  },
+  {
+   "canonical": "Nathan Myhrvold",
+   "type": "person",
+   "surface": "Nathan Miravold",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "Modernist Cuisine",
+   "ts": "32:21"
+  },
+  {
+   "canonical": "Edge Pro",
+   "type": "equipment",
+   "surface": "Edge Pro",
+   "ts": "37:03"
+  },
+  {
+   "canonical": "Edge Pro",
+   "type": "equipment",
+   "surface": "Edge Pro",
+   "ts": "37:35"
+  },
+  {
+   "canonical": "Japanese Western style blades",
+   "type": "equipment",
+   "surface": "Japanese Western style blades",
+   "ts": "37:58"
+  },
+  {
+   "canonical": "Traditional Japanese knives",
+   "type": "equipment",
+   "surface": "traditional Japanese knives",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "Traditional Japanese knives",
+   "type": "equipment",
+   "surface": "traditional Japanese knives",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "KORIN.com",
+   "type": "place",
+   "surface": "K-O-R-I-N.com",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "Cafe effect",
+   "type": "technique",
+   "surface": "cafe effect",
+   "ts": "40:07"
+  },
+  {
+   "canonical": "McLean",
+   "type": "person",
+   "surface": "McLean",
+   "ts": "40:48"
+  },
+  {
+   "canonical": "CIA",
+   "type": "place",
+   "surface": "CIA",
+   "ts": "41:22"
+  },
+  {
+   "canonical": "Lombard effect",
+   "type": "technique",
+   "surface": "Lombard effect",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "Lombard effect",
+   "type": "technique",
+   "surface": "Lombard effect",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Lombard effect",
+   "type": "technique",
+   "surface": "Lombard effect",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "cocktail party problem",
+   "type": "technique",
+   "surface": "cocktail party problem",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "cocktail party problem",
+   "type": "technique",
+   "surface": "cocktail party problem",
+   "ts": "41:22"
+  },
+  {
+   "canonical": "cocktail party problem",
+   "type": "technique",
+   "surface": "cocktail party problem",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "cafe effect",
+   "type": "technique",
+   "surface": "cafe effect",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "cafe effect",
+   "type": "technique",
+   "surface": "cafe effect",
+   "ts": "40:48"
+  },
+  {
+   "canonical": "cafe effect",
+   "type": "technique",
+   "surface": "cafe effect",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "cocktail party effect",
+   "type": "technique",
+   "surface": "cocktail party effect",
+   "ts": "40:48"
+  },
+  {
+   "canonical": "cocktail party effect",
+   "type": "technique",
+   "surface": "cocktail party effect",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "42:44"
+  }
+ ]
+}
