@@ -17,10 +17,10 @@ import time
 from pathlib import Path
 
 from mlx_lm import generate, load
-from mlx_lm.sample_utils import make_sampler
+from mlx_lm.sample_utils import make_logits_processors, make_sampler
 
 # Bump when the prompt or output shape changes, so stale extractions can be found.
-PROMPT_VERSION = 1
+PROMPT_VERSION = 2
 
 TYPES = ["person", "technique", "ingredient", "equipment", "place"]
 
@@ -40,6 +40,8 @@ The transcript has speech-recognition errors. List each distinct entity ONCE, wi
 
 Only include specific, notable entities. Skip generic words like "water", "salt", "knife", "kitchen" unless discussed in depth.
 Respond with only a JSON array of objects, no prose."""
+
+MAX_TOKENS = 2500
 
 PARA_RE = re.compile(r"^\[(\d+:\d+(?::\d+)?)\]\s*(.*)$", re.S)
 OBJ_RE = re.compile(r"\{[^{}]*\}")
@@ -93,25 +95,43 @@ def main():
     ap.add_argument("output", type=Path, help="Path to write entities JSON")
     ap.add_argument("--model", default="mlx-community/Qwen3-8B-4bit")
     ap.add_argument("--chunk-chars", type=int, default=10000)
+    ap.add_argument("--repetition-penalty", type=float, default=1.05)
     args = ap.parse_args()
 
     model, tok = load(args.model)
     sampler = make_sampler(temp=0.0)
+    # Greedy decoding otherwise falls into repeating the same entity until the cap.
+    processors = make_logits_processors(repetition_penalty=args.repetition_penalty)
     started = time.time()
 
-    mentions, failed = [], []
-    for i, chunk in enumerate(chunks(paragraphs(args.text.read_text(encoding="utf-8")), args.chunk_chars)):
+    def extract(chunk):
         body = "\n\n".join(f"[{ts}] {text}" for ts, text in chunk)
         prompt = tok.apply_chat_template(
             [{"role": "system", "content": SYSTEM}, {"role": "user", "content": body}],
             add_generation_prompt=True, tokenize=False, enable_thinking=False,
         )
-        out = generate(model, tok, prompt=prompt, max_tokens=2000, sampler=sampler)
+        out = generate(model, tok, prompt=prompt, max_tokens=MAX_TOKENS, sampler=sampler,
+                       logits_processors=processors)
         items, bad = parse_objects(out)
-        if bad or "[" not in out:
-            failed.append(i)
+        # A repetition loop runs to the token cap and leaves an unclosed array.
+        truncated = len(tok.encode(out)) >= MAX_TOKENS or not out.strip().removesuffix("```").rstrip().endswith("]")
         ents = [it for it in items
                 if it.get("type") in TYPES and isinstance(it.get("canonical"), str)]
+        return ents, (bad > 0 or truncated), out
+
+    mentions, failed = [], []
+    for i, chunk in enumerate(chunks(paragraphs(args.text.read_text(encoding="utf-8")), args.chunk_chars)):
+        ents, bad, out = extract(chunk)
+        if bad and len(chunk) > 1:
+            # Loops are less likely with fewer entities to list, so retry in halves.
+            mid = len(chunk) // 2
+            results = [extract(chunk[:mid]), extract(chunk[mid:])]
+            ents = [e for r in results for e in r[0]]
+            bad = any(r[1] for r in results)
+            out = results[-1][2]
+        if bad:
+            failed.append(i)
+            print(f"chunk {i} failed: ...{out[-300:]}", file=sys.stderr)
         mentions += locate(ents, chunk)
 
     result = {"model": args.model, "prompt_version": PROMPT_VERSION,
