@@ -15,7 +15,9 @@ module CookingIssues
     :acast_etag_path,
     :transcriber,
     :transcriber_cache_dir,
-    :text_dir
+    :text_dir,
+    :entities_dir,
+    :aliases_path
   ) do
     def self.from_env(transcriber_key:)
       cache_dir = Pathname("cache")
@@ -33,7 +35,9 @@ module CookingIssues
         acast_etag_path: cache_dir / "acast_feed.etag",
         transcriber: transcriber,
         transcriber_cache_dir: cache_dir / transcriber.name,
-        text_dir: Pathname("transcripts") / transcriber.name
+        text_dir: Pathname("transcripts") / transcriber.name,
+        entities_dir: Pathname("entities") / transcriber.name,
+        aliases_path: Pathname("entities") / "aliases.yml",
       )
     end
   end

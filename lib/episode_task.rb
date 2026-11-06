@@ -5,6 +5,7 @@ module CookingIssues
     def audio_path = (config.audio_dir / "#{slug}.mp3").to_s
     def transcript_path = (config.transcriber_cache_dir / "#{slug}.json").to_s
     def text_path = (config.text_dir / "#{slug}.txt").to_s
+    def entities_path = (config.entities_dir / "#{slug}.json").to_s
     def html_path = (config.pages_dir / "#{slug}.html").to_s
   end
 end

@@ -20,6 +20,8 @@
   </pagefind-modal-footer>
 </pagefind-modal>
 
+<a class="topics-link" href="entities/index.html">Browse topics →</a>
+
 <ul>
 <% transcripts.reverse.each do |ep| %>
   <li><a href="<%= ep.fetch(:slug) %>.html"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></a></li>

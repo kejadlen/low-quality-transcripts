@@ -9,6 +9,7 @@ require "uri"
 require_relative "lib/config"
 require_relative "lib/episode_task"
 require_relative "lib/feed"
+require_relative "lib/graph"
 require_relative "lib/download"
 
 transcriber_key = ENV.fetch("TRANSCRIBER", "parakeet")
@@ -22,6 +23,7 @@ CONFIG.transcriber.register
   CONFIG.audio_dir,
   CONFIG.transcriber_cache_dir,
   CONFIG.text_dir,
+  CONFIG.entities_dir,
 ].each do |dir|
   directory dir.to_s
 end
@@ -76,6 +78,22 @@ def page_source(name) = File.expand_path("lib/pages/#{name}", __dir__)
 LAYOUT_TEMPLATE_PATH = page_source("layout.html.erb")
 EPISODE_TEMPLATE_PATH = page_source("episode.html.erb")
 INDEX_TEMPLATE_PATH = page_source("index.html.erb")
+ENTITY_TEMPLATE_PATH = page_source("entity.html.erb")
+ENTITIES_TEMPLATE_PATH = page_source("entities.html.erb")
+
+# Only extracted episodes, so CI builds from whatever is committed.
+GRAPH_SOURCES = [
+  *EPISODE_TASKS.map(&:entities_path).select { File.exist?(it) },
+  CONFIG.aliases_path.to_s,
+  File.expand_path("lib/graph.rb", __dir__),
+  File.expand_path("lib/timestamp.rb", __dir__),
+]
+
+def graph
+  return @graph if defined?(@graph)
+
+  @graph = CookingIssues::Graph.load(GRAPH_SOURCES.select { it.end_with?(".json") }, CONFIG.aliases_path)
+end
 
 # Titles, canonicals, and the player are rendered here, so this file is a page source too.
 EPISODE_PAGE_SOURCES = [
@@ -84,6 +102,7 @@ EPISODE_PAGE_SOURCES = [
   EPISODE_TEMPLATE_PATH,
   page_source("episode.css"),
   page_source("episode.js"),
+  *GRAPH_SOURCES,
 ]
 INDEX_PAGE_SOURCES = [
   RAKEFILE_PATH,
@@ -130,6 +149,13 @@ EPISODE_TASKS.each do |et|
     file et.text_path => [et.transcript_path, CONFIG.text_dir.to_s] do
       CONFIG.transcriber.render(et.transcript_path, et.text_path)
     end
+
+    # Not a prerequisite on text_path, whose chain re-downloads audio when the
+    # cache is empty; retranscribe deletes this instead. Nor on the script, so
+    # a prompt tweak doesn't silently queue a full-corpus rerun.
+    file et.entities_path => CONFIG.entities_dir.to_s do
+      sh "bin/extract-entities", et.text_path, et.entities_path
+    end
   end
 
   file et.html_path => [et.text_path, CONFIG.pages_dir.to_s, *EPISODE_PAGE_SOURCES] do
@@ -142,7 +168,7 @@ EPISODE_TASKS.each do |et|
     }
 
     html = render_page(EPISODE_TEMPLATE_PATH,
-      page_vars: { ep: },
+      page_vars: { ep:, entities: graph.for_episode(et.slug) },
       layout_vars: {
         title: "#{CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}")} — Cooking Issues",
         # Self-referential so pagefind-highlight's ?highlight= URLs don't read
@@ -166,6 +192,11 @@ end
 
 task default: :sync
 
+desc "Run the unit tests"
+task :test do
+  ruby "-Ilib", "-e", "Dir['test/**/*_test.rb'].each { require File.expand_path(it) }"
+end
+
 desc "Download, transcribe, and render all episodes"
 task :sync do
   EPISODE_TASKS.each { |et| Rake::Task[et.text_path].invoke }
@@ -188,13 +219,27 @@ task :transcribe, [:number] do |_t, args|
   Rake::Task[et.text_path].invoke
 end
 
+desc "Extract entities from every transcribed episode"
+task :entities do
+  EPISODE_TASKS.select { File.exist?(it.text_path) }.each { Rake::Task[it.entities_path].invoke }
+end
+
+desc "Extract entities from an episode by number (e.g., rake extract_entities[42])"
+task :extract_entities, [:number] do |_t, args|
+  abort "Usage: rake extract_entities[NUMBER]" unless args[:number]
+
+  et = EPISODE_TASKS.fetch(args[:number].to_i - 1) { abort "Episode #{args[:number]} not found in feed." }
+
+  Rake::Task[et.entities_path].invoke
+end
+
 desc "Re-transcribe an episode (e.g., rake retranscribe[42])"
 task :retranscribe, [:number] do |_t, args|
   abort "Usage: rake retranscribe[NUMBER]" unless args[:number]
 
   et = EPISODE_TASKS.fetch(args[:number].to_i - 1) { abort "Episode #{args[:number]} not found in feed." }
 
-  [et.transcript_path, et.text_path].each do |path|
+  [et.transcript_path, et.text_path, et.entities_path].each do |path|
     p = Pathname(path)
     p.delete if p.exist?
     Rake::Task[path].reenable
@@ -234,6 +279,56 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, *INDEX_PAGE_SOURCES] do
   puts "Generated #{transcripts.length} episode pages + index."
 end
 
+ENTITIES_DIR = CONFIG.pages_dir / "entities"
+ENTITIES_INDEX_PATH = (ENTITIES_DIR / "index.html").to_s
+ENTITY_PAGE_SOURCES = [
+  RAKEFILE_PATH,
+  LAYOUT_TEMPLATE_PATH,
+  ENTITY_TEMPLATE_PATH,
+  ENTITIES_TEMPLATE_PATH,
+  page_source("entity.css"),
+  *GRAPH_SOURCES,
+]
+ENTITY_TYPES = %w[person technique ingredient equipment place]
+
+# Entity pages come and go with the aliases, so they're rebuilt as one unit.
+file ENTITIES_INDEX_PATH => [*ENTITY_PAGE_SOURCES, CONFIG.pages_dir.to_s] do
+  rm_rf ENTITIES_DIR
+  mkdir_p ENTITIES_DIR
+
+  episodes = EPISODE_TASKS.to_h { |et|
+    [et.slug, { slug: et.slug, number: et.number, title: et.episode.title.sub(/^Episode #{et.number}:\s+/, "") }]
+  }
+  styles = File.read(page_source("entity.css"))
+
+  graph.entities.each do |entity|
+    eps = entity.mentions.filter_map { |slug, timestamps|
+      episodes[slug]&.merge(timestamps:)
+    }.sort_by { -it.fetch(:number) }
+
+    html = render_page(ENTITY_TEMPLATE_PATH,
+      page_vars: { entity:, episodes: eps, related: graph.related(entity) },
+      layout_vars: {
+        title: "#{CGI.escapeHTML(entity.name)} — Cooking Issues",
+        head: %(<link rel="canonical" href="#{BASE_URL}/entities/#{entity.slug}.html" />\n),
+        styles:,
+      })
+    File.write(ENTITIES_DIR / "#{entity.slug}.html", html)
+  end
+
+  by_type = graph.entities.group_by(&:type).sort_by { ENTITY_TYPES.index(it.first) || ENTITY_TYPES.size }
+  html = render_page(ENTITIES_TEMPLATE_PATH,
+    page_vars: { by_type:, min_episodes: CookingIssues::Graph::MIN_EPISODES },
+    layout_vars: {
+      title: "Topics — Cooking Issues",
+      head: %(<link rel="canonical" href="#{BASE_URL}/entities/" />\n),
+      styles:,
+    })
+  File.write(ENTITIES_INDEX_PATH, html)
+
+  puts "Generated #{graph.entities.length} entity pages."
+end
+
 # TODO: Uncomment when DNS is ready for custom domain.
 # CNAME_PATH = (CONFIG.pages_dir / "CNAME").to_s
 # file CNAME_PATH => CONFIG.pages_dir.to_s do
@@ -253,10 +348,12 @@ rescue ArgumentError
   nil
 end
 
-file SITEMAP_PATH => [*ALL_HTML_PATHS, RAKEFILE_PATH, CONFIG.pages_dir.to_s] do
+file SITEMAP_PATH => [*ALL_HTML_PATHS, ENTITIES_INDEX_PATH, RAKEFILE_PATH, CONFIG.pages_dir.to_s] do
   entries = EPISODE_HTML_TASKS.map { |et|
     { loc: "#{BASE_URL}/#{et.slug}.html", lastmod: sitemap_lastmod(et.episode.published_at) }
   }
+  entries += [{ loc: "#{BASE_URL}/entities/", lastmod: nil }]
+  entries += graph.entities.map { { loc: "#{BASE_URL}/entities/#{it.slug}.html", lastmod: nil } }
   entries.unshift({ loc: "#{BASE_URL}/", lastmod: entries.filter_map { it.fetch(:lastmod) }.max })
 
   urls = entries.map { |entry|
@@ -292,12 +389,13 @@ PAGEFIND_VERSION = "1.5.2"
 PAGEFIND_STAMP = (CONFIG.pages_dir / ".pagefind-stamp").to_s
 
 file PAGEFIND_STAMP => ALL_HTML_PATHS do
-  sh "uv", "run", "--with", "pagefind[bin]==#{PAGEFIND_VERSION}", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
+  # Top-level only, so search results stay transcripts rather than topic pages.
+  sh "uv", "run", "--with", "pagefind[bin]==#{PAGEFIND_VERSION}", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s, "--glob", "*.html"
   FileUtils.touch(PAGEFIND_STAMP)
 end
 
 desc "Generate HTML transcript pages and search index"
-task html: [*ALL_HTML_PATHS, SITEMAP_PATH, ROBOTS_PATH, PAGEFIND_STAMP]
+task html: [*ALL_HTML_PATHS, ENTITIES_INDEX_PATH, SITEMAP_PATH, ROBOTS_PATH, PAGEFIND_STAMP]
 
 desc "Serve the generated pages locally"
 task serve: :html do

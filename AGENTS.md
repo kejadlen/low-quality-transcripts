@@ -5,8 +5,8 @@
 Podcast transcript pipeline for Cooking Issues with Dave Arnold.
 Downloads episodes from two RSS feeds (Heritage Radio Network and
 Acast), transcribes audio through swappable backends, renders
-timestamped text, and generates a static site with full-text search
-via Pagefind.
+timestamped text, extracts entities into a cross-episode graph, and
+generates a static site with full-text search via Pagefind.
 
 ## Architecture
 
@@ -16,8 +16,12 @@ lib/feed.rb          — Episode data class, RSS feed parser
 lib/episode_task.rb  — Per-episode path derivation (slug, audio, JSON, text)
 lib/transcribers.rb  — Transcriber classes (resolve, register, call, render)
 lib/download.rb      — HTTP download helper with redirect following
+lib/graph.rb         — Merges per-episode entities into cross-episode entities
+lib/timestamp.rb     — Paragraph timestamp parsing and page anchors
 lib/pages/           — ERB templates for the static site
-bin/                  — Self-contained uv Python scripts (mlx-transcribe, parakeet-transcribe)
+bin/                  — Self-contained uv Python scripts (mlx-transcribe, parakeet-transcribe, extract-entities)
+entities/             — Committed entity extractions and the curated aliases.yml
+test/                 — Minitest unit tests
 Rakefile              — Pipeline orchestration, tasks
 ```
 
@@ -28,6 +32,19 @@ text rendering. The JSON is an intermediate artifact stored in
 `cache/<transcriber>/`. The rendered text lives in
 `transcripts/<transcriber>/` and is committed to the repo. The
 static site is generated from the text files and is not committed.
+
+Entity extraction is a separate stage: `bin/extract-entities` runs a
+local MLX LLM (Qwen3-8B, about two minutes per episode) over the text
+and writes `entities/<transcriber>/<slug>.json`. Those are committed,
+since CI can't rerun them. `lib/graph.rb` merges them at build time
+using `entities/aliases.yml`, keeping entities seen in two or more
+episodes, and the site renders a page per entity under `entities/`.
+
+The entity file task deliberately doesn't depend on the text file or
+the script, so a prompt tweak doesn't queue a full-corpus rerun and an
+empty `cache/` doesn't trigger audio downloads. `retranscribe` deletes
+the episode's entities instead. Fix merge mistakes in `aliases.yml`,
+not by re-extracting.
 
 ## Transcribers
 
@@ -67,5 +84,8 @@ model paths. Others use no constructor arguments.
 | `rake episodes` | List episodes with transcription status |
 | `rake transcribe[N]` | Transcribe a single episode by number |
 | `rake retranscribe[N]` | Re-transcribe from scratch |
+| `rake entities` | Extract entities from every transcribed episode |
+| `rake extract_entities[N]` | Extract entities from a single episode |
+| `rake test` | Run the unit tests |
 | `rake html` | Generate HTML transcript pages and search index |
 | `rake serve` | Build and serve the site locally on port 8000 |

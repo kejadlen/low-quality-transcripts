@@ -1,0 +1,22 @@
+<a class="back" href="index.html">← All topics</a>
+<h1><%= CGI.escapeHTML(entity.name) %></h1>
+<p class="kind"><%= entity.type %> · <%= episodes.size %> episodes</p>
+
+<h2>Episodes</h2>
+<ul class="mentions">
+<% episodes.each do |ep| %>
+  <li>
+    <a href="../<%= ep.fetch(:slug) %>.html"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></a>
+    <span class="ts"><% ep.fetch(:timestamps).each do |ts| %><a href="../<%= ep.fetch(:slug) %>.html#<%= CookingIssues::Timestamp.anchor(ts) %>"><%= CGI.escapeHTML(ts) %></a> <% end %></span>
+  </li>
+<% end %>
+</ul>
+
+<% unless related.empty? %>
+<h2>Often discussed with</h2>
+<ul class="related">
+<% related.each do |r| %>
+  <li><a href="<%= r.entity.slug %>.html"><%= CGI.escapeHTML(r.entity.name) %></a> <span class="kind"><%= r.entity.type %> · <%= r.shared %> shared</span></li>
+<% end %>
+</ul>
+<% end %>

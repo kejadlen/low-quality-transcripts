@@ -32,6 +32,9 @@ jobs:
           enable-cache: true
           cache-dependency-glob: "bin/*"
 
+      - name: Run tests
+        run: bundle exec rake test
+
       - name: Generate pages
         run: bundle exec rake html
 

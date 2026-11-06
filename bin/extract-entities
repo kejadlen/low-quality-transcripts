@@ -1,0 +1,128 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "mlx-lm",
+# ]
+# ///
+
+"""Extract entity mentions from a rendered transcript with a local MLX LLM. Outputs JSON."""
+
+import argparse
+import json
+import os
+import re
+import sys
+import time
+from pathlib import Path
+
+from mlx_lm import generate, load
+from mlx_lm.sample_utils import make_sampler
+
+# Bump when the prompt or output shape changes, so stale extractions can be found.
+PROMPT_VERSION = 1
+
+TYPES = ["person", "technique", "ingredient", "equipment", "place"]
+
+SYSTEM = """You extract entities from a noisy speech-to-text transcript of Cooking Issues, a food-science podcast hosted by Dave Arnold.
+
+Entity types:
+- person: guests, chefs, scientists, authors, callers, co-hosts
+- technique: cooking/preparation methods (e.g. sous vide, clarification, nitro muddling)
+- ingredient: foods, chemicals, additives (e.g. transglutaminase, agar, country ham)
+- equipment: tools and machines (e.g. rotary evaporator, centrifuge, Anti-Griddle)
+- place: restaurants, bars, shops, cities, institutions (e.g. Booker and Dax, French Culinary Institute)
+
+The transcript has speech-recognition errors. List each distinct entity ONCE, with:
+- "canonical": the correct, properly spelled full name (fix misspellings, expand "Harold" to "Harold McGee" if context makes it clear)
+- "surfaces": the distinct spellings exactly as they appear in the transcript
+- "type": one of person, technique, ingredient, equipment, place
+
+Only include specific, notable entities. Skip generic words like "water", "salt", "knife", "kitchen" unless discussed in depth.
+Respond with only a JSON array of objects, no prose."""
+
+PARA_RE = re.compile(r"^\[(\d+:\d+(?::\d+)?)\]\s*(.*)$", re.S)
+OBJ_RE = re.compile(r"\{[^{}]*\}")
+
+
+def paragraphs(text):
+    return [(m[1], m[2]) for p in text.split("\n\n") if (m := PARA_RE.match(p.strip()))]
+
+
+def chunks(paras, max_chars):
+    buf, size = [], 0
+    for ts, text in paras:
+        if buf and size + len(text) > max_chars:
+            yield buf
+            buf, size = [], 0
+        buf.append((ts, text))
+        size += len(text)
+    if buf:
+        yield buf
+
+
+def parse_objects(s):
+    """Parse each flat JSON object independently so one bad row doesn't sink the chunk."""
+    good, bad = [], 0
+    for m in OBJ_RE.finditer(s):
+        try:
+            good.append(json.loads(m[0]))
+        except json.JSONDecodeError:
+            bad += 1
+    return good, bad
+
+
+def locate(entities, paras):
+    """Turn per-chunk entities into per-paragraph mentions by matching surface forms."""
+    out = []
+    for ent in entities:
+        surfaces = [s for s in ent.get("surfaces") or [] if isinstance(s, str) and s.strip()]
+        pats = [re.compile(r"\b" + re.escape(s) + r"\b", re.I) for s in surfaces]
+        for ts, text in paras:
+            for pat in pats:
+                if m := pat.search(text):
+                    out.append({"canonical": ent["canonical"], "type": ent["type"],
+                                "surface": m[0], "ts": ts})
+                    break
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("text", type=Path, help="Path to rendered transcript text")
+    ap.add_argument("output", type=Path, help="Path to write entities JSON")
+    ap.add_argument("--model", default="mlx-community/Qwen3-8B-4bit")
+    ap.add_argument("--chunk-chars", type=int, default=10000)
+    args = ap.parse_args()
+
+    model, tok = load(args.model)
+    sampler = make_sampler(temp=0.0)
+    started = time.time()
+
+    mentions, failed = [], []
+    for i, chunk in enumerate(chunks(paragraphs(args.text.read_text(encoding="utf-8")), args.chunk_chars)):
+        body = "\n\n".join(f"[{ts}] {text}" for ts, text in chunk)
+        prompt = tok.apply_chat_template(
+            [{"role": "system", "content": SYSTEM}, {"role": "user", "content": body}],
+            add_generation_prompt=True, tokenize=False, enable_thinking=False,
+        )
+        out = generate(model, tok, prompt=prompt, max_tokens=2000, sampler=sampler)
+        items, bad = parse_objects(out)
+        if bad or "[" not in out:
+            failed.append(i)
+        ents = [it for it in items
+                if it.get("type") in TYPES and isinstance(it.get("canonical"), str)]
+        mentions += locate(ents, chunk)
+
+    result = {"model": args.model, "prompt_version": PROMPT_VERSION,
+              "failed_chunks": failed, "mentions": mentions}
+    # Rake treats any existing file as done, so never leave a partial one behind.
+    tmp = args.output.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(result, indent=1) + "\n", encoding="utf-8")
+    os.replace(tmp, args.output)
+    print(f"{args.text.name}: {len(mentions)} mentions, {len(failed)} failed chunks, "
+          f"{time.time() - started:.0f}s", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

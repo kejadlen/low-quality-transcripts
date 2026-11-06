@@ -1,0 +1,75 @@
+# Curated fixes applied when merging per-episode extractions into the graph.
+# Matching ignores case, accents, punctuation, "&" vs "and", and a leading "the".
+#
+# entities: canonical name => type override and the variants that map to it.
+#   Single-word people are dropped unless they're listed here.
+# ignore: names that aren't entities at all.
+
+entities:
+  Dave Arnold:
+    type: person
+    aliases: [dave, david arnold, david eugene arnold]
+  Nastassia Lopez:
+    type: person
+    aliases:
+      - nastassia
+      - nastasia
+      - nastasha
+      - nastasha lopez
+      - nastasia lopez
+      - nastasi
+      - nastasi the hammer lopez
+      - nastash
+      - nastassi
+      - stas
+      - staszi
+  Harold McGee:
+    type: person
+    aliases: [harold, mcgee]
+  Nathan Myhrvold:
+    type: person
+    aliases: [nathan mirvold]
+  Booker and Dax:
+    type: place
+  Heritage Radio Network:
+    type: place
+    aliases: [hrn, harris radio network]
+  French Culinary Institute:
+    type: place
+    aliases: [fci]
+  Kitchen Arts and Letters:
+    type: place
+    aliases: [kits and arts and letters]
+  Rotary evaporator:
+    type: equipment
+    aliases: [rotovap, rotary evaporator, roto vap]
+  Spinzall:
+    type: equipment
+    aliases: [spinzole, spin zall]
+  Pacojet:
+    type: equipment
+    aliases: [paco jet]
+  Liquid nitrogen:
+    type: ingredient
+  Sous vide:
+    type: technique
+    aliases: [sou vide, sous v]
+  Whole Foods Market:
+    type: place
+    aliases: [whole foods]
+
+ignore:
+  - um
+  - cooking
+  - cooking issues
+  - temperature
+  - heat
+  - fire
+  - sun
+  - book
+  - software
+  - street
+  - contest
+  - raffle
+  - pre-sale
+  - food-related

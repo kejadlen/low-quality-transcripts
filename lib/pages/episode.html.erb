@@ -3,11 +3,21 @@
 
 <% ep.fetch(:text).split("\n\n").each do |para| %>
   <% if (m = para.match(/\A\[([^\]]+)\]\s*(.*)/)) %>
-    <% anchor = m[1].gsub(/[^0-9:]/, "").gsub(":", "-") %>
-    <% time = m[1].gsub(/[^0-9:]/, "") %>
-    <h6 id="t-<%= anchor %>" class="timestamp"><a href="#t-<%= anchor %>" data-seek="<%= time %>">[<%= CGI.escapeHTML(m[1]) %>]</a></h6>
+    <% anchor = CookingIssues::Timestamp.anchor(m[1]) %>
+    <% time = CookingIssues::Timestamp.clean(m[1]) %>
+    <h6 id="<%= anchor %>" class="timestamp"><a href="#<%= anchor %>" data-seek="<%= time %>">[<%= CGI.escapeHTML(m[1]) %>]</a></h6>
     <p><%= CGI.escapeHTML(m[2]) %></p>
   <% else %>
     <p><%= CGI.escapeHTML(para) %></p>
   <% end %>
+<% end %>
+
+<% unless entities.empty? %>
+<section class="entities" data-pagefind-ignore>
+  <h2>Topics in this episode</h2>
+  <% entities.group_by(&:type).sort.each do |type, es| %>
+    <p><span class="kind"><%= type %>:</span>
+    <% es.each.with_index do |e, i| %><%= ", " unless i.zero? %><a href="entities/<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a><% end %></p>
+  <% end %>
+</section>
 <% end %>
