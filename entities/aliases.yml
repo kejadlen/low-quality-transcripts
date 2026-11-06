@@ -3,12 +3,9 @@
 #
 # entities: canonical name => type override and the variants that map to it.
 #   Single-word people are dropped unless they're listed here.
-# ignore: names that aren't entities at all.
+# ignore: names that shouldn't get a page, whether junk or too ubiquitous to say anything.
 
 entities:
-  Dave Arnold:
-    type: person
-    aliases: [dave, david arnold, david eugene arnold]
   Nastassia Lopez:
     type: person
     aliases:
@@ -59,6 +56,10 @@ entities:
     aliases: [whole foods]
 
 ignore:
+  # The host is in every episode, so a page for him links to everything.
+  - dave arnold
+  - david arnold
+  - david eugene arnold
   - um
   - cooking
   - cooking issues
