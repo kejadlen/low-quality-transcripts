@@ -1,0 +1,931 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:25"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:25"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:12"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "6:51"
+  },
+  {
+   "canonical": "Cabot Cheese",
+   "type": "place",
+   "surface": "Cabot Cheese",
+   "ts": "0:47"
+  },
+  {
+   "canonical": "Cabot Cheese",
+   "type": "place",
+   "surface": "cabbots",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Vietnamese egg soda",
+   "type": "ingredient",
+   "surface": "Vietnamese egg soda",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Vietnamese egg soda",
+   "type": "ingredient",
+   "surface": "Vietnamese egg soda",
+   "ts": "4:14"
+  },
+  {
+   "canonical": "sweet and condensed milk",
+   "type": "ingredient",
+   "surface": "sweet and condensed milk",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "soda water",
+   "type": "ingredient",
+   "surface": "soda water",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "soda water",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "egg yolk",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "egg yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "egg yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "egg yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "2:43"
+  },
+  {
+   "canonical": "egg yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "egg yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "emulsifiers",
+   "type": "ingredient",
+   "surface": "emulsifiers",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "emulsifiers",
+   "type": "ingredient",
+   "surface": "emulsifiers",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Ryan",
+   "type": "person",
+   "surface": "Ryan",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Ryan",
+   "type": "person",
+   "surface": "Ryan",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "Ryan",
+   "type": "person",
+   "surface": "Ryan",
+   "ts": "4:14"
+  },
+  {
+   "canonical": "Ryan",
+   "type": "person",
+   "surface": "Ryan",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Chris Anderson",
+   "type": "person",
+   "surface": "Chris Anderson",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous eat",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Souvete",
+   "ts": "5:06"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "6:12"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "6:51"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Sous Vide and Low Temperature Cooking",
+   "type": "place",
+   "surface": "Sous Vide and Low Temperature Cooking",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Wagyu",
+   "type": "ingredient",
+   "surface": "Wagyu",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Wagyu",
+   "type": "ingredient",
+   "surface": "wagyu",
+   "ts": "5:06"
+  },
+  {
+   "canonical": "Wagyu",
+   "type": "ingredient",
+   "surface": "Wagyu",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "USDA Prime",
+   "type": "ingredient",
+   "surface": "USDA Prime",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "4:14"
+  },
+  {
+   "canonical": "Vietnamese egg soda",
+   "type": "ingredient",
+   "surface": "Vietnamese egg soda",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Vietnamese egg soda",
+   "type": "ingredient",
+   "surface": "Vietnamese egg soda",
+   "ts": "4:14"
+  },
+  {
+   "canonical": "Marbling",
+   "type": "technique",
+   "surface": "marbolized",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Marbling",
+   "type": "technique",
+   "surface": "marbling",
+   "ts": "6:12"
+  },
+  {
+   "canonical": "Marbling",
+   "type": "technique",
+   "surface": "marbling",
+   "ts": "6:51"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "school",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "Nick Wong",
+   "type": "person",
+   "surface": "Nick Nick Wong",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous oxide",
+   "ts": "9:27"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous oxide",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous",
+   "ts": "10:30"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "ISI Whipped Cream Maker",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "9:27"
+  },
+  {
+   "canonical": "ISI Whipped Cream Maker",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "10:30"
+  },
+  {
+   "canonical": "Cocoa Nibs",
+   "type": "ingredient",
+   "surface": "cocoa noes",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "Cocoa Nibs",
+   "type": "ingredient",
+   "surface": "cocoa nibs",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Cocoa Nibs",
+   "type": "ingredient",
+   "surface": "cocoa nibs",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Cocoa Nibs",
+   "type": "ingredient",
+   "surface": "cocoa nibs",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Nitrogen Cavitation",
+   "type": "technique",
+   "surface": "nitrogen cavitation",
+   "ts": "10:30"
+  },
+  {
+   "canonical": "Nitrogen Cavitation",
+   "type": "technique",
+   "surface": "nitrogen cavitation",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "Robertas Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "Qua Restaurant",
+   "type": "place",
+   "surface": "Qua",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Daniel Patterson",
+   "type": "person",
+   "surface": "Daniel Patterson",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Mandy Aftel",
+   "type": "person",
+   "surface": "Mandy Aftel",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Daniel",
+   "type": "person",
+   "surface": "Daniel",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Audrey Saunders",
+   "type": "person",
+   "surface": "Audrey Saunders",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "Pegu Club",
+   "type": "place",
+   "surface": "Pegu Club",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "Sichuan peppercorns",
+   "type": "ingredient",
+   "surface": "Sichuan peppercorn",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Sichuan peppercorns",
+   "type": "ingredient",
+   "surface": "Sichuan peppercorn",
+   "ts": "22:45"
+  },
+  {
+   "canonical": "Sichuan peppercorns",
+   "type": "ingredient",
+   "surface": "Sichuan peppercorn",
+   "ts": "23:11"
+  },
+  {
+   "canonical": "Sichuan peppercorns",
+   "type": "ingredient",
+   "surface": "Sichuan peppercorn",
+   "ts": "24:08"
+  },
+  {
+   "canonical": "Sichuan peppercorns",
+   "type": "ingredient",
+   "surface": "Sichuan peppercorn",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Sancho pepper",
+   "type": "ingredient",
+   "surface": "Sancho",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Sancho pepper",
+   "type": "ingredient",
+   "surface": "Sancho",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "Sichuan Buttons",
+   "type": "ingredient",
+   "surface": "Sichuan Buttons",
+   "ts": "24:08"
+  },
+  {
+   "canonical": "Sichuan Buttons",
+   "type": "ingredient",
+   "surface": "Sichuan buttons",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "elderberry vinegar",
+   "type": "ingredient",
+   "surface": "elderberry vinegar",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Sazerac rye bottle",
+   "type": "equipment",
+   "surface": "Sazerac rye bottle",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Sambar",
+   "type": "place",
+   "surface": "Sambar",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Philip Preston",
+   "type": "person",
+   "surface": "Philip Preston",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Matthew Hex",
+   "type": "person",
+   "surface": "Matthew Hex",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Matthew Hex",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Sous Vintensive",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Immersion Circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "33:54"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "34:52"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "35:01"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Williams Sonoma",
+   "type": "place",
+   "surface": "Williams Sonoma",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Sous Vide Professional",
+   "type": "equipment",
+   "surface": "Sous vide professional",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Calibration",
+   "type": "technique",
+   "surface": "calibration",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Calibration",
+   "type": "technique",
+   "surface": "calibration",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "xanthan gum",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "xanthan gum",
+   "ts": "37:09"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Mono and Diglycerides",
+   "type": "ingredient",
+   "surface": "mono and diglycerides",
+   "ts": "37:09"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "technique",
+   "surface": "mayonnaise",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Persimmon",
+   "type": "ingredient",
+   "surface": "persimmons",
+   "ts": "38:57"
+  },
+  {
+   "canonical": "Persimmon",
+   "type": "ingredient",
+   "surface": "persimmons",
+   "ts": "39:31"
+  },
+  {
+   "canonical": "Persimmon",
+   "type": "ingredient",
+   "surface": "persimmons",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Astringency",
+   "type": "technique",
+   "surface": "astringent",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Astringency",
+   "type": "technique",
+   "surface": "astringent",
+   "ts": "38:57"
+  },
+  {
+   "canonical": "Astringency",
+   "type": "technique",
+   "surface": "astringent",
+   "ts": "39:31"
+  },
+  {
+   "canonical": "Astringency",
+   "type": "technique",
+   "surface": "astringent",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Astringency",
+   "type": "technique",
+   "surface": "astringent",
+   "ts": "40:22"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "40:22"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "41:05"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "42:22"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "43:50"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Sous Vide",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold McGee",
+   "ts": "41:24"
+  },
+  {
+   "canonical": "Walnut",
+   "type": "ingredient",
+   "surface": "walnut",
+   "ts": "38:57"
+  },
+  {
+   "canonical": "Walnut",
+   "type": "ingredient",
+   "surface": "walnut",
+   "ts": "41:05"
+  },
+  {
+   "canonical": "Walnut",
+   "type": "ingredient",
+   "surface": "walnuts",
+   "ts": "41:24"
+  },
+  {
+   "canonical": "Walnut",
+   "type": "ingredient",
+   "surface": "walnut",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Walnut",
+   "type": "ingredient",
+   "surface": "walnut",
+   "ts": "42:22"
+  },
+  {
+   "canonical": "Tannin",
+   "type": "ingredient",
+   "surface": "tannic",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Tannin",
+   "type": "ingredient",
+   "surface": "tannic",
+   "ts": "40:22"
+  },
+  {
+   "canonical": "Isi",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "38:30"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "43:15"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Sous Vide",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "Sofers Stoffer's Secret Society of Sous Vide",
+   "type": "place",
+   "surface": "Sofer's Stoffer's Secret Society of Sous Vide",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "Max",
+   "type": "person",
+   "surface": "Max",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "The Fruits of New York",
+   "type": "place",
+   "surface": "The Fruits of New York",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "The Vegetables in New York",
+   "type": "place",
+   "surface": "The Vegetables in New York",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Mummy Pea",
+   "type": "ingredient",
+   "surface": "mummy",
+   "ts": "46:50"
+  },
+  {
+   "canonical": "Mummy Pea",
+   "type": "ingredient",
+   "surface": "mummy",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Mummy Pea",
+   "type": "ingredient",
+   "surface": "mummy",
+   "ts": "48:04"
+  },
+  {
+   "canonical": "Mummy Dust",
+   "type": "ingredient",
+   "surface": "mummy dust",
+   "ts": "46:50"
+  },
+  {
+   "canonical": "Mummy Dust",
+   "type": "ingredient",
+   "surface": "mummy dust",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Mummy Paint",
+   "type": "ingredient",
+   "surface": "mummy paint",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Cabot Creamery",
+   "type": "place",
+   "surface": "cabot",
+   "ts": "48:25"
+  },
+  {
+   "canonical": "Cabot Creamery",
+   "type": "place",
+   "surface": "Cabot",
+   "ts": "48:51"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "48:25"
+  }
+ ]
+}

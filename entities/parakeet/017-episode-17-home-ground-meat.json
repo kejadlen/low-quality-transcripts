@@ -1,0 +1,865 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:16"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "360 Cookware",
+   "type": "place",
+   "surface": "360 Cookware",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "360 Cookware",
+   "type": "place",
+   "surface": "360 Cookware",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Vapor Technology",
+   "type": "technique",
+   "surface": "vapor technology",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Vapor Technology",
+   "type": "technique",
+   "surface": "vapor technology",
+   "ts": "1:27"
+  },
+  {
+   "canonical": "Vapor Technology",
+   "type": "technique",
+   "surface": "vapor technology",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Vacuum Packing",
+   "type": "technique",
+   "surface": "vacuum packing",
+   "ts": "1:50"
+  },
+  {
+   "canonical": "Food Saver",
+   "type": "equipment",
+   "surface": "food saver",
+   "ts": "2:27"
+  },
+  {
+   "canonical": "Food Saver",
+   "type": "equipment",
+   "surface": "food saver",
+   "ts": "2:47"
+  },
+  {
+   "canonical": "Food Saver",
+   "type": "equipment",
+   "surface": "food saver",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "Food Saver",
+   "type": "equipment",
+   "surface": "food saver",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "Food Saver",
+   "type": "equipment",
+   "surface": "food saver",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Chamber Vacuum Machine",
+   "type": "equipment",
+   "surface": "chamber machine",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Ziploc Bags",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "4:51"
+  },
+  {
+   "canonical": "Ziploc Bags",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "5:12"
+  },
+  {
+   "canonical": "Ziploc Bags",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotor vap",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Champion Juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Carrageenan",
+   "type": "ingredient",
+   "surface": "carrageenin",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Carrageenan",
+   "type": "ingredient",
+   "surface": "carrageenan",
+   "ts": "13:28"
+  },
+  {
+   "canonical": "Locust Bean Gum",
+   "type": "ingredient",
+   "surface": "locust bean gum",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Genutine X9303",
+   "type": "ingredient",
+   "surface": "genutine X9303",
+   "ts": "13:28"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "17:08"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Soybeans",
+   "type": "ingredient",
+   "surface": "soybeans",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Soybeans",
+   "type": "ingredient",
+   "surface": "soybeans",
+   "ts": "18:14"
+  },
+  {
+   "canonical": "Okara",
+   "type": "ingredient",
+   "surface": "okara",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Martha Stewart Show",
+   "type": "place",
+   "surface": "Martha Stewart show",
+   "ts": "9:49"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Le Sanctuary",
+   "type": "place",
+   "surface": "Le Sanctuary's website",
+   "ts": "13:28"
+  },
+  {
+   "canonical": "Nathan Mirvold",
+   "type": "person",
+   "surface": "Nathan Mirvold",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Derek",
+   "type": "person",
+   "surface": "Derek",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Michael",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Epsom salts",
+   "type": "ingredient",
+   "surface": "Epsom salts",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Epsom salts",
+   "type": "ingredient",
+   "surface": "Epsom salts",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Calcium chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Magnesium sulfate",
+   "type": "ingredient",
+   "surface": "Epsom salts",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Magnesium sulfate",
+   "type": "ingredient",
+   "surface": "Epsom salts",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Nigari",
+   "type": "ingredient",
+   "surface": "nigari",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Nigari",
+   "type": "ingredient",
+   "surface": "nigari",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Soybeans",
+   "type": "ingredient",
+   "surface": "soybeans",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Soybeans",
+   "type": "ingredient",
+   "surface": "soybeans",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Okara",
+   "type": "ingredient",
+   "surface": "okara",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "24:00"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "24:12"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Vita Prep",
+   "type": "equipment",
+   "surface": "vita prep",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Pot",
+   "type": "equipment",
+   "surface": "pot",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Meat grinder",
+   "type": "equipment",
+   "surface": "meat grinder",
+   "ts": "24:25"
+  },
+  {
+   "canonical": "Meat grinder",
+   "type": "equipment",
+   "surface": "meat grinder",
+   "ts": "26:22"
+  },
+  {
+   "canonical": "Band saw",
+   "type": "equipment",
+   "surface": "band saw",
+   "ts": "26:22"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "Dwayne Reed",
+   "type": "place",
+   "surface": "Dwayne Reed",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "CVS",
+   "type": "place",
+   "surface": "CVS",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "24:25"
+  },
+  {
+   "canonical": "Dan",
+   "type": "person",
+   "surface": "Dan",
+   "ts": "24:25"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "29:56"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Pectanex SPL",
+   "type": "ingredient",
+   "surface": "Pectinx SPL",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Pectanex SPL",
+   "type": "ingredient",
+   "surface": "Pectanex SPL",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Pectanex SPL",
+   "type": "ingredient",
+   "surface": "Pectan X SPL",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotive app",
+   "ts": "29:56"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotive app",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "32:40"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "blood oranges",
+   "type": "ingredient",
+   "surface": "blood oranges",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Narun Barun",
+   "type": "ingredient",
+   "surface": "Narun Barun",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Narun Barun",
+   "type": "ingredient",
+   "surface": "Narun Barun",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Narun Barun",
+   "type": "ingredient",
+   "surface": "Narun Barun",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Nimrod",
+   "type": "ingredient",
+   "surface": "Nimrod",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "dragons beard candy",
+   "type": "ingredient",
+   "surface": "dragons beard candy",
+   "ts": "35:23"
+  },
+  {
+   "canonical": "corn syrup",
+   "type": "ingredient",
+   "surface": "corn syrup",
+   "ts": "35:23"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "35:23"
+  },
+  {
+   "canonical": "cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Maker's Mark",
+   "type": "ingredient",
+   "surface": "Maker's Mark",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "32:40"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Brogue Dale",
+   "type": "place",
+   "surface": "Brogue Dale",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Kent",
+   "type": "place",
+   "surface": "Kent",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Corvallis, Oregon",
+   "type": "place",
+   "surface": "Corvallis, Oregon",
+   "ts": "33:59"
+  },
+  {
+   "canonical": "Peter Pang",
+   "type": "person",
+   "surface": "Peter Pang",
+   "ts": "37:02"
+  },
+  {
+   "canonical": "Dragon's Beard",
+   "type": "technique",
+   "surface": "Dragon's beard",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Dragon's Beard",
+   "type": "technique",
+   "surface": "Dragon's Beard",
+   "ts": "37:02"
+  },
+  {
+   "canonical": "Dragon's Beard",
+   "type": "technique",
+   "surface": "dragon's beard",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "Dragon's Beard",
+   "type": "technique",
+   "surface": "dragon's beard",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "soba",
+   "type": "technique",
+   "surface": "soba",
+   "ts": "37:39"
+  },
+  {
+   "canonical": "soba",
+   "type": "technique",
+   "surface": "soba",
+   "ts": "37:54"
+  },
+  {
+   "canonical": "tapioca maltodextrin",
+   "type": "ingredient",
+   "surface": "tapioca maltodextrin",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "tapioca maltodextrin",
+   "type": "ingredient",
+   "surface": "tapioca maltodextrin",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "almond flour",
+   "type": "ingredient",
+   "surface": "almond flour",
+   "ts": "39:24"
+  },
+  {
+   "canonical": "almond flour",
+   "type": "ingredient",
+   "surface": "almond flour",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "freeze-dried raspberries",
+   "type": "ingredient",
+   "surface": "freeze-dried raspberries",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "41:07"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "Country Ham",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "S. Wallace Edwards",
+   "type": "place",
+   "surface": "S. Wallace Edwards",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "S. Wallace Edwards",
+   "type": "place",
+   "surface": "S. Wallace Edwards",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Finchville Farms",
+   "type": "place",
+   "surface": "Finchville Farms",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Finchville Farms",
+   "type": "place",
+   "surface": "Finchville Farms",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Finchville Farms",
+   "type": "place",
+   "surface": "Finchville Farms",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "43:48"
+  },
+  {
+   "canonical": "combu",
+   "type": "ingredient",
+   "surface": "combu",
+   "ts": "40:24"
+  },
+  {
+   "canonical": "combu",
+   "type": "ingredient",
+   "surface": "combu",
+   "ts": "40:46"
+  },
+  {
+   "canonical": "True Rural Foods",
+   "type": "place",
+   "surface": "True Rural Foods",
+   "ts": "40:46"
+  },
+  {
+   "canonical": "Pam",
+   "type": "ingredient",
+   "surface": "Pam",
+   "ts": "38:45"
+  }
+ ]
+}
