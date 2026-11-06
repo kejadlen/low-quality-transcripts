@@ -1,0 +1,1375 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "8:23"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "4:29"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "6:57"
+  },
+  {
+   "canonical": "Julio",
+   "type": "person",
+   "surface": "Julio",
+   "ts": "3:24"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "0:14"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Butterhouse",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "3:00"
+  },
+  {
+   "canonical": "Tembernillo",
+   "type": "ingredient",
+   "surface": "Tembernillo",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Tanat",
+   "type": "ingredient",
+   "surface": "Tanat",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Tanat",
+   "type": "ingredient",
+   "surface": "Tanat",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Tanat",
+   "type": "ingredient",
+   "surface": "tanat",
+   "ts": "8:31"
+  },
+  {
+   "canonical": "Boozer",
+   "type": "ingredient",
+   "surface": "Boozer",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Boozer",
+   "type": "ingredient",
+   "surface": "Boozer",
+   "ts": "1:27"
+  },
+  {
+   "canonical": "Procyanidins",
+   "type": "ingredient",
+   "surface": "procyanidins",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Procyanidins",
+   "type": "ingredient",
+   "surface": "procyanidins",
+   "ts": "8:31"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Chocolate Alchemy.com",
+   "type": "place",
+   "surface": "Chocolate Alchemy.com",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Santha",
+   "type": "equipment",
+   "surface": "Santha",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "Santha",
+   "type": "equipment",
+   "surface": "Santha",
+   "ts": "12:08"
+  },
+  {
+   "canonical": "Champion Juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "10:20"
+  },
+  {
+   "canonical": "Champion Juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Champion Juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "Chocolate Melanger",
+   "type": "equipment",
+   "surface": "Santha",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "Chocolate Melanger",
+   "type": "equipment",
+   "surface": "Santha",
+   "ts": "12:08"
+  },
+  {
+   "canonical": "Cocoa Nibs",
+   "type": "ingredient",
+   "surface": "cocoa nibs",
+   "ts": "10:20"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "9:42"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "10:20"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Lecithin",
+   "type": "ingredient",
+   "surface": "lecithin",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Vanilla",
+   "type": "ingredient",
+   "surface": "vanilla",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Vanilla",
+   "type": "ingredient",
+   "surface": "vanilla",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Mass Brothers",
+   "type": "place",
+   "surface": "Mass Brothers",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Cacao Prieto",
+   "type": "place",
+   "surface": "Cacao Prieto",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Jacques Therese",
+   "type": "person",
+   "surface": "Jacques Therese",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Dumbo",
+   "type": "place",
+   "surface": "Dumbo",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Manhattan",
+   "type": "place",
+   "surface": "Manhattan",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Dominican Republic",
+   "type": "place",
+   "surface": "Dominican Republic",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "Sharpenburger",
+   "type": "place",
+   "surface": "Sharpenburger",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Gabe",
+   "type": "person",
+   "surface": "Gabe",
+   "ts": "15:08"
+  },
+  {
+   "canonical": "Limoncello",
+   "type": "ingredient",
+   "surface": "limoncello",
+   "ts": "17:30"
+  },
+  {
+   "canonical": "Limoncello",
+   "type": "ingredient",
+   "surface": "lemon cello",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Limoncello",
+   "type": "ingredient",
+   "surface": "limoncello",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Sugar Syrup",
+   "type": "ingredient",
+   "surface": "sugar syrup",
+   "ts": "17:30"
+  },
+  {
+   "canonical": "Sugar Syrup",
+   "type": "ingredient",
+   "surface": "sugar syrup",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "17:30"
+  },
+  {
+   "canonical": "Brian",
+   "type": "person",
+   "surface": "Brian",
+   "ts": "17:30"
+  },
+  {
+   "canonical": "Brian",
+   "type": "person",
+   "surface": "Brian",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "uzo",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "uzo",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstitch",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "Egg white",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Derek",
+   "type": "person",
+   "surface": "Derek",
+   "ts": "22:00"
+  },
+  {
+   "canonical": "Derek",
+   "type": "person",
+   "surface": "Derek",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "22:00"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Velveting",
+   "type": "technique",
+   "surface": "velveting",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Sodium Bicarbonate",
+   "type": "ingredient",
+   "surface": "sodium bicarbonate",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "Egg white",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Tenderization",
+   "type": "technique",
+   "surface": "tenderize",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Tenderization",
+   "type": "technique",
+   "surface": "tenderizing",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Tenderization",
+   "type": "technique",
+   "surface": "tenderized",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Tenderization",
+   "type": "technique",
+   "surface": "tenderize",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Proteins",
+   "type": "ingredient",
+   "surface": "proteins",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "Carbon Dioxide",
+   "type": "ingredient",
+   "surface": "carbon dioxide",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Porosity",
+   "type": "technique",
+   "surface": "porosity",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Marination",
+   "type": "technique",
+   "surface": "marination",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Marination",
+   "type": "technique",
+   "surface": "marination",
+   "ts": "23:34"
+  },
+  {
+   "canonical": "Marination",
+   "type": "technique",
+   "surface": "marination",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Stir-Fry",
+   "type": "technique",
+   "surface": "stir-fry",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Water Holding Capacity",
+   "type": "technique",
+   "surface": "water holding capacity",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Water Holding Capacity",
+   "type": "technique",
+   "surface": "water holding capacity",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Bicarbonate Solutions",
+   "type": "technique",
+   "surface": "bicarbonate solutions",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "32:12"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "32:12"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking so",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "Pretzel",
+   "type": "ingredient",
+   "surface": "pretzel",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "Pretzel",
+   "type": "ingredient",
+   "surface": "pretzel",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Can Sue",
+   "type": "ingredient",
+   "surface": "can sue",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Uruguay",
+   "type": "place",
+   "surface": "Uruguay",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Tannat Grapes",
+   "type": "ingredient",
+   "surface": "tanat grapes",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Hans",
+   "type": "person",
+   "surface": "Hans",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Hans",
+   "type": "person",
+   "surface": "Hans",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Soda Siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Soda Siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Cream Whipper",
+   "type": "equipment",
+   "surface": "cream whipper",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Super Freezing",
+   "type": "technique",
+   "surface": "super freezing",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "Super Freezing",
+   "type": "technique",
+   "surface": "Super freezing",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Super Freezing",
+   "type": "technique",
+   "surface": "super freezing",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "Supercooling",
+   "type": "technique",
+   "surface": "supercooling",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Supercooling",
+   "type": "technique",
+   "surface": "supercooling",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "Mojito",
+   "type": "ingredient",
+   "surface": "mojito",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Mojito",
+   "type": "ingredient",
+   "surface": "mojito",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous oxide",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous oxide",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "Soda Siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Soda Siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Daiquiri",
+   "type": "ingredient",
+   "surface": "daiquiri",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Sugar Syrup",
+   "type": "ingredient",
+   "surface": "sugar syrup",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "37:27"
+  },
+  {
+   "canonical": "Audrey Saunders",
+   "type": "person",
+   "surface": "Audrey Saunders",
+   "ts": "39:53"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "39:00"
+  },
+  {
+   "canonical": "Core Container",
+   "type": "equipment",
+   "surface": "core container",
+   "ts": "39:53"
+  },
+  {
+   "canonical": "Core Container",
+   "type": "equipment",
+   "surface": "core container",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Core Container",
+   "type": "equipment",
+   "surface": "core container",
+   "ts": "41:08"
+  },
+  {
+   "canonical": "Hawthorne Strainer",
+   "type": "equipment",
+   "surface": "Hawthorne uh strainers",
+   "ts": "39:53"
+  },
+  {
+   "canonical": "Daiquiri",
+   "type": "ingredient",
+   "surface": "daiquiris",
+   "ts": "41:31"
+  },
+  {
+   "canonical": "Cocktail Shaker",
+   "type": "equipment",
+   "surface": "cocktail shaker",
+   "ts": "39:20"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "39:00"
+  },
+  {
+   "canonical": "Strainer",
+   "type": "equipment",
+   "surface": "strainers",
+   "ts": "39:53"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "39:20"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "41:08"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "42:04"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Takeout Joint",
+   "type": "place",
+   "surface": "takeout joint",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Garrett",
+   "type": "person",
+   "surface": "Garrett",
+   "ts": "43:15"
+  },
+  {
+   "canonical": "Perlini system",
+   "type": "equipment",
+   "surface": "Perlini system",
+   "ts": "43:27"
+  },
+  {
+   "canonical": "CO2 tanks",
+   "type": "equipment",
+   "surface": "CO2 tanks",
+   "ts": "43:27"
+  },
+  {
+   "canonical": "ball lock fittings",
+   "type": "equipment",
+   "surface": "ball lock fittings",
+   "ts": "43:27"
+  },
+  {
+   "canonical": "soda siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "43:27"
+  },
+  {
+   "canonical": "soda siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "soda siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "cream whipper",
+   "type": "equipment",
+   "surface": "cream whipper",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "soda stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "soda stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Sparkle",
+   "type": "equipment",
+   "surface": "Sparkle",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonating",
+   "ts": "43:15"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonating",
+   "ts": "43:27"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonating",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "nucleation sites",
+   "type": "technique",
+   "surface": "nucleation sites",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "43:27"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "44:34"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "48:36"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "48:55"
+  },
+  {
+   "canonical": "soda equipment",
+   "type": "equipment",
+   "surface": "soda equipment",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "49:39"
+  },
+  {
+   "canonical": "Negroni",
+   "type": "ingredient",
+   "surface": "Negroni",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "48:55"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "siphon",
+   "type": "equipment",
+   "surface": "siphon",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "siphon",
+   "type": "equipment",
+   "surface": "siphon",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "siphon",
+   "type": "equipment",
+   "surface": "siphon",
+   "ts": "47:25"
+  },
+  {
+   "canonical": "cream whipper",
+   "type": "equipment",
+   "surface": "cream whipper",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "Mark Powers",
+   "type": "place",
+   "surface": "Mark Powers",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "Guntersville, Alabama",
+   "type": "place",
+   "surface": "Guntersville, Alabama",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "EC",
+   "type": "place",
+   "surface": "EC",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "Barter House",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Booza",
+   "type": "place",
+   "surface": "Booza",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Vicious Vish",
+   "type": "place",
+   "surface": "Vicious Vish",
+   "ts": "49:51"
+  }
+ ]
+}

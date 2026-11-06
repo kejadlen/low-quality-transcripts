@@ -1,0 +1,949 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Wondrich",
+   "type": "person",
+   "surface": "Dave Wondrich",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Dave Wondrich",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "Dave Wondrich",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Dave Wondrich",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha Lopez",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "0:16"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "umami",
+   "type": "technique",
+   "surface": "umami",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "umami",
+   "type": "technique",
+   "surface": "umami",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "monosodium glutamate",
+   "type": "ingredient",
+   "surface": "monosodium glutamate",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "Parmesan cheese",
+   "type": "ingredient",
+   "surface": "parmesan cheese",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "Punch",
+   "type": "technique",
+   "surface": "Punch",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Punch",
+   "type": "technique",
+   "surface": "punch",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "Punch",
+   "type": "technique",
+   "surface": "punch",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "dilution",
+   "type": "technique",
+   "surface": "dilution",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "dilution",
+   "type": "technique",
+   "surface": "dilution",
+   "ts": "7:29"
+  },
+  {
+   "canonical": "dilution",
+   "type": "technique",
+   "surface": "dilution",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "ice",
+   "type": "equipment",
+   "surface": "ice",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "ice",
+   "type": "equipment",
+   "surface": "ice",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "ice",
+   "type": "equipment",
+   "surface": "ice",
+   "ts": "7:29"
+  },
+  {
+   "canonical": "shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "7:29"
+  },
+  {
+   "canonical": "shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "8:33"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "7:29"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "chartreuse",
+   "type": "ingredient",
+   "surface": "chartreuse",
+   "ts": "5:12"
+  },
+  {
+   "canonical": "vermouth",
+   "type": "ingredient",
+   "surface": "vermouth",
+   "ts": "5:12"
+  },
+  {
+   "canonical": "bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "5:12"
+  },
+  {
+   "canonical": "California Cabernet",
+   "type": "ingredient",
+   "surface": "California Cabernet",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "Burgundy",
+   "type": "ingredient",
+   "surface": "Burgundy",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "14:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "16:54"
+  },
+  {
+   "canonical": "Dave Wondrich",
+   "type": "person",
+   "surface": "Dave Wondridge",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Dave Wondrich",
+   "type": "person",
+   "surface": "Dave Wondrich",
+   "ts": "16:54"
+  },
+  {
+   "canonical": "Tony Concello",
+   "type": "person",
+   "surface": "Tony Tony Conyo con Corneliaro",
+   "ts": "16:14"
+  },
+  {
+   "canonical": "Mixology",
+   "type": "technique",
+   "surface": "mixology",
+   "ts": "10:27"
+  },
+  {
+   "canonical": "Mixology",
+   "type": "technique",
+   "surface": "mixology",
+   "ts": "11:44"
+  },
+  {
+   "canonical": "Mixology",
+   "type": "technique",
+   "surface": "Mixology",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Mixology",
+   "type": "technique",
+   "surface": "mixology",
+   "ts": "12:44"
+  },
+  {
+   "canonical": "Mixology",
+   "type": "technique",
+   "surface": "mixology",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Mixology",
+   "type": "technique",
+   "surface": "mixology",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Molecular Mixology",
+   "type": "technique",
+   "surface": "molecular mixology",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Molecular Mixology",
+   "type": "technique",
+   "surface": "molecular mixology",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "9:36"
+  },
+  {
+   "canonical": "Ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "9:36"
+  },
+  {
+   "canonical": "Ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "10:27"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "9:36"
+  },
+  {
+   "canonical": "Craft Distilling",
+   "type": "technique",
+   "surface": "craft distilling",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "Dutch Distilled Spirits",
+   "type": "ingredient",
+   "surface": "Dutch distilled spirits",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "69 Colbrook Row",
+   "type": "place",
+   "surface": "69 Colbrook Row",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "London",
+   "type": "place",
+   "surface": "London",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "Purneau",
+   "type": "place",
+   "surface": "Purno Ricard",
+   "ts": "20:42"
+  },
+  {
+   "canonical": "Tales of the Cocktail",
+   "type": "place",
+   "surface": "Tales of the Cocktail",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "Archer Daniels Midland",
+   "type": "place",
+   "surface": "Archer Daniels Midland",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Sheedam",
+   "type": "place",
+   "surface": "Sheedham",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Death and Company",
+   "type": "place",
+   "surface": "Death and Company",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Pegu Club",
+   "type": "place",
+   "surface": "Pegu Club",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "PDT",
+   "type": "place",
+   "surface": "PDT",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Rye House",
+   "type": "place",
+   "surface": "Rye House",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "19th Street",
+   "type": "place",
+   "surface": "19th Street",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "New Orleans",
+   "type": "place",
+   "surface": "New Orleans",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "Holland",
+   "type": "place",
+   "surface": "Holland",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "Holland",
+   "type": "place",
+   "surface": "Holland",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Geneva",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "Geneva",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarified juice",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "26:11"
+  },
+  {
+   "canonical": "craft distillation",
+   "type": "technique",
+   "surface": "craft distillation",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "molecular mixology",
+   "type": "technique",
+   "surface": "molecular mixology",
+   "ts": "17:57"
+  },
+  {
+   "canonical": "molecular mixology",
+   "type": "technique",
+   "surface": "molecular mixology",
+   "ts": "18:22"
+  },
+  {
+   "canonical": "clarified juice",
+   "type": "ingredient",
+   "surface": "clarified juice",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "plum juice",
+   "type": "ingredient",
+   "surface": "plum juice",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "rye malt",
+   "type": "ingredient",
+   "surface": "rye malt",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "barley malt",
+   "type": "ingredient",
+   "surface": "barley malt",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "barley malt",
+   "type": "ingredient",
+   "surface": "barley malt",
+   "ts": "22:44"
+  },
+  {
+   "canonical": "juniper berry",
+   "type": "ingredient",
+   "surface": "juniper berry",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "grain neutral spirit",
+   "type": "ingredient",
+   "surface": "grain neutral spirit",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "botanicals",
+   "type": "ingredient",
+   "surface": "botanicals",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "steel still",
+   "type": "equipment",
+   "surface": "steel still",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "copper plates",
+   "type": "equipment",
+   "surface": "copper plates",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "18th century stills",
+   "type": "equipment",
+   "surface": "18th century stills",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "distillery",
+   "type": "place",
+   "surface": "distilleries",
+   "ts": "26:11"
+  },
+  {
+   "canonical": "distillery",
+   "type": "place",
+   "surface": "distilleries",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "still",
+   "type": "equipment",
+   "surface": "still",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "still",
+   "type": "equipment",
+   "surface": "still",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "still",
+   "type": "equipment",
+   "surface": "still",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "nectarine",
+   "type": "ingredient",
+   "surface": "nectarine",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "peach",
+   "type": "ingredient",
+   "surface": "peach",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "plum",
+   "type": "ingredient",
+   "surface": "plum",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "gin",
+   "type": "ingredient",
+   "surface": "Gin",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Wandrich",
+   "ts": "33:21"
+  },
+  {
+   "canonical": "Jerry Thomas",
+   "type": "person",
+   "surface": "Jerry Thomas",
+   "ts": "33:49"
+  },
+  {
+   "canonical": "Jerry Thomas",
+   "type": "person",
+   "surface": "Jerry Thomas",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "Inbibe",
+   "type": "technique",
+   "surface": "Inbibe",
+   "ts": "33:21"
+  },
+  {
+   "canonical": "Imbibe",
+   "type": "technique",
+   "surface": "Imbibe",
+   "ts": "33:49"
+  },
+  {
+   "canonical": "Imbibe",
+   "type": "technique",
+   "surface": "Imbibe",
+   "ts": "34:19"
+  },
+  {
+   "canonical": "Punch",
+   "type": "technique",
+   "surface": "punch",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "200-proof ethanol",
+   "type": "ingredient",
+   "surface": "200-proof ethanol",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "Ethanol",
+   "type": "ingredient",
+   "surface": "ethanol",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "Arch Archer Daniel",
+   "type": "place",
+   "surface": "Arch Archer Daniel",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "Smyrnoff",
+   "type": "ingredient",
+   "surface": "Smyrnoff",
+   "ts": "31:07"
+  },
+  {
+   "canonical": "Jerry Thomas",
+   "type": "person",
+   "surface": "Jerry Thomas",
+   "ts": "37:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "43:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "Perigee Books",
+   "type": "place",
+   "surface": "Perigee Books",
+   "ts": "43:23"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "37:28"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "40:44"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Punch",
+   "type": "ingredient",
+   "surface": "punch",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Cognac",
+   "type": "ingredient",
+   "surface": "cognac",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Citrus Juice",
+   "type": "ingredient",
+   "surface": "citrus juice",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Muddle",
+   "type": "technique",
+   "surface": "muddle",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Shrub",
+   "type": "ingredient",
+   "surface": "shrub",
+   "ts": "43:09"
+  },
+  {
+   "canonical": "Swivel Bladed Peeler",
+   "type": "equipment",
+   "surface": "swivel bladed peeler",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Martini",
+   "type": "ingredient",
+   "surface": "martini",
+   "ts": "38:04"
+  },
+  {
+   "canonical": "Martini",
+   "type": "ingredient",
+   "surface": "martini",
+   "ts": "41:16"
+  }
+ ]
+}

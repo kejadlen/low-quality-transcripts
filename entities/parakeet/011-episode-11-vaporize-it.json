@@ -1,0 +1,937 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:12"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:12"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastashi",
+   "ts": "3:25"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "0:12"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "3:25"
+  },
+  {
+   "canonical": "Starchefs",
+   "type": "place",
+   "surface": "Starchefs",
+   "ts": "1:55"
+  },
+  {
+   "canonical": "Robert's Pizza",
+   "type": "place",
+   "surface": "Robert's Pizza",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Yule Gibbons",
+   "type": "person",
+   "surface": "Yule",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Paul Stamitz",
+   "type": "person",
+   "surface": "Paul Stamitz",
+   "ts": "8:07"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "2:35"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "Maker's Mark",
+   "type": "ingredient",
+   "surface": "Maker's Mark",
+   "ts": "2:35"
+  },
+  {
+   "canonical": "Maker's Mark",
+   "type": "ingredient",
+   "surface": "Maker's Mark",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "roto vapping",
+   "ts": "4:27"
+  },
+  {
+   "canonical": "wild foraging",
+   "type": "technique",
+   "surface": "wild ingredients",
+   "ts": "5:06"
+  },
+  {
+   "canonical": "wild foraging",
+   "type": "technique",
+   "surface": "wild herbs",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Nils",
+   "type": "person",
+   "surface": "Nils",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Lamb's Quarters",
+   "type": "ingredient",
+   "surface": "Lamb's Quarters",
+   "ts": "9:52"
+  },
+  {
+   "canonical": "Lamb's Quarters",
+   "type": "ingredient",
+   "surface": "Lamb's Quarters",
+   "ts": "11:24"
+  },
+  {
+   "canonical": "Sea Rocket",
+   "type": "ingredient",
+   "surface": "sea rocket",
+   "ts": "11:07"
+  },
+  {
+   "canonical": "Auric",
+   "type": "ingredient",
+   "surface": "auric",
+   "ts": "9:52"
+  },
+  {
+   "canonical": "Auric",
+   "type": "ingredient",
+   "surface": "auric",
+   "ts": "11:24"
+  },
+  {
+   "canonical": "Wild Sea Beans",
+   "type": "ingredient",
+   "surface": "wild sea beans",
+   "ts": "11:24"
+  },
+  {
+   "canonical": "Pine Needles",
+   "type": "ingredient",
+   "surface": "pine needles",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Pine Nuts",
+   "type": "ingredient",
+   "surface": "pine nuts",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Fur",
+   "type": "ingredient",
+   "surface": "fur",
+   "ts": "13:39"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "13:39"
+  },
+  {
+   "canonical": "Oak Water",
+   "type": "ingredient",
+   "surface": "oak water",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Rotovap",
+   "type": "equipment",
+   "surface": "rotov app",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Vacuum Packer",
+   "type": "equipment",
+   "surface": "vacuum packer",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Whipped Cream Maker",
+   "type": "equipment",
+   "surface": "whipped cream maker",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "ISI Whipper",
+   "type": "equipment",
+   "surface": "ISI whipper",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Pocket Travel Portable Butane Handheld Herbal Vaporizer",
+   "type": "equipment",
+   "surface": "pocket travel portable butane handheld herbal vaporizer",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Herbal Vaporizer",
+   "type": "equipment",
+   "surface": "herbal vaporizer",
+   "ts": "15:14"
+  },
+  {
+   "canonical": "Herbal Vaporizer",
+   "type": "equipment",
+   "surface": "herbal vaporizer",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Grateful Dead",
+   "type": "place",
+   "surface": "Grateful Dead",
+   "ts": "16:29"
+  },
+  {
+   "canonical": "El Calar Canroca",
+   "type": "place",
+   "surface": "El Calar Canroca",
+   "ts": "16:29"
+  },
+  {
+   "canonical": "Roca Brothers",
+   "type": "person",
+   "surface": "Roca brothers",
+   "ts": "16:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Grant Aikitz",
+   "type": "person",
+   "surface": "Grant Aikitz",
+   "ts": "18:08"
+  },
+  {
+   "canonical": "Chip",
+   "type": "person",
+   "surface": "Chip",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Chip",
+   "type": "person",
+   "surface": "Chip",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Fairway",
+   "type": "place",
+   "surface": "Fairway",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Fairway",
+   "type": "place",
+   "surface": "Fairway",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Volcano vaporizer",
+   "type": "equipment",
+   "surface": "volcano",
+   "ts": "18:08"
+  },
+  {
+   "canonical": "Volcano vaporizer",
+   "type": "equipment",
+   "surface": "volcano",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Volcano vaporizer",
+   "type": "equipment",
+   "surface": "volcano",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Smoking gun",
+   "type": "equipment",
+   "surface": "smoking gun",
+   "ts": "17:00"
+  },
+  {
+   "canonical": "Smoking gun",
+   "type": "equipment",
+   "surface": "smoking gun",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "Vaporizer",
+   "type": "equipment",
+   "surface": "vaporizer",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "Vaporizer",
+   "type": "equipment",
+   "surface": "vaporizer",
+   "ts": "18:08"
+  },
+  {
+   "canonical": "Silicon Carbide",
+   "type": "ingredient",
+   "surface": "silicon carbide",
+   "ts": "24:45"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "24:45"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "26:09"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Pizza Stone",
+   "type": "equipment",
+   "surface": "pizza stone",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Tandoori Chicken",
+   "type": "ingredient",
+   "surface": "tandoori chicken",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "26:09"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Otto",
+   "type": "place",
+   "surface": "Otto",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Nastasha Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandor",
+   "ts": "27:26"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandor",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "31:12"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "34:04"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "34:55"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Meringue",
+   "type": "ingredient",
+   "surface": "meringues",
+   "ts": "33:42"
+  },
+  {
+   "canonical": "Sorbet",
+   "type": "ingredient",
+   "surface": "sorbet",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Tapioca Starch",
+   "type": "ingredient",
+   "surface": "tapioca starch",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Fireplace",
+   "type": "equipment",
+   "surface": "fireplace",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Fireplace",
+   "type": "equipment",
+   "surface": "fireplace",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "27:26"
+  },
+  {
+   "canonical": "Crepe Maker",
+   "type": "equipment",
+   "surface": "crepe maker",
+   "ts": "27:26"
+  },
+  {
+   "canonical": "Fireplace",
+   "type": "equipment",
+   "surface": "fireplace",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Fireplace",
+   "type": "equipment",
+   "surface": "fireplace",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwaves",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwaves",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Stone Oven",
+   "type": "equipment",
+   "surface": "stone oven",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Gas Fire Tandor",
+   "type": "equipment",
+   "surface": "gas fire tandor",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Fireplace",
+   "type": "equipment",
+   "surface": "fireplace",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Fireplace",
+   "type": "equipment",
+   "surface": "fireplace",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Indoor Outdoor Kitchen",
+   "type": "place",
+   "surface": "indoor outdoor kitchen",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Indoor Outdoor Kitchen",
+   "type": "place",
+   "surface": "indoor outdoor kitchen",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "Batterberry",
+   "type": "place",
+   "surface": "Batterberry",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "National Starch Corporation",
+   "type": "place",
+   "surface": "National Starch Corporation",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "37:09"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "37:34"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "38:14"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "40:16"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cellulose",
+   "ts": "40:16"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cellulose",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Tapioca Maltodextrin",
+   "type": "ingredient",
+   "surface": "tapioca maltodextrin",
+   "ts": "37:34"
+  },
+  {
+   "canonical": "Tapioca Maltodextrin",
+   "type": "ingredient",
+   "surface": "tapioca maltodextrin",
+   "ts": "38:14"
+  },
+  {
+   "canonical": "Saccharin",
+   "type": "ingredient",
+   "surface": "saccharin",
+   "ts": "38:14"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "habanero",
+   "ts": "41:46"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "habanero",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "habanero",
+   "ts": "42:53"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "habanero",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "habanero",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "41:46"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Ethanol",
+   "type": "ingredient",
+   "surface": "ethanol",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Ethanol",
+   "type": "ingredient",
+   "surface": "ethanol",
+   "ts": "44:05"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Vogue",
+   "type": "place",
+   "surface": "Vogue",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Vogue",
+   "type": "place",
+   "surface": "Vogue",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "Concord Grapes",
+   "type": "ingredient",
+   "surface": "Concord Grapes",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "pectin breaking down enzyme",
+   "type": "ingredient",
+   "surface": "pectin breaking down enzyme",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "chocolate grinder",
+   "type": "equipment",
+   "surface": "chocolate grinder",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "rye whiskey",
+   "type": "ingredient",
+   "surface": "rye whiskey",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "maker's mark",
+   "type": "ingredient",
+   "surface": "maker's mark",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "47:59"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Macy machine",
+   "type": "equipment",
+   "surface": "Macy machine",
+   "ts": "46:25"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "46:47"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "47:51"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark Ladner",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Hudson River",
+   "type": "place",
+   "surface": "Hudson River",
+   "ts": "48:11"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "51:10"
+  }
+ ]
+}
