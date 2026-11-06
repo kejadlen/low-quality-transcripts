@@ -146,13 +146,18 @@ EPISODE_TASKS.each do |et|
       CONFIG.transcriber.call(et.audio_path, et.transcript_path)
     end
 
-    file et.text_path => [et.transcript_path, CONFIG.text_dir.to_s] do
+    # The transcript is invoked from the action rather than declared as a
+    # prerequisite: committed text outlives an empty cache, and a declared
+    # prerequisite would re-download and re-transcribe it anyway.
+    # retranscribe deletes the text to force a rebuild.
+    file et.text_path => CONFIG.text_dir.to_s do
+      Rake::Task[et.transcript_path].invoke
       CONFIG.transcriber.render(et.transcript_path, et.text_path)
     end
 
-    # Not a prerequisite on text_path, whose chain re-downloads audio when the
-    # cache is empty; retranscribe deletes this instead. Nor on the script, so
-    # a prompt tweak doesn't silently queue a full-corpus rerun.
+    # Not a prerequisite on text_path, whose mtime is arbitrary after a
+    # checkout; retranscribe deletes this instead. Nor on the script, so a
+    # prompt tweak doesn't silently queue a full-corpus rerun.
     file et.entities_path => CONFIG.entities_dir.to_s do
       sh "bin/extract-entities", et.text_path, et.entities_path
     end
@@ -221,7 +226,15 @@ end
 
 desc "Extract entities from every transcribed episode"
 task :entities do
-  EPISODE_TASKS.select { File.exist?(it.text_path) }.each { Rake::Task[it.entities_path].invoke }
+  # One bad episode shouldn't end an overnight run.
+  failures = EPISODE_TASKS.select { File.exist?(it.text_path) }.filter_map do |et|
+    Rake::Task[et.entities_path].invoke
+    nil
+  rescue => e
+    warn "#{et.slug}: #{e.message}"
+    et.slug
+  end
+  abort "Entity extraction failed for: #{failures.join(", ")}" unless failures.empty?
 end
 
 desc "Extract entities from an episode by number (e.g., rake extract_entities[42])"

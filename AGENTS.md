@@ -30,7 +30,9 @@ Rakefile              — Pipeline orchestration, tasks
 Each episode flows through: audio download → JSON transcription →
 text rendering. The JSON is an intermediate artifact stored in
 `cache/<transcriber>/`. The rendered text lives in
-`transcripts/<transcriber>/` and is committed to the repo. The
+`transcripts/<transcriber>/` and is committed to the repo. A text
+file is only rebuilt when it's missing, so an empty `cache/` never
+triggers downloads; `rake retranscribe[N]` deletes it to force one. The
 static site is generated from the text files and is not committed.
 
 Entity extraction is a separate stage: `bin/extract-entities` runs a
@@ -41,8 +43,8 @@ using `entities/aliases.yml`, keeping entities seen in two or more
 episodes, and the site renders a page per entity under `entities/`.
 
 The entity file task deliberately doesn't depend on the text file or
-the script, so a prompt tweak doesn't queue a full-corpus rerun and an
-empty `cache/` doesn't trigger audio downloads. `retranscribe` deletes
+the script, so a prompt tweak doesn't queue a full-corpus rerun and a
+fresh checkout's arbitrary mtimes don't either. `retranscribe` deletes
 the episode's entities instead. Fix merge mistakes in `aliases.yml`,
 not by re-extracting.
 
