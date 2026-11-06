@@ -1,0 +1,1471 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha the Lopez Hammer",
+   "ts": "0:13"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "Cabot Cheese",
+   "type": "place",
+   "surface": "Cabot Cheese",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "6:07"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "6:40"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "6:07"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "beta amylase",
+   "type": "ingredient",
+   "surface": "beta amylase",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "pectin methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "smoking gun",
+   "type": "equipment",
+   "surface": "smoking gun",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "smoking gun",
+   "type": "equipment",
+   "surface": "smoking gun",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "Poly Science",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "5:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "9:44"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "14:41"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "Teddy DeVico",
+   "type": "person",
+   "surface": "Teddy",
+   "ts": "10:16"
+  },
+  {
+   "canonical": "Teddy DeVico",
+   "type": "person",
+   "surface": "Teddy",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "10:16"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "Activa RM",
+   "type": "ingredient",
+   "surface": "Activa",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Ginamoto",
+   "type": "place",
+   "surface": "Ginamoto",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Aji Foods USA",
+   "type": "place",
+   "surface": "Aji Foods USA",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Le Sanctuaire",
+   "type": "place",
+   "surface": "Le Sanctuaire",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "Terra Spice",
+   "type": "place",
+   "surface": "Terra Spice",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD50",
+   "ts": "10:16"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "neon lamp",
+   "type": "equipment",
+   "surface": "neon lamp",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "foam core",
+   "type": "equipment",
+   "surface": "foam core",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "bag cooking",
+   "type": "technique",
+   "surface": "cooking them in a bag",
+   "ts": "8:52"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "chicken skin",
+   "type": "ingredient",
+   "surface": "chicken skin",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "chicken skin",
+   "type": "ingredient",
+   "surface": "chicken skin",
+   "ts": "11:35"
+  },
+  {
+   "canonical": "skirt steak",
+   "type": "ingredient",
+   "surface": "skirt steak",
+   "ts": "11:35"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potatoes",
+   "ts": "8:52"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potatoes",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "9:44"
+  },
+  {
+   "canonical": "potato",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "8:52"
+  },
+  {
+   "canonical": "potato",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "9:44"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "neon lamp",
+   "type": "equipment",
+   "surface": "neon lamp",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "foam core",
+   "type": "equipment",
+   "surface": "foam core",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:07"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "18:58"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "18:43"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "21:38"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "23:45"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "18:24"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "18:58"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Speed of Light",
+   "type": "technique",
+   "surface": "speed of light",
+   "ts": "18:58"
+  },
+  {
+   "canonical": "Speed of Light",
+   "type": "technique",
+   "surface": "speed of light",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Speed of Light",
+   "type": "technique",
+   "surface": "speed of light",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Standing Wave",
+   "type": "technique",
+   "surface": "standing wave",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "Standing Wave",
+   "type": "technique",
+   "surface": "standing wave",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Frequency",
+   "type": "technique",
+   "surface": "frequency",
+   "ts": "18:58"
+  },
+  {
+   "canonical": "Wavelength",
+   "type": "technique",
+   "surface": "wavelength",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "Ken Ingber",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Ken Ingber",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "Citro\u00ebn Mass",
+   "type": "place",
+   "surface": "Citro\u00ebn Mass",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Citro\u00ebn Mass",
+   "type": "place",
+   "surface": "Citroate Mass",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "18:43"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "21:38"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "23:45"
+  },
+  {
+   "canonical": "Lab Conco",
+   "type": "place",
+   "surface": "Lab Conco",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Centrovap",
+   "type": "equipment",
+   "surface": "centrovap",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Lexan",
+   "type": "ingredient",
+   "surface": "Lexan",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "Garlic",
+   "ts": "24:55"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "25:47"
+  },
+  {
+   "canonical": "Aluminum Foil",
+   "type": "ingredient",
+   "surface": "aluminum foil",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Aluminum Foil",
+   "type": "ingredient",
+   "surface": "aluminum foil",
+   "ts": "25:47"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "24:55"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "21:38"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "22:14"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "25:47"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "25:47"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Aluminum foil",
+   "type": "ingredient",
+   "surface": "aluminum foil",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Chinatown meat",
+   "type": "ingredient",
+   "surface": "meat hanging in the window",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Chinatown meat",
+   "type": "ingredient",
+   "surface": "meat in the window",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Shellac",
+   "type": "ingredient",
+   "surface": "shellac",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Water activity",
+   "type": "technique",
+   "surface": "water activity",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Hanging",
+   "type": "technique",
+   "surface": "hanging",
+   "ts": "27:20"
+  },
+  {
+   "canonical": "Hanging",
+   "type": "technique",
+   "surface": "hanging",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Hanging",
+   "type": "technique",
+   "surface": "hanging",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "Hanging",
+   "type": "technique",
+   "surface": "hanging",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Hanging",
+   "type": "technique",
+   "surface": "hanging",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Hanging",
+   "type": "technique",
+   "surface": "hanging",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Spoilage bacteria",
+   "type": "ingredient",
+   "surface": "spoilage bacteria",
+   "ts": "26:28"
+  },
+  {
+   "canonical": "Spoilage bacteria",
+   "type": "ingredient",
+   "surface": "spoilage bacteria",
+   "ts": "31:03"
+  },
+  {
+   "canonical": "Food safety",
+   "type": "technique",
+   "surface": "food safety",
+   "ts": "26:53"
+  },
+  {
+   "canonical": "Food safety",
+   "type": "technique",
+   "surface": "food safety",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Food safety",
+   "type": "technique",
+   "surface": "food safety",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Food codes",
+   "type": "technique",
+   "surface": "food codes",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Food regulations",
+   "type": "technique",
+   "surface": "food regulations",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Translucent surface",
+   "type": "technique",
+   "surface": "dry, fried, crispy surface",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Microbiology",
+   "type": "technique",
+   "surface": "microbiology",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Texas Hunters magazine",
+   "type": "place",
+   "surface": "Texas Hunters magazine",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulators",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "35:04"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuff",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Ziploc bag",
+   "type": "equipment",
+   "surface": "Ziploc bags",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Celsius",
+   "type": "technique",
+   "surface": "Celsius",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Celsius",
+   "type": "technique",
+   "surface": "Celsius",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastash",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Ted Allen",
+   "type": "person",
+   "surface": "Ted Allen",
+   "ts": "43:09"
+  },
+  {
+   "canonical": "Popular Science",
+   "type": "place",
+   "surface": "popular science",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Popular Science",
+   "type": "place",
+   "surface": "popular science",
+   "ts": "43:09"
+  },
+  {
+   "canonical": "Popular Science",
+   "type": "place",
+   "surface": "popular science",
+   "ts": "43:33"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Narragansett Turkey",
+   "type": "ingredient",
+   "surface": "Narraganset",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Narragansett Turkey",
+   "type": "ingredient",
+   "surface": "Narraganset",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Aluminum Skeleton",
+   "type": "equipment",
+   "surface": "aluminum skeleton",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Aluminum Skeleton",
+   "type": "equipment",
+   "surface": "aluminum skeleton",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Immersion Circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Glove Boning",
+   "type": "technique",
+   "surface": "glove boning",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Ziploc Bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Aluminum Foil",
+   "type": "equipment",
+   "surface": "aluminum foil",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "37:57"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Eggs",
+   "type": "ingredient",
+   "surface": "eggs",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Sausage",
+   "type": "ingredient",
+   "surface": "sausage",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Hot Fat",
+   "type": "ingredient",
+   "surface": "hot fat",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "t",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "t",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "t",
+   "ts": "43:33"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "t",
+   "ts": "44:11"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "t",
+   "ts": "44:30"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Westchester",
+   "type": "place",
+   "surface": "Westchester",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Westchester",
+   "type": "place",
+   "surface": "Westchester",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Rhode Island",
+   "type": "place",
+   "surface": "Rhode Island",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Fibery",
+   "type": "ingredient",
+   "surface": "fibery",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Fibery",
+   "type": "ingredient",
+   "surface": "fibery",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "Feed Conversion Ratio",
+   "type": "technique",
+   "surface": "feed conversion ratio",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Raccoon",
+   "type": "ingredient",
+   "surface": "raccoon",
+   "ts": "44:30"
+  },
+  {
+   "canonical": "Cabot Creamery",
+   "type": "place",
+   "surface": "Cabot Cooperative",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "Cabot Creamery",
+   "type": "place",
+   "surface": "Cabot Creamery",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "New England",
+   "type": "place",
+   "surface": "New England",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "718-497-2128",
+   "type": "place",
+   "surface": "718-497-2128",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "info@heritageradio network.com",
+   "type": "place",
+   "surface": "info at heritageradio network.com",
+   "ts": "45:40"
+  }
+ ]
+}

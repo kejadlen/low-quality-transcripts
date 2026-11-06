@@ -1,0 +1,709 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "1:33"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "1:56"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "S. Wallace Edwards",
+   "ts": "2:20"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "3:27"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "9:07"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "2:20"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "3:27"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "equipment",
+   "surface": "TIC gums",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "equipment",
+   "surface": "TIC Gums",
+   "ts": "5:48"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "equipment",
+   "surface": "TIC gums",
+   "ts": "6:04"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "equipment",
+   "surface": "TIC gums",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "equipment",
+   "surface": "TIC gums",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "equipment",
+   "surface": "TIC Gums",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Saladizer 210S",
+   "type": "ingredient",
+   "surface": "saladizer 210S",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Picaloid",
+   "type": "ingredient",
+   "surface": "picaloid",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Murray's Cheese",
+   "type": "place",
+   "surface": "Murray's cheese",
+   "ts": "1:33"
+  },
+  {
+   "canonical": "Murray's Cheese",
+   "type": "place",
+   "surface": "Murray's cheese",
+   "ts": "2:20"
+  },
+  {
+   "canonical": "Surrey Farms",
+   "type": "place",
+   "surface": "Surrey Farms",
+   "ts": "1:56"
+  },
+  {
+   "canonical": "Surrey Farms",
+   "type": "place",
+   "surface": "Surrey Farms",
+   "ts": "2:20"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "University of Maryland",
+   "type": "place",
+   "surface": "University of Maryland",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "PIC gums",
+   "type": "equipment",
+   "surface": "PIC gums",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Gum Guru",
+   "type": "equipment",
+   "surface": "gum guru",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Gum Guru",
+   "type": "equipment",
+   "surface": "Gum Guru",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Grace",
+   "type": "person",
+   "surface": "Grace",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "Ben Ripple",
+   "type": "person",
+   "surface": "Ben Ripple",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Ben Ripple",
+   "type": "person",
+   "surface": "Ben Ripple",
+   "ts": "13:59"
+  },
+  {
+   "canonical": "Ben Ripple",
+   "type": "person",
+   "surface": "Ben Ripple",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Big Tree Farms",
+   "type": "place",
+   "surface": "big Tree Farms",
+   "ts": "13:59"
+  },
+  {
+   "canonical": "Big Tree Farms",
+   "type": "place",
+   "surface": "Big Tree Farms",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Sarma Melangai",
+   "type": "person",
+   "surface": "Sarma",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "16:08"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "dehydrator",
+   "type": "equipment",
+   "surface": "dehydrator",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "cocoa butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "cocoa butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "cocoa beans",
+   "type": "ingredient",
+   "surface": "cocoa beans",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "raw chocolate",
+   "type": "ingredient",
+   "surface": "raw chocolate",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "raw chocolate",
+   "type": "ingredient",
+   "surface": "raw chocolate",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "sashimi",
+   "type": "ingredient",
+   "surface": "sashimi",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "sashimi",
+   "type": "ingredient",
+   "surface": "sashimi",
+   "ts": "16:08"
+  },
+  {
+   "canonical": "carpaccio",
+   "type": "ingredient",
+   "surface": "carpaccio",
+   "ts": "16:08"
+  },
+  {
+   "canonical": "carpaccio",
+   "type": "ingredient",
+   "surface": "carpaccio",
+   "ts": "16:26"
+  },
+  {
+   "canonical": "Parmesan cheese",
+   "type": "ingredient",
+   "surface": "parmesan",
+   "ts": "16:08"
+  },
+  {
+   "canonical": "Parmesan cheese",
+   "type": "ingredient",
+   "surface": "parmesan",
+   "ts": "16:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Natasha Lopez",
+   "type": "person",
+   "surface": "Natasha",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Robertas Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Thai Red Lime Paste",
+   "type": "ingredient",
+   "surface": "Thai red lime paste",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Thai Red Lime Paste",
+   "type": "ingredient",
+   "surface": "Thai red lime paste",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Thai Red Lime Paste",
+   "type": "ingredient",
+   "surface": "Thai red lime paste",
+   "ts": "26:17"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixtil mo nixtolamization",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixtimalization",
+   "ts": "26:17"
+  },
+  {
+   "canonical": "Browning Reactions",
+   "type": "technique",
+   "surface": "myard reactions",
+   "ts": "19:37"
+  },
+  {
+   "canonical": "Browning Reactions",
+   "type": "technique",
+   "surface": "Majard reactions",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "Browning Reactions",
+   "type": "technique",
+   "surface": "myard reactions",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "19:37"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Turmeric",
+   "type": "ingredient",
+   "surface": "turmeric",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Tempura Batter",
+   "type": "technique",
+   "surface": "tempura batters",
+   "ts": "26:17"
+  },
+  {
+   "canonical": "She Simmers",
+   "type": "place",
+   "surface": "She Simmers",
+   "ts": "25:32"
+  },
+  {
+   "canonical": "Leela",
+   "type": "person",
+   "surface": "Leela",
+   "ts": "25:32"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "27:41"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "27:41"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "27:41"
+  },
+  {
+   "canonical": "Egg Substitute",
+   "type": "ingredient",
+   "surface": "egg substitute",
+   "ts": "30:26"
+  },
+  {
+   "canonical": "Egg Substitute",
+   "type": "ingredient",
+   "surface": "egg substitute",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Egg Substitute",
+   "type": "ingredient",
+   "surface": "egg substitute",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Methyl Cellulose",
+   "type": "ingredient",
+   "surface": "methyl cellulose",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Soy Lecithin",
+   "type": "ingredient",
+   "surface": "soy less than",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "34:05"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold McGee",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold McGee",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Keys to Good Cooking",
+   "type": "place",
+   "surface": "keys to good cooking",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "40:32"
+  },
+  {
+   "canonical": "Miley",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Food Network magazine",
+   "type": "place",
+   "surface": "Food Network magazine",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "38:15"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "40:50"
+  }
+ ]
+}
