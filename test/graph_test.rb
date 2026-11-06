@@ -53,6 +53,14 @@ class GraphTest < Minitest::Test
     assert_equal ["9:05", "1:00:24"], graph.entities.first.mentions.fetch("a")
   end
 
+  def test_featured_min_rises_until_the_default_view_fits_the_target
+    people = (1..70).map { "Person #{it}" }
+    extractions = (1..4).to_h { |ep| [ep.to_s, people.first(ep <= 3 ? 70 : 10).map { mention(it) }] }
+    graph = build(extractions)
+
+    assert_equal 4, graph.featured_min
+  end
+
   def test_related_favors_rare_entities_over_ubiquitous_ones
     everywhere = %w[a b c d].to_h { [it, [mention("Dave Arnold")]] }
     extractions = everywhere.merge(

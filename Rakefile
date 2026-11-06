@@ -339,7 +339,7 @@ file ENTITIES_INDEX_PATH => [*ENTITY_PAGE_SOURCES, CONFIG.pages_dir.to_s] do
 
   by_type = graph.entities.group_by(&:type).sort_by { ENTITY_TYPES.index(it.first) || ENTITY_TYPES.size }
   html = render_page(ENTITIES_TEMPLATE_PATH,
-    page_vars: { by_type:, featured_min: CookingIssues::Graph::FEATURED_MIN_EPISODES },
+    page_vars: { by_type:, featured_min: graph.featured_min },
     layout_vars: {
       title: "Topics — Cooking Issues",
       head: %(<link rel="canonical" href="#{BASE_URL}/entities/" />\n),

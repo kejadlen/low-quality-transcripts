@@ -14,8 +14,10 @@ module CookingIssues
     Related = Data.define(:entity, :shared)
 
     MIN_EPISODES = 2
-    # Topics below this are on the index only behind a toggle.
-    FEATURED_MIN_EPISODES = 3
+    # The index shows at most this many topics by default; the rest sit behind
+    # a toggle, and the cutoff rises with the corpus to keep it that way.
+    FEATURED_TARGET = 60
+    FEATURED_FLOOR = 3
     RELATED_LIMIT = 12
 
     # Turns name variants ("The Booker & Dax", "Crème Anglaise") into one key.
@@ -78,9 +80,10 @@ module CookingIssues
         e.episodes.each { @by_episode[it] << e }
       end
       @episode_count = extractions.size
+      @featured_min = (FEATURED_FLOOR..).find { |n| @entities.count { it.episodes.size >= n } <= FEATURED_TARGET }
     end
 
-    attr_reader :entities
+    attr_reader :entities, :featured_min
 
     def for_episode(episode_slug) = @by_episode.fetch(episode_slug, [])
 
