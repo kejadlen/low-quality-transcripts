@@ -1,12 +1,20 @@
 <a class="back" href="../">← All episodes</a>
 <h1>Topics</h1>
-<p class="kind">People, techniques, ingredients, equipment, and places mentioned in at least <%= min_episodes %> episodes. Extracted automatically, so expect noise.</p>
+<p class="kind">People, techniques, ingredients, equipment, and places, extracted automatically, so expect noise.</p>
+
+<% minor_count = by_type.sum { |_, es| es.count { it.episodes.size < featured_min } } %>
+<% if minor_count.positive? %>
+<label class="toggle"><input type="checkbox" id="show-minor"> Show <%= minor_count %> more topics mentioned in fewer than <%= featured_min %> episodes</label>
+<% end %>
 
 <% by_type.each do |type, entities| %>
+<% all_minor = entities.all? { it.episodes.size < featured_min } %>
+<section<%= ' class="minor"' if all_minor %>>
 <h2 id="<%= type %>"><%= type.capitalize %></h2>
 <ul class="topics">
 <% entities.each do |e| %>
-  <li><a href="<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a> <span class="kind"><%= e.episodes.size %></span></li>
+  <li<%= ' class="minor"' if e.episodes.size < featured_min %>><a href="<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a> <span class="kind"><%= e.episodes.size %></span></li>
 <% end %>
 </ul>
+</section>
 <% end %>

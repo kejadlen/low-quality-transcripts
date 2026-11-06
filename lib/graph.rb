@@ -14,6 +14,8 @@ module CookingIssues
     Related = Data.define(:entity, :shared)
 
     MIN_EPISODES = 2
+    # Topics below this are on the index only behind a toggle.
+    FEATURED_MIN_EPISODES = 3
     RELATED_LIMIT = 12
 
     # Turns name variants ("The Booker & Dax", "Crème Anglaise") into one key.
