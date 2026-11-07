@@ -1,20 +1,23 @@
 <a class="back" href="../">← All episodes</a>
 <h1>Topics</h1>
-<p class="kind">People, techniques, ingredients, equipment, and places, extracted automatically, so expect noise.</p>
-
-<% minor_count = by_type.sum { |_, es| es.count { it.episodes.size < featured_min } } %>
-<% if minor_count.positive? %>
-<label class="toggle"><input type="checkbox" id="show-minor"> Show <%= minor_count %> more topics mentioned in fewer than <%= featured_min %> episodes</label>
-<% end %>
+<p class="kind">People, techniques, ingredients, equipment, and places, extracted automatically, so expect noise. Each section lists topics from <%= featured_min %> or more episodes; the rest are folded underneath.</p>
 
 <% by_type.each do |type, entities| %>
-<% all_minor = entities.all? { it.episodes.size < featured_min } %>
-<section<%= ' class="minor"' if all_minor %>>
+<% featured, minor = entities.partition { it.episodes.size >= featured_min } %>
+<section>
 <h2 id="<%= type %>"><%= type.capitalize %></h2>
+<% if featured.any? %>
 <ul class="topics">
-<% entities.each do |e| %>
-  <li<%= ' class="minor"' if e.episodes.size < featured_min %>><a href="<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a> <span class="kind"><%= e.episodes.size %></span></li>
+<% featured.each do |e| %>
+  <li><a href="<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a> <span class="kind"><%= e.episodes.size %></span></li>
 <% end %>
 </ul>
+<% end %>
+<% if minor.any? %>
+<details class="more">
+<summary><%= featured.any? ? "#{minor.size} more" : "Show #{minor.size}" %></summary>
+<p class="more-list"><%= minor.sort_by { it.name.downcase }.map { %(<a href="#{it.slug}.html">#{CGI.escapeHTML(it.name)}</a>) }.join(" · ") %></p>
+</details>
+<% end %>
 </section>
 <% end %>

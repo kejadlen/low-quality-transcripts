@@ -8,6 +8,6 @@ ul { list-style: none; }
 .ts a { color: #888; }
 .topics { columns: 16rem; }
 .topics li { break-inside: avoid; padding: 0.1rem 0; }
-.toggle { display: block; margin-top: 0.5rem; font-size: 0.85rem; color: #555; cursor: pointer; }
-.minor { display: none; }
-body:has(#show-minor:checked) .minor { display: revert; }
+.more { margin-top: 0.5rem; }
+.more summary { font-size: 0.85rem; color: #555; cursor: pointer; }
+.more-list { margin-top: 0.5rem; font-size: 0.9rem; line-height: 1.7; }
