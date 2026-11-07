@@ -1,0 +1,829 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:10"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:47"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "6:39"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Sous V",
+   "type": "technique",
+   "surface": "Sous V",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Chef Steps",
+   "type": "place",
+   "surface": "Chef Steps",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Homer",
+   "type": "place",
+   "surface": "Homer",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Homer",
+   "type": "place",
+   "surface": "Homer",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "Alaska",
+   "type": "place",
+   "surface": "Alaska",
+   "ts": "0:42"
+  },
+  {
+   "canonical": "Alaska",
+   "type": "place",
+   "surface": "Alaska",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Alaska",
+   "type": "place",
+   "surface": "Alaska",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "Birch syrup",
+   "type": "ingredient",
+   "surface": "birch syrup",
+   "ts": "0:42"
+  },
+  {
+   "canonical": "Birch syrup",
+   "type": "ingredient",
+   "surface": "birch syrup",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Birch syrup",
+   "type": "ingredient",
+   "surface": "birch syrup",
+   "ts": "1:10"
+  },
+  {
+   "canonical": "Birch syrup",
+   "type": "ingredient",
+   "surface": "birch syrup",
+   "ts": "2:13"
+  },
+  {
+   "canonical": "Birch syrup",
+   "type": "ingredient",
+   "surface": "birch syrup",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "Bridge Creek",
+   "type": "place",
+   "surface": "Bridge Creek",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "House guest Olympics",
+   "type": "technique",
+   "surface": "house guest Olympics",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "House guest Olympics",
+   "type": "technique",
+   "surface": "house guest Olympics",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "House guest Olympics",
+   "type": "technique",
+   "surface": "house guest Olympics",
+   "ts": "4:18"
+  },
+  {
+   "canonical": "House guest Olympics",
+   "type": "technique",
+   "surface": "house guest Olympics",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Truffles",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Daryl Hall and John Oates",
+   "type": "place",
+   "surface": "Daryl Hall and John Oates",
+   "ts": "6:39"
+  },
+  {
+   "canonical": "Grateful Dead",
+   "type": "place",
+   "surface": "Grateful Dead",
+   "ts": "7:30"
+  },
+  {
+   "canonical": "Grateful Dead",
+   "type": "place",
+   "surface": "Grateful Dead",
+   "ts": "7:45"
+  },
+  {
+   "canonical": "Grateful Dead",
+   "type": "place",
+   "surface": "Grateful Dead",
+   "ts": "7:50"
+  },
+  {
+   "canonical": "Grateful Dead",
+   "type": "place",
+   "surface": "Grateful Dead",
+   "ts": "8:16"
+  },
+  {
+   "canonical": "Touch of Grey",
+   "type": "ingredient",
+   "surface": "Touch of Grey",
+   "ts": "7:50"
+  },
+  {
+   "canonical": "Dave Matthews",
+   "type": "place",
+   "surface": "Dave Matthews",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "Lucia Inguido",
+   "type": "person",
+   "surface": "Luci",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "11:16"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Sarasota",
+   "type": "place",
+   "surface": "Sarasota",
+   "ts": "11:16"
+  },
+  {
+   "canonical": "Madison Square Garden",
+   "type": "place",
+   "surface": "Madison Square Garden",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Barclay Center",
+   "type": "place",
+   "surface": "Barclay Center",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Ringling Brothers Barnum and Bailey Circus",
+   "type": "place",
+   "surface": "Ringling Brothers Barnum and Bailey Circus",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Dongpo Pork",
+   "type": "ingredient",
+   "surface": "Dongpo",
+   "ts": "12:33"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "12:33"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "12:33"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Scallions",
+   "type": "ingredient",
+   "surface": "scallions",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Ginger",
+   "type": "ingredient",
+   "surface": "ginger",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Rock Sugar",
+   "type": "ingredient",
+   "surface": "rock sugar",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braised",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "16:47"
+  },
+  {
+   "canonical": "Steel Drum",
+   "type": "equipment",
+   "surface": "steel drum",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Steel Drum",
+   "type": "equipment",
+   "surface": "steel drum",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "55 Gallon Drum",
+   "type": "equipment",
+   "surface": "55 gallon drum",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Food and Wine",
+   "type": "place",
+   "surface": "Food and Wine",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Oliver Schwanner Albright",
+   "type": "person",
+   "surface": "Oliver Schwanner Albright",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "23:08"
+  },
+  {
+   "canonical": "Stus",
+   "type": "person",
+   "surface": "Stus",
+   "ts": "22:55"
+  },
+  {
+   "canonical": "Cesare",
+   "type": "person",
+   "surface": "Cesare",
+   "ts": "17:52"
+  },
+  {
+   "canonical": "Nate Simon",
+   "type": "person",
+   "surface": "Nate Simon",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Nate Simon",
+   "type": "person",
+   "surface": "Nate Simon",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Nate Simon",
+   "type": "person",
+   "surface": "Nate Simon",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "Milk Washing",
+   "type": "technique",
+   "surface": "milk washing",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarify",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Ultra Pasteurized Milk",
+   "type": "ingredient",
+   "surface": "ultra patch pasteurized milk",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "Ultra Pasteurized Milk",
+   "type": "ingredient",
+   "surface": "ultra pasteurizing",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Non-Homogenized Milk",
+   "type": "ingredient",
+   "surface": "non-homogenized milk",
+   "ts": "21:38"
+  },
+  {
+   "canonical": "Non-Homogenized Milk",
+   "type": "ingredient",
+   "surface": "non homogenized milk",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "Pasteurized Milk",
+   "type": "ingredient",
+   "surface": "pasteurized milk",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "Pasteurized Milk",
+   "type": "ingredient",
+   "surface": "pasteurized milk",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centerfuge",
+   "ts": "22:38"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centerfuge",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "24:18"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "26:09"
+  },
+  {
+   "canonical": "Caramelization",
+   "type": "technique",
+   "surface": "caramelization",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Caramelization",
+   "type": "technique",
+   "surface": "caramelization",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "Marronage",
+   "type": "technique",
+   "surface": "mired reaction",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Marronage",
+   "type": "technique",
+   "surface": "myard",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "Sacramento",
+   "type": "place",
+   "surface": "Sacramento",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Sacramento",
+   "type": "place",
+   "surface": "Sacramento",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Green Zone",
+   "type": "place",
+   "surface": "Green Zone",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "DC",
+   "type": "place",
+   "surface": "DC",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "Sodium Acetate",
+   "type": "ingredient",
+   "surface": "sodium acetate",
+   "ts": "26:38"
+  },
+  {
+   "canonical": "Sodium Hydroxide",
+   "type": "ingredient",
+   "surface": "sodium hydroxide",
+   "ts": "27:14"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Low-Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "27:14"
+  },
+  {
+   "canonical": "Low-Temperature Cooking",
+   "type": "technique",
+   "surface": "low-temp cooking",
+   "ts": "27:54"
+  },
+  {
+   "canonical": "Low-Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Low-Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "30:14"
+  },
+  {
+   "canonical": "Hemoglobin",
+   "type": "ingredient",
+   "surface": "hemoglobin",
+   "ts": "27:54"
+  },
+  {
+   "canonical": "Hemoglobin",
+   "type": "ingredient",
+   "surface": "hemoglobin",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Hemoglobin",
+   "type": "ingredient",
+   "surface": "hemoglobin",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Protein Gel",
+   "type": "ingredient",
+   "surface": "protein gel",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Deoxymyoglobin",
+   "type": "ingredient",
+   "surface": "deoxymyoglobin",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Oxymyoglobin",
+   "type": "ingredient",
+   "surface": "oxymyoglobin",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Hemoglobin",
+   "type": "ingredient",
+   "surface": "hemoglobin",
+   "ts": "27:54"
+  },
+  {
+   "canonical": "Hemoglobin",
+   "type": "ingredient",
+   "surface": "hemoglobin",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Hemoglobin",
+   "type": "ingredient",
+   "surface": "hemoglobin",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "27:14"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature book",
+   "ts": "30:14"
+  },
+  {
+   "canonical": "Oxygenation",
+   "type": "technique",
+   "surface": "oxygen environment",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Oxygenation",
+   "type": "technique",
+   "surface": "Oxygenated meat",
+   "ts": "30:14"
+  },
+  {
+   "canonical": "Micro Oxygen Environment",
+   "type": "technique",
+   "surface": "micro oxygen environment",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "30:14"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "30:48"
+  }
+ ]
+}
