@@ -421,9 +421,10 @@ end
 PAGEFIND_VERSION = "1.5.2"
 PAGEFIND_STAMP = (CONFIG.pages_dir / ".pagefind-stamp").to_s
 
-file PAGEFIND_STAMP => ALL_HTML_PATHS do
-  # Top-level only, so search results stay transcripts rather than topic pages.
-  sh "uv", "run", "--with", "pagefind[bin]==#{PAGEFIND_VERSION}", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s, "--glob", "*.html"
+# Episode and topic templates mark their content with data-pagefind-body, which
+# keeps the index pages and topic snippets out of results.
+file PAGEFIND_STAMP => [*ALL_HTML_PATHS, ENTITIES_INDEX_PATH] do
+  sh "uv", "run", "--with", "pagefind[bin]==#{PAGEFIND_VERSION}", "python3", "-m", "pagefind", "--site", CONFIG.pages_dir.to_s
   FileUtils.touch(PAGEFIND_STAMP)
 end
 

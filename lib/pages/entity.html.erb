@@ -1,5 +1,6 @@
+<article data-pagefind-body>
 <a class="back" href="index.html">← All topics</a>
-<h1><%= CGI.escapeHTML(entity.name) %></h1>
+<h1 data-pagefind-meta="title:<%= CGI.escapeHTML("#{entity.name} (topic)") %>"><%= CGI.escapeHTML(entity.name) %></h1>
 <p class="kind"><%= entity.type %> · <%= episodes.size %> episodes</p>
 
 <h2>Episodes</h2>
@@ -7,7 +8,7 @@
 <% episodes.each do |ep| %>
   <li>
     <a href="../<%= ep.fetch(:slug) %>.html"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></a>
-    <span class="ts">
+    <span class="ts" data-pagefind-ignore>
     <% ep.fetch(:snippets).each do |ts, excerpt| %>
       <% id = "s-#{ep.fetch(:number)}-#{CookingIssues::Timestamp.anchor(ts)}" %>
       <button type="button" popovertarget="<%= id %>"><%= CGI.escapeHTML(ts) %></button>
@@ -24,9 +25,10 @@
 
 <% unless related.empty? %>
 <h2>Often discussed with</h2>
-<ul class="related">
+<ul class="related" data-pagefind-ignore>
 <% related.each do |r| %>
   <li><a href="<%= r.entity.slug %>.html"><%= CGI.escapeHTML(r.entity.name) %></a> <span class="kind"><%= r.entity.type %> · <%= r.shared %> shared</span></li>
 <% end %>
 </ul>
 <% end %>
+</article>
