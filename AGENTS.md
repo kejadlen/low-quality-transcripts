@@ -18,6 +18,7 @@ lib/transcribers.rb  — Transcriber classes (resolve, register, call, render)
 lib/download.rb      — HTTP download helper with redirect following
 lib/graph.rb         — Merges per-episode entities into cross-episode entities
 lib/timestamp.rb     — Paragraph timestamp parsing and page anchors
+lib/snippet.rb       — Transcript passages quoted on topic pages
 lib/pages/           — ERB templates for the static site
 bin/                  — Self-contained uv Python scripts (mlx-transcribe, parakeet-transcribe, extract-entities)
 entities/             — Committed entity extractions and the curated aliases.yml
