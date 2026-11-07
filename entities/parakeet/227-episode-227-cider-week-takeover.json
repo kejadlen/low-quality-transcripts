@@ -1,0 +1,1789 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:45"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "1:12"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "John Reynolds",
+   "type": "person",
+   "surface": "John Reynolds",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Cider Week New York City",
+   "type": "place",
+   "surface": "Cider Weekny C dot com",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Cider Week New York City",
+   "type": "place",
+   "surface": "Cider Week",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:57"
+  },
+  {
+   "canonical": "Black Duck Cider",
+   "type": "place",
+   "surface": "Black Duck Cider",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Sandstrom Ciders",
+   "type": "place",
+   "surface": "Sandstrom Ciders",
+   "ts": "2:01"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron pan",
+   "ts": "2:59"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron pan",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Nova Circulator",
+   "type": "equipment",
+   "surface": "Nova circulator",
+   "ts": "2:59"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Baking Steel",
+   "type": "equipment",
+   "surface": "baking steel",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Pre-sear",
+   "type": "technique",
+   "surface": "pre-sear",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Pre-sear",
+   "type": "technique",
+   "surface": "pre-sear",
+   "ts": "5:52"
+  },
+  {
+   "canonical": "Pre-sear",
+   "type": "technique",
+   "surface": "pre-sear",
+   "ts": "6:51"
+  },
+  {
+   "canonical": "Pre-sear",
+   "type": "technique",
+   "surface": "pre-sear",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temp cooking",
+   "ts": "5:52"
+  },
+  {
+   "canonical": "Ice Bath",
+   "type": "technique",
+   "surface": "ice water",
+   "ts": "7:46"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "ciders",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "Ciders",
+   "ts": "2:01"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steaks",
+   "ts": "2:59"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steaks",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steaks",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "2:59"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "5:52"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Phil Force Line",
+   "type": "person",
+   "surface": "Phil Force Line",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Phil Force Line",
+   "type": "person",
+   "surface": "Phil Force Line",
+   "ts": "10:30"
+  },
+  {
+   "canonical": "Phil Force Line",
+   "type": "person",
+   "surface": "Phil Force Line",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Geneva",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Geneva",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Geneva",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Geneva",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Black Duck Cidery",
+   "type": "place",
+   "surface": "Black Duck Cidery",
+   "ts": "9:24"
+  },
+  {
+   "canonical": "Ashmeads Kernel",
+   "type": "ingredient",
+   "surface": "Ashmeads kernel",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Ashmeads Kernel",
+   "type": "ingredient",
+   "surface": "ash meads",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Ashmeads Kernel",
+   "type": "ingredient",
+   "surface": "Ash meads",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Ashmeads Kernel",
+   "type": "ingredient",
+   "surface": "ash meads",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Ashmeads Kernel",
+   "type": "ingredient",
+   "surface": "Ash Meads",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Golden Russet",
+   "type": "ingredient",
+   "surface": "Golden Russet",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "9:24"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "12:16"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "12:33"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "13:32"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "14:36"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "15:23"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Perry",
+   "type": "ingredient",
+   "surface": "Perry",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "Terroir",
+   "type": "technique",
+   "surface": "terroir",
+   "ts": "13:32"
+  },
+  {
+   "canonical": "Malolactic Fermentation",
+   "type": "technique",
+   "surface": "malloactic",
+   "ts": "15:23"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "finger lakes",
+   "ts": "9:24"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "finger lakes",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "Hudson Valley",
+   "type": "place",
+   "surface": "Hudson Valley",
+   "ts": "12:16"
+  },
+  {
+   "canonical": "Hudson Valley",
+   "type": "place",
+   "surface": "Hudson Valley",
+   "ts": "12:33"
+  },
+  {
+   "canonical": "Sagardies",
+   "type": "place",
+   "surface": "Sagardies",
+   "ts": "12:16"
+  },
+  {
+   "canonical": "Brogdale",
+   "type": "place",
+   "surface": "Brogdale",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Ag Station",
+   "type": "place",
+   "surface": "Ag Station",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Poverty Lanes Orchards",
+   "type": "place",
+   "surface": "Poverty Lanes Orchards",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Baldur",
+   "type": "place",
+   "surface": "Baldur",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Cox Orange Pippin",
+   "type": "ingredient",
+   "surface": "Cox Orange Pippin",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Cox Orange Pippin",
+   "type": "ingredient",
+   "surface": "cocks",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "Finger Lakes",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Brogdale",
+   "type": "place",
+   "surface": "Brogdale",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "Jens",
+   "type": "person",
+   "surface": "Jens",
+   "ts": "20:51"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "20:51"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "20:51"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Jackie",
+   "type": "person",
+   "surface": "Jackie's",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Keeving",
+   "type": "technique",
+   "surface": "keeving",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectins",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Hydrocolloid",
+   "type": "ingredient",
+   "surface": "hydrocolloid",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Methoxal Pectin",
+   "type": "ingredient",
+   "surface": "low methoxal pectin",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "20:51"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "Cider",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "ciders",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "ciders",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "24:18"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "24:50"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hop",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hop",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hops",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hop",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hops",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hop",
+   "ts": "23:15"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hop",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Hop",
+   "type": "ingredient",
+   "surface": "hop",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Fuggles",
+   "type": "ingredient",
+   "surface": "Fuggles",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Ken Golding",
+   "type": "ingredient",
+   "surface": "Ken Golding",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Cascade",
+   "type": "ingredient",
+   "surface": "Cascade",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Noble Hop",
+   "type": "ingredient",
+   "surface": "unknown noble hop",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Black Duck",
+   "type": "ingredient",
+   "surface": "black duck",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Bittersweet",
+   "type": "ingredient",
+   "surface": "bittersweets",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Bitter Sharp",
+   "type": "ingredient",
+   "surface": "bitter sharps",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apples",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apples",
+   "ts": "19:31"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apples",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apples",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apples",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apples",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Grape",
+   "type": "ingredient",
+   "surface": "grape",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "24:50"
+  },
+  {
+   "canonical": "Tannin",
+   "type": "ingredient",
+   "surface": "tannin",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle conditioned",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Dry Hopping",
+   "type": "technique",
+   "surface": "dry hop",
+   "ts": "23:15"
+  },
+  {
+   "canonical": "Bittering",
+   "type": "technique",
+   "surface": "bitter",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Bittering",
+   "type": "technique",
+   "surface": "bitter",
+   "ts": "23:15"
+  },
+  {
+   "canonical": "Bittering",
+   "type": "technique",
+   "surface": "bitter",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Bittering",
+   "type": "technique",
+   "surface": "bitter",
+   "ts": "24:50"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Keeving",
+   "type": "technique",
+   "surface": "keeving",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Beverage Director",
+   "type": "person",
+   "surface": "beverage director",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "City",
+   "type": "place",
+   "surface": "city",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Keeve",
+   "type": "technique",
+   "surface": "Keeve",
+   "ts": "27:33"
+  },
+  {
+   "canonical": "Keeve",
+   "type": "technique",
+   "surface": "Kieve",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Keeve",
+   "type": "technique",
+   "surface": "Kieve",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Keeve",
+   "type": "technique",
+   "surface": "Keeve",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "pectin methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "pectin methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "33:45"
+  },
+  {
+   "canonical": "pectin methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "pectin methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "34:36"
+  },
+  {
+   "canonical": "pectinase",
+   "type": "ingredient",
+   "surface": "pectinase",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "pectinase",
+   "type": "ingredient",
+   "surface": "pectinase",
+   "ts": "33:11"
+  },
+  {
+   "canonical": "pectanex",
+   "type": "ingredient",
+   "surface": "pectanex",
+   "ts": "33:11"
+  },
+  {
+   "canonical": "NovoZimes",
+   "type": "place",
+   "surface": "NovoZimes",
+   "ts": "34:36"
+  },
+  {
+   "canonical": "modernist pantry",
+   "type": "place",
+   "surface": "modernist pantry",
+   "ts": "34:36"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Breville juicer",
+   "type": "equipment",
+   "surface": "brevel juicer",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "champion juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "centrifugal basket juicer",
+   "type": "equipment",
+   "surface": "centrifugal basket juicer",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Mark",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "apple trees",
+   "type": "ingredient",
+   "surface": "apple trees",
+   "ts": "31:47"
+  },
+  {
+   "canonical": "bitter sweets",
+   "type": "ingredient",
+   "surface": "bitter uh sweets",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "dessert fruit",
+   "type": "ingredient",
+   "surface": "dessert fruit",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "hydrocolloid",
+   "type": "ingredient",
+   "surface": "hydrocolide",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "33:45"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "34:36"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "residual sugar",
+   "ts": "26:40"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "residual sugar",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "acidity",
+   "type": "ingredient",
+   "surface": "acidity",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "oxidation",
+   "type": "technique",
+   "surface": "oxidative quality",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "oxidation",
+   "type": "technique",
+   "surface": "oxidized",
+   "ts": "28:39"
+  },
+  {
+   "canonical": "oxidation",
+   "type": "technique",
+   "surface": "oxidized",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "26:40"
+  },
+  {
+   "canonical": "temperature",
+   "type": "ingredient",
+   "surface": "temperature",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "temperature",
+   "type": "ingredient",
+   "surface": "temperature",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "air exposure",
+   "type": "technique",
+   "surface": "air exposure",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "juice",
+   "type": "ingredient",
+   "surface": "juice",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "juice",
+   "type": "ingredient",
+   "surface": "juice",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "juice",
+   "type": "ingredient",
+   "surface": "juice",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "juice",
+   "type": "ingredient",
+   "surface": "juice",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "juice",
+   "type": "ingredient",
+   "surface": "juice",
+   "ts": "33:45"
+  },
+  {
+   "canonical": "juice",
+   "type": "ingredient",
+   "surface": "juice",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "26:40"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "31:29"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "sugar content",
+   "type": "ingredient",
+   "surface": "salads content",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "sugar content",
+   "type": "ingredient",
+   "surface": "salads content",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Bass Pro",
+   "type": "place",
+   "surface": "Bass Pro",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Bass Pro",
+   "type": "place",
+   "surface": "Bass Pro",
+   "ts": "38:56"
+  },
+  {
+   "canonical": "Bridgeport",
+   "type": "place",
+   "surface": "Bridgeport",
+   "ts": "38:56"
+  },
+  {
+   "canonical": "Columbia County",
+   "type": "place",
+   "surface": "Columbia County",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Hudson Valley",
+   "type": "place",
+   "surface": "Hudson Valley",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Newtown Pippin",
+   "type": "ingredient",
+   "surface": "Newtown Pippin",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Newtown Pippin",
+   "type": "ingredient",
+   "surface": "Newtown Pippin",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "Northern Spy",
+   "type": "ingredient",
+   "surface": "Northern Spy",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Apple Tree",
+   "type": "equipment",
+   "surface": "apple tree",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Apple Tree",
+   "type": "equipment",
+   "surface": "tree",
+   "ts": "35:53"
+  },
+  {
+   "canonical": "Apple Tree",
+   "type": "equipment",
+   "surface": "tree",
+   "ts": "37:24"
+  },
+  {
+   "canonical": "Apple Tree",
+   "type": "equipment",
+   "surface": "tree",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "40:13"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "41:20"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "Cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Juicing",
+   "type": "technique",
+   "surface": "juicing",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Pollination",
+   "type": "technique",
+   "surface": "pollination",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Newtown Creek",
+   "type": "place",
+   "surface": "Newtown Creek",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "Newtown Pippin",
+   "type": "ingredient",
+   "surface": "Newtown Pippin",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Newtown Pippin",
+   "type": "ingredient",
+   "surface": "Newtown Pippin",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "spontaneous fermentation",
+   "type": "technique",
+   "surface": "spontaneous fermentation",
+   "ts": "40:13"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "40:13"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "40:13"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "41:20"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Anheuser Busch",
+   "type": "place",
+   "surface": "Anheuser Busch",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Instellar Toise",
+   "type": "place",
+   "surface": "Instellar Toise",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "malic acid",
+   "type": "ingredient",
+   "surface": "malik",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "Newtown",
+   "type": "place",
+   "surface": "Newtown",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Newtown",
+   "type": "place",
+   "surface": "Newtown",
+   "ts": "39:45"
+  },
+  {
+   "canonical": "Newtown",
+   "type": "place",
+   "surface": "Newtown",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "bottle conditioning",
+   "type": "technique",
+   "surface": "bottle conditioned",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Spanish style cider",
+   "type": "technique",
+   "surface": "Spanish style cider",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Normandy style cider",
+   "type": "technique",
+   "surface": "Normandy style cider",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Black Duck Cider",
+   "type": "place",
+   "surface": "Black Duck Cider",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "Wasale",
+   "type": "place",
+   "surface": "Wasale",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Wasale",
+   "type": "place",
+   "surface": "Wasale",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Black Duck Cider",
+   "type": "place",
+   "surface": "Black Duck Cider",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "James Brown",
+   "type": "person",
+   "surface": "James Brown",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "Staten Island",
+   "type": "place",
+   "surface": "Staten Island",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Lower East Side",
+   "type": "place",
+   "surface": "Lower East Side",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Manhattan",
+   "type": "place",
+   "surface": "Manhattan",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "Manhattan",
+   "type": "place",
+   "surface": "Manhattan",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "Spanish style",
+   "type": "technique",
+   "surface": "Spanish style",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "Cider",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "Cider",
+   "ts": "46:48"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "cider",
+   "type": "ingredient",
+   "surface": "cider",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "pear",
+   "type": "ingredient",
+   "surface": "pear",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "acidity",
+   "type": "ingredient",
+   "surface": "acidity",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "acidity",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "acidity",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "terroir",
+   "type": "technique",
+   "surface": "terroir",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "Normandy",
+   "type": "place",
+   "surface": "Normandy",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "Brittany",
+   "type": "place",
+   "surface": "Brittany",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "English style",
+   "type": "technique",
+   "surface": "English style",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "French style",
+   "type": "technique",
+   "surface": "French style",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "Virginia",
+   "type": "place",
+   "surface": "Virginia",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "climate",
+   "type": "technique",
+   "surface": "climate",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "finger lakes",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "Wasale",
+   "type": "place",
+   "surface": "Wasale",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Wasale",
+   "type": "place",
+   "surface": "Wasale",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Rouge tomat",
+   "type": "place",
+   "surface": "Rouge tomat",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Orchard Street",
+   "type": "place",
+   "surface": "Orchard",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Orchard Street",
+   "type": "place",
+   "surface": "Orchard",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Orchard Street",
+   "type": "place",
+   "surface": "Orchard",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "47:57"
+  }
+ ]
+}

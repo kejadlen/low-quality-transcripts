@@ -1,0 +1,979 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "7:22"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "7:22"
+  },
+  {
+   "canonical": "Jackie Molecules Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "2:54"
+  },
+  {
+   "canonical": "Jackie Molecules Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "Jackie Molecules Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "Conan O'Brien",
+   "type": "person",
+   "surface": "Conan",
+   "ts": "3:24"
+  },
+  {
+   "canonical": "Kenji Lopez Alt",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "Cooks Illustrated",
+   "type": "place",
+   "surface": "Cooks Illustrated",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "Cooks Illustrated",
+   "type": "place",
+   "surface": "Cooks Illustrated",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Motfur Bourgeois",
+   "type": "place",
+   "surface": "Motfer Bourgeois",
+   "ts": "5:06"
+  },
+  {
+   "canonical": "Lodge",
+   "type": "place",
+   "surface": "Lodge",
+   "ts": "5:49"
+  },
+  {
+   "canonical": "carbon steel pans",
+   "type": "equipment",
+   "surface": "carbon steel pans",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "4:34"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "5:06"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "5:49"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "black steel",
+   "type": "equipment",
+   "surface": "black steel",
+   "ts": "5:49"
+  },
+  {
+   "canonical": "black steel",
+   "type": "equipment",
+   "surface": "black steel",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "black steel",
+   "type": "equipment",
+   "surface": "black steel",
+   "ts": "7:00"
+  },
+  {
+   "canonical": "wok",
+   "type": "equipment",
+   "surface": "wok",
+   "ts": "7:00"
+  },
+  {
+   "canonical": "frozen margarita slushing machine",
+   "type": "equipment",
+   "surface": "frozen margarita slushing machine",
+   "ts": "8:44"
+  },
+  {
+   "canonical": "Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "Parmigiana Region",
+   "ts": "4:51"
+  },
+  {
+   "canonical": "808",
+   "type": "technique",
+   "surface": "808",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "808",
+   "type": "technique",
+   "surface": "808",
+   "ts": "0:59"
+  },
+  {
+   "canonical": "808",
+   "type": "technique",
+   "surface": "808",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "808",
+   "type": "technique",
+   "surface": "808",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "808",
+   "type": "technique",
+   "surface": "808",
+   "ts": "1:36"
+  },
+  {
+   "canonical": "808",
+   "type": "technique",
+   "surface": "808",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "8:44"
+  },
+  {
+   "canonical": "margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "Clarified Lime Juice",
+   "type": "ingredient",
+   "surface": "clarified lime juice",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "11:12"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "Cordial",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "14:56"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Acid-Adjusted Orange Juice",
+   "type": "ingredient",
+   "surface": "acid adjusted OJ",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Lime Acid",
+   "type": "ingredient",
+   "surface": "lime acid",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Lime Acid",
+   "type": "ingredient",
+   "surface": "lime acid",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Lime Acid",
+   "type": "ingredient",
+   "surface": "lime acid",
+   "ts": "14:56"
+  },
+  {
+   "canonical": "Triple Sec",
+   "type": "ingredient",
+   "surface": "triple sec",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Tequila",
+   "type": "ingredient",
+   "surface": "tequila",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Agave",
+   "type": "ingredient",
+   "surface": "agave",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Frozen Specs",
+   "type": "ingredient",
+   "surface": "frozen specs",
+   "ts": "10:23"
+  },
+  {
+   "canonical": "Margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "10:23"
+  },
+  {
+   "canonical": "Margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "11:12"
+  },
+  {
+   "canonical": "Margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Margarita",
+   "type": "ingredient",
+   "surface": "margarita",
+   "ts": "14:56"
+  },
+  {
+   "canonical": "Orange Juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Orange Juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Orange Juice",
+   "type": "ingredient",
+   "surface": "OJ",
+   "ts": "14:37"
+  },
+  {
+   "canonical": "Orange Juice",
+   "type": "ingredient",
+   "surface": "OJ",
+   "ts": "14:56"
+  },
+  {
+   "canonical": "Navel Orange",
+   "type": "ingredient",
+   "surface": "navels",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Navel Orange",
+   "type": "ingredient",
+   "surface": "navel",
+   "ts": "13:54"
+  },
+  {
+   "canonical": "Navel Orange",
+   "type": "ingredient",
+   "surface": "navel",
+   "ts": "14:19"
+  },
+  {
+   "canonical": "Valencia Orange",
+   "type": "ingredient",
+   "surface": "valencias",
+   "ts": "13:54"
+  },
+  {
+   "canonical": "Slushy Machine",
+   "type": "equipment",
+   "surface": "slushy machine",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Ziplock Bags",
+   "type": "equipment",
+   "surface": "ziplocks",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Oleo",
+   "type": "technique",
+   "surface": "oleo",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Oleo",
+   "type": "technique",
+   "surface": "oleo",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "17:02"
+  },
+  {
+   "canonical": "DJ cheese grater",
+   "type": "equipment",
+   "surface": "DJ cheese grater",
+   "ts": "17:02"
+  },
+  {
+   "canonical": "Cooks Illustrated",
+   "type": "place",
+   "surface": "Cooks Illustrated's",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "18:11"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "18:24"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "18:38"
+  },
+  {
+   "canonical": "francophile",
+   "type": "person",
+   "surface": "francophile",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "francophile",
+   "type": "person",
+   "surface": "francophile",
+   "ts": "18:11"
+  },
+  {
+   "canonical": "Carbon Steel Skillet",
+   "type": "equipment",
+   "surface": "carbon steel skillet",
+   "ts": "19:37"
+  },
+  {
+   "canonical": "Carbon Steel Skillet",
+   "type": "equipment",
+   "surface": "carbon steel skillet",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "19:37"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "19:54"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron pans",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "22:11"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "24:42"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "25:05"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "25:21"
+  },
+  {
+   "canonical": "Black Steel",
+   "type": "ingredient",
+   "surface": "black steel",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Black Steel",
+   "type": "ingredient",
+   "surface": "black steel",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Black Steel",
+   "type": "ingredient",
+   "surface": "black steel",
+   "ts": "24:10"
+  },
+  {
+   "canonical": "Black Steel",
+   "type": "ingredient",
+   "surface": "black steel",
+   "ts": "24:42"
+  },
+  {
+   "canonical": "Black Steel",
+   "type": "ingredient",
+   "surface": "black steel",
+   "ts": "25:31"
+  },
+  {
+   "canonical": "Black Steel",
+   "type": "ingredient",
+   "surface": "black steel",
+   "ts": "26:42"
+  },
+  {
+   "canonical": "Cooks Illustrated",
+   "type": "place",
+   "surface": "Cooks Illustrated",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Cooks Illustrated",
+   "type": "place",
+   "surface": "Cooks Illustrated",
+   "ts": "22:11"
+  },
+  {
+   "canonical": "McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "All Clad",
+   "type": "equipment",
+   "surface": "all clad",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "All Clad",
+   "type": "equipment",
+   "surface": "all clad",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Induction Burner",
+   "type": "equipment",
+   "surface": "induction burners",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Nonstick Skillet",
+   "type": "equipment",
+   "surface": "nonstick",
+   "ts": "24:10"
+  },
+  {
+   "canonical": "Nonstick Skillet",
+   "type": "equipment",
+   "surface": "nonstick skillets",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Nonstick Skillet",
+   "type": "equipment",
+   "surface": "nonstick",
+   "ts": "26:13"
+  },
+  {
+   "canonical": "Nonstick Skillet",
+   "type": "equipment",
+   "surface": "nonstick",
+   "ts": "26:42"
+  },
+  {
+   "canonical": "Nonstick Skillet",
+   "type": "equipment",
+   "surface": "nonstick",
+   "ts": "27:26"
+  },
+  {
+   "canonical": "Teflon",
+   "type": "ingredient",
+   "surface": "Teflon",
+   "ts": "26:42"
+  },
+  {
+   "canonical": "Seasoning",
+   "type": "technique",
+   "surface": "seasoning",
+   "ts": "24:27"
+  },
+  {
+   "canonical": "Flaxseed Oil",
+   "type": "ingredient",
+   "surface": "Flaxseed oil",
+   "ts": "27:46"
+  },
+  {
+   "canonical": "Flaxseed Oil",
+   "type": "ingredient",
+   "surface": "flaxseed oil",
+   "ts": "28:05"
+  },
+  {
+   "canonical": "Flaxseed Oil",
+   "type": "ingredient",
+   "surface": "flaxseed oil",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "Flaxseed Oil",
+   "type": "ingredient",
+   "surface": "flaxseed oil",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "Linseed Oil",
+   "type": "ingredient",
+   "surface": "linseed oil",
+   "ts": "28:05"
+  },
+  {
+   "canonical": "Linseed Oil",
+   "type": "ingredient",
+   "surface": "Linseed oil",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "Joel Stubb",
+   "type": "person",
+   "surface": "Joel Stubb",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "32:02"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Apple Cider Vinegar",
+   "type": "ingredient",
+   "surface": "apple cider vinegar",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "Apple Cider Vinegar",
+   "type": "ingredient",
+   "surface": "apple cider vinegar",
+   "ts": "32:02"
+  },
+  {
+   "canonical": "Apple Cider Vinegar",
+   "type": "ingredient",
+   "surface": "apple cider vinegar",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "Apple Cider Vinegar",
+   "type": "ingredient",
+   "surface": "apple cider vinegar",
+   "ts": "33:17"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Clearing and Staining",
+   "type": "technique",
+   "surface": "clearing and staining",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "Clearing and Staining",
+   "type": "technique",
+   "surface": "clearing and staining",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Potassium Hydroxide",
+   "type": "ingredient",
+   "surface": "potassium hydroxide",
+   "ts": "35:27"
+  },
+  {
+   "canonical": "Lye",
+   "type": "ingredient",
+   "surface": "lye",
+   "ts": "35:04"
+  },
+  {
+   "canonical": "Lye",
+   "type": "ingredient",
+   "surface": "lye",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "34:21"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "34:21"
+  },
+  {
+   "canonical": "Red Eye Gravy",
+   "type": "ingredient",
+   "surface": "red eye gravy",
+   "ts": "34:21"
+  },
+  {
+   "canonical": "Loot Fisk",
+   "type": "ingredient",
+   "surface": "loot fisk",
+   "ts": "34:44"
+  },
+  {
+   "canonical": "Loot Fisk",
+   "type": "ingredient",
+   "surface": "loot fisk",
+   "ts": "35:04"
+  },
+  {
+   "canonical": "Striper",
+   "type": "ingredient",
+   "surface": "striper",
+   "ts": "35:27"
+  },
+  {
+   "canonical": "Museum",
+   "type": "place",
+   "surface": "museum",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Museum",
+   "type": "place",
+   "surface": "museum",
+   "ts": "36:30"
+  },
+  {
+   "canonical": "MOFAD",
+   "type": "place",
+   "surface": "mofad",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "February 4",
+   "type": "place",
+   "surface": "February 4",
+   "ts": "36:30"
+  },
+  {
+   "canonical": "February 4",
+   "type": "place",
+   "surface": "February 4",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Acids and Bases",
+   "type": "technique",
+   "surface": "acids and bases",
+   "ts": "36:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "37:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "41:53"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "Johnny",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "39:38"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "44:23"
+  },
+  {
+   "canonical": "Paco Jet",
+   "type": "equipment",
+   "surface": "Paco Jet",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Paco Jet",
+   "type": "equipment",
+   "surface": "Paco jet",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Vitamix",
+   "type": "equipment",
+   "surface": "Vitamixes",
+   "ts": "38:53"
+  },
+  {
+   "canonical": "CO2 Tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Randell FX",
+   "type": "equipment",
+   "surface": "Randell FX",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Vacmaster VP One Twelve",
+   "type": "equipment",
+   "surface": "Vacmaster VP one twelve",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Grindmaster 875",
+   "type": "equipment",
+   "surface": "Grindmaster 875",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "Weber Charcoal Grills",
+   "type": "equipment",
+   "surface": "Weber charcoal grills",
+   "ts": "38:53"
+  },
+  {
+   "canonical": "Portland, Maine",
+   "type": "place",
+   "surface": "Portland, Maine",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:14"
+  }
+ ]
+}

@@ -1,0 +1,985 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Kenji Lopez",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "1:00"
+  },
+  {
+   "canonical": "Kenji Lopez",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Kenji Lopez",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "Kenji Lopez",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:55"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:20"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:19"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Maria Gornichelli",
+   "type": "person",
+   "surface": "Maria Gornichelli",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Thurman Maple Days",
+   "type": "place",
+   "surface": "Thurman Maple Days",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Robertus Pizzeria",
+   "type": "place",
+   "surface": "Robertus Pizzeria",
+   "ts": "0:39"
+  },
+  {
+   "canonical": "Frogmore stew",
+   "type": "ingredient",
+   "surface": "frogmore stew",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "bay leaf",
+   "type": "ingredient",
+   "surface": "bay leaf",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "sassafras",
+   "type": "ingredient",
+   "surface": "sassafras",
+   "ts": "8:24"
+  },
+  {
+   "canonical": "spice bush",
+   "type": "ingredient",
+   "surface": "spice bush",
+   "ts": "8:24"
+  },
+  {
+   "canonical": "laurel family",
+   "type": "ingredient",
+   "surface": "laurel family",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Barbara Lynch",
+   "type": "person",
+   "surface": "Barbara Lynch",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "14:56"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "15:52"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:52"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "13:16"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "14:50"
+  },
+  {
+   "canonical": "Spice Class",
+   "type": "ingredient",
+   "surface": "spice class",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Spice Class",
+   "type": "ingredient",
+   "surface": "Spice class",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Spice Class",
+   "type": "ingredient",
+   "surface": "spice class",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "Spice Jack",
+   "type": "ingredient",
+   "surface": "spice jack",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Old Bay",
+   "type": "ingredient",
+   "surface": "old bay",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "9:28"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "9:56"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "Bay leaf",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaf",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaf",
+   "ts": "14:00"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaf",
+   "ts": "14:20"
+  },
+  {
+   "canonical": "California Bay Leaf",
+   "type": "ingredient",
+   "surface": "California bay leaves",
+   "ts": "9:28"
+  },
+  {
+   "canonical": "California Bay Leaf",
+   "type": "ingredient",
+   "surface": "California bay leaves",
+   "ts": "9:56"
+  },
+  {
+   "canonical": "Turkish Bay Leaf",
+   "type": "ingredient",
+   "surface": "Turkish bay leaves",
+   "ts": "9:28"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "11:26"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "12:49"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Chives",
+   "type": "ingredient",
+   "surface": "chives",
+   "ts": "13:16"
+  },
+  {
+   "canonical": "Scallions",
+   "type": "ingredient",
+   "surface": "scallions",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "Chive Oil",
+   "type": "ingredient",
+   "surface": "chive oil",
+   "ts": "12:49"
+  },
+  {
+   "canonical": "Chive Oil",
+   "type": "ingredient",
+   "surface": "chive oil",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Liquid Smoke",
+   "type": "ingredient",
+   "surface": "liquid smoke",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Brine",
+   "type": "ingredient",
+   "surface": "brine",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Nitrate",
+   "type": "ingredient",
+   "surface": "nitrate",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Mixler",
+   "type": "place",
+   "surface": "mixler",
+   "ts": "15:39"
+  },
+  {
+   "canonical": "Heritage Radio",
+   "type": "place",
+   "surface": "heritage radio",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "Santa Barbara",
+   "type": "place",
+   "surface": "Santa Barbara",
+   "ts": "15:52"
+  },
+  {
+   "canonical": "Owl",
+   "type": "place",
+   "surface": "owl",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Owl",
+   "type": "place",
+   "surface": "owl",
+   "ts": "9:28"
+  },
+  {
+   "canonical": "Owl",
+   "type": "place",
+   "surface": "owl",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:15"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "23:23"
+  },
+  {
+   "canonical": "American Canner Corp",
+   "type": "place",
+   "surface": "American Canner Corp",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "Brevel Pro",
+   "type": "equipment",
+   "surface": "Brevel Pro",
+   "ts": "24:33"
+  },
+  {
+   "canonical": "pressure canner",
+   "type": "equipment",
+   "surface": "pressure canner",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "liquid smoke",
+   "type": "ingredient",
+   "surface": "liquid smoke",
+   "ts": "16:56"
+  },
+  {
+   "canonical": "liquid smoke",
+   "type": "ingredient",
+   "surface": "liquid smoke",
+   "ts": "19:06"
+  },
+  {
+   "canonical": "liquid smoke",
+   "type": "ingredient",
+   "surface": "liquid smoke",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "smoke flavor",
+   "type": "technique",
+   "surface": "smoke flavor",
+   "ts": "16:56"
+  },
+  {
+   "canonical": "smoke flavor",
+   "type": "technique",
+   "surface": "smoke flavor",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "brine",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "16:56"
+  },
+  {
+   "canonical": "brine",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "22:55"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "23:50"
+  },
+  {
+   "canonical": "canning jar",
+   "type": "equipment",
+   "surface": "canning jar",
+   "ts": "25:38"
+  },
+  {
+   "canonical": "banana leaf",
+   "type": "ingredient",
+   "surface": "banana leaf",
+   "ts": "25:38"
+  },
+  {
+   "canonical": "pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "25:38"
+  },
+  {
+   "canonical": "aciote",
+   "type": "ingredient",
+   "surface": "aciote",
+   "ts": "25:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:13"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "27:13"
+  },
+  {
+   "canonical": "Consui",
+   "type": "ingredient",
+   "surface": "consuy",
+   "ts": "28:08"
+  },
+  {
+   "canonical": "Consui",
+   "type": "ingredient",
+   "surface": "consui",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Consui",
+   "type": "ingredient",
+   "surface": "consui",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "27:22"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramanize",
+   "ts": "27:13"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramen",
+   "ts": "27:35"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramen",
+   "ts": "28:39"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "Ramen",
+   "ts": "29:18"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramen",
+   "ts": "29:35"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramen",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramen",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "technique",
+   "surface": "ramen",
+   "ts": "31:12"
+  },
+  {
+   "canonical": "Pasta Machine",
+   "type": "equipment",
+   "surface": "pasta machine",
+   "ts": "27:35"
+  },
+  {
+   "canonical": "Pasta Machine",
+   "type": "equipment",
+   "surface": "pasta machine",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Pasta Machine",
+   "type": "equipment",
+   "surface": "pasta machine",
+   "ts": "28:23"
+  },
+  {
+   "canonical": "Alkaline Water",
+   "type": "ingredient",
+   "surface": "alkaline",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Alkaline Water",
+   "type": "ingredient",
+   "surface": "alkaline",
+   "ts": "28:08"
+  },
+  {
+   "canonical": "Alkaline Water",
+   "type": "ingredient",
+   "surface": "alkalized water",
+   "ts": "30:41"
+  },
+  {
+   "canonical": "Alkaline Water",
+   "type": "ingredient",
+   "surface": "Alkalized water",
+   "ts": "31:01"
+  },
+  {
+   "canonical": "Alkaline Water",
+   "type": "ingredient",
+   "surface": "alkalized water",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "Banana Leaf",
+   "type": "ingredient",
+   "surface": "banana leaves",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "Banana Leaf",
+   "type": "ingredient",
+   "surface": "banana leaves",
+   "ts": "26:38"
+  },
+  {
+   "canonical": "Banana Leaf",
+   "type": "ingredient",
+   "surface": "banana leaves",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "26:38"
+  },
+  {
+   "canonical": "John Fraser",
+   "type": "person",
+   "surface": "John Fraser",
+   "ts": "34:08"
+  },
+  {
+   "canonical": "John Fraser",
+   "type": "person",
+   "surface": "John Fraser",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Nick's",
+   "type": "place",
+   "surface": "Nick's",
+   "ts": "34:08"
+  },
+  {
+   "canonical": "Narcissa",
+   "type": "place",
+   "surface": "Narcissa",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Dovetail",
+   "type": "place",
+   "surface": "dovetail",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Vegan Month",
+   "type": "place",
+   "surface": "vegan month",
+   "ts": "32:38"
+  },
+  {
+   "canonical": "Vegan Month",
+   "type": "place",
+   "surface": "vegan month",
+   "ts": "32:49"
+  },
+  {
+   "canonical": "Vegan Month",
+   "type": "place",
+   "surface": "vegan month",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Vegan Month",
+   "type": "place",
+   "surface": "vegan month",
+   "ts": "34:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "38:03"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "40:49"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "41:24"
+  },
+  {
+   "canonical": "Richard Wrangham",
+   "type": "person",
+   "surface": "Richard Grangum",
+   "ts": "37:12"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "hummus",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "hummus",
+   "ts": "35:18"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "hummus",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "Hummus",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "Chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Canned Chickpeas",
+   "type": "ingredient",
+   "surface": "canned chickpeas",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "35:18"
+  },
+  {
+   "canonical": "Food Processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "35:18"
+  },
+  {
+   "canonical": "Raw Vegan Diet",
+   "type": "technique",
+   "surface": "raw vegan",
+   "ts": "37:02"
+  },
+  {
+   "canonical": "GAPS Diet",
+   "type": "technique",
+   "surface": "Gaps diet",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "GAPS Diet",
+   "type": "technique",
+   "surface": "Gaps diet",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Thermometer",
+   "type": "equipment",
+   "surface": "thermometer",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "Thermometer",
+   "type": "equipment",
+   "surface": "thermometer",
+   "ts": "40:24"
+  },
+  {
+   "canonical": "Roast Chicken",
+   "type": "ingredient",
+   "surface": "roast chicken",
+   "ts": "40:24"
+  },
+  {
+   "canonical": "Roast Chicken",
+   "type": "ingredient",
+   "surface": "roast chicken",
+   "ts": "40:35"
+  },
+  {
+   "canonical": "Bengalgram",
+   "type": "ingredient",
+   "surface": "Bengalgram",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Italian Style Chickpeas",
+   "type": "ingredient",
+   "surface": "Italian style",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Gut Dysbiosis",
+   "type": "technique",
+   "surface": "gut dysbiosis",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Food Lab",
+   "type": "place",
+   "surface": "Food Lab",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "45:18"
+  }
+ ]
+}

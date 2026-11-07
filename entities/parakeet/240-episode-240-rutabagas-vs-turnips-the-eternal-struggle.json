@@ -1,0 +1,985 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "stas",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:47"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "Culture City",
+   "type": "place",
+   "surface": "Culture City",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Oris root",
+   "type": "ingredient",
+   "surface": "Oris",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Oris root",
+   "type": "ingredient",
+   "surface": "Oris",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "Oris root",
+   "type": "ingredient",
+   "surface": "Oris",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Oris root",
+   "type": "ingredient",
+   "surface": "oris",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "Oris root",
+   "type": "ingredient",
+   "surface": "oris",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Amy Stewart",
+   "type": "person",
+   "surface": "Amy Stewart",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Aflatoxin",
+   "type": "ingredient",
+   "surface": "aflatoxin",
+   "ts": "4:22"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "9:31"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stuas",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "polyurethane",
+   "type": "ingredient",
+   "surface": "polyurethane",
+   "ts": "16:17"
+  },
+  {
+   "canonical": "polyurethane",
+   "type": "ingredient",
+   "surface": "polyurethane",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "polymer",
+   "type": "ingredient",
+   "surface": "polymer",
+   "ts": "16:17"
+  },
+  {
+   "canonical": "cocktail cube",
+   "type": "equipment",
+   "surface": "cocktail cube",
+   "ts": "15:31"
+  },
+  {
+   "canonical": "dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "Big Apple supermarket",
+   "type": "place",
+   "surface": "Big Apple supermarket",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "Fine Fare",
+   "type": "place",
+   "surface": "fine fare",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "Del Posto restaurant",
+   "type": "place",
+   "surface": "Del Posto restaurant",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "Food Emporium",
+   "type": "place",
+   "surface": "Food Emporium",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "Sash",
+   "type": "person",
+   "surface": "Sash",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "Stuz",
+   "type": "person",
+   "surface": "Stuz",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "teramasue",
+   "type": "ingredient",
+   "surface": "teramasue",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "sushi",
+   "type": "ingredient",
+   "surface": "sushi",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "tiramisu",
+   "type": "ingredient",
+   "surface": "tiramisu",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "9:43"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "extractions",
+   "type": "technique",
+   "surface": "extractions",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "extractions",
+   "type": "technique",
+   "surface": "extractions",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "shaker",
+   "type": "equipment",
+   "surface": "shaker",
+   "ts": "14:42"
+  },
+  {
+   "canonical": "shaker",
+   "type": "equipment",
+   "surface": "shaker",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "14:42"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "15:31"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "16:17"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "polymer cube",
+   "type": "equipment",
+   "surface": "polyurethane cube",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "liquid intelligence",
+   "type": "technique",
+   "surface": "liquid intelligence",
+   "ts": "15:31"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Natalcia",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "24:58"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "25:05"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "26:07"
+  },
+  {
+   "canonical": "Studs",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Julian Maha",
+   "type": "person",
+   "surface": "Julian Maha",
+   "ts": "25:11"
+  },
+  {
+   "canonical": "Culture City",
+   "type": "place",
+   "surface": "Culture City",
+   "ts": "25:11"
+  },
+  {
+   "canonical": "rutabaga",
+   "type": "ingredient",
+   "surface": "rutabega",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "rutabaga",
+   "type": "ingredient",
+   "surface": "rutabega",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "rutabaga",
+   "type": "ingredient",
+   "surface": "rutabega",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "rutabaga",
+   "type": "ingredient",
+   "surface": "rutabega",
+   "ts": "19:03"
+  },
+  {
+   "canonical": "rutabaga",
+   "type": "ingredient",
+   "surface": "Rutabega",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "18:46"
+  },
+  {
+   "canonical": "sweet potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "19:34"
+  },
+  {
+   "canonical": "taro",
+   "type": "ingredient",
+   "surface": "taro",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "custava",
+   "type": "ingredient",
+   "surface": "custava",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "soaking",
+   "type": "technique",
+   "surface": "soaking",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "vacuum frying",
+   "type": "technique",
+   "surface": "vacuum fryer",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "19:34"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "24:20"
+  },
+  {
+   "canonical": "soaking",
+   "type": "technique",
+   "surface": "soaking",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "tortilla chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "tortilla chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "tortilla chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "24:20"
+  },
+  {
+   "canonical": "tortilla chips",
+   "type": "ingredient",
+   "surface": "Tortilla chips",
+   "ts": "24:48"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "21:47"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "22:27"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "24:20"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "19:34"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "22:27"
+  },
+  {
+   "canonical": "vacuum fryer",
+   "type": "equipment",
+   "surface": "vacuum fryer",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "24:20"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "Tortilla",
+   "ts": "24:48"
+  },
+  {
+   "canonical": "apple chips",
+   "type": "ingredient",
+   "surface": "apple chips",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "apple chips",
+   "type": "ingredient",
+   "surface": "apple chips",
+   "ts": "22:27"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "28:50"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker w",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Long Island Ice T",
+   "type": "ingredient",
+   "surface": "Long Island Ice T",
+   "ts": "28:50"
+  },
+  {
+   "canonical": "Long Island Iced Tea",
+   "type": "ingredient",
+   "surface": "Long Island IST",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "Long Island Iced Tea",
+   "type": "ingredient",
+   "surface": "Long Island Iced tea",
+   "ts": "34:19"
+  },
+  {
+   "canonical": "sour mix",
+   "type": "ingredient",
+   "surface": "sour mix",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "tequila",
+   "type": "ingredient",
+   "surface": "tequila",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "tequila",
+   "type": "ingredient",
+   "surface": "tequila",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "triple sack",
+   "type": "ingredient",
+   "surface": "triple sack",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "lemon juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "lemon juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "cola",
+   "type": "ingredient",
+   "surface": "cola",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "cola",
+   "type": "ingredient",
+   "surface": "cola",
+   "ts": "34:53"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "absolute vodka",
+   "type": "ingredient",
+   "surface": "absolute vodka",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "beef eater gin",
+   "type": "ingredient",
+   "surface": "beef eater gin",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Don Q white rum",
+   "type": "ingredient",
+   "surface": "Don Q white rum",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "milagro blanco tequila",
+   "type": "ingredient",
+   "surface": "milagro blanco tequila",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Cura\u00e7ao",
+   "type": "ingredient",
+   "surface": "Cura\u00e7ao",
+   "ts": "33:10"
+  },
+  {
+   "canonical": "Quantra",
+   "type": "ingredient",
+   "surface": "Quantra",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "Quantra",
+   "type": "ingredient",
+   "surface": "quanch",
+   "ts": "33:06"
+  },
+  {
+   "canonical": "J.R. Ewing's hat",
+   "type": "place",
+   "surface": "J.R. Ewing's uh hat",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "The Moving Image",
+   "type": "place",
+   "surface": "The Moving Image",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "triple X beaver",
+   "type": "ingredient",
+   "surface": "triple X beaver",
+   "ts": "34:19"
+  },
+  {
+   "canonical": "carbonated Long Island iced teas",
+   "type": "ingredient",
+   "surface": "carbonated Long Island iced teas",
+   "ts": "34:34"
+  },
+  {
+   "canonical": "sour mix",
+   "type": "ingredient",
+   "surface": "sour mix",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Benjamin Terry",
+   "type": "person",
+   "surface": "Benjamin Terry",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Aquafaba",
+   "type": "ingredient",
+   "surface": "aquafaba",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Chickpea Brine",
+   "type": "ingredient",
+   "surface": "chickpea brine",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Chickpea Brine",
+   "type": "ingredient",
+   "surface": "chickpea brine",
+   "ts": "36:29"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "38:10"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "38:34"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "propylene glycolalginate",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "Propylene Glycol",
+   "type": "ingredient",
+   "surface": "propylene glycol",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "38:10"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "39:11"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "40:02"
+  },
+  {
+   "canonical": "Mandy Aftel",
+   "type": "person",
+   "surface": "Mandy Aftel",
+   "ts": "40:57"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "39:11"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "40:02"
+  },
+  {
+   "canonical": "enflourage",
+   "type": "technique",
+   "surface": "enflourage",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "enflourage",
+   "type": "technique",
+   "surface": "enflourage",
+   "ts": "43:12"
+  },
+  {
+   "canonical": "fat washing",
+   "type": "technique",
+   "surface": "fat washing",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "42:34"
+  },
+  {
+   "canonical": "steam distillation",
+   "type": "technique",
+   "surface": "steam distillation",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "tuberos",
+   "type": "ingredient",
+   "surface": "tuberos",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "tuberos",
+   "type": "ingredient",
+   "surface": "tuberos",
+   "ts": "42:34"
+  },
+  {
+   "canonical": "Enflorage",
+   "type": "technique",
+   "surface": "Enflorage",
+   "ts": "43:50"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "44:27"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "44:50"
+  }
+ ]
+}

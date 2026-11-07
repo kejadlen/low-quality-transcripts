@@ -1,0 +1,847 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "1:28"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "1:35"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "1:55"
+  },
+  {
+   "canonical": "Robert's Pizzeria",
+   "type": "place",
+   "surface": "Robert's Pizzeria",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick Brooklyn",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Jimmy Carboni",
+   "type": "person",
+   "surface": "Jimmy Carboni",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Beer Sessions Radio",
+   "type": "place",
+   "surface": "Beer Sessions Radio",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "1:55"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "4:22"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Dirtbag Buddies",
+   "type": "place",
+   "surface": "dirtbag buddies",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "Dirtbag Buddies",
+   "type": "place",
+   "surface": "dirtbag buddies",
+   "ts": "4:22"
+  },
+  {
+   "canonical": "Dirtbag Buddies",
+   "type": "place",
+   "surface": "dirtbag buddies",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Captain Jeff",
+   "type": "person",
+   "surface": "Captain Jeff",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Captain Jeff",
+   "type": "person",
+   "surface": "Coast Guard Lunatic",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "7:14"
+  },
+  {
+   "canonical": "Sears and Road Buck Corporation",
+   "type": "place",
+   "surface": "Sears and Road Buck Corporation",
+   "ts": "4:50"
+  },
+  {
+   "canonical": "Kenmore",
+   "type": "place",
+   "surface": "Kenmore",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Dump",
+   "type": "place",
+   "surface": "dump",
+   "ts": "4:50"
+  },
+  {
+   "canonical": "Dump",
+   "type": "place",
+   "surface": "dump",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Boat",
+   "type": "ingredient",
+   "surface": "Boats",
+   "ts": "4:44"
+  },
+  {
+   "canonical": "Boat",
+   "type": "ingredient",
+   "surface": "boats",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Fiberglass",
+   "type": "ingredient",
+   "surface": "fiberglass",
+   "ts": "4:50"
+  },
+  {
+   "canonical": "Fiberglass",
+   "type": "ingredient",
+   "surface": "fiberglass",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Registration",
+   "type": "technique",
+   "surface": "registration",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "DMV",
+   "type": "place",
+   "surface": "DMV",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Connecticut",
+   "type": "place",
+   "surface": "Connecticut",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Lubowski",
+   "type": "person",
+   "surface": "Lubowski",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "Rangum",
+   "type": "person",
+   "surface": "rangum",
+   "ts": "7:59"
+  },
+  {
+   "canonical": "Paleolithic",
+   "type": "technique",
+   "surface": "Paleolithic",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Paleolithic",
+   "type": "technique",
+   "surface": "Paleolithic",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Tuber",
+   "type": "ingredient",
+   "surface": "tuber",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Division of Labor",
+   "type": "technique",
+   "surface": "division of labor",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Baker's percentage",
+   "type": "technique",
+   "surface": "baker's percentage",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "11:57"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "16:30"
+  },
+  {
+   "canonical": "Gluten development",
+   "type": "technique",
+   "surface": "gluten development",
+   "ts": "10:16"
+  },
+  {
+   "canonical": "Lohie bread method",
+   "type": "technique",
+   "surface": "Lohie bread method",
+   "ts": "9:59"
+  },
+  {
+   "canonical": "Pharynograph",
+   "type": "equipment",
+   "surface": "pharynograph",
+   "ts": "17:57"
+  },
+  {
+   "canonical": "Pulled noodle",
+   "type": "technique",
+   "surface": "pulled noodle",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Pulled noodle",
+   "type": "technique",
+   "surface": "pulled noodle",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Xena Warrior Princess",
+   "type": "place",
+   "surface": "Xena Warrior Princess",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "Linda Palacio",
+   "type": "person",
+   "surface": "Linda Palacio",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "Slow Money NYC",
+   "type": "place",
+   "surface": "Slow Money NYC",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Food and Enterprise Summit",
+   "type": "place",
+   "surface": "Food and Enterprise Summit",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "A Taste of the Past",
+   "type": "place",
+   "surface": "A Taste of the Past",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "A Taste of the Past",
+   "type": "place",
+   "surface": "a taste of the past",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Beaten biscuits",
+   "type": "ingredient",
+   "surface": "beaten biscuits",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Lamination",
+   "type": "technique",
+   "surface": "lamination",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Physical violence",
+   "type": "technique",
+   "surface": "physical violence",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "David",
+   "type": "person",
+   "surface": "David",
+   "ts": "21:25"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "CVAP",
+   "type": "equipment",
+   "surface": "CVAP",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "27:19"
+  },
+  {
+   "canonical": "deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "23:51"
+  },
+  {
+   "canonical": "outdoor deep fryer",
+   "type": "equipment",
+   "surface": "outdoor deep fryer",
+   "ts": "23:51"
+  },
+  {
+   "canonical": "speed rack",
+   "type": "equipment",
+   "surface": "speed rack",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "speed rack",
+   "type": "equipment",
+   "surface": "speed rack",
+   "ts": "26:32"
+  },
+  {
+   "canonical": "electric oven",
+   "type": "equipment",
+   "surface": "electric oven",
+   "ts": "26:53"
+  },
+  {
+   "canonical": "propane",
+   "type": "ingredient",
+   "surface": "propane",
+   "ts": "23:51"
+  },
+  {
+   "canonical": "sheet tray",
+   "type": "equipment",
+   "surface": "sheet tray",
+   "ts": "26:32"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "26:32"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "26:53"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "27:19"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "warming oven",
+   "type": "equipment",
+   "surface": "warming oven",
+   "ts": "27:19"
+  },
+  {
+   "canonical": "Louie Armstrong",
+   "type": "person",
+   "surface": "Louie Armstrong",
+   "ts": "28:07"
+  },
+  {
+   "canonical": "Commercial dishwasher",
+   "type": "equipment",
+   "surface": "Commercial dishwashers",
+   "ts": "28:23"
+  },
+  {
+   "canonical": "Commercial dishwasher",
+   "type": "equipment",
+   "surface": "commercial dishwasher",
+   "ts": "28:42"
+  },
+  {
+   "canonical": "Gra",
+   "type": "place",
+   "surface": "Gra",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Jonathan Sawyer",
+   "type": "person",
+   "surface": "Jonathan Sawyer",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Hobart",
+   "type": "equipment",
+   "surface": "Hobart",
+   "ts": "30:20"
+  },
+  {
+   "canonical": "Josh",
+   "type": "person",
+   "surface": "Josh",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "bubble size",
+   "type": "technique",
+   "surface": "bubble size",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "bubble size",
+   "type": "technique",
+   "surface": "bubble size",
+   "ts": "32:17"
+  },
+  {
+   "canonical": "bubble size",
+   "type": "technique",
+   "surface": "bubble size",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "seltzer",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "32:17"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "alcohol content",
+   "type": "technique",
+   "surface": "alcohol content",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "torta",
+   "type": "ingredient",
+   "surface": "torta",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "torta",
+   "type": "ingredient",
+   "surface": "torta",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "torta",
+   "type": "ingredient",
+   "surface": "Torta",
+   "ts": "35:28"
+  },
+  {
+   "canonical": "torta",
+   "type": "ingredient",
+   "surface": "torta",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Mexican cuisine",
+   "type": "place",
+   "surface": "Mexican cuisine",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "tortas de camarone",
+   "type": "ingredient",
+   "surface": "tortas de camarone",
+   "ts": "35:52"
+  },
+  {
+   "canonical": "Guerrero",
+   "type": "place",
+   "surface": "Guerrero",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Rick Bayless",
+   "type": "person",
+   "surface": "Rick Bayless",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "ethnic food",
+   "type": "ingredient",
+   "surface": "ethnic food",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "high-end food",
+   "type": "ingredient",
+   "surface": "high-end food",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "plebeian food",
+   "type": "ingredient",
+   "surface": "plebeian food",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "39:27"
+  },
+  {
+   "canonical": "Enrique Olivera",
+   "type": "person",
+   "surface": "Enrique Olivera",
+   "ts": "39:27"
+  },
+  {
+   "canonical": "Cosme",
+   "type": "place",
+   "surface": "Cosme",
+   "ts": "39:27"
+  },
+  {
+   "canonical": "Mission Chinese",
+   "type": "place",
+   "surface": "Mission Chinese",
+   "ts": "40:09"
+  },
+  {
+   "canonical": "Mission Chinese",
+   "type": "place",
+   "surface": "Mission Chinese",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Mission Chinese",
+   "type": "place",
+   "surface": "Mission Chinese",
+   "ts": "41:28"
+  },
+  {
+   "canonical": "Sichuan peppercorns",
+   "type": "ingredient",
+   "surface": "Sichuan peppercorns",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "wood fired oven",
+   "type": "equipment",
+   "surface": "wood fired oven",
+   "ts": "41:28"
+  },
+  {
+   "canonical": "tortillas",
+   "type": "ingredient",
+   "surface": "tortillas",
+   "ts": "39:27"
+  },
+  {
+   "canonical": "risotto",
+   "type": "ingredient",
+   "surface": "risotto",
+   "ts": "40:09"
+  },
+  {
+   "canonical": "Danny Bowien",
+   "type": "person",
+   "surface": "Danny Bowen",
+   "ts": "40:09"
+  },
+  {
+   "canonical": "Danny Bowien",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Danny Bowien",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "42:01"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "43:11"
+  },
+  {
+   "canonical": "Heritage Radio Network.org",
+   "type": "place",
+   "surface": "heritage radio network.org",
+   "ts": "43:11"
+  }
+ ]
+}

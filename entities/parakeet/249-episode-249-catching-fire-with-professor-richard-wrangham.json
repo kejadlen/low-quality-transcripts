@@ -1,0 +1,619 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Richard Rangham",
+   "type": "person",
+   "surface": "Richard Rangham",
+   "ts": "5:17"
+  },
+  {
+   "canonical": "Richard Rangham",
+   "type": "person",
+   "surface": "Professor Rangham",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Richard Rangham",
+   "type": "person",
+   "surface": "Richard Rangham",
+   "ts": "8:31"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "6:30"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "7:02"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoors",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Gulati International",
+   "type": "place",
+   "surface": "Gulati International",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Tandoors.com",
+   "type": "place",
+   "surface": "www.tandoors.com",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "4:56"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Robert's Petria",
+   "type": "place",
+   "surface": "Robert's Petria",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Semolina",
+   "type": "ingredient",
+   "surface": "Semolina",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Bazbooza",
+   "type": "ingredient",
+   "surface": "Bazbooza",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Raw diet",
+   "type": "technique",
+   "surface": "raw diet",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Raw diet",
+   "type": "technique",
+   "surface": "raw food",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Cooked food",
+   "type": "technique",
+   "surface": "cooked",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Calorie",
+   "type": "ingredient",
+   "surface": "calories",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Calorie",
+   "type": "ingredient",
+   "surface": "calorie",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Calorie",
+   "type": "ingredient",
+   "surface": "calories",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "Calorie",
+   "type": "ingredient",
+   "surface": "calories",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Calorie",
+   "type": "ingredient",
+   "surface": "calories",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Nutritional labels",
+   "type": "place",
+   "surface": "nutritional labels",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Nutritional labels",
+   "type": "place",
+   "surface": "labels",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Chimpanzees",
+   "type": "person",
+   "surface": "chimpanzees",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Uganda",
+   "type": "place",
+   "surface": "Uganda",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "High speed blender",
+   "type": "equipment",
+   "surface": "high speed blender",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Tubers",
+   "type": "ingredient",
+   "surface": "tubers",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Fruits",
+   "type": "ingredient",
+   "surface": "fruits",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Rachel Carmody",
+   "type": "person",
+   "surface": "R Rachel Carmody",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "American Association for Advancement of Science",
+   "type": "place",
+   "surface": "American Association for Advancement of Science",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "Food labeling",
+   "type": "technique",
+   "surface": "food labeling",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "Caloric intake",
+   "type": "technique",
+   "surface": "calories",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Caloric intake",
+   "type": "technique",
+   "surface": "how much weight will I put on",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "Caloric intake",
+   "type": "technique",
+   "surface": "calories",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Caloric intake",
+   "type": "technique",
+   "surface": "calories",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Food processing",
+   "type": "technique",
+   "surface": "processing",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "Vegetable oil",
+   "type": "ingredient",
+   "surface": "vegetable oil",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Caloric absorption",
+   "type": "technique",
+   "surface": "absorb the vast majority of those calories",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "traffic light system",
+   "type": "technique",
+   "surface": "traffic light system",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "food labels",
+   "type": "ingredient",
+   "surface": "food labels",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Professor Lieberman",
+   "type": "person",
+   "surface": "Professor Lieberman",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Katie Zink",
+   "type": "person",
+   "surface": "Katie Zink",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "USDA",
+   "type": "place",
+   "surface": "USDA",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Nature",
+   "type": "place",
+   "surface": "nature",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "ingredient",
+   "surface": "raw food",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "ingredient",
+   "surface": "raw food",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Cooked Food",
+   "type": "ingredient",
+   "surface": "cooked",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Calories",
+   "type": "ingredient",
+   "surface": "calories",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Calories",
+   "type": "ingredient",
+   "surface": "calories",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Stone Tools",
+   "type": "equipment",
+   "surface": "stone tools",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Stone Tools",
+   "type": "equipment",
+   "surface": "stone tools",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Electric Blender",
+   "type": "equipment",
+   "surface": "electric blender",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Paleolithic",
+   "type": "place",
+   "surface": "Paleolithic",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "Meat",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Bolus",
+   "type": "technique",
+   "surface": "bolus",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Chewing",
+   "type": "technique",
+   "surface": "chewing",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Chewing",
+   "type": "technique",
+   "surface": "chewing",
+   "ts": "26:34"
+  },
+  {
+   "canonical": "Chewing",
+   "type": "technique",
+   "surface": "chewing",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Chewing",
+   "type": "technique",
+   "surface": "Chewing",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Chewing",
+   "type": "technique",
+   "surface": "chewing",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Pounding",
+   "type": "technique",
+   "surface": "pounding",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Pounding",
+   "type": "technique",
+   "surface": "pounding",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Digestion",
+   "type": "technique",
+   "surface": "digestion",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Digestion",
+   "type": "technique",
+   "surface": "digestion",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Nutrition Labels",
+   "type": "ingredient",
+   "surface": "nutrition labels",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Food Labels",
+   "type": "ingredient",
+   "surface": "food labels",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Cooking",
+   "type": "technique",
+   "surface": "cooking",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Cooking",
+   "type": "technique",
+   "surface": "cooking",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "ingredient",
+   "surface": "raw food",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "ingredient",
+   "surface": "raw food",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Cooked",
+   "type": "ingredient",
+   "surface": "cooked",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Polly Wiesner",
+   "type": "person",
+   "surface": "Polly Wiesner",
+   "ts": "46:12"
+  },
+  {
+   "canonical": "Scooter",
+   "type": "person",
+   "surface": "scooter",
+   "ts": "51:07"
+  },
+  {
+   "canonical": "Montana",
+   "type": "place",
+   "surface": "Montana",
+   "ts": "51:07"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "51:07"
+  },
+  {
+   "canonical": "paleo diet",
+   "type": "technique",
+   "surface": "paleo diet",
+   "ts": "53:20"
+  },
+  {
+   "canonical": "Richard Rangham",
+   "type": "person",
+   "surface": "Professor uh Richard Rangham",
+   "ts": "53:45"
+  },
+  {
+   "canonical": "Catchin Fire",
+   "type": "ingredient",
+   "surface": "Catching Fire",
+   "ts": "53:45"
+  },
+  {
+   "canonical": "Bazbooza",
+   "type": "ingredient",
+   "surface": "Bazbooza",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "Dextrose Equivalent Glucose Syrup",
+   "type": "ingredient",
+   "surface": "low DE",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "Quad Preparatory School",
+   "type": "place",
+   "surface": "quad",
+   "ts": "55:13"
+  },
+  {
+   "canonical": "Museum of Food and Drinks",
+   "type": "place",
+   "surface": "Museum of Food and Drinks",
+   "ts": "54:58"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "55:34"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "56:01"
+  }
+ ]
+}

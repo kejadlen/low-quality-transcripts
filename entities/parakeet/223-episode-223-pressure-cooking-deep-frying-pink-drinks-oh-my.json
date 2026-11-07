@@ -1,0 +1,817 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:15"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack Insle",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "1:09"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:15"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:15"
+  },
+  {
+   "canonical": "aquafaba",
+   "type": "ingredient",
+   "surface": "aquafaba",
+   "ts": "1:50"
+  },
+  {
+   "canonical": "aquafaba",
+   "type": "ingredient",
+   "surface": "aquafaba",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "aquafaba",
+   "type": "ingredient",
+   "surface": "aquafaba",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "aquafaba",
+   "type": "ingredient",
+   "surface": "aquafaba",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpea",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "1:50"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "2:09"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpea",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "2:09"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "induction burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "wok",
+   "type": "equipment",
+   "surface": "wok",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "wok",
+   "type": "equipment",
+   "surface": "wok",
+   "ts": "8:40"
+  },
+  {
+   "canonical": "starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "protein",
+   "type": "ingredient",
+   "surface": "protein",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "cows",
+   "type": "ingredient",
+   "surface": "cows",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "cows",
+   "type": "ingredient",
+   "surface": "Cows",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "6:13"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "8:40"
+  },
+  {
+   "canonical": "Connecticut",
+   "type": "place",
+   "surface": "Connecticut",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Madison, Wisconsin",
+   "type": "place",
+   "surface": "Madison, Wisconsin",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "0:15"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:15"
+  },
+  {
+   "canonical": "Kapow.com",
+   "type": "place",
+   "surface": "Kapow.com",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "HeritageRadio Network.org",
+   "type": "place",
+   "surface": "HeritageRadio Network.org",
+   "ts": "0:15"
+  },
+  {
+   "canonical": "In the Drink",
+   "type": "place",
+   "surface": "In the Drink",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "VersaWhip 600 K",
+   "type": "equipment",
+   "surface": "VersaWhip 600 K",
+   "ts": "1:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Professional Deep Fryer",
+   "type": "equipment",
+   "surface": "professional deep fryer",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "Stainless Steel Kettle",
+   "type": "equipment",
+   "surface": "stainless steel kettle",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Propane Tank",
+   "type": "equipment",
+   "surface": "propane tank",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep fryer",
+   "ts": "9:16"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep fryer",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep fryer",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "11:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "technique",
+   "surface": "botulism",
+   "ts": "12:39"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "technique",
+   "surface": "botulism",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "technique",
+   "surface": "botulism",
+   "ts": "13:37"
+  },
+  {
+   "canonical": "Duck Confit",
+   "type": "ingredient",
+   "surface": "duck confit",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Duck Confit",
+   "type": "ingredient",
+   "surface": "duck comfy",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Vacuum Sealer",
+   "type": "equipment",
+   "surface": "food saver style sealer",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "12:59"
+  },
+  {
+   "canonical": "Duck Fat",
+   "type": "ingredient",
+   "surface": "duck fat",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "12:39"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "12:39"
+  },
+  {
+   "canonical": "Botulism Toxin",
+   "type": "technique",
+   "surface": "botulism toxin",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Heat Labile",
+   "type": "technique",
+   "surface": "heat labile",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Heat Labile",
+   "type": "technique",
+   "surface": "heat labile",
+   "ts": "13:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Zed",
+   "type": "person",
+   "surface": "Zed",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Calcium Lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Calcium Lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "16:26"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Calcium Lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Calcium Lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Novo Shape",
+   "type": "ingredient",
+   "surface": "Novo shape",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Novo Shape",
+   "type": "ingredient",
+   "surface": "novo shape",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Vacuum Bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Zippy",
+   "type": "equipment",
+   "surface": "zippy",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "modernist pantry",
+   "ts": "15:36"
+  },
+  {
+   "canonical": "Pickling Lime",
+   "type": "ingredient",
+   "surface": "pickling lime",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoking",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoke",
+   "ts": "18:41"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoke",
+   "ts": "19:20"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoke",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoke",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep fry",
+   "ts": "19:20"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep frying",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep fry",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep fry",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "22:08"
+  },
+  {
+   "canonical": "Nixtomatic Grinder",
+   "type": "equipment",
+   "surface": "nystomatic grinder",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Nixtomatic Grinder",
+   "type": "equipment",
+   "surface": "Nixtomatic",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Merced Market",
+   "type": "place",
+   "surface": "Merced",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Merced Market",
+   "type": "place",
+   "surface": "Merced",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Quesadilla",
+   "type": "ingredient",
+   "surface": "quesadillas",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Quesadilla",
+   "type": "ingredient",
+   "surface": "quesadillas",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Squash Blossom",
+   "type": "ingredient",
+   "surface": "squash blossom",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "26:13"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker Deb",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "29:48"
+  },
+  {
+   "canonical": "Roselle",
+   "type": "ingredient",
+   "surface": "Rosella flower pod",
+   "ts": "26:13"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "26:13"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "29:19"
+  },
+  {
+   "canonical": "Milk washing",
+   "type": "technique",
+   "surface": "milkwash",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Milk washing",
+   "type": "technique",
+   "surface": "milk washing",
+   "ts": "29:19"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centerfuge",
+   "ts": "29:48"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Log jack",
+   "type": "equipment",
+   "surface": "log jack",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "Log jack",
+   "type": "equipment",
+   "surface": "log jack",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Log jack",
+   "type": "equipment",
+   "surface": "log jack",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Log jack",
+   "type": "equipment",
+   "surface": "log jack",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "Log jack",
+   "type": "equipment",
+   "surface": "log jack",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Log jack",
+   "type": "equipment",
+   "surface": "log jack",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "Wood stove",
+   "type": "equipment",
+   "surface": "wood stove",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "Chainsaw",
+   "type": "equipment",
+   "surface": "chainsaw",
+   "ts": "30:41"
+  },
+  {
+   "canonical": "Chainsaw",
+   "type": "equipment",
+   "surface": "chainsaw",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "33:13"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "33:44"
+  }
+ ]
+}

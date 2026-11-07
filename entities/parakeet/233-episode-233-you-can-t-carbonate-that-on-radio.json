@@ -1,0 +1,997 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "5:03"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "9:32"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:07"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Jackie Molecule",
+   "type": "person",
+   "surface": "Jackie Molecule",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Drinkmate",
+   "type": "place",
+   "surface": "Drinkmate",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "5:03"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "5:35"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "5:40"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonating",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Egg Cream",
+   "type": "ingredient",
+   "surface": "egg cream",
+   "ts": "5:56"
+  },
+  {
+   "canonical": "Egg Cream",
+   "type": "ingredient",
+   "surface": "egg cream",
+   "ts": "6:02"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:18"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Bushwick, Brooklyn",
+   "type": "place",
+   "surface": "Bushwick Brooklyn",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Wisconsin Cheese Cupid Pairing app",
+   "type": "place",
+   "surface": "Wisconsin Cheese Cupid Pairing app",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "11:45"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "16:54"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Patrick Martin",
+   "type": "person",
+   "surface": "Patrick Martin",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "16:54"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "10:19"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "17:24"
+  },
+  {
+   "canonical": "Drinkmate",
+   "type": "equipment",
+   "surface": "Drinkmate",
+   "ts": "13:54"
+  },
+  {
+   "canonical": "Carbonated Drinkmaker",
+   "type": "equipment",
+   "surface": "Carbonated Drinkmaker",
+   "ts": "13:54"
+  },
+  {
+   "canonical": "Mofad",
+   "type": "place",
+   "surface": "Mofad",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Alsace",
+   "type": "place",
+   "surface": "Alsace",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Mule Forced Riesling",
+   "type": "ingredient",
+   "surface": "Mule forced Riesling",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "10:19"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "12:05"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "17:24"
+  },
+  {
+   "canonical": "Bushwick House",
+   "type": "place",
+   "surface": "Bushwick House",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "Electric Bicycle",
+   "type": "equipment",
+   "surface": "electric bicycle",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "18:39"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "18:53"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "Headphones",
+   "type": "equipment",
+   "surface": "headphones",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Phone",
+   "type": "equipment",
+   "surface": "phone",
+   "ts": "11:19"
+  },
+  {
+   "canonical": "Phone",
+   "type": "equipment",
+   "surface": "phone",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Phone",
+   "type": "equipment",
+   "surface": "phone",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Riesling",
+   "type": "ingredient",
+   "surface": "Riesling",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Chardonnay",
+   "type": "ingredient",
+   "surface": "Chardonnay",
+   "ts": "19:50"
+  },
+  {
+   "canonical": "Prime rib",
+   "type": "ingredient",
+   "surface": "prime rib",
+   "ts": "20:10"
+  },
+  {
+   "canonical": "Ziploc",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "20:32"
+  },
+  {
+   "canonical": "Plastic wrap",
+   "type": "equipment",
+   "surface": "plastic wrap",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Plastic wrap",
+   "type": "equipment",
+   "surface": "plastic wrap",
+   "ts": "21:32"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "22:09"
+  },
+  {
+   "canonical": "Nyx Tomatic",
+   "type": "ingredient",
+   "surface": "Nyx Tomatic",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Nyx Domatic",
+   "type": "equipment",
+   "surface": "Nyx Domatic",
+   "ts": "24:17"
+  },
+  {
+   "canonical": "Nyx Domatic",
+   "type": "equipment",
+   "surface": "nix d'ematic",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "25:45"
+  },
+  {
+   "canonical": "Masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "Mochi Maker",
+   "type": "equipment",
+   "surface": "mochi maker",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Moffaled",
+   "type": "ingredient",
+   "surface": "Moffaled",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Moffaled",
+   "type": "ingredient",
+   "surface": "Maffle",
+   "ts": "27:56"
+  },
+  {
+   "canonical": "Corn Grinder",
+   "type": "equipment",
+   "surface": "corn grinder",
+   "ts": "26:48"
+  },
+  {
+   "canonical": "Merced Market",
+   "type": "place",
+   "surface": "Merced",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Squash Blossom Quesadillas",
+   "type": "ingredient",
+   "surface": "squash blossom quesadillas",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Nick Wong",
+   "type": "person",
+   "surface": "Nick Wong",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "27:56"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Daniel Krieger",
+   "type": "person",
+   "surface": "Daniel Krieger",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Banana Grams",
+   "type": "ingredient",
+   "surface": "bananagrams",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "28:51"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "33:07"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "29:18"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "Mochi",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "30:26"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "30:54"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "Mochi",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Waffle Iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "Waffle Iron",
+   "type": "equipment",
+   "surface": "waffle",
+   "ts": "30:26"
+  },
+  {
+   "canonical": "Cheese Cupid",
+   "type": "place",
+   "surface": "Cheese Cupid",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Cheese Cupid",
+   "type": "place",
+   "surface": "Cheese Cupid",
+   "ts": "31:38"
+  },
+  {
+   "canonical": "Cheese Cupid",
+   "type": "place",
+   "surface": "CheeseCupid.com",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Tiger Mochi Maker",
+   "type": "equipment",
+   "surface": "tiger mochi maker",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "30:54"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "MoFed",
+   "ts": "34:40"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Natural",
+   "type": "ingredient",
+   "surface": "natural",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Natural",
+   "type": "ingredient",
+   "surface": "natural",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Natural",
+   "type": "ingredient",
+   "surface": "natural",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Sesame Oil",
+   "type": "ingredient",
+   "surface": "sesame oil",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Sesame",
+   "type": "ingredient",
+   "surface": "sesame",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Despicable Me",
+   "type": "place",
+   "surface": "Despicable Me",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Despicable Me",
+   "type": "place",
+   "surface": "Despicable Me",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Luis Harper",
+   "type": "person",
+   "surface": "Luis Harper",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "Luis Harper",
+   "type": "person",
+   "surface": "Louise",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "KitchenAid pasta rollers",
+   "type": "equipment",
+   "surface": "KitchenAid pasta rollers",
+   "ts": "39:09"
+  },
+  {
+   "canonical": "KitchenAid pasta rollers",
+   "type": "equipment",
+   "surface": "KitchenAid pasta roller set",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Atlas pasta roller",
+   "type": "equipment",
+   "surface": "Atlas like pasta roller",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Soba knife",
+   "type": "equipment",
+   "surface": "soba knife",
+   "ts": "40:00"
+  },
+  {
+   "canonical": "Single Serve",
+   "type": "place",
+   "surface": "single serve.net dot AU",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "Bed Bath and Beyond",
+   "type": "place",
+   "surface": "Bed Bath and Beyond",
+   "ts": "39:34"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "37:54"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "Transcript",
+   "type": "technique",
+   "surface": "transcripts",
+   "ts": "40:26"
+  },
+  {
+   "canonical": "Transcript",
+   "type": "technique",
+   "surface": "transcripts",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Transcript",
+   "type": "technique",
+   "surface": "transcripts",
+   "ts": "41:18"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "39:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "Rev.com",
+   "type": "place",
+   "surface": "Rev.com",
+   "ts": "41:08"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "41:18"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "41:33"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "37:54"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "Umpa Loompas",
+   "type": "person",
+   "surface": "Umpa Loompas",
+   "ts": "41:39"
+  },
+  {
+   "canonical": "Umpa Loompas",
+   "type": "person",
+   "surface": "Umpalumpas",
+   "ts": "41:58"
+  },
+  {
+   "canonical": "Chris Alford",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Chris Alford",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "corny keg",
+   "type": "equipment",
+   "surface": "corny keg",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "45:30"
+  },
+  {
+   "canonical": "kegs",
+   "type": "equipment",
+   "surface": "kegs",
+   "ts": "45:30"
+  },
+  {
+   "canonical": "Alex",
+   "type": "person",
+   "surface": "Alex",
+   "ts": "45:30"
+  },
+  {
+   "canonical": "Cook's Illustrated",
+   "type": "place",
+   "surface": "Cook's illustrated",
+   "ts": "45:30"
+  },
+  {
+   "canonical": "cast iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "45:30"
+  },
+  {
+   "canonical": "steel pans",
+   "type": "equipment",
+   "surface": "steel pans",
+   "ts": "45:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "iTunes store",
+   "type": "place",
+   "surface": "iTunes store",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Facebook",
+   "type": "place",
+   "surface": "Facebook",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "info@heritage radio network.org",
+   "type": "place",
+   "surface": "info at heritage radio network.org",
+   "ts": "45:58"
+  }
+ ]
+}

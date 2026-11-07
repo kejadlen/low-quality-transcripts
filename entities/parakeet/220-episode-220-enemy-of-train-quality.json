@@ -1,0 +1,877 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:35"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "7:13"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:35"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "1:26"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:26"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:35"
+  },
+  {
+   "canonical": "Bushwick, Brooklyn",
+   "type": "place",
+   "surface": "Bushwick Brooklyn",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Mastiha",
+   "type": "ingredient",
+   "surface": "Mastiha",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Enzyme soak",
+   "type": "technique",
+   "surface": "enzyme soak",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Enzyme soak",
+   "type": "technique",
+   "surface": "enzyme soak",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Enzyme soak",
+   "type": "technique",
+   "surface": "enzyme soak",
+   "ts": "5:12"
+  },
+  {
+   "canonical": "French fry",
+   "type": "ingredient",
+   "surface": "French fry",
+   "ts": "5:12"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Giuliano Buggiali",
+   "type": "person",
+   "surface": "Giuliano Buggiali",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:12"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Jacques Papin",
+   "type": "person",
+   "surface": "Jacques Capin",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixtimalized",
+   "ts": "16:30"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixamalizing",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixamalizing",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Food processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "16:30"
+  },
+  {
+   "canonical": "Food processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Calcium hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "11:49"
+  },
+  {
+   "canonical": "Syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduce",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduce",
+   "ts": "12:17"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduce",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduce",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduce",
+   "ts": "14:20"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduce",
+   "ts": "14:43"
+  },
+  {
+   "canonical": "Reduction",
+   "type": "technique",
+   "surface": "reduced",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Borium and McKibben",
+   "type": "place",
+   "surface": "borum and McKibben",
+   "ts": "13:56"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Pulgaring Institute",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Nixtamal grinder",
+   "type": "equipment",
+   "surface": "Nixtaval grinder",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "11:49"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "12:17"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "13:40"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "17:55"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:33"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "26:32"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "21:28"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "22:33"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "22:52"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "23:35"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "22:52"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "23:22"
+  },
+  {
+   "canonical": "Washington State",
+   "type": "place",
+   "surface": "Pacific Northwest",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Washington State",
+   "type": "place",
+   "surface": "Pacific Northwest",
+   "ts": "22:52"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking issues",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "21:06"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Wood Infusion",
+   "type": "technique",
+   "surface": "wood flavor infusion",
+   "ts": "24:56"
+  },
+  {
+   "canonical": "EC Rapid Infusion",
+   "type": "technique",
+   "surface": "EC rapid infusion",
+   "ts": "24:56"
+  },
+  {
+   "canonical": "Liqueur",
+   "type": "ingredient",
+   "surface": "Liqueur",
+   "ts": "24:04"
+  },
+  {
+   "canonical": "Liqueur",
+   "type": "ingredient",
+   "surface": "liqueur",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Liqueur",
+   "type": "ingredient",
+   "surface": "liquor",
+   "ts": "25:54"
+  },
+  {
+   "canonical": "Coffee Filter",
+   "type": "equipment",
+   "surface": "coffee filters",
+   "ts": "26:32"
+  },
+  {
+   "canonical": "Coffee Filter",
+   "type": "equipment",
+   "surface": "coffee filters",
+   "ts": "26:57"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "27:36"
+  },
+  {
+   "canonical": "Drywall",
+   "type": "equipment",
+   "surface": "drywall",
+   "ts": "26:57"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "29:01"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "33:46"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "35:47"
+  },
+  {
+   "canonical": "Oak",
+   "type": "ingredient",
+   "surface": "oak",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Oak",
+   "type": "ingredient",
+   "surface": "oak",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Oak",
+   "type": "ingredient",
+   "surface": "oak",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "29:55"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "32:02"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Browser",
+   "type": "equipment",
+   "surface": "browser",
+   "ts": "29:09"
+  },
+  {
+   "canonical": "Browser",
+   "type": "equipment",
+   "surface": "Browser",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "Sassafras",
+   "type": "ingredient",
+   "surface": "sassafras",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Saffron",
+   "type": "ingredient",
+   "surface": "saffron",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "Nutmeg",
+   "ts": "33:46"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "34:20"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "Thujone",
+   "ts": "36:05"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "thujone",
+   "ts": "36:21"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "36:05"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "36:21"
+  },
+  {
+   "canonical": "Clove Oil",
+   "type": "ingredient",
+   "surface": "clove oil",
+   "ts": "36:21"
+  },
+  {
+   "canonical": "Tincture",
+   "type": "technique",
+   "surface": "tincture",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Extraction",
+   "type": "technique",
+   "surface": "extraction",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Extraction",
+   "type": "technique",
+   "surface": "extraction",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Toasting",
+   "type": "technique",
+   "surface": "toasting",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Toasting",
+   "type": "technique",
+   "surface": "toasting",
+   "ts": "29:55"
+  },
+  {
+   "canonical": "Pressure Treated",
+   "type": "ingredient",
+   "surface": "pressure treated",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Pressure Treated",
+   "type": "ingredient",
+   "surface": "pressure treated",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Technical Reserve",
+   "type": "ingredient",
+   "surface": "technical reserve",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Home Depot",
+   "type": "place",
+   "surface": "Home Depot",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Lumber Yard",
+   "type": "place",
+   "surface": "lumber yard",
+   "ts": "32:02"
+  },
+  {
+   "canonical": "Arrowwit",
+   "type": "place",
+   "surface": "Arrowwit",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "Vault",
+   "type": "place",
+   "surface": "Vault",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Wagyu beef",
+   "type": "ingredient",
+   "surface": "Wagyu beef",
+   "ts": "37:03"
+  },
+  {
+   "canonical": "Wagyu beef",
+   "type": "ingredient",
+   "surface": "Wagyu beef",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Wagyu beef",
+   "type": "ingredient",
+   "surface": "Wagyu beef",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "dry aging",
+   "type": "technique",
+   "surface": "dry age",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "relative humidity",
+   "type": "ingredient",
+   "surface": "relative humidity",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "salt pan",
+   "type": "equipment",
+   "surface": "salt pan",
+   "ts": "37:53"
+  },
+  {
+   "canonical": "saturated salt solution",
+   "type": "ingredient",
+   "surface": "saturated salt solution",
+   "ts": "37:53"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "38:15"
+  }
+ ]
+}

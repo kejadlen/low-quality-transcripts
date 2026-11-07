@@ -1,0 +1,2413 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Damon Bolti",
+   "type": "person",
+   "surface": "Damon Bolti",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "ingredient",
+   "surface": "Firesider",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer. Lopez",
+   "ts": "1:33"
+  },
+  {
+   "canonical": "Dump Meals",
+   "type": "ingredient",
+   "surface": "Dump Meals",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Dump Meals",
+   "type": "ingredient",
+   "surface": "dump meals",
+   "ts": "2:03"
+  },
+  {
+   "canonical": "Dump Meals",
+   "type": "ingredient",
+   "surface": "dump meals",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "Dump Meals",
+   "type": "ingredient",
+   "surface": "dump meals",
+   "ts": "3:18"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "2:14"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "6:14"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Robert's Pizzeria",
+   "type": "place",
+   "surface": "Robert's Pizzeria",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Hearst",
+   "type": "place",
+   "surface": "Hearst",
+   "ts": "3:18"
+  },
+  {
+   "canonical": "Raphael",
+   "type": "person",
+   "surface": "Raphael",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenment Wines",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenment Wines",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenment Wines",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "6:14"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Mazer",
+   "type": "person",
+   "surface": "mazer",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Mazer",
+   "type": "person",
+   "surface": "Mazer",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Twitter handle",
+   "type": "place",
+   "surface": "Twitter handle",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Social media",
+   "type": "place",
+   "surface": "social media",
+   "ts": "5:17"
+  },
+  {
+   "canonical": "Wine stores",
+   "type": "place",
+   "surface": "wine stores",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Wine stores",
+   "type": "place",
+   "surface": "wine stores",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Winemaking",
+   "type": "technique",
+   "surface": "winemaking",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "6:14"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Jefferson L",
+   "type": "place",
+   "surface": "Jefferson L",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:33"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:03"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:33"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "New England",
+   "type": "place",
+   "surface": "New England",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "New England",
+   "type": "place",
+   "surface": "New England",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "New England",
+   "type": "place",
+   "surface": "New England",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "10:14"
+  },
+  {
+   "canonical": "Dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Scurvy",
+   "type": "ingredient",
+   "surface": "scurvy",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Scurvy",
+   "type": "ingredient",
+   "surface": "scurvy",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Scurvy",
+   "type": "ingredient",
+   "surface": "scurvy",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Vitamin C",
+   "type": "ingredient",
+   "surface": "vitamin C",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Vitamin C",
+   "type": "ingredient",
+   "surface": "vitamin C",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "10:14"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelions",
+   "ts": "12:40"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Fruit wines",
+   "type": "ingredient",
+   "surface": "fruit wines",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Natural winemakers",
+   "type": "person",
+   "surface": "natural winemakers",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "PDT",
+   "type": "place",
+   "surface": "PDT",
+   "ts": "13:19"
+  },
+  {
+   "canonical": "Weasels",
+   "type": "place",
+   "surface": "weasels",
+   "ts": "13:19"
+  },
+  {
+   "canonical": "New York State",
+   "type": "place",
+   "surface": "New York State",
+   "ts": "13:44"
+  },
+  {
+   "canonical": "farm winery",
+   "type": "place",
+   "surface": "farm winery",
+   "ts": "13:32"
+  },
+  {
+   "canonical": "farm winery",
+   "type": "place",
+   "surface": "farm winery",
+   "ts": "13:44"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "10:14"
+  },
+  {
+   "canonical": "dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "dandelion wine",
+   "type": "ingredient",
+   "surface": "dandelion wine",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "lemon juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "lemon juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "acids",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "acids",
+   "type": "ingredient",
+   "surface": "acids",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "acids",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "acids",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "ABV",
+   "type": "ingredient",
+   "surface": "ABV",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "16:14"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Trifolate Orange",
+   "type": "ingredient",
+   "surface": "trifolate orange",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "10:14"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Dandelion",
+   "type": "ingredient",
+   "surface": "dandelion",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Urea",
+   "type": "ingredient",
+   "surface": "urea",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "New England Orange",
+   "type": "ingredient",
+   "surface": "New England like ic uh orange",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "Yeast",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "17:45"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Rose Hip",
+   "type": "ingredient",
+   "surface": "rose hip",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Hydrometer",
+   "type": "equipment",
+   "surface": "hydrometer",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Hydrometer",
+   "type": "equipment",
+   "surface": "hydrometer",
+   "ts": "19:53"
+  },
+  {
+   "canonical": "Hydrometer",
+   "type": "equipment",
+   "surface": "hydrometer",
+   "ts": "20:23"
+  },
+  {
+   "canonical": "Hydrometer",
+   "type": "equipment",
+   "surface": "hydrometer",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Hydrometer",
+   "type": "equipment",
+   "surface": "hydrometer",
+   "ts": "23:32"
+  },
+  {
+   "canonical": "Refractometer",
+   "type": "equipment",
+   "surface": "refractometer",
+   "ts": "21:03"
+  },
+  {
+   "canonical": "Refractometer",
+   "type": "equipment",
+   "surface": "refractometer",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Refractometer",
+   "type": "equipment",
+   "surface": "refractometer",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "24:56"
+  },
+  {
+   "canonical": "Dump Meal",
+   "type": "place",
+   "surface": "dump meal",
+   "ts": "24:38"
+  },
+  {
+   "canonical": "Dump Meal",
+   "type": "place",
+   "surface": "dump meal",
+   "ts": "24:56"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Natty",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Natty",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "28:52"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Natty",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:04"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:31"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "28:52"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "29:05"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "29:13"
+  },
+  {
+   "canonical": "Crock Pot",
+   "type": "equipment",
+   "surface": "crock pot",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Teriyaki Sauce",
+   "type": "ingredient",
+   "surface": "teriyaki sauce",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Teriyaki Sauce",
+   "type": "ingredient",
+   "surface": "teriyaki sauce",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Teriyaki Sauce",
+   "type": "ingredient",
+   "surface": "teriyaki sauce",
+   "ts": "27:45"
+  },
+  {
+   "canonical": "Ginger Ale",
+   "type": "ingredient",
+   "surface": "ginger ale",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Ginger Ale",
+   "type": "ingredient",
+   "surface": "ginger ale",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Ginger Ale",
+   "type": "ingredient",
+   "surface": "ginger ale",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "Ginger Ale",
+   "type": "ingredient",
+   "surface": "ginger ale",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "28:45"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "29:05"
+  },
+  {
+   "canonical": "Taco Seasoning",
+   "type": "ingredient",
+   "surface": "taco seasoning",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "30:38"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "Beer",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "32:49"
+  },
+  {
+   "canonical": "Beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "33:37"
+  },
+  {
+   "canonical": "Barbecue Sauce",
+   "type": "ingredient",
+   "surface": "barbecue sauce",
+   "ts": "30:38"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "Mead",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "32:49"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "33:37"
+  },
+  {
+   "canonical": "IPA",
+   "type": "ingredient",
+   "surface": "IPA",
+   "ts": "30:38"
+  },
+  {
+   "canonical": "Spare Ribs",
+   "type": "ingredient",
+   "surface": "spare ribs",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Spare Ribs",
+   "type": "ingredient",
+   "surface": "spare ribs",
+   "ts": "30:21"
+  },
+  {
+   "canonical": "Spare Ribs",
+   "type": "ingredient",
+   "surface": "spare ribs",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Chicken Thighs",
+   "type": "ingredient",
+   "surface": "chicken thighs",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Chicken Legs",
+   "type": "ingredient",
+   "surface": "chicken legs",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Bell Pepper",
+   "type": "ingredient",
+   "surface": "bell pepper",
+   "ts": "29:13"
+  },
+  {
+   "canonical": "Orange Wine",
+   "type": "ingredient",
+   "surface": "orange wine",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Viking Axes",
+   "type": "place",
+   "surface": "Viking axes",
+   "ts": "33:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenmentwines.com",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Honey's",
+   "type": "place",
+   "surface": "Honey's",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Honey's",
+   "type": "place",
+   "surface": "honey's",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "Floralia",
+   "type": "ingredient",
+   "surface": "Floralia",
+   "ts": "39:26"
+  },
+  {
+   "canonical": "Floralia",
+   "type": "ingredient",
+   "surface": "Floralia",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "34:07"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "35:08"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "35:49"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "40:21"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "41:30"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Honey wine",
+   "type": "ingredient",
+   "surface": "Honey wine",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "Honey wine",
+   "type": "ingredient",
+   "surface": "honey wine",
+   "ts": "35:49"
+  },
+  {
+   "canonical": "Honey wine",
+   "type": "ingredient",
+   "surface": "honey wine",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Honey wine",
+   "type": "ingredient",
+   "surface": "honey wine",
+   "ts": "39:26"
+  },
+  {
+   "canonical": "White Girl",
+   "type": "ingredient",
+   "surface": "White Girl",
+   "ts": "38:04"
+  },
+  {
+   "canonical": "White Girl",
+   "type": "ingredient",
+   "surface": "White Girl",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Rose hips",
+   "type": "ingredient",
+   "surface": "rose hips",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Rose hips",
+   "type": "ingredient",
+   "surface": "rose hips",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Hibiscus",
+   "type": "ingredient",
+   "surface": "hibiscus",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Tart cherries",
+   "type": "ingredient",
+   "surface": "tart cherries",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Cranberry",
+   "type": "ingredient",
+   "surface": "cranberry",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Cherry",
+   "type": "ingredient",
+   "surface": "cherry",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Wild yeast",
+   "type": "technique",
+   "surface": "wild yeast",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Oak",
+   "type": "equipment",
+   "surface": "oak",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "Oak",
+   "type": "equipment",
+   "surface": "oak",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Barrel",
+   "type": "equipment",
+   "surface": "barrels",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Sparkling",
+   "type": "technique",
+   "surface": "sparkling",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Sparkling",
+   "type": "technique",
+   "surface": "sparkling",
+   "ts": "39:40"
+  },
+  {
+   "canonical": "ABV",
+   "type": "ingredient",
+   "surface": "ABV",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Upper East Side",
+   "type": "place",
+   "surface": "upper east side",
+   "ts": "34:07"
+  },
+  {
+   "canonical": "Upper West Side",
+   "type": "place",
+   "surface": "upper west side",
+   "ts": "34:07"
+  },
+  {
+   "canonical": "Flushing",
+   "type": "place",
+   "surface": "flushing",
+   "ts": "39:00"
+  },
+  {
+   "canonical": "Flushing",
+   "type": "place",
+   "surface": "flushing",
+   "ts": "39:07"
+  },
+  {
+   "canonical": "Robert's",
+   "type": "place",
+   "surface": "Robert's",
+   "ts": "39:14"
+  },
+  {
+   "canonical": "Scott Avenue",
+   "type": "place",
+   "surface": "Scott Avenue",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Fat Jew",
+   "type": "person",
+   "surface": "fat Jew",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "Fat Jew",
+   "type": "person",
+   "surface": "Fat Jew",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Anastasia",
+   "type": "person",
+   "surface": "Anastasia",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Chadi ups",
+   "type": "ingredient",
+   "surface": "Chadi ups",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Chardonnay",
+   "type": "ingredient",
+   "surface": "Chardonnay",
+   "ts": "35:49"
+  },
+  {
+   "canonical": "Night eyes",
+   "type": "ingredient",
+   "surface": "night eyes",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Wildflower honey",
+   "type": "ingredient",
+   "surface": "wildflower honey",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Apple blossom honey",
+   "type": "ingredient",
+   "surface": "apple blossom honey",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Society for Cronative Anachronism",
+   "type": "place",
+   "surface": "Society for Cronative Anachronism",
+   "ts": "41:42"
+  },
+  {
+   "canonical": "Harlequin",
+   "type": "equipment",
+   "surface": "Harlequin",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Cod piece",
+   "type": "equipment",
+   "surface": "cod piece",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Vikings",
+   "type": "place",
+   "surface": "Vikings",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Africans",
+   "type": "place",
+   "surface": "Africans",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Indians",
+   "type": "place",
+   "surface": "Indians",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Chinese people",
+   "type": "place",
+   "surface": "Chinese people",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Tannin",
+   "type": "ingredient",
+   "surface": "tannin",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Methag glue",
+   "type": "ingredient",
+   "surface": "methag glue",
+   "ts": "41:30"
+  },
+  {
+   "canonical": "Arlie Marks",
+   "type": "person",
+   "surface": "Arlie Marks",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "Floralia",
+   "type": "ingredient",
+   "surface": "Floralia",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Ethiopian honey wine",
+   "type": "ingredient",
+   "surface": "Ethiopian honey wine",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Gesho",
+   "type": "ingredient",
+   "surface": "gesho",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "Gesho",
+   "type": "ingredient",
+   "surface": "gesho",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Herbal mead",
+   "type": "ingredient",
+   "surface": "herbal mead",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Elderberry",
+   "type": "ingredient",
+   "surface": "elderberry",
+   "ts": "43:32"
+  },
+  {
+   "canonical": "Elderberry",
+   "type": "ingredient",
+   "surface": "elderberry",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Elderberry",
+   "type": "ingredient",
+   "surface": "elderberry",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Black currant wine",
+   "type": "ingredient",
+   "surface": "black currant wine",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "St. Crimson",
+   "type": "ingredient",
+   "surface": "St. Crimson",
+   "ts": "49:24"
+  },
+  {
+   "canonical": "Chrysanthemum wine",
+   "type": "ingredient",
+   "surface": "chrysanthemum wine",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "Pennyroyal",
+   "type": "ingredient",
+   "surface": "Pennyroyal",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Sulphites",
+   "type": "ingredient",
+   "surface": "sulfites",
+   "ts": "49:35"
+  },
+  {
+   "canonical": "Vermouth",
+   "type": "ingredient",
+   "surface": "vermouth",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "Negroni",
+   "type": "technique",
+   "surface": "negroni",
+   "ts": "45:39"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distill",
+   "ts": "42:51"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distilled",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distilled",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Cocktail",
+   "type": "technique",
+   "surface": "cocktail",
+   "ts": "44:31"
+  },
+  {
+   "canonical": "Cocktail",
+   "type": "technique",
+   "surface": "cocktail",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "Cocktail",
+   "type": "technique",
+   "surface": "cocktails",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Cocktail",
+   "type": "technique",
+   "surface": "cocktails",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Cocktail",
+   "type": "technique",
+   "surface": "cocktail",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "49:45"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottle",
+   "ts": "49:45"
+  },
+  {
+   "canonical": "Cultivation",
+   "type": "technique",
+   "surface": "grow",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "Distilled honey wine",
+   "type": "ingredient",
+   "surface": "distilled honey wine",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Herbal mead",
+   "type": "ingredient",
+   "surface": "herbal mead",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Black currant",
+   "type": "ingredient",
+   "surface": "black currant",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Black currant",
+   "type": "ingredient",
+   "surface": "black currant",
+   "ts": "49:24"
+  },
+  {
+   "canonical": "Black currant",
+   "type": "ingredient",
+   "surface": "black currant",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Lemon mint marigold",
+   "type": "ingredient",
+   "surface": "lemon mint marigold",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Marjoram",
+   "type": "ingredient",
+   "surface": "marjoram",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Marjoram",
+   "type": "ingredient",
+   "surface": "marjoram",
+   "ts": "44:24"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Methiglium",
+   "type": "ingredient",
+   "surface": "Methiglium",
+   "ts": "50:57"
+  },
+  {
+   "canonical": "Butterfly pea",
+   "type": "ingredient",
+   "surface": "butterfly pee",
+   "ts": "50:13"
+  },
+  {
+   "canonical": "Butterfly pea",
+   "type": "ingredient",
+   "surface": "butterfly pee",
+   "ts": "50:36"
+  },
+  {
+   "canonical": "Ethiopian restaurant in Bushwick",
+   "type": "place",
+   "surface": "Ethiopian restaurant in Bushwick",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Nordic food labs",
+   "type": "place",
+   "surface": "Nordic food labs",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "PDT",
+   "type": "place",
+   "surface": "PDT",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "Los Angeles",
+   "ts": "43:32"
+  },
+  {
+   "canonical": "Jamaica",
+   "type": "place",
+   "surface": "Jamaica",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "United States",
+   "type": "place",
+   "surface": "US",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "Europe",
+   "type": "place",
+   "surface": "Europe",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Los Angeles winery",
+   "type": "place",
+   "surface": "Los Angeles winery",
+   "ts": "43:32"
+  },
+  {
+   "canonical": "Times",
+   "type": "place",
+   "surface": "Times",
+   "ts": "50:32"
+  },
+  {
+   "canonical": "Bastille Day",
+   "type": "place",
+   "surface": "Bastille Day",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Brian Kestenbaum",
+   "type": "person",
+   "surface": "Brian Kestenbaum",
+   "ts": "47:42"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Ariel",
+   "type": "person",
+   "surface": "Ariel",
+   "ts": "47:42"
+  },
+  {
+   "canonical": "Jim",
+   "type": "person",
+   "surface": "Jim",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Mar",
+   "type": "person",
+   "surface": "Mar",
+   "ts": "44:24"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Raphael",
+   "type": "person",
+   "surface": "Raphael",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenment Wines",
+   "ts": "56:30"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenment Wines",
+   "ts": "56:39"
+  },
+  {
+   "canonical": "Honeys",
+   "type": "place",
+   "surface": "Honeys",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "52:40"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "52:40"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "52:40"
+  },
+  {
+   "canonical": "acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "egg white",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "wine cooler",
+   "type": "equipment",
+   "surface": "wine cooler",
+   "ts": "55:19"
+  },
+  {
+   "canonical": "wine cooler",
+   "type": "equipment",
+   "surface": "wine cooler",
+   "ts": "55:31"
+  },
+  {
+   "canonical": "carboy",
+   "type": "equipment",
+   "surface": "carboy",
+   "ts": "55:23"
+  },
+  {
+   "canonical": "airlock",
+   "type": "equipment",
+   "surface": "airlock",
+   "ts": "55:31"
+  },
+  {
+   "canonical": "Scott Avenue",
+   "type": "place",
+   "surface": "Scott Avenue",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Flushing",
+   "type": "place",
+   "surface": "Flushing",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "L train",
+   "type": "place",
+   "surface": "L train",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "56:39"
+  },
+  {
+   "canonical": "orange juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "orange juice",
+   "type": "ingredient",
+   "surface": "Orange juice",
+   "ts": "54:28"
+  },
+  {
+   "canonical": "orange juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "54:34"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "54:58"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "55:49"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "55:49"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "51:54"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "54:34"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "absinthe",
+   "type": "ingredient",
+   "surface": "absinthe",
+   "ts": "51:54"
+  },
+  {
+   "canonical": "anthocyanins",
+   "type": "ingredient",
+   "surface": "anthocyanins",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "flavor",
+   "type": "ingredient",
+   "surface": "flavor",
+   "ts": "51:54"
+  },
+  {
+   "canonical": "spoilage",
+   "type": "technique",
+   "surface": "spoilage",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "53:54"
+  },
+  {
+   "canonical": "temperature",
+   "type": "ingredient",
+   "surface": "temperature",
+   "ts": "53:54"
+  },
+  {
+   "canonical": "temperature",
+   "type": "ingredient",
+   "surface": "temperature",
+   "ts": "55:19"
+  }
+ ]
+}

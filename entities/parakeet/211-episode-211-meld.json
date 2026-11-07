@@ -1,0 +1,727 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Nastasia Hemer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hemer Lopez",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:26"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Meld",
+   "type": "place",
+   "surface": "Meld",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Meld",
+   "type": "place",
+   "surface": "Meld",
+   "ts": "1:45"
+  },
+  {
+   "canonical": "Meld",
+   "type": "place",
+   "surface": "meld",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dex",
+   "ts": "6:08"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "FUDRuckers",
+   "type": "place",
+   "surface": "FUDRuckers",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "FUDRuckers",
+   "type": "place",
+   "surface": "Fudrucker's",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "6:08"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "CSA",
+   "type": "place",
+   "surface": "CSA",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "CSA",
+   "type": "place",
+   "surface": "CSA",
+   "ts": "7:50"
+  },
+  {
+   "canonical": "CSA",
+   "type": "place",
+   "surface": "CSA",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "CSA",
+   "type": "place",
+   "surface": "CSA",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "biodynamic CSA",
+   "type": "place",
+   "surface": "biodynamic uh CSA",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "Fresh and Local CSA",
+   "type": "place",
+   "surface": "fresh and local CSA",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "gas stove",
+   "type": "equipment",
+   "surface": "gas stove",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "electric stove",
+   "type": "equipment",
+   "surface": "electric",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "butane burner",
+   "type": "equipment",
+   "surface": "butane burner",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "grilled cheese sandwich",
+   "type": "ingredient",
+   "surface": "grilled cheese sandwich",
+   "ts": "1:53"
+  },
+  {
+   "canonical": "grilled cheese sandwich",
+   "type": "ingredient",
+   "surface": "grilled cheese sandwich",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "agricultural equipment",
+   "type": "equipment",
+   "surface": "irrigation hoses",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "Union Square Green Market",
+   "type": "place",
+   "surface": "Union Square Green Market",
+   "ts": "13:13"
+  },
+  {
+   "canonical": "Pike Place Market",
+   "type": "place",
+   "surface": "Pike Place Market",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Ballard Market",
+   "type": "place",
+   "surface": "Ballard",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Heritage Radio",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Draft Soda System",
+   "type": "equipment",
+   "surface": "draft soda system",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Pre-Mix System",
+   "type": "equipment",
+   "surface": "pre-mix system",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Cornelius (Corny) Keg",
+   "type": "equipment",
+   "surface": "corny keg",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Ball Lock Valves",
+   "type": "equipment",
+   "surface": "ball lock valves",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Polyethylene Tubes",
+   "type": "equipment",
+   "surface": "polyethylene tubes",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Cold Plate",
+   "type": "equipment",
+   "surface": "cold plate",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "28:20"
+  },
+  {
+   "canonical": "Fairway Markets",
+   "type": "place",
+   "surface": "Fairway Markets",
+   "ts": "28:20"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "28:20"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Heritage Turkey",
+   "type": "ingredient",
+   "surface": "Heritage Turkey",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Japanese steaks",
+   "type": "ingredient",
+   "surface": "Japanese steaks",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Berkshire pork",
+   "type": "ingredient",
+   "surface": "Berkshire pork",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Navajo Churro lamb chops",
+   "type": "ingredient",
+   "surface": "Navajo Churro lamb chops",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Phosphoric acid",
+   "type": "ingredient",
+   "surface": "phosphoric acid",
+   "ts": "26:49"
+  },
+  {
+   "canonical": "Phosphoric acid",
+   "type": "ingredient",
+   "surface": "phosphoric acid",
+   "ts": "27:24"
+  },
+  {
+   "canonical": "Tartaric acid",
+   "type": "ingredient",
+   "surface": "tartaric acid",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Lactic acid",
+   "type": "ingredient",
+   "surface": "lactic acid",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Cold plate",
+   "type": "equipment",
+   "surface": "cold plate",
+   "ts": "19:42"
+  },
+  {
+   "canonical": "Cold plate",
+   "type": "equipment",
+   "surface": "cold plate",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Soda valve",
+   "type": "equipment",
+   "surface": "soda valve",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottling",
+   "ts": "24:57"
+  },
+  {
+   "canonical": "Clarified lime juice",
+   "type": "ingredient",
+   "surface": "clarified lime juice",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Lime cordial",
+   "type": "ingredient",
+   "surface": "lime cordial",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Cola",
+   "type": "ingredient",
+   "surface": "cola",
+   "ts": "26:49"
+  },
+  {
+   "canonical": "Cola",
+   "type": "ingredient",
+   "surface": "cola",
+   "ts": "27:24"
+  },
+  {
+   "canonical": "MELD",
+   "type": "equipment",
+   "surface": "meld",
+   "ts": "29:55"
+  },
+  {
+   "canonical": "MELD",
+   "type": "equipment",
+   "surface": "MELD",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "30:06"
+  },
+  {
+   "canonical": "butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "30:31"
+  },
+  {
+   "canonical": "butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "32:24"
+  },
+  {
+   "canonical": "NFPA",
+   "type": "place",
+   "surface": "NFPA",
+   "ts": "30:31"
+  },
+  {
+   "canonical": "circulators",
+   "type": "equipment",
+   "surface": "circulators",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "circulators",
+   "type": "equipment",
+   "surface": "circulators",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "temperature probe",
+   "type": "equipment",
+   "surface": "temperature probe",
+   "ts": "30:58"
+  },
+  {
+   "canonical": "thermostat",
+   "type": "equipment",
+   "surface": "thermostat",
+   "ts": "38:04"
+  },
+  {
+   "canonical": "thermostat",
+   "type": "equipment",
+   "surface": "thermostat",
+   "ts": "39:05"
+  },
+  {
+   "canonical": "ball valve",
+   "type": "equipment",
+   "surface": "ball valve",
+   "ts": "39:05"
+  },
+  {
+   "canonical": "Panta oil",
+   "type": "ingredient",
+   "surface": "Panta oil",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "tube fryer",
+   "type": "equipment",
+   "surface": "tube fryer",
+   "ts": "35:53"
+  },
+  {
+   "canonical": "tube fryer",
+   "type": "equipment",
+   "surface": "tube fryer",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Watt",
+   "type": "equipment",
+   "surface": "Watt",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "jack",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "46:24"
+  },
+  {
+   "canonical": "Darren",
+   "type": "person",
+   "surface": "Darren",
+   "ts": "46:56"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Sous Vide",
+   "ts": "45:35"
+  },
+  {
+   "canonical": "Scythe",
+   "type": "equipment",
+   "surface": "scythe",
+   "ts": "46:33"
+  },
+  {
+   "canonical": "Scythe",
+   "type": "equipment",
+   "surface": "scythe",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Maseca",
+   "type": "ingredient",
+   "surface": "maseca",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Tortilla Chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Tortilla Chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "42:42"
+  },
+  {
+   "canonical": "Tortilla Chips",
+   "type": "ingredient",
+   "surface": "tortilla chips",
+   "ts": "42:56"
+  },
+  {
+   "canonical": "Potato Chips",
+   "type": "ingredient",
+   "surface": "potato chips",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "39:39"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "42:42"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "42:56"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "43:11"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "43:11"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "43:34"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Gas Mark",
+   "type": "technique",
+   "surface": "gas mark",
+   "ts": "45:35"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixtamalize",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Cinco de Meld",
+   "type": "place",
+   "surface": "Cinco de Meld",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "46:56"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "47:20"
+  }
+ ]
+}

@@ -1,0 +1,907 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "6:48"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "6:48"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "7:16"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "0:01"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:01"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "3:40"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "3:51"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Leslie",
+   "type": "place",
+   "surface": "Leslie",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Leslie",
+   "type": "place",
+   "surface": "Leslie",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Arbor",
+   "type": "place",
+   "surface": "Arbor",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Williamsburg",
+   "type": "place",
+   "surface": "Williamsburg",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Flavor Industry",
+   "type": "technique",
+   "surface": "flavor industry",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Flavor Industry",
+   "type": "technique",
+   "surface": "flavor industry",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Flavoring System",
+   "type": "technique",
+   "surface": "flavor system",
+   "ts": "8:15"
+  },
+  {
+   "canonical": "Homebrewing",
+   "type": "technique",
+   "surface": "homebrewing",
+   "ts": "8:44"
+  },
+  {
+   "canonical": "Sears",
+   "type": "equipment",
+   "surface": "Sears",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Puto",
+   "type": "ingredient",
+   "surface": "Puto",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Heat",
+   "type": "technique",
+   "surface": "heat",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Heat",
+   "type": "technique",
+   "surface": "Heat",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "16:43"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernistpantry",
+   "ts": "17:50"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "ModernistPantry",
+   "ts": "18:01"
+  },
+  {
+   "canonical": "Cornelius (Corny) Keg",
+   "type": "equipment",
+   "surface": "corny kegs",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Cornelius (Corny) Keg",
+   "type": "equipment",
+   "surface": "corny kegs",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Cornelius (Corny) Keg",
+   "type": "equipment",
+   "surface": "corny kegs",
+   "ts": "12:59"
+  },
+  {
+   "canonical": "Turkey Fryer",
+   "type": "equipment",
+   "surface": "turkey fryer",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Got Cooler",
+   "type": "technique",
+   "surface": "got cooler",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Got Cooler",
+   "type": "technique",
+   "surface": "got cooler",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Recirculating Mash",
+   "type": "technique",
+   "surface": "recirculated mash",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Recirculating Mash",
+   "type": "technique",
+   "surface": "recirculating mash",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Mash",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Mash",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Mash",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "14:51"
+  },
+  {
+   "canonical": "Force Carbonation",
+   "type": "technique",
+   "surface": "force carbonated",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature control",
+   "ts": "14:51"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "14:51"
+  },
+  {
+   "canonical": "Bottling",
+   "type": "technique",
+   "surface": "bottled",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Primary Fermentation",
+   "type": "technique",
+   "surface": "primary",
+   "ts": "12:59"
+  },
+  {
+   "canonical": "Primary Fermentation",
+   "type": "technique",
+   "surface": "primary",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Malt",
+   "type": "ingredient",
+   "surface": "malt",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "Malt",
+   "type": "ingredient",
+   "surface": "malt",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Cereal",
+   "type": "ingredient",
+   "surface": "cereal",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Sankey Keg",
+   "type": "equipment",
+   "surface": "Sankey kegs",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Solenoid",
+   "type": "equipment",
+   "surface": "solenoid",
+   "ts": "14:51"
+  },
+  {
+   "canonical": "Cold Water System",
+   "type": "equipment",
+   "surface": "cold water system",
+   "ts": "14:51"
+  },
+  {
+   "canonical": "Museum",
+   "type": "place",
+   "surface": "museum",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Museum",
+   "type": "place",
+   "surface": "museum",
+   "ts": "15:32"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Bill",
+   "type": "person",
+   "surface": "Bill",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Bill",
+   "type": "person",
+   "surface": "Bill",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "Sarah Marsh",
+   "type": "person",
+   "surface": "Sarah Marsh",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Sam Tigan",
+   "type": "person",
+   "surface": "Sam Tigan",
+   "ts": "17:09"
+  },
+  {
+   "canonical": "Ryan",
+   "type": "person",
+   "surface": "Ryan",
+   "ts": "17:09"
+  },
+  {
+   "canonical": "Chetty Yarwardana",
+   "type": "person",
+   "surface": "Chetty Yarwardana",
+   "ts": "17:09"
+  },
+  {
+   "canonical": "John Cooper",
+   "type": "person",
+   "surface": "John Cooper",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Jen Bieler",
+   "type": "person",
+   "surface": "Jen Bieler",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Jenny Wang",
+   "type": "person",
+   "surface": "Jenny Wang",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Pedro Mendez",
+   "type": "person",
+   "surface": "Pedro Mendez",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Romy Vrelin",
+   "type": "person",
+   "surface": "Romy Vrelin",
+   "ts": "17:25"
+  },
+  {
+   "canonical": "London",
+   "type": "person",
+   "surface": "London",
+   "ts": "17:25"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Vice President Biden",
+   "type": "person",
+   "surface": "vice president Biden",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Cheery Joe's",
+   "type": "ingredient",
+   "surface": "Cheery Joe's",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "IW Group",
+   "type": "place",
+   "surface": "IW group",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:38"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "18:13"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "mofad",
+   "ts": "23:28"
+  },
+  {
+   "canonical": "Williamsburg",
+   "type": "place",
+   "surface": "Williamsburg",
+   "ts": "18:13"
+  },
+  {
+   "canonical": "Stink Tuba",
+   "type": "equipment",
+   "surface": "stink tubas",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "Stink Tuba",
+   "type": "equipment",
+   "surface": "Stink tuba",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Lindera benzoin",
+   "type": "ingredient",
+   "surface": "Lindera benzoin",
+   "ts": "23:58"
+  },
+  {
+   "canonical": "Lindera benzoin",
+   "type": "ingredient",
+   "surface": "Mendera benzoin",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "May Apple",
+   "type": "ingredient",
+   "surface": "may apples",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Vanilla",
+   "type": "ingredient",
+   "surface": "vanilla",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Pink Peppercorn",
+   "type": "ingredient",
+   "surface": "pink peppercorn",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Pink Peppercorn",
+   "type": "ingredient",
+   "surface": "pink peppercorn",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Old Factometer",
+   "type": "equipment",
+   "surface": "old factometer",
+   "ts": "19:53"
+  },
+  {
+   "canonical": "Tableting Machine",
+   "type": "equipment",
+   "surface": "tableting machines",
+   "ts": "21:00"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "27:24"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "29:09"
+  },
+  {
+   "canonical": "Fairway Markets",
+   "type": "place",
+   "surface": "Fairway Markets",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "Navajo Churro",
+   "type": "ingredient",
+   "surface": "Navajo Churro",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Navajo Churro",
+   "type": "ingredient",
+   "surface": "Navajo Churro",
+   "ts": "28:07"
+  },
+  {
+   "canonical": "Navajo Churro",
+   "type": "ingredient",
+   "surface": "Navajo churro",
+   "ts": "29:09"
+  },
+  {
+   "canonical": "Navajo Churro",
+   "type": "ingredient",
+   "surface": "Navajo Churro",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "32:57"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "33:24"
+  },
+  {
+   "canonical": "MDF",
+   "type": "equipment",
+   "surface": "MDF",
+   "ts": "33:58"
+  },
+  {
+   "canonical": "Biltong",
+   "type": "ingredient",
+   "surface": "Biltong",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Biltong",
+   "type": "ingredient",
+   "surface": "Biltong",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "Biltong",
+   "type": "ingredient",
+   "surface": "Biltong",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Biltong",
+   "type": "ingredient",
+   "surface": "Biltong",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Formaldehyde",
+   "type": "ingredient",
+   "surface": "formaldehyde",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "E0",
+   "type": "ingredient",
+   "surface": "E0",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "36:12"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "37:05"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "36:12"
+  },
+  {
+   "canonical": "Microcrystalline Cellulose",
+   "type": "ingredient",
+   "surface": "microcrystalline cellulose",
+   "ts": "36:12"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "36:12"
+  },
+  {
+   "canonical": "French Fries",
+   "type": "ingredient",
+   "surface": "fries",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "French Fries",
+   "type": "ingredient",
+   "surface": "fries",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "French Fries",
+   "type": "ingredient",
+   "surface": "fries",
+   "ts": "37:54"
+  },
+  {
+   "canonical": "Deep Fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "37:46"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "Hotel Pans",
+   "type": "equipment",
+   "surface": "hotel pans",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "Stock Pot",
+   "type": "equipment",
+   "surface": "stock pot",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "Induction Stove",
+   "type": "equipment",
+   "surface": "induction stove",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "Noya",
+   "type": "place",
+   "surface": "Noya",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Noya",
+   "type": "place",
+   "surface": "Noya",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "39:52"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Ken",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "Ken",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "39:36"
+  },
+  {
+   "canonical": "Helen",
+   "type": "person",
+   "surface": "Helen",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Helen",
+   "type": "person",
+   "surface": "Helen",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "Jackity Jack",
+   "type": "person",
+   "surface": "Jackity Jack",
+   "ts": "37:05"
+  },
+  {
+   "canonical": "Steingarden",
+   "type": "person",
+   "surface": "Steingarden",
+   "ts": "37:30"
+  }
+ ]
+}

@@ -1,0 +1,961 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:48"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "2:42"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker Tone",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Ferros grinder",
+   "type": "equipment",
+   "surface": "Ferros grinder",
+   "ts": "1:47"
+  },
+  {
+   "canonical": "Ticloid",
+   "type": "ingredient",
+   "surface": "ticloid",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Ticloid",
+   "type": "ingredient",
+   "surface": "ticloid",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "3:22"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "4:45"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "5:56"
+  },
+  {
+   "canonical": "Arabic gum",
+   "type": "ingredient",
+   "surface": "Arabic's",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "5:05"
+  },
+  {
+   "canonical": "Simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrups",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrups",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrups",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Benzoic acid",
+   "type": "ingredient",
+   "surface": "benzoit",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "8:16"
+  },
+  {
+   "canonical": "Orphan Espresso",
+   "type": "place",
+   "surface": "Orphan Espresso",
+   "ts": "1:47"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Roberta's Pizza Wee",
+   "type": "place",
+   "surface": "Roberta's Pizza Wee",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:42"
+  },
+  {
+   "canonical": "Full Service Radio",
+   "type": "place",
+   "surface": "Full Service Radio",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:07"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Liz",
+   "type": "person",
+   "surface": "Liz",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Liz",
+   "type": "person",
+   "surface": "Liz",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Antoine",
+   "type": "person",
+   "surface": "Antoine",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Clears All",
+   "type": "ingredient",
+   "surface": "clear's all",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "ingredient",
+   "surface": "Searzole",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Pecan oil",
+   "type": "ingredient",
+   "surface": "pecan oil",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Pecan nut solids",
+   "type": "ingredient",
+   "surface": "pecan nut solids",
+   "ts": "3:45"
+  },
+  {
+   "canonical": "Nut milk",
+   "type": "ingredient",
+   "surface": "nut milk",
+   "ts": "5:56"
+  },
+  {
+   "canonical": "Simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrups",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrups",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrups",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Vacuum bag",
+   "type": "equipment",
+   "surface": "vac bag",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Jeremiah Bullfrog",
+   "type": "person",
+   "surface": "Jeremiah Bullfrog",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Jeremiah Bullfrog",
+   "type": "person",
+   "surface": "Jeremiah Bullfrog",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "museum",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of food and drink",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Clean Extract",
+   "type": "ingredient",
+   "surface": "Clean Extract",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Clean Extract",
+   "type": "ingredient",
+   "surface": "clean extract",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "everclear",
+   "ts": "16:14"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "Everclear",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "Everclear",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "Everclear",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "Everclear",
+   "ts": "17:24"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "everclear",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "Houstino 54",
+   "type": "ingredient",
+   "surface": "Houstino",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Houstino 54",
+   "type": "ingredient",
+   "surface": "Houstino",
+   "ts": "14:44"
+  },
+  {
+   "canonical": "Houstino 54",
+   "type": "ingredient",
+   "surface": "Houstino",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Technical Reserve",
+   "type": "ingredient",
+   "surface": "technical reserve",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centerfuge",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Smell Synth",
+   "type": "equipment",
+   "surface": "smell synths",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Spin Dax",
+   "type": "place",
+   "surface": "spin dax",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Brita",
+   "type": "equipment",
+   "surface": "Brita",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Bergen",
+   "type": "place",
+   "surface": "Bergen",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Bergen",
+   "type": "place",
+   "surface": "Bergen",
+   "ts": "19:10"
+  },
+  {
+   "canonical": "Bergen",
+   "type": "place",
+   "surface": "Bergen",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Bergen",
+   "type": "place",
+   "surface": "Bergen",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Bergen County",
+   "type": "place",
+   "surface": "Bergen County",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Bergen Record",
+   "type": "place",
+   "surface": "Bergen Record",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Bergen Record",
+   "type": "place",
+   "surface": "Bergen record",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Elaphomyces granulatis",
+   "type": "ingredient",
+   "surface": "Elaphomyces granulatis",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Truffle oil",
+   "type": "ingredient",
+   "surface": "truffle oil",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Truffle oil",
+   "type": "ingredient",
+   "surface": "truffle oil",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Truffle oil",
+   "type": "ingredient",
+   "surface": "truffle oil",
+   "ts": "21:41"
+  },
+  {
+   "canonical": "Deer ball",
+   "type": "ingredient",
+   "surface": "deer balls",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Deer ball",
+   "type": "ingredient",
+   "surface": "deer ball",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Deer ball",
+   "type": "ingredient",
+   "surface": "deer ball",
+   "ts": "22:19"
+  },
+  {
+   "canonical": "Lycoperdon",
+   "type": "ingredient",
+   "surface": "Lycoperdon",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Lycoperdon",
+   "type": "ingredient",
+   "surface": "lycoperdon",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Puff ball",
+   "type": "ingredient",
+   "surface": "puff balls",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "Slippery jack mushrooms",
+   "type": "ingredient",
+   "surface": "Slippery jack mushrooms",
+   "ts": "21:27"
+  },
+  {
+   "canonical": "Fire cider",
+   "type": "ingredient",
+   "surface": "Fire cider",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Ascorbic acid",
+   "type": "ingredient",
+   "surface": "ascorbic ac",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Champion juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Houstino 5400",
+   "type": "equipment",
+   "surface": "Houstino 5400",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Carbonation rig",
+   "type": "equipment",
+   "surface": "carbonation rig",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Golden Delicious",
+   "type": "ingredient",
+   "surface": "Golden Delicious",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "22:44"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "23:10"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "Firesider",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Firesider",
+   "type": "place",
+   "surface": "firesider",
+   "ts": "24:08"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Precarbonation",
+   "type": "technique",
+   "surface": "precarbonation",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Bottle Conditioning",
+   "type": "technique",
+   "surface": "bottle conditioning",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Cheddar Cheese",
+   "type": "ingredient",
+   "surface": "cheddar cheese",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "29:18"
+  },
+  {
+   "canonical": "Heart of Gold Sweet Potato",
+   "type": "ingredient",
+   "surface": "heart of gold",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Pectanex",
+   "type": "ingredient",
+   "surface": "pectanex",
+   "ts": "29:40"
+  },
+  {
+   "canonical": "Amylase",
+   "type": "ingredient",
+   "surface": "amylase",
+   "ts": "29:40"
+  },
+  {
+   "canonical": "Champion Juicer",
+   "type": "equipment",
+   "surface": "champion juicer",
+   "ts": "29:40"
+  },
+  {
+   "canonical": "Equilibrium Brining",
+   "type": "technique",
+   "surface": "equilibrium brining",
+   "ts": "32:44"
+  },
+  {
+   "canonical": "Refractometer",
+   "type": "equipment",
+   "surface": "refractometer",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "Refractometer",
+   "type": "equipment",
+   "surface": "refractometer",
+   "ts": "33:45"
+  },
+  {
+   "canonical": "Isty",
+   "type": "equipment",
+   "surface": "iSty",
+   "ts": "35:01"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "35:21"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Chartreuse",
+   "type": "ingredient",
+   "surface": "chartreuse",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Chartreuse",
+   "type": "ingredient",
+   "surface": "chartreuse",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Honey Syrup",
+   "type": "ingredient",
+   "surface": "honey syrup",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Everclear",
+   "type": "ingredient",
+   "surface": "everclear",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "41:39"
+  },
+  {
+   "canonical": "World Health Organization",
+   "type": "place",
+   "surface": "World Health Organization",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:31"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "45:46"
+  },
+  {
+   "canonical": "everclear",
+   "type": "ingredient",
+   "surface": "everclear",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "honey syrup",
+   "type": "ingredient",
+   "surface": "honey syrup",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "polyphenol oxidase",
+   "type": "ingredient",
+   "surface": "polyphenol oxidase",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "parsley oil",
+   "type": "ingredient",
+   "surface": "parsley oil",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "ticoloid",
+   "type": "ingredient",
+   "surface": "ticoloid",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "World Health Organization",
+   "type": "place",
+   "surface": "World Health Organization",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Ken",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "44:45"
+  },
+  {
+   "canonical": "Ken",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "Randy",
+   "type": "person",
+   "surface": "Randy",
+   "ts": "43:17"
+  },
+  {
+   "canonical": "Randy",
+   "type": "person",
+   "surface": "Randy",
+   "ts": "43:31"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:31"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "45:46"
+  },
+  {
+   "canonical": "Dump Meals",
+   "type": "technique",
+   "surface": "Dump meals",
+   "ts": "45:46"
+  },
+  {
+   "canonical": "Ferro's Coffee Grinder",
+   "type": "equipment",
+   "surface": "Ferris Coffee Grinder",
+   "ts": "44:55"
+  },
+  {
+   "canonical": "Coconut Aminos",
+   "type": "ingredient",
+   "surface": "coconut amino stuff",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Liquid Smoke",
+   "type": "ingredient",
+   "surface": "liquid smoke",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Marmeat",
+   "type": "ingredient",
+   "surface": "marmeat",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Mushrooms",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy uh sauce",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Slow Cooker",
+   "type": "equipment",
+   "surface": "slow cooker",
+   "ts": "45:28"
+  },
+  {
+   "canonical": "Mayard Reaction",
+   "type": "technique",
+   "surface": "Mayard reaction",
+   "ts": "45:28"
+  },
+  {
+   "canonical": "Saffron",
+   "type": "ingredient",
+   "surface": "sassafras",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "Saffron",
+   "type": "ingredient",
+   "surface": "saffral root beer",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "Parmenides",
+   "type": "person",
+   "surface": "Parmenides",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "44:55"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "46:11"
+  },
+  {
+   "canonical": "Booker Index Award",
+   "type": "place",
+   "surface": "Booker Index",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "Hyper broth",
+   "type": "technique",
+   "surface": "hyper broth",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "Meat extract",
+   "type": "ingredient",
+   "surface": "meat extract",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Meat extract",
+   "type": "ingredient",
+   "surface": "meat extract",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Bovarol",
+   "type": "ingredient",
+   "surface": "bovarol",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "48:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "48:37"
+  }
+ ]
+}
