@@ -41,37 +41,45 @@ module CookingIssues
       new(extractions:, aliases:)
     end
 
+    # Groups spelling variants that differ only in spacing ("Vita Prep", "Vitaprep").
+    def self.match_key(name) = key(name).delete(" ")
+
     def initialize(extractions:, aliases:)
-      ignored = aliases.fetch("ignore", []).to_set { self.class.key(it) }
+      ignored = aliases.fetch("ignore", []).to_set { self.class.match_key(it) }
       curated = aliases.fetch("entities", {})
       canonical_for = curated.each.with_object({}) do |(name, spec), map|
-        [name, *spec.fetch("aliases", [])].each { map[self.class.key(it)] = name }
+        [name, *spec.fetch("aliases", [])].each { map[self.class.match_key(it)] = name }
       end
 
       groups = Hash.new { |h, k| h[k] = [] }
       extractions.each do |episode, mentions|
         mentions.each do |m|
           raw = m.fetch("canonical")
-          name = canonical_for.fetch(self.class.key(raw), raw)
-          key = self.class.key(name)
+          name = canonical_for.fetch(self.class.match_key(raw), raw)
+          key = self.class.match_key(name)
           next if key.empty? || ignored.include?(key)
 
           groups[key] << { episode:, name:, type: m.fetch("type"), ts: m.fetch("ts") }
         end
       end
 
+      names = groups.transform_values { |ms| tally_max(ms.map { it.fetch(:name) }) }
+      types = groups.to_h { |key, ms|
+        [key, curated.fetch(names.fetch(key), {}).fetch("type") { tally_max(ms.map { it.fetch(:type) }) }]
+      }
+      fold_plurals(groups, types)
+
       entities = groups.filter_map { |key, ms|
-        name = tally_max(ms.map { it.fetch(:name) })
-        spec = curated.fetch(name, {})
-        type = spec.fetch("type") { tally_max(ms.map { it.fetch(:type) }) }
+        name = names.fetch(key)
+        type = types.fetch(key)
         # A lone first name ("John") collides across episodes, so it needs curating.
-        next if type == "person" && !key.include?(" ") && !curated.key?(name)
+        next if type == "person" && !self.class.key(name).include?(" ") && !curated.key?(name)
 
         by_episode = ms.group_by { it.fetch(:episode) }
           .transform_values { |eps| eps.map { it.fetch(:ts) }.uniq.sort_by { Timestamp.seconds(it) } }
         next if by_episode.size < MIN_EPISODES
 
-        Entity.new(name:, type:, slug: key.tr(" ", "-"), mentions: by_episode)
+        Entity.new(name:, type:, slug: self.class.key(name).tr(" ", "-"), mentions: by_episode)
       }
 
       @entities = entities.sort_by { [-it.episodes.size, it.name.downcase] }
@@ -105,6 +113,16 @@ module CookingIssues
     end
 
     private
+
+    # Merges "Eggs" into "Egg" only when both exist with the same type, so
+    # "Sears" (a place) stays apart from "Sear" (a technique).
+    def fold_plurals(groups, types)
+      groups.keys.each do |key|
+        singular = [key.sub(/ies\z/, "y"), key.sub(/es\z/, ""), key.sub(/s\z/, "")]
+          .find { it != key && groups.key?(it) && types.fetch(it) == types.fetch(key) }
+        groups.fetch(singular).concat(groups.delete(key)) if singular
+      end
+    end
 
     # Most common value; ties go to the first one seen.
     def tally_max(values) = values.tally.max_by { |value, count| [count, -values.index(value)] }.first

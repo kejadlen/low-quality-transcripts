@@ -25,6 +25,27 @@ class GraphTest < Minitest::Test
     assert_equal [["Harold McGee", %w[a b]]], graph.entities.map { [it.name, it.episodes.sort] }
   end
 
+  def test_spacing_variants_merge_and_keep_a_hyphenated_slug
+    graph = build({ "a" => [mention("Vita Prep", type: "equipment")], "b" => [mention("Vitaprep", type: "equipment")], "c" => [mention("Vita-Prep", type: "equipment")] })
+
+    assert_equal [["vita-prep", 3]], graph.entities.map { [it.slug, it.episodes.size] }
+  end
+
+  def test_plurals_merge_into_the_singular
+    graph = build({
+      "a" => [mention("Eggs", type: "ingredient"), mention("Cherries", type: "ingredient")],
+      "b" => [mention("Egg", type: "ingredient"), mention("Cherry", type: "ingredient")],
+    })
+
+    assert_equal %w[Cherry Egg], graph.entities.map(&:name).sort
+  end
+
+  def test_plurals_of_a_different_type_stay_apart
+    graph = build({ "a" => [mention("Sears", type: "place"), mention("Sear", type: "technique")], "b" => [mention("Sears", type: "place"), mention("Sear", type: "technique")] })
+
+    assert_equal %w[Sear Sears], graph.entities.map(&:name).sort
+  end
+
   def test_drops_uncurated_single_word_people
     graph = build({ "a" => [mention("John")], "b" => [mention("John")] })
 
