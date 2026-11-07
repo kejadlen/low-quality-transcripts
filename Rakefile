@@ -309,7 +309,6 @@ ENTITY_PAGE_SOURCES = [
   ENTITY_TEMPLATE_PATH,
   ENTITIES_TEMPLATE_PATH,
   page_source("entity.css"),
-  page_source("entities.js"),
   File.expand_path("lib/snippet.rb", __dir__),
   *GRAPH_SOURCES,
   *EPISODE_TASKS.select { File.exist?(it.entities_path) }.map(&:text_path),
@@ -355,7 +354,6 @@ file ENTITIES_INDEX_PATH => [*ENTITY_PAGE_SOURCES, CONFIG.pages_dir.to_s] do
       title: "Topics — Cooking Issues",
       head: %(<link rel="canonical" href="#{BASE_URL}/entities/" />\n),
       styles:,
-      scripts: inline_script("entities.js"),
     })
   File.write(ENTITIES_INDEX_PATH, html)
 

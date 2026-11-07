@@ -2,9 +2,6 @@
 <h1>Topics</h1>
 <p class="kind">People, techniques, ingredients, equipment, and places, extracted automatically, so expect noise. Each section lists topics from <%= featured_min %> or more episodes; the rest are folded underneath.</p>
 
-<input type="search" id="topic-filter" placeholder="Filter topics" aria-label="Filter topics" hidden>
-<p id="topic-filter-empty" class="kind" hidden>No topics match.</p>
-
 <% by_type.each do |type, entities| %>
 <% featured, minor = entities.partition { it.episodes.size >= featured_min } %>
 <section>

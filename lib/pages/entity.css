@@ -16,6 +16,4 @@ ul { list-style: none; }
 .more summary { font-size: 0.85rem; color: #555; cursor: pointer; }
 .more-list { margin-top: 0.5rem; font-size: 0.9rem; line-height: 1.7; }
 .more-list li { display: inline; }
-.more-list li:not([hidden]) ~ li:not([hidden])::before { content: " · "; color: #aaa; }
-#topic-filter { display: block; width: 100%; max-width: 24rem; margin-top: 1rem; padding: 0.4rem 0.6rem; font: inherit; }
-[hidden] { display: none !important; }
+.more-list li + li::before { content: " · "; color: #aaa; }
