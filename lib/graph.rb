@@ -19,6 +19,9 @@ module CookingIssues
     FEATURED_TARGET = 60
     FEATURED_FLOOR = 3
     RELATED_LIMIT = 12
+    # Proper nouns ("Patrick Martins", "Queens") don't pluralize, so only
+    # common-noun types fold.
+    PLURAL_TYPES = %w[ingredient equipment technique].freeze
 
     # Turns name variants ("The Booker & Dax", "Crème Anglaise") into one key.
     def self.key(name)
@@ -119,6 +122,8 @@ module CookingIssues
     # "Sears" (a place) stays apart from "Sear" (a technique).
     def fold_plurals(groups, types)
       groups.keys.each do |key|
+        next unless PLURAL_TYPES.include?(types.fetch(key))
+
         singular = [key.sub(/ies\z/, "y"), key.sub(/es\z/, ""), key.sub(/s\z/, "")]
           .find { it != key && groups.key?(it) && types.fetch(it) == types.fetch(key) }
         groups.fetch(singular).concat(groups.delete(key)) if singular

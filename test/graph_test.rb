@@ -46,6 +46,15 @@ class GraphTest < Minitest::Test
     assert_equal %w[Sear Sears], graph.entities.map(&:name).sort
   end
 
+  def test_proper_nouns_do_not_fold_as_plurals
+    graph = build({
+      "a" => [mention("Patrick Martins"), mention("Patrick Martin")],
+      "b" => [mention("Patrick Martins"), mention("Patrick Martin")],
+    })
+
+    assert_equal ["Patrick Martin", "Patrick Martins"], graph.entities.map(&:name).sort
+  end
+
   def test_drops_uncurated_single_word_people
     graph = build({ "a" => [mention("John")], "b" => [mention("John")] })
 
