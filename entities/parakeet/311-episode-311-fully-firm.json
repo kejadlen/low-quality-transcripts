@@ -1,0 +1,949 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "8:11"
+  },
+  {
+   "canonical": "Jack Shram",
+   "type": "person",
+   "surface": "Jack Shram",
+   "ts": "2:50"
+  },
+  {
+   "canonical": "Jack Shram",
+   "type": "person",
+   "surface": "Jack Shram",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "2:50"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and DAX",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Milk Bar",
+   "type": "place",
+   "surface": "Milk Bar",
+   "ts": "3:23"
+  },
+  {
+   "canonical": "NYU",
+   "type": "place",
+   "surface": "NYU",
+   "ts": "3:23"
+  },
+  {
+   "canonical": "Alamo, California",
+   "type": "place",
+   "surface": "Alamo, California",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Alamo, California",
+   "type": "place",
+   "surface": "Alamo, California",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "8:25"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "8:33"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "8:40"
+  },
+  {
+   "canonical": "vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "8:33"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "9:17"
+  },
+  {
+   "canonical": "slow cooker",
+   "type": "equipment",
+   "surface": "slow cooker",
+   "ts": "8:11"
+  },
+  {
+   "canonical": "slow cooker",
+   "type": "equipment",
+   "surface": "slow cooker",
+   "ts": "8:25"
+  },
+  {
+   "canonical": "slow cooker",
+   "type": "equipment",
+   "surface": "slow cooker",
+   "ts": "8:33"
+  },
+  {
+   "canonical": "pectin methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "6:45"
+  },
+  {
+   "canonical": "Breville Control Freak Smart Induction Cooker",
+   "type": "equipment",
+   "surface": "Breville control freak smart induction cooker",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Breville Control Freak Smart Induction Cooker",
+   "type": "equipment",
+   "surface": "Control freak",
+   "ts": "12:28"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "13:01"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "A1",
+   "type": "ingredient",
+   "surface": "A1",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "A1",
+   "type": "ingredient",
+   "surface": "A1",
+   "ts": "11:52"
+  },
+  {
+   "canonical": "A1",
+   "type": "ingredient",
+   "surface": "A1",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Worcestershire sauce",
+   "type": "ingredient",
+   "surface": "Worcester sauce",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "IKEA",
+   "type": "place",
+   "surface": "IKEA",
+   "ts": "13:01"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Donner Pass",
+   "type": "place",
+   "surface": "Donner Pass",
+   "ts": "18:16"
+  },
+  {
+   "canonical": "Donner Party",
+   "type": "place",
+   "surface": "Donner Party",
+   "ts": "18:52"
+  },
+  {
+   "canonical": "Limbo Maniacs",
+   "type": "place",
+   "surface": "Limbomaniacs",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Limbo Maniacs",
+   "type": "place",
+   "surface": "Limbomaniacs",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "Zoji Rushi",
+   "type": "equipment",
+   "surface": "Zoji Rushi",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "S. Wallers Edwards",
+   "type": "place",
+   "surface": "S. Wallers Edwards",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Suriano Ham",
+   "type": "ingredient",
+   "surface": "Suriano ham",
+   "ts": "27:24"
+  },
+  {
+   "canonical": "Instant Pot",
+   "type": "equipment",
+   "surface": "Instant Pot",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Instant Pot",
+   "type": "equipment",
+   "surface": "instant pot",
+   "ts": "20:55"
+  },
+  {
+   "canonical": "Instant Pot",
+   "type": "equipment",
+   "surface": "instant pot",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Instant Pot",
+   "type": "equipment",
+   "surface": "instant pot",
+   "ts": "22:00"
+  },
+  {
+   "canonical": "Mirepoix",
+   "type": "ingredient",
+   "surface": "mirepoix",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooking",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooking",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Slow Cooking",
+   "type": "technique",
+   "surface": "slow cooking",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Pre-Browning",
+   "type": "technique",
+   "surface": "pre-browning",
+   "ts": "20:27"
+  },
+  {
+   "canonical": "Pre-Browning",
+   "type": "technique",
+   "surface": "pre-brown",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Pre-Browning",
+   "type": "technique",
+   "surface": "pre-browning",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Pre-Browning",
+   "type": "technique",
+   "surface": "pre-brown",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braze",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Dutch Oven",
+   "type": "equipment",
+   "surface": "Dutch ovens",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Teflon",
+   "type": "ingredient",
+   "surface": "Teflon",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Surrey",
+   "type": "place",
+   "surface": "Surrey",
+   "ts": "27:48"
+  },
+  {
+   "canonical": "Tidewater",
+   "type": "place",
+   "surface": "Tidewater",
+   "ts": "27:48"
+  },
+  {
+   "canonical": "Virginia",
+   "type": "place",
+   "surface": "Virginia",
+   "ts": "27:48"
+  },
+  {
+   "canonical": "West Wallace Edwards",
+   "type": "place",
+   "surface": "West Wallace Edwards",
+   "ts": "27:24"
+  },
+  {
+   "canonical": "Satan",
+   "type": "person",
+   "surface": "Satan",
+   "ts": "20:27"
+  },
+  {
+   "canonical": "Triangle Test",
+   "type": "technique",
+   "surface": "triangle test",
+   "ts": "25:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dak",
+   "ts": "29:05"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker Index",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Sanaido",
+   "type": "person",
+   "surface": "Sinaido",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Sanaido",
+   "type": "person",
+   "surface": "Sanaido",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "34:19"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "37:36"
+  },
+  {
+   "canonical": "red eye gravy mayonnaise",
+   "type": "ingredient",
+   "surface": "red eye gravy",
+   "ts": "31:12"
+  },
+  {
+   "canonical": "red eye gravy mayonnaise",
+   "type": "ingredient",
+   "surface": "red eye gravy",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "red eye gravy mayonnaise",
+   "type": "ingredient",
+   "surface": "red eye gravy",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Zingerman's",
+   "type": "place",
+   "surface": "Zingerman's",
+   "ts": "37:18"
+  },
+  {
+   "canonical": "Zingerman's",
+   "type": "place",
+   "surface": "Zingerman's",
+   "ts": "38:15"
+  },
+  {
+   "canonical": "Yanagiba",
+   "type": "equipment",
+   "surface": "Yanagiba",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "apple cider",
+   "type": "ingredient",
+   "surface": "apple cider",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Dan",
+   "type": "person",
+   "surface": "Dan",
+   "ts": "42:52"
+  },
+  {
+   "canonical": "Polyscience 300",
+   "type": "equipment",
+   "surface": "Polyscience 300",
+   "ts": "43:12"
+  },
+  {
+   "canonical": "VACMaster VP 210",
+   "type": "equipment",
+   "surface": "Vacmaster VP 210",
+   "ts": "43:29"
+  },
+  {
+   "canonical": "Vacmaster",
+   "type": "equipment",
+   "surface": "VACMaster",
+   "ts": "43:12"
+  },
+  {
+   "canonical": "Vacmaster",
+   "type": "equipment",
+   "surface": "Vacmaster",
+   "ts": "43:29"
+  },
+  {
+   "canonical": "Vacmaster",
+   "type": "equipment",
+   "surface": "Vacmaster",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "equipment",
+   "surface": "Poly Science",
+   "ts": "43:29"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "equipment",
+   "surface": "poly science",
+   "ts": "43:48"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "equipment",
+   "surface": "poly science",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Yanagi",
+   "type": "equipment",
+   "surface": "Yanagi",
+   "ts": "39:20"
+  },
+  {
+   "canonical": "Yanagi",
+   "type": "equipment",
+   "surface": "Yanagi",
+   "ts": "39:52"
+  },
+  {
+   "canonical": "Yanagi",
+   "type": "equipment",
+   "surface": "Yanagi",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Nagi",
+   "type": "equipment",
+   "surface": "Nagi",
+   "ts": "39:52"
+  },
+  {
+   "canonical": "quarter ham",
+   "type": "ingredient",
+   "surface": "quarter ham",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "cross-cut",
+   "type": "technique",
+   "surface": "cross-cut",
+   "ts": "38:45"
+  },
+  {
+   "canonical": "cross-cut",
+   "type": "technique",
+   "surface": "cross-cut",
+   "ts": "39:20"
+  },
+  {
+   "canonical": "Spanish style cuts",
+   "type": "technique",
+   "surface": "Spanish style cuts",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "hand cutting",
+   "type": "technique",
+   "surface": "hand cutting",
+   "ts": "39:05"
+  },
+  {
+   "canonical": "slicing",
+   "type": "technique",
+   "surface": "slicing",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "spelt",
+   "type": "ingredient",
+   "surface": "spelt",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "vacuum sealers",
+   "type": "equipment",
+   "surface": "vacuum sealers",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "42:52"
+  },
+  {
+   "canonical": "Erve Malavare",
+   "type": "person",
+   "surface": "Erve Malavare",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Vacmaster",
+   "type": "equipment",
+   "surface": "VACMaster",
+   "ts": "43:12"
+  },
+  {
+   "canonical": "Vacmaster",
+   "type": "equipment",
+   "surface": "Vacmaster",
+   "ts": "43:29"
+  },
+  {
+   "canonical": "Vacmaster",
+   "type": "equipment",
+   "surface": "Vacmaster",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "equipment",
+   "surface": "Poly Science",
+   "ts": "43:29"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "equipment",
+   "surface": "poly science",
+   "ts": "43:48"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "equipment",
+   "surface": "poly science",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "VAC Master",
+   "type": "equipment",
+   "surface": "VAC Master",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Dry Pump",
+   "type": "equipment",
+   "surface": "dry pump",
+   "ts": "43:48"
+  },
+  {
+   "canonical": "Dry Pump",
+   "type": "equipment",
+   "surface": "Dry pump",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Dry Pump",
+   "type": "equipment",
+   "surface": "dry pump",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Dry Pump",
+   "type": "equipment",
+   "surface": "dry pump",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Oil Pump",
+   "type": "equipment",
+   "surface": "oil pump",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Oil Pump",
+   "type": "equipment",
+   "surface": "oil pump",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Oil Pump",
+   "type": "equipment",
+   "surface": "oil pump",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Chamber Vacuum",
+   "type": "equipment",
+   "surface": "chamber vacuums",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Chamber Vacuum",
+   "type": "equipment",
+   "surface": "chamber vac",
+   "ts": "48:08"
+  },
+  {
+   "canonical": "Seal Bar",
+   "type": "equipment",
+   "surface": "seal bar",
+   "ts": "48:08"
+  },
+  {
+   "canonical": "Seal Bar",
+   "type": "equipment",
+   "surface": "seal bar",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "Seal Bar",
+   "type": "equipment",
+   "surface": "seal bar",
+   "ts": "49:02"
+  },
+  {
+   "canonical": "Multi-Vac",
+   "type": "equipment",
+   "surface": "multi-vacs",
+   "ts": "43:48"
+  },
+  {
+   "canonical": "Food Saver",
+   "type": "equipment",
+   "surface": "food saver",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Western",
+   "type": "equipment",
+   "surface": "Western",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "49:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "49:44"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "51:06"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "49:44"
+  },
+  {
+   "canonical": "Dan",
+   "type": "person",
+   "surface": "Dan",
+   "ts": "49:59"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker In Dax",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Spinzalls",
+   "type": "ingredient",
+   "surface": "spinzalls",
+   "ts": "49:44"
+  },
+  {
+   "canonical": "Spinzalls",
+   "type": "ingredient",
+   "surface": "spinzalls",
+   "ts": "49:59"
+  },
+  {
+   "canonical": "Louis Roy cognac",
+   "type": "ingredient",
+   "surface": "Louis Roy cognac",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Mango Houstino",
+   "type": "ingredient",
+   "surface": "mango Houstino",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Yellow Chartreuse",
+   "type": "ingredient",
+   "surface": "yellow chartreuse",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Pineapple syrup",
+   "type": "ingredient",
+   "surface": "pineapple syrup",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Carpano Antica",
+   "type": "ingredient",
+   "surface": "Carpano Antica",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Pressure washer",
+   "type": "equipment",
+   "surface": "pressure washer",
+   "ts": "51:06"
+  },
+  {
+   "canonical": "Pressure washer",
+   "type": "equipment",
+   "surface": "pressure washer",
+   "ts": "51:19"
+  },
+  {
+   "canonical": "Pressure washer",
+   "type": "equipment",
+   "surface": "pressure washer",
+   "ts": "51:31"
+  },
+  {
+   "canonical": "Pressure washer",
+   "type": "equipment",
+   "surface": "pressure washing",
+   "ts": "51:46"
+  },
+  {
+   "canonical": "Vitapep container",
+   "type": "equipment",
+   "surface": "Vitapep container",
+   "ts": "51:31"
+  },
+  {
+   "canonical": "Wanger",
+   "type": "equipment",
+   "surface": "Wanger",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "51:46"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "52:17"
+  }
+ ]
+}
