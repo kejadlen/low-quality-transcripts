@@ -2,6 +2,9 @@
 <h1>Topics</h1>
 <p class="kind">People, techniques, ingredients, equipment, and places, extracted automatically, so expect noise. Each section lists topics from <%= featured_min %> or more episodes; the rest are folded underneath.</p>
 
+<input type="search" id="topic-filter" placeholder="Filter topics" aria-label="Filter topics" hidden>
+<p id="topic-filter-empty" class="kind" hidden>No topics match.</p>
+
 <% by_type.each do |type, entities| %>
 <% featured, minor = entities.partition { it.episodes.size >= featured_min } %>
 <section>
@@ -16,7 +19,11 @@
 <% if minor.any? %>
 <details class="more">
 <summary><%= featured.any? ? "#{minor.size} more" : "Show #{minor.size}" %></summary>
-<p class="more-list"><%= minor.sort_by { it.name.downcase }.map { %(<a href="#{it.slug}.html">#{CGI.escapeHTML(it.name)}</a>) }.join(" · ") %></p>
+<ul class="more-list">
+<% minor.sort_by { it.name.downcase }.each do |e| %>
+  <li><a href="<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a></li>
+<% end %>
+</ul>
 </details>
 <% end %>
 </section>
