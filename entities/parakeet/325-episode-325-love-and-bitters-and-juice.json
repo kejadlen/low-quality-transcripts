@@ -1,0 +1,967 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:39"
+  },
+  {
+   "canonical": "Jordan",
+   "type": "person",
+   "surface": "Jordan",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:28"
+  },
+  {
+   "canonical": "Damon Bolti",
+   "type": "person",
+   "surface": "Damon Bolti",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Damon Bolti",
+   "type": "person",
+   "surface": "Damon Bolte",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Redmill",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Southern",
+   "type": "place",
+   "surface": "Southern",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Southern",
+   "type": "place",
+   "surface": "Southern",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Southern",
+   "type": "place",
+   "surface": "Southern",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Southern",
+   "type": "place",
+   "surface": "Southern",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Southern",
+   "type": "place",
+   "surface": "Southern",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker wants me to say that",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker wants me to say that",
+   "ts": "4:14"
+  },
+  {
+   "canonical": "iPhone",
+   "type": "equipment",
+   "surface": "iPhone",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "iPhone",
+   "type": "equipment",
+   "surface": "iPhone",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "iPhone",
+   "type": "equipment",
+   "surface": "iPhone",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "iPad",
+   "type": "equipment",
+   "surface": "iPad",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "mouse",
+   "type": "equipment",
+   "surface": "mouse",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "mouse",
+   "type": "equipment",
+   "surface": "mouse",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "word processor",
+   "type": "equipment",
+   "surface": "word processor",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "word processor",
+   "type": "equipment",
+   "surface": "word processor",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "stirring spoon",
+   "type": "equipment",
+   "surface": "long stirring spoon",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Amora Margo",
+   "type": "person",
+   "surface": "Amora Margo",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Amora Margo",
+   "type": "person",
+   "surface": "Amori",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Amora Margo",
+   "type": "person",
+   "surface": "Amori",
+   "ts": "5:52"
+  },
+  {
+   "canonical": "Alton Brown",
+   "type": "person",
+   "surface": "Alton Brown",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Jim Leahy",
+   "type": "person",
+   "surface": "Jim Leahy",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "street bakery",
+   "type": "place",
+   "surface": "street bakery",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Southern",
+   "type": "person",
+   "surface": "Southern",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Southern",
+   "type": "person",
+   "surface": "Southern",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Southern",
+   "type": "person",
+   "surface": "Southern",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Southern",
+   "type": "person",
+   "surface": "Southern",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Southern",
+   "type": "person",
+   "surface": "Southern",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Amori Margo",
+   "type": "place",
+   "surface": "Amori Margo",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Amori Margo",
+   "type": "place",
+   "surface": "Amori Margo",
+   "ts": "5:52"
+  },
+  {
+   "canonical": "Amaro",
+   "type": "ingredient",
+   "surface": "amaro",
+   "ts": "5:52"
+  },
+  {
+   "canonical": "Amaro",
+   "type": "ingredient",
+   "surface": "Amari",
+   "ts": "7:14"
+  },
+  {
+   "canonical": "Amaro",
+   "type": "ingredient",
+   "surface": "amaro",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "Amaro",
+   "type": "ingredient",
+   "surface": "Amaro",
+   "ts": "8:23"
+  },
+  {
+   "canonical": "Sazerac",
+   "type": "technique",
+   "surface": "Sazerac",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "Cesare Casella",
+   "type": "person",
+   "surface": "Cesare Casella",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "Rabarbaro",
+   "type": "ingredient",
+   "surface": "Rabarbaro",
+   "ts": "8:23"
+  },
+  {
+   "canonical": "Zuka",
+   "type": "ingredient",
+   "surface": "Zuka",
+   "ts": "8:23"
+  },
+  {
+   "canonical": "Zuka",
+   "type": "ingredient",
+   "surface": "Zuka",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Zuka",
+   "type": "ingredient",
+   "surface": "Zuka",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "Zuka",
+   "type": "ingredient",
+   "surface": "Zuka",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "Zuka",
+   "type": "ingredient",
+   "surface": "Zuka",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Zuka",
+   "type": "ingredient",
+   "surface": "Zuka",
+   "ts": "11:45"
+  },
+  {
+   "canonical": "Uka",
+   "type": "ingredient",
+   "surface": "Uka",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Amari",
+   "type": "ingredient",
+   "surface": "Amari",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Amari",
+   "type": "ingredient",
+   "surface": "Amari",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "Lucano",
+   "type": "ingredient",
+   "surface": "Lucano",
+   "ts": "10:11"
+  },
+  {
+   "canonical": "Lucano",
+   "type": "ingredient",
+   "surface": "Lucano",
+   "ts": "10:23"
+  },
+  {
+   "canonical": "Lucano",
+   "type": "ingredient",
+   "surface": "Lucano",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "Lucano",
+   "type": "ingredient",
+   "surface": "Lucano",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "Chinar",
+   "type": "ingredient",
+   "surface": "Chinar",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "Chinar",
+   "type": "ingredient",
+   "surface": "Chinar",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "Jack Shram",
+   "type": "person",
+   "surface": "Jack Shram",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Omaro",
+   "type": "ingredient",
+   "surface": "Omaro",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Milan",
+   "type": "place",
+   "surface": "Milan",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "Ashwaganda",
+   "type": "ingredient",
+   "surface": "Ashwaganda",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Aperitif",
+   "type": "technique",
+   "surface": "aperitif",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Aperitif",
+   "type": "technique",
+   "surface": "aperitif",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Aperitif Hour",
+   "type": "technique",
+   "surface": "aperitif hour",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Spaliato",
+   "type": "ingredient",
+   "surface": "spaliato",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Comparian Soda",
+   "type": "ingredient",
+   "surface": "comparian soda",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Vistassi",
+   "type": "ingredient",
+   "surface": "Vistassi",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Oswagonda",
+   "type": "ingredient",
+   "surface": "Oswagonda",
+   "ts": "14:44"
+  },
+  {
+   "canonical": "Apothecary",
+   "type": "place",
+   "surface": "apothecary",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Aswaganda",
+   "type": "ingredient",
+   "surface": "Aswagonda",
+   "ts": "15:30"
+  },
+  {
+   "canonical": "Ayahuasca",
+   "type": "ingredient",
+   "surface": "ayahuasca",
+   "ts": "14:44"
+  },
+  {
+   "canonical": "Ayahuasca",
+   "type": "ingredient",
+   "surface": "ayahuasca",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Ayahuasca",
+   "type": "ingredient",
+   "surface": "ayahuasca",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "15:30"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "16:43"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "17:01"
+  },
+  {
+   "canonical": "Cortisol",
+   "type": "ingredient",
+   "surface": "cortisol",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Ginseng",
+   "type": "ingredient",
+   "surface": "Indian ginseng",
+   "ts": "15:47"
+  },
+  {
+   "canonical": "Nettle Cheese",
+   "type": "ingredient",
+   "surface": "nettle cheese",
+   "ts": "15:47"
+  },
+  {
+   "canonical": "Silicon Valley",
+   "type": "place",
+   "surface": "Silicon Valley",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Ashwaganda",
+   "type": "ingredient",
+   "surface": "Ashwaganda",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Ashwaganda",
+   "type": "ingredient",
+   "surface": "Oswaganda",
+   "ts": "19:17"
+  },
+  {
+   "canonical": "Rhododendron Honey",
+   "type": "ingredient",
+   "surface": "rhododendron honey",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "Rhododendron Honey",
+   "type": "ingredient",
+   "surface": "mad honey",
+   "ts": "20:11"
+  },
+  {
+   "canonical": "Rhododendron Honey",
+   "type": "ingredient",
+   "surface": "mad honey",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Aperol",
+   "type": "ingredient",
+   "surface": "Aperol",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Campari",
+   "type": "ingredient",
+   "surface": "Kampari",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Elcera Novasalis",
+   "type": "ingredient",
+   "surface": "Elcera Novasalis",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Tartaric Acid",
+   "type": "ingredient",
+   "surface": "tartaric acid",
+   "ts": "24:55"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "19:17"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitterants",
+   "ts": "23:24"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitters",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "24:55"
+  },
+  {
+   "canonical": "Bitters",
+   "type": "ingredient",
+   "surface": "bitter",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "Tincture",
+   "type": "technique",
+   "surface": "tincture",
+   "ts": "19:17"
+  },
+  {
+   "canonical": "Tincture",
+   "type": "technique",
+   "surface": "tincture",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "Tincture",
+   "type": "technique",
+   "surface": "tincture",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Philip Duff",
+   "type": "person",
+   "surface": "Philip Duff",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "Sue",
+   "type": "person",
+   "surface": "Sue",
+   "ts": "18:15"
+  },
+  {
+   "canonical": "Kinchona Bark",
+   "type": "ingredient",
+   "surface": "Kinchona bark",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Cannabis",
+   "type": "ingredient",
+   "surface": "cannabis",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Cannabis",
+   "type": "ingredient",
+   "surface": "cannabis",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "Tobacco",
+   "type": "ingredient",
+   "surface": "tobacco",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Green Dragon",
+   "type": "ingredient",
+   "surface": "green dragon",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Green Dragon",
+   "type": "ingredient",
+   "surface": "green dragon",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Green Dragon",
+   "type": "ingredient",
+   "surface": "green dragon",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "Sue's",
+   "type": "place",
+   "surface": "Sue's",
+   "ts": "18:15"
+  },
+  {
+   "canonical": "Colorado",
+   "type": "place",
+   "surface": "Colorado",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "20:11"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Internet",
+   "type": "place",
+   "surface": "internets",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Aperol",
+   "type": "ingredient",
+   "surface": "Aperol",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Compara",
+   "type": "ingredient",
+   "surface": "compari",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Soda Water",
+   "type": "ingredient",
+   "surface": "soda water",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Tartaric Acid",
+   "type": "ingredient",
+   "surface": "tartaric",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Lactic Acid",
+   "type": "ingredient",
+   "surface": "lactic acid",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Nutritional Yeast",
+   "type": "ingredient",
+   "surface": "nutritional yeast",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Nutritional Yeast",
+   "type": "ingredient",
+   "surface": "nutritional yeast",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Nutritional Yeast",
+   "type": "ingredient",
+   "surface": "nutritional yeast",
+   "ts": "31:57"
+  },
+  {
+   "canonical": "VACMaster",
+   "type": "equipment",
+   "surface": "VAC master",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "FDA",
+   "type": "place",
+   "surface": "FDA",
+   "ts": "32:19"
+  },
+  {
+   "canonical": "FDA",
+   "type": "place",
+   "surface": "FDA",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "Department of Agriculture",
+   "type": "place",
+   "surface": "Department of Agriculture",
+   "ts": "32:19"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Market Assistant",
+   "type": "ingredient",
+   "surface": "market assistant",
+   "ts": "28:54"
+  },
+  {
+   "canonical": "Market Assistant",
+   "type": "ingredient",
+   "surface": "market assistant",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "United Fruit",
+   "type": "place",
+   "surface": "United Fruit",
+   "ts": "30:13"
+  },
+  {
+   "canonical": "Cocktail Kingdom",
+   "type": "place",
+   "surface": "Cocktail Kingdom",
+   "ts": "34:34"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Facebook",
+   "type": "place",
+   "surface": "Facebook",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Instagram",
+   "type": "place",
+   "surface": "Instagram",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Heritage Radio Network.org",
+   "type": "place",
+   "surface": "Heritage Radio Network.org",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "nonprofit organization",
+   "type": "place",
+   "surface": "nonprofit organization",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "community",
+   "type": "place",
+   "surface": "community",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "community",
+   "type": "place",
+   "surface": "community",
+   "ts": "35:58"
+  }
+ ]
+}

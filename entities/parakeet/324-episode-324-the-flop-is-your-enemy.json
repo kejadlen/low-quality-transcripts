@@ -1,0 +1,805 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "8:16"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "8:53"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Redmill",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Pasta Flyer",
+   "type": "place",
+   "surface": "Pasta Flyer",
+   "ts": "3:41"
+  },
+  {
+   "canonical": "Blue Note",
+   "type": "place",
+   "surface": "Blue Note",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Brooklyn Bowl",
+   "type": "place",
+   "surface": "Brooklyn Bowl",
+   "ts": "1:10"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "F U train",
+   "type": "place",
+   "surface": "F U train",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "MTA",
+   "type": "place",
+   "surface": "MTA",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "ADA compliant bathroom",
+   "type": "place",
+   "surface": "ADA compliant bathroom",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "emoji rebus",
+   "type": "technique",
+   "surface": "emoji rebuses",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "emoji rebus",
+   "type": "technique",
+   "surface": "Rebus",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "emoji rebus",
+   "type": "technique",
+   "surface": "Rebus",
+   "ts": "5:36"
+  },
+  {
+   "canonical": "emoji rebus",
+   "type": "technique",
+   "surface": "Rebus",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "emoji rebus",
+   "type": "technique",
+   "surface": "emoji rebuses",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Oshwagonda",
+   "type": "ingredient",
+   "surface": "Oshwagonda",
+   "ts": "8:53"
+  },
+  {
+   "canonical": "ayahuasca",
+   "type": "ingredient",
+   "surface": "ayahuasca",
+   "ts": "9:10"
+  },
+  {
+   "canonical": "rennet",
+   "type": "ingredient",
+   "surface": "rennet",
+   "ts": "9:30"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:20"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Christina Tozy",
+   "type": "person",
+   "surface": "Christina Tozy",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Ayahuasca",
+   "type": "ingredient",
+   "surface": "ayahuasca",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Paneer",
+   "type": "ingredient",
+   "surface": "paneer",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Thistle",
+   "type": "ingredient",
+   "surface": "thistle",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Parchment Paper",
+   "type": "equipment",
+   "surface": "baking paper",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Parchment Paper",
+   "type": "equipment",
+   "surface": "parchment paper",
+   "ts": "14:51"
+  },
+  {
+   "canonical": "Parchment Paper",
+   "type": "equipment",
+   "surface": "parchment paper",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "Katsubushi",
+   "type": "ingredient",
+   "surface": "katsubushi",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Ramen Broth",
+   "type": "ingredient",
+   "surface": "ramen broth",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "High Hydration Dough",
+   "type": "ingredient",
+   "surface": "high hydration dough",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Pizza Stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "Pizza Stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Broiler",
+   "type": "equipment",
+   "surface": "broiler",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Broiler",
+   "type": "equipment",
+   "surface": "broiler",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "12:34"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "Griddle",
+   "type": "equipment",
+   "surface": "griddle",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Pizzeria",
+   "type": "place",
+   "surface": "pizzeria",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Pan Rack",
+   "type": "equipment",
+   "surface": "pan rack",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "Whole Wheat Flour",
+   "type": "ingredient",
+   "surface": "whole wheat flour",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Whole Wheat Flour",
+   "type": "ingredient",
+   "surface": "whole wheat flour",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "White Flour",
+   "type": "ingredient",
+   "surface": "white flour",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "White Flour",
+   "type": "ingredient",
+   "surface": "white flour",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Single Stream Milling",
+   "type": "technique",
+   "surface": "single stream milling",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Multi-Stream Milling",
+   "type": "technique",
+   "surface": "multi-stream milling",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Stone Ground",
+   "type": "technique",
+   "surface": "stone ground",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave's",
+   "ts": "23:23"
+  },
+  {
+   "canonical": "Katsu Bushi",
+   "type": "ingredient",
+   "surface": "katsu bushi",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "Katsu Bushi",
+   "type": "ingredient",
+   "surface": "katsubuchi",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Katsu Bushi",
+   "type": "ingredient",
+   "surface": "Katsu Bushi",
+   "ts": "23:23"
+  },
+  {
+   "canonical": "Katsu Bushi",
+   "type": "ingredient",
+   "surface": "katsubuchi",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Katsu Bushi",
+   "type": "ingredient",
+   "surface": "katsu bushi",
+   "ts": "24:20"
+  },
+  {
+   "canonical": "Bonito Flakes",
+   "type": "ingredient",
+   "surface": "bonito flakes",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "Coconut Aminos",
+   "type": "ingredient",
+   "surface": "coconut aminos",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "Coconut Aminos",
+   "type": "ingredient",
+   "surface": "coconut aminos",
+   "ts": "23:23"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "25:06"
+  },
+  {
+   "canonical": "Pickling",
+   "type": "technique",
+   "surface": "pickling",
+   "ts": "25:38"
+  },
+  {
+   "canonical": "Mandolin",
+   "type": "equipment",
+   "surface": "mandolin",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "West",
+   "type": "person",
+   "surface": "West",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "West",
+   "type": "person",
+   "surface": "West",
+   "ts": "26:28"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "27:20"
+  },
+  {
+   "canonical": "rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "coal",
+   "type": "ingredient",
+   "surface": "coal",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Weber Grow",
+   "type": "place",
+   "surface": "Weber Grow",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "gear motor",
+   "type": "equipment",
+   "surface": "gear motor",
+   "ts": "27:20"
+  },
+  {
+   "canonical": "Bowdoin motors",
+   "type": "equipment",
+   "surface": "Bowdoin motors",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "Bodine",
+   "type": "equipment",
+   "surface": "Bodine",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "chain drive",
+   "type": "technique",
+   "surface": "chain drive",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "chain drive",
+   "type": "technique",
+   "surface": "chain drive",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "backlash",
+   "type": "technique",
+   "surface": "backlash",
+   "ts": "27:20"
+  },
+  {
+   "canonical": "backlash",
+   "type": "technique",
+   "surface": "backlash",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "spit",
+   "type": "equipment",
+   "surface": "spit",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Italian",
+   "type": "place",
+   "surface": "Italian",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Jim Leahy",
+   "type": "person",
+   "surface": "Jim Leahy",
+   "ts": "36:27"
+  },
+  {
+   "canonical": "Jim Leahy",
+   "type": "person",
+   "surface": "Jim Leahy",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "Jim Leahy",
+   "type": "person",
+   "surface": "Leahy",
+   "ts": "37:04"
+  },
+  {
+   "canonical": "Jim Leahy",
+   "type": "person",
+   "surface": "Jim Leahy",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:32"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "33:06"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "33:32"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "33:42"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "Mayonnaise",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "Mayonnaise",
+   "ts": "34:53"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "Rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Motor",
+   "type": "equipment",
+   "surface": "motor",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Motor",
+   "type": "equipment",
+   "surface": "motor",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Torque",
+   "type": "technique",
+   "surface": "torque",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Emulsion",
+   "type": "technique",
+   "surface": "emulsion",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Crust Formation",
+   "type": "technique",
+   "surface": "crust formation",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Heat Penetration",
+   "type": "technique",
+   "surface": "heat penetration",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Salad Dressing",
+   "type": "ingredient",
+   "surface": "salad dressing",
+   "ts": "33:06"
+  },
+  {
+   "canonical": "Salad Dressing",
+   "type": "ingredient",
+   "surface": "salad dressing",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "38:02"
+  }
+ ]
+}

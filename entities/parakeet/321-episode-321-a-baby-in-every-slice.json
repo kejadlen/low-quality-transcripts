@@ -1,0 +1,865 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:56"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:49"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "5:58"
+  },
+  {
+   "canonical": "Dead Rabbit",
+   "type": "place",
+   "surface": "Dead Rabbit",
+   "ts": "2:21"
+  },
+  {
+   "canonical": "Dead Rabbit",
+   "type": "place",
+   "surface": "Dead Rabbit",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "Dead Rabbit",
+   "type": "place",
+   "surface": "Dead Rabbit",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "1:11"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Otish Radio Network",
+   "type": "place",
+   "surface": "Otish Radio Network",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Superfly",
+   "type": "technique",
+   "surface": "Superfly",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "King Cake",
+   "type": "ingredient",
+   "surface": "king cake",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "King Cake",
+   "type": "ingredient",
+   "surface": "king cake",
+   "ts": "6:36"
+  },
+  {
+   "canonical": "King Cake",
+   "type": "ingredient",
+   "surface": "king cake",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "King Cake",
+   "type": "ingredient",
+   "surface": "king cake",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "King Cake",
+   "type": "ingredient",
+   "surface": "king cake",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Baby Jesus",
+   "type": "ingredient",
+   "surface": "plastic baby Jesus",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Pecans",
+   "type": "ingredient",
+   "surface": "pecans",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Raisins",
+   "type": "ingredient",
+   "surface": "raisins",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Brown Sugar",
+   "type": "ingredient",
+   "surface": "brown sugar",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Fat Tuesday",
+   "type": "technique",
+   "surface": "Fat Tuesday",
+   "ts": "6:36"
+  },
+  {
+   "canonical": "Robert's Pizzeria",
+   "type": "place",
+   "surface": "Robert's Pizzeria",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Porcelain Light",
+   "type": "place",
+   "surface": "Porch Light",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "Escaleto",
+   "type": "ingredient",
+   "surface": "Escaleto",
+   "ts": "5:58"
+  },
+  {
+   "canonical": "Kendrick Lamar",
+   "type": "person",
+   "surface": "Kendrick Lamar",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Black Panther",
+   "type": "technique",
+   "surface": "Black Panther",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Curtis Mayfield",
+   "type": "person",
+   "surface": "Curtis Mayfield",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Across 110th Street",
+   "type": "technique",
+   "surface": "across 110th Street",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "Across 110th Street",
+   "type": "technique",
+   "surface": "Across 110th Street",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Bobby Womack",
+   "type": "person",
+   "surface": "Bobby Womack",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Superhero",
+   "type": "technique",
+   "surface": "superhero",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "Superhero",
+   "type": "technique",
+   "surface": "Superhero",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Nacho Libre",
+   "type": "technique",
+   "surface": "Nacho Libre",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Millennials",
+   "type": "technique",
+   "surface": "millennials",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "Millennials",
+   "type": "technique",
+   "surface": "millennials",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Millennials",
+   "type": "technique",
+   "surface": "millennials",
+   "ts": "8:28"
+  },
+  {
+   "canonical": "Baby Boomers",
+   "type": "technique",
+   "surface": "baby boomers",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Baby Boomers",
+   "type": "technique",
+   "surface": "baby boomers",
+   "ts": "8:10"
+  },
+  {
+   "canonical": "Baby Boomers",
+   "type": "technique",
+   "surface": "baby boomers",
+   "ts": "8:28"
+  },
+  {
+   "canonical": "King Coffee Pastry",
+   "type": "technique",
+   "surface": "king coffee pastry",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "11:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:19"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "9:36"
+  },
+  {
+   "canonical": "Salt-Risen Bread",
+   "type": "ingredient",
+   "surface": "salt-risen bread",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Salt-Risen Bread",
+   "type": "ingredient",
+   "surface": "Salt-risen bread",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Clostridium Perfringens",
+   "type": "ingredient",
+   "surface": "Clostridian",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Highball",
+   "type": "technique",
+   "surface": "highball",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Highball",
+   "type": "technique",
+   "surface": "highball",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Highball",
+   "type": "technique",
+   "surface": "highball",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "Highball",
+   "type": "technique",
+   "surface": "highball",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Highball",
+   "type": "technique",
+   "surface": "highball",
+   "ts": "17:50"
+  },
+  {
+   "canonical": "Tokyo Highball",
+   "type": "technique",
+   "surface": "Toki high ball",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Sentauri",
+   "type": "equipment",
+   "surface": "Sentauri",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "17:50"
+  },
+  {
+   "canonical": "Dead Rabbit",
+   "type": "place",
+   "surface": "Dead Rabbit",
+   "ts": "14:58"
+  },
+  {
+   "canonical": "Seth Myers",
+   "type": "person",
+   "surface": "Seth Myers",
+   "ts": "16:57"
+  },
+  {
+   "canonical": "Millennial Cake",
+   "type": "ingredient",
+   "surface": "millennial cake",
+   "ts": "11:57"
+  },
+  {
+   "canonical": "The Unnatural History of the Sea",
+   "type": "place",
+   "surface": "The Unnatural History of the Sea",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corinne",
+   "ts": "23:32"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corinne",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corrin",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Corinth",
+   "type": "place",
+   "surface": "Corinth",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Corinth",
+   "type": "place",
+   "surface": "Corinth",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "New Lab",
+   "type": "place",
+   "surface": "New Lab",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Booker Index",
+   "type": "equipment",
+   "surface": "Booker Index",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "20:26"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "champagne",
+   "type": "ingredient",
+   "surface": "champagne",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "whiskey",
+   "type": "ingredient",
+   "surface": "whiskey",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "tap",
+   "type": "equipment",
+   "surface": "tap",
+   "ts": "19:49"
+  },
+  {
+   "canonical": "tap",
+   "type": "equipment",
+   "surface": "tap",
+   "ts": "20:26"
+  },
+  {
+   "canonical": "tap",
+   "type": "equipment",
+   "surface": "tap",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "soda machine",
+   "type": "equipment",
+   "surface": "soda machine",
+   "ts": "20:26"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "24:29"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "25:32"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Japanese chef knives",
+   "type": "equipment",
+   "surface": "Japanese chef knives",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Deba",
+   "type": "ingredient",
+   "surface": "Deba",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Yanagi",
+   "type": "ingredient",
+   "surface": "Yanagi",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:36"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "32:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "Red Star champagne yeast",
+   "type": "ingredient",
+   "surface": "Red Star champagne yeast",
+   "ts": "29:39"
+  },
+  {
+   "canonical": "spinzel",
+   "type": "equipment",
+   "surface": "spinzel",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarify",
+   "ts": "28:21"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermented orange drink",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "30:10"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "29:39"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonate",
+   "ts": "30:10"
+  },
+  {
+   "canonical": "krausen",
+   "type": "technique",
+   "surface": "krausen",
+   "ts": "29:39"
+  },
+  {
+   "canonical": "krausen",
+   "type": "technique",
+   "surface": "krausen",
+   "ts": "30:10"
+  },
+  {
+   "canonical": "blockchain",
+   "type": "technique",
+   "surface": "blockchains",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "blockchain",
+   "type": "technique",
+   "surface": "blockchains",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "New Lab",
+   "type": "place",
+   "surface": "New Lab",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "gas regulators",
+   "type": "equipment",
+   "surface": "gas regulators",
+   "ts": "33:34"
+  },
+  {
+   "canonical": "solenoid",
+   "type": "equipment",
+   "surface": "solenoid",
+   "ts": "34:09"
+  },
+  {
+   "canonical": "bypass",
+   "type": "technique",
+   "surface": "bypass",
+   "ts": "34:09"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarify",
+   "ts": "28:21"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "34:09"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "32:15"
+  },
+  {
+   "canonical": "gas",
+   "type": "ingredient",
+   "surface": "gas",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "gas",
+   "type": "ingredient",
+   "surface": "Gas",
+   "ts": "33:24"
+  },
+  {
+   "canonical": "gas",
+   "type": "ingredient",
+   "surface": "gas",
+   "ts": "33:34"
+  },
+  {
+   "canonical": "gas",
+   "type": "ingredient",
+   "surface": "gas",
+   "ts": "34:09"
+  }
+ ]
+}

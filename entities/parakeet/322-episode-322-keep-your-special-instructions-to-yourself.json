@@ -1,0 +1,715 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:29"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "Bruce Springsteen",
+   "type": "person",
+   "surface": "Bruce",
+   "ts": "1:56"
+  },
+  {
+   "canonical": "Bruce Springsteen",
+   "type": "person",
+   "surface": "Bruce",
+   "ts": "2:29"
+  },
+  {
+   "canonical": "Bruce Springsteen",
+   "type": "person",
+   "surface": "Bruce",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Bruce Springsteen",
+   "type": "person",
+   "surface": "Bruce",
+   "ts": "2:54"
+  },
+  {
+   "canonical": "Neil Diamond",
+   "type": "person",
+   "surface": "Neil Diamond",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Seamless",
+   "type": "equipment",
+   "surface": "seamless",
+   "ts": "3:18"
+  },
+  {
+   "canonical": "Seamless",
+   "type": "equipment",
+   "surface": "seamless",
+   "ts": "3:24"
+  },
+  {
+   "canonical": "Seamless",
+   "type": "equipment",
+   "surface": "seamless",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "Seamless",
+   "type": "equipment",
+   "surface": "seamless",
+   "ts": "8:42"
+  },
+  {
+   "canonical": "Grubhub",
+   "type": "equipment",
+   "surface": "Grubhub",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Grubhub",
+   "type": "equipment",
+   "surface": "Grubhub",
+   "ts": "3:24"
+  },
+  {
+   "canonical": "Rapunzel's Pizzeria",
+   "type": "place",
+   "surface": "Rapunzel's Pizzeria",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Chelsea Market",
+   "type": "place",
+   "surface": "Chelsea Market",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Schlumpy McSlumpenstein",
+   "type": "person",
+   "surface": "Schlumpy McSlumpenstein",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "Dremel",
+   "type": "equipment",
+   "surface": "Dremel",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "safety glasses",
+   "type": "equipment",
+   "surface": "safety glasses",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "safety glasses",
+   "type": "equipment",
+   "surface": "safety glasses",
+   "ts": "13:54"
+  },
+  {
+   "canonical": "safety glasses",
+   "type": "equipment",
+   "surface": "safety glasses",
+   "ts": "14:01"
+  },
+  {
+   "canonical": "tetanus shot",
+   "type": "ingredient",
+   "surface": "tetanus shot",
+   "ts": "13:13"
+  },
+  {
+   "canonical": "toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "14:54"
+  },
+  {
+   "canonical": "caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "tipping laws",
+   "type": "technique",
+   "surface": "tipping laws",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "14:26"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "16:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:33"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "14:54"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Time Machine Chef",
+   "type": "place",
+   "surface": "Time Machine Chef",
+   "ts": "18:39"
+  },
+  {
+   "canonical": "Tesla",
+   "type": "place",
+   "surface": "Tesla",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Stanford Entrepreneurs",
+   "type": "place",
+   "surface": "Stanford entrepreneurs",
+   "ts": "15:30"
+  },
+  {
+   "canonical": "Jordana Rothman",
+   "type": "person",
+   "surface": "Jordana Rothman",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don Lee",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "Blockchain",
+   "type": "technique",
+   "surface": "blockchains",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Blockchain",
+   "type": "technique",
+   "surface": "blockchain",
+   "ts": "17:54"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "21:12"
+  },
+  {
+   "canonical": "Corin",
+   "type": "place",
+   "surface": "Corin",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Japanese chef knives",
+   "type": "equipment",
+   "surface": "Japanese chef knives",
+   "ts": "21:12"
+  },
+  {
+   "canonical": "Japanese chef knives",
+   "type": "equipment",
+   "surface": "Japanese chef knives",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Corin.com",
+   "type": "place",
+   "surface": "Corin.com",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "vacuum bags",
+   "type": "equipment",
+   "surface": "vacuum bags",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "miso",
+   "type": "ingredient",
+   "surface": "misos",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "26:37"
+  },
+  {
+   "canonical": "miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "26:37"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "Clostridium botulinum",
+   "type": "ingredient",
+   "surface": "Clostridium botulinum",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "33:01"
+  },
+  {
+   "canonical": "Morris Burger",
+   "type": "person",
+   "surface": "Morris burger",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "Hamon",
+   "type": "technique",
+   "surface": "Hamon",
+   "ts": "31:00"
+  },
+  {
+   "canonical": "Hamon",
+   "type": "technique",
+   "surface": "Hamone Barico",
+   "ts": "31:46"
+  },
+  {
+   "canonical": "Hamon",
+   "type": "technique",
+   "surface": "hamon",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "Mucilage",
+   "ts": "35:13"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilaginous",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilaginous",
+   "ts": "36:01"
+  },
+  {
+   "canonical": "Mamaku",
+   "type": "ingredient",
+   "surface": "Mamakoo",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Mamaku",
+   "type": "ingredient",
+   "surface": "Mamaku",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "31:00"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "burger's ham",
+   "ts": "33:01"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "30:35"
+  },
+  {
+   "canonical": "Wax Paper",
+   "type": "equipment",
+   "surface": "wax paper",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Wax Paper",
+   "type": "equipment",
+   "surface": "wax paper",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "Nitrate",
+   "type": "ingredient",
+   "surface": "nitrate",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Oxygen",
+   "type": "ingredient",
+   "surface": "oxygen",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Oxygen",
+   "type": "ingredient",
+   "surface": "oxygen",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Bacteria",
+   "type": "ingredient",
+   "surface": "bacteria",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Bacteria",
+   "type": "ingredient",
+   "surface": "bacteria",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Mucilage",
+   "type": "ingredient",
+   "surface": "Mucilage",
+   "ts": "35:13"
+  },
+  {
+   "canonical": "Okra",
+   "type": "ingredient",
+   "surface": "okra",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Okra",
+   "type": "ingredient",
+   "surface": "okra",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan's knot",
+   "ts": "35:13"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Julia Child Foundation for Gastronomy and the Culinary Arts",
+   "type": "place",
+   "surface": "Julia Child Foundation for Gastronomy and the Culinary Arts",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Todd Shulkin",
+   "type": "person",
+   "surface": "Todd Shulkin",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "37:49"
+  }
+ ]
+}
