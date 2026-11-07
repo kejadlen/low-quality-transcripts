@@ -310,7 +310,7 @@ ENTITY_PAGE_SOURCES = [
   page_source("entity.css"),
   *GRAPH_SOURCES,
 ]
-ENTITY_TYPES = %w[person technique ingredient equipment place]
+ENTITY_TYPES = %w[person technique ingredient equipment place other]
 
 # Entity pages come and go with the aliases, so they're rebuilt as one unit.
 file ENTITIES_INDEX_PATH => [*ENTITY_PAGE_SOURCES, CONFIG.pages_dir.to_s] do
