@@ -76,6 +76,8 @@ RAKEFILE_PATH = File.expand_path(__FILE__)
 
 def page_source(name) = File.expand_path("lib/pages/#{name}", __dir__)
 
+SEARCH_SOURCES = %w[search.html search.css search.js].map { page_source(it) }
+
 LAYOUT_TEMPLATE_PATH = page_source("layout.html.erb")
 EPISODE_TEMPLATE_PATH = page_source("episode.html.erb")
 INDEX_TEMPLATE_PATH = page_source("index.html.erb")
@@ -110,7 +112,7 @@ INDEX_PAGE_SOURCES = [
   LAYOUT_TEMPLATE_PATH,
   INDEX_TEMPLATE_PATH,
   page_source("index.css"),
-  page_source("index.js"),
+  *SEARCH_SOURCES,
 ]
 
 # Renders an inner template inside the shared layout.
@@ -129,6 +131,16 @@ end
 # a stray #{} would interpolate.
 def inline_script(name, type: nil)
   %(<script#{%( type="#{type}") if type}>\n#{File.read(page_source(name))}</script>\n)
+end
+
+# Merges the Pagefind UI into a page that sits at `root` relative to the site root.
+def search_layout(root, head:, styles:, **rest)
+  {
+    **rest,
+    head: %(<link href="#{root}/pagefind/pagefind-component-ui.css" rel="stylesheet">\n) + head,
+    styles: styles + File.read(page_source("search.css")),
+    scripts: %(<script src="#{root}/pagefind/pagefind-component-ui.js"></script>\n) + inline_script("search.js"),
+  }
 end
 
 # --- Per-episode file tasks ---
@@ -285,16 +297,12 @@ file INDEX_HTML_PATH => [*EPISODE_HTML_PATHS, *INDEX_PAGE_SOURCES] do
   }
 
   html = render_page(INDEX_TEMPLATE_PATH,
-    page_vars: { transcripts: },
-    layout_vars: {
+    page_vars: { transcripts:, search: File.read(page_source("search.html")) },
+    layout_vars: search_layout(".",
       title: "Cooking Issues Transcripts",
-      head: <<~HEAD,
-        <link href="./pagefind/pagefind-component-ui.css" rel="stylesheet">
-        <link rel="canonical" href="#{BASE_URL}/" />
-      HEAD
+      head: %(<link rel="canonical" href="#{BASE_URL}/" />\n),
       styles: File.read(page_source("index.css")),
-      scripts: %(<script src="./pagefind/pagefind-component-ui.js"></script>\n) + inline_script("index.js"),
-    })
+    ))
 
   File.write(INDEX_HTML_PATH, html)
 
@@ -309,6 +317,7 @@ ENTITY_PAGE_SOURCES = [
   ENTITY_TEMPLATE_PATH,
   ENTITIES_TEMPLATE_PATH,
   page_source("entity.css"),
+  *SEARCH_SOURCES,
   File.expand_path("lib/snippet.rb", __dir__),
   *GRAPH_SOURCES,
   *EPISODE_TASKS.select { File.exist?(it.entities_path) }.map(&:text_path),
@@ -349,12 +358,12 @@ file ENTITIES_INDEX_PATH => [*ENTITY_PAGE_SOURCES, CONFIG.pages_dir.to_s] do
 
   by_type = graph.entities.group_by(&:type).sort_by { ENTITY_TYPES.index(it.first) || ENTITY_TYPES.size }
   html = render_page(ENTITIES_TEMPLATE_PATH,
-    page_vars: { by_type:, featured_min: graph.featured_min },
-    layout_vars: {
+    page_vars: { by_type:, featured_min: graph.featured_min, search: File.read(page_source("search.html")) },
+    layout_vars: search_layout("..",
       title: "Topics — Cooking Issues",
       head: %(<link rel="canonical" href="#{BASE_URL}/entities/" />\n),
       styles:,
-    })
+    ))
   File.write(ENTITIES_INDEX_PATH, html)
 
   puts "Generated #{graph.entities.length} entity pages."

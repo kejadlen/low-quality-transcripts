@@ -1,0 +1,22 @@
+pagefind-modal-trigger { margin-bottom: 1.5rem; display: block; }
+#sort-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  font: 12px/1 system-ui, -apple-system, sans-serif;
+  color: var(--pf-text-muted, #767676);
+}
+#sort-select {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+:is(*, #\#):is(*, #\#):is(*, #\#) .pf-result-excerpt,
+:is(*, #\#):is(*, #\#):is(*, #\#) .pf-heading-excerpt {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
