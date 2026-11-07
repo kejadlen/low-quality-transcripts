@@ -1,0 +1,907 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Vernon",
+   "ts": "1:00"
+  },
+  {
+   "canonical": "Stuas",
+   "type": "person",
+   "surface": "Stuas",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Galen Quinn",
+   "type": "person",
+   "surface": "Galen Quinn",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Phil Bravo",
+   "type": "person",
+   "surface": "Phil Bravo",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Feel",
+   "type": "place",
+   "surface": "Feel",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Feel",
+   "type": "place",
+   "surface": "feel",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Feel",
+   "type": "place",
+   "surface": "feel",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Bogota Food and Wine Festival",
+   "type": "place",
+   "surface": "Bogota Food and Wine Festival",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Sabatier knife",
+   "type": "ingredient",
+   "surface": "sabatier blank",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Sabatier knife",
+   "type": "ingredient",
+   "surface": "sabatier",
+   "ts": "3:15"
+  },
+  {
+   "canonical": "Sabatier knife",
+   "type": "ingredient",
+   "surface": "sabetier",
+   "ts": "4:31"
+  },
+  {
+   "canonical": "Carbon steel knife",
+   "type": "ingredient",
+   "surface": "carbon knife",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Suba",
+   "type": "ingredient",
+   "surface": "Suba",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "DMT system",
+   "type": "equipment",
+   "surface": "DMT system",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Ferguson Home",
+   "type": "place",
+   "surface": "Ferguson Home",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "Thiers",
+   "type": "place",
+   "surface": "Thiers",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "Thiers",
+   "type": "place",
+   "surface": "Thiers",
+   "ts": "7:50"
+  },
+  {
+   "canonical": "Thiers",
+   "type": "place",
+   "surface": "Thiers",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Thiers",
+   "type": "place",
+   "surface": "Thiers",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "Devin Thomas",
+   "type": "person",
+   "surface": "Devin Thomas",
+   "ts": "13:57"
+  },
+  {
+   "canonical": "Devin Thomas",
+   "type": "person",
+   "surface": "Devin Thomas",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "sabatier",
+   "type": "equipment",
+   "surface": "sabatier",
+   "ts": "9:08"
+  },
+  {
+   "canonical": "sabatier",
+   "type": "equipment",
+   "surface": "sabbatier",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "10:01"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "10:01"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "annealing",
+   "type": "technique",
+   "surface": "annealing",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "quenching",
+   "type": "technique",
+   "surface": "quench in oil",
+   "ts": "14:17"
+  },
+  {
+   "canonical": "tempering",
+   "type": "technique",
+   "surface": "tempering",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "tempering",
+   "type": "technique",
+   "surface": "tempering",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "normalization",
+   "type": "technique",
+   "surface": "normalization",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "martensite",
+   "type": "ingredient",
+   "surface": "martensite",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "Damascus steel",
+   "type": "ingredient",
+   "surface": "Damascus style steels",
+   "ts": "14:17"
+  },
+  {
+   "canonical": "Fidel Toldra",
+   "type": "person",
+   "surface": "Fidel Toldra",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Fidel Toldra",
+   "type": "person",
+   "surface": "Fidel Toldra",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "dry cured meat",
+   "type": "ingredient",
+   "surface": "dry cured meat products",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "dry cured meat",
+   "type": "ingredient",
+   "surface": "dry cured meat products",
+   "ts": "18:12"
+  },
+  {
+   "canonical": "heritage breed pigs",
+   "type": "ingredient",
+   "surface": "heritage breed pigs",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "heritage breed pigs",
+   "type": "ingredient",
+   "surface": "heritage breed pigs",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "carbon steel",
+   "type": "ingredient",
+   "surface": "carbon Damascus steels",
+   "ts": "14:17"
+  },
+  {
+   "canonical": "forge",
+   "type": "equipment",
+   "surface": "forge",
+   "ts": "9:35"
+  },
+  {
+   "canonical": "forge",
+   "type": "equipment",
+   "surface": "forge",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "kiln",
+   "type": "equipment",
+   "surface": "kiln",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "14:17"
+  },
+  {
+   "canonical": "martensitic state",
+   "type": "technique",
+   "surface": "martensitic state",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "Jeffrey Steingart",
+   "type": "person",
+   "surface": "Jeffrey",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Jeffrey Steingart",
+   "type": "person",
+   "surface": "Steingard",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Fidel Toldra",
+   "type": "person",
+   "surface": "Fidel Toldra",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "Sam",
+   "type": "person",
+   "surface": "Sam",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Saz",
+   "type": "person",
+   "surface": "Saz",
+   "ts": "22:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "Danielle",
+   "type": "place",
+   "surface": "Danielle",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Danielle",
+   "type": "place",
+   "surface": "Danielle",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "La Circa",
+   "type": "place",
+   "surface": "La Circa",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "MoFat",
+   "type": "place",
+   "surface": "MoFat",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Grand AK",
+   "type": "place",
+   "surface": "Grand AK",
+   "ts": "23:35"
+  },
+  {
+   "canonical": "Linea",
+   "type": "place",
+   "surface": "linea",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "23:35"
+  },
+  {
+   "canonical": "curing",
+   "type": "technique",
+   "surface": "curing",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "ham",
+   "type": "ingredient",
+   "surface": "ham",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "flatware",
+   "type": "equipment",
+   "surface": "flatware",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "flatware",
+   "type": "equipment",
+   "surface": "flatware",
+   "ts": "24:51"
+  },
+  {
+   "canonical": "flatware",
+   "type": "equipment",
+   "surface": "flatware",
+   "ts": "25:06"
+  },
+  {
+   "canonical": "flatware",
+   "type": "equipment",
+   "surface": "flatware",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "flatware",
+   "type": "equipment",
+   "surface": "flatware",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "flatware",
+   "type": "equipment",
+   "surface": "flatware",
+   "ts": "26:34"
+  },
+  {
+   "canonical": "plate",
+   "type": "equipment",
+   "surface": "plate",
+   "ts": "22:06"
+  },
+  {
+   "canonical": "plate",
+   "type": "equipment",
+   "surface": "plate",
+   "ts": "22:49"
+  },
+  {
+   "canonical": "charger",
+   "type": "equipment",
+   "surface": "charger",
+   "ts": "22:49"
+  },
+  {
+   "canonical": "soup bowl",
+   "type": "equipment",
+   "surface": "soup bowl",
+   "ts": "23:35"
+  },
+  {
+   "canonical": "ceramics",
+   "type": "ingredient",
+   "surface": "ceramics",
+   "ts": "23:35"
+  },
+  {
+   "canonical": "sake cups",
+   "type": "equipment",
+   "surface": "sake cups",
+   "ts": "23:35"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "32:44"
+  },
+  {
+   "canonical": "Mason jar",
+   "type": "ingredient",
+   "surface": "Mason jars",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Mason jar",
+   "type": "ingredient",
+   "surface": "mason jars",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Mason jar",
+   "type": "ingredient",
+   "surface": "mason jar",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Mason jar",
+   "type": "ingredient",
+   "surface": "mason jars",
+   "ts": "31:02"
+  },
+  {
+   "canonical": "Mason jar",
+   "type": "ingredient",
+   "surface": "mason jar",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Hamin egg",
+   "type": "technique",
+   "surface": "Hamin egg",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Hamin egg",
+   "type": "technique",
+   "surface": "Hamin egg",
+   "ts": "32:57"
+  },
+  {
+   "canonical": "Hamin egg",
+   "type": "technique",
+   "surface": "hamine eggs",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Maillard reaction",
+   "type": "technique",
+   "surface": "myard",
+   "ts": "32:57"
+  },
+  {
+   "canonical": "Maillard reaction",
+   "type": "technique",
+   "surface": "Maillard",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Alex",
+   "type": "person",
+   "surface": "Alex",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "Alex",
+   "type": "person",
+   "surface": "Alex",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Ramekin",
+   "type": "equipment",
+   "surface": "ramekin",
+   "ts": "32:05"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Daz",
+   "ts": "40:30"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "place",
+   "surface": "modernist cuisine",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Starch retrogradation",
+   "type": "technique",
+   "surface": "starch retrogradation",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "Starch retrogradation",
+   "type": "technique",
+   "surface": "Retrogradation",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Starch retrogradation",
+   "type": "technique",
+   "surface": "starch retrogradation",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Starch retrogradation",
+   "type": "technique",
+   "surface": "starch retrogradation",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Starch retrogradation",
+   "type": "technique",
+   "surface": "starch retrogradation",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Starch retrogradation",
+   "type": "technique",
+   "surface": "retrogradation",
+   "ts": "42:51"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "French fries",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "French fries",
+   "ts": "42:51"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "French fries",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "french fries",
+   "ts": "44:02"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "42:51"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "42:51"
+  },
+  {
+   "canonical": "Liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Rusk",
+   "type": "ingredient",
+   "surface": "rusk",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Baking powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Baking powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Steam",
+   "type": "technique",
+   "surface": "steam",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Sears",
+   "type": "place",
+   "surface": "Sears",
+   "ts": "37:50"
+  },
+  {
+   "canonical": "Cerzo",
+   "type": "place",
+   "surface": "Cerzo",
+   "ts": "37:50"
+  },
+  {
+   "canonical": "Fat Albert",
+   "type": "place",
+   "surface": "Fat Albert",
+   "ts": "38:18"
+  },
+  {
+   "canonical": "Fat Albert",
+   "type": "place",
+   "surface": "Fat Albert",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Fat Albert",
+   "type": "place",
+   "surface": "Fat Albert",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Albert",
+   "type": "person",
+   "surface": "Albert",
+   "ts": "38:18"
+  },
+  {
+   "canonical": "Albert",
+   "type": "person",
+   "surface": "Albert",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Albert",
+   "type": "person",
+   "surface": "Albert",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "French fries",
+   "ts": "44:50"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "French fries",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "retrogradation",
+   "type": "technique",
+   "surface": "retrogradation",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Freeze-thaw cycle",
+   "type": "technique",
+   "surface": "freeze thaw cycle",
+   "ts": "45:22"
+  },
+  {
+   "canonical": "Freeze-thaw cycle",
+   "type": "technique",
+   "surface": "freeze thaw cycles",
+   "ts": "46:21"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Thawing",
+   "type": "technique",
+   "surface": "thawing",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "46:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "47:08"
+  }
+ ]
+}

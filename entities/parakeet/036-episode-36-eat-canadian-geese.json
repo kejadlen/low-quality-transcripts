@@ -1,0 +1,835 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:22"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:06"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "8:12"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Milk Bar",
+   "type": "place",
+   "surface": "milk bar",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "S. Wallace Edwards and Sons",
+   "type": "place",
+   "surface": "S. Wallace Edwards and Sons",
+   "ts": "0:16"
+  },
+  {
+   "canonical": "Surrey Farms",
+   "type": "place",
+   "surface": "SurreyFarms.com",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Heritage Food USA",
+   "type": "place",
+   "surface": "Heritage Food USA",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Williamsburg",
+   "type": "place",
+   "surface": "Williamsburg",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Manhattan",
+   "type": "place",
+   "surface": "Manhattan",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Serrano style hands",
+   "type": "technique",
+   "surface": "Serrano style hands",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "prosciutto style hands",
+   "type": "technique",
+   "surface": "prosciutto style hands",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Cure Master",
+   "type": "person",
+   "surface": "Cure Master",
+   "ts": "0:16"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "0:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Urike Sterling",
+   "type": "person",
+   "surface": "Urike Sterling",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "C. E. Boz",
+   "type": "person",
+   "surface": "C. E. Boz",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "High Pressure Molding",
+   "type": "technique",
+   "surface": "high pressure molding",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "Tablet Formation",
+   "type": "technique",
+   "surface": "tablet formation",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Native Starch",
+   "type": "ingredient",
+   "surface": "Native Starch",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "Excipient",
+   "type": "ingredient",
+   "surface": "excipient",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "Starch",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "High Pressure Molding Equipment",
+   "type": "equipment",
+   "surface": "tablet maker",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Mutation Breeding",
+   "type": "technique",
+   "surface": "mutation breeding",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Irradiation",
+   "type": "technique",
+   "surface": "irradiation",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "Kinno",
+   "type": "ingredient",
+   "surface": "Kinno",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "Kinno",
+   "type": "ingredient",
+   "surface": "Kinno",
+   "ts": "8:12"
+  },
+  {
+   "canonical": "University of California Riverside",
+   "type": "place",
+   "surface": "University of California Riverside",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "UC Davis",
+   "type": "place",
+   "surface": "UC Davis",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "New C Riverside",
+   "type": "place",
+   "surface": "New C Riverside",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "Nuclear Corn",
+   "type": "ingredient",
+   "surface": "nuclear corn",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "Nuclear Mandarins",
+   "type": "ingredient",
+   "surface": "nuclear mandarins",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "Nuclear Oranges",
+   "type": "ingredient",
+   "surface": "nuclear oranges",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Patrick Martins",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Patrick Martins",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "11:15"
+  },
+  {
+   "canonical": "Patrick Martins",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "16:23"
+  },
+  {
+   "canonical": "Patrick Martins",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "16:31"
+  },
+  {
+   "canonical": "Patrick Martins",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "16:31"
+  },
+  {
+   "canonical": "Slow Foods USA",
+   "type": "place",
+   "surface": "Slow Foods USA",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Genetically Modified Organisms (GMOs)",
+   "type": "ingredient",
+   "surface": "GM foods",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Genetically Modified Organisms (GMOs)",
+   "type": "ingredient",
+   "surface": "GMOs",
+   "ts": "11:15"
+  },
+  {
+   "canonical": "Genetically Modified Organisms (GMOs)",
+   "type": "ingredient",
+   "surface": "GMOs",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Monsanto",
+   "type": "place",
+   "surface": "Monsanto",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Monsanto",
+   "type": "place",
+   "surface": "Monsanto",
+   "ts": "12:44"
+  },
+  {
+   "canonical": "Fire Blight",
+   "type": "ingredient",
+   "surface": "fire blight",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "Irradiation",
+   "type": "technique",
+   "surface": "irradiation",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Gamma Radiation",
+   "type": "technique",
+   "surface": "gamma radiation",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "Nuclear Magnetic Resonance (NMR)",
+   "type": "technique",
+   "surface": "NMR",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Magnetic Resonance Imaging (MRI)",
+   "type": "technique",
+   "surface": "MRI",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Radiation",
+   "type": "technique",
+   "surface": "radiation",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Radiation",
+   "type": "technique",
+   "surface": "radiation",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Bay Area",
+   "type": "place",
+   "surface": "Bay Area",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Shea Banese",
+   "type": "place",
+   "surface": "Shea Banese",
+   "ts": "16:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:36"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Linda Palacio",
+   "type": "person",
+   "surface": "Linda",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Aero Press",
+   "type": "equipment",
+   "surface": "Aero Press",
+   "ts": "20:01"
+  },
+  {
+   "canonical": "Aero Press",
+   "type": "equipment",
+   "surface": "Aeropress",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "Aero Press",
+   "type": "equipment",
+   "surface": "Aero Press",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Aero Press",
+   "type": "equipment",
+   "surface": "Aero Press",
+   "ts": "21:12"
+  },
+  {
+   "canonical": "Coava Disc",
+   "type": "ingredient",
+   "surface": "Coava Disc",
+   "ts": "21:12"
+  },
+  {
+   "canonical": "Aeropress Coffee",
+   "type": "ingredient",
+   "surface": "Aeropress coffee",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "Ristretto",
+   "type": "technique",
+   "surface": "ristretto",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Ristretto",
+   "type": "technique",
+   "surface": "ristretto",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Coffee Geek",
+   "type": "place",
+   "surface": "coffee geek.com",
+   "ts": "21:46"
+  },
+  {
+   "canonical": "Roy",
+   "type": "person",
+   "surface": "Roy",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Roy",
+   "type": "person",
+   "surface": "Roy",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Roy",
+   "type": "person",
+   "surface": "Roy",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Blog",
+   "type": "place",
+   "surface": "blog",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Museum",
+   "type": "place",
+   "surface": "museum",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Alex Nackey",
+   "type": "person",
+   "surface": "Alex",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Alex Nackey",
+   "type": "person",
+   "surface": "Alex",
+   "ts": "29:25"
+  },
+  {
+   "canonical": "Colin",
+   "type": "person",
+   "surface": "Colin",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley Dufrain",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Duck Egg Yolk",
+   "type": "ingredient",
+   "surface": "duck egg yolk",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Duck Egg Yolk",
+   "type": "ingredient",
+   "surface": "duck egg yolk",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "Duck Egg Yolk",
+   "type": "ingredient",
+   "surface": "duck egg yolk",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "Chicken Egg Yolk",
+   "type": "ingredient",
+   "surface": "chicken egg yolk",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "Freezing",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "school",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "school",
+   "ts": "32:27"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "school",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "Bradley Smoker",
+   "type": "equipment",
+   "surface": "Bradley smokers",
+   "ts": "30:26"
+  },
+  {
+   "canonical": "Weber",
+   "type": "equipment",
+   "surface": "Weber",
+   "ts": "30:26"
+  },
+  {
+   "canonical": "Weber",
+   "type": "equipment",
+   "surface": "Weber",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "PID Controller",
+   "type": "equipment",
+   "surface": "PID controller",
+   "ts": "31:40"
+  },
+  {
+   "canonical": "Cold Smoke",
+   "type": "technique",
+   "surface": "cold smoke",
+   "ts": "32:27"
+  },
+  {
+   "canonical": "Hot Smoke",
+   "type": "technique",
+   "surface": "hot smoke",
+   "ts": "31:40"
+  },
+  {
+   "canonical": "Little Chief Smoker",
+   "type": "equipment",
+   "surface": "Little Chief",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Binsoton Charcoal",
+   "type": "ingredient",
+   "surface": "binsoton charcoal",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Binch\u014dtan",
+   "type": "ingredient",
+   "surface": "binsoton",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Binch\u014dtan",
+   "type": "ingredient",
+   "surface": "bintroton",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Binch\u014dtan",
+   "type": "ingredient",
+   "surface": "bintroton",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Binch\u014dtan",
+   "type": "ingredient",
+   "surface": "bintroton",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Binch\u014dtan",
+   "type": "ingredient",
+   "surface": "bintroton",
+   "ts": "38:15"
+  },
+  {
+   "canonical": "Binch\u014dtan",
+   "type": "ingredient",
+   "surface": "binsoton",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "38:15"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "39:29"
+  },
+  {
+   "canonical": "Jugging",
+   "type": "technique",
+   "surface": "Jugging",
+   "ts": "40:31"
+  },
+  {
+   "canonical": "Wild Canada Goose",
+   "type": "ingredient",
+   "surface": "wild Canada goose",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "42:24"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "43:01"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "43:34"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "43:34"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "Snacky Tunes",
+   "type": "equipment",
+   "surface": "Snacky Tunes",
+   "ts": "43:34"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "44:56"
+  }
+ ]
+}

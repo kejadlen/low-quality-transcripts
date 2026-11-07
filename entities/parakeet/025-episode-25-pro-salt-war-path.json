@@ -1,0 +1,541 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "TechServe",
+   "type": "place",
+   "surface": "TechServe",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Lower East Side Ecology Center",
+   "type": "place",
+   "surface": "Lower East Side Ecology Center",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:40"
+  },
+  {
+   "canonical": "Stuff",
+   "type": "person",
+   "surface": "Stuff",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "Tweet Deck",
+   "type": "place",
+   "surface": "tweet deck",
+   "ts": "1:48"
+  },
+  {
+   "canonical": "Tweet Deck",
+   "type": "place",
+   "surface": "Tweet Deck",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "THC",
+   "type": "ingredient",
+   "surface": "THC",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "THC",
+   "type": "ingredient",
+   "surface": "THC",
+   "ts": "3:10"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "double boiler",
+   "type": "equipment",
+   "surface": "double boiler",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "vacuum bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "decarboxylation",
+   "type": "technique",
+   "surface": "decarboxylating",
+   "ts": "3:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "7:14"
+  },
+  {
+   "canonical": "Sodium Metabisulfite",
+   "type": "ingredient",
+   "surface": "sodium metabisulfite",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Corning Ware",
+   "type": "equipment",
+   "surface": "corning",
+   "ts": "4:32"
+  },
+  {
+   "canonical": "Corning Ware",
+   "type": "equipment",
+   "surface": "corning",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "7:56"
+  },
+  {
+   "canonical": "Enzymatic Browning",
+   "type": "technique",
+   "surface": "enzymatic browning",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonating",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonating",
+   "ts": "7:56"
+  },
+  {
+   "canonical": "White Wine",
+   "type": "ingredient",
+   "surface": "white wines",
+   "ts": "7:56"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Soda Stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "10:15"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "11:05"
+  },
+  {
+   "canonical": "ISI",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "ISI",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "12:28"
+  },
+  {
+   "canonical": "ISI",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "ISI",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "ISI",
+   "type": "equipment",
+   "surface": "ISI",
+   "ts": "14:41"
+  },
+  {
+   "canonical": "Nitrous",
+   "type": "ingredient",
+   "surface": "nitrous",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "Potassium Chloride",
+   "type": "ingredient",
+   "surface": "potassium chloride",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Potassium Chloride",
+   "type": "ingredient",
+   "surface": "potassium chloride",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Potassium Chloride",
+   "type": "ingredient",
+   "surface": "potassium chloride",
+   "ts": "16:47"
+  },
+  {
+   "canonical": "Magnesium Chloride",
+   "type": "ingredient",
+   "surface": "magnesium chloride",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Magnesium Chloride",
+   "type": "ingredient",
+   "surface": "magnesium chloride",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Easy Cheese",
+   "type": "ingredient",
+   "surface": "easy cheese",
+   "ts": "15:03"
+  },
+  {
+   "canonical": "Easy Cheese",
+   "type": "ingredient",
+   "surface": "Easy cheese",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Telegio",
+   "type": "ingredient",
+   "surface": "Telegio",
+   "ts": "14:10"
+  },
+  {
+   "canonical": "Telegio",
+   "type": "ingredient",
+   "surface": "telegio",
+   "ts": "14:41"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Tucker",
+   "type": "person",
+   "surface": "Tucker",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Marty",
+   "type": "person",
+   "surface": "Marty",
+   "ts": "11:57"
+  },
+  {
+   "canonical": "Marty",
+   "type": "person",
+   "surface": "Marty",
+   "ts": "14:10"
+  },
+  {
+   "canonical": "Marty",
+   "type": "person",
+   "surface": "Marty",
+   "ts": "14:41"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley Dufresne",
+   "ts": "14:10"
+  },
+  {
+   "canonical": "Howard",
+   "type": "person",
+   "surface": "Howard",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Howard",
+   "type": "person",
+   "surface": "Howard",
+   "ts": "16:59"
+  },
+  {
+   "canonical": "Ken Kirshenbaum",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Ken Kirshenbaum",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "18:12"
+  },
+  {
+   "canonical": "Ken Kirshenbaum",
+   "type": "person",
+   "surface": "Kent",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Ken Kirshenbaum",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "23:51"
+  },
+  {
+   "canonical": "Ken Kirshenbaum",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "Experimental Cuisine Collective",
+   "type": "place",
+   "surface": "Experimental Cuisine Collective",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "New York University",
+   "type": "place",
+   "surface": "NYU",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Kombu Dashi",
+   "type": "ingredient",
+   "surface": "kambudashi",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "20:57"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "20:57"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Aero Press",
+   "type": "equipment",
+   "surface": "Aero Press",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "Joan Alaire",
+   "type": "person",
+   "surface": "Joan Alaire",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "New Yorker",
+   "type": "place",
+   "surface": "New Yorker",
+   "ts": "23:57"
+  }
+ ]
+}

@@ -1,0 +1,973 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:35"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:35"
+  },
+  {
+   "canonical": "Ben",
+   "type": "person",
+   "surface": "Ben",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Jimmy Carboni",
+   "type": "person",
+   "surface": "Jimmy Carboni",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Molecular Recipes",
+   "type": "place",
+   "surface": "molecular recipes",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Molecular Recipes",
+   "type": "place",
+   "surface": "molecular recipes",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "Liquid Intelligence",
+   "ts": "1:19"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "liquid intelligence",
+   "ts": "1:35"
+  },
+  {
+   "canonical": "Prosecco",
+   "type": "ingredient",
+   "surface": "Prosecco",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "5:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixtamalization",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Calcium hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Lime water",
+   "type": "ingredient",
+   "surface": "lime water",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Matate",
+   "type": "equipment",
+   "surface": "matate",
+   "ts": "5:13"
+  },
+  {
+   "canonical": "Mono",
+   "type": "equipment",
+   "surface": "mono",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "Mono",
+   "type": "equipment",
+   "surface": "mono",
+   "ts": "5:13"
+  },
+  {
+   "canonical": "Tijuana",
+   "type": "place",
+   "surface": "Tijuana",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "Tijuana",
+   "type": "place",
+   "surface": "TJ",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Tijuana",
+   "type": "place",
+   "surface": "TJ",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Tijuana",
+   "type": "place",
+   "surface": "Tijuana",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "5:51"
+  },
+  {
+   "canonical": "Merced",
+   "type": "place",
+   "surface": "Merced",
+   "ts": "5:51"
+  },
+  {
+   "canonical": "Squash blossom",
+   "type": "ingredient",
+   "surface": "squash blossom",
+   "ts": "5:51"
+  },
+  {
+   "canonical": "Comal",
+   "type": "equipment",
+   "surface": "comal",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Florida Calabasa",
+   "type": "ingredient",
+   "surface": "Florida calabasa",
+   "ts": "7:12"
+  },
+  {
+   "canonical": "Florida Calabasa",
+   "type": "ingredient",
+   "surface": "Florida Calabasa",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Squash blossom quesadillas",
+   "type": "ingredient",
+   "surface": "squash blossom quesadillas",
+   "ts": "5:51"
+  },
+  {
+   "canonical": "Rick Bayless",
+   "type": "person",
+   "surface": "Rick Bayless",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Nix Domatic",
+   "type": "equipment",
+   "surface": "Nix Domatic",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Corona Hand Grinder",
+   "type": "equipment",
+   "surface": "corona hand grinder",
+   "ts": "11:28"
+  },
+  {
+   "canonical": "Corona Hand Grinder",
+   "type": "equipment",
+   "surface": "corona",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Planters Mixed Nuts",
+   "type": "ingredient",
+   "surface": "planters mixed nuts",
+   "ts": "12:25"
+  },
+  {
+   "canonical": "Planters Mixed Nuts",
+   "type": "ingredient",
+   "surface": "planters",
+   "ts": "13:08"
+  },
+  {
+   "canonical": "Mixed Nut Butter",
+   "type": "ingredient",
+   "surface": "mixed nut butter",
+   "ts": "13:08"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "14:33"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "14:55"
+  },
+  {
+   "canonical": "Squash Blossoms",
+   "type": "ingredient",
+   "surface": "squash blossoms",
+   "ts": "8:50"
+  },
+  {
+   "canonical": "Squash Blossoms",
+   "type": "ingredient",
+   "surface": "squash blossoms",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Quesadilla",
+   "type": "ingredient",
+   "surface": "quesadilla",
+   "ts": "8:50"
+  },
+  {
+   "canonical": "Quesadilla",
+   "type": "ingredient",
+   "surface": "quesadilla",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Mercado San Juan",
+   "type": "place",
+   "surface": "Mercado San Juan",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "Los Cayotes",
+   "type": "place",
+   "surface": "Los Cayotes",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "SCI",
+   "type": "place",
+   "surface": "SCI",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Awaris Award Ceremony",
+   "type": "place",
+   "surface": "Awaris Award ceremony",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Vitaprep",
+   "type": "equipment",
+   "surface": "Vitaprep",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Champion",
+   "type": "equipment",
+   "surface": "champion",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "11:28"
+  },
+  {
+   "canonical": "Rye",
+   "type": "ingredient",
+   "surface": "rye",
+   "ts": "11:28"
+  },
+  {
+   "canonical": "Rye",
+   "type": "ingredient",
+   "surface": "rye",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "13:58"
+  },
+  {
+   "canonical": "Pecans",
+   "type": "ingredient",
+   "surface": "pecans",
+   "ts": "14:33"
+  },
+  {
+   "canonical": "Almond Oil",
+   "type": "ingredient",
+   "surface": "almond oil",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "17:09"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Ruby on Rails",
+   "type": "equipment",
+   "surface": "Ruby on Rails",
+   "ts": "17:09"
+  },
+  {
+   "canonical": "Enemy of Quality",
+   "type": "technique",
+   "surface": "enemy of quality",
+   "ts": "18:38"
+  },
+  {
+   "canonical": "Enemy of Quality",
+   "type": "technique",
+   "surface": "enemy of quality",
+   "ts": "18:59"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonated cocktail",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonated cocktail",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonated",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonated cocktail",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "Carbonated",
+   "ts": "22:00"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonated",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "24:10"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "24:10"
+  },
+  {
+   "canonical": "TS8000",
+   "type": "equipment",
+   "surface": "TS8000",
+   "ts": "24:34"
+  },
+  {
+   "canonical": "Palladium Searzole",
+   "type": "equipment",
+   "surface": "palladium searzole",
+   "ts": "24:34"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "30:04"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "30:24"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "30:24"
+  },
+  {
+   "canonical": "Molecular Recipes",
+   "type": "place",
+   "surface": "molecular recipes.com",
+   "ts": "30:24"
+  },
+  {
+   "canonical": "Molecular Recipes",
+   "type": "place",
+   "surface": "Molecular recipes.com",
+   "ts": "31:05"
+  },
+  {
+   "canonical": "Molecular Recipes",
+   "type": "place",
+   "surface": "Molecular recipes.com",
+   "ts": "31:29"
+  },
+  {
+   "canonical": "Molecular Recipes",
+   "type": "place",
+   "surface": "molecular recipes.com",
+   "ts": "31:40"
+  },
+  {
+   "canonical": "TS-8000",
+   "type": "equipment",
+   "surface": "TS-8000",
+   "ts": "24:57"
+  },
+  {
+   "canonical": "TS-8000",
+   "type": "equipment",
+   "surface": "TS-8000",
+   "ts": "25:57"
+  },
+  {
+   "canonical": "Burn Somatic",
+   "type": "place",
+   "surface": "Burn Somatic",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "Vortex Tip",
+   "type": "equipment",
+   "surface": "vortex tip",
+   "ts": "25:57"
+  },
+  {
+   "canonical": "Vortex Tip",
+   "type": "equipment",
+   "surface": "vortex tip",
+   "ts": "26:23"
+  },
+  {
+   "canonical": "Nomex",
+   "type": "ingredient",
+   "surface": "Nomex",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "Nomex",
+   "type": "ingredient",
+   "surface": "Nomex",
+   "ts": "27:25"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "27:25"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "27:42"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "Tandoor",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "28:48"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "28:41"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "28:48"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "29:48"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "29:54"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Big Green Egg",
+   "type": "equipment",
+   "surface": "big green egg",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "MELD",
+   "type": "place",
+   "surface": "MELD",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "MELD",
+   "type": "place",
+   "surface": "MELD",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "MELD",
+   "type": "equipment",
+   "surface": "meld",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "MELD",
+   "type": "equipment",
+   "surface": "MELD",
+   "ts": "34:40"
+  },
+  {
+   "canonical": "MELD",
+   "type": "equipment",
+   "surface": "meld",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "40:17"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "41:35"
+  },
+  {
+   "canonical": "gas regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "35:49"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "37:51"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "39:19"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "40:02"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "42:17"
+  },
+  {
+   "canonical": "flame sensor",
+   "type": "equipment",
+   "surface": "flame sensor",
+   "ts": "37:51"
+  },
+  {
+   "canonical": "app",
+   "type": "equipment",
+   "surface": "app",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "app",
+   "type": "equipment",
+   "surface": "app",
+   "ts": "39:19"
+  },
+  {
+   "canonical": "motorized knob",
+   "type": "equipment",
+   "surface": "motorized knob",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "gas flow",
+   "type": "technique",
+   "surface": "gas flow",
+   "ts": "39:19"
+  },
+  {
+   "canonical": "stirring",
+   "type": "technique",
+   "surface": "stir",
+   "ts": "42:56"
+  },
+  {
+   "canonical": "MELD",
+   "type": "equipment",
+   "surface": "MELD",
+   "ts": "44:28"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "44:50"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "technique",
+   "surface": "temperature rise",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "46:04"
+  },
+  {
+   "canonical": "evaporation",
+   "type": "technique",
+   "surface": "evaporation",
+   "ts": "46:04"
+  },
+  {
+   "canonical": "feedback loops",
+   "type": "technique",
+   "surface": "feedback loops",
+   "ts": "46:49"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "49:14"
+  }
+ ]
+}

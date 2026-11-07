@@ -1,0 +1,997 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "Maxime Belay",
+   "type": "person",
+   "surface": "Maxime",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "Maxime Belay",
+   "type": "person",
+   "surface": "Maxime",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Maxime Belay",
+   "type": "person",
+   "surface": "Maxime",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "6:38"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker Index",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Maison Premiere",
+   "type": "place",
+   "surface": "maison premiere",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Jack's Oyster Bar",
+   "type": "place",
+   "surface": "Jack's",
+   "ts": "1:56"
+  },
+  {
+   "canonical": "Jack's Oyster Bar",
+   "type": "place",
+   "surface": "Jack's Luxurious Bar",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "The Fat Duck",
+   "type": "place",
+   "surface": "fat duck",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "Modernist Cuisine",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "5:28"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "4:00"
+  },
+  {
+   "canonical": "Thai Basil",
+   "type": "ingredient",
+   "surface": "Thai basil",
+   "ts": "4:00"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "4:00"
+  },
+  {
+   "canonical": "Daiquiri",
+   "type": "technique",
+   "surface": "daiquiri",
+   "ts": "4:00"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "1:49"
+  },
+  {
+   "canonical": "Institute of Culinary Education",
+   "type": "place",
+   "surface": "ICE",
+   "ts": "1:49"
+  },
+  {
+   "canonical": "Institute of Culinary Education",
+   "type": "place",
+   "surface": "ICE",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "New Yorker",
+   "type": "place",
+   "surface": "New Yorker",
+   "ts": "1:18"
+  },
+  {
+   "canonical": "Apicius",
+   "type": "place",
+   "surface": "Apicius",
+   "ts": "5:28"
+  },
+  {
+   "canonical": "El Bulli",
+   "type": "place",
+   "surface": "El Bully",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Zymergy",
+   "type": "place",
+   "surface": "Zymergy",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Alexanaki",
+   "type": "place",
+   "surface": "Alexanaki",
+   "ts": "11:26"
+  },
+  {
+   "canonical": "Activa YG",
+   "type": "ingredient",
+   "surface": "Activa YG",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Activa YG",
+   "type": "ingredient",
+   "surface": "Activa YG",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Activa YG",
+   "type": "ingredient",
+   "surface": "activa yg",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Activa YG",
+   "type": "ingredient",
+   "surface": "YG",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Albumin",
+   "type": "ingredient",
+   "surface": "albumin",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Sp\u00e4tzle",
+   "type": "technique",
+   "surface": "spitzel",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "Sp\u00e4tzle",
+   "type": "technique",
+   "surface": "spetzla",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transcontamination meat glue",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Brown Butter",
+   "type": "ingredient",
+   "surface": "brown butter",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Beef Cheek",
+   "type": "ingredient",
+   "surface": "beef cheeky",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Egg White Proteins",
+   "type": "ingredient",
+   "surface": "egg egg proteins",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Dairy Proteins",
+   "type": "ingredient",
+   "surface": "dairy proteins",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Enzymatic Process",
+   "type": "technique",
+   "surface": "enzymatic process",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Gel",
+   "type": "ingredient",
+   "surface": "gel",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Ice Water",
+   "type": "ingredient",
+   "surface": "ice water",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Ice Water",
+   "type": "ingredient",
+   "surface": "ice water",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Ice Water",
+   "type": "ingredient",
+   "surface": "ice water",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Fry",
+   "type": "technique",
+   "surface": "fry",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Poach",
+   "type": "technique",
+   "surface": "poached",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Maxime Belay",
+   "type": "person",
+   "surface": "Maxime Belay",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Wiley Dufrein",
+   "type": "person",
+   "surface": "Wiley Dufrein",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Wiley Dufrein",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "15:06"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD50",
+   "ts": "15:06"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Sour cream",
+   "type": "ingredient",
+   "surface": "sour cream",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "Sour cream",
+   "type": "ingredient",
+   "surface": "sour cream",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Ricotta",
+   "type": "ingredient",
+   "surface": "ricotta",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Whey protein isolate",
+   "type": "ingredient",
+   "surface": "whey protein isolate",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Yeast extract",
+   "type": "ingredient",
+   "surface": "YG",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Yeast extract",
+   "type": "ingredient",
+   "surface": "YG",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Yeast extract",
+   "type": "ingredient",
+   "surface": "yg",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Yeast extract",
+   "type": "ingredient",
+   "surface": "YG",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Capric acid",
+   "type": "ingredient",
+   "surface": "capricarakeen",
+   "ts": "15:06"
+  },
+  {
+   "canonical": "Locust bean gum",
+   "type": "ingredient",
+   "surface": "locust bean gum",
+   "ts": "15:06"
+  },
+  {
+   "canonical": "Emulsion",
+   "type": "technique",
+   "surface": "emulsion",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "Gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "Xanthan gum",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "Vegetable oil",
+   "type": "ingredient",
+   "surface": "vegetable oil",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "Vegetable oil",
+   "type": "ingredient",
+   "surface": "vegetable oil",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Mashed potatoes",
+   "type": "ingredient",
+   "surface": "mashed potatoes",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Dairy-free",
+   "type": "ingredient",
+   "surface": "dairy-free",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Chicken broth",
+   "type": "ingredient",
+   "surface": "chicken broth",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Soy milk",
+   "type": "ingredient",
+   "surface": "soy milk",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Almond milk",
+   "type": "ingredient",
+   "surface": "almond milk",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "Potato flakes",
+   "type": "ingredient",
+   "surface": "potato flakes",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Emulsification",
+   "type": "technique",
+   "surface": "emulsify",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Oil and water emulsion",
+   "type": "technique",
+   "surface": "oil like a very heavy oil water emulsion",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutamase",
+   "ts": "22:53"
+  },
+  {
+   "canonical": "yuba",
+   "type": "ingredient",
+   "surface": "yuba",
+   "ts": "22:53"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "26:30"
+  },
+  {
+   "canonical": "sashimi",
+   "type": "ingredient",
+   "surface": "sashimi",
+   "ts": "23:53"
+  },
+  {
+   "canonical": "sashimi",
+   "type": "ingredient",
+   "surface": "sashimi",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "26:58"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "collagen thread",
+   "type": "ingredient",
+   "surface": "collagen thread",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "honeycomb tripe",
+   "type": "ingredient",
+   "surface": "Honeycomb tripe",
+   "ts": "26:48"
+  },
+  {
+   "canonical": "sausage casing",
+   "type": "ingredient",
+   "surface": "sausage casing",
+   "ts": "26:48"
+  },
+  {
+   "canonical": "tapioca starch",
+   "type": "ingredient",
+   "surface": "tapioca starch",
+   "ts": "24:53"
+  },
+  {
+   "canonical": "vital wheat gluten",
+   "type": "ingredient",
+   "surface": "vital weak gluten",
+   "ts": "24:53"
+  },
+  {
+   "canonical": "starch paper",
+   "type": "ingredient",
+   "surface": "starch paper",
+   "ts": "24:53"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "26:30"
+  },
+  {
+   "canonical": "RM",
+   "type": "equipment",
+   "surface": "RM",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "collagen thread",
+   "type": "ingredient",
+   "surface": "collagen thread",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "26:30"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "30:41"
+  },
+  {
+   "canonical": "Mandy Aftel",
+   "type": "person",
+   "surface": "Aftelier",
+   "ts": "30:41"
+  },
+  {
+   "canonical": "Mandy Aftel",
+   "type": "person",
+   "surface": "Aftelier",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "31:21"
+  },
+  {
+   "canonical": "Rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Steam Distillation",
+   "type": "technique",
+   "surface": "steam distillation",
+   "ts": "31:21"
+  },
+  {
+   "canonical": "Nutmeg Essential Oil",
+   "type": "ingredient",
+   "surface": "nutmeg essential oil",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Moristocin",
+   "type": "ingredient",
+   "surface": "moristocin",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Soul on Ice",
+   "type": "place",
+   "surface": "Soul on Ice",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Arrowid",
+   "type": "place",
+   "surface": "Arrowid",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Arrowid",
+   "type": "place",
+   "surface": "Arrowid",
+   "ts": "34:26"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "30:41"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "34:26"
+  },
+  {
+   "canonical": "Parsley Seed Oil",
+   "type": "ingredient",
+   "surface": "parsley seed oil",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Parsley Seed Oil",
+   "type": "ingredient",
+   "surface": "parsley seed oil",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "36:23"
+  },
+  {
+   "canonical": "ISCP",
+   "type": "place",
+   "surface": "ISCP",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "place",
+   "surface": "Modernist Cuisine",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Tom Fisher",
+   "type": "person",
+   "surface": "Tom Fisher",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "Lance Down PA",
+   "type": "person",
+   "surface": "Lance Down PA",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "Pectonex Ultra Spl",
+   "type": "ingredient",
+   "surface": "pectonex ultra spl",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "37:58"
+  },
+  {
+   "canonical": "Absinthe",
+   "type": "ingredient",
+   "surface": "absinthe",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Absinthe",
+   "type": "ingredient",
+   "surface": "absinthe",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "Absinthe",
+   "type": "ingredient",
+   "surface": "absinthe",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Absinthe",
+   "type": "ingredient",
+   "surface": "absinthe",
+   "ts": "39:39"
+  },
+  {
+   "canonical": "Absinthe",
+   "type": "ingredient",
+   "surface": "absinthe",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "Thujone",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "Thujone",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "Thujone",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "Thujone",
+   "ts": "39:39"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "thujone",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Thujone",
+   "type": "ingredient",
+   "surface": "thujone",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Wormwood",
+   "type": "ingredient",
+   "surface": "wormwood",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Wormwood",
+   "type": "ingredient",
+   "surface": "wormwood",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Wormwood",
+   "type": "ingredient",
+   "surface": "wormwood",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Food Pairing",
+   "type": "technique",
+   "surface": "food pairing",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Food Pairing",
+   "type": "technique",
+   "surface": "food pairing",
+   "ts": "44:25"
+  },
+  {
+   "canonical": "Food Pairing",
+   "type": "technique",
+   "surface": "food pairing",
+   "ts": "44:48"
+  },
+  {
+   "canonical": "Fat Duck",
+   "type": "place",
+   "surface": "fat duck",
+   "ts": "44:48"
+  },
+  {
+   "canonical": "Coca Leaf",
+   "type": "ingredient",
+   "surface": "coca leaf",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Coca Leaf",
+   "type": "ingredient",
+   "surface": "coca leaf",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "Cocaine",
+   "type": "ingredient",
+   "surface": "cocaine",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Yill On",
+   "type": "person",
+   "surface": "Yill on",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Maxim",
+   "type": "person",
+   "surface": "Maxim",
+   "ts": "50:10"
+  },
+  {
+   "canonical": "Donna",
+   "type": "person",
+   "surface": "Donna",
+   "ts": "50:10"
+  },
+  {
+   "canonical": "Farran",
+   "type": "person",
+   "surface": "Farran",
+   "ts": "47:59"
+  },
+  {
+   "canonical": "Western cuisine",
+   "type": "place",
+   "surface": "Western uh corpus",
+   "ts": "46:29"
+  },
+  {
+   "canonical": "East Asian cuisine",
+   "type": "place",
+   "surface": "East Asian uh data analysis",
+   "ts": "46:29"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "50:32"
+  }
+ ]
+}

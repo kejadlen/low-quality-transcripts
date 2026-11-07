@@ -1,0 +1,973 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "Sambar",
+   "type": "place",
+   "surface": "Sambar",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "Momofuku",
+   "type": "place",
+   "surface": "Momofuku",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "Catskill Provisions",
+   "type": "place",
+   "surface": "Catskill Provisions",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:18"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:18"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:18"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "1:13"
+  },
+  {
+   "canonical": "Lowry's Meat Science",
+   "type": "ingredient",
+   "surface": "Lowry's Meat Science",
+   "ts": "3:09"
+  },
+  {
+   "canonical": "linseed oil",
+   "type": "ingredient",
+   "surface": "linseed oil",
+   "ts": "4:41"
+  },
+  {
+   "canonical": "flaxseed oil",
+   "type": "ingredient",
+   "surface": "flaxseed oil",
+   "ts": "4:41"
+  },
+  {
+   "canonical": "flaxseed oil",
+   "type": "ingredient",
+   "surface": "flaxseed oil",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Michael Natkin",
+   "type": "person",
+   "surface": "Michael Natkin",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Captain Vegetable",
+   "type": "person",
+   "surface": "Captain Vegetable",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Captain Vegetable",
+   "type": "person",
+   "surface": "Captain Vegetable",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "half moon ice",
+   "type": "ingredient",
+   "surface": "half moon ice",
+   "ts": "6:43"
+  },
+  {
+   "canonical": "half moon ice",
+   "type": "ingredient",
+   "surface": "half moon ice",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "tea strainer",
+   "type": "equipment",
+   "surface": "tea strainer",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "Hawthorn strainer",
+   "type": "equipment",
+   "surface": "hawthorn strainer",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "double tea strainer",
+   "type": "equipment",
+   "surface": "double tea strainer",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "6:43"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "stirring",
+   "type": "technique",
+   "surface": "stirring",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "shaking",
+   "type": "technique",
+   "surface": "shaking",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "Evan Freeman",
+   "type": "person",
+   "surface": "Evan Freeman",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Cocktail Kingdom",
+   "type": "place",
+   "surface": "Cocktail Kingdom",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Cold smoking",
+   "type": "technique",
+   "surface": "cold smoking",
+   "ts": "10:54"
+  },
+  {
+   "canonical": "Cold smoking",
+   "type": "technique",
+   "surface": "cold smoking",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "Smoke",
+   "type": "ingredient",
+   "surface": "smoke",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "Smoke",
+   "type": "ingredient",
+   "surface": "smoke",
+   "ts": "11:26"
+  },
+  {
+   "canonical": "Smoke",
+   "type": "ingredient",
+   "surface": "smoke",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Smoke",
+   "type": "ingredient",
+   "surface": "smoke",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Smoke",
+   "type": "ingredient",
+   "surface": "smoke",
+   "ts": "14:43"
+  },
+  {
+   "canonical": "Smoke",
+   "type": "ingredient",
+   "surface": "smoke",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "14:43"
+  },
+  {
+   "canonical": "Wood",
+   "type": "ingredient",
+   "surface": "wood",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Pyrolysis",
+   "type": "technique",
+   "surface": "pyrolysis",
+   "ts": "11:26"
+  },
+  {
+   "canonical": "Pyrolysis",
+   "type": "technique",
+   "surface": "pyrolysis",
+   "ts": "14:43"
+  },
+  {
+   "canonical": "Vaporizer",
+   "type": "equipment",
+   "surface": "vaporizer",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Vaporizer",
+   "type": "equipment",
+   "surface": "vaporizer",
+   "ts": "14:43"
+  },
+  {
+   "canonical": "Smoke Daddy",
+   "type": "equipment",
+   "surface": "smoke daddy",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "10:54"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "Seoul Korea",
+   "type": "place",
+   "surface": "Seoul Korea",
+   "ts": "10:54"
+  },
+  {
+   "canonical": "Air quality",
+   "type": "technique",
+   "surface": "air quality",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Ventilation",
+   "type": "equipment",
+   "surface": "ventilation",
+   "ts": "13:57"
+  },
+  {
+   "canonical": "Thc",
+   "type": "ingredient",
+   "surface": "THC",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Wood chips",
+   "type": "ingredient",
+   "surface": "wood chips",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Polyurethane",
+   "type": "ingredient",
+   "surface": "polyurethane",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Silicone",
+   "type": "ingredient",
+   "surface": "silicone",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Ice cube molds",
+   "type": "equipment",
+   "surface": "ice cube molds",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Tea strainer",
+   "type": "equipment",
+   "surface": "tea strainer",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Igloo coolers",
+   "type": "equipment",
+   "surface": "igloo coolers",
+   "ts": "10:22"
+  },
+  {
+   "canonical": "Grant Aikin",
+   "type": "person",
+   "surface": "Grant Aikitz",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "Ziploc bags",
+   "type": "equipment",
+   "surface": "Ziploc bags",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "Ziploc bags",
+   "type": "equipment",
+   "surface": "zippies",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Ziploc bags",
+   "type": "equipment",
+   "surface": "ziploc bags",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "polyethylene",
+   "type": "ingredient",
+   "surface": "polyethylene",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "polyethylene",
+   "type": "ingredient",
+   "surface": "polyethylene",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Modernist Cuisine for Home",
+   "type": "place",
+   "surface": "Modernist Cuisine for Home",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Nasin Mirvald",
+   "type": "person",
+   "surface": "Nasin Mirvald",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Nathan",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Nathan",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "SC Johnson Wax",
+   "type": "place",
+   "surface": "SC Johnson Wax",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Ziploc",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Ziploc",
+   "type": "equipment",
+   "surface": "Ziploc",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "polyethylene",
+   "type": "ingredient",
+   "surface": "polyethylene",
+   "ts": "19:00"
+  },
+  {
+   "canonical": "Cat Skill Provisions",
+   "type": "place",
+   "surface": "Cat Skill Provisions",
+   "ts": "24:48"
+  },
+  {
+   "canonical": "Catskill Provisions",
+   "type": "place",
+   "surface": "Catskill provisions",
+   "ts": "26:46"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "seal the deal",
+   "ts": "24:48"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "Seal the deal",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "seal the deal",
+   "ts": "25:21"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "seal the deal",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "seal the deal",
+   "ts": "26:37"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "seal the deal",
+   "ts": "26:46"
+  },
+  {
+   "canonical": "seal the deal",
+   "type": "technique",
+   "surface": "seal the deal",
+   "ts": "26:59"
+  },
+  {
+   "canonical": "Joel Gargano",
+   "type": "person",
+   "surface": "Joel Gargano",
+   "ts": "26:59"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "26:59"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "27:13"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "27:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "36:06"
+  },
+  {
+   "canonical": "Nils",
+   "type": "person",
+   "surface": "Nils",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "Activa RM",
+   "type": "ingredient",
+   "surface": "Activa RM",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "slurry",
+   "type": "technique",
+   "surface": "slurry",
+   "ts": "30:52"
+  },
+  {
+   "canonical": "slurry",
+   "type": "technique",
+   "surface": "slurry",
+   "ts": "31:01"
+  },
+  {
+   "canonical": "slurry",
+   "type": "technique",
+   "surface": "slurry",
+   "ts": "31:15"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "31:50"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "commercial grade beef",
+   "type": "ingredient",
+   "surface": "commercial grade beef",
+   "ts": "31:50"
+  },
+  {
+   "canonical": "dulce de leche",
+   "type": "ingredient",
+   "surface": "dulce de leche",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "dulce de leche",
+   "type": "ingredient",
+   "surface": "dulce de leche",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "dulce de leche",
+   "type": "ingredient",
+   "surface": "dulce de leche",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "dulce de leche",
+   "type": "ingredient",
+   "surface": "dulce de leche",
+   "ts": "38:07"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "38:07"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "38:33"
+  },
+  {
+   "canonical": "sweetened condensed milk",
+   "type": "ingredient",
+   "surface": "sweetened condensed milk",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "modernist pantry.com",
+   "type": "place",
+   "surface": "modernist pantry.com",
+   "ts": "31:01"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "39:40"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Molecular gastronomy",
+   "type": "technique",
+   "surface": "molecular gastronomy",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Modernist cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Avant-garde cuisine",
+   "type": "technique",
+   "surface": "avant-garde",
+   "ts": "39:51"
+  },
+  {
+   "canonical": "Avant-garde cuisine",
+   "type": "technique",
+   "surface": "avant-garde",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Avant-garde cuisine",
+   "type": "technique",
+   "surface": "avant-garde",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Dulce de leche",
+   "type": "ingredient",
+   "surface": "dulce de leche",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Ben",
+   "type": "person",
+   "surface": "Ben",
+   "ts": "42:57"
+  },
+  {
+   "canonical": "Timothy",
+   "type": "person",
+   "surface": "Tim Timothy",
+   "ts": "43:39"
+  },
+  {
+   "canonical": "Calcium Citrate",
+   "type": "ingredient",
+   "surface": "calcium citrate",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Calcium Citrate",
+   "type": "ingredient",
+   "surface": "calcium citrate",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "43:39"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Nature Seal",
+   "type": "ingredient",
+   "surface": "nature seal",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Nature Seal",
+   "type": "ingredient",
+   "surface": "nature seal",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Pectin Methylesterase Enzyme",
+   "type": "technique",
+   "surface": "pectin methylesterase enzyme",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "Sourdough",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "47:26"
+  },
+  {
+   "canonical": "Eddie Shepherd",
+   "type": "person",
+   "surface": "Eddie Shepherd",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Philosophy",
+   "type": "technique",
+   "surface": "philosophy",
+   "ts": "47:26"
+  },
+  {
+   "canonical": "Eddie Shepherd",
+   "type": "person",
+   "surface": "Eddie Shepherd",
+   "ts": "47:40"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "48:06"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "48:38"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "48:06"
+  }
+ ]
+}

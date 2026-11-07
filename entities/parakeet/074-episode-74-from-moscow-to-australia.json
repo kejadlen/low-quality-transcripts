@@ -1,0 +1,829 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Robertas",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "1:28"
+  },
+  {
+   "canonical": "Tammy",
+   "type": "person",
+   "surface": "Tammy",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "1:21"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "1:28"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "1:47"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "2:14"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "4:22"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "1:06"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "sous-vide",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "6:03"
+  },
+  {
+   "canonical": "vacuum bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "PID temperature controller",
+   "type": "equipment",
+   "surface": "PID temperature controller",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "thermocouple",
+   "type": "equipment",
+   "surface": "thermocouple",
+   "ts": "7:51"
+  },
+  {
+   "canonical": "aquarium pump",
+   "type": "equipment",
+   "surface": "aquarium pump",
+   "ts": "6:31"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "ziploc",
+   "type": "equipment",
+   "surface": "ziploc",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Procon",
+   "type": "equipment",
+   "surface": "Procon",
+   "ts": "13:14"
+  },
+  {
+   "canonical": "Procon",
+   "type": "equipment",
+   "surface": "Procon",
+   "ts": "13:45"
+  },
+  {
+   "canonical": "Procon",
+   "type": "equipment",
+   "surface": "procon",
+   "ts": "14:10"
+  },
+  {
+   "canonical": "Ulka",
+   "type": "equipment",
+   "surface": "Ulka",
+   "ts": "14:10"
+  },
+  {
+   "canonical": "Accumulator",
+   "type": "equipment",
+   "surface": "accumulator",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "12:21"
+  },
+  {
+   "canonical": "Gas Burner",
+   "type": "equipment",
+   "surface": "gas burner",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "Walk Burner",
+   "type": "equipment",
+   "surface": "walk burner",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Walk Burner",
+   "type": "equipment",
+   "surface": "walk burner",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Moscow",
+   "type": "place",
+   "surface": "Moscow",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "Moscow",
+   "type": "place",
+   "surface": "Moscow",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Moscow",
+   "type": "place",
+   "surface": "Moscow",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "Moscow",
+   "type": "place",
+   "surface": "Moscow",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "Altoids Tin",
+   "type": "equipment",
+   "surface": "Altoids tin",
+   "ts": "9:12"
+  },
+  {
+   "canonical": "Altoids Tin",
+   "type": "equipment",
+   "surface": "Altoids tin",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Sous Vide Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Vitaprep",
+   "type": "equipment",
+   "surface": "Vitaprep",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Vitaprep",
+   "type": "equipment",
+   "surface": "Vitaprep",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "Vitaprep",
+   "type": "equipment",
+   "surface": "Vitaprep",
+   "ts": "20:31"
+  },
+  {
+   "canonical": "PolyScience",
+   "type": "place",
+   "surface": "PolyScience",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "19:05"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "Circulator",
+   "ts": "19:32"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "leg of lamb",
+   "type": "ingredient",
+   "surface": "leg of lamb",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "leg of lamb",
+   "type": "ingredient",
+   "surface": "leg of lamb",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "leg of lamb",
+   "type": "ingredient",
+   "surface": "leg of lamb",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "leg of lamb",
+   "type": "ingredient",
+   "surface": "leg of lamb",
+   "ts": "23:36"
+  },
+  {
+   "canonical": "yogurt",
+   "type": "ingredient",
+   "surface": "yogurt",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "yogurt",
+   "type": "ingredient",
+   "surface": "yogurt",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Costco",
+   "type": "place",
+   "surface": "Costco",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "19:05"
+  },
+  {
+   "canonical": "Paco Jet",
+   "type": "equipment",
+   "surface": "Paco Jet",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "19:05"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "19:32"
+  },
+  {
+   "canonical": "220 unit",
+   "type": "equipment",
+   "surface": "220",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "220 unit",
+   "type": "equipment",
+   "surface": "220",
+   "ts": "20:31"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:53"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "TPA",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "TPA",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Costco",
+   "type": "place",
+   "surface": "Costco",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Costco",
+   "type": "place",
+   "surface": "Costco",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "TPA",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "TPA",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "29:53"
+  },
+  {
+   "canonical": "Denver",
+   "type": "place",
+   "surface": "Denver",
+   "ts": "29:53"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "agricultural extensions",
+   "type": "place",
+   "surface": "agricultural extensions",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "30:35"
+  },
+  {
+   "canonical": "kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "lactic acid bacteria",
+   "type": "technique",
+   "surface": "lactic acid bacteria",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "sourdough",
+   "type": "technique",
+   "surface": "sourdough",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "brine",
+   "type": "ingredient",
+   "surface": "brine",
+   "ts": "33:27"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "33:27"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "34:42"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "ModernistPantry.com",
+   "ts": "36:27"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "modernistpantry.com",
+   "ts": "42:01"
+  },
+  {
+   "canonical": "Pop Rocks",
+   "type": "ingredient",
+   "surface": "pop rocks",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Pop Rocks",
+   "type": "ingredient",
+   "surface": "Pop rocks",
+   "ts": "36:27"
+  },
+  {
+   "canonical": "Pop Rocks",
+   "type": "ingredient",
+   "surface": "Pop Rocks",
+   "ts": "36:47"
+  },
+  {
+   "canonical": "Pop Rocks",
+   "type": "ingredient",
+   "surface": "pop rocks",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "36:47"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "pH buffers",
+   "type": "ingredient",
+   "surface": "pH buffers",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Crisco",
+   "type": "ingredient",
+   "surface": "Crisco",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "Crisco",
+   "type": "ingredient",
+   "surface": "crisco",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "39:32"
+  },
+  {
+   "canonical": "vegetable shortening",
+   "type": "ingredient",
+   "surface": "vegetable shortening",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "vegetable shortening",
+   "type": "ingredient",
+   "surface": "vegetable shortening",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "pectinase enzymes",
+   "type": "ingredient",
+   "surface": "pectinase enzymes",
+   "ts": "39:52"
+  },
+  {
+   "canonical": "pectic enzymes",
+   "type": "ingredient",
+   "surface": "pectic enzymes",
+   "ts": "39:32"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "39:52"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "40:25"
+  },
+  {
+   "canonical": "pectinex ultra spl",
+   "type": "ingredient",
+   "surface": "pectinex ultra SPL",
+   "ts": "39:52"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotor vap",
+   "ts": "41:21"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "42:01"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "roto vap",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "cold finger condenser",
+   "type": "equipment",
+   "surface": "cold finger condenser",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "41:35"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "Liquid nitrogen",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "dry ice",
+   "type": "ingredient",
+   "surface": "dry ice",
+   "ts": "41:35"
+  },
+  {
+   "canonical": "dry ice",
+   "type": "ingredient",
+   "surface": "Dry ice",
+   "ts": "43:07"
+  },
+  {
+   "canonical": "dry ice",
+   "type": "ingredient",
+   "surface": "dry ice",
+   "ts": "43:23"
+  },
+  {
+   "canonical": "rotary seals",
+   "type": "equipment",
+   "surface": "rotary seals",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "Alcanox",
+   "type": "ingredient",
+   "surface": "Alcanox",
+   "ts": "43:38"
+  }
+ ]
+}

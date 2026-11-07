@@ -1,0 +1,1525 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "1:18"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "Michael Barfis",
+   "type": "person",
+   "surface": "Michael Barfis",
+   "ts": "3:23"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "Saz",
+   "type": "person",
+   "surface": "Saz",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "cal",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "6:13"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "6:13"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "6:30"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "4:32"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "6:13"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "7:22"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "7:45"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "Iron",
+   "type": "ingredient",
+   "surface": "iron",
+   "ts": "4:32"
+  },
+  {
+   "canonical": "Iron",
+   "type": "ingredient",
+   "surface": "iron",
+   "ts": "7:22"
+  },
+  {
+   "canonical": "Iron",
+   "type": "ingredient",
+   "surface": "iron",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "Calcium Carbonate",
+   "type": "ingredient",
+   "surface": "calcium carbonate",
+   "ts": "4:32"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "6:30"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "Niacin",
+   "type": "ingredient",
+   "surface": "niacin",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Hard Water",
+   "type": "ingredient",
+   "surface": "hard water",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Hard Water",
+   "type": "ingredient",
+   "surface": "hard water",
+   "ts": "7:22"
+  },
+  {
+   "canonical": "Hard Water",
+   "type": "ingredient",
+   "surface": "hard water",
+   "ts": "7:45"
+  },
+  {
+   "canonical": "Broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "6:30"
+  },
+  {
+   "canonical": "Broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "Calcium Cross-Linking",
+   "type": "technique",
+   "surface": "calcium cross-links with the pectin",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nictimalization",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Bushwick Brooklyn",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Bushwick Brooklyn",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "1:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "11:28"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "Transglutaminase",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "14:58"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "15:15"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "9:38"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "14:58"
+  },
+  {
+   "canonical": "Consui",
+   "type": "ingredient",
+   "surface": "consui",
+   "ts": "9:38"
+  },
+  {
+   "canonical": "Calcium chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "Transglutaminase",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "14:58"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "15:15"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "Transglutaminase enzyme",
+   "type": "technique",
+   "surface": "transglutaminase",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Microbial transglutaminase",
+   "type": "technique",
+   "surface": "microbial transglutaminase",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Microbial transglutaminase",
+   "type": "technique",
+   "surface": "microbial transglutaminase",
+   "ts": "14:58"
+  },
+  {
+   "canonical": "Microbial transglutaminase",
+   "type": "technique",
+   "surface": "microbial transglutaminase",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Activa",
+   "type": "ingredient",
+   "surface": "Activa",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Life Bond",
+   "type": "place",
+   "surface": "Life Bond",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "Quick Clot",
+   "type": "equipment",
+   "surface": "quick clot",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Quick Clot",
+   "type": "equipment",
+   "surface": "quick clot",
+   "ts": "17:40"
+  },
+  {
+   "canonical": "Hemecon Bandage",
+   "type": "equipment",
+   "surface": "hemecon Bandage",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Zeolite",
+   "type": "ingredient",
+   "surface": "zeolite",
+   "ts": "17:40"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitosan",
+   "ts": "17:40"
+  },
+  {
+   "canonical": "Zappos Corporation",
+   "type": "place",
+   "surface": "Zappos Corporation",
+   "ts": "11:45"
+  },
+  {
+   "canonical": "Payless",
+   "type": "place",
+   "surface": "Payless",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:13"
+  },
+  {
+   "canonical": "Ben Lambert",
+   "type": "person",
+   "surface": "Ben Lambert",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "26:13"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Pectin Methylesterase",
+   "type": "ingredient",
+   "surface": "pectin methylesterase",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "21:39"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "22:53"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Salamander",
+   "type": "equipment",
+   "surface": "salamander",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "Deck Broiler",
+   "type": "equipment",
+   "surface": "deck broiler",
+   "ts": "22:10"
+  },
+  {
+   "canonical": "Deck Broiler",
+   "type": "equipment",
+   "surface": "deck broiler",
+   "ts": "22:53"
+  },
+  {
+   "canonical": "Deck Broiler",
+   "type": "equipment",
+   "surface": "deck broiler",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Activa RM",
+   "type": "ingredient",
+   "surface": "Activa RM",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "IR",
+   "type": "technique",
+   "surface": "IR",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "IR",
+   "type": "technique",
+   "surface": "IR",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Infrared",
+   "type": "technique",
+   "surface": "infrared",
+   "ts": "20:02"
+  },
+  {
+   "canonical": "Infrared",
+   "type": "technique",
+   "surface": "infrared",
+   "ts": "21:39"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "26:59"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Michael Batterberry",
+   "type": "person",
+   "surface": "Michael Batterberry",
+   "ts": "22:10"
+  },
+  {
+   "canonical": "Byron Ferguson",
+   "type": "person",
+   "surface": "Byron Ferguson",
+   "ts": "24:13"
+  },
+  {
+   "canonical": "SPL",
+   "type": "technique",
+   "surface": "SPL",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "27:45"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Testas",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "31:03"
+  },
+  {
+   "canonical": "Novo Shape",
+   "type": "ingredient",
+   "surface": "Novo Shape",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Novo Shape",
+   "type": "ingredient",
+   "surface": "Novo shape",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Novo Shape",
+   "type": "ingredient",
+   "surface": "Novo shape",
+   "ts": "29:56"
+  },
+  {
+   "canonical": "Novozymes",
+   "type": "place",
+   "surface": "Novozymes",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Pectinex Ultra SPL",
+   "type": "ingredient",
+   "surface": "pectanex ultra SPL",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Calcium Chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "27:45"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "27:45"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "29:56"
+  },
+  {
+   "canonical": "Alginate",
+   "type": "ingredient",
+   "surface": "alginate",
+   "ts": "30:24"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Blueberry",
+   "type": "ingredient",
+   "surface": "blueberry",
+   "ts": "30:24"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "Triconella",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichonella",
+   "ts": "33:28"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinella",
+   "ts": "34:38"
+  },
+  {
+   "canonical": "Trichinella",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Trichinosis",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Trichinosis",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Trichinosis",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Trichinosis",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "Trichinosis",
+   "type": "ingredient",
+   "surface": "trichinosis",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "USDA",
+   "type": "place",
+   "surface": "U.S. Department of Agriculture",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "USDA",
+   "type": "place",
+   "surface": "USDA",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Title IX, Chapter 3, Paragraph 318.10",
+   "type": "place",
+   "surface": "Title IX, Chapter 3, Paragraph 318.10",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "Garbage cooking laws",
+   "type": "technique",
+   "surface": "garbage cooking laws",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Hog cholera eradication program",
+   "type": "technique",
+   "surface": "hog cholera eradication program",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Biosecurity",
+   "type": "technique",
+   "surface": "biosecurity",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "Curing",
+   "type": "technique",
+   "surface": "curing",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "Curing",
+   "type": "technique",
+   "surface": "curing",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "Curing",
+   "type": "technique",
+   "surface": "curing",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "Country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "41:20"
+  },
+  {
+   "canonical": "Wild pigs",
+   "type": "ingredient",
+   "surface": "wild pigs",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Feral hogs",
+   "type": "ingredient",
+   "surface": "feral hogs",
+   "ts": "39:09"
+  },
+  {
+   "canonical": "Ice cubes",
+   "type": "equipment",
+   "surface": "ice cubes",
+   "ts": "41:58"
+  },
+  {
+   "canonical": "Ice cubes",
+   "type": "equipment",
+   "surface": "ice cubes",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Coolers",
+   "type": "equipment",
+   "surface": "coolers",
+   "ts": "41:58"
+  },
+  {
+   "canonical": "Coolers",
+   "type": "equipment",
+   "surface": "coolers",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Coolers",
+   "type": "equipment",
+   "surface": "coolers",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "Coolers",
+   "type": "equipment",
+   "surface": "coolers",
+   "ts": "43:21"
+  },
+  {
+   "canonical": "Gas stove",
+   "type": "equipment",
+   "surface": "gas stove",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "Gas stove",
+   "type": "equipment",
+   "surface": "gas stove",
+   "ts": "44:31"
+  },
+  {
+   "canonical": "Ice sculpture",
+   "type": "equipment",
+   "surface": "ice sculpture",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "ingredient",
+   "surface": "sushi",
+   "ts": "43:21"
+  },
+  {
+   "canonical": "Acorns",
+   "type": "ingredient",
+   "surface": "acorns",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Acorns",
+   "type": "ingredient",
+   "surface": "acorns",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Chestnuts",
+   "type": "ingredient",
+   "surface": "chestnuts",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Chestnuts",
+   "type": "ingredient",
+   "surface": "chestnuts",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Chestnuts",
+   "type": "ingredient",
+   "surface": "chestnuts",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Hickory nuts",
+   "type": "ingredient",
+   "surface": "hickory nuts",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Hickory nuts",
+   "type": "ingredient",
+   "surface": "hickory nuts",
+   "ts": "41:20"
+  },
+  {
+   "canonical": "Tamworth hogs",
+   "type": "ingredient",
+   "surface": "Tamworth hogs",
+   "ts": "41:20"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "Limes",
+   "type": "ingredient",
+   "surface": "Limes",
+   "ts": "44:31"
+  },
+  {
+   "canonical": "Colachella",
+   "type": "place",
+   "surface": "Colachella",
+   "ts": "43:47"
+  },
+  {
+   "canonical": "Shakur",
+   "type": "place",
+   "surface": "Shakur",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Holographic two-pack",
+   "type": "place",
+   "surface": "holographic two-pack",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Michael Natkin",
+   "type": "person",
+   "surface": "Michael Natkin",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Mark Powers",
+   "type": "place",
+   "surface": "Mark Powers",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Mark Powers",
+   "type": "place",
+   "surface": "Mark Powers",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "Guntersville",
+   "type": "place",
+   "surface": "Guntersville",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "high pressure regulator",
+   "type": "equipment",
+   "surface": "high pressure regulator",
+   "ts": "45:52"
+  },
+  {
+   "canonical": "high pressure regulator",
+   "type": "equipment",
+   "surface": "tapright brand regulators",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "tapright brand",
+   "type": "equipment",
+   "surface": "tapright brand",
+   "ts": "45:52"
+  },
+  {
+   "canonical": "tapright brand",
+   "type": "equipment",
+   "surface": "tapright brand",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "Smith regulator",
+   "type": "equipment",
+   "surface": "Smith",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "Victor regulator",
+   "type": "equipment",
+   "surface": "Victor",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "Ball Lock Fittings",
+   "type": "equipment",
+   "surface": "ball lock",
+   "ts": "46:43"
+  },
+  {
+   "canonical": "Universal Pepsi Fittings",
+   "type": "equipment",
+   "surface": "universal Pepsi",
+   "ts": "46:43"
+  },
+  {
+   "canonical": "Pin Lock Fittings",
+   "type": "equipment",
+   "surface": "Coke or pin lock fittings",
+   "ts": "46:43"
+  },
+  {
+   "canonical": "Cornelius Kegs",
+   "type": "equipment",
+   "surface": "five-gallon Cornelius kegs",
+   "ts": "47:13"
+  },
+  {
+   "canonical": "Hose Master",
+   "type": "equipment",
+   "surface": "hose master",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Soda Bottles",
+   "type": "ingredient",
+   "surface": "soda bottles",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Liquid Bread Carbonator Caps",
+   "type": "equipment",
+   "surface": "liquid bread carbonator caps",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Homebrew Technology",
+   "type": "equipment",
+   "surface": "de facto homebrew technology",
+   "ts": "47:13"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "49:02"
+  },
+  {
+   "canonical": "Cold Plate",
+   "type": "equipment",
+   "surface": "cold plate",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "Cold Plate",
+   "type": "equipment",
+   "surface": "cold plate",
+   "ts": "49:02"
+  },
+  {
+   "canonical": "Carbonator",
+   "type": "equipment",
+   "surface": "carbonator",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Carbonator",
+   "type": "equipment",
+   "surface": "carbonator",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "Primary Regulator",
+   "type": "equipment",
+   "surface": "primary regulator",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "Secondary Regulator",
+   "type": "equipment",
+   "surface": "secondary regulator",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "Seltzer",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "49:02"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "49:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "50:00"
+  }
+ ]
+}

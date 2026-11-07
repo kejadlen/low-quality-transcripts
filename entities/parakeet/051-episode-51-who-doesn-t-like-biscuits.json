@@ -1,0 +1,1627 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:35"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "Nastasha DeHammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Nastasha DeHammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Nastasha DeHammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:12"
+  },
+  {
+   "canonical": "Nastasha DeHammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Tony Cunnellaro",
+   "type": "person",
+   "surface": "Tony Cunnellaro",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Tony Cunnellaro",
+   "type": "person",
+   "surface": "Tony",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Tony Cunnellaro",
+   "type": "person",
+   "surface": "Tony",
+   "ts": "2:57"
+  },
+  {
+   "canonical": "Tony Cunnellaro",
+   "type": "person",
+   "surface": "Tony",
+   "ts": "3:35"
+  },
+  {
+   "canonical": "Tony Cunnellaro",
+   "type": "person",
+   "surface": "Tony",
+   "ts": "4:03"
+  },
+  {
+   "canonical": "Tony Cunnellaro",
+   "type": "person",
+   "surface": "Tony",
+   "ts": "7:45"
+  },
+  {
+   "canonical": "Robert's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "69 Colebrook Row",
+   "type": "place",
+   "surface": "69 Colebrook Row",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Islington",
+   "type": "place",
+   "surface": "Islington",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Angel Tube Stop",
+   "type": "place",
+   "surface": "Angel Tube Stop",
+   "ts": "2:12"
+  },
+  {
+   "canonical": "Hicks",
+   "type": "place",
+   "surface": "Hicks",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Hicks",
+   "type": "place",
+   "surface": "Hicks",
+   "ts": "3:35"
+  },
+  {
+   "canonical": "Quince",
+   "type": "place",
+   "surface": "Quince",
+   "ts": "3:35"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporators",
+   "ts": "3:35"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "3:35"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "5:03"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnut",
+   "ts": "6:00"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnut",
+   "ts": "6:32"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnut",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "7:11"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "Water Chestnut Flour",
+   "type": "ingredient",
+   "surface": "water chestnut flour",
+   "ts": "6:32"
+  },
+  {
+   "canonical": "Tony's Bar",
+   "type": "place",
+   "surface": "Tony's bar",
+   "ts": "7:45"
+  },
+  {
+   "canonical": "Kane Vineyard and Winery",
+   "type": "place",
+   "surface": "Kane Vineyard and Winery",
+   "ts": "0:05"
+  },
+  {
+   "canonical": "MoMA",
+   "type": "place",
+   "surface": "MoMA",
+   "ts": "10:00"
+  },
+  {
+   "canonical": "Jiro Dreams of Sushi",
+   "type": "place",
+   "surface": "Jiro Dreams of Sushi",
+   "ts": "10:00"
+  },
+  {
+   "canonical": "Jiro Ono",
+   "type": "person",
+   "surface": "Jiro One",
+   "ts": "10:15"
+  },
+  {
+   "canonical": "Ferran Adri\u00e0",
+   "type": "person",
+   "surface": "Faron Adrian",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Ferran Adri\u00e0",
+   "type": "person",
+   "surface": "Faron Adria",
+   "ts": "11:06"
+  },
+  {
+   "canonical": "Ferran Adri\u00e0",
+   "type": "person",
+   "surface": "Faron",
+   "ts": "11:33"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guargum",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "17:16"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "Fracking",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "fracking",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "Fracking",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "frack",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "fracking",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "fracking",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "Fracking",
+   "type": "technique",
+   "surface": "fracking",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Hydraulic Fracturing",
+   "type": "technique",
+   "surface": "hydraulic fracturing",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Hydraulic Fracturing",
+   "type": "technique",
+   "surface": "Hydraulic fracting",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "17:16"
+  },
+  {
+   "canonical": "Locust Bean Gum",
+   "type": "ingredient",
+   "surface": "locust bean gum",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Locust Bean Gum",
+   "type": "ingredient",
+   "surface": "Locust bean gum",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "TIC Gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Hydrocolloid",
+   "type": "ingredient",
+   "surface": "hydrocolloid",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "MoMA",
+   "type": "place",
+   "surface": "MoMA",
+   "ts": "10:15"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Kindai Tunis",
+   "type": "place",
+   "surface": "Kindai Tunis",
+   "ts": "13:58"
+  },
+  {
+   "canonical": "Catskill Citizens.org",
+   "type": "place",
+   "surface": "catskill citizens.org",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "Popular Science",
+   "type": "place",
+   "surface": "Popular Science",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "Popular Science",
+   "type": "place",
+   "surface": "popular science",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Innocentive",
+   "type": "place",
+   "surface": "inocentive",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Glenn Livitt",
+   "type": "person",
+   "surface": "Glenn Livitt",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Paul Adams",
+   "type": "person",
+   "surface": "Paul Adams",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "New Orleans",
+   "type": "place",
+   "surface": "New Orleans",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Aluminum Baking Pans",
+   "type": "equipment",
+   "surface": "aluminum baking pans",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "22:46"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuits",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "Biscuits",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "21:25"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuits",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuits",
+   "ts": "22:11"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "22:46"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuits",
+   "ts": "22:52"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuits",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "23:10"
+  },
+  {
+   "canonical": "bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "21:25"
+  },
+  {
+   "canonical": "bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "22:11"
+  },
+  {
+   "canonical": "bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "hard tack",
+   "type": "ingredient",
+   "surface": "hard tack",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "hard tack",
+   "type": "ingredient",
+   "surface": "Hard tack",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "flaky biscuit",
+   "type": "ingredient",
+   "surface": "flaky biscuit",
+   "ts": "22:46"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "23:10"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "23:23"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "batter",
+   "type": "ingredient",
+   "surface": "batter",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "batter",
+   "type": "ingredient",
+   "surface": "batter",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "batter",
+   "type": "ingredient",
+   "surface": "batter",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "release agent",
+   "type": "technique",
+   "surface": "release agent",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "nonstick baking service",
+   "type": "equipment",
+   "surface": "nonstick baking service",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Pat Brown",
+   "type": "person",
+   "surface": "Pat Brown",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "27:41"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Activia Ti",
+   "type": "ingredient",
+   "surface": "activa Ti",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Activia Ti",
+   "type": "ingredient",
+   "surface": "activa Ti",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "WD-50",
+   "type": "place",
+   "surface": "WD-50",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "27:41"
+  },
+  {
+   "canonical": "John McGee",
+   "type": "person",
+   "surface": "John McGee",
+   "ts": "27:41"
+  },
+  {
+   "canonical": "Transglutaminase Noodles",
+   "type": "technique",
+   "surface": "transglutaminase noodles",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Meat Glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Meat Glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Plant-based",
+   "type": "technique",
+   "surface": "plant-based",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Plant-based",
+   "type": "technique",
+   "surface": "plant-based",
+   "ts": "25:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:58"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum Arabic",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "33:58"
+  },
+  {
+   "canonical": "Simple Syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "31:00"
+  },
+  {
+   "canonical": "Calustian's",
+   "type": "place",
+   "surface": "Calustian's",
+   "ts": "31:00"
+  },
+  {
+   "canonical": "Dual Specialty Shop",
+   "type": "place",
+   "surface": "Dual Specialty Shop",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Hydrocolloid",
+   "type": "technique",
+   "surface": "hydrocolloids",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoking",
+   "ts": "34:31"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoking",
+   "ts": "34:45"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoking",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "35:58"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "36:43"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "37:12"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Glutinous Rice Flour",
+   "type": "ingredient",
+   "surface": "glutinous rice flour",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Glutinous Rice Flour",
+   "type": "ingredient",
+   "surface": "glutinous rice flour",
+   "ts": "37:12"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "36:43"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "37:12"
+  },
+  {
+   "canonical": "Mochi",
+   "type": "ingredient",
+   "surface": "mochi",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Roux",
+   "type": "technique",
+   "surface": "roux",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "Roux",
+   "type": "technique",
+   "surface": "roux",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Roux",
+   "type": "technique",
+   "surface": "roux",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "Amylose",
+   "type": "ingredient",
+   "surface": "amylose",
+   "ts": "36:43"
+  },
+  {
+   "canonical": "Amylose",
+   "type": "ingredient",
+   "surface": "amylose",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Amylopectin",
+   "type": "ingredient",
+   "surface": "amylopectin",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Amylopectin",
+   "type": "ingredient",
+   "surface": "amylopectin",
+   "ts": "36:43"
+  },
+  {
+   "canonical": "Potato Starch",
+   "type": "ingredient",
+   "surface": "potato starch",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "Cornstarch",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "Arrowroot",
+   "type": "ingredient",
+   "surface": "arrowroot",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Wheat Flour",
+   "type": "ingredient",
+   "surface": "wheat flour",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Wheat Flour",
+   "type": "ingredient",
+   "surface": "wheat flour",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "White Rice Flour",
+   "type": "ingredient",
+   "surface": "white rice flour",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Deep Frying",
+   "type": "technique",
+   "surface": "deep frying",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Batter",
+   "type": "ingredient",
+   "surface": "batter",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Heston Blumenthal",
+   "type": "person",
+   "surface": "Heston Blumenthal",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Darcy O'Neill",
+   "type": "person",
+   "surface": "Darcy O'Neill",
+   "ts": "42:26"
+  },
+  {
+   "canonical": "Darcy O'Neill",
+   "type": "person",
+   "surface": "Darcy O'Neill",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Amygdalin",
+   "type": "ingredient",
+   "surface": "amygdalin",
+   "ts": "43:53"
+  },
+  {
+   "canonical": "Amygdalin",
+   "type": "ingredient",
+   "surface": "amygdalin",
+   "ts": "45:20"
+  },
+  {
+   "canonical": "Amygdalin",
+   "type": "ingredient",
+   "surface": "amygdalin",
+   "ts": "46:53"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "43:53"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "45:20"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "45:46"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "46:53"
+  },
+  {
+   "canonical": "Cyanide",
+   "type": "ingredient",
+   "surface": "cyanide",
+   "ts": "47:37"
+  },
+  {
+   "canonical": "Benzaldehyde",
+   "type": "ingredient",
+   "surface": "benzaldehyde",
+   "ts": "45:20"
+  },
+  {
+   "canonical": "Benzaldehyde",
+   "type": "ingredient",
+   "surface": "benzaldehyde",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "Dutch Crunch",
+   "type": "technique",
+   "surface": "Dutch Crunch",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Dutch Crunch",
+   "type": "technique",
+   "surface": "Dutch Crunch",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Cherry Pits",
+   "type": "ingredient",
+   "surface": "cherry pits",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Cherry Pits",
+   "type": "ingredient",
+   "surface": "cherry pits",
+   "ts": "42:26"
+  },
+  {
+   "canonical": "Amaretto",
+   "type": "ingredient",
+   "surface": "amaretto",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Amaretto",
+   "type": "ingredient",
+   "surface": "amaretto",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Maraschino Liqueur",
+   "type": "ingredient",
+   "surface": "maraschino liqueur",
+   "ts": "42:26"
+  },
+  {
+   "canonical": "Fix the Pumps",
+   "type": "place",
+   "surface": "Fix the Pumps",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Fix the Pumps",
+   "type": "place",
+   "surface": "Fix the pumps",
+   "ts": "43:53"
+  },
+  {
+   "canonical": "Underground Food Collective",
+   "type": "place",
+   "surface": "Underground Food Collective",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Underground Bar",
+   "type": "place",
+   "surface": "Underground Bar",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Sunset Bed Break",
+   "type": "place",
+   "surface": "Sunset Bed Break",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "General Electric",
+   "type": "place",
+   "surface": "General Electric",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "Westinghouse",
+   "type": "place",
+   "surface": "Westinghouse",
+   "ts": "39:56"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Tempeh",
+   "type": "ingredient",
+   "surface": "tempeh",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Lactic Acid",
+   "type": "ingredient",
+   "surface": "lactic acid",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Phosphoric Acid",
+   "type": "ingredient",
+   "surface": "phosphoric acid",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Lactart",
+   "type": "ingredient",
+   "surface": "lactart",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Soda Acidifiers",
+   "type": "ingredient",
+   "surface": "soda acidifiers",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Sugar Syrup",
+   "type": "ingredient",
+   "surface": "sugar syrup",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Enzymatic Reaction",
+   "type": "technique",
+   "surface": "enzymatic reaction",
+   "ts": "45:20"
+  },
+  {
+   "canonical": "Bread Baking",
+   "type": "technique",
+   "surface": "bread baking",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Bread Baking",
+   "type": "technique",
+   "surface": "bread baking",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Dutch Crunch",
+   "type": "technique",
+   "surface": "Dutch Crunch",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Dutch Crunch",
+   "type": "technique",
+   "surface": "Dutch Crunch",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Rice Batter",
+   "type": "technique",
+   "surface": "rice batter",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Dusting",
+   "type": "technique",
+   "surface": "dusting",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Anti-Stick",
+   "type": "technique",
+   "surface": "anti-stick",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Cornmeal",
+   "type": "ingredient",
+   "surface": "cornmeal",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Warm Water",
+   "type": "ingredient",
+   "surface": "warm water",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "47:16"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "47:37"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Rice Flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "45:46"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "John Larry",
+   "type": "person",
+   "surface": "John Larry",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "48:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "you",
+   "ts": "49:16"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "49:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "49:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "49:56"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "50:21"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "50:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "50:58"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "I",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "you",
+   "ts": "51:38"
+  },
+  {
+   "canonical": "McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "Pressure cooker",
+   "ts": "49:16"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "49:34"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "49:56"
+  },
+  {
+   "canonical": "Columbia",
+   "type": "place",
+   "surface": "Columbia",
+   "ts": "50:21"
+  },
+  {
+   "canonical": "Columbia",
+   "type": "place",
+   "surface": "Columbia",
+   "ts": "50:30"
+  },
+  {
+   "canonical": "Bogota",
+   "type": "place",
+   "surface": "Bogota",
+   "ts": "50:30"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "Colombian milk soup",
+   "type": "ingredient",
+   "surface": "Colombian milk soup",
+   "ts": "50:30"
+  }
+ ]
+}

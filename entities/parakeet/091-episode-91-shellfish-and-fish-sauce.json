@@ -1,0 +1,1327 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:42"
+  },
+  {
+   "canonical": "Fuchsia Dunlop",
+   "type": "person",
+   "surface": "Fuchsia Dunlop",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Robert's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooker",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooker",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooker",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooker",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "2:09"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "2:09"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Paprika",
+   "type": "ingredient",
+   "surface": "paprika",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Heston Blumenthal",
+   "type": "person",
+   "surface": "Hessen Blumenthal",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Heston Blumenthal",
+   "type": "person",
+   "surface": "Heston Blumenthal",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia Child",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Mastering the Art of French Cooking",
+   "type": "place",
+   "surface": "Mastering the Art of French Cooking",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Julie Child",
+   "type": "person",
+   "surface": "Julie Child",
+   "ts": "8:35"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "8:35"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "8:35"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "8:35"
+  },
+  {
+   "canonical": "Giblets",
+   "type": "ingredient",
+   "surface": "giblets",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Simple Syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "12:25"
+  },
+  {
+   "canonical": "Simple Syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "12:25"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "12:44"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Sucrose",
+   "type": "ingredient",
+   "surface": "sucrose",
+   "ts": "12:44"
+  },
+  {
+   "canonical": "Sucrose",
+   "type": "ingredient",
+   "surface": "sucrose",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Sucrose",
+   "type": "ingredient",
+   "surface": "sucrose",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Brad's Raw Chips",
+   "type": "place",
+   "surface": "Brad's Raw Chips",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Plexophonic",
+   "type": "place",
+   "surface": "Plexophonic",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Plexophonic",
+   "type": "place",
+   "surface": "Plexifhonic",
+   "ts": "12:05"
+  },
+  {
+   "canonical": "Plexophonic",
+   "type": "place",
+   "surface": "Plexophonic",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:09"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "15:09"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "jack",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "jack",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Arthur Daniel Midland",
+   "type": "place",
+   "surface": "Arthur Daniel",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "Arthur Daniel Midland",
+   "type": "place",
+   "surface": "ADM",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Distiller's Grain",
+   "type": "ingredient",
+   "surface": "distiller's grain",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "Distiller's Grain",
+   "type": "ingredient",
+   "surface": "distiller's grain",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Wet Distiller's Grain",
+   "type": "ingredient",
+   "surface": "wet distiller's grain",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "12:25"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "12:44"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Sucrose Syrup",
+   "type": "ingredient",
+   "surface": "sucrose syrup",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distilling",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Livestock",
+   "type": "place",
+   "surface": "livestock",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Wall Street Journal",
+   "type": "place",
+   "surface": "Wall Street Journal",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Wall Street Journal",
+   "type": "place",
+   "surface": "Wall Street Journal",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "17:45"
+  },
+  {
+   "canonical": "Chocolate Chips",
+   "type": "ingredient",
+   "surface": "Chocolate chips",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "William Ewat",
+   "type": "person",
+   "surface": "William Ewat",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Spent Distiller's Grain",
+   "type": "ingredient",
+   "surface": "spent distiller's grain",
+   "ts": "18:26"
+  },
+  {
+   "canonical": "Spent Distiller's Grain",
+   "type": "ingredient",
+   "surface": "spent distiller's grain",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Dry Distiller Grain",
+   "type": "ingredient",
+   "surface": "dry distiller grain",
+   "ts": "19:38"
+  },
+  {
+   "canonical": "DDGSF",
+   "type": "place",
+   "surface": "DDGSF",
+   "ts": "19:38"
+  },
+  {
+   "canonical": "Jackson Diner",
+   "type": "place",
+   "surface": "Jackson Diner",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Jackson Diner",
+   "type": "place",
+   "surface": "Jackson Diner",
+   "ts": "26:23"
+  },
+  {
+   "canonical": "LaGuardia",
+   "type": "place",
+   "surface": "LaGuardia",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "LaGuardia",
+   "type": "place",
+   "surface": "LaGuardia",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "LaGuardia",
+   "type": "place",
+   "surface": "LaGuardia",
+   "ts": "26:23"
+  },
+  {
+   "canonical": "LaGuardia",
+   "type": "place",
+   "surface": "LaGuardia",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "Jackson Heights",
+   "type": "place",
+   "surface": "Jackson Heights",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Ks Grains",
+   "type": "place",
+   "surface": "KS grains",
+   "ts": "19:38"
+  },
+  {
+   "canonical": "Citric Acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Malic Acid",
+   "type": "ingredient",
+   "surface": "malic acid",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Succinic Acid",
+   "type": "ingredient",
+   "surface": "succinic acid",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Acidosis",
+   "type": "technique",
+   "surface": "acidosis",
+   "ts": "20:15"
+  },
+  {
+   "canonical": "Stuzz",
+   "type": "person",
+   "surface": "Stuzz",
+   "ts": "19:08"
+  },
+  {
+   "canonical": "Andrew Switzer",
+   "type": "person",
+   "surface": "Andrew Switzer",
+   "ts": "23:32"
+  },
+  {
+   "canonical": "Landon Young",
+   "type": "person",
+   "surface": "Landon Young",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "Plexophonic",
+   "type": "person",
+   "surface": "Plexophonic",
+   "ts": "27:25"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "28:05"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "30:09"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "28:05"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Patrick Morton",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Marv Woodhouse",
+   "type": "person",
+   "surface": "Marv Woodhouse",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "Nokia",
+   "type": "ingredient",
+   "surface": "Nockey",
+   "ts": "32:35"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "34:51"
+  },
+  {
+   "canonical": "sardines",
+   "type": "ingredient",
+   "surface": "sardines",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "chicken stock",
+   "type": "ingredient",
+   "surface": "chicken stock",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "chicken stock",
+   "type": "ingredient",
+   "surface": "chicken stock",
+   "ts": "36:09"
+  },
+  {
+   "canonical": "Angel's hair pasta",
+   "type": "ingredient",
+   "surface": "Angel's hair",
+   "ts": "36:09"
+  },
+  {
+   "canonical": "Jacques Papin",
+   "type": "person",
+   "surface": "Jacques Papin",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Staz",
+   "type": "person",
+   "surface": "Staz",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Chesare",
+   "type": "person",
+   "surface": "Chesare",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Anchovy",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "Anchovy",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "38:07"
+  },
+  {
+   "canonical": "Anchovy",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "Gnocchi",
+   "type": "ingredient",
+   "surface": "gnocchi",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Gnocchi",
+   "type": "ingredient",
+   "surface": "gnocchi",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Ricotta",
+   "type": "ingredient",
+   "surface": "ricotta",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "37:33"
+  },
+  {
+   "canonical": "Broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "38:07"
+  },
+  {
+   "canonical": "Tomato Sauce",
+   "type": "ingredient",
+   "surface": "tomato sauces",
+   "ts": "38:07"
+  },
+  {
+   "canonical": "Pastry Bag",
+   "type": "equipment",
+   "surface": "pastry bag",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "garums",
+   "type": "ingredient",
+   "surface": "garums",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "39:42"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "Red Boat",
+   "ts": "39:53"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "Garum",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "44:06"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "39:42"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish saucy",
+   "ts": "44:06"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "42:12"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "44:55"
+  },
+  {
+   "canonical": "Surstroming",
+   "type": "ingredient",
+   "surface": "Surstroming",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Japanese Fish Sauce",
+   "type": "ingredient",
+   "surface": "Japanese fish saucy",
+   "ts": "44:06"
+  },
+  {
+   "canonical": "Ishikawa",
+   "type": "place",
+   "surface": "Ishikawa",
+   "ts": "44:06"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "44:30"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "44:39"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "44:55"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "44:30"
+  },
+  {
+   "canonical": "Andrew Switzer",
+   "type": "person",
+   "surface": "Andrew Switzer",
+   "ts": "45:07"
+  },
+  {
+   "canonical": "Vegan Cheese",
+   "type": "ingredient",
+   "surface": "vegan cheese",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Homemade Vegan Cheese",
+   "type": "ingredient",
+   "surface": "homemade vegan cheese",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Meltability",
+   "type": "technique",
+   "surface": "meltability",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "50:53"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "52:47"
+  },
+  {
+   "canonical": "Fluid Gel",
+   "type": "technique",
+   "surface": "fluid gel",
+   "ts": "49:49"
+  },
+  {
+   "canonical": "Emulsifier",
+   "type": "ingredient",
+   "surface": "emulsifier",
+   "ts": "48:05"
+  },
+  {
+   "canonical": "Emulsifier",
+   "type": "ingredient",
+   "surface": "emulsifier",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Nut Butter",
+   "type": "ingredient",
+   "surface": "nut butter",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Nutritional Yeast",
+   "type": "ingredient",
+   "surface": "nutritional yeast",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "46:52"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "47:23"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "High Amylose Starch",
+   "type": "ingredient",
+   "surface": "high amyloe starch",
+   "ts": "47:23"
+  },
+  {
+   "canonical": "Pea Protein",
+   "type": "ingredient",
+   "surface": "pea protein",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Pea Flour",
+   "type": "ingredient",
+   "surface": "pea flour",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Kappa Carrageenan",
+   "type": "ingredient",
+   "surface": "kappa caragina",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Locust Bean Gum",
+   "type": "ingredient",
+   "surface": "locust bean gum",
+   "ts": "50:16"
+  },
+  {
+   "canonical": "Propylene Glycol Monosterate",
+   "type": "ingredient",
+   "surface": "propylene glycol monosterate",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Cream Liqueur",
+   "type": "ingredient",
+   "surface": "cream liqueur",
+   "ts": "51:45"
+  },
+  {
+   "canonical": "Skirt Steak",
+   "type": "ingredient",
+   "surface": "skirt steak",
+   "ts": "50:53"
+  },
+  {
+   "canonical": "Skirt Steak",
+   "type": "ingredient",
+   "surface": "skirt steak",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Blue Cheese",
+   "type": "ingredient",
+   "surface": "blue cheese",
+   "ts": "51:03"
+  },
+  {
+   "canonical": "Blue Cheese",
+   "type": "ingredient",
+   "surface": "blue cheese",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temp cooking",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Fluid Gel",
+   "type": "technique",
+   "surface": "fluid gel",
+   "ts": "49:49"
+  },
+  {
+   "canonical": "Vegan Baking.net",
+   "type": "place",
+   "surface": "vegan baking.net",
+   "ts": "49:25"
+  }
+ ]
+}

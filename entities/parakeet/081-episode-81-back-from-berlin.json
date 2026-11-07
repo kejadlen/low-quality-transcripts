@@ -1,0 +1,1405 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:02"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:02"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Bjorn",
+   "type": "person",
+   "surface": "Bjorn",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "Bjorn",
+   "type": "person",
+   "surface": "Bjorn",
+   "ts": "4:29"
+  },
+  {
+   "canonical": "Bjorn",
+   "type": "person",
+   "surface": "bjorn",
+   "ts": "5:00"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:02"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker in DAX",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Havana Club",
+   "type": "ingredient",
+   "surface": "Havana Club",
+   "ts": "1:53"
+  },
+  {
+   "canonical": "Roto Vap",
+   "type": "equipment",
+   "surface": "roto vap",
+   "ts": "3:58"
+  },
+  {
+   "canonical": "Roto Vap",
+   "type": "equipment",
+   "surface": "roto vap",
+   "ts": "4:12"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "5:13"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Deoxymyoglobin",
+   "type": "ingredient",
+   "surface": "deoxymyoglobin",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Deoxymyoglobin",
+   "type": "ingredient",
+   "surface": "deoxymyoglobin",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Oxymyoglobin",
+   "type": "ingredient",
+   "surface": "oxymyoglobin",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Oxymyoglobin",
+   "type": "ingredient",
+   "surface": "oxymyoglobin",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Met Myoglobin",
+   "type": "ingredient",
+   "surface": "met myoglobin",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Met Myoglobin",
+   "type": "ingredient",
+   "surface": "met myoglobin",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Met Myoglobin",
+   "type": "ingredient",
+   "surface": "met myoglobin",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Sodium Chloride",
+   "type": "ingredient",
+   "surface": "normal salt",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "5:00"
+  },
+  {
+   "canonical": "Citric Acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "5:00"
+  },
+  {
+   "canonical": "Reindeer",
+   "type": "ingredient",
+   "surface": "reindeer",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Lagapus",
+   "type": "ingredient",
+   "surface": "lagapus",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Wild Game",
+   "type": "ingredient",
+   "surface": "wild game",
+   "ts": "4:29"
+  },
+  {
+   "canonical": "Wild Game",
+   "type": "ingredient",
+   "surface": "wild game",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temp",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "8:34"
+  },
+  {
+   "canonical": "Brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Vacuum Bag Cooking",
+   "type": "technique",
+   "surface": "vacuum bag",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "Vacuum Bag Cooking",
+   "type": "technique",
+   "surface": "vacuum bag",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Marinating",
+   "type": "technique",
+   "surface": "marinate",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Acid Brining",
+   "type": "technique",
+   "surface": "acid",
+   "ts": "5:00"
+  },
+  {
+   "canonical": "Acid Brining",
+   "type": "technique",
+   "surface": "acid",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Acid Brining",
+   "type": "technique",
+   "surface": "acid",
+   "ts": "8:34"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "8:34"
+  },
+  {
+   "canonical": "Denaturation",
+   "type": "technique",
+   "surface": "denature",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Denaturation",
+   "type": "technique",
+   "surface": "denature",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Hemoprotein Formation",
+   "type": "technique",
+   "surface": "hemoprotein formation",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Masaca",
+   "type": "ingredient",
+   "surface": "Masaka",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "polyphosphates",
+   "type": "ingredient",
+   "surface": "polyphosphates",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "soy proteins",
+   "type": "ingredient",
+   "surface": "soy proteins",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "myoglobin",
+   "type": "ingredient",
+   "surface": "myoglobin",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "lipid oxidation",
+   "type": "technique",
+   "surface": "lipid oxidation",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "rye tortillas",
+   "type": "ingredient",
+   "surface": "rye tortillas",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "rye tortillas",
+   "type": "ingredient",
+   "surface": "rye tortillas",
+   "ts": "9:37"
+  },
+  {
+   "canonical": "corned beef",
+   "type": "ingredient",
+   "surface": "corned beef",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Mortar and pestle",
+   "type": "equipment",
+   "surface": "mortar and pastel",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "corona grinder",
+   "type": "equipment",
+   "surface": "corona",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "corona grinder",
+   "type": "equipment",
+   "surface": "corona",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "11:20"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "12:39"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "molasses",
+   "type": "ingredient",
+   "surface": "molasses",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "molasses",
+   "type": "ingredient",
+   "surface": "molasses",
+   "ts": "11:20"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "12:39"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "15:08"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "guargum",
+   "type": "ingredient",
+   "surface": "guargum",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "15:08"
+  },
+  {
+   "canonical": "soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "stabilization",
+   "type": "technique",
+   "surface": "stabilization",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "stabilization",
+   "type": "technique",
+   "surface": "stabilization",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "CP Kelco",
+   "type": "place",
+   "surface": "CP Kelco",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "CP Kelco",
+   "type": "place",
+   "surface": "CP Celco",
+   "ts": "17:53"
+  },
+  {
+   "canonical": "CP Kelco",
+   "type": "place",
+   "surface": "CP Celco",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "TIC gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "18:26"
+  },
+  {
+   "canonical": "TIC gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "FMC biopolymer",
+   "type": "ingredient",
+   "surface": "FMC biopolymer",
+   "ts": "17:53"
+  },
+  {
+   "canonical": "FMC biopolymer",
+   "type": "ingredient",
+   "surface": "FMC biopolymer",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "Versawhip",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "23:33"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "Scott Riefler",
+   "type": "person",
+   "surface": "Scott Riefler",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Bootsy Collins",
+   "type": "person",
+   "surface": "Bootsy's rubber band",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Bootsy Collins",
+   "type": "person",
+   "surface": "Bootsy",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Bootsy Collins",
+   "type": "person",
+   "surface": "Bootsy's rubber band",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Bootsy Collins",
+   "type": "person",
+   "surface": "Bootsy",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "coriander syrup",
+   "type": "ingredient",
+   "surface": "coriander syrup",
+   "ts": "19:20"
+  },
+  {
+   "canonical": "clarified lime juice",
+   "type": "ingredient",
+   "surface": "clarified lime juice",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "strawberry juice",
+   "type": "ingredient",
+   "surface": "strawberry juice",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "raspberry juice",
+   "type": "ingredient",
+   "surface": "raspberry juice",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "17:32"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "18:11"
+  },
+  {
+   "canonical": "xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "18:11"
+  },
+  {
+   "canonical": "TIC gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "18:26"
+  },
+  {
+   "canonical": "TIC gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "Methylcel F",
+   "type": "ingredient",
+   "surface": "Methylcel F",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "VersaWhip",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "VersaWhip",
+   "type": "ingredient",
+   "surface": "Versawhip",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "Ticoloid 210",
+   "type": "ingredient",
+   "surface": "Ticoloid 210",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum Arabic",
+   "ts": "30:35"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum Arabic",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum Arabic",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum Arabic",
+   "ts": "33:40"
+  },
+  {
+   "canonical": "gum syrup",
+   "type": "ingredient",
+   "surface": "gum syrup",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "gum syrup",
+   "type": "ingredient",
+   "surface": "gum syrup",
+   "ts": "30:35"
+  },
+  {
+   "canonical": "gum syrup",
+   "type": "ingredient",
+   "surface": "gum syrup",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "gum syrup",
+   "type": "ingredient",
+   "surface": "gum syrup",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "gum syrup",
+   "type": "ingredient",
+   "surface": "gum syrup",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "gum syrup",
+   "type": "ingredient",
+   "surface": "gum syrup",
+   "ts": "33:40"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple syrup",
+   "ts": "33:21"
+  },
+  {
+   "canonical": "reverse osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "reverse osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "reverse osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "multi-stage filter",
+   "type": "equipment",
+   "surface": "multi-stage filter",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "filter",
+   "type": "equipment",
+   "surface": "filter",
+   "ts": "26:38"
+  },
+  {
+   "canonical": "filter",
+   "type": "equipment",
+   "surface": "filters",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "filter",
+   "type": "equipment",
+   "surface": "filter",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "filter",
+   "type": "equipment",
+   "surface": "filters",
+   "ts": "28:41"
+  },
+  {
+   "canonical": "filter",
+   "type": "equipment",
+   "surface": "filters",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "RO machine",
+   "type": "equipment",
+   "surface": "reverse reverse osmosis",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "RO machine",
+   "type": "equipment",
+   "surface": "reverse osmosis",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "RO machine",
+   "type": "equipment",
+   "surface": "reverse osmosis",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "mineralization",
+   "type": "technique",
+   "surface": "mineralization",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "remineralize",
+   "type": "technique",
+   "surface": "remineralize",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "remineralize",
+   "type": "technique",
+   "surface": "remineralize",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "demineralize",
+   "type": "technique",
+   "surface": "demineralize",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "soda syrup",
+   "type": "ingredient",
+   "surface": "soda syrups",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "emulsifier",
+   "type": "ingredient",
+   "surface": "emulsifier",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "emulsifier",
+   "type": "ingredient",
+   "surface": "emulsifier",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "hydrocolloid",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "tick syrup",
+   "type": "ingredient",
+   "surface": "tick syrup",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "orja",
+   "type": "ingredient",
+   "surface": "orjah",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "cold buttered rum",
+   "type": "ingredient",
+   "surface": "cold buttered rum",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Teddy DeVico",
+   "type": "person",
+   "surface": "Teddy DeVico",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Teddy DeVico",
+   "type": "person",
+   "surface": "Teddy DeVico",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "animal rights activists",
+   "type": "person",
+   "surface": "animal rights activists",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Purdue",
+   "type": "place",
+   "surface": "Purdue",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Tyson",
+   "type": "place",
+   "surface": "Tyson",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "35:11"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "35:19"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "39:14"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Thomas Keller",
+   "type": "person",
+   "surface": "Thomas Keller",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Mamafuku",
+   "type": "place",
+   "surface": "Mamafuku",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Hudson Valley",
+   "type": "place",
+   "surface": "Hudson Valley",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "42:05"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "35:11"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "35:27"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "35:43"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "35:52"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "37:25"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "gavage",
+   "type": "technique",
+   "surface": "gavage",
+   "ts": "35:52"
+  },
+  {
+   "canonical": "gavage",
+   "type": "technique",
+   "surface": "gavage",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "gavage",
+   "type": "technique",
+   "surface": "gavage",
+   "ts": "37:56"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "sous vide chicken breasts",
+   "type": "ingredient",
+   "surface": "sous vide chicken breasts",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "habanero peppers",
+   "type": "ingredient",
+   "surface": "habanero peppers",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "capsation",
+   "type": "ingredient",
+   "surface": "capsation",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "capsation",
+   "type": "ingredient",
+   "surface": "capsation",
+   "ts": "42:05"
+  },
+  {
+   "canonical": "capsation",
+   "type": "ingredient",
+   "surface": "capsation",
+   "ts": "42:29"
+  },
+  {
+   "canonical": "oleomer",
+   "type": "ingredient",
+   "surface": "oleomer",
+   "ts": "42:05"
+  },
+  {
+   "canonical": "centrifuged",
+   "type": "technique",
+   "surface": "centrifuged",
+   "ts": "42:05"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "beer brats",
+   "type": "ingredient",
+   "surface": "beer brats",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "sausage",
+   "type": "ingredient",
+   "surface": "sausage",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "sausage",
+   "type": "ingredient",
+   "surface": "sausage",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Ziploc bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "40:08"
+  },
+  {
+   "canonical": "buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "egg",
+   "type": "ingredient",
+   "surface": "egg",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "baking powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "40:57"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "high smoke point oil",
+   "type": "ingredient",
+   "surface": "high smoke point oil",
+   "ts": "40:39"
+  },
+  {
+   "canonical": "Jeffrey Steingrad",
+   "type": "person",
+   "surface": "Jeffrey Steingrad",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Nagajalokia",
+   "type": "ingredient",
+   "surface": "Nagajalokia",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "ghost peppers",
+   "type": "ingredient",
+   "surface": "ghost peppers",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "50:27"
+  },
+  {
+   "canonical": "Michael Nakin",
+   "type": "person",
+   "surface": "Michael Nakin",
+   "ts": "43:25"
+  },
+  {
+   "canonical": "Herbivoraceous",
+   "type": "place",
+   "surface": "Herbivoraceous",
+   "ts": "43:40"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "43:40"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "ingredient",
+   "surface": "Modernist Cuisine",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifically",
+   "ts": "42:45"
+  },
+  {
+   "canonical": "Pat Brown",
+   "type": "person",
+   "surface": "Pat Brown",
+   "ts": "50:10"
+  },
+  {
+   "canonical": "Stanford",
+   "type": "place",
+   "surface": "Stanford",
+   "ts": "50:10"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifically",
+   "ts": "42:45"
+  }
+ ]
+}

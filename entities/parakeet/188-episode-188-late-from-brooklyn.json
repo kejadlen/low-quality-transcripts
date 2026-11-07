@@ -1,0 +1,817 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Michael Nathan",
+   "type": "person",
+   "surface": "Michael Nathan",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitisan",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitosan",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitosan",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "Fruit Clarification",
+   "type": "technique",
+   "surface": "clarification technique",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "Liquid Intelligence",
+   "ts": "1:28"
+  },
+  {
+   "canonical": "David Suda",
+   "type": "person",
+   "surface": "David Suda",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Silver Spring",
+   "type": "place",
+   "surface": "Silver Spring",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Maryland",
+   "type": "place",
+   "surface": "Maryland",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitasan",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitosan",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "kitosan",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitosan",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "Fungally Derived Chitosan",
+   "type": "ingredient",
+   "surface": "fungally derived kitosan",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Clarified Lime Juice",
+   "type": "ingredient",
+   "surface": "clarified lime juice",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Cryogenic Freeze",
+   "type": "technique",
+   "surface": "cryogenic freeze",
+   "ts": "6:31"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Clary Lime",
+   "type": "ingredient",
+   "surface": "Clary Lime",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "Lime Peel",
+   "type": "ingredient",
+   "surface": "lime peel",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "equipment",
+   "surface": "red hot poker",
+   "ts": "8:25"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Quinn DuPont",
+   "type": "person",
+   "surface": "Quinn DuPont",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "eutectic freezing",
+   "type": "technique",
+   "surface": "eutectic freezing",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "eutectic freezing",
+   "type": "technique",
+   "surface": "eutectic freezing",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "11:38"
+  },
+  {
+   "canonical": "agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "11:52"
+  },
+  {
+   "canonical": "agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "12:20"
+  },
+  {
+   "canonical": "freeze thaw",
+   "type": "technique",
+   "surface": "freeze thaw",
+   "ts": "11:38"
+  },
+  {
+   "canonical": "freeze thaw",
+   "type": "technique",
+   "surface": "freeze thaw",
+   "ts": "11:52"
+  },
+  {
+   "canonical": "freeze thaw",
+   "type": "technique",
+   "surface": "freeze thaw",
+   "ts": "12:20"
+  },
+  {
+   "canonical": "carbonation rig",
+   "type": "equipment",
+   "surface": "home carbonation rig",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "McMaster Car",
+   "type": "place",
+   "surface": "McMaster Car",
+   "ts": "8:53"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "ANOVA Circulator",
+   "type": "equipment",
+   "surface": "ANOVA circulator",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "ANOVA Circulator",
+   "type": "equipment",
+   "surface": "Anova circulator",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "Calvados",
+   "type": "ingredient",
+   "surface": "calvados",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Fluid Gel",
+   "type": "ingredient",
+   "surface": "fluid gel",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Fluid Gel",
+   "type": "ingredient",
+   "surface": "fluid gel",
+   "ts": "21:29"
+  },
+  {
+   "canonical": "Paco Jet",
+   "type": "equipment",
+   "surface": "Paco Jet",
+   "ts": "19:32"
+  },
+  {
+   "canonical": "Paco Jet",
+   "type": "equipment",
+   "surface": "Paco Jet",
+   "ts": "21:29"
+  },
+  {
+   "canonical": "Ziplock",
+   "type": "equipment",
+   "surface": "Ziplocks",
+   "ts": "22:43"
+  },
+  {
+   "canonical": "Ross",
+   "type": "person",
+   "surface": "Ross",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Ross",
+   "type": "person",
+   "surface": "Ross",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Ross",
+   "type": "person",
+   "surface": "Ross",
+   "ts": "24:00"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "22:43"
+  },
+  {
+   "canonical": "Antoine",
+   "type": "person",
+   "surface": "Antoine",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Jean",
+   "type": "person",
+   "surface": "Jean",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Jean",
+   "type": "person",
+   "surface": "Jean",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia Child",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia Child",
+   "ts": "25:24"
+  },
+  {
+   "canonical": "Lee Lee Crawford",
+   "type": "person",
+   "surface": "Lee Lee Crawford",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Aruba",
+   "type": "place",
+   "surface": "Aruba",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Aruba",
+   "type": "place",
+   "surface": "Aruba",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "Aruba",
+   "type": "place",
+   "surface": "Aruba",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "24:00"
+  },
+  {
+   "canonical": "Daniel",
+   "type": "person",
+   "surface": "Daniel",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "San Jose",
+   "type": "place",
+   "surface": "San Jose",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "rose petals",
+   "type": "ingredient",
+   "surface": "rose petals",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "egg white",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "egg white",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "26:18"
+  },
+  {
+   "canonical": "egg white",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "26:18"
+  },
+  {
+   "canonical": "Johnny Zini",
+   "type": "person",
+   "surface": "Johnny Zini",
+   "ts": "26:18"
+  },
+  {
+   "canonical": "simple syrup",
+   "type": "ingredient",
+   "surface": "simple sh uh syrup",
+   "ts": "26:18"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "bear",
+   "type": "ingredient",
+   "surface": "bear",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "bear",
+   "type": "ingredient",
+   "surface": "bear",
+   "ts": "27:24"
+  },
+  {
+   "canonical": "Ken Ingber",
+   "type": "person",
+   "surface": "Ken Ingber",
+   "ts": "27:40"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temp",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Sous vide Supreme",
+   "type": "equipment",
+   "surface": "Sous vide Supreme",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Nomi Coup",
+   "type": "equipment",
+   "surface": "Nomi Coup",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "BAM",
+   "type": "place",
+   "surface": "BAM",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "BAM",
+   "type": "place",
+   "surface": "BAM",
+   "ts": "28:52"
+  },
+  {
+   "canonical": "Sansera",
+   "type": "equipment",
+   "surface": "Sansera",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Anova",
+   "type": "equipment",
+   "surface": "Anova",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Ken",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "27:40"
+  },
+  {
+   "canonical": "Ken",
+   "type": "person",
+   "surface": "Ken",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "31:10"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temp",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous V",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Quick Chill Method",
+   "type": "technique",
+   "surface": "quick chill",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "Quick Chill Method",
+   "type": "technique",
+   "surface": "quick chill",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Food Safety",
+   "type": "technique",
+   "surface": "food safety",
+   "ts": "31:10"
+  },
+  {
+   "canonical": "Pasteurization Temperature and Time",
+   "type": "technique",
+   "surface": "pasteurization temp",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Danger Zone",
+   "type": "technique",
+   "surface": "danger zone",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Danger Zone",
+   "type": "technique",
+   "surface": "danger zone",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "31:58"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "32:18"
+  }
+ ]
+}

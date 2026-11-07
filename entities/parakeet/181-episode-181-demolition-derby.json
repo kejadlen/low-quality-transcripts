@@ -1,0 +1,1057 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "2:03"
+  },
+  {
+   "canonical": "Michael Macken",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "Michael Macken",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "Michael Macken",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Michael Macken",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "7:20"
+  },
+  {
+   "canonical": "Michael Macken",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "8:11"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "8:42"
+  },
+  {
+   "canonical": "Wilma Jean restaurant",
+   "type": "place",
+   "surface": "Wilma Jean restaurant",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Food Arts Magazine",
+   "type": "place",
+   "surface": "food arts",
+   "ts": "6:57"
+  },
+  {
+   "canonical": "Benadryl",
+   "type": "ingredient",
+   "surface": "Benadryl",
+   "ts": "4:55"
+  },
+  {
+   "canonical": "Benadryl",
+   "type": "ingredient",
+   "surface": "Benadryl",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Tree Nuts",
+   "type": "ingredient",
+   "surface": "tree nuts",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Fried Chicken",
+   "type": "ingredient",
+   "surface": "fried chicken",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Burgers",
+   "type": "ingredient",
+   "surface": "burgers",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Apple Cider",
+   "type": "ingredient",
+   "surface": "apple cider",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "Ham",
+   "type": "ingredient",
+   "surface": "ham",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "Ham",
+   "type": "ingredient",
+   "surface": "ham",
+   "ts": "3:39"
+  },
+  {
+   "canonical": "Ham",
+   "type": "ingredient",
+   "surface": "ham",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "2:44"
+  },
+  {
+   "canonical": "Bushwick, Brooklyn",
+   "type": "place",
+   "surface": "Bushwick, Brooklyn",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:29"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Cocktail Book",
+   "type": "ingredient",
+   "surface": "cocktail book",
+   "ts": "6:45"
+  },
+  {
+   "canonical": "Daniel Rosenberg",
+   "type": "person",
+   "surface": "Daniel Rosenberg",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Daniel Rosenberg",
+   "type": "person",
+   "surface": "Daniel",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "Science Center",
+   "type": "place",
+   "surface": "Science Center",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Ig Nobel",
+   "type": "place",
+   "surface": "Ig Nobel",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "Ig Nobel",
+   "type": "place",
+   "surface": "Ig Nobel",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Ig Nobel",
+   "type": "place",
+   "surface": "Ig Nobel",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "Ig Nobel",
+   "type": "place",
+   "surface": "Ig Nobel",
+   "ts": "13:33"
+  },
+  {
+   "canonical": "Ig Nobel Prize",
+   "type": "place",
+   "surface": "Ig Nobel",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "Ig Nobel Prize",
+   "type": "place",
+   "surface": "Ig Nobel Prize",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Ig Nobel Prize",
+   "type": "place",
+   "surface": "Ig Nobel Prize",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "Ig Nobel Prize",
+   "type": "place",
+   "surface": "Ig Nobel Prize",
+   "ts": "13:33"
+  },
+  {
+   "canonical": "Improbable.com",
+   "type": "place",
+   "surface": "Improbable.com",
+   "ts": "13:18"
+  },
+  {
+   "canonical": "International Catering Cup",
+   "type": "place",
+   "surface": "International Catering Cup",
+   "ts": "14:42"
+  },
+  {
+   "canonical": "International Catering Cup",
+   "type": "place",
+   "surface": "International Catering Cup",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "International Catering Cup",
+   "type": "place",
+   "surface": "catering cup",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Frontera",
+   "type": "place",
+   "surface": "Frontera",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Topolobambo",
+   "type": "place",
+   "surface": "Topolobambo",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Aviary",
+   "type": "place",
+   "surface": "Aviary",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Damon Bolti",
+   "type": "person",
+   "surface": "Damon Bolti",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Damon Bolti",
+   "type": "person",
+   "surface": "Damon Bolti",
+   "ts": "17:27"
+  },
+  {
+   "canonical": "George Castaneda",
+   "type": "person",
+   "surface": "George Castaneda",
+   "ts": "14:42"
+  },
+  {
+   "canonical": "Rick Bayless",
+   "type": "person",
+   "surface": "Rick Bayless",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "25:32"
+  },
+  {
+   "canonical": "Mark Powers",
+   "type": "place",
+   "surface": "Mark Powers",
+   "ts": "18:54"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "18:35"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tanks",
+   "ts": "18:54"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "carbonator cap",
+   "type": "equipment",
+   "surface": "carbonator cap",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "carbonator cap",
+   "type": "equipment",
+   "surface": "carbonator cap",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Searsucker",
+   "type": "place",
+   "surface": "Searsucker",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "Nightingale Nine",
+   "type": "place",
+   "surface": "Nightingale Nine",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "Wilma Jean",
+   "type": "place",
+   "surface": "Wilma Jean",
+   "ts": "22:45"
+  },
+  {
+   "canonical": "Wilma Jean",
+   "type": "place",
+   "surface": "Wilma Jean",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "Slow Food",
+   "type": "place",
+   "surface": "Slow Food",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "Carlo Petrini",
+   "type": "person",
+   "surface": "Carlo Petrini",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "Roberta's Pizza",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "Roberta's Pizza",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "BookerInDAX.com",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "Kicker",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "25:39"
+  },
+  {
+   "canonical": "bottle style carbonation",
+   "type": "technique",
+   "surface": "bottle style carbonation",
+   "ts": "18:12"
+  },
+  {
+   "canonical": "soda stream",
+   "type": "equipment",
+   "surface": "soda stream",
+   "ts": "18:12"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "18:35"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "18:54"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "20:04"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "20:04"
+  },
+  {
+   "canonical": "hose clamp",
+   "type": "equipment",
+   "surface": "hose clamps",
+   "ts": "21:38"
+  },
+  {
+   "canonical": "flex hose",
+   "type": "equipment",
+   "surface": "flex hose",
+   "ts": "20:04"
+  },
+  {
+   "canonical": "flare fitting",
+   "type": "equipment",
+   "surface": "flare fitting",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "beverage hose",
+   "type": "equipment",
+   "surface": "beverage hose",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "gas fitting",
+   "type": "equipment",
+   "surface": "gas fitting",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "ball lock connector",
+   "type": "equipment",
+   "surface": "ball lock connector",
+   "ts": "21:02"
+  },
+  {
+   "canonical": "liquid bread",
+   "type": "equipment",
+   "surface": "liquid bread",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "carbonator",
+   "type": "equipment",
+   "surface": "carbonator",
+   "ts": "18:12"
+  },
+  {
+   "canonical": "carbonator",
+   "type": "equipment",
+   "surface": "carbonator",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "carbonator",
+   "type": "equipment",
+   "surface": "carbonator",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "seltzer",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "18:12"
+  },
+  {
+   "canonical": "seltzer",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "22:18"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and dash A and D",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dac's",
+   "ts": "27:19"
+  },
+  {
+   "canonical": "Starchefs",
+   "type": "place",
+   "surface": "Starchefs",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Starchefs",
+   "type": "place",
+   "surface": "Starchefs",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Norton",
+   "type": "place",
+   "surface": "Norton",
+   "ts": "29:02"
+  },
+  {
+   "canonical": "Alex Panaki",
+   "type": "person",
+   "surface": "Alex Panaki",
+   "ts": "28:50"
+  },
+  {
+   "canonical": "David",
+   "type": "person",
+   "surface": "David",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "27:46"
+  },
+  {
+   "canonical": "Shopstarter",
+   "type": "place",
+   "surface": "Shopstarter",
+   "ts": "27:46"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "27:46"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Steph",
+   "type": "person",
+   "surface": "Steph",
+   "ts": "34:31"
+  },
+  {
+   "canonical": "Philip Wolf",
+   "type": "person",
+   "surface": "Philip Wolf",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "Nils",
+   "type": "person",
+   "surface": "Nils",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "33:02"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "35:11"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "37:46"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "40:25"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "roto vac",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillations",
+   "ts": "37:46"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "40:25"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "Port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Madeira",
+   "type": "ingredient",
+   "surface": "Madeira",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Madeira",
+   "type": "ingredient",
+   "surface": "Madeira",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Bum de Venice",
+   "type": "ingredient",
+   "surface": "Bum de Venise",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Stilton",
+   "type": "ingredient",
+   "surface": "stilton",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Cheddar",
+   "type": "ingredient",
+   "surface": "cheddar",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Cheddar",
+   "type": "ingredient",
+   "surface": "cheddar",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Montgomery Cheddar",
+   "type": "ingredient",
+   "surface": "Montgomery",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Montgomery Cheddar",
+   "type": "ingredient",
+   "surface": "Montgomery",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Pecorino Toscano",
+   "type": "ingredient",
+   "surface": "pecorino uh Toscano",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Sam Mason",
+   "type": "person",
+   "surface": "Sam Mason",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "booker and Dax",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "ingredient",
+   "surface": "Searsol",
+   "ts": "39:12"
+  },
+  {
+   "canonical": "Adrian Blackpool",
+   "type": "person",
+   "surface": "Adrian Blackpool",
+   "ts": "39:12"
+  },
+  {
+   "canonical": "Maria Guarna Shelley",
+   "type": "person",
+   "surface": "Maria Guarna Shelley",
+   "ts": "39:43"
+  },
+  {
+   "canonical": "Lucas",
+   "type": "person",
+   "surface": "Lucas",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "Lucas",
+   "type": "person",
+   "surface": "Lucas",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Bully Bays",
+   "type": "ingredient",
+   "surface": "bully bays",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Bully Bays",
+   "type": "ingredient",
+   "surface": "Boulia bays",
+   "ts": "42:08"
+  },
+  {
+   "canonical": "Bully Bays",
+   "type": "ingredient",
+   "surface": "bully bays",
+   "ts": "42:17"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia Child",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia Child",
+   "ts": "42:17"
+  },
+  {
+   "canonical": "Lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "42:17"
+  },
+  {
+   "canonical": "Lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dacks",
+   "ts": "44:23"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "44:23"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "45:27"
+  },
+  {
+   "canonical": "doer",
+   "type": "equipment",
+   "surface": "doer",
+   "ts": "44:23"
+  },
+  {
+   "canonical": "doer",
+   "type": "equipment",
+   "surface": "doer",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "doer",
+   "type": "equipment",
+   "surface": "doer",
+   "ts": "45:07"
+  },
+  {
+   "canonical": "doer",
+   "type": "equipment",
+   "surface": "doer",
+   "ts": "45:27"
+  },
+  {
+   "canonical": "doer",
+   "type": "equipment",
+   "surface": "doer",
+   "ts": "45:52"
+  },
+  {
+   "canonical": "doer",
+   "type": "equipment",
+   "surface": "doer",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Taylor Wharton",
+   "type": "place",
+   "surface": "Taylor Wharton",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "static hold time",
+   "type": "technique",
+   "surface": "static hold time",
+   "ts": "45:52"
+  },
+  {
+   "canonical": "Columbo",
+   "type": "person",
+   "surface": "Columbo",
+   "ts": "46:58"
+  },
+  {
+   "canonical": "Columbo",
+   "type": "person",
+   "surface": "Columbo",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Daniel Gritzer",
+   "type": "person",
+   "surface": "Daniel Gritzer",
+   "ts": "49:30"
+  },
+  {
+   "canonical": "Sirius Eats",
+   "type": "place",
+   "surface": "Sirius Eats",
+   "ts": "49:30"
+  },
+  {
+   "canonical": "Muckle Shoot Casino Resort",
+   "type": "place",
+   "surface": "Muckle Shoot Casino Resort",
+   "ts": "50:42"
+  },
+  {
+   "canonical": "Muckle Shoot Casino Resort",
+   "type": "place",
+   "surface": "Muckle Shoot Casino Resort",
+   "ts": "51:12"
+  },
+  {
+   "canonical": "Hashi Food Truck",
+   "type": "place",
+   "surface": "Hashi Food Truck",
+   "ts": "49:02"
+  }
+ ]
+}

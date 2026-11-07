@@ -1,0 +1,997 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Aron",
+   "ts": "1:21"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "3:25"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "6:01"
+  },
+  {
+   "canonical": "Nastog Lopez",
+   "type": "person",
+   "surface": "Nastash",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Nastog Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:25"
+  },
+  {
+   "canonical": "Nastog Lopez",
+   "type": "person",
+   "surface": "Nastash",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Nastog Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "Jack Inslee",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:39"
+  },
+  {
+   "canonical": "Jack Inslee",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:12"
+  },
+  {
+   "canonical": "Jack Inslee",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "1:21"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "Brogdale Collection",
+   "type": "place",
+   "surface": "Brogdale",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Brogdale Collection",
+   "type": "place",
+   "surface": "Brogdale",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Brogdale Collection",
+   "type": "place",
+   "surface": "Brogdale",
+   "ts": "5:17"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "0:39"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "souveed",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Corvallis",
+   "type": "place",
+   "surface": "Corvalis",
+   "ts": "4:28"
+  },
+  {
+   "canonical": "Pork Butt",
+   "type": "ingredient",
+   "surface": "pork butt",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Porchata",
+   "type": "ingredient",
+   "surface": "porchata",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "6:32"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "11:19"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "11:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Philip Lamont",
+   "type": "person",
+   "surface": "Philip Lamont",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminates",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "ascorbic acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "ascorbic acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "ascorbic acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "ascorbic acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "14:33"
+  },
+  {
+   "canonical": "ascorbic acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "15:23"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "10:30"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "RoboCoupe",
+   "type": "equipment",
+   "surface": "RoboCoupe",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "RoboCoupe",
+   "type": "equipment",
+   "surface": "RoboCoup",
+   "ts": "14:33"
+  },
+  {
+   "canonical": "ice blender",
+   "type": "equipment",
+   "surface": "ice blender",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "ice blender",
+   "type": "equipment",
+   "surface": "ice blender",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "bookfinder.com",
+   "type": "place",
+   "surface": "bookfinder.com",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "The Curious Cook",
+   "type": "place",
+   "surface": "The Curious Cook",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "James Peterson",
+   "type": "person",
+   "surface": "James Peterson",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "James Peterson",
+   "type": "person",
+   "surface": "James Peterson",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Sauces",
+   "type": "place",
+   "surface": "Sauces",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Sauces",
+   "type": "place",
+   "surface": "sauces",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Sauces",
+   "type": "place",
+   "surface": "sauces",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "chlorophyll juice",
+   "type": "ingredient",
+   "surface": "chlorophyll juice",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "sauce vert",
+   "type": "technique",
+   "surface": "sauce vert",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "23:50"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Chlorophyll Butter",
+   "type": "ingredient",
+   "surface": "chlorophyll butter",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "Chlorophyll Butter",
+   "type": "ingredient",
+   "surface": "chlorophyll butter",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "Chlorophyll Butter",
+   "type": "technique",
+   "surface": "chlorophyll butter",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "Chlorophyll Butter",
+   "type": "technique",
+   "surface": "chlorophyll butter",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "Blanching",
+   "type": "technique",
+   "surface": "blanching",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Blanching",
+   "type": "technique",
+   "surface": "blanching",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Parsley Oil",
+   "type": "ingredient",
+   "surface": "parsley oil",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Herb Oil",
+   "type": "ingredient",
+   "surface": "herb oil",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Spinach",
+   "type": "ingredient",
+   "surface": "spinach",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "19:55"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "Kitchen Towel",
+   "type": "equipment",
+   "surface": "kitchen towel",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blender",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Food Processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Saucepan",
+   "type": "equipment",
+   "surface": "saucepan",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Strainer",
+   "type": "equipment",
+   "surface": "strainer",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Spoon",
+   "type": "equipment",
+   "surface": "spoon",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Metal Spatula",
+   "type": "equipment",
+   "surface": "metal spatula",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Kitchen Towel",
+   "type": "equipment",
+   "surface": "kitchen towel",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "23:03"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "23:50"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "fairway",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Zabars",
+   "type": "place",
+   "surface": "Zabars",
+   "ts": "23:09"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Rob Trapas",
+   "type": "person",
+   "surface": "Rob Trapas",
+   "ts": "24:13"
+  },
+  {
+   "canonical": "Ginger Ale",
+   "type": "ingredient",
+   "surface": "ginger ale",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Crown Cap",
+   "type": "equipment",
+   "surface": "crown court caps",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Crown Cap",
+   "type": "equipment",
+   "surface": "crown",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Champagne Split",
+   "type": "equipment",
+   "surface": "champagne splits",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Argonne",
+   "type": "ingredient",
+   "surface": "Argonne",
+   "ts": "25:41"
+  },
+  {
+   "canonical": "Inert Gas",
+   "type": "ingredient",
+   "surface": "inert gas",
+   "ts": "26:23"
+  },
+  {
+   "canonical": "Vermouth",
+   "type": "ingredient",
+   "surface": "vermouth",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Vermouth",
+   "type": "ingredient",
+   "surface": "Vermouth",
+   "ts": "26:58"
+  },
+  {
+   "canonical": "Vermouth",
+   "type": "ingredient",
+   "surface": "vermouth",
+   "ts": "27:06"
+  },
+  {
+   "canonical": "Vermouth",
+   "type": "ingredient",
+   "surface": "vermouth",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Darcy O'Neal",
+   "type": "person",
+   "surface": "Darcy O'Neal",
+   "ts": "26:47"
+  },
+  {
+   "canonical": "Martini and Rossi",
+   "type": "ingredient",
+   "surface": "Martini and Rossi",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Carpano",
+   "type": "ingredient",
+   "surface": "carpano",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Dolin",
+   "type": "ingredient",
+   "surface": "dolin",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "28:13"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastash",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "35:26"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "28:50"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "29:27"
+  },
+  {
+   "canonical": "Rory Mearns",
+   "type": "person",
+   "surface": "Rory Mearns",
+   "ts": "30:45"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "30:45"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "28:41"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "28:50"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "35:35"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "37:08"
+  },
+  {
+   "canonical": "McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "31:39"
+  },
+  {
+   "canonical": "Capsaicin",
+   "type": "ingredient",
+   "surface": "capsation",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Capsaicin",
+   "type": "ingredient",
+   "surface": "capsation",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Capsaicin",
+   "type": "ingredient",
+   "surface": "capsation",
+   "ts": "30:45"
+  },
+  {
+   "canonical": "Capsicum",
+   "type": "ingredient",
+   "surface": "capsecum",
+   "ts": "31:00"
+  },
+  {
+   "canonical": "Capsicum",
+   "type": "ingredient",
+   "surface": "capsecum",
+   "ts": "31:39"
+  },
+  {
+   "canonical": "Vitamin C",
+   "type": "ingredient",
+   "surface": "vitamin C",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Ascorbic Acid",
+   "type": "ingredient",
+   "surface": "ascorbic acid",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Sodium Metabisulfite",
+   "type": "ingredient",
+   "surface": "Sodium metabisulfate",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidation",
+   "ts": "31:25"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidation",
+   "ts": "31:39"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidation",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidation",
+   "ts": "33:44"
+  },
+  {
+   "canonical": "Antioxidant",
+   "type": "ingredient",
+   "surface": "antioxidant",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Antioxidant",
+   "type": "ingredient",
+   "surface": "antioxidant",
+   "ts": "34:11"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Pac Pac",
+   "type": "place",
+   "surface": "Pac Pac",
+   "ts": "35:01"
+  },
+  {
+   "canonical": "Pac Pac",
+   "type": "place",
+   "surface": "Pac Pac",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Robert's",
+   "type": "place",
+   "surface": "Robert's",
+   "ts": "35:01"
+  },
+  {
+   "canonical": "Robert's",
+   "type": "place",
+   "surface": "Robert's",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "34:41"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "Vodka",
+   "ts": "35:54"
+  },
+  {
+   "canonical": "Inert Gas",
+   "type": "equipment",
+   "surface": "inert gas",
+   "ts": "34:11"
+  },
+  {
+   "canonical": "Hearst Ranch",
+   "type": "place",
+   "surface": "Hearst Ranch",
+   "ts": "37:24"
+  },
+  {
+   "canonical": "Hirschwag Grandfed Beef",
+   "type": "ingredient",
+   "surface": "Hirschwag Grandfed Beef",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "38:06"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "38:37"
+  }
+ ]
+}

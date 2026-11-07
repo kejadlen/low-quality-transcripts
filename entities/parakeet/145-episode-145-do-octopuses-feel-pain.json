@@ -1,0 +1,1633 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "2:44"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "4:56"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Burner's Pizzeria",
+   "type": "place",
+   "surface": "Burner's Pizzeria",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:13"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio netw",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "5:07"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "2:44"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "4:56"
+  },
+  {
+   "canonical": "Bread and Life",
+   "type": "place",
+   "surface": "Bread and Life",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Bread and Life",
+   "type": "place",
+   "surface": "Bread and Life",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "Bread and Life",
+   "type": "place",
+   "surface": "Bread and Life",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Pink Salt",
+   "type": "ingredient",
+   "surface": "pink salt",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Pink Salt",
+   "type": "ingredient",
+   "surface": "pink salt",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Nitrites",
+   "type": "ingredient",
+   "surface": "nitrites",
+   "ts": "7:30"
+  },
+  {
+   "canonical": "Nitrites",
+   "type": "ingredient",
+   "surface": "nitrites",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Brine",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Brine",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "8:24"
+  },
+  {
+   "canonical": "Curing",
+   "type": "technique",
+   "surface": "cured",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "Curing",
+   "type": "technique",
+   "surface": "cured",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Smoking",
+   "type": "technique",
+   "surface": "smoked",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Cold Smoking",
+   "type": "technique",
+   "surface": "cold smoke",
+   "ts": "7:55"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "technique",
+   "surface": "botulism",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "technique",
+   "surface": "botulism",
+   "ts": "7:30"
+  },
+  {
+   "canonical": "Heritage Radio Network.org",
+   "type": "place",
+   "surface": "Heritage Radio Network.org",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "iTunes Store",
+   "type": "place",
+   "surface": "iTunes store",
+   "ts": "1:13"
+  },
+  {
+   "canonical": "Heritage Foods USA.com",
+   "type": "place",
+   "surface": "Heritage Foods USA.com",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Garam Roman",
+   "type": "person",
+   "surface": "Garam Roman",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Tarose",
+   "type": "ingredient",
+   "surface": "Tarose",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "9:32"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "Fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "12:49"
+  },
+  {
+   "canonical": "Ishiri",
+   "type": "ingredient",
+   "surface": "ishiri",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Ishiri",
+   "type": "ingredient",
+   "surface": "ishiri",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Nitrite",
+   "type": "ingredient",
+   "surface": "nitrite",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Brine",
+   "type": "ingredient",
+   "surface": "brine",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Brine",
+   "type": "ingredient",
+   "surface": "brine",
+   "ts": "12:49"
+  },
+  {
+   "canonical": "Microwave cake",
+   "type": "technique",
+   "surface": "microwave cake",
+   "ts": "13:23"
+  },
+  {
+   "canonical": "Lower Manhattan",
+   "type": "place",
+   "surface": "lower Manhattan",
+   "ts": "10:38"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "technique",
+   "surface": "methylcellulose",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "technique",
+   "surface": "methylcellulose",
+   "ts": "15:26"
+  },
+  {
+   "canonical": "Johnny Azzini",
+   "type": "person",
+   "surface": "Johnny Azzini",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Pink Salt",
+   "type": "ingredient",
+   "surface": "pink salt",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Pink Salt",
+   "type": "ingredient",
+   "surface": "pink salt",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Nitrites",
+   "type": "ingredient",
+   "surface": "nitrites",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Nitrites",
+   "type": "ingredient",
+   "surface": "nitrites",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "Nitrates",
+   "type": "ingredient",
+   "surface": "nitrates",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Nitrates",
+   "type": "ingredient",
+   "surface": "nitrates",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "Prague Powders",
+   "type": "ingredient",
+   "surface": "prague powders",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Christian Spinelo",
+   "type": "person",
+   "surface": "Christian Spinelo",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Christian Spinelo",
+   "type": "person",
+   "surface": "Christian",
+   "ts": "19:10"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "18:13"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "18:35"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "Piper",
+   "type": "person",
+   "surface": "Piper",
+   "ts": "18:35"
+  },
+  {
+   "canonical": "Piper",
+   "type": "person",
+   "surface": "Piper",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Nitrites",
+   "type": "ingredient",
+   "surface": "nitrites",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Sodium Nitrite",
+   "type": "ingredient",
+   "surface": "sodium nitrite",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Tender Quick",
+   "type": "ingredient",
+   "surface": "tender quick",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Sodium Chloride",
+   "type": "ingredient",
+   "surface": "NACL",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Sodium Chloride",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "19:10"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "19:44"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "23:36"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Cephalopod",
+   "type": "ingredient",
+   "surface": "cephalopods",
+   "ts": "19:44"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "anesthesia",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "Anesthesia",
+   "ts": "18:35"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "anesthesia",
+   "ts": "21:20"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "anesthesia",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "Tongue Twister",
+   "type": "technique",
+   "surface": "tongue twister",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Neuron",
+   "type": "ingredient",
+   "surface": "neuron",
+   "ts": "19:44"
+  },
+  {
+   "canonical": "Nervous System",
+   "type": "technique",
+   "surface": "nervous system",
+   "ts": "19:44"
+  },
+  {
+   "canonical": "Cognition",
+   "type": "technique",
+   "surface": "cognition",
+   "ts": "19:44"
+  },
+  {
+   "canonical": "Solipsism",
+   "type": "technique",
+   "surface": "solipsism",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Ikojime",
+   "type": "technique",
+   "surface": "ikojime",
+   "ts": "21:20"
+  },
+  {
+   "canonical": "Ikojime",
+   "type": "technique",
+   "surface": "Ikajime",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "anesthesia",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "Anesthesia",
+   "ts": "18:35"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "anesthesia",
+   "ts": "21:20"
+  },
+  {
+   "canonical": "Anesthesia",
+   "type": "technique",
+   "surface": "anesthesia",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "Pot traps",
+   "type": "equipment",
+   "surface": "pot traps",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Pot traps",
+   "type": "equipment",
+   "surface": "pot traps",
+   "ts": "23:36"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "19:44"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "23:36"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Nietzsche Refresh dot co.jp",
+   "type": "place",
+   "surface": "W W Nietzsche Nietzsche Refresh dot co.jp",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Ikajime",
+   "type": "technique",
+   "surface": "ikajime",
+   "ts": "21:20"
+  },
+  {
+   "canonical": "Ikajime",
+   "type": "technique",
+   "surface": "Ikajime",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Tako Isubo",
+   "type": "equipment",
+   "surface": "Taco Isubo",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Journal of Experimental Marine Biology and Ecology",
+   "type": "place",
+   "surface": "Journal of Experimental Marine Biology and Ecology",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "Paul Andrews",
+   "type": "person",
+   "surface": "Paul uh Andrews",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "Nociception",
+   "type": "technique",
+   "surface": "nociception",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "Magnesium Chloride",
+   "type": "ingredient",
+   "surface": "Magnesium chloride",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "Magnesium Chloride",
+   "type": "ingredient",
+   "surface": "magnesium chloride",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Clove Oil",
+   "type": "ingredient",
+   "surface": "clove oil",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Clove Oil",
+   "type": "ingredient",
+   "surface": "clove oil",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Ethanol",
+   "type": "ingredient",
+   "surface": "ethanol",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "Ethanol",
+   "type": "ingredient",
+   "surface": "ethanol",
+   "ts": "28:34"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Good Shepherd Ranch",
+   "type": "place",
+   "surface": "Good Shepherd Ranch",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Bionic Turkey",
+   "type": "technique",
+   "surface": "bionic turkey",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Bionic Turkey",
+   "type": "technique",
+   "surface": "Bionic Turkey",
+   "ts": "31:50"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "32:09"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "32:09"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "Sucker",
+   "type": "ingredient",
+   "surface": "sucker",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "Sucker",
+   "type": "ingredient",
+   "surface": "Sucker",
+   "ts": "31:50"
+  },
+  {
+   "canonical": "Heritage Turkeys",
+   "type": "ingredient",
+   "surface": "Heritage Turkeys",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Heritage Turkeys",
+   "type": "ingredient",
+   "surface": "heritage turkeys",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Frank Greese",
+   "type": "person",
+   "surface": "Frank Greese",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "USTA",
+   "type": "place",
+   "surface": "USTA",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:11"
+  },
+  {
+   "canonical": "Octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:44"
+  },
+  {
+   "canonical": "Cephalopods",
+   "type": "ingredient",
+   "surface": "cephalopods",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Cephalopods",
+   "type": "ingredient",
+   "surface": "cephalopods",
+   "ts": "29:44"
+  },
+  {
+   "canonical": "Proprioception",
+   "type": "technique",
+   "surface": "proprioception",
+   "ts": "29:44"
+  },
+  {
+   "canonical": "Dwayne Reed",
+   "type": "place",
+   "surface": "Dwayne Reed",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "Drain Weed",
+   "type": "place",
+   "surface": "drain weed",
+   "ts": "27:57"
+  },
+  {
+   "canonical": "Dana Goodyear",
+   "type": "person",
+   "surface": "Dana Goodyear",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Natural History Museum",
+   "type": "place",
+   "surface": "Natural History Museum",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Paul Adams",
+   "type": "person",
+   "surface": "Paul Adams",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "33:51"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "34:36"
+  },
+  {
+   "canonical": "Bread and Life",
+   "type": "place",
+   "surface": "bread and life",
+   "ts": "33:51"
+  },
+  {
+   "canonical": "Bread and Life",
+   "type": "place",
+   "surface": "bread and life",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Anthony Butler",
+   "type": "person",
+   "surface": "Anthony Butler",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Tom Fisher",
+   "type": "person",
+   "surface": "Tom Fisher",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "Piper",
+   "type": "person",
+   "surface": "Piper",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "Drew Bushorn",
+   "type": "person",
+   "surface": "Drew Bushorn",
+   "ts": "35:11"
+  },
+  {
+   "canonical": "Microbial Transglutaminase",
+   "type": "ingredient",
+   "surface": "microbial transglutaminase",
+   "ts": "35:11"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "Transglutaminase",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Microbial Transglutaminase",
+   "type": "ingredient",
+   "surface": "microbial transglutaminase",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Tempe",
+   "type": "ingredient",
+   "surface": "tempe",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Steam Tempest",
+   "type": "ingredient",
+   "surface": "steam tempest",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "Charburger",
+   "type": "ingredient",
+   "surface": "charburger",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "Dave",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Discovery Center",
+   "type": "place",
+   "surface": "Discovery Center",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Discovery Center",
+   "type": "place",
+   "surface": "Discovery Center",
+   "ts": "37:01"
+  },
+  {
+   "canonical": "Bacon, Lettuce, and Tomato Sandwich",
+   "type": "ingredient",
+   "surface": "bacon lettuce tomato",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Mayo",
+   "type": "ingredient",
+   "surface": "mayo",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Mayo",
+   "type": "ingredient",
+   "surface": "mayo",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Mayo",
+   "type": "ingredient",
+   "surface": "mayo",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Mayo",
+   "type": "ingredient",
+   "surface": "mayo",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Toasted White Bread",
+   "type": "ingredient",
+   "surface": "toasted crappy white bread",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "BLT",
+   "type": "ingredient",
+   "surface": "BLT",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "Consui",
+   "type": "ingredient",
+   "surface": "consui",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "Consui",
+   "type": "ingredient",
+   "surface": "consui",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "Transglutaminase",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "39:18"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "40:46"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Ramen",
+   "type": "ingredient",
+   "surface": "ramen",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Rice Noodle",
+   "type": "ingredient",
+   "surface": "Rice Noodle",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Rice Protein Isolate",
+   "type": "ingredient",
+   "surface": "Rice Protein Isolate",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Soy Protein",
+   "type": "ingredient",
+   "surface": "soy protein",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "Steam Tunnel",
+   "type": "equipment",
+   "surface": "steam tunnel",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Conveyor Belt",
+   "type": "equipment",
+   "surface": "conveyor belt",
+   "ts": "39:54"
+  },
+  {
+   "canonical": "Conveyor Belt",
+   "type": "equipment",
+   "surface": "conveyor belt",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Conveyor Belt",
+   "type": "equipment",
+   "surface": "conveyor belt",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "Alkaline Noodles",
+   "type": "technique",
+   "surface": "alkaline noodles",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "Alkaline Noodles",
+   "type": "technique",
+   "surface": "alkaline noodles",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Gluten-Free Ramen",
+   "type": "ingredient",
+   "surface": "gluten-free ramen",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "Food Chemistry",
+   "type": "place",
+   "surface": "Food Chemistry",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Philippe Lament",
+   "type": "person",
+   "surface": "Philippe",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Philippe Lament",
+   "type": "person",
+   "surface": "Philippe",
+   "ts": "44:28"
+  },
+  {
+   "canonical": "Philippe Lament",
+   "type": "person",
+   "surface": "Philippe",
+   "ts": "44:38"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "44:48"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "45:05"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "45:18"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "46:35"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "48:23"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "50:08"
+  },
+  {
+   "canonical": "soft serve ice cream",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "50:36"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "50:36"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "51:28"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminates",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Mr. Softy",
+   "type": "place",
+   "surface": "Mr. Softy",
+   "ts": "48:47"
+  },
+  {
+   "canonical": "Mr. Softy",
+   "type": "place",
+   "surface": "Mr. Softy",
+   "ts": "49:09"
+  },
+  {
+   "canonical": "Mr. Softy",
+   "type": "place",
+   "surface": "Mr. Softy",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Mr. Softy",
+   "type": "place",
+   "surface": "Mr. Softy",
+   "ts": "49:28"
+  },
+  {
+   "canonical": "overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "44:48"
+  },
+  {
+   "canonical": "overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "50:08"
+  },
+  {
+   "canonical": "overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "50:36"
+  },
+  {
+   "canonical": "overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "51:46"
+  },
+  {
+   "canonical": "John Riper",
+   "type": "person",
+   "surface": "John Riper",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "John Riper",
+   "type": "person",
+   "surface": "John",
+   "ts": "54:11"
+  },
+  {
+   "canonical": "Guelph",
+   "type": "place",
+   "surface": "guelf",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Guelph",
+   "type": "place",
+   "surface": "guelf",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "University of Guelph",
+   "type": "place",
+   "surface": "guelf",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "University of Guelph",
+   "type": "place",
+   "surface": "guelf",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Sodium Citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Emulsifiers",
+   "type": "ingredient",
+   "surface": "emulsifiers",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Soft Serve Machines",
+   "type": "equipment",
+   "surface": "soft serve machines",
+   "ts": "51:56"
+  },
+  {
+   "canonical": "Soft Serve Machines",
+   "type": "equipment",
+   "surface": "soft serve",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Orifice",
+   "type": "equipment",
+   "surface": "orifice",
+   "ts": "51:56"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "51:56"
+  },
+  {
+   "canonical": "Lactose Crystallization",
+   "type": "technique",
+   "surface": "lactose crystallization",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Milk Fat",
+   "type": "ingredient",
+   "surface": "milk fat",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Non-Milk Fat Solids",
+   "type": "ingredient",
+   "surface": "non-milk fat solids",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Fat Content",
+   "type": "technique",
+   "surface": "fat content",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Egg Yolks",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "51:56"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "54:11"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "54:53"
+  }
+ ]
+}

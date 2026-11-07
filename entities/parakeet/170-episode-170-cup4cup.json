@@ -1,0 +1,775 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Marn",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Lena Quak",
+   "type": "person",
+   "surface": "Lena Quak",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Laundry",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Cup4Cup",
+   "type": "place",
+   "surface": "Cup for Cup",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Cup4Cup",
+   "type": "place",
+   "surface": "cup for cup",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway Market",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stasy",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Corey Lee",
+   "type": "person",
+   "surface": "Corey Lee",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Thomas",
+   "type": "person",
+   "surface": "Thomas",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Thomas",
+   "type": "person",
+   "surface": "Thomas",
+   "ts": "3:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Gluten-free flour",
+   "type": "ingredient",
+   "surface": "gluten-free flour",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "Gluten-free flour",
+   "type": "ingredient",
+   "surface": "gluten-free flour",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Bread flour",
+   "type": "ingredient",
+   "surface": "Bread flour",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "All-purpose flour",
+   "type": "ingredient",
+   "surface": "all-purpose flour",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Pastry flour",
+   "type": "ingredient",
+   "surface": "pastry flour",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Tempura",
+   "type": "technique",
+   "surface": "tempura",
+   "ts": "7:46"
+  },
+  {
+   "canonical": "Tempura",
+   "type": "technique",
+   "surface": "tempura",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "7:46"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "UCLA",
+   "type": "place",
+   "surface": "UCLA",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "UCLA",
+   "type": "place",
+   "surface": "UCLA",
+   "ts": "17:07"
+  },
+  {
+   "canonical": "Professor Robot",
+   "type": "person",
+   "surface": "Professor Robot",
+   "ts": "17:07"
+  },
+  {
+   "canonical": "cup for cup",
+   "type": "ingredient",
+   "surface": "cup for cup",
+   "ts": "14:54"
+  },
+  {
+   "canonical": "cup for cup",
+   "type": "ingredient",
+   "surface": "cup for cup",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "flaxseed",
+   "type": "ingredient",
+   "surface": "flaxseed",
+   "ts": "14:03"
+  },
+  {
+   "canonical": "flaxseed",
+   "type": "ingredient",
+   "surface": "flaxseed",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "whole wheat flour",
+   "type": "ingredient",
+   "surface": "whole wheat flour",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "whole wheat flour",
+   "type": "ingredient",
+   "surface": "whole wheat flour",
+   "ts": "14:03"
+  },
+  {
+   "canonical": "cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flours",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "tapioca",
+   "type": "ingredient",
+   "surface": "tapioca",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "tapioca",
+   "type": "ingredient",
+   "surface": "Tapioca",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "tapioca",
+   "type": "ingredient",
+   "surface": "tapioca",
+   "ts": "11:49"
+  },
+  {
+   "canonical": "potato starch",
+   "type": "ingredient",
+   "surface": "potato starch",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "xanthan gum",
+   "type": "ingredient",
+   "surface": "xanthom gum",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "gluten-free",
+   "type": "ingredient",
+   "surface": "gluten free",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "gluten-free",
+   "type": "ingredient",
+   "surface": "gluten free",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "French laundry",
+   "type": "technique",
+   "surface": "French laundry",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "18:46"
+  },
+  {
+   "canonical": "Sugar Salt Fat",
+   "type": "place",
+   "surface": "Sugar Salt Fat",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "Moss",
+   "type": "person",
+   "surface": "Moss",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "Nigel Olson",
+   "type": "person",
+   "surface": "Nigel Olson",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "New Zealand",
+   "type": "place",
+   "surface": "New Zealand",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "New Zealand",
+   "type": "place",
+   "surface": "New Zealand",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "New Zealand",
+   "type": "place",
+   "surface": "New Zealand",
+   "ts": "23:53"
+  },
+  {
+   "canonical": "Shoe pastry",
+   "type": "ingredient",
+   "surface": "shoe pastry",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Shoe pastry",
+   "type": "ingredient",
+   "surface": "shoe pastry",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Shoe pastry",
+   "type": "ingredient",
+   "surface": "shoe pastry",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Shoe pastry",
+   "type": "ingredient",
+   "surface": "shoe pastry",
+   "ts": "23:53"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flowers",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flowers",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flowers",
+   "ts": "23:53"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flowers",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Brown rice",
+   "type": "ingredient",
+   "surface": "brown rice",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Brown rice",
+   "type": "ingredient",
+   "surface": "brown rice",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Brown rice",
+   "type": "ingredient",
+   "surface": "brown rice",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "White glutinous rice",
+   "type": "ingredient",
+   "surface": "white glutinous rice",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "24:53"
+  },
+  {
+   "canonical": "Tapioca",
+   "type": "ingredient",
+   "surface": "tapioca",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mills",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Chinatown",
+   "type": "place",
+   "surface": "Chinatown",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "23:53"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "24:53"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Cup for cup",
+   "type": "place",
+   "surface": "cup for cup",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Cup for cup",
+   "type": "place",
+   "surface": "cup for cup",
+   "ts": "23:53"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Rob",
+   "type": "person",
+   "surface": "Rob",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Rob",
+   "type": "person",
+   "surface": "Rob",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "fiddlehead fern",
+   "type": "ingredient",
+   "surface": "fiddlehead fern",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "ostrich fern",
+   "type": "ingredient",
+   "surface": "ostrich fern",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "bracken",
+   "type": "ingredient",
+   "surface": "bracken",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "bracken",
+   "type": "ingredient",
+   "surface": "bracken",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "bracken",
+   "type": "ingredient",
+   "surface": "Bracken",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "taquilicide",
+   "type": "ingredient",
+   "surface": "taquilicide",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "esophageal cancer",
+   "type": "ingredient",
+   "surface": "esophageal and stomach cancer",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "stomach cancer",
+   "type": "ingredient",
+   "surface": "stomach cancer",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "stomach cancer",
+   "type": "ingredient",
+   "surface": "stomach cancer",
+   "ts": "28:57"
+  },
+  {
+   "canonical": "kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "grain mill",
+   "type": "equipment",
+   "surface": "grain mill",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "wheat flour",
+   "type": "ingredient",
+   "surface": "wheat flour",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "wheat flour",
+   "type": "ingredient",
+   "surface": "wheat flour",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "whole wheat flour",
+   "type": "ingredient",
+   "surface": "whole wheat flour",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Kenan Grammarcy",
+   "type": "person",
+   "surface": "Kenan Grammarcy",
+   "ts": "30:42"
+  },
+  {
+   "canonical": "ostrich fern",
+   "type": "ingredient",
+   "surface": "ostrich fern",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "fiddleheads",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "fiddleheads",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "alcohol dehydrogenase",
+   "type": "technique",
+   "surface": "alcohol dehydrogenase",
+   "ts": "29:19"
+  },
+  {
+   "canonical": "Bracken",
+   "type": "place",
+   "surface": "bracken",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "Bracken",
+   "type": "place",
+   "surface": "bracken",
+   "ts": "28:40"
+  },
+  {
+   "canonical": "Bracken",
+   "type": "place",
+   "surface": "Bracken",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "31:07"
+  },
+  {
+   "canonical": "bread flour",
+   "type": "ingredient",
+   "surface": "bread flour",
+   "ts": "30:42"
+  },
+  {
+   "canonical": "cup for cup pizza",
+   "type": "ingredient",
+   "surface": "cup for cup pizza",
+   "ts": "31:07"
+  }
+ ]
+}

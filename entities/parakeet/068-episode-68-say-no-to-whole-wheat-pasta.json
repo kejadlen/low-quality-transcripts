@@ -1,0 +1,1297 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "4:04"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Kane Vineyard and Winery",
+   "type": "place",
+   "surface": "Kane Vineyard and Winery",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Vera",
+   "type": "place",
+   "surface": "Vera",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Hotel Chirasi",
+   "type": "place",
+   "surface": "Hotel Chirasi",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Lulo",
+   "type": "ingredient",
+   "surface": "Lulo",
+   "ts": "5:07"
+  },
+  {
+   "canonical": "Lulo",
+   "type": "ingredient",
+   "surface": "Lulo",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "Uchuva",
+   "type": "ingredient",
+   "surface": "Uchuva",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "Guanabana",
+   "type": "ingredient",
+   "surface": "guanabana",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "Granite",
+   "type": "ingredient",
+   "surface": "Granite",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Grenadilla",
+   "type": "ingredient",
+   "surface": "Grenadilla",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Cuba",
+   "type": "ingredient",
+   "surface": "cuba",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Tomate de arbol",
+   "type": "ingredient",
+   "surface": "tomate de arbol",
+   "ts": "5:42"
+  },
+  {
+   "canonical": "Pataya",
+   "type": "ingredient",
+   "surface": "pataya",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "6:37"
+  },
+  {
+   "canonical": "Cryo searing",
+   "type": "technique",
+   "surface": "cryo searing",
+   "ts": "7:19"
+  },
+  {
+   "canonical": "Muscovy duck",
+   "type": "ingredient",
+   "surface": "Muscovy duck",
+   "ts": "6:46"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breasts",
+   "ts": "6:37"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breast",
+   "ts": "6:46"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breasts",
+   "ts": "7:04"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breasts",
+   "ts": "7:19"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breasts",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Sous vide circulator",
+   "type": "equipment",
+   "surface": "sous vide professional circulator",
+   "ts": "6:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "9:28"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Kurt",
+   "type": "person",
+   "surface": "Kurt",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "Kurt",
+   "type": "person",
+   "surface": "Kurt",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Ronzoni Healthy Harvest",
+   "type": "ingredient",
+   "surface": "Ronzoni Healthy Harvest",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Ronzoni Healthy Harvest",
+   "type": "ingredient",
+   "surface": "Borilla Plus",
+   "ts": "11:01"
+  },
+  {
+   "canonical": "Whole wheat pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "Whole wheat pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Whole wheat pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Whole wheat pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Rice pasta",
+   "type": "ingredient",
+   "surface": "rice pasta",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Corn pasta",
+   "type": "ingredient",
+   "surface": "corn pasta",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breast",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "Duck breast",
+   "type": "ingredient",
+   "surface": "duck breast",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Skirt steak",
+   "type": "ingredient",
+   "surface": "skirt steak",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "11:19"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "11:58"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Peanut sauce",
+   "type": "ingredient",
+   "surface": "peanut sauces",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "9:28"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Matthew",
+   "type": "person",
+   "surface": "Matthew",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "13:58"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "Pork Shoulder",
+   "type": "ingredient",
+   "surface": "pork shoulder",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Pork Shoulder",
+   "type": "ingredient",
+   "surface": "pork shoulder",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "Pork Shoulder",
+   "type": "ingredient",
+   "surface": "pork shoulder",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Short Ribs",
+   "type": "ingredient",
+   "surface": "short ribs",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "11:58"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Vital Wheat Gluten",
+   "type": "ingredient",
+   "surface": "vital wheat gluten",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Sodium Carbonate",
+   "type": "ingredient",
+   "surface": "consway",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Whole Wheat Pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "Whole Wheat Pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Whole Wheat Pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Whole Wheat Pasta",
+   "type": "ingredient",
+   "surface": "whole wheat pasta",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Alkaline",
+   "type": "technique",
+   "surface": "alkaline",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cook",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Sous Vide Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "13:58"
+  },
+  {
+   "canonical": "Sous Vide Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "Connective Tissue",
+   "type": "ingredient",
+   "surface": "connective tissue",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "Connective Tissue",
+   "type": "ingredient",
+   "surface": "connective tissue",
+   "ts": "15:56"
+  },
+  {
+   "canonical": "Connective Tissue",
+   "type": "ingredient",
+   "surface": "connective tissue",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Marbling",
+   "type": "technique",
+   "surface": "marbling",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Di Polo's",
+   "type": "place",
+   "surface": "Di Polo's",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "JB Prince",
+   "type": "place",
+   "surface": "JB Prince",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "Teresa's",
+   "type": "place",
+   "surface": "Teresa's",
+   "ts": "21:15"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "21:15"
+  },
+  {
+   "canonical": "Essex Street Market",
+   "type": "place",
+   "surface": "Essex Street Market",
+   "ts": "21:22"
+  },
+  {
+   "canonical": "Heritage Meats",
+   "type": "place",
+   "surface": "heritage meats",
+   "ts": "21:22"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous- vide",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "24:22"
+  },
+  {
+   "canonical": "foie gras terrine",
+   "type": "ingredient",
+   "surface": "foie gras terrine",
+   "ts": "22:52"
+  },
+  {
+   "canonical": "foie gras terrine",
+   "type": "ingredient",
+   "surface": "terrine",
+   "ts": "23:11"
+  },
+  {
+   "canonical": "foie gras terrine",
+   "type": "ingredient",
+   "surface": "foie gras terrine",
+   "ts": "24:22"
+  },
+  {
+   "canonical": "foie gras terrine",
+   "type": "ingredient",
+   "surface": "foie gras terrine",
+   "ts": "24:59"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Terra Spice",
+   "type": "place",
+   "surface": "Terra Spice",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "PDT",
+   "type": "place",
+   "surface": "PDT",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Pegu Club",
+   "type": "place",
+   "surface": "Pegu Club",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Little Branch",
+   "type": "place",
+   "surface": "Little Branch",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Milk and Honey",
+   "type": "place",
+   "surface": "Milk and Honey",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Dell Post",
+   "type": "place",
+   "surface": "Dell Post",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD 50",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Milk Bar",
+   "type": "place",
+   "surface": "milk bar",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "22:20"
+  },
+  {
+   "canonical": "Andrew",
+   "type": "person",
+   "surface": "Andrew",
+   "ts": "25:34"
+  },
+  {
+   "canonical": "Andrew",
+   "type": "person",
+   "surface": "Andrew",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "MPLS",
+   "type": "place",
+   "surface": "MPLS",
+   "ts": "26:05"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "David",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "29:56"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "33:40"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "34:31"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "34:49"
+  },
+  {
+   "canonical": "Andrew Wallace Hayes",
+   "type": "person",
+   "surface": "Andrew Wallace Hayes",
+   "ts": "26:47"
+  },
+  {
+   "canonical": "Sebastian",
+   "type": "person",
+   "surface": "Sebastian",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Sebastian",
+   "type": "person",
+   "surface": "Sebastian",
+   "ts": "31:02"
+  },
+  {
+   "canonical": "Culinary Institute of America",
+   "type": "place",
+   "surface": "Culinary Institute of America",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "America's Test Kitchen",
+   "type": "place",
+   "surface": "America's Test Kitchen",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "America's Test Kitchen",
+   "type": "place",
+   "surface": "America's Test Kitchen",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "PGA",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "PGA",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "PGA",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "PGA",
+   "ts": "33:25"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "28:30"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "Root Beer",
+   "type": "ingredient",
+   "surface": "root beer",
+   "ts": "33:25"
+  },
+  {
+   "canonical": "Glycerin",
+   "type": "ingredient",
+   "surface": "gumerabic",
+   "ts": "31:02"
+  },
+  {
+   "canonical": "Pheasant",
+   "type": "ingredient",
+   "surface": "pheasants",
+   "ts": "28:30"
+  },
+  {
+   "canonical": "Pheasant",
+   "type": "ingredient",
+   "surface": "pheasants",
+   "ts": "28:46"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braise",
+   "ts": "29:26"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonated",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Alginates",
+   "type": "ingredient",
+   "surface": "alginate",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "Alginates",
+   "type": "ingredient",
+   "surface": "alginate",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Seaweed Gel",
+   "type": "ingredient",
+   "surface": "seaweed gel",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "Foam Stabilizers",
+   "type": "ingredient",
+   "surface": "foam stabilizers",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Foam",
+   "type": "technique",
+   "surface": "foam",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "Foam",
+   "type": "technique",
+   "surface": "foam",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "41:27"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "37:08"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "37:29"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "41:27"
+  },
+  {
+   "canonical": "Harlan",
+   "type": "person",
+   "surface": "Harlan",
+   "ts": "41:27"
+  },
+  {
+   "canonical": "Harlan",
+   "type": "person",
+   "surface": "Harlan",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "Mark Younger",
+   "type": "person",
+   "surface": "Mark Younger",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Mark Younger",
+   "type": "person",
+   "surface": "Mark Younger",
+   "ts": "38:40"
+  },
+  {
+   "canonical": "Sous V Dash",
+   "type": "technique",
+   "surface": "Sous V Dash",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "kaolin",
+   "type": "ingredient",
+   "surface": "kaolin",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "kaolin",
+   "type": "ingredient",
+   "surface": "kaolin",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "clay",
+   "type": "ingredient",
+   "surface": "clay",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "clay",
+   "type": "ingredient",
+   "surface": "clay",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "clay",
+   "type": "ingredient",
+   "surface": "clay",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "solanine",
+   "type": "ingredient",
+   "surface": "solanine",
+   "ts": "41:56"
+  },
+  {
+   "canonical": "solanine",
+   "type": "ingredient",
+   "surface": "solanine",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "tomatine",
+   "type": "ingredient",
+   "surface": "tomatine",
+   "ts": "41:56"
+  },
+  {
+   "canonical": "tomatine",
+   "type": "ingredient",
+   "surface": "tomatine",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "chunio blanco",
+   "type": "ingredient",
+   "surface": "chunio blanco",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "potato",
+   "type": "ingredient",
+   "surface": "potato",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "clay",
+   "type": "ingredient",
+   "surface": "clay",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "clay",
+   "type": "ingredient",
+   "surface": "clay",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "clay",
+   "type": "ingredient",
+   "surface": "clay",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "kaolin",
+   "type": "ingredient",
+   "surface": "kaolin",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "kaolin",
+   "type": "ingredient",
+   "surface": "kaolin",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "Brooklyn Botanic Garden",
+   "type": "place",
+   "surface": "Brooklyn Botanic",
+   "ts": "41:56"
+  },
+  {
+   "canonical": "Smithsonian Magazine",
+   "type": "place",
+   "surface": "Smithsonian",
+   "ts": "41:27"
+  },
+  {
+   "canonical": "Smithsonian Magazine",
+   "type": "place",
+   "surface": "Smithsonian",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "Bolivia",
+   "type": "place",
+   "surface": "Bolivian",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "Mugaritz",
+   "type": "place",
+   "surface": "Mugaritz",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "freeze-drying",
+   "type": "technique",
+   "surface": "freeze-drying",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Brian",
+   "type": "person",
+   "surface": "Brian",
+   "ts": "46:41"
+  },
+  {
+   "canonical": "Brian",
+   "type": "person",
+   "surface": "Brian",
+   "ts": "46:48"
+  },
+  {
+   "canonical": "Corin Knives",
+   "type": "place",
+   "surface": "Coran Knives",
+   "ts": "46:48"
+  },
+  {
+   "canonical": "Corin Knives",
+   "type": "place",
+   "surface": "Corinne",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Guano",
+   "type": "ingredient",
+   "surface": "guano",
+   "ts": "44:55"
+  },
+  {
+   "canonical": "Guano",
+   "type": "ingredient",
+   "surface": "guano",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Guano",
+   "type": "ingredient",
+   "surface": "poop",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Guano",
+   "type": "ingredient",
+   "surface": "Poop",
+   "ts": "46:27"
+  },
+  {
+   "canonical": "Phyto Thora Infestons",
+   "type": "technique",
+   "surface": "Phyto Thora Infestons",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Potato Blight",
+   "type": "technique",
+   "surface": "potato blight",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Potato Blight",
+   "type": "technique",
+   "surface": "potato blight",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Corning Knives",
+   "type": "place",
+   "surface": "Coran Knives",
+   "ts": "46:48"
+  },
+  {
+   "canonical": "Corning Knives",
+   "type": "place",
+   "surface": "Corinne",
+   "ts": "47:12"
+  }
+ ]
+}

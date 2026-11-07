@@ -1,0 +1,937 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "spherification",
+   "type": "technique",
+   "surface": "spherification",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "spherification",
+   "type": "technique",
+   "surface": "spherification",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "reverse spherification",
+   "type": "technique",
+   "surface": "reverse verification",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "reverse spherification",
+   "type": "technique",
+   "surface": "reverse purification",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "reverse spherification",
+   "type": "technique",
+   "surface": "reverse verification",
+   "ts": "7:00"
+  },
+  {
+   "canonical": "sodium alginate",
+   "type": "ingredient",
+   "surface": "sodium alginate",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "sodium alginate",
+   "type": "ingredient",
+   "surface": "sodium alginate",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "sodium citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "sodium citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "sodium citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "2:32"
+  },
+  {
+   "canonical": "calcium lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "calcium lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "calcium lactate",
+   "type": "ingredient",
+   "surface": "calcium lactate",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Xanthan gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "glucose syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "glucose syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "5:26"
+  },
+  {
+   "canonical": "corn syrup",
+   "type": "ingredient",
+   "surface": "corn syrup",
+   "ts": "5:26"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "4:11"
+  },
+  {
+   "canonical": "rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "distilled water",
+   "type": "ingredient",
+   "surface": "distilled water",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "distilled water",
+   "type": "ingredient",
+   "surface": "distilled water",
+   "ts": "2:32"
+  },
+  {
+   "canonical": "silpat",
+   "type": "equipment",
+   "surface": "sil pat",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Modern Pantry",
+   "type": "place",
+   "surface": "Modern Pantry",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "FMC biopolymer",
+   "type": "place",
+   "surface": "FMC biopolymer",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Reverse Spherification",
+   "type": "technique",
+   "surface": "reverse furification",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Reverse Spherification",
+   "type": "technique",
+   "surface": "reverse furification",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Alginate",
+   "type": "ingredient",
+   "surface": "alginate",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Calcium",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Pomegranate",
+   "type": "ingredient",
+   "surface": "pomegranate",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Pomegranate",
+   "type": "ingredient",
+   "surface": "pomegranate",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Passion Fruit",
+   "type": "ingredient",
+   "surface": "passion fruit",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Passion Fruit",
+   "type": "ingredient",
+   "surface": "passion fruit",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Hurricane (drink)",
+   "type": "ingredient",
+   "surface": "hurricane",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "Hurricane (drink)",
+   "type": "ingredient",
+   "surface": "hurricane",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Hurricane (drink)",
+   "type": "ingredient",
+   "surface": "hurricane",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Hurricane (drink)",
+   "type": "ingredient",
+   "surface": "hurricane",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Kosher",
+   "type": "place",
+   "surface": "kosher",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Kosher",
+   "type": "place",
+   "surface": "kosher",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "Kosher",
+   "type": "place",
+   "surface": "kosher",
+   "ts": "15:37"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "13:48"
+  },
+  {
+   "canonical": "Tales of the Cocktail",
+   "type": "place",
+   "surface": "Tales of the Cocktail",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Daiquiri",
+   "type": "ingredient",
+   "surface": "daiquiri",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Daiquiri",
+   "type": "ingredient",
+   "surface": "daiquiri",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Kool-Aid",
+   "type": "ingredient",
+   "surface": "Kool-Aid",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Kool-Aid",
+   "type": "ingredient",
+   "surface": "Kool-Aid",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "PID",
+   "type": "equipment",
+   "surface": "PID",
+   "ts": "18:14"
+  },
+  {
+   "canonical": "PID",
+   "type": "equipment",
+   "surface": "PID",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "18:26"
+  },
+  {
+   "canonical": "Beer Rowing",
+   "type": "place",
+   "surface": "beer rowing",
+   "ts": "18:14"
+  },
+  {
+   "canonical": "Hot Weather Tank",
+   "type": "equipment",
+   "surface": "hot weather tank",
+   "ts": "18:14"
+  },
+  {
+   "canonical": "Watt",
+   "type": "ingredient",
+   "surface": "watt",
+   "ts": "18:26"
+  },
+  {
+   "canonical": "Ultratex",
+   "type": "ingredient",
+   "surface": "Ultratex",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "Ultratex",
+   "type": "ingredient",
+   "surface": "Ultratex",
+   "ts": "27:08"
+  },
+  {
+   "canonical": "Ultratex",
+   "type": "ingredient",
+   "surface": "Ultratex",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "26:03"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "24:11"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "25:53"
+  },
+  {
+   "canonical": "PID controller",
+   "type": "equipment",
+   "surface": "PID controller",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Alcanox",
+   "type": "ingredient",
+   "surface": "Alcanox",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "Alcanox",
+   "type": "ingredient",
+   "surface": "Alcanox",
+   "ts": "24:11"
+  },
+  {
+   "canonical": "carbon tetrachloride",
+   "type": "ingredient",
+   "surface": "carbon tetrachloride",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "carbon tetrachloride",
+   "type": "ingredient",
+   "surface": "carbon tetrachloride",
+   "ts": "24:11"
+  },
+  {
+   "canonical": "cold finger condenser",
+   "type": "equipment",
+   "surface": "cold finger condenser",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "cold finger condenser",
+   "type": "equipment",
+   "surface": "cold finger condenser",
+   "ts": "24:42"
+  },
+  {
+   "canonical": "cold finger condenser",
+   "type": "equipment",
+   "surface": "cold finger condenser",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "24:11"
+  },
+  {
+   "canonical": "Ultratex 3",
+   "type": "ingredient",
+   "surface": "Ultratex 3",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "Ultratex 8",
+   "type": "ingredient",
+   "surface": "Ultratex 8",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "Ultrasperse 3",
+   "type": "ingredient",
+   "surface": "Ultrasperse 3",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "modified starches",
+   "type": "ingredient",
+   "surface": "modified starches",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "pH buffers",
+   "type": "ingredient",
+   "surface": "pH buffers",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "Ultra Spurce",
+   "type": "ingredient",
+   "surface": "Ultra spurse",
+   "ts": "28:06"
+  },
+  {
+   "canonical": "Ultra Spurce",
+   "type": "ingredient",
+   "surface": "ultra spurse",
+   "ts": "28:29"
+  },
+  {
+   "canonical": "Ultra Spurce",
+   "type": "ingredient",
+   "surface": "ultra spurse",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "Ultra Texts",
+   "type": "ingredient",
+   "surface": "ultra texts",
+   "ts": "28:29"
+  },
+  {
+   "canonical": "National Starch",
+   "type": "place",
+   "surface": "National Starch",
+   "ts": "28:29"
+  },
+  {
+   "canonical": "Acetobacter",
+   "type": "ingredient",
+   "surface": "acetobacter",
+   "ts": "34:17"
+  },
+  {
+   "canonical": "Acetobacter",
+   "type": "ingredient",
+   "surface": "acetobacter",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "Sunset Magazine",
+   "type": "place",
+   "surface": "Sunset magazine",
+   "ts": "34:17"
+  },
+  {
+   "canonical": "Sunset Magazine",
+   "type": "place",
+   "surface": "Sunset Magazine",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Sunset Magazine",
+   "type": "place",
+   "surface": "Sunset Magazine",
+   "ts": "35:29"
+  },
+  {
+   "canonical": "Sunset Magazine",
+   "type": "place",
+   "surface": "Sunset",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "Paula Wolfert",
+   "type": "person",
+   "surface": "Paula Wolfert",
+   "ts": "35:47"
+  },
+  {
+   "canonical": "Sherry Vinegar",
+   "type": "ingredient",
+   "surface": "sherry vinegar",
+   "ts": "33:31"
+  },
+  {
+   "canonical": "Sulfur Dioxide",
+   "type": "ingredient",
+   "surface": "sulfur dioxide",
+   "ts": "34:17"
+  },
+  {
+   "canonical": "Vinegar Mother",
+   "type": "ingredient",
+   "surface": "vinegar mother",
+   "ts": "33:31"
+  },
+  {
+   "canonical": "Vinegar Mother",
+   "type": "ingredient",
+   "surface": "vinegar mother",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Acetic Acid",
+   "type": "ingredient",
+   "surface": "acetic acid",
+   "ts": "36:17"
+  },
+  {
+   "canonical": "Acetic Acid",
+   "type": "ingredient",
+   "surface": "acetic acid",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "Wood Chips",
+   "type": "ingredient",
+   "surface": "wood chips",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Clay Pots",
+   "type": "equipment",
+   "surface": "clay pots",
+   "ts": "35:58"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "38:35"
+  },
+  {
+   "canonical": "Cuisinart",
+   "type": "equipment",
+   "surface": "Cuisinart",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "39:59"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "42:21"
+  },
+  {
+   "canonical": "Glucose Syrup",
+   "type": "ingredient",
+   "surface": "glucose syrup",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "40:21"
+  },
+  {
+   "canonical": "Freezing Point Depression",
+   "type": "technique",
+   "surface": "freezing point depression",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Freezing Point Depression",
+   "type": "technique",
+   "surface": "freezing point depression",
+   "ts": "42:21"
+  },
+  {
+   "canonical": "Freezing Point Depression",
+   "type": "technique",
+   "surface": "freezing point depression",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Freezing Point Depression",
+   "type": "technique",
+   "surface": "freezing point depression",
+   "ts": "43:52"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "39:18"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "40:21"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "42:21"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "39:18"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "42:21"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "37:42"
+  },
+  {
+   "canonical": "Vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurize",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "Cellulose",
+   "type": "ingredient",
+   "surface": "cellulose",
+   "ts": "37:42"
+  },
+  {
+   "canonical": "Bacterial Cellulose",
+   "type": "ingredient",
+   "surface": "bacterial cellulose",
+   "ts": "37:42"
+  },
+  {
+   "canonical": "Wooden Barrels",
+   "type": "equipment",
+   "surface": "wooden barrels",
+   "ts": "37:42"
+  },
+  {
+   "canonical": "Wooden Barrels",
+   "type": "equipment",
+   "surface": "wooden barrels",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "Glucose Syrups Technology and Applications",
+   "type": "place",
+   "surface": "Glucose Syrups Technology and Applications",
+   "ts": "39:59"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "44:17"
+  },
+  {
+   "canonical": "Matthew",
+   "type": "person",
+   "surface": "Matthew",
+   "ts": "38:30"
+  },
+  {
+   "canonical": "Matthew",
+   "type": "person",
+   "surface": "Matthew",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Matthew",
+   "type": "person",
+   "surface": "Matthew",
+   "ts": "39:18"
+  }
+ ]
+}

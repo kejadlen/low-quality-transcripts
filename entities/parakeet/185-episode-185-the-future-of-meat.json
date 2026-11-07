@@ -1,0 +1,841 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Emma Bose",
+   "type": "person",
+   "surface": "Emma Bose",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack Insley",
+   "ts": "2:33"
+  },
+  {
+   "canonical": "Wyatt Burns",
+   "type": "person",
+   "surface": "Wyatt Burns",
+   "ts": "2:33"
+  },
+  {
+   "canonical": "Paul Steen",
+   "type": "person",
+   "surface": "Paul Steen",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "White Oak Pastures",
+   "type": "place",
+   "surface": "White Oak Pastures",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Robertus P3",
+   "type": "place",
+   "surface": "Robertus P3",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Total Recall",
+   "type": "technique",
+   "surface": "Total Recall",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Total Recall",
+   "type": "technique",
+   "surface": "total recall",
+   "ts": "1:12"
+  },
+  {
+   "canonical": "Total Recall",
+   "type": "technique",
+   "surface": "total recall",
+   "ts": "1:25"
+  },
+  {
+   "canonical": "vacuum work",
+   "type": "technique",
+   "surface": "vacuum work",
+   "ts": "1:25"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "curing",
+   "type": "technique",
+   "surface": "curing",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "curing",
+   "type": "technique",
+   "surface": "curing",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "lactic acid bacteria",
+   "type": "ingredient",
+   "surface": "lactic acid bacteria",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "water bath",
+   "type": "technique",
+   "surface": "water bath",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "proofing box",
+   "type": "equipment",
+   "surface": "proofing box",
+   "ts": "4:24"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "4:24"
+  },
+  {
+   "canonical": "fat bath",
+   "type": "technique",
+   "surface": "fat bath",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "blue cheese",
+   "type": "ingredient",
+   "surface": "blue cheese",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Colonel Newsom's ham",
+   "type": "ingredient",
+   "surface": "Colonel Newsom's ham",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Scandinavian fish",
+   "type": "ingredient",
+   "surface": "Scandinavian fish",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Stroming",
+   "type": "technique",
+   "surface": "Stroming",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "blue cheese",
+   "type": "ingredient",
+   "surface": "blue cheese",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "9:21"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Nils Norin",
+   "type": "person",
+   "surface": "Nils",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Nils Norin",
+   "type": "person",
+   "surface": "Nils",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "Herv\u00e9",
+   "type": "person",
+   "surface": "Herv\u00e9",
+   "ts": "11:45"
+  },
+  {
+   "canonical": "Turduck",
+   "type": "technique",
+   "surface": "Turduck",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "torchon",
+   "type": "technique",
+   "surface": "torchant",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "torchon",
+   "type": "technique",
+   "surface": "torchon",
+   "ts": "11:45"
+  },
+  {
+   "canonical": "torchon",
+   "type": "technique",
+   "surface": "torchant",
+   "ts": "14:35"
+  },
+  {
+   "canonical": "meat glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "plastic wrap",
+   "type": "equipment",
+   "surface": "plastic wrap",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "low-temp primer",
+   "type": "place",
+   "surface": "low-temp primer",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "cookingissues.com",
+   "type": "place",
+   "surface": "cookingissues.com",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "double frying",
+   "type": "technique",
+   "surface": "double frying",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "Korean fried chicken",
+   "type": "technique",
+   "surface": "Korean fried chicken",
+   "ts": "14:35"
+  },
+  {
+   "canonical": "Korean wings",
+   "type": "technique",
+   "surface": "Korean wings",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "candied shell",
+   "type": "technique",
+   "surface": "candied shell",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "water management",
+   "type": "technique",
+   "surface": "water management",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "moisture management",
+   "type": "technique",
+   "surface": "moisture management",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "14:35"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "15:23"
+  },
+  {
+   "canonical": "accelerometer",
+   "type": "equipment",
+   "surface": "accelerometer",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "speaker",
+   "type": "equipment",
+   "surface": "speaker",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "recyclable",
+   "type": "equipment",
+   "surface": "recyclable",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "disposable microphone",
+   "type": "equipment",
+   "surface": "disposable microphone",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "24:11"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and DAX",
+   "ts": "17:25"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "18:04"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "three compartment sink",
+   "type": "equipment",
+   "surface": "three comp sink",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "three compartment sink",
+   "type": "equipment",
+   "surface": "three compartment sink",
+   "ts": "21:03"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "20:24"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "PolyScience",
+   "type": "place",
+   "surface": "PolyScience",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Cuisine Solutions",
+   "type": "place",
+   "surface": "Cuisine Solutions",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Girard Bertelon",
+   "type": "person",
+   "surface": "Girard Bertelon",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Philip Preston",
+   "type": "person",
+   "surface": "Philip Preston",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Lexan",
+   "type": "ingredient",
+   "surface": "Lexan",
+   "ts": "22:44"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "31:07"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "32:33"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Mofad",
+   "ts": "31:07"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "mofad",
+   "ts": "32:18"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "mofad",
+   "ts": "32:33"
+  },
+  {
+   "canonical": "New Harvest",
+   "type": "place",
+   "surface": "New Harvest",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage's",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Carnivores Manifesto",
+   "type": "place",
+   "surface": "Carnivores Manifesto",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "31:07"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "32:33"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Animal Liberation",
+   "type": "ingredient",
+   "surface": "Animal Liberation",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "cultured meat",
+   "type": "ingredient",
+   "surface": "cultured meat",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "wine cooler",
+   "type": "equipment",
+   "surface": "wine cooler",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "wine cooler",
+   "type": "equipment",
+   "surface": "wine cooler",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "temperature control",
+   "type": "equipment",
+   "surface": "temperature control",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "thermoelectric",
+   "type": "equipment",
+   "surface": "thermoelectric",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "styro",
+   "type": "equipment",
+   "surface": "styro",
+   "ts": "27:07"
+  },
+  {
+   "canonical": "Alberinstruments.com",
+   "type": "place",
+   "surface": "Alberinstruments.com",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "meat.mofad.org",
+   "type": "place",
+   "surface": "meat.mofad.org",
+   "ts": "32:18"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "35:18"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "34:58"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "White Oak Pastures",
+   "type": "place",
+   "surface": "White Oak Pastures",
+   "ts": "35:26"
+  },
+  {
+   "canonical": "White Oak Pastures",
+   "type": "place",
+   "surface": "Whiteoop Pastures",
+   "ts": "36:39"
+  },
+  {
+   "canonical": "Kambu Dashi",
+   "type": "ingredient",
+   "surface": "Kambu Dashi",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Kambu Dashi",
+   "type": "ingredient",
+   "surface": "Kambu Dashi",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "37:54"
+  },
+  {
+   "canonical": "Mitsuha",
+   "type": "place",
+   "surface": "Mitsuha",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "Mofad",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Sir Kensington",
+   "type": "person",
+   "surface": "Sir Kensington",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "Sir Kensington",
+   "type": "person",
+   "surface": "Sir Kensington",
+   "ts": "41:59"
+  },
+  {
+   "canonical": "Worcestershire sauce",
+   "type": "ingredient",
+   "surface": "Wisheshire sauce",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "Worcestershire sauce",
+   "type": "ingredient",
+   "surface": "Wisheshire sauce",
+   "ts": "42:28"
+  },
+  {
+   "canonical": "Worcestershire sauce",
+   "type": "ingredient",
+   "surface": "Worcestershire sauce",
+   "ts": "42:52"
+  },
+  {
+   "canonical": "Worcestershire sauce",
+   "type": "ingredient",
+   "surface": "Wishurette",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "44:14"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "Underground Food Collective",
+   "type": "place",
+   "surface": "Underground Food Collective",
+   "ts": "44:14"
+  },
+  {
+   "canonical": "James Beard Award",
+   "type": "place",
+   "surface": "James Beard award",
+   "ts": "44:14"
+  },
+  {
+   "canonical": "Clef's",
+   "type": "place",
+   "surface": "Clef's",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "bratwurst",
+   "type": "ingredient",
+   "surface": "brats",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "bratwurst",
+   "type": "ingredient",
+   "surface": "brats",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "bratwurst",
+   "type": "ingredient",
+   "surface": "brats",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "beer",
+   "type": "ingredient",
+   "surface": "beer",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "grill",
+   "type": "equipment",
+   "surface": "grill",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "46:02"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "46:19"
+  }
+ ]
+}

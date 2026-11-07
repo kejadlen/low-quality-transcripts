@@ -1,0 +1,1375 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Nastasha The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "Nastasha The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Nastasha The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Nastasha The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Nastasha The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "Nastasha The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "7:58"
+  },
+  {
+   "canonical": "Barterhouse",
+   "type": "place",
+   "surface": "Barterhouse",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Barterhouse",
+   "type": "place",
+   "surface": "Barter House",
+   "ts": "1:38"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum",
+   "ts": "1:38"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "museum",
+   "ts": "2:12"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "museum",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "museum",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Tanat",
+   "type": "ingredient",
+   "surface": "Tanat",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Boozer",
+   "type": "ingredient",
+   "surface": "Boozer",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark Ladner",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley Dufresne",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "Dale deGroff",
+   "type": "person",
+   "surface": "Dale deGroff",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Blue food coloring",
+   "type": "ingredient",
+   "surface": "blue food coloring",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Dorothy",
+   "type": "person",
+   "surface": "Dorothy",
+   "ts": "3:55"
+  },
+  {
+   "canonical": "Heath Glenn Organic Farm and Kitchen",
+   "type": "place",
+   "surface": "Heath Glenn Organic Farm and Kitchen",
+   "ts": "3:55"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "Stasi",
+   "type": "person",
+   "surface": "Stasi",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "6:13"
+  },
+  {
+   "canonical": "Christina Toze",
+   "type": "person",
+   "surface": "Christina Toze",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "EC",
+   "type": "equipment",
+   "surface": "EC",
+   "ts": "7:58"
+  },
+  {
+   "canonical": "EC",
+   "type": "equipment",
+   "surface": "EC",
+   "ts": "8:05"
+  },
+  {
+   "canonical": "EC",
+   "type": "equipment",
+   "surface": "EC",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "Twist and Sparkle Machine",
+   "type": "equipment",
+   "surface": "twist and sparkle machine",
+   "ts": "8:05"
+  },
+  {
+   "canonical": "Thermal Whippers",
+   "type": "equipment",
+   "surface": "thermal whip",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "Nitrous",
+   "type": "technique",
+   "surface": "nitrous",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "Thermo Whip",
+   "type": "equipment",
+   "surface": "thermo whip",
+   "ts": "8:50"
+  },
+  {
+   "canonical": "Thermo Whip",
+   "type": "equipment",
+   "surface": "thermal whipper",
+   "ts": "9:26"
+  },
+  {
+   "canonical": "Thermo Whip",
+   "type": "equipment",
+   "surface": "thermal whip",
+   "ts": "9:52"
+  },
+  {
+   "canonical": "Thermo Whip",
+   "type": "equipment",
+   "surface": "thermal whip",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:00"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "16:00"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "16:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:33"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "13:59"
+  },
+  {
+   "canonical": "Suriano Ham",
+   "type": "ingredient",
+   "surface": "Suriano ham",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "Murray's Cheese",
+   "type": "place",
+   "surface": "Murray's cheese",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "360 Cookware",
+   "type": "place",
+   "surface": "360 cookware",
+   "ts": "13:08"
+  },
+  {
+   "canonical": "Martha Stewart",
+   "type": "person",
+   "surface": "Martha",
+   "ts": "15:43"
+  },
+  {
+   "canonical": "Martha Stewart",
+   "type": "person",
+   "surface": "Martha",
+   "ts": "16:00"
+  },
+  {
+   "canonical": "Oprah",
+   "type": "person",
+   "surface": "Oprah",
+   "ts": "16:00"
+  },
+  {
+   "canonical": "Oprah",
+   "type": "person",
+   "surface": "Oprah",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:00"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "17:53"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "Sorval SS1 dangerfuge",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "Ultra Pasteurization",
+   "type": "technique",
+   "surface": "ultra pasteurization",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "Ultra Pasteurization",
+   "type": "technique",
+   "surface": "ultra-pasteurized",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Ultra Pasteurization",
+   "type": "technique",
+   "surface": "ultra-pasteurized",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "Ultra Pasteurization",
+   "type": "technique",
+   "surface": "ultra high temperature pasteurization",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Whey Proteins",
+   "type": "ingredient",
+   "surface": "whey proteins",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Whey Proteins",
+   "type": "ingredient",
+   "surface": "whey proteins",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "Rennet",
+   "type": "ingredient",
+   "surface": "rennet",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "Mozzarella",
+   "type": "ingredient",
+   "surface": "mozzarella",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Cappuccino",
+   "type": "ingredient",
+   "surface": "cappuccino",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Cappuccino",
+   "type": "ingredient",
+   "surface": "cappuccino",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Aerocino",
+   "type": "equipment",
+   "surface": "aerocino",
+   "ts": "24:27"
+  },
+  {
+   "canonical": "La Pavoni",
+   "type": "equipment",
+   "surface": "La Pav",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "Vittorio Arduino",
+   "type": "equipment",
+   "surface": "Vittorio Arduino",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "La Mart Soca",
+   "type": "equipment",
+   "surface": "La Mart Soca",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Ranchillo",
+   "type": "equipment",
+   "surface": "Ranchillo",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Ranchillo",
+   "type": "equipment",
+   "surface": "ranchillo",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Microchimbale",
+   "type": "equipment",
+   "surface": "microchimboli",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Microchimbale",
+   "type": "equipment",
+   "surface": "microchimbale",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "Lever Pull Espresso Machine",
+   "type": "equipment",
+   "surface": "lever pulled espresso",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Lever Pull Espresso Machine",
+   "type": "equipment",
+   "surface": "lever pulled espresso",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Lever Pull Espresso Machine",
+   "type": "equipment",
+   "surface": "lever pulled machines",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Lever Pull Espresso Machine",
+   "type": "equipment",
+   "surface": "lever pull",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Rotary Pump",
+   "type": "equipment",
+   "surface": "rotary pump",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Rotary Pump",
+   "type": "equipment",
+   "surface": "rotary pump",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "Rotary Pump",
+   "type": "equipment",
+   "surface": "rotary pump",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Crema",
+   "type": "ingredient",
+   "surface": "crema",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "30:23"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "National Restaurant Association",
+   "type": "place",
+   "surface": "National Restaurant Association",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Rotary Pump",
+   "type": "equipment",
+   "surface": "rotary pump",
+   "ts": "30:56"
+  },
+  {
+   "canonical": "Rotary Pump",
+   "type": "equipment",
+   "surface": "rotary pump",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "Rotary Pump",
+   "type": "equipment",
+   "surface": "rotary pump",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Spring Pump",
+   "type": "equipment",
+   "surface": "spring pump",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Ultra-High Pasteurized Milk",
+   "type": "ingredient",
+   "surface": "ultra-pasteurized milk",
+   "ts": "34:49"
+  },
+  {
+   "canonical": "Ultra-High Pasteurized Milk",
+   "type": "ingredient",
+   "surface": "ultra-high pasteurized milk",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Silicosol",
+   "type": "ingredient",
+   "surface": "silicosol",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Kesel Salt",
+   "type": "ingredient",
+   "surface": "kesel salt",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Chitosan",
+   "type": "ingredient",
+   "surface": "chitosan",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Clarification Technique",
+   "type": "technique",
+   "surface": "clarification technique",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "35:07"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "40:07"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Oxalosis",
+   "type": "ingredient",
+   "surface": "ox oxalosis",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "Brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "Brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "40:07"
+  },
+  {
+   "canonical": "French Toast",
+   "type": "ingredient",
+   "surface": "French toast",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Taro",
+   "type": "ingredient",
+   "surface": "taro",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Cassava",
+   "type": "ingredient",
+   "surface": "cassava",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Oxalic Acid",
+   "type": "ingredient",
+   "surface": "oxalic acid",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Kidney Stones",
+   "type": "ingredient",
+   "surface": "kidney stones",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarify",
+   "ts": "35:55"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuuming it down",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cook",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "41:03"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Ziploc Bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "Ziploc Bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Robert's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Pies and Thighs",
+   "type": "place",
+   "surface": "Pies and Thighs",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Tropicana Orange Juice",
+   "type": "ingredient",
+   "surface": "tropicana orange juice",
+   "ts": "35:55"
+  },
+  {
+   "canonical": "Grapefruit Juice",
+   "type": "ingredient",
+   "surface": "grapefruit juice",
+   "ts": "35:55"
+  },
+  {
+   "canonical": "Orange Juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "35:55"
+  },
+  {
+   "canonical": "Nitrite",
+   "type": "ingredient",
+   "surface": "nitrite",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "AP Flour",
+   "type": "ingredient",
+   "surface": "AP flour",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Fried Chicken",
+   "type": "ingredient",
+   "surface": "fried chicken",
+   "ts": "40:07"
+  },
+  {
+   "canonical": "Fried Chicken",
+   "type": "ingredient",
+   "surface": "fried chicken",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Fried Chicken",
+   "type": "ingredient",
+   "surface": "fried chicken",
+   "ts": "41:03"
+  },
+  {
+   "canonical": "Carlo",
+   "type": "person",
+   "surface": "Carlo",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "40:07"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "confit",
+   "type": "technique",
+   "surface": "confite",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "confit",
+   "type": "technique",
+   "surface": "confi",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "baking powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "baking powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "egg",
+   "type": "ingredient",
+   "surface": "egg",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "egg",
+   "type": "ingredient",
+   "surface": "egg",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "40:55"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Ziploc bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "Ziploc bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "41:03"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "41:03"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temp",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "sous vide cooking",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "sous vide cooking",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "sous vide cooking",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "duck confit",
+   "type": "technique",
+   "surface": "duck confit",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "cure",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "herbs",
+   "type": "ingredient",
+   "surface": "herbs",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "simmering water",
+   "type": "equipment",
+   "surface": "simmering water",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "ice bath",
+   "type": "equipment",
+   "surface": "ice bath",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "Duck Confit",
+   "type": "technique",
+   "surface": "duck confie",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Duck Confit",
+   "type": "technique",
+   "surface": "duck confie",
+   "ts": "45:16"
+  },
+  {
+   "canonical": "Simmering Water",
+   "type": "technique",
+   "surface": "simmering water",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "UP Hedric's Fruits of New York",
+   "type": "place",
+   "surface": "UP Hedric's Fruits of New York",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issuals",
+   "ts": "45:44"
+  }
+ ]
+}

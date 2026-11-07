@@ -1,0 +1,883 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "2:50"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "3:35"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Mofad",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "White Hotel",
+   "type": "place",
+   "surface": "White Hotel",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "White Hotel",
+   "type": "place",
+   "surface": "White Hotel",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Genetically Modified Organisms",
+   "type": "ingredient",
+   "surface": "genetically modified organisms",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "Genetically Modified Organisms",
+   "type": "ingredient",
+   "surface": "genetically modified",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Genetically Modified Organisms",
+   "type": "ingredient",
+   "surface": "genetically modified",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Roundup Ready",
+   "type": "ingredient",
+   "surface": "roundup ready",
+   "ts": "7:02"
+  },
+  {
+   "canonical": "Golden Rice",
+   "type": "ingredient",
+   "surface": "golden rice",
+   "ts": "7:02"
+  },
+  {
+   "canonical": "Ionizing Radiation",
+   "type": "technique",
+   "surface": "ionizing radiation",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Transgenic",
+   "type": "technique",
+   "surface": "transgenic",
+   "ts": "6:32"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "11:21"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "9:42"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "9:42"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Peter",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "11:21"
+  },
+  {
+   "canonical": "William",
+   "type": "person",
+   "surface": "William",
+   "ts": "9:56"
+  },
+  {
+   "canonical": "Pizzeria Uno",
+   "type": "place",
+   "surface": "pizzeria Uno",
+   "ts": "13:50"
+  },
+  {
+   "canonical": "Williams College",
+   "type": "place",
+   "surface": "Williams College",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "propane",
+   "type": "ingredient",
+   "surface": "propane",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "GMO",
+   "type": "technique",
+   "surface": "GMO",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "GMO",
+   "type": "technique",
+   "surface": "GMO",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "genetically modified organisms",
+   "type": "technique",
+   "surface": "genetically modified organisms",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "deep dish pizza",
+   "type": "ingredient",
+   "surface": "Deep dish pizza",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "deep dish pizza",
+   "type": "ingredient",
+   "surface": "deep dish pizza",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Chicago style pizza",
+   "type": "ingredient",
+   "surface": "Chicago style pizza",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "New York style pizza",
+   "type": "ingredient",
+   "surface": "New York style pizza",
+   "ts": "13:08"
+  },
+  {
+   "canonical": "Grimaldi's",
+   "type": "place",
+   "surface": "Grimaldi's",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Lombardi's",
+   "type": "place",
+   "surface": "Lombardi's",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "Subway",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "14:17"
+  },
+  {
+   "canonical": "Domino's",
+   "type": "place",
+   "surface": "Domino's",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "DOP",
+   "type": "technique",
+   "surface": "DOP",
+   "ts": "13:50"
+  },
+  {
+   "canonical": "pasticcio",
+   "type": "technique",
+   "surface": "pasticcio",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "rabbit pie",
+   "type": "ingredient",
+   "surface": "rabbit pie",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Bujali",
+   "type": "place",
+   "surface": "Bujali",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "Chicago",
+   "type": "place",
+   "surface": "Chicago",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Chicago",
+   "type": "place",
+   "surface": "Chicago",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "Chicago",
+   "type": "place",
+   "surface": "Chicago",
+   "ts": "12:48"
+  },
+  {
+   "canonical": "Chicago",
+   "type": "place",
+   "surface": "Chicago",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "Chicago",
+   "type": "place",
+   "surface": "Chicago",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "13:08"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Arturas",
+   "type": "person",
+   "surface": "Arturas",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Grupo Pizza",
+   "type": "place",
+   "surface": "Grupo Pizza",
+   "ts": "12:25"
+  },
+  {
+   "canonical": "book festival",
+   "type": "place",
+   "surface": "book festival",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "7184972128",
+   "type": "place",
+   "surface": "7184972128",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "7184972128",
+   "type": "place",
+   "surface": "7184972128",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Lucina Lampila",
+   "type": "person",
+   "surface": "Lucina Lampila",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Lucina Lampila",
+   "type": "person",
+   "surface": "Lucina Lampila",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "LSU Ag Center",
+   "type": "place",
+   "surface": "LSU Ag Center",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Food grade phosphates",
+   "type": "ingredient",
+   "surface": "food grade phosphates",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Food grade phosphates",
+   "type": "ingredient",
+   "surface": "food grade phosphates",
+   "ts": "19:48"
+  },
+  {
+   "canonical": "Food grade phosphates",
+   "type": "ingredient",
+   "surface": "food grade phosphates",
+   "ts": "20:50"
+  },
+  {
+   "canonical": "Spent chicken",
+   "type": "ingredient",
+   "surface": "spent chicken",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "Spent chicken",
+   "type": "ingredient",
+   "surface": "spent chicken",
+   "ts": "21:28"
+  },
+  {
+   "canonical": "Spent chicken",
+   "type": "ingredient",
+   "surface": "spent chicken",
+   "ts": "21:48"
+  },
+  {
+   "canonical": "Spent chicken",
+   "type": "ingredient",
+   "surface": "spent chicken",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Spent chicken",
+   "type": "ingredient",
+   "surface": "spent chicken",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Snow Mine",
+   "type": "place",
+   "surface": "Snow Mine",
+   "ts": "22:40"
+  },
+  {
+   "canonical": "Stephanie Germanata",
+   "type": "person",
+   "surface": "Stephanie Germinata",
+   "ts": "22:50"
+  },
+  {
+   "canonical": "Stephanie Germanata",
+   "type": "person",
+   "surface": "Stephanie Germanata",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Anchor Das",
+   "type": "person",
+   "surface": "Anchor Das",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Dilip Ron John Nath",
+   "type": "person",
+   "surface": "Dilip Ron John",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "18:54"
+  },
+  {
+   "canonical": "Mofed",
+   "type": "place",
+   "surface": "Mofed",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "18:41"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:16"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "23:10"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "23:24"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "19:48"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "23:24"
+  },
+  {
+   "canonical": "Louisiana Sea Grant College program",
+   "type": "place",
+   "surface": "Louisiana Sea Grant College program",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Pat",
+   "type": "person",
+   "surface": "Pat",
+   "ts": "19:33"
+  },
+  {
+   "canonical": "Pat",
+   "type": "person",
+   "surface": "Pat",
+   "ts": "19:48"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Jeff Mays",
+   "type": "person",
+   "surface": "Jeff Mays",
+   "ts": "26:03"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Chipsmith",
+   "type": "person",
+   "surface": "Chipsmith",
+   "ts": "34:28"
+  },
+  {
+   "canonical": "gluten-free on a shoestring",
+   "type": "place",
+   "surface": "glutenfree on a shoestring",
+   "ts": "33:43"
+  },
+  {
+   "canonical": "authenticfoods.com",
+   "type": "place",
+   "surface": "authenticfoods uh com",
+   "ts": "33:43"
+  },
+  {
+   "canonical": "brown rice flour",
+   "type": "ingredient",
+   "surface": "brown rice flour",
+   "ts": "33:43"
+  },
+  {
+   "canonical": "white rice flour",
+   "type": "ingredient",
+   "surface": "white rice flour",
+   "ts": "33:43"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "33:43"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "gluten-free flour",
+   "type": "ingredient",
+   "surface": "gluten-free flour",
+   "ts": "33:43"
+  },
+  {
+   "canonical": "modified starch",
+   "type": "ingredient",
+   "surface": "modified starch",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "oxidized starch",
+   "type": "ingredient",
+   "surface": "oxidized starch",
+   "ts": "27:59"
+  },
+  {
+   "canonical": "methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "27:59"
+  },
+  {
+   "canonical": "fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "33:02"
+  },
+  {
+   "canonical": "Vitamix",
+   "type": "equipment",
+   "surface": "Vitamix",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "food processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "blender",
+   "type": "equipment",
+   "surface": "crappy blender",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "rice mill",
+   "type": "equipment",
+   "surface": "mill",
+   "ts": "34:28"
+  },
+  {
+   "canonical": "White Oak Pastures",
+   "type": "place",
+   "surface": "White Oak Pastures",
+   "ts": "35:13"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "34:45"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "35:53"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "36:26"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Vitamix",
+   "type": "equipment",
+   "surface": "Vitamix",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "KitchenAid",
+   "type": "equipment",
+   "surface": "KitchenAid",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "grain mill",
+   "type": "equipment",
+   "surface": "grain mill",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "41:21"
+  },
+  {
+   "canonical": "gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "41:21"
+  },
+  {
+   "canonical": "Carthusian monks",
+   "type": "place",
+   "surface": "Carthusian monks",
+   "ts": "40:26"
+  },
+  {
+   "canonical": "chartreuse",
+   "type": "ingredient",
+   "surface": "chartreuse",
+   "ts": "40:26"
+  }
+ ]
+}

@@ -1,0 +1,979 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "3:52"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "3:55"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "1:07"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "1:18"
+  },
+  {
+   "canonical": "Bonnie Plants",
+   "type": "place",
+   "surface": "Bonnie Plants",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:25"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Bushwig Brooklyn",
+   "type": "place",
+   "surface": "Bushwig Brooklyn",
+   "ts": "0:25"
+  },
+  {
+   "canonical": "Calcium Chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "6:45"
+  },
+  {
+   "canonical": "Calcium Chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Calcium Chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "7:53"
+  },
+  {
+   "canonical": "Calcium Lactate Gluconate",
+   "type": "ingredient",
+   "surface": "calcium lactate gluconate",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "7:53"
+  },
+  {
+   "canonical": "Pickling Lime",
+   "type": "ingredient",
+   "surface": "pickling lime",
+   "ts": "7:53"
+  },
+  {
+   "canonical": "Novo Shape",
+   "type": "technique",
+   "surface": "Novo Shape",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Pectin Methylesterase",
+   "type": "technique",
+   "surface": "pectin methylesterase",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Smoke Detector",
+   "type": "equipment",
+   "surface": "smoke detector",
+   "ts": "3:55"
+  },
+  {
+   "canonical": "Smoke Detector",
+   "type": "equipment",
+   "surface": "smoke detector",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "Searzol",
+   "type": "equipment",
+   "surface": "Searzol",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Fresh Direct",
+   "type": "place",
+   "surface": "Fresh Direct",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "8:29"
+  },
+  {
+   "canonical": "Calcium Hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Calcium Chloride",
+   "type": "ingredient",
+   "surface": "calcium chloride",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Pickling Lime",
+   "type": "ingredient",
+   "surface": "pickling lime",
+   "ts": "8:29"
+  },
+  {
+   "canonical": "Pickling Lime",
+   "type": "ingredient",
+   "surface": "pickling lime",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Pickling Lime",
+   "type": "ingredient",
+   "surface": "pickling lime",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "11:49"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancid",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancid",
+   "ts": "11:49"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancid",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancid",
+   "ts": "13:23"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancidity",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancid",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Rancidity",
+   "type": "technique",
+   "surface": "rancidity",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "8:29"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Mark Lanner",
+   "type": "person",
+   "surface": "Mark Lanner",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "17:07"
+  },
+  {
+   "canonical": "Searsols",
+   "type": "equipment",
+   "surface": "Searsols",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "22:53"
+  },
+  {
+   "canonical": "Jeffrey Morgenthaler",
+   "type": "person",
+   "surface": "Jeffrey Morgenthaler",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Andy Ricker",
+   "type": "person",
+   "surface": "Andy Ricker",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Patrick Martin",
+   "type": "person",
+   "surface": "Patrick Martin",
+   "ts": "20:15"
+  },
+  {
+   "canonical": "Cesare",
+   "type": "person",
+   "surface": "Cesare",
+   "ts": "18:16"
+  },
+  {
+   "canonical": "Traws",
+   "type": "person",
+   "surface": "Traws",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Rob",
+   "type": "person",
+   "surface": "Rob",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Rob",
+   "type": "person",
+   "surface": "Rob",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Guardian",
+   "type": "place",
+   "surface": "Guardian",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Guardian",
+   "type": "place",
+   "surface": "Guardian",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Guardian",
+   "type": "place",
+   "surface": "guardian",
+   "ts": "22:17"
+  },
+  {
+   "canonical": "Pastafly.com",
+   "type": "place",
+   "surface": "Pastafly.com",
+   "ts": "17:16"
+  },
+  {
+   "canonical": "Portland, Maine",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Portland, Maine",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Portland, Oregon",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Portland, Oregon",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Walmart",
+   "type": "place",
+   "surface": "Walmarts",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Costco",
+   "type": "place",
+   "surface": "Costco's",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Tesco",
+   "type": "place",
+   "surface": "Tesco",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Thailand",
+   "type": "place",
+   "surface": "Thailand",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Thailand",
+   "type": "place",
+   "surface": "Thailand",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Thailand",
+   "type": "place",
+   "surface": "Thailand",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Burma",
+   "type": "place",
+   "surface": "Burma",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "21:31"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "22:17"
+  },
+  {
+   "canonical": "Fish Meal",
+   "type": "ingredient",
+   "surface": "fish meal",
+   "ts": "21:31"
+  },
+  {
+   "canonical": "Fish Meal",
+   "type": "ingredient",
+   "surface": "fish meal",
+   "ts": "22:17"
+  },
+  {
+   "canonical": "Slave Labor",
+   "type": "technique",
+   "surface": "slave labor",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Slave Labor",
+   "type": "technique",
+   "surface": "slave labor",
+   "ts": "22:17"
+  },
+  {
+   "canonical": "Ventilation",
+   "type": "technique",
+   "surface": "ventilation",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Ventilation",
+   "type": "technique",
+   "surface": "ventilation",
+   "ts": "23:30"
+  },
+  {
+   "canonical": "Ventilation",
+   "type": "technique",
+   "surface": "ventilation",
+   "ts": "24:33"
+  },
+  {
+   "canonical": "Exhaust Fan",
+   "type": "equipment",
+   "surface": "exhaust fan",
+   "ts": "23:30"
+  },
+  {
+   "canonical": "Window Fan",
+   "type": "equipment",
+   "surface": "window fan",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "Window Fan",
+   "type": "equipment",
+   "surface": "window fan",
+   "ts": "25:33"
+  },
+  {
+   "canonical": "Hood",
+   "type": "equipment",
+   "surface": "hood",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "Hood",
+   "type": "equipment",
+   "surface": "hood",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "23:30"
+  },
+  {
+   "canonical": "Fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "Fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "24:33"
+  },
+  {
+   "canonical": "Fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "25:33"
+  },
+  {
+   "canonical": "Fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Decibel",
+   "type": "technique",
+   "surface": "decibel",
+   "ts": "24:33"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "23:57"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "24:33"
+  },
+  {
+   "canonical": "Public Enemy",
+   "type": "person",
+   "surface": "public enemy",
+   "ts": "34:01"
+  },
+  {
+   "canonical": "Public Enemy",
+   "type": "person",
+   "surface": "public enemy",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Public Enemy",
+   "type": "person",
+   "surface": "Public Enemy",
+   "ts": "34:29"
+  },
+  {
+   "canonical": "fiddleheads",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "34:01"
+  },
+  {
+   "canonical": "fiddleheads",
+   "type": "ingredient",
+   "surface": "Fiddleheads",
+   "ts": "34:29"
+  },
+  {
+   "canonical": "fiddleheads",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "fiddleheads",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "ostrich fern",
+   "type": "ingredient",
+   "surface": "ostrich-filled heads",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "pickling",
+   "type": "technique",
+   "surface": "pickled",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "pickling",
+   "type": "technique",
+   "surface": "pickling",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "blanching",
+   "type": "technique",
+   "surface": "blanched",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "Portland, Maine",
+   "type": "place",
+   "surface": "Portland, Maine",
+   "ts": "34:01"
+  },
+  {
+   "canonical": "Portland, Maine",
+   "type": "place",
+   "surface": "Portland, Maine",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "charcuterie",
+   "type": "ingredient",
+   "surface": "charcuterie",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "sandwich board",
+   "type": "equipment",
+   "surface": "sandwich board",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "Ellie Nasser",
+   "type": "person",
+   "surface": "Ellie Nasser",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "41:50"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "42:01"
+  },
+  {
+   "canonical": "Poly Science",
+   "type": "place",
+   "surface": "poly science",
+   "ts": "42:09"
+  },
+  {
+   "canonical": "Ostrich Fern",
+   "type": "ingredient",
+   "surface": "ostrich ferns",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Ostrich Fern",
+   "type": "ingredient",
+   "surface": "ostrich fern",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Ostrich Fern",
+   "type": "ingredient",
+   "surface": "ostrich ferns",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Ostrich Fern",
+   "type": "ingredient",
+   "surface": "ostrich ferns",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Ostrich Fern",
+   "type": "ingredient",
+   "surface": "ostrich fern",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Ostrich Fern",
+   "type": "ingredient",
+   "surface": "ostrich ferns",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Bracken Fern",
+   "type": "ingredient",
+   "surface": "bracken fern",
+   "ts": "35:23"
+  },
+  {
+   "canonical": "Bracken Fern",
+   "type": "ingredient",
+   "surface": "Bracken ferns",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Bracken Fern",
+   "type": "ingredient",
+   "surface": "bracken ferns",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Bracken Fern",
+   "type": "ingredient",
+   "surface": "bracken ferns",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Taquilicide",
+   "type": "ingredient",
+   "surface": "taquilicide",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "35:23"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "37:16"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "39:11"
+  },
+  {
+   "canonical": "Fiddlehead",
+   "type": "ingredient",
+   "surface": "fiddleheads",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "41:50"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "42:09"
+  },
+  {
+   "canonical": "Circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "42:47"
+  },
+  {
+   "canonical": "Poly Science Immersion Circulator",
+   "type": "equipment",
+   "surface": "poly science immersion circulator",
+   "ts": "41:50"
+  },
+  {
+   "canonical": "Steuben County, New York",
+   "type": "place",
+   "surface": "Steuben County, New York",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "CDC",
+   "type": "place",
+   "surface": "CDC",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Quebec",
+   "type": "place",
+   "surface": "Quebec",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Anchorage, Alaska",
+   "type": "place",
+   "surface": "Anchorage, Alaska",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Sears Alls",
+   "type": "equipment",
+   "surface": "Sears alls",
+   "ts": "35:23"
+  },
+  {
+   "canonical": "Vitamix",
+   "type": "equipment",
+   "surface": "Vitapep",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "Vitamix",
+   "type": "equipment",
+   "surface": "Vitapep",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "vacuum whip",
+   "type": "equipment",
+   "surface": "vacuum whip",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "oxidation",
+   "type": "technique",
+   "surface": "oxidation",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "cavitation",
+   "type": "technique",
+   "surface": "cavitation",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "soldering",
+   "type": "technique",
+   "surface": "soldering",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "electrical tape",
+   "type": "equipment",
+   "surface": "electrical tape",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "heat shrink",
+   "type": "equipment",
+   "surface": "heat shrink",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "solder",
+   "type": "ingredient",
+   "surface": "solder",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "solder",
+   "type": "ingredient",
+   "surface": "solder",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "Clef's",
+   "type": "place",
+   "surface": "Clefs",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "46:28"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "46:53"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "44:47"
+  }
+ ]
+}

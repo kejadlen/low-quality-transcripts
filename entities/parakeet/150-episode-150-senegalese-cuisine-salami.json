@@ -1,0 +1,1885 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:48"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Pierre Cham",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "Pierre Cham",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "6:48"
+  },
+  {
+   "canonical": "Tom Fisher",
+   "type": "person",
+   "surface": "Tom Fisher",
+   "ts": "2:22"
+  },
+  {
+   "canonical": "Tom Fisher",
+   "type": "person",
+   "surface": "Tom Fisher",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Tom Fisher",
+   "type": "person",
+   "surface": "Tom Fisher",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "Tom Fisher",
+   "type": "person",
+   "surface": "Tom Fisher",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears All",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "1:13"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "Underground Meats",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "underground meats",
+   "ts": "4:00"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "4:30"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "4:59"
+  },
+  {
+   "canonical": "Chebujan",
+   "type": "ingredient",
+   "surface": "Chebujan",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "2:22"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "3:02"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "4:59"
+  },
+  {
+   "canonical": "milk fat",
+   "type": "ingredient",
+   "surface": "milk fat",
+   "ts": "4:59"
+  },
+  {
+   "canonical": "nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "2:48"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears All",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "1:13"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Madison, Wisconsin",
+   "type": "place",
+   "surface": "Madison, Wisconsin",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "aging",
+   "type": "technique",
+   "surface": "aging",
+   "ts": "2:22"
+  },
+  {
+   "canonical": "searing",
+   "type": "technique",
+   "surface": "searing",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "torch",
+   "type": "equipment",
+   "surface": "torch",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Geg",
+   "type": "ingredient",
+   "surface": "geg",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Geg",
+   "type": "ingredient",
+   "surface": "geg",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Geg",
+   "type": "ingredient",
+   "surface": "geg",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "Yet",
+   "type": "ingredient",
+   "surface": "yet",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Yet",
+   "type": "ingredient",
+   "surface": "yet",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Yet",
+   "type": "ingredient",
+   "surface": "yet",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Yet",
+   "type": "ingredient",
+   "surface": "yet",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "Tamarind",
+   "type": "ingredient",
+   "surface": "tamarind",
+   "ts": "8:26"
+  },
+  {
+   "canonical": "Netutu",
+   "type": "ingredient",
+   "surface": "netutu",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented products",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented products",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Tomato Broth",
+   "type": "ingredient",
+   "surface": "broth that has uh cooked first all the uh root vegetables and the fish",
+   "ts": "8:26"
+  },
+  {
+   "canonical": "Tomato Broth",
+   "type": "ingredient",
+   "surface": "tomato broth",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Root Vegetables",
+   "type": "ingredient",
+   "surface": "root vegetables",
+   "ts": "8:26"
+  },
+  {
+   "canonical": "Netetu",
+   "type": "ingredient",
+   "surface": "Netetu",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "Netetu",
+   "type": "ingredient",
+   "surface": "netetu",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Netetu",
+   "type": "ingredient",
+   "surface": "Nettitude",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Netetu",
+   "type": "ingredient",
+   "surface": "netatou",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "Netetu",
+   "type": "ingredient",
+   "surface": "netatou",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Casamas",
+   "type": "place",
+   "surface": "Casamas",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "9:13"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Mali",
+   "type": "place",
+   "surface": "Mali",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Guinea",
+   "type": "place",
+   "surface": "Guinea",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Nigeria",
+   "type": "place",
+   "surface": "Nigeria",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "book and that's",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "Anita Lowe",
+   "type": "person",
+   "surface": "Anita",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "Anita Lowe",
+   "type": "person",
+   "surface": "Anita",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Jar",
+   "type": "ingredient",
+   "surface": "Jar",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "Jar",
+   "type": "ingredient",
+   "surface": "Jar",
+   "ts": "16:43"
+  },
+  {
+   "canonical": "Jar",
+   "type": "ingredient",
+   "surface": "jar",
+   "ts": "16:45"
+  },
+  {
+   "canonical": "Jar",
+   "type": "ingredient",
+   "surface": "jar",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "Jar",
+   "type": "ingredient",
+   "surface": "jar",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Netitu",
+   "type": "ingredient",
+   "surface": "netitude",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Netitu",
+   "type": "ingredient",
+   "surface": "netatou",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "Netitu",
+   "type": "ingredient",
+   "surface": "netatou",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Netitu",
+   "type": "ingredient",
+   "surface": "netitu",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "Netitu",
+   "type": "ingredient",
+   "surface": "nitty",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Fermented Onion Balls",
+   "type": "ingredient",
+   "surface": "fermented onion balls",
+   "ts": "15:11"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "African Markets",
+   "type": "place",
+   "surface": "African markets",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "Spice",
+   "type": "ingredient",
+   "surface": "spice",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Spice",
+   "type": "ingredient",
+   "surface": "spice",
+   "ts": "16:21"
+  },
+  {
+   "canonical": "Spice",
+   "type": "ingredient",
+   "surface": "spice",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "Cocoa Powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "17:20"
+  },
+  {
+   "canonical": "Balinese Long Peppers",
+   "type": "ingredient",
+   "surface": "Balinese long peppers",
+   "ts": "17:20"
+  },
+  {
+   "canonical": "Pierre Grains of Salim",
+   "type": "ingredient",
+   "surface": "Pierre grains of Salim",
+   "ts": "17:20"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "21:33"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "26:12"
+  },
+  {
+   "canonical": "Tibijan",
+   "type": "ingredient",
+   "surface": "Tibijan",
+   "ts": "21:11"
+  },
+  {
+   "canonical": "Tuba",
+   "type": "place",
+   "surface": "tuba",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "Tuba",
+   "type": "place",
+   "surface": "Tuba",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Tuba",
+   "type": "place",
+   "surface": "Tuba",
+   "ts": "20:43"
+  },
+  {
+   "canonical": "Cafe Tuba",
+   "type": "place",
+   "surface": "cafe tuba",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "Cafe Tuba",
+   "type": "place",
+   "surface": "Cafe Tuba",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Murids",
+   "type": "place",
+   "surface": "Morides",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "Murids",
+   "type": "place",
+   "surface": "Murids",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Murids",
+   "type": "place",
+   "surface": "Murids",
+   "ts": "20:43"
+  },
+  {
+   "canonical": "Amadou Bamba",
+   "type": "person",
+   "surface": "Amadou Bamba",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Glaberima rice",
+   "type": "ingredient",
+   "surface": "Glaberima",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "Glaberima rice",
+   "type": "ingredient",
+   "surface": "Glaberima",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Glaberima rice",
+   "type": "ingredient",
+   "surface": "Glaberima",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Glaberima rice",
+   "type": "ingredient",
+   "surface": "Glabarema",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Glaberima rice",
+   "type": "ingredient",
+   "surface": "glaberima",
+   "ts": "24:15"
+  },
+  {
+   "canonical": "Casamance",
+   "type": "place",
+   "surface": "Casamance",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "San Luis",
+   "type": "place",
+   "surface": "San Luis",
+   "ts": "21:33"
+  },
+  {
+   "canonical": "San Luis",
+   "type": "place",
+   "surface": "San Luis",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "Tibou Gen",
+   "type": "ingredient",
+   "surface": "Tibou Gen",
+   "ts": "21:33"
+  },
+  {
+   "canonical": "Quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "25:41"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "24:15"
+  },
+  {
+   "canonical": "T Bougen",
+   "type": "ingredient",
+   "surface": "T Bougen",
+   "ts": "26:12"
+  },
+  {
+   "canonical": "Low temp cooking",
+   "type": "technique",
+   "surface": "low time cooking",
+   "ts": "26:45"
+  },
+  {
+   "canonical": "Pasteurizer",
+   "type": "equipment",
+   "surface": "pasteurizer",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Sous V dashboard",
+   "type": "technique",
+   "surface": "Sous V dashboard",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "poly science",
+   "type": "technique",
+   "surface": "poly science",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "striper",
+   "type": "ingredient",
+   "surface": "striper",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "striper",
+   "type": "ingredient",
+   "surface": "striper",
+   "ts": "29:07"
+  },
+  {
+   "canonical": "white fish",
+   "type": "ingredient",
+   "surface": "white fish",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "pastuerization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "iPhone",
+   "type": "equipment",
+   "surface": "iPhone",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "iPad",
+   "type": "equipment",
+   "surface": "iPad",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "ziploc",
+   "type": "equipment",
+   "surface": "ziploc",
+   "ts": "29:07"
+  },
+  {
+   "canonical": "retherm",
+   "type": "technique",
+   "surface": "retherm",
+   "ts": "29:33"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Tibu gen",
+   "type": "place",
+   "surface": "Tibu gen",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Tiva Gen",
+   "type": "place",
+   "surface": "Tiva Gen",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "chibujan",
+   "type": "technique",
+   "surface": "chibujan",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "kibujen",
+   "type": "technique",
+   "surface": "kibujen",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "herb mixture",
+   "type": "ingredient",
+   "surface": "herb mixture",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "root vegetables",
+   "type": "ingredient",
+   "surface": "root vegetables",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "crust",
+   "type": "technique",
+   "surface": "crust",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "crust",
+   "type": "technique",
+   "surface": "crust",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "crust",
+   "type": "technique",
+   "surface": "crust",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "crust",
+   "type": "technique",
+   "surface": "crust",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "crispy texture",
+   "type": "technique",
+   "surface": "crispy texture",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "Tomato Paste",
+   "type": "ingredient",
+   "surface": "tomato paste",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "Caramelization",
+   "type": "technique",
+   "surface": "caramelization",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "Vegetables",
+   "type": "ingredient",
+   "surface": "vegetables",
+   "ts": "30:36"
+  },
+  {
+   "canonical": "Vegetables",
+   "type": "ingredient",
+   "surface": "vegetables",
+   "ts": "32:32"
+  },
+  {
+   "canonical": "Tibu Gen",
+   "type": "place",
+   "surface": "Tibu gen",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "Peanut Oil",
+   "type": "ingredient",
+   "surface": "peanut oil",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "Peanut Oil",
+   "type": "ingredient",
+   "surface": "peanut oil",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "Palm Oil",
+   "type": "ingredient",
+   "surface": "palm oil",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "Peanut",
+   "type": "ingredient",
+   "surface": "peanut",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "Peanut",
+   "type": "ingredient",
+   "surface": "peanut",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "Colonials",
+   "type": "place",
+   "surface": "colonials",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "French",
+   "type": "place",
+   "surface": "French",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "West Africa",
+   "type": "place",
+   "surface": "West Africa",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "South Carolina",
+   "type": "place",
+   "surface": "South South Carol",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "39:25"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Stu",
+   "type": "person",
+   "surface": "Stu",
+   "ts": "41:18"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "39:25"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "45:39"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "Underground Meats",
+   "ts": "39:25"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "underground meats",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "underground meats",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "Underground Meats",
+   "ts": "41:18"
+  },
+  {
+   "canonical": "Underground Meats",
+   "type": "place",
+   "surface": "undergroundmeats.com",
+   "ts": "42:26"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "43:20"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "mofad",
+   "ts": "45:39"
+  },
+  {
+   "canonical": "Tibujan",
+   "type": "ingredient",
+   "surface": "Tibujan",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "ingredient",
+   "surface": "Yolele",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Senegal from the source to the table",
+   "type": "place",
+   "surface": "Senegal from the source to the table",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "Pinocchio",
+   "type": "ingredient",
+   "surface": "Pinocchio",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "Sacion Sec",
+   "type": "ingredient",
+   "surface": "sacion sec",
+   "ts": "41:54"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "39:25"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "41:18"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "41:54"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salumi",
+   "ts": "42:07"
+  },
+  {
+   "canonical": "salami",
+   "type": "ingredient",
+   "surface": "salami",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "goat salami",
+   "type": "ingredient",
+   "surface": "goat salami",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "goat salami",
+   "type": "ingredient",
+   "surface": "goat salami",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "goat salami",
+   "type": "ingredient",
+   "surface": "goat salami",
+   "ts": "41:18"
+  },
+  {
+   "canonical": "goat salami",
+   "type": "ingredient",
+   "surface": "goat salami",
+   "ts": "41:54"
+  },
+  {
+   "canonical": "red wattles",
+   "type": "ingredient",
+   "surface": "red wattles",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "tamworts",
+   "type": "ingredient",
+   "surface": "tamworts",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "berkshirs",
+   "type": "ingredient",
+   "surface": "berkshirs",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "mule Foots",
+   "type": "ingredient",
+   "surface": "mule Foots",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "cured pork shoulder",
+   "type": "ingredient",
+   "surface": "cured pork shoulder",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "puffing gun",
+   "type": "equipment",
+   "surface": "puffing gun",
+   "ts": "43:20"
+  },
+  {
+   "canonical": "caramelize",
+   "type": "technique",
+   "surface": "caramelize",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "slow cooking",
+   "type": "technique",
+   "surface": "cook it slowly",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "slow cooking",
+   "type": "technique",
+   "surface": "cook slowly",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "lactic acid",
+   "type": "ingredient",
+   "surface": "lactic acid",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "soda van",
+   "type": "ingredient",
+   "surface": "soda van",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "47:00"
+  },
+  {
+   "canonical": "Zach",
+   "type": "person",
+   "surface": "Zach",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Zach",
+   "type": "person",
+   "surface": "Zach",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "51:13"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Roasted Bones",
+   "type": "ingredient",
+   "surface": "roasted bones",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Roasted Bones",
+   "type": "ingredient",
+   "surface": "roasted bones",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "White Stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "White Stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "White Stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "White Stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "51:13"
+  },
+  {
+   "canonical": "Chicken Carcass",
+   "type": "ingredient",
+   "surface": "carcass",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "Stewing Hen",
+   "type": "ingredient",
+   "surface": "stewing hen",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "Collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "Kamukamu",
+   "type": "ingredient",
+   "surface": "Kamukamu",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Kamukamu",
+   "type": "ingredient",
+   "surface": "kamukamu",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Iwatani",
+   "type": "equipment",
+   "surface": "Iwatani",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Sears",
+   "type": "place",
+   "surface": "Sears",
+   "ts": "52:14"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "53:31"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "52:14"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Remi",
+   "type": "technique",
+   "surface": "remi",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "51:13"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Roast",
+   "type": "technique",
+   "surface": "roast",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "Roast",
+   "type": "technique",
+   "surface": "roast",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Roast",
+   "type": "technique",
+   "surface": "roast",
+   "ts": "50:42"
+  },
+  {
+   "canonical": "Roast",
+   "type": "technique",
+   "surface": "roast",
+   "ts": "51:13"
+  },
+  {
+   "canonical": "Chicharolums",
+   "type": "ingredient",
+   "surface": "chicharolums",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Tripe",
+   "type": "ingredient",
+   "surface": "tripe",
+   "ts": "50:42"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "50:42"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "50:42"
+  },
+  {
+   "canonical": "Veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Carcass",
+   "type": "ingredient",
+   "surface": "carcasses",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "White stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "White stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "White stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "49:06"
+  },
+  {
+   "canonical": "White stock",
+   "type": "ingredient",
+   "surface": "white stock",
+   "ts": "51:13"
+  },
+  {
+   "canonical": "Brown stock",
+   "type": "ingredient",
+   "surface": "brown stuff",
+   "ts": "51:13"
+  }
+ ]
+}

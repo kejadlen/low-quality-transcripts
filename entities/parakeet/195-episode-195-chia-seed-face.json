@@ -1,0 +1,1387 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:40"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:53"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "2:28"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Bushwick",
+   "type": "place",
+   "surface": "Bushwick",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "3:10"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Curticula",
+   "type": "equipment",
+   "surface": "curticula",
+   "ts": "3:51"
+  },
+  {
+   "canonical": "Curticula",
+   "type": "equipment",
+   "surface": "curticula",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Whirly Pop",
+   "type": "equipment",
+   "surface": "whirly pop",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Whirly Pop",
+   "type": "equipment",
+   "surface": "whirly pop",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "Whirly Pop",
+   "type": "equipment",
+   "surface": "Whirly pop",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Whirly Pop",
+   "type": "equipment",
+   "surface": "whirly pop",
+   "ts": "7:12"
+  },
+  {
+   "canonical": "Whirly Pop",
+   "type": "equipment",
+   "surface": "whirly pop",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Whirly Pop",
+   "type": "equipment",
+   "surface": "whirly pop",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "5:17"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "5:26"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "5:49"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Espresso Rig",
+   "type": "equipment",
+   "surface": "espresso rig",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Ultimaker",
+   "type": "equipment",
+   "surface": "Ultimaker",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Electric Whirly Pop",
+   "type": "equipment",
+   "surface": "electric whirly pop",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Kleenex",
+   "type": "ingredient",
+   "surface": "Kleenex",
+   "ts": "7:12"
+  },
+  {
+   "canonical": "Fire Pit",
+   "type": "equipment",
+   "surface": "fire pit",
+   "ts": "3:10"
+  },
+  {
+   "canonical": "Fire Pit",
+   "type": "equipment",
+   "surface": "fire pit",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Fire Pit",
+   "type": "equipment",
+   "surface": "fire pit",
+   "ts": "4:41"
+  },
+  {
+   "canonical": "Bread Oven",
+   "type": "equipment",
+   "surface": "bread oven",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Masonry Oven",
+   "type": "equipment",
+   "surface": "masonry oven",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "12 Volt DC Motor",
+   "type": "equipment",
+   "surface": "12 volt DC motor",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:44"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Orphan Espresso",
+   "type": "place",
+   "surface": "Orphan Espresso",
+   "ts": "10:01"
+  },
+  {
+   "canonical": "Orphan Espresso",
+   "type": "place",
+   "surface": "Orphan Espresso",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "Ferro's",
+   "type": "equipment",
+   "surface": "Ferro's",
+   "ts": "10:01"
+  },
+  {
+   "canonical": "Ferro's",
+   "type": "equipment",
+   "surface": "Ferro's",
+   "ts": "10:58"
+  },
+  {
+   "canonical": "Coney",
+   "type": "equipment",
+   "surface": "Coney",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Sylvia",
+   "type": "equipment",
+   "surface": "Sylvia",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "PID",
+   "type": "technique",
+   "surface": "PID",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "14:40"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "16:56"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Fisher",
+   "type": "place",
+   "surface": "Fisher",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "Steven Hoppy",
+   "type": "person",
+   "surface": "Steven Hoppy",
+   "ts": "12:17"
+  },
+  {
+   "canonical": "San Juan",
+   "type": "place",
+   "surface": "San Juan",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "San Juan",
+   "type": "place",
+   "surface": "San Juan",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Puerto Rico",
+   "type": "place",
+   "surface": "Puerto Rico",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "Puerto Rico",
+   "type": "place",
+   "surface": "Puerto Rico",
+   "ts": "13:53"
+  },
+  {
+   "canonical": "Puerto Rico",
+   "type": "place",
+   "surface": "Puerto Rico",
+   "ts": "14:00"
+  },
+  {
+   "canonical": "Wiley Dufrein",
+   "type": "person",
+   "surface": "Wiley Dufrein",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "17:20"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "21:25"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Brian Haggerty",
+   "type": "person",
+   "surface": "Brian Haggerty",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Brian Haggerty",
+   "type": "person",
+   "surface": "Brian Haggerty",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "17:46"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuges",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "19:34"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:04"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:23"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "spinning bucket rotor",
+   "type": "equipment",
+   "surface": "spinning bucket rotor",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "fixed angle rotor",
+   "type": "equipment",
+   "surface": "fixed angle rotor",
+   "ts": "17:46"
+  },
+  {
+   "canonical": "agar clarification",
+   "type": "technique",
+   "surface": "agar clarification",
+   "ts": "20:04"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "20:04"
+  },
+  {
+   "canonical": "Banana Houstino",
+   "type": "ingredient",
+   "surface": "Banana Houstino",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "25:17"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "Chia",
+   "ts": "25:33"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "25:59"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "basil seeds",
+   "type": "ingredient",
+   "surface": "basil seeds",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "mucilage",
+   "type": "ingredient",
+   "surface": "mucilage",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "centrifugal force",
+   "type": "technique",
+   "surface": "G forces",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "centrifugal force",
+   "type": "technique",
+   "surface": "G forces",
+   "ts": "17:46"
+  },
+  {
+   "canonical": "spinning bucket",
+   "type": "equipment",
+   "surface": "spinning bucket",
+   "ts": "17:46"
+  },
+  {
+   "canonical": "spinning bucket",
+   "type": "equipment",
+   "surface": "Spinning bucket",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Mipples",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Mipples",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "23:54"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "24:05"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Minneapolis",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "Mipples",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Minneapolis",
+   "type": "place",
+   "surface": "mipples",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "St. Paul",
+   "type": "place",
+   "surface": "St. Paul",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Mr. T Chia head",
+   "type": "ingredient",
+   "surface": "Mr. T Chia head",
+   "ts": "25:33"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "26:50"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "30:33"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "29:01"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "29:23"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "31:51"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Chia seeds",
+   "type": "ingredient",
+   "surface": "chia seeds",
+   "ts": "33:35"
+  },
+  {
+   "canonical": "Chia slurry",
+   "type": "technique",
+   "surface": "chia slurry",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Chia slurry",
+   "type": "technique",
+   "surface": "Chia slurry",
+   "ts": "29:01"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "29:01"
+  },
+  {
+   "canonical": "Turkey burger",
+   "type": "place",
+   "surface": "turkey burger",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Turkey burger",
+   "type": "place",
+   "surface": "turkey burger",
+   "ts": "28:22"
+  },
+  {
+   "canonical": "Turkey burger",
+   "type": "place",
+   "surface": "turkey burger",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Turkey burger",
+   "type": "place",
+   "surface": "turkey burger",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Modernist cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "30:33"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "33:35"
+  },
+  {
+   "canonical": "International Journal of Food Science",
+   "type": "place",
+   "surface": "International Journal of Food Science",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Science Fair",
+   "type": "place",
+   "surface": "Science Fair",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Naveen",
+   "type": "person",
+   "surface": "Naveen",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Brian Haggerty",
+   "type": "person",
+   "surface": "Brian Haggerty",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Myra Ruby Segura Campos",
+   "type": "person",
+   "surface": "Myra Ruby Segura Campos",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Salvia Hispanica Gum",
+   "type": "ingredient",
+   "surface": "Salvia Hispanica Gum",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Guar seed",
+   "type": "ingredient",
+   "surface": "guar seed",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "Locust bean seed",
+   "type": "ingredient",
+   "surface": "locust bean seed",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "ISI EC whippers",
+   "type": "equipment",
+   "surface": "ISI EC whippers",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Chamber vacuums",
+   "type": "equipment",
+   "surface": "chamber vacuums",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "29:23"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "33:35"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "EC",
+   "type": "equipment",
+   "surface": "EC",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "EC",
+   "type": "equipment",
+   "surface": "EC",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "Cornelius keg",
+   "type": "equipment",
+   "surface": "Cornelius keg",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "nitrous tank",
+   "type": "equipment",
+   "surface": "nitrous tank",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "CO2 tank",
+   "type": "equipment",
+   "surface": "CO2 tank",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "vacuum machine",
+   "ts": "36:56"
+  },
+  {
+   "canonical": "nitro muddling",
+   "type": "technique",
+   "surface": "nitrous tank",
+   "ts": "37:41"
+  },
+  {
+   "canonical": "McDLT hot food separator",
+   "type": "equipment",
+   "surface": "McDLT hot food separator",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Alvin Schultz",
+   "type": "person",
+   "surface": "Alvin",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Alvin Schultz",
+   "type": "person",
+   "surface": "Alvin",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "Alvin Schultz",
+   "type": "person",
+   "surface": "Alvin",
+   "ts": "39:36"
+  },
+  {
+   "canonical": "Alvin Schultz",
+   "type": "person",
+   "surface": "Alvin",
+   "ts": "39:44"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Nick Bennett",
+   "type": "person",
+   "surface": "Nick Bennett",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Nick Bennett",
+   "type": "person",
+   "surface": "Nick Bennett",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "Hailpail",
+   "type": "place",
+   "surface": "Hailpail",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "mason jars",
+   "type": "equipment",
+   "surface": "mason jars",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "ABV",
+   "type": "ingredient",
+   "surface": "ABV",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "room temp",
+   "type": "place",
+   "surface": "room temp",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "room temp",
+   "type": "place",
+   "surface": "room temp",
+   "ts": "39:36"
+  },
+  {
+   "canonical": "fridge",
+   "type": "place",
+   "surface": "fridge",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "fridge",
+   "type": "place",
+   "surface": "fridge",
+   "ts": "39:36"
+  },
+  {
+   "canonical": "Rockefeller University",
+   "type": "place",
+   "surface": "Rockefeller University",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Rockefeller University",
+   "type": "place",
+   "surface": "Rockefeller University",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Dr. Rebecca Lancefield",
+   "type": "person",
+   "surface": "Dr. Rebecca Lancefield",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "George Washington",
+   "type": "person",
+   "surface": "George Washington",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "George Washington",
+   "type": "person",
+   "surface": "George Washington",
+   "ts": "41:26"
+  },
+  {
+   "canonical": "George Washington",
+   "type": "person",
+   "surface": "George Washington",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "George Washington",
+   "type": "person",
+   "surface": "George Washington",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "Michael Rumens",
+   "type": "person",
+   "surface": "Michael Rumens",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "Eggnog",
+   "type": "ingredient",
+   "surface": "eggnogs",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "Eggnog",
+   "type": "ingredient",
+   "surface": "eggnog",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Heavy Cream",
+   "type": "ingredient",
+   "surface": "heavy cream",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Heavy Cream",
+   "type": "ingredient",
+   "surface": "heavy cream",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Light Cream",
+   "type": "ingredient",
+   "surface": "light cream",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "41:26"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "41:26"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Brandy",
+   "type": "ingredient",
+   "surface": "brandy",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Rye Whiskey",
+   "type": "ingredient",
+   "surface": "rye whiskey",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Jamaica Rum",
+   "type": "ingredient",
+   "surface": "Jamaica rum",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Cognac",
+   "type": "ingredient",
+   "surface": "cognac",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Myers Dark Rum",
+   "type": "ingredient",
+   "surface": "Myers dark rum",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Egg Yolks",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Egg Whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "42:17"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "43:43"
+  }
+ ]
+}

@@ -1,0 +1,1393 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:55"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "ingredient",
+   "surface": "Modernist Cuisine",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "3:10"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "Modernist Pantry",
+   "type": "place",
+   "surface": "Modernist Pantry",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Pectinex Ultra SPL",
+   "type": "ingredient",
+   "surface": "Pectinex Ultra SPL",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Mario Batali",
+   "type": "person",
+   "surface": "Mario Batali",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Mario Batali",
+   "type": "person",
+   "surface": "Mario Batale",
+   "ts": "2:11"
+  },
+  {
+   "canonical": "Star Chefs",
+   "type": "place",
+   "surface": "Star Chefs",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Star Chefs",
+   "type": "place",
+   "surface": "Star Chefs",
+   "ts": "0:55"
+  },
+  {
+   "canonical": "International Chef's Congress",
+   "type": "place",
+   "surface": "International Chef's Congress",
+   "ts": "0:55"
+  },
+  {
+   "canonical": "Mapesh Restaurant",
+   "type": "place",
+   "surface": "Mapesh Restaurant",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:03"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "5:22"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikajime",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Shinke Nuki",
+   "type": "technique",
+   "surface": "Shinke Nuki",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Rigor mortis",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Rigor mortis",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Spinal cord ablation",
+   "type": "technique",
+   "surface": "spinal cord ablation",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Spinal cord ablation",
+   "type": "technique",
+   "surface": "spinal cord ablation",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "5:29"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "King mackerel",
+   "type": "ingredient",
+   "surface": "king mackerel",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Redfish",
+   "type": "ingredient",
+   "surface": "redfish",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Bluefish",
+   "type": "ingredient",
+   "surface": "bluefish",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Flounder",
+   "type": "ingredient",
+   "surface": "flounder",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Speckled trout",
+   "type": "ingredient",
+   "surface": "speckled trout",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Striped bass",
+   "type": "ingredient",
+   "surface": "striped bass",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Ice water",
+   "type": "ingredient",
+   "surface": "ice water",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "Cooler",
+   "type": "equipment",
+   "surface": "cooler",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Cooler",
+   "type": "equipment",
+   "surface": "cooler",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "Cooler",
+   "type": "equipment",
+   "surface": "cooler",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "Fishing pier",
+   "type": "place",
+   "surface": "fishing pier",
+   "ts": "6:49"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "iPad application",
+   "type": "equipment",
+   "surface": "iPad application",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikajime",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikijime",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikijime",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Bluefish",
+   "type": "ingredient",
+   "surface": "bluefish",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "Bluefish",
+   "type": "ingredient",
+   "surface": "bluefish",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "Bluefish",
+   "type": "ingredient",
+   "surface": "bluefish",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikajime",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikijime",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikijime",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Pressure Canner",
+   "type": "equipment",
+   "surface": "pressure canner",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "13:30"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "13:30"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Canning",
+   "type": "technique",
+   "surface": "canning",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Pickling Liquor",
+   "type": "ingredient",
+   "surface": "pickling liquor",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Sterilization",
+   "type": "technique",
+   "surface": "sterilization",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Pressure Canning",
+   "type": "technique",
+   "surface": "pressure canning",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Acidity",
+   "type": "ingredient",
+   "surface": "acidity",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Acidity",
+   "type": "ingredient",
+   "surface": "acidity",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "Spore",
+   "ts": "15:56"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "13:30"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "L Train",
+   "type": "place",
+   "surface": "L train",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "BQE",
+   "type": "place",
+   "surface": "BQE",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Flushing",
+   "type": "place",
+   "surface": "flushing",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Is the L Trainfucked.com",
+   "type": "place",
+   "surface": "Is the L Trainfucked.com",
+   "ts": "19:08"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "28:22"
+  },
+  {
+   "canonical": "Pectinex Ultra SPL",
+   "type": "ingredient",
+   "surface": "Pectinex Ultra SPL",
+   "ts": "26:48"
+  },
+  {
+   "canonical": "Pectinex Ultra SPL",
+   "type": "ingredient",
+   "surface": "Pectinex Ultra SPL",
+   "ts": "27:08"
+  },
+  {
+   "canonical": "Pectinex Ultra SPL",
+   "type": "ingredient",
+   "surface": "Pectanex Ultra SPL",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Pectinex Smash XXL",
+   "type": "ingredient",
+   "surface": "Pectinex Smash XXL",
+   "ts": "26:48"
+  },
+  {
+   "canonical": "Pectinex Smash XXL",
+   "type": "ingredient",
+   "surface": "Pectenex Smash XXL",
+   "ts": "27:08"
+  },
+  {
+   "canonical": "Peelzyme",
+   "type": "ingredient",
+   "surface": "Peelzyme",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "Gelatin",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "Gelatin",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "cartouche",
+   "type": "technique",
+   "surface": "cartouche",
+   "ts": "21:40"
+  },
+  {
+   "canonical": "cartouche",
+   "type": "technique",
+   "surface": "cartouche",
+   "ts": "22:14"
+  },
+  {
+   "canonical": "cartouche",
+   "type": "technique",
+   "surface": "cartouche",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "cartouche",
+   "type": "technique",
+   "surface": "cartouche",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "place",
+   "surface": "Modernist Cuisine",
+   "ts": "28:22"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "29:04"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "30:37"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "31:46"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "Starchefs",
+   "type": "place",
+   "surface": "Starchefs",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "aspirator",
+   "type": "equipment",
+   "surface": "aspirator",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "aspirator",
+   "type": "equipment",
+   "surface": "aspirator",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "aspirator",
+   "type": "equipment",
+   "surface": "aspirator",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "Erlenmeyer flask",
+   "type": "equipment",
+   "surface": "Erlenmeyer flask",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "stirring hot plate",
+   "type": "equipment",
+   "surface": "stirring hot plate",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "low temperature reductions",
+   "type": "technique",
+   "surface": "low temperature reductions",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "venturi effect",
+   "type": "technique",
+   "surface": "venturi effect",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Pyrex dish",
+   "type": "equipment",
+   "surface": "Pyrex dish",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "aluminum foil",
+   "type": "equipment",
+   "surface": "aluminum foil",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "ice water",
+   "type": "ingredient",
+   "surface": "ice water",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "Home Depot",
+   "type": "place",
+   "surface": "Home Depot",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "Home Depot",
+   "type": "place",
+   "surface": "Home Depot",
+   "ts": "36:26"
+  },
+  {
+   "canonical": "McMastercar.com",
+   "type": "place",
+   "surface": "McMastercar.com",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "eBay",
+   "type": "place",
+   "surface": "eBay",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "eBay",
+   "type": "place",
+   "surface": "eBay",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "eBay",
+   "type": "place",
+   "surface": "eBay",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "PVC tubes",
+   "type": "equipment",
+   "surface": "PVC tubes",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "aspirating nozzles",
+   "type": "equipment",
+   "surface": "aspirating nozzles",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "recirculating aspirator",
+   "type": "equipment",
+   "surface": "recirculating aspirator",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "meth labs",
+   "type": "place",
+   "surface": "meth labs",
+   "ts": "35:02"
+  },
+  {
+   "canonical": "meth labs",
+   "type": "place",
+   "surface": "meth labs",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "phenylalanine",
+   "type": "ingredient",
+   "surface": "phenylalanine",
+   "ts": "36:26"
+  },
+  {
+   "canonical": "distillate",
+   "type": "ingredient",
+   "surface": "distillate",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "liquor licenses",
+   "type": "place",
+   "surface": "liquor licenses",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "French top",
+   "type": "equipment",
+   "surface": "French top",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "French top",
+   "type": "equipment",
+   "surface": "French top",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "French top",
+   "type": "equipment",
+   "surface": "French top",
+   "ts": "39:10"
+  },
+  {
+   "canonical": "induction",
+   "type": "technique",
+   "surface": "induction",
+   "ts": "39:36"
+  },
+  {
+   "canonical": "GastroVac",
+   "type": "equipment",
+   "surface": "gastrovac",
+   "ts": "40:47"
+  },
+  {
+   "canonical": "GastroVac",
+   "type": "equipment",
+   "surface": "gastrovac",
+   "ts": "41:15"
+  },
+  {
+   "canonical": "GastroVac",
+   "type": "equipment",
+   "surface": "Gastrovac",
+   "ts": "41:32"
+  },
+  {
+   "canonical": "GastroVac",
+   "type": "equipment",
+   "surface": "gastrovac",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "roto vap",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "aspirator pump",
+   "type": "equipment",
+   "surface": "aspirator pump",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey Steingarden",
+   "ts": "41:32"
+  },
+  {
+   "canonical": "vacuum frying",
+   "type": "technique",
+   "surface": "vacuum frying",
+   "ts": "41:32"
+  },
+  {
+   "canonical": "distillation",
+   "type": "technique",
+   "surface": "distillations",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Nathan Myhrvold",
+   "type": "person",
+   "surface": "Nathan",
+   "ts": "46:38"
+  },
+  {
+   "canonical": "Intellectual Ventures",
+   "type": "place",
+   "surface": "Intellectual Ventures",
+   "ts": "46:38"
+  },
+  {
+   "canonical": "Gates Foundation",
+   "type": "place",
+   "surface": "Gates Foundation",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Formaldehyde",
+   "type": "ingredient",
+   "surface": "formaldehyde",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Cold chain",
+   "type": "technique",
+   "surface": "cold chain",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Cold chain",
+   "type": "technique",
+   "surface": "cold chain",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Sub-Saharan Africa",
+   "type": "place",
+   "surface": "Africa",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Sub-Saharan Africa",
+   "type": "place",
+   "surface": "sub-Saharan Africa",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Sub-Saharan Africa",
+   "type": "place",
+   "surface": "Sub-Saharan Africa",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Kenya",
+   "type": "place",
+   "surface": "Kenya",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Uganda",
+   "type": "place",
+   "surface": "Uganda",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "51:34"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "52:17"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "55:24"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "56:25"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "55:24"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "56:18"
+  },
+  {
+   "canonical": "Janani",
+   "type": "person",
+   "surface": "Janani",
+   "ts": "56:25"
+  },
+  {
+   "canonical": "Kenya",
+   "type": "place",
+   "surface": "Kenya",
+   "ts": "48:19"
+  },
+  {
+   "canonical": "Kenya",
+   "type": "place",
+   "surface": "Kenya",
+   "ts": "51:34"
+  },
+  {
+   "canonical": "Kenya",
+   "type": "place",
+   "surface": "Kenya",
+   "ts": "53:19"
+  },
+  {
+   "canonical": "Africa",
+   "type": "place",
+   "surface": "Africa",
+   "ts": "49:19"
+  },
+  {
+   "canonical": "Africa",
+   "type": "place",
+   "surface": "Africa",
+   "ts": "51:10"
+  },
+  {
+   "canonical": "Africa",
+   "type": "place",
+   "surface": "Africa",
+   "ts": "53:57"
+  },
+  {
+   "canonical": "sub-Saharan Africa",
+   "type": "place",
+   "surface": "sub-Saharan Africa",
+   "ts": "53:57"
+  },
+  {
+   "canonical": "East African Dairy Development",
+   "type": "place",
+   "surface": "East African Dairy Development",
+   "ts": "54:18"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "49:19"
+  },
+  {
+   "canonical": "pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "49:19"
+  },
+  {
+   "canonical": "formaldehyde",
+   "type": "ingredient",
+   "surface": "formaldehyde",
+   "ts": "50:05"
+  },
+  {
+   "canonical": "hydrogen peroxide",
+   "type": "ingredient",
+   "surface": "hydrogen peroxide",
+   "ts": "50:05"
+  },
+  {
+   "canonical": "micronutrients",
+   "type": "ingredient",
+   "surface": "micronutrients",
+   "ts": "51:10"
+  },
+  {
+   "canonical": "macronutrients",
+   "type": "ingredient",
+   "surface": "macronutrients",
+   "ts": "51:10"
+  },
+  {
+   "canonical": "caramelization",
+   "type": "technique",
+   "surface": "caramel color form",
+   "ts": "50:44"
+  },
+  {
+   "canonical": "Star Wars",
+   "type": "equipment",
+   "surface": "Star Wars",
+   "ts": "54:52"
+  },
+  {
+   "canonical": "laser",
+   "type": "equipment",
+   "surface": "kill laser",
+   "ts": "54:40"
+  },
+  {
+   "canonical": "laser",
+   "type": "equipment",
+   "surface": "lasers",
+   "ts": "55:16"
+  },
+  {
+   "canonical": "popcorn jelly beans",
+   "type": "ingredient",
+   "surface": "popcorn jelly beans",
+   "ts": "55:54"
+  },
+  {
+   "canonical": "artificial cherry",
+   "type": "ingredient",
+   "surface": "Artificial cherry",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "artificial cherry",
+   "type": "ingredient",
+   "surface": "artificial cherry",
+   "ts": "55:54"
+  },
+  {
+   "canonical": "orange",
+   "type": "ingredient",
+   "surface": "oranges",
+   "ts": "55:54"
+  },
+  {
+   "canonical": "lemon",
+   "type": "ingredient",
+   "surface": "lemons",
+   "ts": "55:54"
+  },
+  {
+   "canonical": "red",
+   "type": "ingredient",
+   "surface": "red",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "yellow",
+   "type": "ingredient",
+   "surface": "yellow",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "Jelly Belly",
+   "type": "equipment",
+   "surface": "Jelly Belly",
+   "ts": "56:18"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "56:35"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "58:16"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "59:03"
+  },
+  {
+   "canonical": "Molecular Gastronomy",
+   "type": "technique",
+   "surface": "molecular gastromedy",
+   "ts": "58:16"
+  },
+  {
+   "canonical": "Blowtorch",
+   "type": "equipment",
+   "surface": "blowtorch",
+   "ts": "57:49"
+  },
+  {
+   "canonical": "Blowtorch",
+   "type": "equipment",
+   "surface": "blowtorch",
+   "ts": "57:59"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "59:56"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Essex Street Market",
+   "type": "place",
+   "surface": "Essex Street Market",
+   "ts": "59:56"
+  },
+  {
+   "canonical": "Essex Street Market",
+   "type": "place",
+   "surface": "Essex Street Market",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "No Goat Left Behind",
+   "type": "technique",
+   "surface": "No Goat Left Behind",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "No Goat Left Behind",
+   "type": "technique",
+   "surface": "No Goat Left Behind",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Goat",
+   "type": "ingredient",
+   "surface": "Goat",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Goat",
+   "type": "ingredient",
+   "surface": "goat",
+   "ts": "1:00:54"
+  },
+  {
+   "canonical": "Goat",
+   "type": "ingredient",
+   "surface": "goat",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Heritage Breeds",
+   "type": "ingredient",
+   "surface": "heritage breeds",
+   "ts": "1:00:24"
+  }
+ ]
+}

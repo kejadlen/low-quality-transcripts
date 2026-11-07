@@ -1,0 +1,973 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:05"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:47"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:05"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:45"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "0:45"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "1:18"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "2:48"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Vegetable Spiralizer",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "0:45"
+  },
+  {
+   "canonical": "Vegetable Spiralizer",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Vegetable Spiralizer",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "1:18"
+  },
+  {
+   "canonical": "Vegetable Spiralizer",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Vegetable Spiralizer",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "2:48"
+  },
+  {
+   "canonical": "Vegetable Spiralizer",
+   "type": "equipment",
+   "surface": "vegetti",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "2:34"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "2:48"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "Zucchini",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Spaghetti",
+   "type": "ingredient",
+   "surface": "spaghetti",
+   "ts": "2:16"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "2:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:05"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:47"
+  },
+  {
+   "canonical": "Bradley",
+   "type": "person",
+   "surface": "Bradley",
+   "ts": "3:47"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "3:47"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "8:35"
+  },
+  {
+   "canonical": "Kenmore",
+   "type": "equipment",
+   "surface": "Kenmore",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Arduino",
+   "type": "equipment",
+   "surface": "Arduino",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "4:24"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "9:10"
+  },
+  {
+   "canonical": "humidity",
+   "type": "technique",
+   "surface": "humidity",
+   "ts": "4:24"
+  },
+  {
+   "canonical": "humidity",
+   "type": "technique",
+   "surface": "humidity",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "humidity",
+   "type": "technique",
+   "surface": "humidity",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "humidity",
+   "type": "technique",
+   "surface": "humidity",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "humidity",
+   "type": "technique",
+   "surface": "humidity",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "4:24"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "9:10"
+  },
+  {
+   "canonical": "fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Pyrex",
+   "type": "equipment",
+   "surface": "Pyrex",
+   "ts": "9:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "Scotchbrite",
+   "type": "equipment",
+   "surface": "Scotchbrite",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Dishwashing Soap",
+   "type": "ingredient",
+   "surface": "dishwashing stuff",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Alkaline Cleaners",
+   "type": "ingredient",
+   "surface": "alkaline cleaners",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Scotch Brights",
+   "type": "equipment",
+   "surface": "Scotch Brights",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Steel Wool",
+   "type": "equipment",
+   "surface": "steel wool",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Griswall",
+   "type": "equipment",
+   "surface": "griswall",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Lodge",
+   "type": "place",
+   "surface": "lodge",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:50"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "21:28"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "21:05"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "stuzz",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:26"
+  },
+  {
+   "canonical": "Johnny Hunter",
+   "type": "person",
+   "surface": "Johnny Hunter",
+   "ts": "22:26"
+  },
+  {
+   "canonical": "Black Gar",
+   "type": "person",
+   "surface": "Black Gar",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Black Garlic",
+   "type": "ingredient",
+   "surface": "black garlic",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Black Garlic",
+   "type": "ingredient",
+   "surface": "black garlic",
+   "ts": "22:26"
+  },
+  {
+   "canonical": "Black Garlic",
+   "type": "ingredient",
+   "surface": "black garlic",
+   "ts": "22:41"
+  },
+  {
+   "canonical": "Black Garlic",
+   "type": "ingredient",
+   "surface": "black garlic",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Rice Cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Rice Cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "24:17"
+  },
+  {
+   "canonical": "Rice Cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "25:33"
+  },
+  {
+   "canonical": "Rice Cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "26:12"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Excalib Food Dehydrator",
+   "type": "equipment",
+   "surface": "excalib food dehydrator",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Buchner Funnel",
+   "type": "equipment",
+   "surface": "Buchner funnels",
+   "ts": "27:06"
+  },
+  {
+   "canonical": "Coffee Filter",
+   "type": "equipment",
+   "surface": "coffee filters",
+   "ts": "27:06"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Molecular Gastronomy",
+   "type": "technique",
+   "surface": "modernist technique",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Nordic Food Lab",
+   "type": "place",
+   "surface": "Nordic food lab",
+   "ts": "25:33"
+  },
+  {
+   "canonical": "University of Madison",
+   "type": "place",
+   "surface": "university of Madison",
+   "ts": "24:38"
+  },
+  {
+   "canonical": "Madison",
+   "type": "place",
+   "surface": "Madison",
+   "ts": "24:17"
+  },
+  {
+   "canonical": "Madison",
+   "type": "place",
+   "surface": "Madison",
+   "ts": "24:38"
+  },
+  {
+   "canonical": "Cooking Issues Blog",
+   "type": "place",
+   "surface": "Cooking Issues blog",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "place",
+   "surface": "Liquid Intelligence",
+   "ts": "27:30"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "30:00"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "30:35"
+  },
+  {
+   "canonical": "Brita",
+   "type": "place",
+   "surface": "Brita",
+   "ts": "30:35"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "31:38"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "35:47"
+  },
+  {
+   "canonical": "Country Ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "36:51"
+  },
+  {
+   "canonical": "Carbonated Drink",
+   "type": "ingredient",
+   "surface": "carbonated drink",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Stir Drink",
+   "type": "ingredient",
+   "surface": "stir drink",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "38:08"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "38:27"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "Newsom's",
+   "type": "place",
+   "surface": "Newsom's",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Newsom's",
+   "type": "place",
+   "surface": "Newsom's",
+   "ts": "36:51"
+  },
+  {
+   "canonical": "Edwards",
+   "type": "place",
+   "surface": "Edwards",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Edwards",
+   "type": "place",
+   "surface": "Edwards",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "Finchville",
+   "type": "place",
+   "surface": "Finchville",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Benton",
+   "type": "place",
+   "surface": "Benton",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "place",
+   "surface": "Patrick",
+   "ts": "36:51"
+  },
+  {
+   "canonical": "Starchef",
+   "type": "place",
+   "surface": "Starchef",
+   "ts": "36:51"
+  },
+  {
+   "canonical": "Berkshire",
+   "type": "ingredient",
+   "surface": "Berkshire",
+   "ts": "36:32"
+  },
+  {
+   "canonical": "Hawthorn Strainer",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Hawthorn Strainer",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Hawthorn Strainer",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Hawthorn Strainer",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Hawthorn Strainer",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Tea Strainer",
+   "type": "equipment",
+   "surface": "tea strainer",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Tea Strainer",
+   "type": "equipment",
+   "surface": "tea strainer",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Julep Strainer",
+   "type": "equipment",
+   "surface": "juleup strainer",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Strain",
+   "type": "technique",
+   "surface": "strain",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "Strain",
+   "type": "technique",
+   "surface": "strain",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Strain",
+   "type": "technique",
+   "surface": "straining",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Strain",
+   "type": "technique",
+   "surface": "strain",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Snap",
+   "type": "technique",
+   "surface": "snap",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "Snap",
+   "type": "technique",
+   "surface": "snap",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Shake Technique",
+   "type": "technique",
+   "surface": "shake technique",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "Ice Crystals",
+   "type": "ingredient",
+   "surface": "ice crystals",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Cocktail Kingdoms",
+   "type": "equipment",
+   "surface": "cocktail kingdoms",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "equipment",
+   "surface": "hawthorn",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Milk Washing",
+   "type": "technique",
+   "surface": "milk washing",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Tea Strainer",
+   "type": "equipment",
+   "surface": "tea strainer",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Tea Strainer",
+   "type": "equipment",
+   "surface": "tea strainer",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Foam",
+   "type": "ingredient",
+   "surface": "foam",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Foam",
+   "type": "ingredient",
+   "surface": "foam",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Whey Proteins",
+   "type": "ingredient",
+   "surface": "whey proteins",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Snap Technique",
+   "type": "technique",
+   "surface": "snapping technique",
+   "ts": "41:16"
+  },
+  {
+   "canonical": "Tea Time",
+   "type": "place",
+   "surface": "tea time",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Tea Time",
+   "type": "place",
+   "surface": "tea time",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Sam Geiger",
+   "type": "person",
+   "surface": "Sam Geiger",
+   "ts": "42:38"
+  },
+  {
+   "canonical": "black garlic",
+   "type": "ingredient",
+   "surface": "black garlic",
+   "ts": "42:38"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "43:01"
+  },
+  {
+   "canonical": "Kickstarter",
+   "type": "place",
+   "surface": "Kickstarter",
+   "ts": "43:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "43:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "43:39"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "44:59"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "place",
+   "surface": "Tandoor",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "place",
+   "surface": "Tandoor",
+   "ts": "44:32"
+  }
+ ]
+}

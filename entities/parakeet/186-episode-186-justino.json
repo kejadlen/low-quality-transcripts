@@ -1,0 +1,715 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:50"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:33"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "Starchefs",
+   "type": "place",
+   "surface": "Star Chefs",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "Starchefs",
+   "type": "place",
+   "surface": "Star Chefs",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "Liquid Intelligence",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Salad Ni\u00e7oise",
+   "type": "ingredient",
+   "surface": "salad nichois",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Salad Ni\u00e7oise",
+   "type": "ingredient",
+   "surface": "salad nichoise",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Escoffier",
+   "type": "person",
+   "surface": "Escoffier",
+   "ts": "7:12"
+  },
+  {
+   "canonical": "Escoffier",
+   "type": "person",
+   "surface": "Escoffier",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "6:00"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "6:57"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "Tuna",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "Anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Vinaigrette",
+   "type": "technique",
+   "surface": "vinaigrette",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "6:43"
+  },
+  {
+   "canonical": "Green Beans",
+   "type": "ingredient",
+   "surface": "green beans",
+   "ts": "6:43"
+  },
+  {
+   "canonical": "Green Beans",
+   "type": "ingredient",
+   "surface": "green beans",
+   "ts": "6:57"
+  },
+  {
+   "canonical": "Artichoke Hearts",
+   "type": "ingredient",
+   "surface": "artichoke hearts",
+   "ts": "6:43"
+  },
+  {
+   "canonical": "Artichoke Hearts",
+   "type": "ingredient",
+   "surface": "artichoke hearts",
+   "ts": "6:57"
+  },
+  {
+   "canonical": "Capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "Olives",
+   "type": "ingredient",
+   "surface": "olives",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "Olives",
+   "type": "ingredient",
+   "surface": "olives",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Olives",
+   "type": "ingredient",
+   "surface": "olives",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "Tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "Tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "Hard-Boiled Eggs",
+   "type": "ingredient",
+   "surface": "hard-boiled eggs",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Red Peppers",
+   "type": "ingredient",
+   "surface": "red peppers",
+   "ts": "6:16"
+  },
+  {
+   "canonical": "Red Peppers",
+   "type": "ingredient",
+   "surface": "red peppers",
+   "ts": "6:37"
+  },
+  {
+   "canonical": "String Beans",
+   "type": "ingredient",
+   "surface": "string beans",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Christopher Bass",
+   "type": "person",
+   "surface": "Christopher Bass",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "LaRous Gastronomique",
+   "type": "place",
+   "surface": "LaRous Gastronomique",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "11:21"
+  },
+  {
+   "canonical": "tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "14:49"
+  },
+  {
+   "canonical": "tuna",
+   "type": "ingredient",
+   "surface": "bluefin",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "15:30"
+  },
+  {
+   "canonical": "hard boiled egg",
+   "type": "ingredient",
+   "surface": "hard boiled egg",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "anchovy fillets",
+   "type": "ingredient",
+   "surface": "anchovy fillets",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "anchovy fillets",
+   "type": "ingredient",
+   "surface": "anchovy fillets",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "chervil",
+   "type": "ingredient",
+   "surface": "chervil",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "tarragon",
+   "type": "ingredient",
+   "surface": "tarragon",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "tarragon",
+   "type": "ingredient",
+   "surface": "tarragon",
+   "ts": "11:21"
+  },
+  {
+   "canonical": "French dressing",
+   "type": "ingredient",
+   "surface": "French dressing",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "9:30"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "10:22"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "string beans",
+   "type": "ingredient",
+   "surface": "string beans",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "10:22"
+  },
+  {
+   "canonical": "olives",
+   "type": "ingredient",
+   "surface": "olives",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "olives",
+   "type": "ingredient",
+   "surface": "olives",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "vinaigrette dressing",
+   "type": "ingredient",
+   "surface": "vinaigrette dressing",
+   "ts": "9:30"
+  },
+  {
+   "canonical": "black bass",
+   "type": "ingredient",
+   "surface": "black bass",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "swordfish",
+   "type": "ingredient",
+   "surface": "swordfish",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "swordfish",
+   "type": "ingredient",
+   "surface": "swordfish",
+   "ts": "13:25"
+  },
+  {
+   "canonical": "swordfish",
+   "type": "ingredient",
+   "surface": "swordfish",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "swordfish",
+   "type": "ingredient",
+   "surface": "swordfish",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "swordfish",
+   "type": "ingredient",
+   "surface": "Swordfish",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "shark",
+   "type": "ingredient",
+   "surface": "shark",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "shark",
+   "type": "ingredient",
+   "surface": "shark",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcook",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "overcooking",
+   "type": "technique",
+   "surface": "overcooked",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Herring's Dictionary of Classical Modern Cookery",
+   "type": "place",
+   "surface": "Herring's Dictionary of Classical Modern Cookery",
+   "ts": "9:57"
+  },
+  {
+   "canonical": "Nicholas (nichois)",
+   "type": "ingredient",
+   "surface": "nichois",
+   "ts": "9:06"
+  },
+  {
+   "canonical": "Nicholas (nichois)",
+   "type": "ingredient",
+   "surface": "nichois",
+   "ts": "12:05"
+  },
+  {
+   "canonical": "Raymond Calvel",
+   "type": "person",
+   "surface": "Raymond Calvel",
+   "ts": "21:27"
+  },
+  {
+   "canonical": "Houstino",
+   "type": "technique",
+   "surface": "Houstino",
+   "ts": "19:10"
+  },
+  {
+   "canonical": "Houstino",
+   "type": "technique",
+   "surface": "Houstino",
+   "ts": "19:58"
+  },
+  {
+   "canonical": "Autolysse",
+   "type": "technique",
+   "surface": "autolysse",
+   "ts": "21:09"
+  },
+  {
+   "canonical": "Autolysse",
+   "type": "technique",
+   "surface": "autolysse",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Autolysse",
+   "type": "technique",
+   "surface": "autolysse",
+   "ts": "23:38"
+  },
+  {
+   "canonical": "Slaughter Conditions",
+   "type": "place",
+   "surface": "Slaughter Conditions",
+   "ts": "18:13"
+  },
+  {
+   "canonical": "Glycogen",
+   "type": "ingredient",
+   "surface": "glycogen",
+   "ts": "18:13"
+  },
+  {
+   "canonical": "Pectin X Ultra SPL",
+   "type": "ingredient",
+   "surface": "pectin X Ultra SPL",
+   "ts": "19:10"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "25:45"
+  },
+  {
+   "canonical": "Josh Swanson",
+   "type": "person",
+   "surface": "Josh Swanson",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Vacuum Bag Fermentation",
+   "type": "technique",
+   "surface": "vacuum bag fermentation",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Pickling Safety",
+   "type": "technique",
+   "surface": "pickling safety",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "29:02"
+  },
+  {
+   "canonical": "Kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "30:54"
+  },
+  {
+   "canonical": "Kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "31:25"
+  },
+  {
+   "canonical": "Sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Vacuum Bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Vacuum Bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Vacuum Bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "30:54"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "26:02"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "31:58"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "33:24"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "34:28"
+  }
+ ]
+}

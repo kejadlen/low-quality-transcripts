@@ -1,0 +1,931 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:19"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:35"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:19"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:35"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:47"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:11"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:49"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Nastasha Lopez Hammer",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Hearst Ranch",
+   "type": "place",
+   "surface": "Hearst Ranch",
+   "ts": "1:11"
+  },
+  {
+   "canonical": "Fairchild Tropical Botanic Garden",
+   "type": "place",
+   "surface": "Fairchild",
+   "ts": "3:32"
+  },
+  {
+   "canonical": "Miami Dade County Fruit and Spice Park",
+   "type": "place",
+   "surface": "fruit and spice park",
+   "ts": "3:49"
+  },
+  {
+   "canonical": "Miami Dade County Fruit and Spice Park",
+   "type": "place",
+   "surface": "fruit and spice park",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Modernist Cuisine Cookbook",
+   "type": "technique",
+   "surface": "Modernist Cuisine Cookbook",
+   "ts": "1:47"
+  },
+  {
+   "canonical": "Modernist Cuisine Cookbook",
+   "type": "technique",
+   "surface": "modernist cuisine cookbook",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "liquid nitrogen",
+   "type": "technique",
+   "surface": "liquid nitrogen",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "agar agar",
+   "type": "ingredient",
+   "surface": "agar agar",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "canistel",
+   "type": "ingredient",
+   "surface": "canistel",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "canistel",
+   "type": "ingredient",
+   "surface": "canistel",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "black sapote",
+   "type": "ingredient",
+   "surface": "black sapote",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "black sapote",
+   "type": "ingredient",
+   "surface": "Black sapote",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Jipoticaba",
+   "type": "ingredient",
+   "surface": "Jipoticaba",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Gabby's ice cream",
+   "type": "ingredient",
+   "surface": "Gabby's ice cream",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "EC",
+   "type": "technique",
+   "surface": "EC",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "soda siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "soda siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "10:11"
+  },
+  {
+   "canonical": "soda siphon",
+   "type": "equipment",
+   "surface": "soda siphon",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "whipper",
+   "type": "equipment",
+   "surface": "whipper",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "whipper",
+   "type": "equipment",
+   "surface": "whippers",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "whipper",
+   "type": "equipment",
+   "surface": "whipper",
+   "ts": "10:11"
+  },
+  {
+   "canonical": "whipper",
+   "type": "equipment",
+   "surface": "whippers",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "whipper",
+   "type": "equipment",
+   "surface": "whipper",
+   "ts": "11:12"
+  },
+  {
+   "canonical": "rapid infusion",
+   "type": "technique",
+   "surface": "rapid infusion",
+   "ts": "9:05"
+  },
+  {
+   "canonical": "rapid infusion",
+   "type": "technique",
+   "surface": "rapid infusion",
+   "ts": "11:12"
+  },
+  {
+   "canonical": "preserved lemons",
+   "type": "ingredient",
+   "surface": "preserved lemons",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "9:05"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "13:26"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "13:40"
+  },
+  {
+   "canonical": "poached egg",
+   "type": "technique",
+   "surface": "poached egg",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "poached egg",
+   "type": "technique",
+   "surface": "poached egg",
+   "ts": "14:22"
+  },
+  {
+   "canonical": "poached egg",
+   "type": "technique",
+   "surface": "poached egg",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Ervateis",
+   "type": "person",
+   "surface": "Erveteis",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Erva Tis",
+   "type": "person",
+   "surface": "Erva Tis",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Armandino Batali",
+   "type": "person",
+   "surface": "Armandino Batale's",
+   "ts": "19:12"
+  },
+  {
+   "canonical": "Mario Batali",
+   "type": "person",
+   "surface": "Mario Batali",
+   "ts": "19:12"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Alan Benton",
+   "type": "person",
+   "surface": "Alan Benton",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Nancy Mahaffey",
+   "type": "person",
+   "surface": "Nancy Mahaffey",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Colonel Newsom's",
+   "type": "place",
+   "surface": "Colonel Newsom's",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Finchville Farms",
+   "type": "place",
+   "surface": "Finchville Farms",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "acetylene",
+   "type": "ingredient",
+   "surface": "acetylene",
+   "ts": "23:16"
+  },
+  {
+   "canonical": "acetylene",
+   "type": "ingredient",
+   "surface": "acetylene",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "acetylene",
+   "type": "ingredient",
+   "surface": "acetylene",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "propane",
+   "type": "ingredient",
+   "surface": "propane",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "propane",
+   "type": "ingredient",
+   "surface": "propane",
+   "ts": "25:25"
+  },
+  {
+   "canonical": "butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "butane",
+   "type": "ingredient",
+   "surface": "butane",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "methylmercaptan",
+   "type": "ingredient",
+   "surface": "methylmercaptain",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "ethyl mercaptan",
+   "type": "ingredient",
+   "surface": "ethylmorcaptain",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "methanothiol",
+   "type": "ingredient",
+   "surface": "methana methanothiol",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "torch taste",
+   "type": "ingredient",
+   "surface": "torch taste",
+   "ts": "24:37"
+  },
+  {
+   "canonical": "torch taste",
+   "type": "ingredient",
+   "surface": "torch taste",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "torch taste",
+   "type": "ingredient",
+   "surface": "torch taste",
+   "ts": "25:25"
+  },
+  {
+   "canonical": "chinois",
+   "type": "equipment",
+   "surface": "chinois",
+   "ts": "25:25"
+  },
+  {
+   "canonical": "nichrome wire",
+   "type": "equipment",
+   "surface": "nicrome wire",
+   "ts": "25:25"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "place",
+   "surface": "Modernist Cuisine",
+   "ts": "25:25"
+  },
+  {
+   "canonical": "MAPP Gas",
+   "type": "ingredient",
+   "surface": "map gas",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Roofing Torch",
+   "type": "equipment",
+   "surface": "roofing torch",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Roofing Torch",
+   "type": "equipment",
+   "surface": "roofing torch",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Propane Tank",
+   "type": "equipment",
+   "surface": "propane tank",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Torch Sear",
+   "type": "technique",
+   "surface": "torch sear",
+   "ts": "27:08"
+  },
+  {
+   "canonical": "Myard Reactions",
+   "type": "technique",
+   "surface": "Myard reactions",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Crust Formation",
+   "type": "technique",
+   "surface": "crust formation",
+   "ts": "26:42"
+  },
+  {
+   "canonical": "Down D",
+   "type": "place",
+   "surface": "Down D",
+   "ts": "29:33"
+  },
+  {
+   "canonical": "Down D",
+   "type": "place",
+   "surface": "down D",
+   "ts": "29:48"
+  },
+  {
+   "canonical": "Down D",
+   "type": "place",
+   "surface": "down D",
+   "ts": "30:04"
+  },
+  {
+   "canonical": "Aaron Melvin",
+   "type": "person",
+   "surface": "Aaron Melvin",
+   "ts": "30:48"
+  },
+  {
+   "canonical": "Lilikoi",
+   "type": "ingredient",
+   "surface": "Lilicoy",
+   "ts": "30:48"
+  },
+  {
+   "canonical": "Lilikoi",
+   "type": "ingredient",
+   "surface": "Lilicoy",
+   "ts": "31:05"
+  },
+  {
+   "canonical": "Lilikoi",
+   "type": "ingredient",
+   "surface": "lilicoy",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Lilikoi",
+   "type": "ingredient",
+   "surface": "lilicoy",
+   "ts": "32:40"
+  },
+  {
+   "canonical": "Lilikoi",
+   "type": "ingredient",
+   "surface": "lilocoi",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Carrageenan",
+   "type": "ingredient",
+   "surface": "carrageenin",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Carrageenan",
+   "type": "ingredient",
+   "surface": "carragaean",
+   "ts": "31:51"
+  },
+  {
+   "canonical": "Carrageenan",
+   "type": "ingredient",
+   "surface": "carrageenin",
+   "ts": "32:22"
+  },
+  {
+   "canonical": "Locust Bean Gum",
+   "type": "ingredient",
+   "surface": "locust bean gum",
+   "ts": "31:51"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "32:22"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "32:40"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "34:05"
+  },
+  {
+   "canonical": "Tempering",
+   "type": "technique",
+   "surface": "tempering",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Tempering",
+   "type": "technique",
+   "surface": "tempering",
+   "ts": "34:05"
+  },
+  {
+   "canonical": "Meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Dehydration",
+   "type": "technique",
+   "surface": "dehydrate",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Pepperoni Bill",
+   "type": "person",
+   "surface": "Pepperoni Bill",
+   "ts": "34:55"
+  },
+  {
+   "canonical": "Pepperoni Bill",
+   "type": "person",
+   "surface": "Pepperoni Bill",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Pepperoni Bill",
+   "type": "person",
+   "surface": "Pepperoni Bill",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Pizza Expo",
+   "type": "place",
+   "surface": "Pizza Expo",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Las Vegas",
+   "type": "place",
+   "surface": "Las Vegas",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Alan from DC",
+   "type": "person",
+   "surface": "Alan from DC",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Alan from DC",
+   "type": "person",
+   "surface": "Alan from DC",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "PID control",
+   "type": "technique",
+   "surface": "PID control",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "PID control",
+   "type": "technique",
+   "surface": "PID",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "PID control",
+   "type": "technique",
+   "surface": "PID",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "immersion circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Arduino",
+   "type": "equipment",
+   "surface": "Arduino",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "PID loop",
+   "type": "technique",
+   "surface": "PID loop",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "solid state relay",
+   "type": "equipment",
+   "surface": "solid state relay",
+   "ts": "42:18"
+  },
+  {
+   "canonical": "solid state relay",
+   "type": "equipment",
+   "surface": "solid state relay",
+   "ts": "42:57"
+  },
+  {
+   "canonical": "Nathan Mirvald",
+   "type": "person",
+   "surface": "Nathan Mirvald",
+   "ts": "42:57"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "42:57"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "place",
+   "surface": "modernist cuisine",
+   "ts": "42:57"
+  },
+  {
+   "canonical": "water jet cutter",
+   "type": "equipment",
+   "surface": "water jet cutter",
+   "ts": "43:38"
+  },
+  {
+   "canonical": "scanning electron microscope",
+   "type": "equipment",
+   "surface": "scanning electron microscope",
+   "ts": "43:53"
+  },
+  {
+   "canonical": "ultrasonic French fries",
+   "type": "technique",
+   "surface": "ultrasonic French fries",
+   "ts": "44:17"
+  },
+  {
+   "canonical": "Josh Azersky",
+   "type": "person",
+   "surface": "Josh Azersky",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Nathan Mirvold",
+   "type": "person",
+   "surface": "Nathan Mirvold",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Ultrasonic French Fry",
+   "type": "ingredient",
+   "surface": "ultrasonic french fry",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "44:59"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "Double Ridiculous Wam Damula",
+   "type": "technique",
+   "surface": "double ridiculous Wam Damula",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:59"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "47:04"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "45:59"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Sugar Maple Trees",
+   "type": "place",
+   "surface": "sugar maple trees",
+   "ts": "46:28"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "46:28"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "48:35"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Unfiltered",
+   "type": "place",
+   "surface": "Unfiltered",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Unfiltered",
+   "type": "place",
+   "surface": "Unfiltered",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Pegu Club",
+   "type": "place",
+   "surface": "Pegu Club",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Death and Company",
+   "type": "place",
+   "surface": "Death and Company",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Mofad",
+   "type": "place",
+   "surface": "Mofad",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Eventbright",
+   "type": "place",
+   "surface": "eventbright",
+   "ts": "49:41"
+  }
+ ]
+}

@@ -1,0 +1,925 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Paul Peterson",
+   "type": "person",
+   "surface": "Paul Peterson",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Paul Peterson",
+   "type": "person",
+   "surface": "Paul",
+   "ts": "3:18"
+  },
+  {
+   "canonical": "Paul Peterson",
+   "type": "person",
+   "surface": "Paul",
+   "ts": "6:28"
+  },
+  {
+   "canonical": "Paul Peterson",
+   "type": "person",
+   "surface": "Paul",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous-vid",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "8:10"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Ceyton",
+   "type": "ingredient",
+   "surface": "Ceyton",
+   "ts": "7:48"
+  },
+  {
+   "canonical": "Ceyton",
+   "type": "ingredient",
+   "surface": "Ceyton",
+   "ts": "8:10"
+  },
+  {
+   "canonical": "Ceyton",
+   "type": "ingredient",
+   "surface": "Ceyton",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "seitan",
+   "type": "ingredient",
+   "surface": "Satan",
+   "ts": "6:28"
+  },
+  {
+   "canonical": "seitan",
+   "type": "ingredient",
+   "surface": "Satan",
+   "ts": "7:00"
+  },
+  {
+   "canonical": "seitan",
+   "type": "ingredient",
+   "surface": "Satan",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooking",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "8:10"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Barter House Wines",
+   "type": "place",
+   "surface": "Barter House Wines",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Burger House",
+   "type": "place",
+   "surface": "Burger House",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "meatharvest.org",
+   "type": "place",
+   "surface": "meatharvest.org",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "13:23"
+  },
+  {
+   "canonical": "Ross McGuire",
+   "type": "person",
+   "surface": "Ross",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Ross McGuire",
+   "type": "person",
+   "surface": "Ross",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "14:44"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "12:08"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "12:47"
+  },
+  {
+   "canonical": "Chlorophyll",
+   "type": "ingredient",
+   "surface": "chlorophyll",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "12:08"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "13:23"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "13:23"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Minestra",
+   "type": "place",
+   "surface": "minestra",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Minestra",
+   "type": "place",
+   "surface": "minestra",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Minestra",
+   "type": "place",
+   "surface": "minestra",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Tales of the Cocktail",
+   "type": "place",
+   "surface": "Tales of the Cocktail",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Artichoke",
+   "type": "ingredient",
+   "surface": "artichoke",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Artichoke",
+   "type": "ingredient",
+   "surface": "artichoke",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Broad Bean",
+   "type": "ingredient",
+   "surface": "broad bean",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Runner Bean",
+   "type": "ingredient",
+   "surface": "runner bean",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "White Asparagus",
+   "type": "ingredient",
+   "surface": "white asparagus",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "White Asparagus",
+   "type": "ingredient",
+   "surface": "white asparagus",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Green Vegetable Stew",
+   "type": "place",
+   "surface": "Spanish vegetable uh stew type dish, minestra",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Veridian Green",
+   "type": "place",
+   "surface": "Viridian green",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Veridian Green",
+   "type": "place",
+   "surface": "Viridian green",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Blue Garlic Soup",
+   "type": "place",
+   "surface": "blue garlic soup",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "place",
+   "surface": "modernist cuisine",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan Miravold",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan Miravold",
+   "ts": "17:00"
+  },
+  {
+   "canonical": "Nathan Miravold",
+   "type": "person",
+   "surface": "Nathan Miravold",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Chris Young",
+   "type": "person",
+   "surface": "Chris Young",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "Maxime Bilet",
+   "type": "person",
+   "surface": "Maxime Bilet",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "718-497-2128",
+   "type": "place",
+   "surface": "718-497-2128",
+   "ts": "14:44"
+  },
+  {
+   "canonical": "Nathan Mirvold",
+   "type": "person",
+   "surface": "Nathan Mirvold",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Nathan Mirvold",
+   "type": "person",
+   "surface": "Mirvold",
+   "ts": "17:33"
+  },
+  {
+   "canonical": "Ken Kirshenbaum",
+   "type": "person",
+   "surface": "Ken Kirshenbaum",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Carbon Monoxide",
+   "type": "ingredient",
+   "surface": "carbon monoxide",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Carbon Monoxide",
+   "type": "ingredient",
+   "surface": "carbon monoxide",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Carbon Monoxide",
+   "type": "ingredient",
+   "surface": "carbon monoxide",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Blood Basting",
+   "type": "technique",
+   "surface": "blood basting",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Blood Basting",
+   "type": "technique",
+   "surface": "blood basting",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "Lavarins Cuisinaire Frossay",
+   "type": "place",
+   "surface": "Lavarins Cuisinaire Frossay",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "Pressed Duck",
+   "type": "technique",
+   "surface": "pressed duck",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "Pressed Duck",
+   "type": "technique",
+   "surface": "pressed duck",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Pressed Duck",
+   "type": "technique",
+   "surface": "pressed duck",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Civet",
+   "type": "technique",
+   "surface": "civet",
+   "ts": "22:20"
+  },
+  {
+   "canonical": "Blood Soup",
+   "type": "technique",
+   "surface": "blood soup",
+   "ts": "22:20"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "James Brown",
+   "type": "person",
+   "surface": "James Brown",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "James Brown",
+   "type": "person",
+   "surface": "James Brown",
+   "ts": "26:40"
+  },
+  {
+   "canonical": "Naveen Sinha",
+   "type": "person",
+   "surface": "Naveen",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Naveen Sinha",
+   "type": "person",
+   "surface": "Naveen",
+   "ts": "27:46"
+  },
+  {
+   "canonical": "Naveen Sinha",
+   "type": "person",
+   "surface": "Naveen",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Naveen Sinha",
+   "type": "person",
+   "surface": "Naveen",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "Uzo effect",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "uzo effect",
+   "ts": "28:57"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "uzo",
+   "ts": "29:22"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "uzo effect",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Uzo Effect",
+   "type": "technique",
+   "surface": "uzo",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Absinthe Effect",
+   "type": "technique",
+   "surface": "absinthe effect",
+   "ts": "29:22"
+  },
+  {
+   "canonical": "Spontaneous Emulsion",
+   "type": "technique",
+   "surface": "spontaneous emulsion",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotary evaporator",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Anis-Flavored Spirits",
+   "type": "ingredient",
+   "surface": "anis-flavored spirits",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Anatole",
+   "type": "ingredient",
+   "surface": "Anatole",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Blue Cornflower",
+   "type": "ingredient",
+   "surface": "blue cornflower",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Fruit and Spice Park",
+   "type": "place",
+   "surface": "fruit and spice park",
+   "ts": "35:03"
+  },
+  {
+   "canonical": "Fruit and Spice Park",
+   "type": "place",
+   "surface": "fruit and spice park",
+   "ts": "35:24"
+  },
+  {
+   "canonical": "Mango",
+   "type": "ingredient",
+   "surface": "mango",
+   "ts": "35:24"
+  },
+  {
+   "canonical": "Mango",
+   "type": "ingredient",
+   "surface": "mango",
+   "ts": "35:47"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "35:47"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "40:21"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "43:20"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Morton Salt",
+   "type": "ingredient",
+   "surface": "Morton",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "Popcorn Salt",
+   "type": "ingredient",
+   "surface": "popcorn salt",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "Popcorn Salt",
+   "type": "ingredient",
+   "surface": "popcorn salt",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Popcorn Salt",
+   "type": "ingredient",
+   "surface": "popcorn salt",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Air Popper",
+   "type": "equipment",
+   "surface": "air popper",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Air Popper",
+   "type": "equipment",
+   "surface": "Air popper",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Air Popper",
+   "type": "equipment",
+   "surface": "air popper",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "Air Popper",
+   "type": "equipment",
+   "surface": "air popper",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "Vanilla Foam",
+   "type": "technique",
+   "surface": "vanilla foam",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "Vanilla",
+   "type": "ingredient",
+   "surface": "vanilla",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "Vanilla",
+   "type": "ingredient",
+   "surface": "vanilla",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "Tonga",
+   "type": "place",
+   "surface": "Tonga",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "New Zealand",
+   "type": "place",
+   "surface": "New Zealand",
+   "ts": "45:21"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "49:39"
+  },
+  {
+   "canonical": "Katie Kiefer",
+   "type": "person",
+   "surface": "Katie Kiefer",
+   "ts": "52:22"
+  },
+  {
+   "canonical": "Katie Kiefer",
+   "type": "person",
+   "surface": "Katie Kiefer",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Andoni Aduriz",
+   "type": "person",
+   "surface": "Andoni Adoriz",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "47:33"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "Nixtimol",
+   "ts": "49:39"
+  },
+  {
+   "canonical": "Nixtamalization",
+   "type": "technique",
+   "surface": "nixamalization",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Carrageen",
+   "type": "ingredient",
+   "surface": "carrageen",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Carrageen",
+   "type": "ingredient",
+   "surface": "carrageen",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "46:53"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "47:33"
+  },
+  {
+   "canonical": "Aquarium Pump",
+   "type": "equipment",
+   "surface": "aeration pump",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "Food Processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Food Processor",
+   "type": "equipment",
+   "surface": "food processor",
+   "ts": "51:29"
+  },
+  {
+   "canonical": "KitchenAid",
+   "type": "equipment",
+   "surface": "kitchen aid",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "KitchenAid",
+   "type": "equipment",
+   "surface": "KitchenAid",
+   "ts": "50:59"
+  },
+  {
+   "canonical": "Grain Mill",
+   "type": "equipment",
+   "surface": "grain mill",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Grain Mill",
+   "type": "equipment",
+   "surface": "grain mill",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "City Winery",
+   "type": "place",
+   "surface": "City Winery",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "AMP",
+   "type": "place",
+   "surface": "AMP",
+   "ts": "52:22"
+  },
+  {
+   "canonical": "AMP",
+   "type": "place",
+   "surface": "AMP",
+   "ts": "53:00"
+  },
+  {
+   "canonical": "Mid Atlantic Country Farms",
+   "type": "place",
+   "surface": "Mid Atlantic Country Farms",
+   "ts": "52:22"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "City Winery (155 Varrick Street)",
+   "type": "place",
+   "surface": "City Winery",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Finger on the Pole",
+   "type": "place",
+   "surface": "Finger on the pole",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Finger on the Pole",
+   "type": "place",
+   "surface": "Finger on the pole",
+   "ts": "53:58"
+  },
+  {
+   "canonical": "Heritage Foods USA",
+   "type": "place",
+   "surface": "Heritage Foods USA",
+   "ts": "53:58"
+  },
+  {
+   "canonical": "Sub Zero",
+   "type": "place",
+   "surface": "Sub Zero",
+   "ts": "53:58"
+  },
+  {
+   "canonical": "Wolf",
+   "type": "place",
+   "surface": "Wolf",
+   "ts": "53:58"
+  }
+ ]
+}

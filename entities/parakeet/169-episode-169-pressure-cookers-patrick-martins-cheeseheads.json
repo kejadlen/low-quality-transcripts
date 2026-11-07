@@ -1,0 +1,973 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:41"
+  },
+  {
+   "canonical": "Patrick Martins",
+   "type": "person",
+   "surface": "Patrick Martins",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "American Pressure Canner",
+   "type": "equipment",
+   "surface": "American pressure canner",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "American Pressure Canner",
+   "type": "equipment",
+   "surface": "American pressure canner",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cookers",
+   "ts": "2:41"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "2:50"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cookers",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cookers",
+   "ts": "4:35"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Jiggler Weight Pressure Cooker",
+   "type": "equipment",
+   "surface": "jiggler weight pressure cooker",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "Induction Burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Pressure Sterilizer",
+   "type": "equipment",
+   "surface": "pressure sterilizer",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "equipment",
+   "surface": "coon recon",
+   "ts": "7:13"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "equipment",
+   "surface": "coon recon",
+   "ts": "8:16"
+  },
+  {
+   "canonical": "Wisconsin Milk Marketing Board",
+   "type": "place",
+   "surface": "Wisconsin Milk Marketing Board",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Wisconsin Milk Marketing Board",
+   "type": "place",
+   "surface": "Wisconsin Milk Marketing Board",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Pressure Cooking",
+   "type": "technique",
+   "surface": "pressure cooking",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "Cheesehead",
+   "type": "ingredient",
+   "surface": "cheese head",
+   "ts": "1:36"
+  },
+  {
+   "canonical": "Cheesehead",
+   "type": "ingredient",
+   "surface": "cheese head",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Cheesehead",
+   "type": "ingredient",
+   "surface": "cheesehead",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "7:13"
+  },
+  {
+   "canonical": "Custard",
+   "type": "ingredient",
+   "surface": "custard",
+   "ts": "7:13"
+  },
+  {
+   "canonical": "Foam Rubber",
+   "type": "ingredient",
+   "surface": "foam rubber",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Foam Rubber",
+   "type": "ingredient",
+   "surface": "foam rubber",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "Cheese",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "Cheese",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "1:36"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "2:26"
+  },
+  {
+   "canonical": "Cheesehead Hat",
+   "type": "equipment",
+   "surface": "cheese head hat",
+   "ts": "1:36"
+  },
+  {
+   "canonical": "Cheesehead Hat",
+   "type": "equipment",
+   "surface": "cheese head hat",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Electric Pressure Cooker",
+   "type": "equipment",
+   "surface": "electric pressure cooker",
+   "ts": "2:50"
+  },
+  {
+   "canonical": "Cuisinart",
+   "type": "equipment",
+   "surface": "Cuisinart",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Iwatani",
+   "type": "equipment",
+   "surface": "Iwatani",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "American Pressure Canner Corp",
+   "type": "equipment",
+   "surface": "American pressure canner",
+   "ts": "4:58"
+  },
+  {
+   "canonical": "American Pressure Canner Corp",
+   "type": "equipment",
+   "surface": "American pressure canner",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "coon recon",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "coon recon",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "12:27"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "12:47"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "spring",
+   "type": "ingredient",
+   "surface": "spring",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "spring",
+   "type": "ingredient",
+   "surface": "spring",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "spring",
+   "type": "ingredient",
+   "surface": "spring",
+   "ts": "12:27"
+  },
+  {
+   "canonical": "spring",
+   "type": "ingredient",
+   "surface": "spring",
+   "ts": "12:47"
+  },
+  {
+   "canonical": "spring",
+   "type": "ingredient",
+   "surface": "spring",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "induction burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "9:51"
+  },
+  {
+   "canonical": "induction burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "oil bath",
+   "type": "equipment",
+   "surface": "oil bath",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "oil bath",
+   "type": "equipment",
+   "surface": "oil bath",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "9:51"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "12:47"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "14:27"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "sous vide circulator",
+   "type": "equipment",
+   "surface": "circulator",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "gasket",
+   "type": "equipment",
+   "surface": "gaskets",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "safety plug",
+   "type": "equipment",
+   "surface": "safety plug",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Patrick Martin",
+   "type": "person",
+   "surface": "Patrick Martin's",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "Patrick Martin",
+   "type": "person",
+   "surface": "Patrick Martins",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Mike Edison",
+   "type": "person",
+   "surface": "Mike Edison",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Hugh Hefner",
+   "type": "person",
+   "surface": "Hugh Hefner",
+   "ts": "16:05"
+  },
+  {
+   "canonical": "Hugh Hefner",
+   "type": "person",
+   "surface": "Hugh Hefner",
+   "ts": "16:18"
+  },
+  {
+   "canonical": "Larry Flint",
+   "type": "person",
+   "surface": "Larry Flint",
+   "ts": "16:18"
+  },
+  {
+   "canonical": "Carnivores Manifesto",
+   "type": "ingredient",
+   "surface": "Carnivores Manifesto",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "High Times",
+   "type": "place",
+   "surface": "High Times",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Joe Bastyanich's Restaurant Man",
+   "type": "ingredient",
+   "surface": "Joe Bastyanich's Restaurant Man",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "TCS",
+   "type": "ingredient",
+   "surface": "TCS",
+   "ts": "15:15"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "coon recon",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "coon recon",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "11:30"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "12:27"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "12:47"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "place",
+   "surface": "Coon Recon",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "thermocouple",
+   "type": "equipment",
+   "surface": "thermocouple",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Carl Pugini",
+   "type": "person",
+   "surface": "Carl Pugini",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Slow Food USA",
+   "type": "place",
+   "surface": "Slow Food USA",
+   "ts": "21:46"
+  },
+  {
+   "canonical": "Barolo",
+   "type": "place",
+   "surface": "Barolo's",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Barbaresco",
+   "type": "place",
+   "surface": "Barbaresco",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Hatchet",
+   "type": "place",
+   "surface": "hatchet",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Hatchet",
+   "type": "place",
+   "surface": "Hatchet",
+   "ts": "21:32"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Barnes & Noble",
+   "type": "place",
+   "surface": "Barnes and Nobles.com",
+   "ts": "20:54"
+  },
+  {
+   "canonical": "Heritage Radio",
+   "type": "place",
+   "surface": "Heritage Radio",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "New Jersey",
+   "type": "place",
+   "surface": "New Jersey",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "New Jersey",
+   "type": "place",
+   "surface": "New Jersey",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "New Jersey",
+   "type": "place",
+   "surface": "New Jersey",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Georgia",
+   "type": "place",
+   "surface": "Georgia",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "Western Michigan",
+   "type": "place",
+   "surface": "Western Michigan",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "OHI",
+   "type": "place",
+   "surface": "OHI",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "Parmigiano Reggiano",
+   "ts": "17:09"
+  },
+  {
+   "canonical": "Port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Port",
+   "type": "ingredient",
+   "surface": "port",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "Tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Peaches",
+   "type": "ingredient",
+   "surface": "peaches",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "Peaches",
+   "type": "ingredient",
+   "surface": "peaches",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Truffles",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Truffles",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "24:04"
+  },
+  {
+   "canonical": "Truffles",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "24:35"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "25:27"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "25:47"
+  },
+  {
+   "canonical": "Antibiotics",
+   "type": "ingredient",
+   "surface": "antibiotics",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "museum of food and drink",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "Carnivores Manifesto",
+   "type": "place",
+   "surface": "Carnivores Manifesto",
+   "ts": "20:37"
+  },
+  {
+   "canonical": "Temple Grandin",
+   "type": "person",
+   "surface": "Temple Grandin",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Temple Grandin",
+   "type": "person",
+   "surface": "Temple Grandon",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "Carlo Petrini",
+   "type": "person",
+   "surface": "Carlo Petrini",
+   "ts": "31:17"
+  },
+  {
+   "canonical": "Frank Reese",
+   "type": "person",
+   "surface": "Frank Reese",
+   "ts": "30:47"
+  },
+  {
+   "canonical": "Purdue",
+   "type": "place",
+   "surface": "Purdue",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "Goldman Sachs",
+   "type": "place",
+   "surface": "Goldman Sachs",
+   "ts": "28:28"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "33:37"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "30:06"
+  },
+  {
+   "canonical": "Heritage Food",
+   "type": "place",
+   "surface": "heritage food",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "Parmigiano Reggiano",
+   "ts": "33:58"
+  },
+  {
+   "canonical": "antibiotics",
+   "type": "ingredient",
+   "surface": "antibiotics",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "genetic engineering",
+   "type": "technique",
+   "surface": "genetic engineering",
+   "ts": "30:47"
+  },
+  {
+   "canonical": "artificial insemination",
+   "type": "technique",
+   "surface": "artificial insemination",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "sustainable meat conference",
+   "type": "place",
+   "surface": "sustainable meat conference",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "36:07"
+  },
+  {
+   "canonical": "Brandon",
+   "type": "person",
+   "surface": "Brandon",
+   "ts": "36:07"
+  },
+  {
+   "canonical": "Cold Smoking",
+   "type": "technique",
+   "surface": "cold smoking",
+   "ts": "36:07"
+  },
+  {
+   "canonical": "Cold Smoking",
+   "type": "technique",
+   "surface": "cold smoking",
+   "ts": "37:08"
+  },
+  {
+   "canonical": "Cold Smoking",
+   "type": "technique",
+   "surface": "cold smoking",
+   "ts": "38:05"
+  },
+  {
+   "canonical": "Cold Smoking",
+   "type": "technique",
+   "surface": "cold smoking",
+   "ts": "39:41"
+  },
+  {
+   "canonical": "Cold Smoking",
+   "type": "technique",
+   "surface": "cold smoke",
+   "ts": "40:51"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "37:08"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Nitrite",
+   "type": "ingredient",
+   "surface": "nitrite",
+   "ts": "38:05"
+  },
+  {
+   "canonical": "Nitrite",
+   "type": "ingredient",
+   "surface": "nitrite",
+   "ts": "39:41"
+  },
+  {
+   "canonical": "Nitrite",
+   "type": "ingredient",
+   "surface": "instacure",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Nitrite",
+   "type": "ingredient",
+   "surface": "nitrite",
+   "ts": "40:51"
+  },
+  {
+   "canonical": "Mason Products",
+   "type": "equipment",
+   "surface": "Mason products",
+   "ts": "36:43"
+  },
+  {
+   "canonical": "Smoker Box",
+   "type": "equipment",
+   "surface": "smoker box",
+   "ts": "36:17"
+  },
+  {
+   "canonical": "Gas Grill",
+   "type": "equipment",
+   "surface": "gas grill",
+   "ts": "36:17"
+  },
+  {
+   "canonical": "Cup for Cup",
+   "type": "place",
+   "surface": "Cup for Cup",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "42:59"
+  }
+ ]
+}

@@ -1,0 +1,769 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "Modernist Cuisine",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "Modernist Cuisine",
+   "ts": "2:26"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "modernist cuisine",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "3:41"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "Processed Cheese",
+   "type": "technique",
+   "surface": "processed cheese",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Whey Protein Concentrate",
+   "type": "ingredient",
+   "surface": "whey protein concentrate",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Whey Protein Concentrate",
+   "type": "ingredient",
+   "surface": "whey protein concentrate",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Sodium Citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Sodium Citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "4:20"
+  },
+  {
+   "canonical": "Sodium Citrate",
+   "type": "ingredient",
+   "surface": "sodium citrate",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Sodium Phosphate",
+   "type": "ingredient",
+   "surface": "sodium phosphate",
+   "ts": "3:32"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "4:20"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Fondue",
+   "type": "technique",
+   "surface": "fondue",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Fondue",
+   "type": "technique",
+   "surface": "fondue",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Fondue",
+   "type": "technique",
+   "surface": "fondue",
+   "ts": "6:09"
+  },
+  {
+   "canonical": "Fondue",
+   "type": "technique",
+   "surface": "fondue",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Whey",
+   "type": "ingredient",
+   "surface": "whey",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Whey",
+   "type": "ingredient",
+   "surface": "whey",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Whey",
+   "type": "ingredient",
+   "surface": "whey",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "Whey",
+   "type": "ingredient",
+   "surface": "whey",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Whey Protein Isolate",
+   "type": "ingredient",
+   "surface": "whey protein isolate",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "0:02"
+  },
+  {
+   "canonical": "Hearst Ranch",
+   "type": "place",
+   "surface": "Hearst Ranch",
+   "ts": "0:02"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:02"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "WD-50",
+   "type": "place",
+   "surface": "WD-50",
+   "ts": "3:41"
+  },
+  {
+   "canonical": "Rennet Casein",
+   "type": "ingredient",
+   "surface": "rennet casein",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "10:41"
+  },
+  {
+   "canonical": "Essex Street Market",
+   "type": "place",
+   "surface": "Essex Street Market",
+   "ts": "10:41"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "10:41"
+  },
+  {
+   "canonical": "Carrie Camill",
+   "type": "person",
+   "surface": "Carrie",
+   "ts": "10:41"
+  },
+  {
+   "canonical": "Carrie Camill",
+   "type": "person",
+   "surface": "Carrie",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sousheed",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "Sous Vash",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "filet mignon",
+   "type": "ingredient",
+   "surface": "filet mignon",
+   "ts": "13:16"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "Sous Vash",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "William McGee",
+   "type": "person",
+   "surface": "William McGee",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Narangilla",
+   "type": "ingredient",
+   "surface": "narangilla",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Purman orange",
+   "type": "ingredient",
+   "surface": "Purman orange",
+   "ts": "18:16"
+  },
+  {
+   "canonical": "Johnny Clark",
+   "type": "person",
+   "surface": "Johnny Clark",
+   "ts": "19:28"
+  },
+  {
+   "canonical": "suckling pig",
+   "type": "ingredient",
+   "surface": "suckling pig",
+   "ts": "19:28"
+  },
+  {
+   "canonical": "Ed Mitchell",
+   "type": "person",
+   "surface": "Ed",
+   "ts": "20:49"
+  },
+  {
+   "canonical": "Ed Mitchell",
+   "type": "person",
+   "surface": "Ed",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "suckling pig",
+   "type": "ingredient",
+   "surface": "suckling pig",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "suckling pig",
+   "type": "ingredient",
+   "surface": "suckling pig",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "whole hog",
+   "type": "ingredient",
+   "surface": "whole hog",
+   "ts": "20:49"
+  },
+  {
+   "canonical": "whole hog",
+   "type": "ingredient",
+   "surface": "whole hog",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "pork rind",
+   "type": "ingredient",
+   "surface": "pork rind",
+   "ts": "27:15"
+  },
+  {
+   "canonical": "chicharron",
+   "type": "ingredient",
+   "surface": "chicharron",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "dehydrator",
+   "type": "equipment",
+   "surface": "dehydrator",
+   "ts": "25:27"
+  },
+  {
+   "canonical": "dehydrator",
+   "type": "equipment",
+   "surface": "dehydrator",
+   "ts": "27:15"
+  },
+  {
+   "canonical": "dehydrator",
+   "type": "equipment",
+   "surface": "dehydrator",
+   "ts": "28:29"
+  },
+  {
+   "canonical": "X caliber",
+   "type": "equipment",
+   "surface": "X caliber",
+   "ts": "28:54"
+  },
+  {
+   "canonical": "Mercaptins",
+   "type": "ingredient",
+   "surface": "Mercaptins",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "propane torch",
+   "type": "equipment",
+   "surface": "propane torch",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "butane torch",
+   "type": "equipment",
+   "surface": "butane torch",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "stainless steel mesh",
+   "type": "equipment",
+   "surface": "stainless steel mesh",
+   "ts": "24:23"
+  },
+  {
+   "canonical": "Lulo",
+   "type": "ingredient",
+   "surface": "Lulo",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "Lulo",
+   "type": "ingredient",
+   "surface": "Lulo",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Lulo",
+   "type": "ingredient",
+   "surface": "Lulo",
+   "ts": "36:07"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "31:28"
+  },
+  {
+   "canonical": "Heritage Meat Shop",
+   "type": "place",
+   "surface": "Heritage Meat Shop",
+   "ts": "31:39"
+  },
+  {
+   "canonical": "Tic Gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "propylene glycol alginate",
+   "ts": "37:46"
+  },
+  {
+   "canonical": "Propylene Glycol Alginate",
+   "type": "ingredient",
+   "surface": "propylene glycol alginate",
+   "ts": "38:23"
+  },
+  {
+   "canonical": "Coriander Seed",
+   "type": "ingredient",
+   "surface": "coriander seed",
+   "ts": "34:52"
+  },
+  {
+   "canonical": "Quinine Sulfate",
+   "type": "ingredient",
+   "surface": "quinine sulfate",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Tic Gums",
+   "type": "ingredient",
+   "surface": "TIC gums",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Marty",
+   "type": "person",
+   "surface": "Marty",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Marty",
+   "type": "person",
+   "surface": "Marty",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Eagle Rock",
+   "type": "place",
+   "surface": "Eagle Rock",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Eagle Rock",
+   "type": "place",
+   "surface": "Eagle Rock",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Activated Charcoal",
+   "type": "ingredient",
+   "surface": "activated charcoal",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Charcoal Filter",
+   "type": "equipment",
+   "surface": "charcoal filter",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Charcoal Filter",
+   "type": "equipment",
+   "surface": "charcoal filter",
+   "ts": "40:19"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "40:19"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Grey Goose",
+   "type": "ingredient",
+   "surface": "Grey Goose",
+   "ts": "40:19"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "40:19"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "garbanzo",
+   "type": "ingredient",
+   "surface": "garbanzo",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "lentil",
+   "type": "ingredient",
+   "surface": "lentil",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "crimini",
+   "type": "ingredient",
+   "surface": "crimini",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "porcini",
+   "type": "ingredient",
+   "surface": "porcini",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "pearl barley",
+   "type": "ingredient",
+   "surface": "pearl barley",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Soy Protein",
+   "type": "ingredient",
+   "surface": "soy protein",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Soy Protein",
+   "type": "ingredient",
+   "surface": "soy protein",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Tempeh",
+   "type": "ingredient",
+   "surface": "tempeh",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Texturized Vegetable Protein",
+   "type": "ingredient",
+   "surface": "texturized vegetable protein",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Maltodextrin",
+   "type": "ingredient",
+   "surface": "maltodextrin",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Seiji Yamamoto",
+   "type": "person",
+   "surface": "Seiji Yamamoto",
+   "ts": "45:09"
+  },
+  {
+   "canonical": "Ikajime",
+   "type": "technique",
+   "surface": "ikajime",
+   "ts": "45:09"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "45:00"
+  },
+  {
+   "canonical": "Reed College",
+   "type": "place",
+   "surface": "Reed College",
+   "ts": "44:32"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:57"
+  }
+ ]
+}

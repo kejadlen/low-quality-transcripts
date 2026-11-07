@@ -1,0 +1,943 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha the Hammer Lopez",
+   "ts": "0:10"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:17"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "1:36"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "Nastasha the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "3:25"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "Hearst Ranch",
+   "type": "place",
+   "surface": "Hearst Ranch",
+   "ts": "2:41"
+  },
+  {
+   "canonical": "Hearst Ranch",
+   "type": "place",
+   "surface": "Hearst Ranch",
+   "ts": "2:54"
+  },
+  {
+   "canonical": "salt rising bread",
+   "type": "ingredient",
+   "surface": "salt rising bread",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "salt rising bread",
+   "type": "ingredient",
+   "surface": "salt resin bread",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "Braun Thermal Mix",
+   "type": "equipment",
+   "surface": "brawn thermal mixer",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Braun Thermal Mix",
+   "type": "equipment",
+   "surface": "brawn thermal mixer",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Braun Thermal Mix",
+   "type": "equipment",
+   "surface": "B bron thermal mix",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "thermal mixer",
+   "type": "equipment",
+   "surface": "thermal mixer",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "thermal mixer",
+   "type": "equipment",
+   "surface": "thermal mix",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "thermal mixer",
+   "type": "equipment",
+   "surface": "thermal mix",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "8:03"
+  },
+  {
+   "canonical": "brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "brisket",
+   "type": "ingredient",
+   "surface": "brisket",
+   "ts": "8:40"
+  },
+  {
+   "canonical": "corned beef",
+   "type": "ingredient",
+   "surface": "corned beef",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "brawn",
+   "type": "ingredient",
+   "surface": "brawn",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "brawn",
+   "type": "ingredient",
+   "surface": "brawn",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "brawn",
+   "type": "ingredient",
+   "surface": "Brawn",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "Chicha",
+   "type": "ingredient",
+   "surface": "chicha",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Chicha",
+   "type": "ingredient",
+   "surface": "chicha",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Alpha Amylase",
+   "type": "ingredient",
+   "surface": "alpha amylase",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Beta Amylase",
+   "type": "ingredient",
+   "surface": "beta amylase",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "technique",
+   "surface": "raw food",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "technique",
+   "surface": "raw food",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "Raw Food",
+   "type": "technique",
+   "surface": "raw food",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum it down",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Blanching",
+   "type": "technique",
+   "surface": "blanching",
+   "ts": "11:01"
+  },
+  {
+   "canonical": "Mashing",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Mashing",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "12:48"
+  },
+  {
+   "canonical": "Mashing",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "Mashing",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "16:44"
+  },
+  {
+   "canonical": "Mashing",
+   "type": "technique",
+   "surface": "mash",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Thermal Pasteurization",
+   "type": "technique",
+   "surface": "thermal mix",
+   "ts": "11:49"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "rotary evaporation",
+   "type": "technique",
+   "surface": "rotary evaporation",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "CO2 hop extract",
+   "type": "ingredient",
+   "surface": "CO2 hop extract",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "lactobacillus",
+   "type": "ingredient",
+   "surface": "lacto",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "alpha amylase",
+   "type": "technique",
+   "surface": "alpha and the beta amylases",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "beta amylase",
+   "type": "technique",
+   "surface": "beta amylases",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "starch conversion",
+   "type": "technique",
+   "surface": "conversion of a mash",
+   "ts": "12:48"
+  },
+  {
+   "canonical": "starch conversion",
+   "type": "technique",
+   "surface": "conversion",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "mash temperature",
+   "type": "technique",
+   "surface": "mash temperatures",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "raw food diet",
+   "type": "place",
+   "surface": "raw food",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "raw food diet",
+   "type": "place",
+   "surface": "raw food",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "raw food diet",
+   "type": "place",
+   "surface": "raw food",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "25:05"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Coriander Root",
+   "type": "ingredient",
+   "surface": "coriander root",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Coriander Root",
+   "type": "ingredient",
+   "surface": "coriander roots",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Cilantro",
+   "type": "ingredient",
+   "surface": "cilantro",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Salt-Rising Bread",
+   "type": "ingredient",
+   "surface": "salt-risen bread",
+   "ts": "21:33"
+  },
+  {
+   "canonical": "Salt-Rising Bread",
+   "type": "ingredient",
+   "surface": "salt-risen bread",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Salt-Rising Bread",
+   "type": "ingredient",
+   "surface": "salt-rising bread",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Clostridium Perfringens",
+   "type": "ingredient",
+   "surface": "Clostridium perfringens",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Clostridium Perfringens",
+   "type": "ingredient",
+   "surface": "clostridium perfringens",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Sourdough Bread",
+   "type": "ingredient",
+   "surface": "sourdough bread",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Lactic Acid Bacteria",
+   "type": "ingredient",
+   "surface": "lactic acid bacteria",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Lactic Acid Bacteria",
+   "type": "ingredient",
+   "surface": "lactic acid bacteria",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "West Virginia University School of Medicine",
+   "type": "place",
+   "surface": "West Virginia University School of Medicine",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "19:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "21:20"
+  },
+  {
+   "canonical": "Pac Park",
+   "type": "place",
+   "surface": "Pac Park",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Portland",
+   "type": "place",
+   "surface": "Portland",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Atlanta",
+   "type": "place",
+   "surface": "Atlanta",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Clostridium perfringens",
+   "type": "ingredient",
+   "surface": "Clostridium perfringens",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Clostridium perfringens",
+   "type": "ingredient",
+   "surface": "Clostridium porfringens",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "Clostridium perfringens",
+   "type": "ingredient",
+   "surface": "clostridium perfringens",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "salt-risen bread",
+   "type": "ingredient",
+   "surface": "salt risen bread",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "salt-risen bread",
+   "type": "ingredient",
+   "surface": "salt risen bread",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "Excalibur dehydrator",
+   "type": "equipment",
+   "surface": "Excalibur uh dehydrator",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "butyric acid",
+   "type": "ingredient",
+   "surface": "butyric acid",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "salt rising bread project",
+   "type": "place",
+   "surface": "Susan R. Brown Salt Rising Bread Project",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "26:03"
+  },
+  {
+   "canonical": "spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "26:48"
+  },
+  {
+   "canonical": "spore",
+   "type": "ingredient",
+   "surface": "Spore",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Camden tablet",
+   "type": "ingredient",
+   "surface": "Camden tablet",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "hydrogen sulfide",
+   "type": "ingredient",
+   "surface": "hydrogen sulfide",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "hydrogen",
+   "type": "ingredient",
+   "surface": "hydrogen",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "carbon dioxide",
+   "type": "ingredient",
+   "surface": "carbon dioxide",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Lee",
+   "type": "person",
+   "surface": "Lee",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Lee",
+   "type": "person",
+   "surface": "Lee",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:20"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "33:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Nastasha",
+   "type": "person",
+   "surface": "Nastasha",
+   "ts": "35:20"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Sous V",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "35:20"
+  },
+  {
+   "canonical": "Immersion Circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Beer Cooler",
+   "type": "equipment",
+   "surface": "beer cooler",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Strike Temperature",
+   "type": "technique",
+   "surface": "strike temperature",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "Strike Temperature",
+   "type": "technique",
+   "surface": "strike temperature",
+   "ts": "33:01"
+  },
+  {
+   "canonical": "Aeropress",
+   "type": "equipment",
+   "surface": "aeropress",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Aeropress",
+   "type": "equipment",
+   "surface": "aeropress",
+   "ts": "34:31"
+  },
+  {
+   "canonical": "Aeropress",
+   "type": "equipment",
+   "surface": "aeropress",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Clover",
+   "type": "equipment",
+   "surface": "clover",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Clover",
+   "type": "equipment",
+   "surface": "clover",
+   "ts": "34:31"
+  },
+  {
+   "canonical": "Clover",
+   "type": "equipment",
+   "surface": "clover",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Ziploc Bag",
+   "type": "equipment",
+   "surface": "Ziploc bag",
+   "ts": "35:20"
+  },
+  {
+   "canonical": "Sous Vide Cooking",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "35:20"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "35:57"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "39:05"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "Fairway",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Fairway Market",
+   "type": "place",
+   "surface": "fairway",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "39:47"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "City Cinemas Village East",
+   "type": "place",
+   "surface": "City Cinemas Village East",
+   "ts": "39:47"
+  },
+  {
+   "canonical": "Rackiton",
+   "type": "place",
+   "surface": "Rackiton",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Rackiton",
+   "type": "place",
+   "surface": "Rackiton",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "Ziploc",
+   "type": "equipment",
+   "surface": "Ziplocks",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Fairway honey",
+   "type": "ingredient",
+   "surface": "Fairway label honey",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "38:12"
+  },
+  {
+   "canonical": "steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "38:39"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "36:48"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "37:40"
+  }
+ ]
+}
