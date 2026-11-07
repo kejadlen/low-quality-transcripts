@@ -7,7 +7,17 @@
 <% episodes.each do |ep| %>
   <li>
     <a href="../<%= ep.fetch(:slug) %>.html"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></a>
-    <span class="ts"><% ep.fetch(:timestamps).each do |ts| %><a href="../<%= ep.fetch(:slug) %>.html#<%= CookingIssues::Timestamp.anchor(ts) %>"><%= CGI.escapeHTML(ts) %></a> <% end %></span>
+    <span class="ts">
+    <% ep.fetch(:snippets).each do |ts, excerpt| %>
+      <% id = "s-#{ep.fetch(:number)}-#{CookingIssues::Timestamp.anchor(ts)}" %>
+      <button type="button" popovertarget="<%= id %>"><%= CGI.escapeHTML(ts) %></button>
+      <div class="snippet" id="<%= id %>" popover>
+        <p class="kind"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %> · <%= CGI.escapeHTML(ts) %></p>
+        <blockquote><%= CGI.escapeHTML(excerpt.before) %><% unless excerpt.match.empty? %><mark><%= CGI.escapeHTML(excerpt.match) %></mark><% end %><%= CGI.escapeHTML(excerpt.after) %></blockquote>
+        <a href="../<%= ep.fetch(:slug) %>.html#<%= CookingIssues::Timestamp.anchor(ts) %>">Open in transcript →</a>
+      </div>
+    <% end %>
+    </span>
   </li>
 <% end %>
 </ul>

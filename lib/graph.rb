@@ -7,7 +7,7 @@ require_relative "timestamp"
 module CookingIssues
   # Merges per-episode entity extractions into cross-episode entities.
   class Graph
-    Entity = Data.define(:name, :type, :slug, :mentions) do
+    Entity = Data.define(:name, :type, :slug, :mentions, :surfaces) do
       def episodes = mentions.keys
     end
 
@@ -59,7 +59,7 @@ module CookingIssues
           key = self.class.match_key(name)
           next if key.empty? || ignored.include?(key)
 
-          groups[key] << { episode:, name:, type: m.fetch("type"), ts: m.fetch("ts") }
+          groups[key] << { episode:, name:, type: m.fetch("type"), ts: m.fetch("ts"), surface: m.fetch("surface") }
         end
       end
 
@@ -79,7 +79,8 @@ module CookingIssues
           .transform_values { |eps| eps.map { it.fetch(:ts) }.uniq.sort_by { Timestamp.seconds(it) } }
         next if by_episode.size < MIN_EPISODES
 
-        Entity.new(name:, type:, slug: self.class.key(name).tr(" ", "-"), mentions: by_episode)
+        surfaces = ms.map { it.fetch(:surface) }.uniq
+        Entity.new(name:, type:, slug: self.class.key(name).tr(" ", "-"), mentions: by_episode, surfaces:)
       }
 
       @entities = entities.sort_by { [-it.episodes.size, it.name.downcase] }

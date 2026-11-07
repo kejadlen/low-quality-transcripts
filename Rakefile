@@ -10,6 +10,7 @@ require_relative "lib/config"
 require_relative "lib/episode_task"
 require_relative "lib/feed"
 require_relative "lib/graph"
+require_relative "lib/snippet"
 require_relative "lib/download"
 
 transcriber_key = ENV.fetch("TRANSCRIBER", "parakeet")
@@ -309,7 +310,9 @@ ENTITY_PAGE_SOURCES = [
   ENTITIES_TEMPLATE_PATH,
   page_source("entity.css"),
   page_source("entities.js"),
+  File.expand_path("lib/snippet.rb", __dir__),
   *GRAPH_SOURCES,
+  *EPISODE_TASKS.select { File.exist?(it.entities_path) }.map(&:text_path),
 ]
 ENTITY_TYPES = %w[person technique ingredient equipment place other]
 
@@ -321,11 +324,18 @@ file ENTITIES_INDEX_PATH => [*ENTITY_PAGE_SOURCES, CONFIG.pages_dir.to_s] do
   episodes = EPISODE_TASKS.to_h { |et|
     [et.slug, { slug: et.slug, number: et.number, title: et.episode.title.sub(/^Episode #{et.number}:\s+/, "") }]
   }
+  text_paths = EPISODE_TASKS.to_h { [it.slug, it.text_path] }
+  paragraphs = Hash.new { |h, slug| h[slug] = CookingIssues::Snippet.paragraphs(File.read(text_paths.fetch(slug))) }
   styles = File.read(page_source("entity.css"))
 
   graph.entities.each do |entity|
     eps = entity.mentions.filter_map { |slug, timestamps|
-      episodes[slug]&.merge(timestamps:)
+      next unless episodes.key?(slug)
+
+      snippets = timestamps.map { |ts|
+        [ts, CookingIssues::Snippet.excerpt(paragraphs[slug].fetch(ts, ""), entity.surfaces)]
+      }
+      episodes.fetch(slug).merge(snippets:)
     }.sort_by { -it.fetch(:number) }
 
     html = render_page(ENTITY_TEMPLATE_PATH,
