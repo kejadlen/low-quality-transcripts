@@ -2,13 +2,12 @@
 <h1 data-pagefind-sort="episode_number:<%= ep.fetch(:number) %>"><%= CGI.escapeHTML("#{ep.fetch(:number)}. #{ep.fetch(:title)}") %></h1>
 
 <% unless entities.empty? %>
-<details class="entities" data-pagefind-ignore>
-  <summary><%= entities.size %> topics</summary>
+<section class="entities" data-pagefind-ignore>
   <% entities.group_by(&:type).sort.each do |type, es| %>
     <p><span class="kind"><%= type %>:</span>
     <% es.each.with_index do |e, i| %><%= ", " unless i.zero? %><a href="entities/<%= e.slug %>.html"><%= CGI.escapeHTML(e.name) %></a><% end %></p>
   <% end %>
-</details>
+</section>
 <% end %>
 
 <% ep.fetch(:text).split("\n\n").each do |para| %>
