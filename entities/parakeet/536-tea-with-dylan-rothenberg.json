@@ -1,0 +1,1669 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "8:29"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "1:25"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "Joey Lopez",
+   "type": "person",
+   "surface": "Joey",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Joey Lopez",
+   "type": "person",
+   "surface": "Joey",
+   "ts": "0:56"
+  },
+  {
+   "canonical": "Joey Lopez",
+   "type": "person",
+   "surface": "Joey",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Nastasi the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasi the Hammer Lopez",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Nastasi the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Dylan Rothenberg",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "1:39"
+  },
+  {
+   "canonical": "Dylan Rothenberg",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "3:08"
+  },
+  {
+   "canonical": "Dylan Rothenberg",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "4:27"
+  },
+  {
+   "canonical": "South China Agricultural University",
+   "type": "place",
+   "surface": "South China and Guan Show",
+   "ts": "1:46"
+  },
+  {
+   "canonical": "Wu Mountain Tea",
+   "type": "place",
+   "surface": "Wu Mountain Tea",
+   "ts": "1:39"
+  },
+  {
+   "canonical": "Arturo's",
+   "type": "place",
+   "surface": "Arturo's",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Lombardi's",
+   "type": "place",
+   "surface": "Lombardi's",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "4:27"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "6:19"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "6:50"
+  },
+  {
+   "canonical": "Aged White Tea",
+   "type": "ingredient",
+   "surface": "aged white tea",
+   "ts": "4:27"
+  },
+  {
+   "canonical": "Aged White Tea",
+   "type": "ingredient",
+   "surface": "aged white tea",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "Puer",
+   "type": "ingredient",
+   "surface": "puer",
+   "ts": "6:50"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "7:54"
+  },
+  {
+   "canonical": "Catechins",
+   "type": "ingredient",
+   "surface": "catechins",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Catechins",
+   "type": "ingredient",
+   "surface": "catechins",
+   "ts": "7:54"
+  },
+  {
+   "canonical": "Antioxidants",
+   "type": "ingredient",
+   "surface": "antioxidant profile",
+   "ts": "7:54"
+  },
+  {
+   "canonical": "Tea Plant",
+   "type": "ingredient",
+   "surface": "tea plant",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Tea Plant",
+   "type": "ingredient",
+   "surface": "tea plant",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "6:19"
+  },
+  {
+   "canonical": "Black Tea",
+   "type": "ingredient",
+   "surface": "black tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Oolong Tea",
+   "type": "ingredient",
+   "surface": "oolong tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Dark Tea",
+   "type": "ingredient",
+   "surface": "dark tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Yellow Tea",
+   "type": "ingredient",
+   "surface": "yellow tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Herbal Tea",
+   "type": "ingredient",
+   "surface": "Herbal tea",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Herbal Tea",
+   "type": "ingredient",
+   "surface": "Herbal tea",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "Herbal Tea",
+   "type": "ingredient",
+   "surface": "herbal tea",
+   "ts": "5:26"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "5:08"
+  },
+  {
+   "canonical": "Aging",
+   "type": "technique",
+   "surface": "aging",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "Aging",
+   "type": "technique",
+   "surface": "aging",
+   "ts": "6:50"
+  },
+  {
+   "canonical": "Aging",
+   "type": "technique",
+   "surface": "aging",
+   "ts": "7:45"
+  },
+  {
+   "canonical": "Withering",
+   "type": "technique",
+   "surface": "withering",
+   "ts": "6:19"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidizing",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "New Stan Studios",
+   "type": "place",
+   "surface": "New Stan Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nanaimo",
+   "type": "place",
+   "surface": "Nanaimo",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "Vancouver Island",
+   "type": "place",
+   "surface": "Vancouver Island",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "Guangzhou",
+   "type": "place",
+   "surface": "Guangzhou",
+   "ts": "1:46"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Roy Fong",
+   "type": "person",
+   "surface": "Roy Fong",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Roy Fong",
+   "type": "person",
+   "surface": "Roy Fong",
+   "ts": "9:01"
+  },
+  {
+   "canonical": "Kung Fu Chai",
+   "type": "ingredient",
+   "surface": "kung Fu Chai",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Neil Diamond",
+   "type": "person",
+   "surface": "Neil Diamond",
+   "ts": "9:42"
+  },
+  {
+   "canonical": "Neil Diamond",
+   "type": "person",
+   "surface": "Neil Diamond",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Neil Diamond",
+   "type": "person",
+   "surface": "Neil Diamond",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "UB40",
+   "type": "place",
+   "surface": "UB40",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "UB40",
+   "type": "place",
+   "surface": "UB 40",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Red Red Wine",
+   "type": "ingredient",
+   "surface": "red red wine",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "Red Red Wine",
+   "type": "ingredient",
+   "surface": "red red wine",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Demoris",
+   "type": "place",
+   "surface": "Demoris",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "10:32"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "10:32"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Gung Fu Chai",
+   "type": "technique",
+   "surface": "gung fu chai",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "15:35"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "15:52"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Tea Ceremony",
+   "type": "technique",
+   "surface": "ceremony",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Dunkin' Toss",
+   "type": "technique",
+   "surface": "Dunkin' toss",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "McGillah",
+   "type": "technique",
+   "surface": "McGillah",
+   "ts": "12:52"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "11:17"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "15:52"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "16:08"
+  },
+  {
+   "canonical": "Gong Fu Chai",
+   "type": "technique",
+   "surface": "gong fu chai",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Tea Bag",
+   "type": "equipment",
+   "surface": "tea bag",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Tea Bag",
+   "type": "equipment",
+   "surface": "bag",
+   "ts": "18:38"
+  },
+  {
+   "canonical": "Tea Bag",
+   "type": "equipment",
+   "surface": "bag",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Microplastics",
+   "type": "ingredient",
+   "surface": "microplastics",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Microplastics",
+   "type": "ingredient",
+   "surface": "microplastics",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "Pyramid Tea Bag",
+   "type": "equipment",
+   "surface": "pyramid-shaped bags",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "Astringency",
+   "type": "technique",
+   "surface": "astringency",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "Briskness",
+   "type": "technique",
+   "surface": "briskness",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusure",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "15:35"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "15:52"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "11:25"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "12:52"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "15:17"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "18:05"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "18:38"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "19:04"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "21:55"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "20:12"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "26:02"
+  },
+  {
+   "canonical": "Alyssa Milano",
+   "type": "person",
+   "surface": "Alyssa Milano",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Arnold Schwarzenegger",
+   "type": "person",
+   "surface": "Arnold Schwarzenegger",
+   "ts": "19:54"
+  },
+  {
+   "canonical": "Arnold Schwarzenegger",
+   "type": "person",
+   "surface": "Arnold Schwarzenegger",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Builder's Tea",
+   "type": "ingredient",
+   "surface": "builder's tea",
+   "ts": "26:09"
+  },
+  {
+   "canonical": "Builder's Tea",
+   "type": "ingredient",
+   "surface": "builder's tea",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Jasmine Flowers",
+   "type": "ingredient",
+   "surface": "jasmine flowers",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Puer Tea",
+   "type": "ingredient",
+   "surface": "puer",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Puer Tea",
+   "type": "ingredient",
+   "surface": "Puer",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Oolong Tea",
+   "type": "ingredient",
+   "surface": "oolong tea",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "Bourbon",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "27:39"
+  },
+  {
+   "canonical": "Bourbon",
+   "type": "ingredient",
+   "surface": "bourbon",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "21:31"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "22:14"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "25:19"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "26:09"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Tea Market",
+   "type": "place",
+   "surface": "tea market",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Feng Tsun Tea Market",
+   "type": "place",
+   "surface": "Feng Tsun Tea Market",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Guangzhou",
+   "type": "place",
+   "surface": "Guangzhou",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Guangzhou",
+   "type": "place",
+   "surface": "Guangzhou",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Guangzhou",
+   "type": "place",
+   "surface": "Guangzhou",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Shenzhen",
+   "type": "place",
+   "surface": "Shenzhen",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Canton",
+   "type": "place",
+   "surface": "Canton",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Canton",
+   "type": "place",
+   "surface": "Canton",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "22:14"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "22:49"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "26:09"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Hong Kong",
+   "type": "place",
+   "surface": "Hong Kong",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Hong Kong",
+   "type": "place",
+   "surface": "Hong Kong",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Taiwan",
+   "type": "place",
+   "surface": "Taiwan",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Beijing",
+   "type": "place",
+   "surface": "Beijing",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Yunnan",
+   "type": "place",
+   "surface": "Yunnan",
+   "ts": "27:12"
+  },
+  {
+   "canonical": "Cantonese Culture",
+   "type": "place",
+   "surface": "Cantonese culture",
+   "ts": "24:30"
+  },
+  {
+   "canonical": "Tea Science",
+   "type": "technique",
+   "surface": "tea science",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Biochemistry",
+   "type": "technique",
+   "surface": "biochemistry",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Tea Industry",
+   "type": "place",
+   "surface": "tea industry",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Tea Company",
+   "type": "place",
+   "surface": "tea company",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Switzerland",
+   "type": "place",
+   "surface": "Switzerland",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Periodic Table",
+   "type": "equipment",
+   "surface": "periodic table",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Seaplane Fuel",
+   "type": "ingredient",
+   "surface": "seaplane fuel",
+   "ts": "20:48"
+  },
+  {
+   "canonical": "Seaplane Fuel",
+   "type": "ingredient",
+   "surface": "seaplane fuel",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "Gaiwan",
+   "type": "equipment",
+   "surface": "gaiwan",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Teapot",
+   "type": "equipment",
+   "surface": "teapot",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Scissors",
+   "type": "equipment",
+   "surface": "scissors",
+   "ts": "19:27"
+  },
+  {
+   "canonical": "Tumbler",
+   "type": "equipment",
+   "surface": "tumbler",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Mug",
+   "type": "equipment",
+   "surface": "mug",
+   "ts": "26:31"
+  },
+  {
+   "canonical": "Water Boiler",
+   "type": "equipment",
+   "surface": "water boiling",
+   "ts": "27:59"
+  },
+  {
+   "canonical": "Woo Mountain Tea",
+   "type": "place",
+   "surface": "woo mountain tea",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Academia",
+   "type": "place",
+   "surface": "academic space",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "Academia",
+   "type": "place",
+   "surface": "academia",
+   "ts": "30:02"
+  },
+  {
+   "canonical": "Academia",
+   "type": "place",
+   "surface": "academia",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Academia",
+   "type": "place",
+   "surface": "academia",
+   "ts": "33:25"
+  },
+  {
+   "canonical": "Genome Sequencing",
+   "type": "technique",
+   "surface": "genome sequence",
+   "ts": "31:02"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "30:02"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "30:52"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "33:25"
+  },
+  {
+   "canonical": "Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Molecular Biology",
+   "type": "technique",
+   "surface": "biochemical underpinnings",
+   "ts": "30:02"
+  },
+  {
+   "canonical": "Closed Lip",
+   "type": "technique",
+   "surface": "closed lip",
+   "ts": "29:17"
+  },
+  {
+   "canonical": "Closed Lip",
+   "type": "technique",
+   "surface": "closed lip",
+   "ts": "30:02"
+  },
+  {
+   "canonical": "Closed Lip",
+   "type": "technique",
+   "surface": "closed lip",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Dylan",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Rail",
+   "type": "person",
+   "surface": "Rail",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Skype",
+   "type": "equipment",
+   "surface": "Skype",
+   "ts": "36:29"
+  },
+  {
+   "canonical": "Skype",
+   "type": "equipment",
+   "surface": "Skype",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Skype",
+   "type": "equipment",
+   "surface": "Skype",
+   "ts": "38:03"
+  },
+  {
+   "canonical": "YouTube channel",
+   "type": "place",
+   "surface": "YouTube channel",
+   "ts": "35:21"
+  },
+  {
+   "canonical": "college",
+   "type": "place",
+   "surface": "college",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "quinn",
+   "ts": "45:15"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Max",
+   "type": "person",
+   "surface": "Max",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Max",
+   "type": "person",
+   "surface": "Max",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Will",
+   "type": "person",
+   "surface": "will",
+   "ts": "42:38"
+  },
+  {
+   "canonical": "Will",
+   "type": "person",
+   "surface": "will",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Will",
+   "type": "person",
+   "surface": "Will",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "Cha Chi",
+   "type": "ingredient",
+   "surface": "cha chi",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Cha Chi",
+   "type": "ingredient",
+   "surface": "cha chi",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "Cha Chi",
+   "type": "ingredient",
+   "surface": "cha chi",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Caffeine",
+   "type": "ingredient",
+   "surface": "caffeine",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Caffeine",
+   "type": "ingredient",
+   "surface": "caffeine",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "Caffeine",
+   "type": "ingredient",
+   "surface": "caffeine",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Caffeine",
+   "type": "ingredient",
+   "surface": "caffeine",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Theanine",
+   "type": "ingredient",
+   "surface": "theanine",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "Theanine",
+   "type": "ingredient",
+   "surface": "theanine",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Theanine",
+   "type": "ingredient",
+   "surface": "theanine",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "Catechins",
+   "type": "ingredient",
+   "surface": "catechins",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "ingredient",
+   "surface": "tannins",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Raw Puer",
+   "type": "ingredient",
+   "surface": "raw puer",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "41:01"
+  },
+  {
+   "canonical": "White Tea",
+   "type": "ingredient",
+   "surface": "white tea",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "42:38"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "43:45"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "45:15"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Green Tea",
+   "type": "ingredient",
+   "surface": "green tea",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "42:38"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Fresh Green Tea",
+   "type": "ingredient",
+   "surface": "fresh green tea",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Vacuum Packing",
+   "type": "technique",
+   "surface": "vacuum packing",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "Vacuum Packing",
+   "type": "technique",
+   "surface": "vacuum packing",
+   "ts": "43:06"
+  },
+  {
+   "canonical": "Smoking Green Tea",
+   "type": "technique",
+   "surface": "smoke it",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Tea Plantation",
+   "type": "place",
+   "surface": "tea plantation",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Vancouver Island",
+   "type": "place",
+   "surface": "Vancouver Island",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Hawaii",
+   "type": "place",
+   "surface": "Hawaii",
+   "ts": "47:30"
+  },
+  {
+   "canonical": "Third Wave Coffee Shop",
+   "type": "place",
+   "surface": "third wave coffee shop",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Third Wave",
+   "type": "place",
+   "surface": "third wave",
+   "ts": "48:44"
+  },
+  {
+   "canonical": "Dylan",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "49:37"
+  },
+  {
+   "canonical": "Dylan",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "50:57"
+  },
+  {
+   "canonical": "Dylan",
+   "type": "person",
+   "surface": "Dylan",
+   "ts": "51:10"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "50:57"
+  },
+  {
+   "canonical": "Wu Mountaintea",
+   "type": "place",
+   "surface": "Wu Mountaintea",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "Duck Poop Tea",
+   "type": "ingredient",
+   "surface": "duck poop tea",
+   "ts": "49:46"
+  },
+  {
+   "canonical": "Duck Poop Tea",
+   "type": "ingredient",
+   "surface": "duck poop tea",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Duck Poop Tea",
+   "type": "ingredient",
+   "surface": "duck shit oolong",
+   "ts": "50:07"
+  },
+  {
+   "canonical": "Duck Poop Tea",
+   "type": "ingredient",
+   "surface": "duck excrement tea",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "Oolong Tea",
+   "type": "ingredient",
+   "surface": "oolong",
+   "ts": "50:07"
+  },
+  {
+   "canonical": "Kwangdong Province",
+   "type": "place",
+   "surface": "Kwangdong province",
+   "ts": "50:07"
+  },
+  {
+   "canonical": "Tea Tourism",
+   "type": "technique",
+   "surface": "tea tourism",
+   "ts": "49:21"
+  }
+ ]
+}

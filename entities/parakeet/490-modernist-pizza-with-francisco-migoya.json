@@ -1,0 +1,1585 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dacia",
+   "type": "person",
+   "surface": "Dacia",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Francisco Magoya",
+   "type": "person",
+   "surface": "Francisco Magoya",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Modernist Pizza",
+   "type": "place",
+   "surface": "Modernist Pizza",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "Modernist Pizza",
+   "type": "place",
+   "surface": "modernist pizza",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "New Stand Studios",
+   "type": "place",
+   "surface": "New Stand Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Stamford",
+   "type": "place",
+   "surface": "Stamford",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "offside storage",
+   "type": "place",
+   "surface": "offside storage",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Shenzhen",
+   "type": "place",
+   "surface": "Shenzhen",
+   "ts": "5:25"
+  },
+  {
+   "canonical": "Shenzhen",
+   "type": "place",
+   "surface": "Shenzhen",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "6:26"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Naples",
+   "type": "place",
+   "surface": "Naples",
+   "ts": "7:59"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "9:17"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Sally's",
+   "type": "place",
+   "surface": "Sally's",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Peppy",
+   "type": "place",
+   "surface": "Peppy",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Line Hotel",
+   "type": "place",
+   "surface": "Line Hotel",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "water jet cut metal",
+   "type": "equipment",
+   "surface": "water jet cut metal",
+   "ts": "2:29"
+  },
+  {
+   "canonical": "polyethylene LDPE gloves",
+   "type": "equipment",
+   "surface": "polyethylene LDPE gloves",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "Xeroxed pamphlet",
+   "type": "equipment",
+   "surface": "Xeroxed pamphlet",
+   "ts": "2:29"
+  },
+  {
+   "canonical": "durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "5:25"
+  },
+  {
+   "canonical": "durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "bonito flakes",
+   "type": "ingredient",
+   "surface": "bonito flakes",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "Crust",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "Pizza",
+   "ts": "1:52"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "2:29"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "5:25"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "6:26"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "7:59"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "8:26"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "9:17"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "spinzall lid",
+   "type": "equipment",
+   "surface": "spinzall lid",
+   "ts": "0:41"
+  },
+  {
+   "canonical": "Andrew",
+   "type": "person",
+   "surface": "Andrew",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Old Forge",
+   "type": "place",
+   "surface": "old forge",
+   "ts": "15:07"
+  },
+  {
+   "canonical": "Old Forge",
+   "type": "place",
+   "surface": "Old Forge",
+   "ts": "16:04"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Sao Paulo",
+   "type": "place",
+   "surface": "Sao Paulo",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "Tuscan bread",
+   "type": "ingredient",
+   "surface": "Tuscan bread",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "aluminum sheet pan",
+   "type": "equipment",
+   "surface": "aluminum pans",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "10:29"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "11:18"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "17:34"
+  },
+  {
+   "canonical": "cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "tuna fish",
+   "type": "ingredient",
+   "surface": "canned tuna fish",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "pepperoni",
+   "type": "ingredient",
+   "surface": "pepperoni",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "tomato sauce",
+   "type": "ingredient",
+   "surface": "tomato sauce",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "canned tuna",
+   "type": "ingredient",
+   "surface": "canned tuna fish",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "hard-boiled eggs",
+   "type": "ingredient",
+   "surface": "hard-boiled eggs",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "hearts of palm",
+   "type": "ingredient",
+   "surface": "hearts of palm",
+   "ts": "20:47"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "Pizza",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "22:52"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "23:59"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "27:14"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Sao Paulo",
+   "type": "place",
+   "surface": "Sao Paulo",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Buenos Aires",
+   "type": "place",
+   "surface": "Buenos Aires",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Arugula",
+   "type": "ingredient",
+   "surface": "arugula",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Crushed Red Pepper",
+   "type": "ingredient",
+   "surface": "crushed red pepper",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Modernist Bread",
+   "type": "place",
+   "surface": "modernist bread",
+   "ts": "23:59"
+  },
+  {
+   "canonical": "Pizza Book",
+   "type": "place",
+   "surface": "pizza book",
+   "ts": "23:59"
+  },
+  {
+   "canonical": "Neapolitan Pizza",
+   "type": "ingredient",
+   "surface": "Neapolitan pizza",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Neapolitan Pizza",
+   "type": "ingredient",
+   "surface": "Neapolitan pizza",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "South American Pizza Styles",
+   "type": "technique",
+   "surface": "South America",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Pizzerias",
+   "type": "place",
+   "surface": "pizzerias",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "VPN",
+   "type": "technique",
+   "surface": "VPN",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "VPN",
+   "type": "technique",
+   "surface": "VPN",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "SAF Red",
+   "type": "ingredient",
+   "surface": "SAF red",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "SAF Red",
+   "type": "ingredient",
+   "surface": "SAF red",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Instant Yeast",
+   "type": "ingredient",
+   "surface": "instant",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Active Dry Yeast",
+   "type": "ingredient",
+   "surface": "active",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Active Dry Yeast",
+   "type": "ingredient",
+   "surface": "active",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Cold Proofing",
+   "type": "technique",
+   "surface": "cold proof",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Cold Proofing",
+   "type": "technique",
+   "surface": "cold proofing",
+   "ts": "27:14"
+  },
+  {
+   "canonical": "Cold Proofing",
+   "type": "technique",
+   "surface": "cold proofing",
+   "ts": "27:39"
+  },
+  {
+   "canonical": "Cold Proofing",
+   "type": "technique",
+   "surface": "cold proofing",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Bulk Fermentation",
+   "type": "technique",
+   "surface": "bulk fermentation",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Neapolitan Pizza",
+   "type": "ingredient",
+   "surface": "Neapolitan pizza",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Neapolitan Pizza",
+   "type": "ingredient",
+   "surface": "Neapolitan pizza",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Neapolitan Pizza",
+   "type": "ingredient",
+   "surface": "Neapolitan style",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "Pizza Dough",
+   "type": "ingredient",
+   "surface": "pizza dough",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "23:59"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Baker's Percentage",
+   "type": "technique",
+   "surface": "baker's percentage",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Preferment",
+   "type": "technique",
+   "surface": "preferment",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "Dough Temperature",
+   "type": "technique",
+   "surface": "dough temperature",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Yeast Dosing",
+   "type": "technique",
+   "surface": "yeast dosing",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Yeast Cells",
+   "type": "ingredient",
+   "surface": "yeast cells",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Tony Gemini",
+   "type": "person",
+   "surface": "Tony Gemini",
+   "ts": "34:07"
+  },
+  {
+   "canonical": "Hackers flour",
+   "type": "ingredient",
+   "surface": "Hackers",
+   "ts": "34:07"
+  },
+  {
+   "canonical": "Hackers flour",
+   "type": "ingredient",
+   "surface": "Hackers",
+   "ts": "35:22"
+  },
+  {
+   "canonical": "Sarasota flour",
+   "type": "ingredient",
+   "surface": "Sarasota",
+   "ts": "35:03"
+  },
+  {
+   "canonical": "Sarasota flour",
+   "type": "ingredient",
+   "surface": "Sarasota",
+   "ts": "35:22"
+  },
+  {
+   "canonical": "French fry cutter",
+   "type": "equipment",
+   "surface": "French fry cutter",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "French fry cutter",
+   "type": "equipment",
+   "surface": "French fry cutter",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "French fry cutter",
+   "type": "equipment",
+   "surface": "French fry cutter",
+   "ts": "38:56"
+  },
+  {
+   "canonical": "extensograph",
+   "type": "equipment",
+   "surface": "extensograph",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "triangle test",
+   "type": "technique",
+   "surface": "triangle tests",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "mozzarella",
+   "type": "ingredient",
+   "surface": "mozzarella",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "mozzarella",
+   "type": "ingredient",
+   "surface": "mozzarella",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "mozzarella",
+   "type": "ingredient",
+   "surface": "mozzarella",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "mozzarella",
+   "type": "ingredient",
+   "surface": "mozzarella",
+   "ts": "39:41"
+  },
+  {
+   "canonical": "mozzarella",
+   "type": "ingredient",
+   "surface": "mozzarella",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "RoboCoup",
+   "type": "equipment",
+   "surface": "RoboCoo",
+   "ts": "38:35"
+  },
+  {
+   "canonical": "Websteron store",
+   "type": "place",
+   "surface": "Websteron store",
+   "ts": "37:36"
+  },
+  {
+   "canonical": "Bowery",
+   "type": "place",
+   "surface": "Bowery",
+   "ts": "37:52"
+  },
+  {
+   "canonical": "instant yeast",
+   "type": "ingredient",
+   "surface": "instant yeast",
+   "ts": "30:54"
+  },
+  {
+   "canonical": "fresh yeast",
+   "type": "ingredient",
+   "surface": "fresh yeast",
+   "ts": "30:54"
+  },
+  {
+   "canonical": "fresh yeast",
+   "type": "ingredient",
+   "surface": "fresh yeast",
+   "ts": "33:30"
+  },
+  {
+   "canonical": "extensibility",
+   "type": "technique",
+   "surface": "rheology",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "conversion",
+   "type": "technique",
+   "surface": "conversion",
+   "ts": "33:47"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "40:25"
+  },
+  {
+   "canonical": "Modernist Bread",
+   "type": "place",
+   "surface": "modernist bread",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Modernist Bread",
+   "type": "place",
+   "surface": "modernist bread",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "40:25"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Rheology",
+   "type": "technique",
+   "surface": "rheology",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Heat pipe effect",
+   "type": "technique",
+   "surface": "heat pipe effect",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "Heat pipe effect",
+   "type": "technique",
+   "surface": "heat pipe effect",
+   "ts": "42:12"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "42:12"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Modernist Bread",
+   "type": "place",
+   "surface": "modernist bread",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Modernist Bread",
+   "type": "place",
+   "surface": "modernist bread",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Heat pipe",
+   "type": "technique",
+   "surface": "heat pipe",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "Heat pipe",
+   "type": "technique",
+   "surface": "heat pipe",
+   "ts": "42:12"
+  },
+  {
+   "canonical": "Heat pipe",
+   "type": "technique",
+   "surface": "heat pipe",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "42:12"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Steam",
+   "type": "ingredient",
+   "surface": "steam",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "40:25"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Banana bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "44:17"
+  },
+  {
+   "canonical": "Banana bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "44:29"
+  },
+  {
+   "canonical": "Banana bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "44:55"
+  },
+  {
+   "canonical": "Banana bread",
+   "type": "ingredient",
+   "surface": "Banana bread",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "V8",
+   "type": "ingredient",
+   "surface": "V8",
+   "ts": "44:45"
+  },
+  {
+   "canonical": "Rye Bread",
+   "type": "ingredient",
+   "surface": "rye bread",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Rye Bread",
+   "type": "ingredient",
+   "surface": "rye bread",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "High Hydration Dough",
+   "type": "technique",
+   "surface": "high hydration products",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum speed",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Staling",
+   "type": "technique",
+   "surface": "stale",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Staling",
+   "type": "technique",
+   "surface": "stale",
+   "ts": "46:23"
+  },
+  {
+   "canonical": "Water Retention",
+   "type": "technique",
+   "surface": "water retention",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "type of starch",
+   "ts": "45:02"
+  },
+  {
+   "canonical": "Mold",
+   "type": "technique",
+   "surface": "mold",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Mold",
+   "type": "technique",
+   "surface": "mold",
+   "ts": "46:23"
+  },
+  {
+   "canonical": "Mold",
+   "type": "technique",
+   "surface": "mold",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Justin Sherrill",
+   "type": "person",
+   "surface": "Justin Sherrill",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Cocoa Berry",
+   "type": "place",
+   "surface": "cocoa berry",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Marrona",
+   "type": "place",
+   "surface": "Marrona",
+   "ts": "48:51"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "48:51"
+  },
+  {
+   "canonical": "Bentonite",
+   "type": "ingredient",
+   "surface": "bentonite",
+   "ts": "48:51"
+  },
+  {
+   "canonical": "Sodium Benzoate",
+   "type": "ingredient",
+   "surface": "sodium benzoite",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Francisco",
+   "type": "person",
+   "surface": "Francisco",
+   "ts": "54:20"
+  },
+  {
+   "canonical": "Roy Schwartzappel",
+   "type": "person",
+   "surface": "Roy Schwartzappel",
+   "ts": "53:14"
+  },
+  {
+   "canonical": "Modernist Cuisine",
+   "type": "technique",
+   "surface": "Modernist cuisine",
+   "ts": "54:42"
+  },
+  {
+   "canonical": "Pancake",
+   "type": "ingredient",
+   "surface": "panotone",
+   "ts": "52:23"
+  },
+  {
+   "canonical": "PVC",
+   "type": "ingredient",
+   "surface": "PVC",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Cocoa Butter",
+   "type": "ingredient",
+   "surface": "cocoa butter",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Cocoa Berry",
+   "type": "ingredient",
+   "surface": "cocoa berry",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Valrona",
+   "type": "ingredient",
+   "surface": "valrona",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Poughkeepsie",
+   "type": "place",
+   "surface": "Poughkeepsie",
+   "ts": "50:25"
+  },
+  {
+   "canonical": "Hudson",
+   "type": "place",
+   "surface": "Hudson",
+   "ts": "50:25"
+  },
+  {
+   "canonical": "Marble",
+   "type": "equipment",
+   "surface": "marble",
+   "ts": "55:30"
+  },
+  {
+   "canonical": "Wood Table",
+   "type": "equipment",
+   "surface": "wood table",
+   "ts": "55:30"
+  },
+  {
+   "canonical": "Warm Water",
+   "type": "ingredient",
+   "surface": "warm water",
+   "ts": "56:46"
+  },
+  {
+   "canonical": "Ice Pack",
+   "type": "equipment",
+   "surface": "ice pack",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Strong Bread Flour",
+   "type": "ingredient",
+   "surface": "strong bread flour",
+   "ts": "55:06"
+  },
+  {
+   "canonical": "Autolysis",
+   "type": "technique",
+   "surface": "autolis",
+   "ts": "55:30"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "56:46"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "58:55"
+  },
+  {
+   "canonical": "Bulk Fermentation",
+   "type": "technique",
+   "surface": "bulk fermentation",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Gluten Development",
+   "type": "technique",
+   "surface": "gluten development",
+   "ts": "54:42"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature control",
+   "ts": "57:57"
+  },
+  {
+   "canonical": "Stretch and Folds",
+   "type": "technique",
+   "surface": "stretch and folds",
+   "ts": "54:42"
+  },
+  {
+   "canonical": "Modernist Bread",
+   "type": "ingredient",
+   "surface": "modernist bread",
+   "ts": "54:20"
+  },
+  {
+   "canonical": "Pie",
+   "type": "ingredient",
+   "surface": "pie",
+   "ts": "53:44"
+  },
+  {
+   "canonical": "Pie",
+   "type": "ingredient",
+   "surface": "pie",
+   "ts": "53:55"
+  },
+  {
+   "canonical": "Pie",
+   "type": "ingredient",
+   "surface": "pie",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "57:57"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "58:29"
+  },
+  {
+   "canonical": "Canned Pineapple",
+   "type": "ingredient",
+   "surface": "canned pannel",
+   "ts": "58:29"
+  },
+  {
+   "canonical": "Digestibility",
+   "type": "technique",
+   "surface": "digestibility",
+   "ts": "58:39"
+  },
+  {
+   "canonical": "Nostalgia",
+   "type": "technique",
+   "surface": "nostasi",
+   "ts": "58:39"
+  },
+  {
+   "canonical": "Francisco Migoya",
+   "type": "person",
+   "surface": "Francisco",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Frozen Desserts",
+   "type": "ingredient",
+   "surface": "Frozen Desserts",
+   "ts": "59:07"
+  },
+  {
+   "canonical": "Modernist Pizza",
+   "type": "ingredient",
+   "surface": "modernist pizza",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "59:43"
+  }
+ ]
+}

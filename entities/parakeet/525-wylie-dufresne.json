@@ -1,0 +1,1399 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Larner",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "7:06"
+  },
+  {
+   "canonical": "Nastasa de Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasa de Hammer Lopez",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:33"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:40"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "8:10"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:48"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "5:40"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "7:23"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley Dufre",
+   "ts": "1:09"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley Dufresne",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "Temperance",
+   "ts": "0:48"
+  },
+  {
+   "canonical": "Pioneer Woman",
+   "type": "place",
+   "surface": "pioneer woman",
+   "ts": "2:43"
+  },
+  {
+   "canonical": "Pioneer Woman",
+   "type": "place",
+   "surface": "Pioneer Woman",
+   "ts": "2:54"
+  },
+  {
+   "canonical": "Curry Hill",
+   "type": "place",
+   "surface": "Curry Hill",
+   "ts": "4:56"
+  },
+  {
+   "canonical": "carbonara",
+   "type": "technique",
+   "surface": "carbonara",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "carbonara",
+   "type": "technique",
+   "surface": "carbonara",
+   "ts": "6:04"
+  },
+  {
+   "canonical": "carbonara",
+   "type": "technique",
+   "surface": "carbonara",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "guanchale",
+   "type": "ingredient",
+   "surface": "Guanchale",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "guanchale",
+   "type": "ingredient",
+   "surface": "guanchale",
+   "ts": "6:46"
+  },
+  {
+   "canonical": "ketchup",
+   "type": "ingredient",
+   "surface": "ketchup",
+   "ts": "8:23"
+  },
+  {
+   "canonical": "ketchup",
+   "type": "ingredient",
+   "surface": "Ketchup",
+   "ts": "8:40"
+  },
+  {
+   "canonical": "ketchup",
+   "type": "ingredient",
+   "surface": "ketchup",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "ketchup",
+   "type": "ingredient",
+   "surface": "ketchup",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "ghee",
+   "type": "ingredient",
+   "surface": "ghee",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "soif",
+   "type": "ingredient",
+   "surface": "soif",
+   "ts": "9:30"
+  },
+  {
+   "canonical": "Jean George",
+   "type": "place",
+   "surface": "Jean George's",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "LaBoit",
+   "type": "place",
+   "surface": "La Wat",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "Irish spice bag",
+   "type": "ingredient",
+   "surface": "Irish spice bags",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Irish spice bag",
+   "type": "ingredient",
+   "surface": "Irish spice bag",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Irish spice bag",
+   "type": "ingredient",
+   "surface": "Irish spice bag",
+   "ts": "10:31"
+  },
+  {
+   "canonical": "Primus",
+   "type": "place",
+   "surface": "Primus",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Primus",
+   "type": "place",
+   "surface": "Primus",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Primus",
+   "type": "place",
+   "surface": "Primus",
+   "ts": "14:11"
+  },
+  {
+   "canonical": "Primus",
+   "type": "place",
+   "surface": "Primus",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "W 50",
+   "type": "place",
+   "surface": "WT50",
+   "ts": "18:41"
+  },
+  {
+   "canonical": "W 50",
+   "type": "place",
+   "surface": "W 50",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide Hall of Fame",
+   "ts": "16:36"
+  },
+  {
+   "canonical": "Bonnet",
+   "type": "equipment",
+   "surface": "Bonnet",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Immersion circulators",
+   "type": "equipment",
+   "surface": "immersion circulators",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "Immersion circulators",
+   "type": "equipment",
+   "surface": "immersion circulators",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Christina Tosi",
+   "type": "person",
+   "surface": "Christina Tosi",
+   "ts": "19:01"
+  },
+  {
+   "canonical": "Sam Mason",
+   "type": "person",
+   "surface": "Sam Mason",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD",
+   "ts": "23:15"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "Resto",
+   "type": "place",
+   "surface": "Resto",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "27:06"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Sweet Green",
+   "type": "place",
+   "surface": "sweet green",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Malcolm Livingston",
+   "type": "person",
+   "surface": "Malcolm Livingston",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Sam Mason",
+   "type": "person",
+   "surface": "Sam Mason",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Tona",
+   "type": "person",
+   "surface": "Tona",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "Evan Freeman",
+   "type": "person",
+   "surface": "Evan Freeman",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Dan Ross Lutweiler",
+   "type": "person",
+   "surface": "Dan Ross Lutweiler",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Liney",
+   "type": "place",
+   "surface": "Liney",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "32:27"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "37:43"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD 50",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD 50",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD 50",
+   "ts": "30:17"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD 50",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD-50",
+   "ts": "31:47"
+  },
+  {
+   "canonical": "Alder",
+   "type": "place",
+   "surface": "Alder",
+   "ts": "30:06"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "31:23"
+  },
+  {
+   "canonical": "Brining",
+   "type": "technique",
+   "surface": "brined",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Circulators",
+   "type": "equipment",
+   "surface": "circulators",
+   "ts": "28:59"
+  },
+  {
+   "canonical": "Madrid Fusion",
+   "type": "place",
+   "surface": "Madrid Fusion",
+   "ts": "28:45"
+  },
+  {
+   "canonical": "Star Shifts",
+   "type": "place",
+   "surface": "Star Shifts",
+   "ts": "28:45"
+  },
+  {
+   "canonical": "Garmin District",
+   "type": "place",
+   "surface": "Garmin District",
+   "ts": "31:47"
+  },
+  {
+   "canonical": "Lower East Side",
+   "type": "place",
+   "surface": "lower east side",
+   "ts": "31:47"
+  },
+  {
+   "canonical": "Lower East Side",
+   "type": "place",
+   "surface": "lower east side",
+   "ts": "32:27"
+  },
+  {
+   "canonical": "Dufraint",
+   "type": "place",
+   "surface": "dufrain duh",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Cajun Fryer",
+   "type": "equipment",
+   "surface": "Cajun fryer",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "equipment",
+   "surface": "stainless",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "equipment",
+   "surface": "stainless",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "equipment",
+   "surface": "stainless",
+   "ts": "37:43"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "35:15"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "37:08"
+  },
+  {
+   "canonical": "Fryer",
+   "type": "equipment",
+   "surface": "fryer",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Thermostatic Fryer",
+   "type": "equipment",
+   "surface": "thermostatic fryer",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "32:27"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "37:43"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "ingredient",
+   "surface": "stainless",
+   "ts": "37:56"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "ingredient",
+   "surface": "stainless",
+   "ts": "38:03"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "ingredient",
+   "surface": "stainless",
+   "ts": "38:18"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "ingredient",
+   "surface": "stainless",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "ingredient",
+   "surface": "stainless",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Stainless Steel",
+   "type": "ingredient",
+   "surface": "stainless",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "Pizza Master",
+   "type": "equipment",
+   "surface": "Pizza Master",
+   "ts": "39:34"
+  },
+  {
+   "canonical": "Electric Deck Oven",
+   "type": "equipment",
+   "surface": "electric deck oven",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "New York Style Pizza",
+   "type": "ingredient",
+   "surface": "New York style pizza",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "New York Style Pizza",
+   "type": "ingredient",
+   "surface": "New York style pizza",
+   "ts": "40:27"
+  },
+  {
+   "canonical": "French Onion Soup Pizza",
+   "type": "ingredient",
+   "surface": "French onion soup pizza",
+   "ts": "40:48"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Hot Dog Consomm\u00e9",
+   "type": "ingredient",
+   "surface": "hot dog consomme",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Hot Dog Consomm\u00e9",
+   "type": "ingredient",
+   "surface": "hot dog consomme",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady Vicker",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady Vicker",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady Vicker",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donuts",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donuts",
+   "ts": "43:33"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "French fry fryer",
+   "type": "equipment",
+   "surface": "French Fry Fryers",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "French fry fryer",
+   "type": "equipment",
+   "surface": "French fry fryer",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "donut shop",
+   "type": "place",
+   "surface": "donut shop",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "commercial donut fryer",
+   "type": "equipment",
+   "surface": "commercial donut fryers",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "thermal mass",
+   "type": "technique",
+   "surface": "thermal mass",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "frying",
+   "type": "technique",
+   "surface": "Frying",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "43:33"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donuts",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "French Fry Fryers",
+   "type": "equipment",
+   "surface": "French Fry Fryers",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady",
+   "ts": "41:34"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Brady Vicker",
+   "type": "person",
+   "surface": "Brady",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "Belshaw Brothers",
+   "type": "person",
+   "surface": "Belshaw brothers",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "cake donut",
+   "type": "ingredient",
+   "surface": "cake donut",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "yeast donut",
+   "type": "ingredient",
+   "surface": "yeast donut",
+   "ts": "43:13"
+  },
+  {
+   "canonical": "pancake batter",
+   "type": "ingredient",
+   "surface": "pancake batter",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "pancake batter",
+   "type": "ingredient",
+   "surface": "pancake batter",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "cake flour",
+   "type": "ingredient",
+   "surface": "cake flour",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "corn starch",
+   "type": "ingredient",
+   "surface": "corn starches",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "donut depositor",
+   "type": "equipment",
+   "surface": "donut depositor",
+   "ts": "46:01"
+  },
+  {
+   "canonical": "Belshaw",
+   "type": "place",
+   "surface": "Belshaw",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "Belshaw",
+   "type": "place",
+   "surface": "Belshaw",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "Biscuick",
+   "ts": "48:01"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "bisquick",
+   "ts": "48:11"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "49:11"
+  },
+  {
+   "canonical": "Bisquick",
+   "type": "ingredient",
+   "surface": "Biscuick",
+   "ts": "48:01"
+  },
+  {
+   "canonical": "Bisquick",
+   "type": "ingredient",
+   "surface": "bisquick",
+   "ts": "48:11"
+  },
+  {
+   "canonical": "Pancake Mix",
+   "type": "ingredient",
+   "surface": "pan shake",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Pancake Mix",
+   "type": "ingredient",
+   "surface": "pan shake",
+   "ts": "48:54"
+  },
+  {
+   "canonical": "Steam Dumplings",
+   "type": "ingredient",
+   "surface": "Trader Joe's steam dumplings",
+   "ts": "50:34"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "50:34"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "51:05"
+  },
+  {
+   "canonical": "Donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "47:13"
+  },
+  {
+   "canonical": "Donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "47:50"
+  },
+  {
+   "canonical": "Donut",
+   "type": "ingredient",
+   "surface": "donut",
+   "ts": "50:11"
+  },
+  {
+   "canonical": "Donut",
+   "type": "ingredient",
+   "surface": "Donut",
+   "ts": "50:26"
+  },
+  {
+   "canonical": "Yeast Donut",
+   "type": "ingredient",
+   "surface": "yeast donuts",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Yeast Donut",
+   "type": "ingredient",
+   "surface": "yeast donuts",
+   "ts": "47:13"
+  },
+  {
+   "canonical": "Yeast Donut",
+   "type": "ingredient",
+   "surface": "yeast donuts",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Cake Donut",
+   "type": "ingredient",
+   "surface": "Cake donuts",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Cake Donut",
+   "type": "ingredient",
+   "surface": "cake donuts",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "48:41"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "49:11"
+  },
+  {
+   "canonical": "Pancake",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "48:54"
+  },
+  {
+   "canonical": "Pancake",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "49:23"
+  },
+  {
+   "canonical": "Pancake",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "49:39"
+  },
+  {
+   "canonical": "Pizza Skin",
+   "type": "technique",
+   "surface": "pizza skin",
+   "ts": "51:15"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "51:49"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "52:13"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "Cold Fermentation",
+   "type": "technique",
+   "surface": "cold fermentation",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Wood Fire",
+   "type": "equipment",
+   "surface": "wood fire",
+   "ts": "53:55"
+  },
+  {
+   "canonical": "Wood Fire",
+   "type": "equipment",
+   "surface": "wood fire",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "Deck Oven",
+   "type": "equipment",
+   "surface": "deck oven",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "New York Style Pizza",
+   "type": "ingredient",
+   "surface": "New York style pizza",
+   "ts": "54:29"
+  },
+  {
+   "canonical": "New York Style Pizza",
+   "type": "ingredient",
+   "surface": "New York style pizza",
+   "ts": "54:47"
+  },
+  {
+   "canonical": "Coal-Fired Oven",
+   "type": "equipment",
+   "surface": "coal like Lombardi's",
+   "ts": "54:29"
+  },
+  {
+   "canonical": "Bonito Flakes",
+   "type": "ingredient",
+   "surface": "bonito flakes",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Bonito Flakes",
+   "type": "ingredient",
+   "surface": "bonito flakes",
+   "ts": "55:58"
+  },
+  {
+   "canonical": "Gold Leaf",
+   "type": "ingredient",
+   "surface": "gold leaf",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Prudencia Restaurant",
+   "type": "place",
+   "surface": "Prudencia restaurant",
+   "ts": "54:06"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthango",
+   "ts": "57:09"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "57:51"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "57:33"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "57:51"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "58:12"
+  },
+  {
+   "canonical": "Arrowroot",
+   "type": "ingredient",
+   "surface": "arrowroot",
+   "ts": "58:12"
+  },
+  {
+   "canonical": "Arrowroot",
+   "type": "ingredient",
+   "surface": "arrowroot",
+   "ts": "58:19"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guargum",
+   "ts": "58:43"
+  },
+  {
+   "canonical": "Sodium Acid Pyrophosphate",
+   "type": "ingredient",
+   "surface": "SAPP",
+   "ts": "59:45"
+  },
+  {
+   "canonical": "Selip Powder",
+   "type": "ingredient",
+   "surface": "Turkish selep powder",
+   "ts": "58:28"
+  },
+  {
+   "canonical": "Selip Powder",
+   "type": "ingredient",
+   "surface": "selep powder",
+   "ts": "58:43"
+  },
+  {
+   "canonical": "Baking Powder",
+   "type": "ingredient",
+   "surface": "non-aluminum baking powder",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Benjamin Dweck",
+   "type": "person",
+   "surface": "Benjamin uh Dweck",
+   "ts": "58:28"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "1:00:01"
+  }
+ ]
+}

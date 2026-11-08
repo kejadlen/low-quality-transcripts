@@ -1,0 +1,2107 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:43"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Pierre Chong",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "2:43"
+  },
+  {
+   "canonical": "Pierre Chong",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "ingredient",
+   "surface": "Yolele",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "ingredient",
+   "surface": "Yolele",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "ingredient",
+   "surface": "Yolele",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "Shen Yanya Koti",
+   "type": "place",
+   "surface": "Shen Yanyanyakoti",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Health Kitchen",
+   "type": "place",
+   "surface": "Health Kitchen",
+   "ts": "7:17"
+  },
+  {
+   "canonical": "Senegalese cuisine",
+   "type": "ingredient",
+   "surface": "Senegalese",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "Senegalese cuisine",
+   "type": "ingredient",
+   "surface": "Senegalese",
+   "ts": "5:24"
+  },
+  {
+   "canonical": "Senegalese cuisine",
+   "type": "ingredient",
+   "surface": "Senegalese",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "West African cuisine",
+   "type": "ingredient",
+   "surface": "West African",
+   "ts": "4:59"
+  },
+  {
+   "canonical": "West African cuisine",
+   "type": "ingredient",
+   "surface": "West African",
+   "ts": "6:50"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermented stuff",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Iron Chef America",
+   "type": "place",
+   "surface": "Iron Chef America",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawa Dawa",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawadawa",
+   "ts": "17:52"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawaadawa",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Netutu",
+   "type": "ingredient",
+   "surface": "netutu",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Netutu",
+   "type": "ingredient",
+   "surface": "netatu",
+   "ts": "17:52"
+  },
+  {
+   "canonical": "Netutu",
+   "type": "ingredient",
+   "surface": "Netatu",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Broken Rice",
+   "type": "ingredient",
+   "surface": "broken rice",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Broken Rice",
+   "type": "ingredient",
+   "surface": "broken rice",
+   "ts": "12:31"
+  },
+  {
+   "canonical": "Broken Rice",
+   "type": "ingredient",
+   "surface": "broken rice",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Chebujin",
+   "type": "ingredient",
+   "surface": "Chebujin",
+   "ts": "12:31"
+  },
+  {
+   "canonical": "Maggi",
+   "type": "ingredient",
+   "surface": "Maggi",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Maggi",
+   "type": "ingredient",
+   "surface": "Maggie",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Maggi",
+   "type": "ingredient",
+   "surface": "magic",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "Maggi",
+   "type": "ingredient",
+   "surface": "magic",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Sumbala",
+   "type": "ingredient",
+   "surface": "Sumbala",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Iru",
+   "type": "ingredient",
+   "surface": "Iru",
+   "ts": "17:52"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "12:31"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "France",
+   "type": "place",
+   "surface": "French",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "France",
+   "type": "place",
+   "surface": "French",
+   "ts": "12:31"
+  },
+  {
+   "canonical": "France",
+   "type": "place",
+   "surface": "French",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "France",
+   "type": "place",
+   "surface": "French",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Dakar",
+   "type": "place",
+   "surface": "Dakar",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "Colonialism",
+   "type": "technique",
+   "surface": "colonization",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Colonialism",
+   "type": "technique",
+   "surface": "colonial system",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Aged Products",
+   "type": "technique",
+   "surface": "aged",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Aged Products",
+   "type": "technique",
+   "surface": "aged",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Dehydration",
+   "type": "technique",
+   "surface": "dehydrate",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Dehydration",
+   "type": "technique",
+   "surface": "dehydrate",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Traditional Crops",
+   "type": "ingredient",
+   "surface": "traditional foods",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Traditional Crops",
+   "type": "ingredient",
+   "surface": "traditional crops",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "Traditional Crops",
+   "type": "ingredient",
+   "surface": "traditional crops",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Colonial Agriculture",
+   "type": "technique",
+   "surface": "agricultural system",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Fermented Ingredients",
+   "type": "ingredient",
+   "surface": "fermented ingredients",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Fermented Ingredients",
+   "type": "ingredient",
+   "surface": "fermented products",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Fermented Ingredients",
+   "type": "ingredient",
+   "surface": "fermented ingredients",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "LMI Company",
+   "type": "place",
+   "surface": "LMI company",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Pierre Gagnaire",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Pierre Gagnaire",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Pierre Gagnaire",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "tomato-based stew",
+   "type": "ingredient",
+   "surface": "tomato-based stew",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "cream-based",
+   "type": "ingredient",
+   "surface": "cream-based",
+   "ts": "20:01"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawa dawa",
+   "ts": "20:52"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawa Dawa",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawadowa",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawa dawa",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawadawa",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawadawa",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawadowa",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Woodlands",
+   "type": "place",
+   "surface": "Woodlands",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "lele.com",
+   "type": "place",
+   "surface": "lele.com",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "lele.com",
+   "type": "place",
+   "surface": "lele.com",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Afro Funk",
+   "type": "ingredient",
+   "surface": "afro funk",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Afro Funk",
+   "type": "ingredient",
+   "surface": "afro funk",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Morinig",
+   "type": "ingredient",
+   "surface": "moringa",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawadowa",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawadawa",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawadawa",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "dawadawa",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawadowa",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "place",
+   "surface": "Yolele",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "place",
+   "surface": "Yolele",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "place",
+   "surface": "Yolele",
+   "ts": "25:59"
+  },
+  {
+   "canonical": "Grandka",
+   "type": "place",
+   "surface": "Grandka",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Besta",
+   "type": "place",
+   "surface": "Besta",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Dhaka",
+   "type": "place",
+   "surface": "Dhaka",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Abidjan",
+   "type": "place",
+   "surface": "Abidjan",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Lagos",
+   "type": "place",
+   "surface": "Lagos",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fono",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "22:07"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fono",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fono",
+   "ts": "27:36"
+  },
+  {
+   "canonical": "Millet",
+   "type": "ingredient",
+   "surface": "millet",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Millet",
+   "type": "ingredient",
+   "surface": "millet",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Glycemic Index",
+   "type": "technique",
+   "surface": "glycemic index",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Cysteine",
+   "type": "ingredient",
+   "surface": "cysteine",
+   "ts": "27:36"
+  },
+  {
+   "canonical": "Methionine",
+   "type": "ingredient",
+   "surface": "methionine",
+   "ts": "27:36"
+  },
+  {
+   "canonical": "Fiber",
+   "type": "ingredient",
+   "surface": "fiber",
+   "ts": "27:36"
+  },
+  {
+   "canonical": "Philip Tevreau",
+   "type": "person",
+   "surface": "Philip Tevreau",
+   "ts": "28:54"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "31:30"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "31:54"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "32:24"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "33:27"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "28:54"
+  },
+  {
+   "canonical": "Quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "Quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "Bambara beans",
+   "type": "ingredient",
+   "surface": "bambara beans",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Bambara beans",
+   "type": "ingredient",
+   "surface": "bambara beans",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Bambara beans",
+   "type": "ingredient",
+   "surface": "bambarra beans",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Acacia",
+   "type": "ingredient",
+   "surface": "acacia",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Acacia",
+   "type": "ingredient",
+   "surface": "acacia",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "place",
+   "surface": "Yolele",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Sahel",
+   "type": "place",
+   "surface": "Sahel",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "Cornell University",
+   "type": "place",
+   "surface": "Cornell University",
+   "ts": "33:27"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "33:27"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "37:36"
+  },
+  {
+   "canonical": "Mali",
+   "type": "place",
+   "surface": "Mali",
+   "ts": "33:27"
+  },
+  {
+   "canonical": "Pestle",
+   "type": "equipment",
+   "surface": "pestle",
+   "ts": "32:24"
+  },
+  {
+   "canonical": "Mill",
+   "type": "equipment",
+   "surface": "mill",
+   "ts": "34:06"
+  },
+  {
+   "canonical": "Garrett Oliver",
+   "type": "person",
+   "surface": "Garrett",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Brooklyn Brewery",
+   "type": "place",
+   "surface": "Brooklyn Brewery",
+   "ts": "40:49"
+  },
+  {
+   "canonical": "Brooklyn Brewery",
+   "type": "place",
+   "surface": "Brooklyn Brewery",
+   "ts": "41:11"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "38:23"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "41:11"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "41:44"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "41:53"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "fonio",
+   "ts": "42:08"
+  },
+  {
+   "canonical": "Dolo",
+   "type": "ingredient",
+   "surface": "Dolo",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Dolo",
+   "type": "ingredient",
+   "surface": "dolo",
+   "ts": "42:08"
+  },
+  {
+   "canonical": "Dolo",
+   "type": "ingredient",
+   "surface": "dolo",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Taranga",
+   "type": "ingredient",
+   "surface": "Taranga",
+   "ts": "40:49"
+  },
+  {
+   "canonical": "DFAO",
+   "type": "place",
+   "surface": "DFAO",
+   "ts": "38:23"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Pullman Hotel",
+   "type": "place",
+   "surface": "Pullman Hotel",
+   "ts": "43:06"
+  },
+  {
+   "canonical": "Casamance",
+   "type": "place",
+   "surface": "Casamance",
+   "ts": "42:46"
+  },
+  {
+   "canonical": "Youssef Trevalli",
+   "type": "person",
+   "surface": "Youssef Trevalli",
+   "ts": "43:51"
+  },
+  {
+   "canonical": "Dakar University",
+   "type": "place",
+   "surface": "Dakar University",
+   "ts": "43:51"
+  },
+  {
+   "canonical": "Timesquare",
+   "type": "place",
+   "surface": "Timesquare",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "Garvin's",
+   "type": "place",
+   "surface": "Garvin's",
+   "ts": "46:02"
+  },
+  {
+   "canonical": "Waverly Place",
+   "type": "place",
+   "surface": "Waverly Place",
+   "ts": "46:02"
+  },
+  {
+   "canonical": "emulsion",
+   "type": "technique",
+   "surface": "emulsion",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "acid and lipid",
+   "type": "ingredient",
+   "surface": "acid and lipid",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "Soho",
+   "type": "place",
+   "surface": "Soho",
+   "ts": "48:22"
+  },
+  {
+   "canonical": "Boom",
+   "type": "place",
+   "surface": "boom",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Vietnamese community",
+   "type": "place",
+   "surface": "Vietnamese community",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Senegalese food",
+   "type": "ingredient",
+   "surface": "Senegalese food",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Ohio",
+   "type": "place",
+   "surface": "Ohio",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Yolele",
+   "type": "place",
+   "surface": "Yolele",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Africa",
+   "type": "place",
+   "surface": "Africa",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Market",
+   "type": "place",
+   "surface": "market",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "47:45"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Recipe",
+   "type": "ingredient",
+   "surface": "recipe",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Recipe",
+   "type": "ingredient",
+   "surface": "recipes",
+   "ts": "52:54"
+  },
+  {
+   "canonical": "Recipe",
+   "type": "ingredient",
+   "surface": "recipe",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Cookbook",
+   "type": "place",
+   "surface": "cookbook",
+   "ts": "52:54"
+  },
+  {
+   "canonical": "Cookbook",
+   "type": "place",
+   "surface": "cookbook",
+   "ts": "53:46"
+  },
+  {
+   "canonical": "Adam Bartos",
+   "type": "person",
+   "surface": "Adam Bartos",
+   "ts": "53:22"
+  },
+  {
+   "canonical": "Adam Bartos",
+   "type": "person",
+   "surface": "Adam Batos",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Adam Bartos",
+   "type": "person",
+   "surface": "Adam Batos",
+   "ts": "53:46"
+  },
+  {
+   "canonical": "Evan Song",
+   "type": "person",
+   "surface": "Evan Song",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Evan Song",
+   "type": "person",
+   "surface": "Evan Song",
+   "ts": "53:46"
+  },
+  {
+   "canonical": "Fogno",
+   "type": "place",
+   "surface": "Fogno",
+   "ts": "53:46"
+  },
+  {
+   "canonical": "Fogno",
+   "type": "place",
+   "surface": "Fogno",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "New Orleans",
+   "type": "place",
+   "surface": "New Orleans",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Jollof Rice",
+   "type": "ingredient",
+   "surface": "jollof rice",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Jambalaya",
+   "type": "ingredient",
+   "surface": "jambalaya",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Gazelle",
+   "type": "ingredient",
+   "surface": "gazelles",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Porcupine",
+   "type": "ingredient",
+   "surface": "porcupines",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Lion",
+   "type": "ingredient",
+   "surface": "lions",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Joshua Kuhn",
+   "type": "person",
+   "surface": "Joshua Kuhn",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Isabella de Giulio",
+   "type": "person",
+   "surface": "Isabella de Giulio",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Netatu",
+   "type": "ingredient",
+   "surface": "netatu",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Netatu",
+   "type": "ingredient",
+   "surface": "netetu",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Netatu",
+   "type": "ingredient",
+   "surface": "netu",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "Netatu",
+   "type": "ingredient",
+   "surface": "netatu",
+   "ts": "1:03:28"
+  },
+  {
+   "canonical": "Dawadawa",
+   "type": "ingredient",
+   "surface": "Dawadawa",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Phonio",
+   "type": "ingredient",
+   "surface": "Phonio",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Scotch Bonnet",
+   "type": "ingredient",
+   "surface": "scotch bonnet",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Scotch Bonnet",
+   "type": "ingredient",
+   "surface": "scotch bonnet",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "Scotch Bonnet",
+   "type": "ingredient",
+   "surface": "scotch bonnet",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "Cayenne Pepper",
+   "type": "ingredient",
+   "surface": "cayenne pepper",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "International Grocery",
+   "type": "place",
+   "surface": "International Grocery",
+   "ts": "58:40"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "1:03:18"
+  },
+  {
+   "canonical": "Porcupine",
+   "type": "ingredient",
+   "surface": "porcupine",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Porcupine",
+   "type": "ingredient",
+   "surface": "porcupine",
+   "ts": "58:52"
+  },
+  {
+   "canonical": "Gazelle",
+   "type": "ingredient",
+   "surface": "gazelles",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Rabbit",
+   "type": "ingredient",
+   "surface": "rabbits",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Rapal Mist",
+   "type": "ingredient",
+   "surface": "rapal mist",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Bush Rat",
+   "type": "ingredient",
+   "surface": "bush rat",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Smoked Porcupine",
+   "type": "technique",
+   "surface": "smoke it",
+   "ts": "57:44"
+  },
+  {
+   "canonical": "Smoked Porcupine",
+   "type": "technique",
+   "surface": "smoke it",
+   "ts": "58:16"
+  },
+  {
+   "canonical": "Stew",
+   "type": "technique",
+   "surface": "stew",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Stew",
+   "type": "technique",
+   "surface": "stew",
+   "ts": "58:16"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferments",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "1:02:50"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "1:04:34"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "Mortar and Pestle",
+   "type": "equipment",
+   "surface": "mortar and pesto",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Blender",
+   "type": "equipment",
+   "surface": "blend it all together",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:02:01"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:02:50"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:03:28"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:04:34"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:04:54"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "1:02:42"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:02:42"
+  },
+  {
+   "canonical": "Tbu Gen",
+   "type": "technique",
+   "surface": "Tbu Gen",
+   "ts": "1:02:50"
+  },
+  {
+   "canonical": "chewujan",
+   "type": "technique",
+   "surface": "chewujan",
+   "ts": "1:04:54"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "1:03:18"
+  },
+  {
+   "canonical": "netatu",
+   "type": "ingredient",
+   "surface": "netatu",
+   "ts": "59:09"
+  },
+  {
+   "canonical": "netatu",
+   "type": "ingredient",
+   "surface": "netatu",
+   "ts": "1:03:28"
+  },
+  {
+   "canonical": "geg",
+   "type": "ingredient",
+   "surface": "geg",
+   "ts": "1:02:50"
+  },
+  {
+   "canonical": "geg",
+   "type": "ingredient",
+   "surface": "geg",
+   "ts": "1:03:28"
+  },
+  {
+   "canonical": "geg",
+   "type": "ingredient",
+   "surface": "geg",
+   "ts": "1:04:34"
+  },
+  {
+   "canonical": "fermented conch",
+   "type": "ingredient",
+   "surface": "fermented conch",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "scotch bonnet",
+   "type": "ingredient",
+   "surface": "scotch bonnet",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "scotch bonnet",
+   "type": "ingredient",
+   "surface": "scotch bonnet",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "scotch bonnet",
+   "type": "ingredient",
+   "surface": "scotch bonnet",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "cassava",
+   "type": "ingredient",
+   "surface": "cassava",
+   "ts": "1:05:12"
+  },
+  {
+   "canonical": "carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "1:05:12"
+  },
+  {
+   "canonical": "cabbage",
+   "type": "ingredient",
+   "surface": "cabbage",
+   "ts": "1:05:12"
+  },
+  {
+   "canonical": "eggplants",
+   "type": "ingredient",
+   "surface": "eggplants",
+   "ts": "1:05:12"
+  },
+  {
+   "canonical": "tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "1:04:54"
+  },
+  {
+   "canonical": "onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "1:04:54"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "1:02:50"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "1:03:28"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "1:05:33"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "1:02:01"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "1:04:34"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "1:04:54"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "1:05:33"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "1:04:54"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "1:05:12"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "pepper",
+   "type": "ingredient",
+   "surface": "pepper",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "pepper",
+   "type": "ingredient",
+   "surface": "pepper",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "1:05:33"
+  },
+  {
+   "canonical": "parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "1:05:50"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:02:01"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:02:50"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:03:28"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:04:34"
+  },
+  {
+   "canonical": "Fonio",
+   "type": "ingredient",
+   "surface": "Fonio",
+   "ts": "1:08:22"
+  },
+  {
+   "canonical": "teranga",
+   "type": "ingredient",
+   "surface": "Teranga",
+   "ts": "1:08:07"
+  },
+  {
+   "canonical": "teranga",
+   "type": "ingredient",
+   "surface": "teranga",
+   "ts": "1:08:22"
+  },
+  {
+   "canonical": "Yolele.com",
+   "type": "place",
+   "surface": "Yolele.com",
+   "ts": "1:08:22"
+  },
+  {
+   "canonical": "Brooklyn Brewery",
+   "type": "place",
+   "surface": "Brooklyn Brewery",
+   "ts": "1:08:22"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "1:08:07"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "1:08:22"
+  },
+  {
+   "canonical": "Target",
+   "type": "place",
+   "surface": "Target",
+   "ts": "1:08:07"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "1:08:07"
+  },
+  {
+   "canonical": "Naya",
+   "type": "person",
+   "surface": "Naya",
+   "ts": "1:07:55"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:08:45"
+  },
+  {
+   "canonical": "Chewujan",
+   "type": "ingredient",
+   "surface": "Chewujan",
+   "ts": "1:06:40"
+  },
+  {
+   "canonical": "paya",
+   "type": "ingredient",
+   "surface": "paya",
+   "ts": "1:06:40"
+  }
+ ]
+}

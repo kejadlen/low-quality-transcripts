@@ -1,0 +1,2383 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Aron",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "6:05"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "6:31"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:21"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "1:17"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:21"
+  },
+  {
+   "canonical": "Jackie Molecules Ninsley",
+   "type": "person",
+   "surface": "Jackie Molecules Ninsley",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:57"
+  },
+  {
+   "canonical": "Katie Parla",
+   "type": "person",
+   "surface": "Katie Parla",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Pretzaloids",
+   "type": "ingredient",
+   "surface": "Pretzaloids",
+   "ts": "1:30"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "1:44"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "Pasta",
+   "ts": "2:09"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "2:21"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "2:54"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "6:05"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "6:44"
+  },
+  {
+   "canonical": "Dried pasta",
+   "type": "ingredient",
+   "surface": "dried pasta",
+   "ts": "2:54"
+  },
+  {
+   "canonical": "Dried pasta",
+   "type": "ingredient",
+   "surface": "dried pasta",
+   "ts": "6:05"
+  },
+  {
+   "canonical": "Gluten-free pretzel",
+   "type": "ingredient",
+   "surface": "gluten-free pretzel",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "Schneider's",
+   "type": "place",
+   "surface": "Schneider's",
+   "ts": "0:36"
+  },
+  {
+   "canonical": "New Stand Studios",
+   "type": "place",
+   "surface": "New Stand Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Heart of Manhattan",
+   "type": "place",
+   "surface": "Heart of Manhattan",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Food of the Italian Islands",
+   "type": "place",
+   "surface": "Food of the Italian Islands",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Food of the Italian Islands",
+   "type": "place",
+   "surface": "Food of the Italian Islands",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "Catania",
+   "type": "place",
+   "surface": "Catania",
+   "ts": "3:20"
+  },
+  {
+   "canonical": "UPS",
+   "type": "equipment",
+   "surface": "UPS",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "UPS",
+   "type": "equipment",
+   "surface": "UPS",
+   "ts": "4:32"
+  },
+  {
+   "canonical": "UPS",
+   "type": "equipment",
+   "surface": "UPS",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "UPS",
+   "type": "equipment",
+   "surface": "UPS",
+   "ts": "5:40"
+  },
+  {
+   "canonical": "FedEx",
+   "type": "equipment",
+   "surface": "FedEx",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Meringue",
+   "type": "ingredient",
+   "surface": "Meringue",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Angel food cake",
+   "type": "ingredient",
+   "surface": "angel food cake",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "Pequatzipus",
+   "type": "place",
+   "surface": "Pequatzipus",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Pequatzipus",
+   "type": "place",
+   "surface": "Pequatzipis",
+   "ts": "7:47"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "7:47"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "8:14"
+  },
+  {
+   "canonical": "New Haven",
+   "type": "place",
+   "surface": "New Haven",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Clan pizza",
+   "type": "ingredient",
+   "surface": "clan pizza",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Frutti di mare",
+   "type": "ingredient",
+   "surface": "frutti di mare",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Mussels",
+   "type": "ingredient",
+   "surface": "mussels",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Clams",
+   "type": "ingredient",
+   "surface": "clams",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Virstal",
+   "type": "ingredient",
+   "surface": "Virstal",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "French fried pizza",
+   "type": "ingredient",
+   "surface": "French fried pizza",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "French fried pizza",
+   "type": "ingredient",
+   "surface": "French fried pizza",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "Italian burger",
+   "type": "ingredient",
+   "surface": "Italian burger",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "Italian burger",
+   "type": "ingredient",
+   "surface": "Italian made",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "American hamburger",
+   "type": "ingredient",
+   "surface": "American hamburgers",
+   "ts": "9:31"
+  },
+  {
+   "canonical": "American hamburger",
+   "type": "ingredient",
+   "surface": "American burger",
+   "ts": "9:54"
+  },
+  {
+   "canonical": "Dried pasta",
+   "type": "ingredient",
+   "surface": "dried pasta",
+   "ts": "10:50"
+  },
+  {
+   "canonical": "Dried pasta",
+   "type": "ingredient",
+   "surface": "dried pasta",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Fresh pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "10:50"
+  },
+  {
+   "canonical": "Fresh pasta",
+   "type": "ingredient",
+   "surface": "Fresh pasta",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Spaghetti",
+   "type": "ingredient",
+   "surface": "spaghetti",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Al chiodo",
+   "type": "technique",
+   "surface": "al chiodo",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Al dente",
+   "type": "technique",
+   "surface": "al dente",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Shelf toilet",
+   "type": "equipment",
+   "surface": "shelf toilets",
+   "ts": "12:37"
+  },
+  {
+   "canonical": "Shelf toilet",
+   "type": "equipment",
+   "surface": "shelf like toilet",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "Shelf toilet",
+   "type": "equipment",
+   "surface": "shelf toilets",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Cleaning brush",
+   "type": "equipment",
+   "surface": "cleaning brush",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "Cleaning brush",
+   "type": "equipment",
+   "surface": "cleaning brush",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Bidet",
+   "type": "equipment",
+   "surface": "bidet",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Toto washlet",
+   "type": "equipment",
+   "surface": "Toto washlet",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Bidet",
+   "type": "equipment",
+   "surface": "bidets",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Bidet",
+   "type": "equipment",
+   "surface": "bidets",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Bidet",
+   "type": "equipment",
+   "surface": "bidets",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "Vacuum Packed Ferments",
+   "type": "technique",
+   "surface": "vacuum packed ferments",
+   "ts": "14:35"
+  },
+  {
+   "canonical": "Arco Boleno",
+   "type": "equipment",
+   "surface": "arco boleno",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Dry Pasta",
+   "type": "ingredient",
+   "surface": "dry pasta",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Extruder",
+   "type": "equipment",
+   "surface": "extruder",
+   "ts": "14:35"
+  },
+  {
+   "canonical": "Dehydrated Orange Peel",
+   "type": "ingredient",
+   "surface": "dehydrated orange peel",
+   "ts": "15:56"
+  },
+  {
+   "canonical": "Orange Peel",
+   "type": "ingredient",
+   "surface": "orange peel",
+   "ts": "15:56"
+  },
+  {
+   "canonical": "Orange Peel",
+   "type": "ingredient",
+   "surface": "orange peel",
+   "ts": "16:13"
+  },
+  {
+   "canonical": "Orange Peel",
+   "type": "ingredient",
+   "surface": "orange peel",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "Roux",
+   "type": "technique",
+   "surface": "roux",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Roux",
+   "type": "technique",
+   "surface": "roux",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "Food of the Italian Islands",
+   "type": "place",
+   "surface": "Food of the Italian Islands",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "17:18"
+  },
+  {
+   "canonical": "Parla Publishing",
+   "type": "place",
+   "surface": "Parla Publishing",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "Simon and Schuster",
+   "type": "place",
+   "surface": "Simon and Schuster",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Chronicle",
+   "type": "place",
+   "surface": "Chronicle",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Clarkson Potter",
+   "type": "place",
+   "surface": "Clarkson Potter",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Voracious",
+   "type": "place",
+   "surface": "Voracious",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "Ed Anderson",
+   "type": "person",
+   "surface": "Ed Anderson",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Omnivore Now Serving",
+   "type": "place",
+   "surface": "Omnivore Now Serving",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Book Larder",
+   "type": "place",
+   "surface": "Book Larder",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Bold Fork",
+   "type": "place",
+   "surface": "Bold Fork",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "UPS",
+   "type": "place",
+   "surface": "UPS",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Shopify",
+   "type": "equipment",
+   "surface": "Shopify",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Mystic",
+   "type": "place",
+   "surface": "Mystic",
+   "ts": "22:19"
+  },
+  {
+   "canonical": "McNally Jackson's",
+   "type": "place",
+   "surface": "McNally Jackson's",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "Ed",
+   "type": "person",
+   "surface": "Ed",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Ed",
+   "type": "person",
+   "surface": "Ed",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Ed",
+   "type": "person",
+   "surface": "Ed",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Kadyparla",
+   "type": "place",
+   "surface": "kadyparla",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Ischia",
+   "type": "place",
+   "surface": "Ischia",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Ischia",
+   "type": "place",
+   "surface": "ischia",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Ischia",
+   "type": "place",
+   "surface": "Ischia",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Pantelleria",
+   "type": "place",
+   "surface": "Pantelleria",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "27:39"
+  },
+  {
+   "canonical": "Caper Berries",
+   "type": "ingredient",
+   "surface": "caper berries",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Caper Berries",
+   "type": "ingredient",
+   "surface": "caper berries",
+   "ts": "27:39"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "27:39"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "Sicily",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Venice",
+   "type": "place",
+   "surface": "Venice",
+   "ts": "24:58"
+  },
+  {
+   "canonical": "Naples",
+   "type": "place",
+   "surface": "Naples",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Shop.kadyparla.com",
+   "type": "place",
+   "surface": "shop.kadyparla.com",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Caper Berries",
+   "type": "ingredient",
+   "surface": "caper berries",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "Caper Leaves",
+   "type": "ingredient",
+   "surface": "caper leaves",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "Capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "Capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Salt-Packed Capers",
+   "type": "ingredient",
+   "surface": "salt pack ones",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Salt-Packed Capers",
+   "type": "ingredient",
+   "surface": "salt pack ones",
+   "ts": "29:07"
+  },
+  {
+   "canonical": "Lanikia",
+   "type": "place",
+   "surface": "Lanikia",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Goya",
+   "type": "place",
+   "surface": "Goya brand",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Venice",
+   "type": "place",
+   "surface": "Venetians",
+   "ts": "31:04"
+  },
+  {
+   "canonical": "Venice",
+   "type": "place",
+   "surface": "Venetians",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Venice",
+   "type": "place",
+   "surface": "Venetians",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "Puglia",
+   "type": "place",
+   "surface": "Puglia",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Monopoly",
+   "type": "place",
+   "surface": "Monopoly",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Leite",
+   "type": "place",
+   "surface": "Leite",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Chiffonade",
+   "type": "technique",
+   "surface": "chiffonado suckers",
+   "ts": "28:05"
+  },
+  {
+   "canonical": "Rehydration",
+   "type": "technique",
+   "surface": "Rehydrate",
+   "ts": "28:05"
+  },
+  {
+   "canonical": "Rehydration",
+   "type": "technique",
+   "surface": "rehydrate",
+   "ts": "29:07"
+  },
+  {
+   "canonical": "Osmosis",
+   "type": "technique",
+   "surface": "osmosis",
+   "ts": "28:48"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:04"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Polenta",
+   "type": "ingredient",
+   "surface": "polenta",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Polenta",
+   "type": "ingredient",
+   "surface": "polenta",
+   "ts": "32:07"
+  },
+  {
+   "canonical": "Beagli",
+   "type": "ingredient",
+   "surface": "Beagli",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Salt Cod",
+   "type": "ingredient",
+   "surface": "saltfish",
+   "ts": "30:00"
+  },
+  {
+   "canonical": "Bacala",
+   "type": "ingredient",
+   "surface": "bacala",
+   "ts": "29:13"
+  },
+  {
+   "canonical": "Pistachio Paste",
+   "type": "ingredient",
+   "surface": "pistachio paste",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Corrado Assenza's Coffee Sicilia",
+   "type": "ingredient",
+   "surface": "Corrado Assenza's coffee sicilia",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Meddler Paste",
+   "type": "ingredient",
+   "surface": "meddler paste",
+   "ts": "36:07"
+  },
+  {
+   "canonical": "Pistachios",
+   "type": "ingredient",
+   "surface": "pistachio",
+   "ts": "35:32"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "32:56"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "33:59"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "34:12"
+  },
+  {
+   "canonical": "Train",
+   "type": "equipment",
+   "surface": "train",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Boat",
+   "type": "equipment",
+   "surface": "boat",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Boat",
+   "type": "equipment",
+   "surface": "boat",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Boat",
+   "type": "equipment",
+   "surface": "boat",
+   "ts": "33:59"
+  },
+  {
+   "canonical": "Boat",
+   "type": "equipment",
+   "surface": "boat",
+   "ts": "34:12"
+  },
+  {
+   "canonical": "Sleeper Car",
+   "type": "equipment",
+   "surface": "sleeper car",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Sleeper Car",
+   "type": "equipment",
+   "surface": "sleeper car",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "TSA",
+   "type": "place",
+   "surface": "TSA",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "Postacchio",
+   "type": "place",
+   "surface": "Postacchio",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "Catania Airport",
+   "type": "place",
+   "surface": "Catania airport",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Italy",
+   "type": "place",
+   "surface": "Italy",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "Naples",
+   "type": "place",
+   "surface": "Naples",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "Venetians",
+   "type": "place",
+   "surface": "Venetians",
+   "ts": "31:04"
+  },
+  {
+   "canonical": "Venetians",
+   "type": "place",
+   "surface": "Venetians",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "Venetians",
+   "type": "place",
+   "surface": "Venetians",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "Northern Italy",
+   "type": "place",
+   "surface": "northern people",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "Northern Italy",
+   "type": "place",
+   "surface": "north",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Rome",
+   "type": "place",
+   "surface": "Rome",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Rome",
+   "type": "place",
+   "surface": "Rome",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Palermo",
+   "type": "place",
+   "surface": "Palermo",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Palermo",
+   "type": "place",
+   "surface": "Palermo",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Strait of Messina",
+   "type": "place",
+   "surface": "Strait of Messina",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Strait of Messina",
+   "type": "place",
+   "surface": "Strait of Messina",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Strait of Messina",
+   "type": "place",
+   "surface": "Strait of Messina",
+   "ts": "34:49"
+  },
+  {
+   "canonical": "Messina",
+   "type": "place",
+   "surface": "Messina",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Messina",
+   "type": "place",
+   "surface": "Messina",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Messina",
+   "type": "place",
+   "surface": "Messina",
+   "ts": "34:49"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "sicilia",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Puglia",
+   "type": "place",
+   "surface": "Puglia",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Monopoly",
+   "type": "place",
+   "surface": "Monopoly",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Leite",
+   "type": "place",
+   "surface": "Leite",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Katie",
+   "type": "person",
+   "surface": "Katie",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Katie",
+   "type": "person",
+   "surface": "Katie",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Matt Sartwell",
+   "type": "person",
+   "surface": "Matt Sartwell",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "36:47"
+  },
+  {
+   "canonical": "Wizmard",
+   "type": "person",
+   "surface": "Wizmard",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Puglia",
+   "type": "place",
+   "surface": "Puglia",
+   "ts": "37:08"
+  },
+  {
+   "canonical": "Puglia",
+   "type": "place",
+   "surface": "Puglia",
+   "ts": "37:28"
+  },
+  {
+   "canonical": "Puglia",
+   "type": "place",
+   "surface": "Puglia",
+   "ts": "37:51"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardini",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "Pecorino",
+   "ts": "38:28"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino",
+   "ts": "38:43"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino",
+   "ts": "39:24"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino",
+   "ts": "40:20"
+  },
+  {
+   "canonical": "Fulvi",
+   "type": "place",
+   "surface": "Fulvi",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "39:24"
+  },
+  {
+   "canonical": "Galbani",
+   "type": "ingredient",
+   "surface": "Galbani",
+   "ts": "40:35"
+  },
+  {
+   "canonical": "Galbani",
+   "type": "ingredient",
+   "surface": "galbani",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "Rigatoni",
+   "type": "ingredient",
+   "surface": "rigatoni",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Rigatoni",
+   "type": "ingredient",
+   "surface": "rigatoni",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Oxtail",
+   "type": "ingredient",
+   "surface": "oxtail",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Carbonara",
+   "type": "ingredient",
+   "surface": "carbonara",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Cache Pepe",
+   "type": "ingredient",
+   "surface": "cache pepe",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Matriciana",
+   "type": "ingredient",
+   "surface": "matriciana",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Veal Intestines",
+   "type": "ingredient",
+   "surface": "veal intestines",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Tuma",
+   "type": "ingredient",
+   "surface": "tuma",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "Caccio Cavallo",
+   "type": "ingredient",
+   "surface": "caccio cavallo",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "Queso",
+   "type": "ingredient",
+   "surface": "queso",
+   "ts": "41:31"
+  },
+  {
+   "canonical": "Queso",
+   "type": "ingredient",
+   "surface": "queso",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Calabri",
+   "type": "ingredient",
+   "surface": "calabri",
+   "ts": "41:31"
+  },
+  {
+   "canonical": "Peppers",
+   "type": "ingredient",
+   "surface": "peppers",
+   "ts": "41:31"
+  },
+  {
+   "canonical": "Peppers",
+   "type": "ingredient",
+   "surface": "peppers",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "Ricotta",
+   "type": "ingredient",
+   "surface": "ricotta",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Parmigiano",
+   "type": "ingredient",
+   "surface": "Parmigiano",
+   "ts": "38:43"
+  },
+  {
+   "canonical": "Parmigiano",
+   "type": "ingredient",
+   "surface": "Parmigiano",
+   "ts": "39:44"
+  },
+  {
+   "canonical": "Consortio",
+   "type": "place",
+   "surface": "consortio",
+   "ts": "39:44"
+  },
+  {
+   "canonical": "Caglioli",
+   "type": "place",
+   "surface": "Caglioli",
+   "ts": "43:10"
+  },
+  {
+   "canonical": "Palermo",
+   "type": "place",
+   "surface": "Palermo",
+   "ts": "43:10"
+  },
+  {
+   "canonical": "Palermo",
+   "type": "place",
+   "surface": "Palermo",
+   "ts": "43:19"
+  },
+  {
+   "canonical": "Firenze",
+   "type": "place",
+   "surface": "Firenze",
+   "ts": "43:10"
+  },
+  {
+   "canonical": "Rome",
+   "type": "place",
+   "surface": "Rome",
+   "ts": "38:43"
+  },
+  {
+   "canonical": "Rome",
+   "type": "place",
+   "surface": "Rome",
+   "ts": "39:03"
+  },
+  {
+   "canonical": "Rome",
+   "type": "place",
+   "surface": "Rome",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Rome",
+   "type": "place",
+   "surface": "Rome",
+   "ts": "43:10"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "Sicily",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Beverly Hills",
+   "type": "place",
+   "surface": "Beverly Hills",
+   "ts": "43:19"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "San Gennaro Festival",
+   "type": "place",
+   "surface": "San Gennaro Festival",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "Tuscan bread",
+   "type": "ingredient",
+   "surface": "Tuscan bread",
+   "ts": "45:56"
+  },
+  {
+   "canonical": "Tuscan bread",
+   "type": "ingredient",
+   "surface": "Tuscan bread",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "horse steak",
+   "type": "ingredient",
+   "surface": "horse steak",
+   "ts": "43:52"
+  },
+  {
+   "canonical": "horse steak",
+   "type": "ingredient",
+   "surface": "horse steak",
+   "ts": "44:02"
+  },
+  {
+   "canonical": "spleen",
+   "type": "ingredient",
+   "surface": "spleen",
+   "ts": "43:19"
+  },
+  {
+   "canonical": "spleen",
+   "type": "ingredient",
+   "surface": "spleen",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "lungs",
+   "type": "ingredient",
+   "surface": "lungs",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "lungs",
+   "type": "ingredient",
+   "surface": "lungs",
+   "ts": "43:52"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "43:52"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "44:02"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "44:48"
+  },
+  {
+   "canonical": "Tuscan",
+   "type": "place",
+   "surface": "Tuscan",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "Tuscan",
+   "type": "place",
+   "surface": "Tuscan",
+   "ts": "45:56"
+  },
+  {
+   "canonical": "Tuscan",
+   "type": "place",
+   "surface": "Tuscan",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "Cesare Casella",
+   "type": "person",
+   "surface": "Cesare Casella",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "Keanina cows",
+   "type": "ingredient",
+   "surface": "Keanina cows",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "cheesesteaks",
+   "type": "ingredient",
+   "surface": "cheesesteaks",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "cheesesteaks",
+   "type": "ingredient",
+   "surface": "cheesesteaks",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Tuscan bread",
+   "type": "ingredient",
+   "surface": "Tuscan bread",
+   "ts": "45:56"
+  },
+  {
+   "canonical": "Tuscan bread",
+   "type": "ingredient",
+   "surface": "Tuscan bread",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Time Life Foods of the World",
+   "type": "place",
+   "surface": "Time Life Foods of the World",
+   "ts": "45:56"
+  },
+  {
+   "canonical": "hand pulled Italian noodles",
+   "type": "ingredient",
+   "surface": "hand pulled Italian noodles",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "John Franca de Tori",
+   "type": "person",
+   "surface": "John Franca de Tori",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "Durham wheat",
+   "type": "ingredient",
+   "surface": "Durham wheat",
+   "ts": "47:51"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Barbagia",
+   "type": "place",
+   "surface": "Barbagia",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Corsica",
+   "type": "place",
+   "surface": "Corsica",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Savoy",
+   "type": "place",
+   "surface": "Savoys",
+   "ts": "49:10"
+  },
+  {
+   "canonical": "Mint pistachio pesto",
+   "type": "ingredient",
+   "surface": "mint pistachio uh pesto",
+   "ts": "50:38"
+  },
+  {
+   "canonical": "Caponata",
+   "type": "ingredient",
+   "surface": "caponata",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "50:38"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "50:49"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "51:46"
+  },
+  {
+   "canonical": "Mount Etna",
+   "type": "place",
+   "surface": "Mount Etna",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "Sicily",
+   "ts": "50:49"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "Sicily",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Sardinian knives",
+   "type": "equipment",
+   "surface": "Sardinian knives",
+   "ts": "49:20"
+  },
+  {
+   "canonical": "Grafting knives",
+   "type": "equipment",
+   "surface": "grafting knives",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Skinning knives",
+   "type": "equipment",
+   "surface": "skinning knives",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Acidulated sheep's milk cheese",
+   "type": "ingredient",
+   "surface": "acidulated sheep's milk cheese",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Mutton broth",
+   "type": "ingredient",
+   "surface": "mutton broth",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Wicker disc",
+   "type": "equipment",
+   "surface": "wicker disc",
+   "ts": "47:43"
+  },
+  {
+   "canonical": "QR code",
+   "type": "equipment",
+   "surface": "QR code",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "55:17"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "Sicily",
+   "ts": "50:49"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "Sicily",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Sardinia",
+   "type": "place",
+   "surface": "Sardinia",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Iskia",
+   "type": "place",
+   "surface": "Iskia",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Iskia",
+   "type": "place",
+   "surface": "Iskia",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "Caglieri",
+   "type": "place",
+   "surface": "Caglieri",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "San Benedict",
+   "type": "place",
+   "surface": "San Benedict",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Pons",
+   "type": "place",
+   "surface": "Pons",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Procida",
+   "type": "place",
+   "surface": "Procida",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Palermo",
+   "type": "place",
+   "surface": "Palermo",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "Venetian islands",
+   "type": "place",
+   "surface": "Venetian islands",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "dog fish",
+   "type": "ingredient",
+   "surface": "dog fish",
+   "ts": "55:17"
+  },
+  {
+   "canonical": "burrida",
+   "type": "ingredient",
+   "surface": "burrida",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "currants",
+   "type": "ingredient",
+   "surface": "Currants",
+   "ts": "53:23"
+  },
+  {
+   "canonical": "pine nuts",
+   "type": "ingredient",
+   "surface": "pine nuts",
+   "ts": "53:23"
+  },
+  {
+   "canonical": "sardines",
+   "type": "ingredient",
+   "surface": "sardines",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "51:46"
+  },
+  {
+   "canonical": "eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "52:54"
+  },
+  {
+   "canonical": "almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "51:46"
+  },
+  {
+   "canonical": "orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "53:23"
+  },
+  {
+   "canonical": "walnuts",
+   "type": "ingredient",
+   "surface": "walnuts",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "liver",
+   "type": "ingredient",
+   "surface": "liver",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "fish market",
+   "type": "place",
+   "surface": "fish market",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "market",
+   "type": "place",
+   "surface": "market",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "hotel",
+   "type": "place",
+   "surface": "hotel",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:49"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "vegetable oil",
+   "type": "ingredient",
+   "surface": "vegetable oil",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "peanut oil",
+   "type": "ingredient",
+   "surface": "peanut oil",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "tutu",
+   "type": "equipment",
+   "surface": "tutu",
+   "ts": "52:14"
+  },
+  {
+   "canonical": "dress",
+   "type": "equipment",
+   "surface": "dress",
+   "ts": "52:14"
+  },
+  {
+   "canonical": "quail",
+   "type": "ingredient",
+   "surface": "quail",
+   "ts": "52:54"
+  },
+  {
+   "canonical": "Qualia",
+   "type": "ingredient",
+   "surface": "Qualia",
+   "ts": "52:54"
+  },
+  {
+   "canonical": "Qualia",
+   "type": "ingredient",
+   "surface": "Qualia",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "songbird",
+   "type": "ingredient",
+   "surface": "songbird",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "rabbit",
+   "type": "ingredient",
+   "surface": "rabbit",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "rabbit",
+   "type": "ingredient",
+   "surface": "rabbit",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "rabbit",
+   "type": "ingredient",
+   "surface": "rabbit",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "cave",
+   "type": "place",
+   "surface": "cave",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "cave",
+   "type": "place",
+   "surface": "cave",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "sunken pit",
+   "type": "place",
+   "surface": "sunken pit",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "refrigeration",
+   "type": "technique",
+   "surface": "refrigeration",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "pirates",
+   "type": "ingredient",
+   "surface": "pirates",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "weather",
+   "type": "ingredient",
+   "surface": "weather",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "terrain",
+   "type": "ingredient",
+   "surface": "terrain",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "island",
+   "type": "place",
+   "surface": "island",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "island",
+   "type": "place",
+   "surface": "island",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "coast",
+   "type": "place",
+   "surface": "coast",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "port town",
+   "type": "place",
+   "surface": "port town",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Jersey Shore",
+   "type": "place",
+   "surface": "Jersey Shore",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "river",
+   "type": "place",
+   "surface": "river",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "charcoal",
+   "type": "ingredient",
+   "surface": "charcaloid",
+   "ts": "55:17"
+  },
+  {
+   "canonical": "lotion",
+   "type": "ingredient",
+   "surface": "lotion",
+   "ts": "54:52"
+  },
+  {
+   "canonical": "basket",
+   "type": "equipment",
+   "surface": "basket",
+   "ts": "47:28"
+  },
+  {
+   "canonical": "basket",
+   "type": "equipment",
+   "surface": "basket",
+   "ts": "47:43"
+  },
+  {
+   "canonical": "basket",
+   "type": "equipment",
+   "surface": "basket",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "silence of the lamb",
+   "type": "ingredient",
+   "surface": "silence of the lamb",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "movie",
+   "type": "place",
+   "surface": "movie",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "rubbish",
+   "type": "ingredient",
+   "surface": "rubbish",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "basket",
+   "type": "equipment",
+   "surface": "basket",
+   "ts": "47:28"
+  },
+  {
+   "canonical": "basket",
+   "type": "equipment",
+   "surface": "basket",
+   "ts": "47:43"
+  },
+  {
+   "canonical": "basket",
+   "type": "equipment",
+   "surface": "basket",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "Fiorella's",
+   "type": "place",
+   "surface": "Fiorella's",
+   "ts": "56:54"
+  },
+  {
+   "canonical": "Rochester",
+   "type": "place",
+   "surface": "Rochester",
+   "ts": "57:06"
+  },
+  {
+   "canonical": "Rochester",
+   "type": "place",
+   "surface": "Rochester",
+   "ts": "57:26"
+  },
+  {
+   "canonical": "Rochester",
+   "type": "place",
+   "surface": "Rochester",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "booker",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Botarga",
+   "type": "ingredient",
+   "surface": "botarga",
+   "ts": "59:42"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "58:03"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "59:42"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "Mutton",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Beef",
+   "type": "ingredient",
+   "surface": "beef",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Potato Croquettes",
+   "type": "ingredient",
+   "surface": "potato croquettes",
+   "ts": "58:03"
+  },
+  {
+   "canonical": "Chickpea",
+   "type": "ingredient",
+   "surface": "chickpea",
+   "ts": "58:03"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "58:03"
+  },
+  {
+   "canonical": "Iodized Salt",
+   "type": "ingredient",
+   "surface": "iodized salt",
+   "ts": "58:24"
+  },
+  {
+   "canonical": "Artichoke",
+   "type": "ingredient",
+   "surface": "artichoke",
+   "ts": "59:42"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "58:03"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Black Pepper",
+   "type": "ingredient",
+   "surface": "black pepper",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Vastetta Buns",
+   "type": "ingredient",
+   "surface": "Vastetta buns",
+   "ts": "58:34"
+  },
+  {
+   "canonical": "Germ Wheat Buns",
+   "type": "ingredient",
+   "surface": "germ wheat buns",
+   "ts": "58:34"
+  },
+  {
+   "canonical": "French Onion Soup",
+   "type": "technique",
+   "surface": "French onion soup",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Casserole",
+   "type": "technique",
+   "surface": "casserole",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Casserole",
+   "type": "technique",
+   "surface": "casserole",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Baking",
+   "type": "technique",
+   "surface": "bake",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Frying",
+   "type": "technique",
+   "surface": "fry",
+   "ts": "58:34"
+  },
+  {
+   "canonical": "Mandolin",
+   "type": "equipment",
+   "surface": "mandolin",
+   "ts": "1:00:07"
+  },
+  {
+   "canonical": "Mandoline",
+   "type": "equipment",
+   "surface": "mandolin",
+   "ts": "1:00:07"
+  }
+ ]
+}

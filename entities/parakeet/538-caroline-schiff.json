@@ -1,0 +1,1801 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John Hull",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John Hull",
+   "type": "person",
+   "surface": "John",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:25"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:39"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "6:05"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:39"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "2:20"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "2:32"
+  },
+  {
+   "canonical": "Caroline Schiff",
+   "type": "person",
+   "surface": "Caroline Schiff",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Gage and Tolner",
+   "type": "place",
+   "surface": "Gage and Tolner",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Gage and Tolner",
+   "type": "place",
+   "surface": "Gage and Tolner",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "PastryShift",
+   "type": "place",
+   "surface": "PastryShift",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "New Stan Studios",
+   "type": "place",
+   "surface": "New Stan Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Heart of Manhattan",
+   "type": "place",
+   "surface": "Heart of Manhattan",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "sourdough",
+   "type": "ingredient",
+   "surface": "Sourdough",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "8:07"
+  },
+  {
+   "canonical": "blood orange",
+   "type": "ingredient",
+   "surface": "blood orange",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "blood orange",
+   "type": "ingredient",
+   "surface": "blood orange",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "blood orange",
+   "type": "ingredient",
+   "surface": "Blood orange",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "coffee cake",
+   "type": "ingredient",
+   "surface": "coffee cake",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "coffee cake",
+   "type": "ingredient",
+   "surface": "coffee cake",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "pound cake",
+   "type": "ingredient",
+   "surface": "pound cake",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "pound cake",
+   "type": "ingredient",
+   "surface": "pound cake",
+   "ts": "5:34"
+  },
+  {
+   "canonical": "pound cake",
+   "type": "ingredient",
+   "surface": "pound cake",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "strusel",
+   "type": "ingredient",
+   "surface": "strusel",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "baked Alaska",
+   "type": "technique",
+   "surface": "baked Alaska",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "blowtorch",
+   "type": "equipment",
+   "surface": "blowtorch",
+   "ts": "9:02"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:49"
+  },
+  {
+   "canonical": "Pete Wells",
+   "type": "person",
+   "surface": "Pete Wells",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Gajan Tolner",
+   "type": "person",
+   "surface": "Gajan Tolner",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Sunken Harbor Club",
+   "type": "place",
+   "surface": "Sunken Harbor Club",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Bobby Burns",
+   "type": "person",
+   "surface": "Bobby Burns",
+   "ts": "12:07"
+  },
+  {
+   "canonical": "Bobby Burns",
+   "type": "person",
+   "surface": "Bobby Burns",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "17:59"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Changing Lanes",
+   "type": "place",
+   "surface": "Changing Lanes",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "French meringue",
+   "type": "technique",
+   "surface": "French meringue",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "Swiss meringue",
+   "type": "technique",
+   "surface": "Swiss meringue",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "raw sugar",
+   "type": "ingredient",
+   "surface": "raw sugar",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "egg whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "bagpipes",
+   "type": "equipment",
+   "surface": "bagpipes",
+   "ts": "12:24"
+  },
+  {
+   "canonical": "bagpipes",
+   "type": "equipment",
+   "surface": "bagpipes",
+   "ts": "12:33"
+  },
+  {
+   "canonical": "bagpipes",
+   "type": "equipment",
+   "surface": "bagpipes",
+   "ts": "14:49"
+  },
+  {
+   "canonical": "bagpipes",
+   "type": "equipment",
+   "surface": "bagpipes",
+   "ts": "15:03"
+  },
+  {
+   "canonical": "bagpipes",
+   "type": "equipment",
+   "surface": "bagpipes",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "haggis",
+   "type": "ingredient",
+   "surface": "haggis",
+   "ts": "14:27"
+  },
+  {
+   "canonical": "haggis",
+   "type": "ingredient",
+   "surface": "haggis",
+   "ts": "14:37"
+  },
+  {
+   "canonical": "oatmeal",
+   "type": "ingredient",
+   "surface": "oatmeal",
+   "ts": "14:27"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "9:44"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "ice creams",
+   "type": "ingredient",
+   "surface": "ice creams",
+   "ts": "9:17"
+  },
+  {
+   "canonical": "meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "10:10"
+  },
+  {
+   "canonical": "meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "10:45"
+  },
+  {
+   "canonical": "meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "scoops",
+   "type": "ingredient",
+   "surface": "scoops",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "PDR",
+   "type": "place",
+   "surface": "PDR",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "dolphin bar",
+   "type": "place",
+   "surface": "dolphin bar",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "Gray Goose",
+   "type": "place",
+   "surface": "Gray Goose",
+   "ts": "16:17"
+  },
+  {
+   "canonical": "AI",
+   "type": "technique",
+   "surface": "AI",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Goldenrod Provisions",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "Goldenrod Provisions",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "19:36"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "Spent",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Spent",
+   "type": "ingredient",
+   "surface": "spent",
+   "ts": "22:39"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "19:12"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "19:36"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "20:51"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Pretzels",
+   "type": "ingredient",
+   "surface": "pretzels",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Pretzels",
+   "type": "ingredient",
+   "surface": "pretzels",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Pretzels",
+   "type": "ingredient",
+   "surface": "pretzels",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Biscuits",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Pancakes",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Pancakes",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Pancakes",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Waffles",
+   "type": "ingredient",
+   "surface": "waffles",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Crepes",
+   "type": "ingredient",
+   "surface": "crepe",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Angela Garbutz",
+   "type": "person",
+   "surface": "Angela Garbutz",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "Trenton",
+   "type": "place",
+   "surface": "Trenton",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Trenton",
+   "type": "place",
+   "surface": "Trenton",
+   "ts": "27:15"
+  },
+  {
+   "canonical": "Trenton",
+   "type": "place",
+   "surface": "Trenton",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Trenton",
+   "type": "place",
+   "surface": "Trenton",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Nebraska",
+   "type": "place",
+   "surface": "Nebraska",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "Nebraska",
+   "type": "place",
+   "surface": "Nebraska",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Nebraska",
+   "type": "place",
+   "surface": "Nebraska",
+   "ts": "26:24"
+  },
+  {
+   "canonical": "Goldenrod",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "Goldenrod",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Jersey Transit",
+   "type": "place",
+   "surface": "Jersey Transit",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Hoboken",
+   "type": "place",
+   "surface": "Hoboken",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Hoboken",
+   "type": "place",
+   "surface": "Hoboken",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Pennsylvania",
+   "type": "place",
+   "surface": "Pennsylvania",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Pennsylvania",
+   "type": "place",
+   "surface": "Pennsylvania",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Philadelphia",
+   "type": "place",
+   "surface": "Philly",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "High Extraction Flour",
+   "type": "ingredient",
+   "surface": "high extraction flour",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Soft Wheat",
+   "type": "ingredient",
+   "surface": "soft wheat",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Baking Powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "Baking Powder",
+   "type": "ingredient",
+   "surface": "baking powder",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "Buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Egg Whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "Egg Whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Egg Whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Egg Whites",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "24:36"
+  },
+  {
+   "canonical": "Leavening",
+   "type": "technique",
+   "surface": "leavener",
+   "ts": "19:50"
+  },
+  {
+   "canonical": "Leavening",
+   "type": "technique",
+   "surface": "leavener",
+   "ts": "22:03"
+  },
+  {
+   "canonical": "Bread Fatigue",
+   "type": "technique",
+   "surface": "Bread fatigue",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Bergamot",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Bergamot",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Bergamot",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "Bergamot",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "37:29"
+  },
+  {
+   "canonical": "Earl Grey Tea",
+   "type": "ingredient",
+   "surface": "Earl Grey tea",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Pro-Safe Bagel Slicer",
+   "type": "equipment",
+   "surface": "pro-safe bagel slicer",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Bread Knife",
+   "type": "equipment",
+   "surface": "bread knife",
+   "ts": "30:08"
+  },
+  {
+   "canonical": "Bread Knife",
+   "type": "equipment",
+   "surface": "bread knife",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Bread Knife",
+   "type": "equipment",
+   "surface": "bread knife",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Sugar Light",
+   "type": "equipment",
+   "surface": "sugar lights",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Sugar Light",
+   "type": "equipment",
+   "surface": "sugar lights",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "34:30"
+  },
+  {
+   "canonical": "Jack Insley",
+   "type": "person",
+   "surface": "Jack Insley",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Bobby",
+   "type": "person",
+   "surface": "Bobby",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "Pull Sugar",
+   "type": "technique",
+   "surface": "pull sugar",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Isomalt",
+   "type": "ingredient",
+   "surface": "isomalt",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Focaccia",
+   "type": "ingredient",
+   "surface": "focaccia",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "Banana Bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "Banana Bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "34:03"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "34:11"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "34:21"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "34:30"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "34:52"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Drip Coffee",
+   "type": "ingredient",
+   "surface": "drip coffee",
+   "ts": "34:21"
+  },
+  {
+   "canonical": "Drip Coffee",
+   "type": "ingredient",
+   "surface": "drip coffee",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Bergamot Oil",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Bergamot Oil",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Bergamot Oil",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "Bergamot Oil",
+   "type": "ingredient",
+   "surface": "bergamot",
+   "ts": "37:29"
+  },
+  {
+   "canonical": "Bread Knife",
+   "type": "equipment",
+   "surface": "bread knife",
+   "ts": "30:08"
+  },
+  {
+   "canonical": "Bread Knife",
+   "type": "equipment",
+   "surface": "bread knife",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Bread Knife",
+   "type": "equipment",
+   "surface": "bread knife",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Bagel Fest",
+   "type": "place",
+   "surface": "bagel fest",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "29:32"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "30:20"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "Pie Crust",
+   "type": "ingredient",
+   "surface": "Pie crust",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "Pie Crust",
+   "type": "ingredient",
+   "surface": "pie crust",
+   "ts": "32:35"
+  },
+  {
+   "canonical": "Pie Crust",
+   "type": "ingredient",
+   "surface": "pie crust",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "Pull Apart Bread",
+   "type": "ingredient",
+   "surface": "pull apart bread",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "Facaccia",
+   "type": "ingredient",
+   "surface": "facaccia",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "Trenton",
+   "type": "place",
+   "surface": "Trenton",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "Trenton",
+   "type": "place",
+   "surface": "Trenton",
+   "ts": "28:26"
+  },
+  {
+   "canonical": "Stratavarius",
+   "type": "ingredient",
+   "surface": "stratavarius",
+   "ts": "28:18"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "French Fry Lamp",
+   "type": "equipment",
+   "surface": "French fry lamps",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Jacques Therese",
+   "type": "person",
+   "surface": "Jacques Therese",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Sugar Lights",
+   "type": "equipment",
+   "surface": "sugar lights",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Sugar Lights",
+   "type": "equipment",
+   "surface": "sugar lights",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "White Elephant",
+   "type": "equipment",
+   "surface": "white elephant",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Austin Gibbs",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "39:10"
+  },
+  {
+   "canonical": "Austin Gibbs",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Austin Gibbs",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Austin Gibbs",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "42:02"
+  },
+  {
+   "canonical": "Austin Gibbs",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "Bergamot Bitters",
+   "type": "ingredient",
+   "surface": "bergamot bitters",
+   "ts": "37:46"
+  },
+  {
+   "canonical": "Oil-Based Cake",
+   "type": "technique",
+   "surface": "oil-based cake",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Oil-Based Cake",
+   "type": "technique",
+   "surface": "oil-based cake",
+   "ts": "39:47"
+  },
+  {
+   "canonical": "Oil-Based Cake",
+   "type": "technique",
+   "surface": "oil-based cake",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Oil-Based Cake",
+   "type": "technique",
+   "surface": "oil-based cake",
+   "ts": "40:31"
+  },
+  {
+   "canonical": "Oil-Based Cake",
+   "type": "technique",
+   "surface": "oil-based cake",
+   "ts": "41:04"
+  },
+  {
+   "canonical": "Coconut Cake",
+   "type": "ingredient",
+   "surface": "coconut cake",
+   "ts": "40:31"
+  },
+  {
+   "canonical": "Neutral Oil",
+   "type": "ingredient",
+   "surface": "neutral",
+   "ts": "40:31"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "40:31"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "41:04"
+  },
+  {
+   "canonical": "Blast Freezer",
+   "type": "equipment",
+   "surface": "blast freezer",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Blast Freezer",
+   "type": "equipment",
+   "surface": "blast freezer",
+   "ts": "42:02"
+  },
+  {
+   "canonical": "Crinkle Cut",
+   "type": "technique",
+   "surface": "crinkle cut",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "Crinkle Cut",
+   "type": "technique",
+   "surface": "crinkle cut",
+   "ts": "43:09"
+  },
+  {
+   "canonical": "French Fry",
+   "type": "ingredient",
+   "surface": "french fry",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "French Fry",
+   "type": "ingredient",
+   "surface": "French fry",
+   "ts": "43:09"
+  },
+  {
+   "canonical": "Crinkle Cup Fries",
+   "type": "ingredient",
+   "surface": "crinkle cup fries",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "43:31"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "45:46"
+  },
+  {
+   "canonical": "Sas",
+   "type": "person",
+   "surface": "Sas",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Austin",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "39:10"
+  },
+  {
+   "canonical": "Austin",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Austin",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "Austin",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "42:02"
+  },
+  {
+   "canonical": "Austin",
+   "type": "person",
+   "surface": "Austin",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Caroline",
+   "type": "person",
+   "surface": "Caroline",
+   "ts": "45:56"
+  },
+  {
+   "canonical": "Caroline",
+   "type": "person",
+   "surface": "Caroline",
+   "ts": "46:17"
+  },
+  {
+   "canonical": "Christian Sacco",
+   "type": "person",
+   "surface": "Christian Sacco",
+   "ts": "46:17"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "46:46"
+  },
+  {
+   "canonical": "Freeze Dryer",
+   "type": "equipment",
+   "surface": "freeze dryer",
+   "ts": "46:59"
+  },
+  {
+   "canonical": "Freeze Dryer",
+   "type": "equipment",
+   "surface": "freeze dryer",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Alex Knacky",
+   "type": "person",
+   "surface": "Alex Knacky",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Milken",
+   "type": "person",
+   "surface": "Milken",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Burger King Apple Pie",
+   "type": "ingredient",
+   "surface": "Burger King apple pie",
+   "ts": "45:00"
+  },
+  {
+   "canonical": "Daniel Ramirez",
+   "type": "person",
+   "surface": "Daniel Ramirez",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "55:51"
+  },
+  {
+   "canonical": "Ken Ingber",
+   "type": "person",
+   "surface": "Ken Ingber",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia",
+   "ts": "52:19"
+  },
+  {
+   "canonical": "Danielle Forestier",
+   "type": "person",
+   "surface": "Danielle",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Danielle Forestier",
+   "type": "person",
+   "surface": "Danielle",
+   "ts": "52:19"
+  },
+  {
+   "canonical": "Baguette",
+   "type": "ingredient",
+   "surface": "baguette",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Baguette",
+   "type": "ingredient",
+   "surface": "baguette",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Bread Flour",
+   "type": "ingredient",
+   "surface": "bread flour",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Bread Flour",
+   "type": "ingredient",
+   "surface": "bread flour",
+   "ts": "54:15"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "53:54"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "54:15"
+  },
+  {
+   "canonical": "Meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "49:26"
+  },
+  {
+   "canonical": "Meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "49:34"
+  },
+  {
+   "canonical": "Meringue",
+   "type": "technique",
+   "surface": "meringue",
+   "ts": "51:06"
+  },
+  {
+   "canonical": "Swiss Meringue Buttercream",
+   "type": "technique",
+   "surface": "Swiss meringue buttercream",
+   "ts": "49:34"
+  },
+  {
+   "canonical": "Italian Meringue Buttercream",
+   "type": "technique",
+   "surface": "Italian meringue buttercream",
+   "ts": "49:34"
+  },
+  {
+   "canonical": "Boiled Icing",
+   "type": "technique",
+   "surface": "boiled icing",
+   "ts": "51:06"
+  },
+  {
+   "canonical": "Slap and Fold",
+   "type": "technique",
+   "surface": "slap and fold",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "Steam",
+   "type": "technique",
+   "surface": "steam",
+   "ts": "56:35"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "56:35"
+  },
+  {
+   "canonical": "Biscuit",
+   "type": "ingredient",
+   "surface": "biscuit",
+   "ts": "54:49"
+  },
+  {
+   "canonical": "Bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "56:25"
+  },
+  {
+   "canonical": "Steaming",
+   "type": "technique",
+   "surface": "steaming",
+   "ts": "56:35"
+  },
+  {
+   "canonical": "Carbonara",
+   "type": "technique",
+   "surface": "carbonara",
+   "ts": "58:56"
+  },
+  {
+   "canonical": "Panchetta",
+   "type": "ingredient",
+   "surface": "panchetta",
+   "ts": "59:07"
+  },
+  {
+   "canonical": "Guanchali",
+   "type": "ingredient",
+   "surface": "guanchali",
+   "ts": "58:56"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "59:07"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "59:18"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolks",
+   "ts": "59:32"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "59:32"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg whites",
+   "ts": "1:00:15"
+  },
+  {
+   "canonical": "Native Food Cake",
+   "type": "ingredient",
+   "surface": "native food cake",
+   "ts": "59:32"
+  },
+  {
+   "canonical": "Hotel Pan",
+   "type": "equipment",
+   "surface": "hotel pan",
+   "ts": "56:47"
+  },
+  {
+   "canonical": "Cooling Racks",
+   "type": "equipment",
+   "surface": "cooling racks",
+   "ts": "56:47"
+  },
+  {
+   "canonical": "Cooling Racks",
+   "type": "equipment",
+   "surface": "cooling racks",
+   "ts": "58:11"
+  },
+  {
+   "canonical": "Steam",
+   "type": "technique",
+   "surface": "steaming",
+   "ts": "57:19"
+  },
+  {
+   "canonical": "Steam",
+   "type": "technique",
+   "surface": "steaming",
+   "ts": "57:43"
+  },
+  {
+   "canonical": "Jetro",
+   "type": "place",
+   "surface": "Jetro",
+   "ts": "1:01:42"
+  },
+  {
+   "canonical": "Jetro",
+   "type": "place",
+   "surface": "Jetro",
+   "ts": "1:01:51"
+  },
+  {
+   "canonical": "Pura Snow",
+   "type": "ingredient",
+   "surface": "Pura Snow",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "cream of tartar",
+   "type": "ingredient",
+   "surface": "cream of tartar",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "egg white",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "pectin",
+   "type": "ingredient",
+   "surface": "pectin",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "angel food cake",
+   "type": "ingredient",
+   "surface": "angel cake",
+   "ts": "59:39"
+  },
+  {
+   "canonical": "cake flour",
+   "type": "ingredient",
+   "surface": "cake flour",
+   "ts": "1:01:10"
+  },
+  {
+   "canonical": "cake flour",
+   "type": "ingredient",
+   "surface": "cake flour",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "all purpose flour",
+   "type": "ingredient",
+   "surface": "all purpose",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "all purpose flour",
+   "type": "ingredient",
+   "surface": "all purpose",
+   "ts": "1:01:10"
+  },
+  {
+   "canonical": "King Arthur",
+   "type": "ingredient",
+   "surface": "King Arthur",
+   "ts": "1:01:10"
+  },
+  {
+   "canonical": "King Arthur",
+   "type": "ingredient",
+   "surface": "King Arthur",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "rye",
+   "type": "ingredient",
+   "surface": "rye",
+   "ts": "1:01:10"
+  },
+  {
+   "canonical": "whole wheat bread flour",
+   "type": "ingredient",
+   "surface": "whole wheat bread flour",
+   "ts": "1:01:10"
+  },
+  {
+   "canonical": "surgalahad",
+   "type": "ingredient",
+   "surface": "surgalahad",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "raspberry",
+   "type": "ingredient",
+   "surface": "raspberry",
+   "ts": "1:00:30"
+  },
+  {
+   "canonical": "raspberry",
+   "type": "ingredient",
+   "surface": "raspberry",
+   "ts": "1:00:44"
+  },
+  {
+   "canonical": "strawberry",
+   "type": "ingredient",
+   "surface": "strawberry",
+   "ts": "1:00:30"
+  }
+ ]
+}

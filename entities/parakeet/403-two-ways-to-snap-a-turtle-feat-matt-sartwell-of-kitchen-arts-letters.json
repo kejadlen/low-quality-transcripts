@@ -1,0 +1,607 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "John from Booker and Dax",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Anastasia the Hammer Lopez",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "6:34"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:54"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "4:13"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Matt Sartwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Matt Sartwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Matt Sartwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "2:26"
+  },
+  {
+   "canonical": "Matt Sartwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "The Bread Builders",
+   "type": "ingredient",
+   "surface": "The Bread Builders Book",
+   "ts": "2:26"
+  },
+  {
+   "canonical": "Masonry oven",
+   "type": "equipment",
+   "surface": "retained heat masonry ovens",
+   "ts": "3:27"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:54"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "4:13"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley Dufresne",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "Bend the Table",
+   "type": "place",
+   "surface": "Bend the Table",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Lower East Side",
+   "type": "place",
+   "surface": "Lower East Side",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "Murray Hill",
+   "type": "place",
+   "surface": "Murray Hill",
+   "ts": "0:31"
+  },
+  {
+   "canonical": "96th Street",
+   "type": "place",
+   "surface": "96th Street",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Rhode Island",
+   "type": "place",
+   "surface": "Rhode Island",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "1:54"
+  },
+  {
+   "canonical": "Stanford",
+   "type": "place",
+   "surface": "Stanford",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Kits and Ar",
+   "type": "place",
+   "surface": "Kits and Ar",
+   "ts": "4:13"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "eBay",
+   "type": "place",
+   "surface": "eBay",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Hamptons",
+   "type": "place",
+   "surface": "Hamptons",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Naples",
+   "type": "place",
+   "surface": "Naples",
+   "ts": "10:11"
+  },
+  {
+   "canonical": "England",
+   "type": "place",
+   "surface": "England",
+   "ts": "10:11"
+  },
+  {
+   "canonical": "Shirley Corriher",
+   "type": "person",
+   "surface": "Shirley Corrihir",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "Shirley Corriher",
+   "type": "person",
+   "surface": "Shirley Garer",
+   "ts": "14:20"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "13:02"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "13:45"
+  },
+  {
+   "canonical": "Bruce Healy",
+   "type": "person",
+   "surface": "Bruce Healy",
+   "ts": "13:32"
+  },
+  {
+   "canonical": "Alexis Sawyer",
+   "type": "person",
+   "surface": "Alexis Sawyer",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Jane Grigson",
+   "type": "person",
+   "surface": "Jane Grigson",
+   "ts": "19:25"
+  },
+  {
+   "canonical": "New York Public Library",
+   "type": "place",
+   "surface": "New York Public Library",
+   "ts": "15:23"
+  },
+  {
+   "canonical": "New York Public Library",
+   "type": "place",
+   "surface": "New York Public Library",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "16:57"
+  },
+  {
+   "canonical": "Julia Child",
+   "type": "person",
+   "surface": "Julia Child",
+   "ts": "11:33"
+  },
+  {
+   "canonical": "James Beard",
+   "type": "person",
+   "surface": "James Beard",
+   "ts": "11:33"
+  },
+  {
+   "canonical": "Matthew Voss",
+   "type": "person",
+   "surface": "Matthew Voss",
+   "ts": "14:20"
+  },
+  {
+   "canonical": "Marvell Bar",
+   "type": "place",
+   "surface": "Marvell Bar",
+   "ts": "14:20"
+  },
+  {
+   "canonical": "MFK Fisher",
+   "type": "person",
+   "surface": "MFK Fisher",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Rulman Poulson",
+   "type": "person",
+   "surface": "Rulman Poulson",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Jane Grigson",
+   "type": "person",
+   "surface": "Jane Griggson",
+   "ts": "27:16"
+  },
+  {
+   "canonical": "Jambon de Bayonne",
+   "type": "ingredient",
+   "surface": "Jambon de Bayonne",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Grub Street",
+   "type": "place",
+   "surface": "Grub Street",
+   "ts": "30:26"
+  },
+  {
+   "canonical": "Grub Street",
+   "type": "place",
+   "surface": "Grub Street",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Rancho Gordo Alubia Blanca beans",
+   "type": "ingredient",
+   "surface": "Rancho Gordo Alubia Blanca beans",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Bend to Table",
+   "type": "place",
+   "surface": "Bend to Table",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Bent to Table",
+   "type": "place",
+   "surface": "Bent to Table",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Jeffrey Alford",
+   "type": "person",
+   "surface": "Jeffrey Alford",
+   "ts": "33:31"
+  },
+  {
+   "canonical": "Naomi Doogood",
+   "type": "person",
+   "surface": "Naomi Doogood",
+   "ts": "33:31"
+  },
+  {
+   "canonical": "Tandoor",
+   "type": "equipment",
+   "surface": "tandoor",
+   "ts": "37:47"
+  },
+  {
+   "canonical": "Keto",
+   "type": "technique",
+   "surface": "keto",
+   "ts": "43:14"
+  },
+  {
+   "canonical": "Keto",
+   "type": "technique",
+   "surface": "keto",
+   "ts": "43:24"
+  },
+  {
+   "canonical": "Pie Shake",
+   "type": "technique",
+   "surface": "pie shake",
+   "ts": "43:34"
+  },
+  {
+   "canonical": "Pie Shake",
+   "type": "technique",
+   "surface": "pie shake",
+   "ts": "44:01"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Matt Mancini",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "46:15"
+  },
+  {
+   "canonical": "Matt Mancini",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "48:54"
+  },
+  {
+   "canonical": "Matt Mancini",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Teff",
+   "type": "ingredient",
+   "surface": "Teff",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Teff",
+   "type": "ingredient",
+   "surface": "Teft",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Injira",
+   "type": "ingredient",
+   "surface": "injira",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Injira",
+   "type": "ingredient",
+   "surface": "injira",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Ethiopian Shake Book",
+   "type": "place",
+   "surface": "Ethiopian shake book",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Ethiopian Shake Book",
+   "type": "place",
+   "surface": "Ethiopian Shake Book",
+   "ts": "46:02"
+  },
+  {
+   "canonical": "Bull Cook",
+   "type": "place",
+   "surface": "Bull Cook",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "George Herter",
+   "type": "person",
+   "surface": "George Herter",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "Echo Crest",
+   "type": "place",
+   "surface": "Echo Crest",
+   "ts": "46:46"
+  },
+  {
+   "canonical": "Classics in the Field",
+   "type": "place",
+   "surface": "classics in the field",
+   "ts": "44:49"
+  },
+  {
+   "canonical": "Classics in the Field",
+   "type": "place",
+   "surface": "classics in the field",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Dave Wendrich",
+   "type": "person",
+   "surface": "Dave Wendrich",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Imbibed",
+   "type": "place",
+   "surface": "imbibed",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Magnetron",
+   "type": "equipment",
+   "surface": "magnetron",
+   "ts": "53:30"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "57:33"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "kitchen arts and letters",
+   "ts": "58:32"
+  },
+  {
+   "canonical": "Olka pump",
+   "type": "equipment",
+   "surface": "Olka pump",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Olka pump",
+   "type": "equipment",
+   "surface": "Olka pump",
+   "ts": "57:02"
+  },
+  {
+   "canonical": "whirly pop",
+   "type": "equipment",
+   "surface": "whirly pop",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "54:06"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "popcorn",
+   "type": "ingredient",
+   "surface": "popcorn",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "popcorn",
+   "type": "ingredient",
+   "surface": "popcorn",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "popcorn",
+   "type": "ingredient",
+   "surface": "popcorn",
+   "ts": "56:20"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "Arduino",
+   "type": "equipment",
+   "surface": "Arduino",
+   "ts": "54:06"
+  }
+ ]
+}

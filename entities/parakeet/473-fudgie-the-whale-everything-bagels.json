@@ -1,0 +1,1837 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:01"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:47"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:46"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:47"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Seth God",
+   "type": "person",
+   "surface": "Seth God",
+   "ts": "0:59"
+  },
+  {
+   "canonical": "Kathy Dumas",
+   "type": "person",
+   "surface": "Kathy Dumas",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "Carvel Ice Cream",
+   "type": "ingredient",
+   "surface": "Carvel ice cream",
+   "ts": "0:09"
+  },
+  {
+   "canonical": "Carvel Ice Cream",
+   "type": "ingredient",
+   "surface": "Carvel Ice Cream",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "10:29"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "Softy",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "0:09"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Lincoln Bio",
+   "type": "place",
+   "surface": "Lincoln Bio",
+   "ts": "2:01"
+  },
+  {
+   "canonical": "Lincoln Bio",
+   "type": "place",
+   "surface": "Lincoln Bio",
+   "ts": "2:06"
+  },
+  {
+   "canonical": "Tales of the Cocktail",
+   "type": "place",
+   "surface": "Tales of the Cocktail",
+   "ts": "1:46"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "0:09"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Mr. Carvel",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Tom Carvel",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Mr. Carvel",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Mr. Carvel",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Tom Carvel",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "10:29"
+  },
+  {
+   "canonical": "Cookie Puss",
+   "type": "ingredient",
+   "surface": "Cookie Puss",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "0:09"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "Westchester",
+   "type": "place",
+   "surface": "Westchester",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Westchester",
+   "type": "place",
+   "surface": "Westchester",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "0:09"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "Ice Cream",
+   "ts": "3:36"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "7:31"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Scooping",
+   "type": "technique",
+   "surface": "scooped",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Cake Mold",
+   "type": "equipment",
+   "surface": "cake molds",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Cherry Syrup",
+   "type": "ingredient",
+   "surface": "cherry syrup",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Crunch",
+   "type": "ingredient",
+   "surface": "crunch",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "6:58"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "12:27"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "14:16"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "17:27"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the whale",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy",
+   "ts": "10:46"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy the Whale",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "fudgy",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "fudgy",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "fudgy",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "Fudgy",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "fudgy",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Fudgy the Whale",
+   "type": "ingredient",
+   "surface": "fudgy the whale",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "TZ",
+   "type": "person",
+   "surface": "TZ",
+   "ts": "11:57"
+  },
+  {
+   "canonical": "Carvel cake",
+   "type": "ingredient",
+   "surface": "Carvel cake",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Carvel cake",
+   "type": "ingredient",
+   "surface": "Carvel cake",
+   "ts": "17:27"
+  },
+  {
+   "canonical": "fudge",
+   "type": "ingredient",
+   "surface": "fudge",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "fudge",
+   "type": "ingredient",
+   "surface": "fudge",
+   "ts": "13:29"
+  },
+  {
+   "canonical": "fudge",
+   "type": "ingredient",
+   "surface": "fudge",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "cookie crumble",
+   "type": "ingredient",
+   "surface": "cookie crumble",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "ice cream cake",
+   "type": "ingredient",
+   "surface": "ice cream cake",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Tom Cruise",
+   "type": "person",
+   "surface": "Tom",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Tom Cruise",
+   "type": "person",
+   "surface": "Tom",
+   "ts": "20:08"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "12:27"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "14:16"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "17:27"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Flying Saucer",
+   "type": "place",
+   "surface": "flying saucer",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "Flying Saucer",
+   "type": "place",
+   "surface": "flying saucer",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Flying Saucer",
+   "type": "place",
+   "surface": "flying saucers",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley Carpenter",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Cookie Puss",
+   "type": "place",
+   "surface": "cookie puss",
+   "ts": "10:46"
+  },
+  {
+   "canonical": "Cookie Puss",
+   "type": "place",
+   "surface": "Cookie Puss",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Cookie Puss",
+   "type": "place",
+   "surface": "cookie puss",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Cookie Puss",
+   "type": "place",
+   "surface": "cookie puss",
+   "ts": "20:08"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "Fudgy",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "Fudgy",
+   "ts": "10:46"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "Fudgy",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "fudgy",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "fudgy",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "fudgy",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "Fudgy",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "fudgy",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "place",
+   "surface": "fudgy",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "10:36"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "Whale",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "12:10"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "12:27"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "12:38"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "19:50"
+  },
+  {
+   "canonical": "Whale Cake",
+   "type": "place",
+   "surface": "whale",
+   "ts": "20:08"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Brown Bonnet",
+   "type": "ingredient",
+   "surface": "brown bonnet",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "Chocolate Shell",
+   "type": "ingredient",
+   "surface": "chocolate shell",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "Carvel Ice Cream Sandwich",
+   "type": "place",
+   "surface": "Carvel ice cream sandwich",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Whip Topping",
+   "type": "ingredient",
+   "surface": "whip topping",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Carvel Ice Cream Mix",
+   "type": "ingredient",
+   "surface": "Carvel ice cream mix",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "Cream Cheese Icing",
+   "type": "ingredient",
+   "surface": "cream cheese icing",
+   "ts": "17:05"
+  },
+  {
+   "canonical": "Carvel Cake",
+   "type": "place",
+   "surface": "Carvel cake",
+   "ts": "11:32"
+  },
+  {
+   "canonical": "Carvel Cake",
+   "type": "place",
+   "surface": "Carvel cake",
+   "ts": "17:27"
+  },
+  {
+   "canonical": "Ice Cream Machine",
+   "type": "equipment",
+   "surface": "ice cream machine",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Swirl",
+   "type": "technique",
+   "surface": "swirl",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Swirl",
+   "type": "technique",
+   "surface": "swirl",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "25:50"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Priscilla",
+   "type": "person",
+   "surface": "Priscilla",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "Tom",
+   "type": "person",
+   "surface": "Tom",
+   "ts": "22:29"
+  },
+  {
+   "canonical": "Tom",
+   "type": "person",
+   "surface": "Tom",
+   "ts": "23:50"
+  },
+  {
+   "canonical": "Tom",
+   "type": "person",
+   "surface": "Tom",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Dumpy the Pumpkin",
+   "type": "ingredient",
+   "surface": "Dumpy the Pumpkin",
+   "ts": "23:59"
+  },
+  {
+   "canonical": "Dumpy the Pumpkin",
+   "type": "ingredient",
+   "surface": "dumpy",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Dumpy the Pumpkin",
+   "type": "ingredient",
+   "surface": "Dumpy",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "ingredient",
+   "surface": "Fudgy",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "ingredient",
+   "surface": "Fudgy",
+   "ts": "23:08"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "ingredient",
+   "surface": "Fudgy",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "Fudgy",
+   "type": "ingredient",
+   "surface": "fudgy",
+   "ts": "26:02"
+  },
+  {
+   "canonical": "Cookie Puss",
+   "type": "ingredient",
+   "surface": "Cookie Puss",
+   "ts": "23:08"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "23:59"
+  },
+  {
+   "canonical": "Santa",
+   "type": "person",
+   "surface": "Santa",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Santa",
+   "type": "person",
+   "surface": "Santa",
+   "ts": "21:46"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "25:50"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Tom Carvel",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Agnes Carvel",
+   "type": "person",
+   "surface": "Agnes",
+   "ts": "27:00"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "30:00"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "30:47"
+  },
+  {
+   "canonical": "Everything Bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Everything Bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "29:09"
+  },
+  {
+   "canonical": "Everything Bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Everything Bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "30:00"
+  },
+  {
+   "canonical": "Everything Bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "30:47"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "26:02"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Soft Serve",
+   "type": "ingredient",
+   "surface": "soft serve",
+   "ts": "28:12"
+  },
+  {
+   "canonical": "Taylor Machine",
+   "type": "equipment",
+   "surface": "Taylor machines",
+   "ts": "27:40"
+  },
+  {
+   "canonical": "Yonkers",
+   "type": "place",
+   "surface": "Yonkers",
+   "ts": "27:40"
+  },
+  {
+   "canonical": "Yonkers",
+   "type": "place",
+   "surface": "Yonkers",
+   "ts": "28:12"
+  },
+  {
+   "canonical": "Cardinal Corps",
+   "type": "place",
+   "surface": "Cardinal Corps",
+   "ts": "27:40"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "25:50"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Gusson",
+   "type": "person",
+   "surface": "Gusson",
+   "ts": "30:00"
+  },
+  {
+   "canonical": "Deck Oven",
+   "type": "equipment",
+   "surface": "deck oven",
+   "ts": "30:47"
+  },
+  {
+   "canonical": "Lenders",
+   "type": "place",
+   "surface": "lenders",
+   "ts": "34:40"
+  },
+  {
+   "canonical": "Lenders",
+   "type": "place",
+   "surface": "Lenders",
+   "ts": "36:09"
+  },
+  {
+   "canonical": "Buffalo",
+   "type": "place",
+   "surface": "Buffalo",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Buffalo",
+   "type": "place",
+   "surface": "Buffalo",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Buffalo",
+   "type": "place",
+   "surface": "Buffalo",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Buffalo",
+   "type": "place",
+   "surface": "Buffalo",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York",
+   "ts": "37:27"
+  },
+  {
+   "canonical": "Montreal bagel",
+   "type": "ingredient",
+   "surface": "Montreal bagel",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "everything bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "everything bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "everything bagel",
+   "type": "ingredient",
+   "surface": "everything bagel",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "34:10"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "34:29"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "34:40"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "Bagel",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "35:49"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "36:09"
+  },
+  {
+   "canonical": "bagel",
+   "type": "ingredient",
+   "surface": "bagel",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "bagel chip",
+   "type": "ingredient",
+   "surface": "bagel chips",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "bagel chip",
+   "type": "ingredient",
+   "surface": "Bagel chips",
+   "ts": "36:09"
+  },
+  {
+   "canonical": "Gilligan's Island",
+   "type": "place",
+   "surface": "Gilligan's Island",
+   "ts": "36:22"
+  },
+  {
+   "canonical": "Gilligan's Island",
+   "type": "place",
+   "surface": "Gilligan's Island",
+   "ts": "36:34"
+  },
+  {
+   "canonical": "Gilligan's Island",
+   "type": "place",
+   "surface": "Gilligan's Island",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Gilligan's Island",
+   "type": "place",
+   "surface": "Gilligan's Island",
+   "ts": "37:49"
+  },
+  {
+   "canonical": "Gilligan's Island",
+   "type": "place",
+   "surface": "Gilligan's Island",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Gilligan's Island",
+   "type": "place",
+   "surface": "Gilligan's Island",
+   "ts": "40:06"
+  },
+  {
+   "canonical": "Sopranos",
+   "type": "place",
+   "surface": "Sopranos",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Kathy",
+   "type": "person",
+   "surface": "Kathy",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "Kathy",
+   "type": "person",
+   "surface": "Kathy",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Kathy",
+   "type": "person",
+   "surface": "Kathy",
+   "ts": "47:36"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "47:36"
+  },
+  {
+   "canonical": "Helene",
+   "type": "person",
+   "surface": "Helene",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "Helene",
+   "type": "person",
+   "surface": "Helene",
+   "ts": "44:39"
+  },
+  {
+   "canonical": "Alexander",
+   "type": "person",
+   "surface": "Alexander",
+   "ts": "47:36"
+  },
+  {
+   "canonical": "Alexander",
+   "type": "person",
+   "surface": "Alexander",
+   "ts": "48:11"
+  },
+  {
+   "canonical": "Alexander",
+   "type": "person",
+   "surface": "Alexander",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Alexander",
+   "type": "person",
+   "surface": "Alexander",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Cloudberries",
+   "type": "ingredient",
+   "surface": "Cloudberries",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Cloudberries",
+   "type": "ingredient",
+   "surface": "Cloudberries",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Agar Agar",
+   "type": "ingredient",
+   "surface": "Agar Agar",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarified juice",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Molecular gastronomy",
+   "type": "technique",
+   "surface": "molecular gastronomy",
+   "ts": "40:42"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "43:50"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "46:06"
+  },
+  {
+   "canonical": "Corn tortillas",
+   "type": "ingredient",
+   "surface": "corn tortillas",
+   "ts": "46:06"
+  },
+  {
+   "canonical": "Scandinavian cuisine",
+   "type": "place",
+   "surface": "Scandinavian",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Mexico City",
+   "type": "place",
+   "surface": "Mexico City",
+   "ts": "46:27"
+  },
+  {
+   "canonical": "Yelp",
+   "type": "place",
+   "surface": "Yelp",
+   "ts": "46:27"
+  },
+  {
+   "canonical": "Nix",
+   "type": "place",
+   "surface": "Nix",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Carvel Ice Cream",
+   "type": "ingredient",
+   "surface": "Carvel ice cream",
+   "ts": "57:43"
+  },
+  {
+   "canonical": "Carvel Ice Cream",
+   "type": "ingredient",
+   "surface": "Carvel Ice Cream",
+   "ts": "58:03"
+  },
+  {
+   "canonical": "Carvel Ice Cream",
+   "type": "ingredient",
+   "surface": "Carvel Ice Cream",
+   "ts": "58:21"
+  },
+  {
+   "canonical": "Carvel Ice Cream",
+   "type": "ingredient",
+   "surface": "Carvel Ice Cream",
+   "ts": "58:39"
+  },
+  {
+   "canonical": "Elsa von Freitag Loringhoven",
+   "type": "person",
+   "surface": "Elsa",
+   "ts": "52:44"
+  },
+  {
+   "canonical": "Elsa von Freitag Loringhoven",
+   "type": "person",
+   "surface": "Elsa",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Elsa von Freitag Loringhoven",
+   "type": "person",
+   "surface": "Elsa",
+   "ts": "57:32"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "50:30"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "Agar",
+   "ts": "50:48"
+  },
+  {
+   "canonical": "Duchamp",
+   "type": "person",
+   "surface": "Duchamp",
+   "ts": "51:56"
+  },
+  {
+   "canonical": "Duchamp",
+   "type": "person",
+   "surface": "Duchamp",
+   "ts": "52:42"
+  },
+  {
+   "canonical": "Duchamp",
+   "type": "person",
+   "surface": "Duchamp",
+   "ts": "53:11"
+  },
+  {
+   "canonical": "Duchamp",
+   "type": "person",
+   "surface": "Duchamp",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "Duchamp",
+   "type": "person",
+   "surface": "Duchamp",
+   "ts": "55:09"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "51:40"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "56:20"
+  },
+  {
+   "canonical": "Seth",
+   "type": "person",
+   "surface": "Seth",
+   "ts": "57:43"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "56:20"
+  },
+  {
+   "canonical": "Max Reichlich",
+   "type": "person",
+   "surface": "Max Max Reichlich",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Jester",
+   "type": "ingredient",
+   "surface": "Jester",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Cornell Box",
+   "type": "equipment",
+   "surface": "Cornell box",
+   "ts": "55:09"
+  },
+  {
+   "canonical": "Yale University",
+   "type": "place",
+   "surface": "Yale University",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Albright Knox",
+   "type": "place",
+   "surface": "Albright Knox",
+   "ts": "55:09"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "51:23"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "51:36"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "51:40"
+  }
+ ]
+}
