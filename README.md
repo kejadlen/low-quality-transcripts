@@ -4,10 +4,12 @@ Transcripts of the [Cooking Issues](https://heritageradionetwork.org/series/cook
 
 ## How it works
 
-A Rake pipeline pulls episodes from two RSS feeds (Heritage Radio Network and [Acast](https://shows.acast.com/cooking-issues-with-dave-arnold)), transcribes audio to JSON, renders readable text, and generates a searchable static site with [Pagefind](https://pagefind.app).
+A Rake pipeline pulls episodes from two RSS feeds (Heritage Radio Network and [Acast](https://shows.acast.com/cooking-issues-with-dave-arnold)), transcribes audio to JSON, renders readable text, extracts the people, techniques, ingredients, equipment, and places each episode mentions, and generates a searchable static site with [Pagefind](https://pagefind.app).
 
 ```
 RSS feeds → download audio → transcribe (JSON) → render (text) → static site
+                                                        ↓            ↑
+                                                 extract entities ───┘
 ```
 
 ## Transcribers
@@ -60,6 +62,15 @@ rake episodes
 # Use a different transcriber
 TRANSCRIBER=parakeet rake transcribe[1]
 
+# Extract entities from the next 5 unextracted episodes (all if N is omitted)
+rake entities:next[5]
+
+# Extract entities from a single episode
+rake entities:episode[42]
+
+# Run the unit tests
+rake test
+
 # Generate the searchable static site
 rake pages
 
@@ -87,7 +98,15 @@ The text renderer groups segments into paragraphs. The heuristic varies by trans
 
 ## Static site
 
-`rake pages` generates a static site in `pages/` with one HTML page per episode and a Pagefind search index. `rake serve` builds and serves it locally on port 8000. GitHub Actions deploys it to GitHub Pages on push to main.
+`rake pages` generates a static site in `pages/` with one HTML page per episode and a Pagefind search index. `rake serve` builds and serves it locally on port 8000. GitHub Actions runs the tests and deploys it to GitHub Pages on push to main.
+
+## Topics
+
+Each episode page lists its topics above the transcript, and each topic gets its own page under `entities/` that quotes the passage behind every mention and links to related topics. A topics index groups them by type and hides topics that appear in only a few episodes behind a toggle. Topic pages are part of the Pagefind index, so the search box finds them too.
+
+`bin/extract-entities` builds the topics by running a local LLM (Qwen3-8B via mlx-lm) over each rendered transcript, which takes about two minutes per episode. It writes one file per episode to `entities/<transcriber>/`. Those files are committed because CI can't run the model, so the site builds from whatever has been extracted so far. Extraction never reruns on its own: editing the prompt or re-rendering a transcript doesn't queue the corpus again, and `rake retranscribe[N]` deletes that episode's entities so the next run picks it up.
+
+At build time, `lib/graph.rb` merges the per-episode extractions into cross-episode topics. Only topics mentioned in two or more episodes get a page. The transcripts are full of mishearings ("Nastasha," "Natasha," and "Stasi" are all Nastassia Lopez), so `entities/aliases.yml` holds curated merges, type overrides, and an ignore list. Fix a bad merge or split there rather than by re-extracting.
 
 ## Search
 
@@ -112,7 +131,7 @@ Full-text search is fast and needs only SQLite. Semantic search is better for fu
 ## Requirements
 
 - Ruby 3.x with Bundler
-- Python 3.10+ with [uv](https://github.com/astral-sh/uv) (for Parakeet, MLX, and Pagefind)
+- Python 3.10+ with [uv](https://github.com/astral-sh/uv) (for Parakeet, MLX, entity extraction, and Pagefind)
 - At least one transcriber's dependencies:
   - parakeet — uv (dependencies managed automatically)
   - whisper-cpp — `whisper-cli` (Homebrew or build from source)
