@@ -1,0 +1,913 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:22"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:22"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:56"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasio",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:02"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:13"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's red mill",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Amaranth Flour",
+   "type": "ingredient",
+   "surface": "amaranth flour",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "0:22"
+  },
+  {
+   "canonical": "Bushwick, Brooklyn",
+   "type": "place",
+   "surface": "Bushwick, Brooklyn",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Pasta Flyer",
+   "type": "place",
+   "surface": "Pasta Flyer",
+   "ts": "2:40"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:22"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "J",
+   "type": "person",
+   "surface": "J",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "J",
+   "type": "person",
+   "surface": "J",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Alden",
+   "type": "place",
+   "surface": "Alden",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "FEMA beverage",
+   "type": "ingredient",
+   "surface": "FEMA beverage",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "Enlightenment Wines",
+   "type": "place",
+   "surface": "Enlightenment Wines",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "AVV",
+   "type": "ingredient",
+   "surface": "AVV",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "bricks",
+   "type": "ingredient",
+   "surface": "bricks",
+   "ts": "6:02"
+  },
+  {
+   "canonical": "bricks",
+   "type": "ingredient",
+   "surface": "bricks",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "orange juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "orange juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "7:14"
+  },
+  {
+   "canonical": "clarified orange juice",
+   "type": "ingredient",
+   "surface": "clarified",
+   "ts": "7:14"
+  },
+  {
+   "canonical": "citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "8:15"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "mead",
+   "type": "ingredient",
+   "surface": "mead",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "KitchenAid",
+   "type": "equipment",
+   "surface": "KitchenAid",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "meat grinder",
+   "type": "equipment",
+   "surface": "meat grinder",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Jewel Sous vide",
+   "type": "equipment",
+   "surface": "Jewel Sous vide",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Katie Moseman Waddler",
+   "type": "person",
+   "surface": "Katie Moseman Waddler",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "HRN",
+   "type": "place",
+   "surface": "HRN",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Chef Steps",
+   "type": "place",
+   "surface": "Chef Steps",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Chef Steps",
+   "type": "place",
+   "surface": "Chef Steps",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Jewel",
+   "type": "equipment",
+   "surface": "Jewel",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "15:57"
+  },
+  {
+   "canonical": "Spatchcock",
+   "type": "technique",
+   "surface": "spatchcock",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "Spatchcock",
+   "type": "technique",
+   "surface": "spatchcock",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Grizzly",
+   "type": "place",
+   "surface": "Grizzly",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Grizzly",
+   "type": "place",
+   "surface": "Grizzly",
+   "ts": "10:59"
+  },
+  {
+   "canonical": "Hobart",
+   "type": "equipment",
+   "surface": "Hobarts",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "Star Anise",
+   "type": "ingredient",
+   "surface": "star anus",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Star Anise",
+   "type": "ingredient",
+   "surface": "Star Anus",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Peppercorns",
+   "type": "ingredient",
+   "surface": "peppercorn",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Cloves",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Star Anise",
+   "type": "ingredient",
+   "surface": "Star Anis",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Star Anise",
+   "type": "ingredient",
+   "surface": "Star Anus",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "19:31"
+  },
+  {
+   "canonical": "Ikoyi",
+   "type": "place",
+   "surface": "Ikoyi",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "Sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "15:57"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusion",
+   "ts": "17:28"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusing",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Infusion",
+   "type": "technique",
+   "surface": "infusing",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "15:57"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Time",
+   "type": "technique",
+   "surface": "time",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Time",
+   "type": "technique",
+   "surface": "time",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Time",
+   "type": "technique",
+   "surface": "time",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "Time",
+   "type": "technique",
+   "surface": "time",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey Steingarden",
+   "ts": "20:14"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "20:37"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "20:37"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sealed system",
+   "ts": "21:47"
+  },
+  {
+   "canonical": "volatile compounds",
+   "type": "ingredient",
+   "surface": "volatile stuff",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "volatile compounds",
+   "type": "ingredient",
+   "surface": "volatiles",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "volatile compounds",
+   "type": "ingredient",
+   "surface": "volatiles",
+   "ts": "22:15"
+  },
+  {
+   "canonical": "pepper",
+   "type": "ingredient",
+   "surface": "peperine",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "pepper",
+   "type": "ingredient",
+   "surface": "pepper",
+   "ts": "20:37"
+  },
+  {
+   "canonical": "pepper",
+   "type": "ingredient",
+   "surface": "pepper",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "pepper",
+   "type": "ingredient",
+   "surface": "pepper",
+   "ts": "22:15"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "22:15"
+  },
+  {
+   "canonical": "milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "butter fat",
+   "type": "ingredient",
+   "surface": "butter fat",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "solubility",
+   "type": "technique",
+   "surface": "soluble",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "solubility",
+   "type": "technique",
+   "surface": "soluble",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "heat",
+   "type": "technique",
+   "surface": "heat",
+   "ts": "21:47"
+  },
+  {
+   "canonical": "heat",
+   "type": "technique",
+   "surface": "heat",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "grinding",
+   "type": "technique",
+   "surface": "grinding",
+   "ts": "22:15"
+  },
+  {
+   "canonical": "pressure",
+   "type": "technique",
+   "surface": "high pressure",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "vodka cranustino",
+   "type": "ingredient",
+   "surface": "vodka cranustino",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "cranberry",
+   "type": "ingredient",
+   "surface": "cranberry",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "23:31"
+  },
+  {
+   "canonical": "SPL",
+   "type": "ingredient",
+   "surface": "SPL",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "buttered popcorn rum",
+   "type": "ingredient",
+   "surface": "buttered popcorn rum",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "popcorn",
+   "type": "ingredient",
+   "surface": "popcorn",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "rye bread",
+   "type": "ingredient",
+   "surface": "rye bread",
+   "ts": "24:15"
+  },
+  {
+   "canonical": "rye bread",
+   "type": "ingredient",
+   "surface": "rye bread",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "activated charcoal",
+   "type": "ingredient",
+   "surface": "activated charcoal",
+   "ts": "24:15"
+  },
+  {
+   "canonical": "activated charcoal",
+   "type": "ingredient",
+   "surface": "activated charcoal",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "24:15"
+  },
+  {
+   "canonical": "charcoal",
+   "type": "ingredient",
+   "surface": "charcoal",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's red mill",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "gluten-free flour",
+   "type": "ingredient",
+   "surface": "gluten-free flour",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "25:20"
+  },
+  {
+   "canonical": "scrapple",
+   "type": "ingredient",
+   "surface": "scrapple",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "biscuits",
+   "type": "ingredient",
+   "surface": "biscuits",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "roti",
+   "type": "ingredient",
+   "surface": "roti",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "25:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Heritage Radio Network.org",
+   "type": "place",
+   "surface": "heritage radio network.org",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Facebook",
+   "type": "place",
+   "surface": "Facebook",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Instagram",
+   "type": "place",
+   "surface": "Instagram",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "26:04"
+  }
+ ]
+}

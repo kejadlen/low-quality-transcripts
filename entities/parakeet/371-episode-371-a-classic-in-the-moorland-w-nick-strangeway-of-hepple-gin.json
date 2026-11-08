@@ -1,0 +1,1387 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:39"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:07"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:56"
+  },
+  {
+   "canonical": "Nick Strangeway",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "1:57"
+  },
+  {
+   "canonical": "Nick Strangeway",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "2:57"
+  },
+  {
+   "canonical": "Taber din",
+   "type": "place",
+   "surface": "Tabardin",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotavats",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Copper Pot Still",
+   "type": "equipment",
+   "surface": "copper pot still",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Linden Flower",
+   "type": "ingredient",
+   "surface": "Linden",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Linden Flower",
+   "type": "ingredient",
+   "surface": "Linden",
+   "ts": "6:04"
+  },
+  {
+   "canonical": "Linden Flower",
+   "type": "ingredient",
+   "surface": "Linden",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "Plymouth Gin",
+   "type": "ingredient",
+   "surface": "Plymouth's",
+   "ts": "6:04"
+  },
+  {
+   "canonical": "Nitro Muddling",
+   "type": "technique",
+   "surface": "nitromuddle",
+   "ts": "6:04"
+  },
+  {
+   "canonical": "Spritz Bottle",
+   "type": "equipment",
+   "surface": "spritz bottle",
+   "ts": "8:39"
+  },
+  {
+   "canonical": "Spritz Bottle",
+   "type": "equipment",
+   "surface": "spritz bottle",
+   "ts": "8:49"
+  },
+  {
+   "canonical": "Tongs",
+   "type": "equipment",
+   "surface": "tongs",
+   "ts": "6:39"
+  },
+  {
+   "canonical": "Tongs",
+   "type": "equipment",
+   "surface": "tongs",
+   "ts": "7:08"
+  },
+  {
+   "canonical": "Tongs",
+   "type": "equipment",
+   "surface": "tongs",
+   "ts": "7:56"
+  },
+  {
+   "canonical": "Tongs",
+   "type": "equipment",
+   "surface": "tongs",
+   "ts": "8:29"
+  },
+  {
+   "canonical": "Tongs",
+   "type": "equipment",
+   "surface": "tongs",
+   "ts": "8:39"
+  },
+  {
+   "canonical": "Fiberglass",
+   "type": "ingredient",
+   "surface": "fiberglass",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Fiberglass",
+   "type": "ingredient",
+   "surface": "fiberglass",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Foraged Ingredients",
+   "type": "ingredient",
+   "surface": "foraged",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Distilling",
+   "type": "technique",
+   "surface": "distilling",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Distilling",
+   "type": "technique",
+   "surface": "distilling",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Gin Production",
+   "type": "technique",
+   "surface": "gin",
+   "ts": "2:04"
+  },
+  {
+   "canonical": "Gin Production",
+   "type": "technique",
+   "surface": "gin",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "Gin Production",
+   "type": "technique",
+   "surface": "gin",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Gin Production",
+   "type": "technique",
+   "surface": "gin",
+   "ts": "8:39"
+  },
+  {
+   "canonical": "Gin Production",
+   "type": "technique",
+   "surface": "gin",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Carebury Hill",
+   "type": "person",
+   "surface": "Carebury Hill",
+   "ts": "9:21"
+  },
+  {
+   "canonical": "Stu Bale",
+   "type": "person",
+   "surface": "Stu Bale",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical gas extraction",
+   "ts": "9:21"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "9:48"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "14:00"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "rotav",
+   "ts": "9:21"
+  },
+  {
+   "canonical": "Rotary Evaporator",
+   "type": "equipment",
+   "surface": "roto vap",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "CO2 Extraction",
+   "type": "technique",
+   "surface": "CO2 extract",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "CO2 Extraction",
+   "type": "technique",
+   "surface": "CO2 extract",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "9:48"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "16:46"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "London Dry Gin",
+   "type": "ingredient",
+   "surface": "London dry gin",
+   "ts": "9:48"
+  },
+  {
+   "canonical": "London Dry Gin",
+   "type": "ingredient",
+   "surface": "London dry gin",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Crucible",
+   "type": "place",
+   "surface": "Crucible",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Methylanthranolate",
+   "type": "ingredient",
+   "surface": "methylanthranolate",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Gas Chromatography",
+   "type": "technique",
+   "surface": "gas chromatography",
+   "ts": "12:32"
+  },
+  {
+   "canonical": "Vacuum Still",
+   "type": "equipment",
+   "surface": "vacuum still",
+   "ts": "9:48"
+  },
+  {
+   "canonical": "Vacuum Still",
+   "type": "equipment",
+   "surface": "vacuum still",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Pot Still",
+   "type": "equipment",
+   "surface": "pot still",
+   "ts": "9:48"
+  },
+  {
+   "canonical": "Pot Still",
+   "type": "equipment",
+   "surface": "pot still",
+   "ts": "10:19"
+  },
+  {
+   "canonical": "Pot Still",
+   "type": "equipment",
+   "surface": "pot still",
+   "ts": "12:58"
+  },
+  {
+   "canonical": "Pot Still",
+   "type": "equipment",
+   "surface": "pot still",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "69 Colebrook Road",
+   "type": "place",
+   "surface": "69 Colebrook Road",
+   "ts": "15:43"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "15:08"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "19:36"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "19:53"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "21:06"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "23:15"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "23:30"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Moor",
+   "type": "place",
+   "surface": "moor",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Moor",
+   "type": "place",
+   "surface": "moor",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Peat",
+   "type": "ingredient",
+   "surface": "peat",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Vacuum Distillation",
+   "type": "technique",
+   "surface": "vacuum distillation",
+   "ts": "21:35"
+  },
+  {
+   "canonical": "CO2 Extraction",
+   "type": "technique",
+   "surface": "CO2 extraction",
+   "ts": "24:58"
+  },
+  {
+   "canonical": "Supercritical Extraction",
+   "type": "technique",
+   "surface": "supercritical extracts",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Green Juniper",
+   "type": "ingredient",
+   "surface": "green juniper",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Green Juniper",
+   "type": "ingredient",
+   "surface": "green juniper",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Green Juniper",
+   "type": "ingredient",
+   "surface": "green juniper",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Black Juniper",
+   "type": "ingredient",
+   "surface": "black juniper",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Black Juniper",
+   "type": "ingredient",
+   "surface": "black juniper",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "Distillery",
+   "type": "place",
+   "surface": "distillery",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "26:40"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Booley",
+   "type": "place",
+   "surface": "Booley",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Heston",
+   "type": "person",
+   "surface": "Heston",
+   "ts": "27:27"
+  },
+  {
+   "canonical": "Tabard Inn",
+   "type": "place",
+   "surface": "Tabard Inn",
+   "ts": "29:27"
+  },
+  {
+   "canonical": "Tabard Inn",
+   "type": "place",
+   "surface": "tabard",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "Soriano ham",
+   "type": "ingredient",
+   "surface": "Soriano ham",
+   "ts": "30:21"
+  },
+  {
+   "canonical": "Patrick Martin",
+   "type": "person",
+   "surface": "Patrick Martin",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Heritage Foods",
+   "type": "place",
+   "surface": "Heritage Foods",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Sam Edwards",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Nancy Mahathy",
+   "type": "person",
+   "surface": "Newsom's",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Sam Edwards",
+   "type": "person",
+   "surface": "Seriano",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Heritage Food",
+   "type": "place",
+   "surface": "Heritage uh food",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "Patrick",
+   "type": "person",
+   "surface": "Patrick",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "DiPalos",
+   "type": "place",
+   "surface": "DiPalos",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Wax Paper",
+   "type": "ingredient",
+   "surface": "waxy butcher paper",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Vacuum Sealing",
+   "type": "technique",
+   "surface": "vacuum this summer repeats",
+   "ts": "35:21"
+  },
+  {
+   "canonical": "Black Currant",
+   "type": "ingredient",
+   "surface": "black currants",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "28:15"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "29:05"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "29:27"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Nick O",
+   "type": "person",
+   "surface": "Nick O",
+   "ts": "36:17"
+  },
+  {
+   "canonical": "Nico",
+   "type": "person",
+   "surface": "Nico",
+   "ts": "36:29"
+  },
+  {
+   "canonical": "WKRP",
+   "type": "place",
+   "surface": "WKRP",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "36:47"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "39:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "41:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears All",
+   "ts": "36:47"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "37:00"
+  },
+  {
+   "canonical": "Ekoloi",
+   "type": "ingredient",
+   "surface": "Ekoloi",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "Specialty Metal",
+   "type": "place",
+   "surface": "Specialty Metal",
+   "ts": "37:44"
+  },
+  {
+   "canonical": "Palladium",
+   "type": "ingredient",
+   "surface": "palladium",
+   "ts": "38:34"
+  },
+  {
+   "canonical": "MRE",
+   "type": "equipment",
+   "surface": "MRE",
+   "ts": "39:28"
+  },
+  {
+   "canonical": "United Airlines",
+   "type": "place",
+   "surface": "United",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "United Airlines",
+   "type": "place",
+   "surface": "United",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "41:35"
+  },
+  {
+   "canonical": "Juniper",
+   "type": "ingredient",
+   "surface": "juniper",
+   "ts": "41:53"
+  },
+  {
+   "canonical": "Pine Tree",
+   "type": "ingredient",
+   "surface": "pine tree",
+   "ts": "41:25"
+  },
+  {
+   "canonical": "Pine Tree",
+   "type": "ingredient",
+   "surface": "pine tree",
+   "ts": "42:39"
+  },
+  {
+   "canonical": "Pine Tree",
+   "type": "ingredient",
+   "surface": "pine tree",
+   "ts": "42:53"
+  },
+  {
+   "canonical": "Douglas Fir",
+   "type": "ingredient",
+   "surface": "Douglas fir",
+   "ts": "41:53"
+  },
+  {
+   "canonical": "City Meals on Wheels",
+   "type": "place",
+   "surface": "City Meals on Wheels",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Bar Convent Brooklyn",
+   "type": "place",
+   "surface": "Bar Convent Brooklyn",
+   "ts": "44:13"
+  },
+  {
+   "canonical": "Slow Gin",
+   "type": "ingredient",
+   "surface": "slow",
+   "ts": "44:36"
+  },
+  {
+   "canonical": "Slow Gin",
+   "type": "ingredient",
+   "surface": "Slow",
+   "ts": "45:15"
+  },
+  {
+   "canonical": "Slow Gin",
+   "type": "ingredient",
+   "surface": "slow",
+   "ts": "45:41"
+  },
+  {
+   "canonical": "Alexis Sawyer",
+   "type": "person",
+   "surface": "Sawyer",
+   "ts": "50:25"
+  },
+  {
+   "canonical": "Alexis Sawyer",
+   "type": "person",
+   "surface": "Alexis Sawyer",
+   "ts": "51:57"
+  },
+  {
+   "canonical": "Alexis Sawyer",
+   "type": "person",
+   "surface": "Sawyer",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Alexis Sawyer",
+   "type": "person",
+   "surface": "Sawyer",
+   "ts": "54:47"
+  },
+  {
+   "canonical": "Sawyer's Paper Bag Cookery",
+   "type": "ingredient",
+   "surface": "Sawyer's Paper Bag Cookery",
+   "ts": "50:25"
+  },
+  {
+   "canonical": "The Gastronomic Regenerator",
+   "type": "ingredient",
+   "surface": "The Gastronomic Regenerator",
+   "ts": "53:14"
+  },
+  {
+   "canonical": "The Gastronomic Regenerator",
+   "type": "ingredient",
+   "surface": "the gastronomic regenerator",
+   "ts": "53:47"
+  },
+  {
+   "canonical": "Reform Club",
+   "type": "place",
+   "surface": "Reform Club",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Reform Club",
+   "type": "place",
+   "surface": "Reform Club",
+   "ts": "53:00"
+  },
+  {
+   "canonical": "Sawyer stove",
+   "type": "equipment",
+   "surface": "Sawyer stove",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Nicholas Sawyer",
+   "type": "person",
+   "surface": "Nicholas Sawyer",
+   "ts": "54:47"
+  },
+  {
+   "canonical": "Classic in the Field",
+   "type": "technique",
+   "surface": "classic in the field",
+   "ts": "49:39"
+  },
+  {
+   "canonical": "Classic in the Field",
+   "type": "technique",
+   "surface": "Classic in the Field",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Classic in the Field",
+   "type": "technique",
+   "surface": "classic in the field",
+   "ts": "50:46"
+  },
+  {
+   "canonical": "The Effects of Nuclear Weapons",
+   "type": "ingredient",
+   "surface": "The Effects of Nuclear Weapons",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "Sassafras",
+   "type": "ingredient",
+   "surface": "sassafras",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "Lindera benzoin",
+   "type": "ingredient",
+   "surface": "Lindera benzoin",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "Nicholas Sawyer",
+   "type": "person",
+   "surface": "Nicholas Sawyer",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Nicholas Sawyer",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "58:05"
+  },
+  {
+   "canonical": "Nicholas Sawyer",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "1:02:28"
+  },
+  {
+   "canonical": "Nicholas Sawyer",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "1:03:27"
+  },
+  {
+   "canonical": "Bob",
+   "type": "person",
+   "surface": "Bob",
+   "ts": "57:29"
+  },
+  {
+   "canonical": "Bob",
+   "type": "person",
+   "surface": "Bob",
+   "ts": "58:05"
+  },
+  {
+   "canonical": "Bentonite",
+   "type": "ingredient",
+   "surface": "bentonite",
+   "ts": "58:05"
+  },
+  {
+   "canonical": "Bentonite",
+   "type": "ingredient",
+   "surface": "bentonite",
+   "ts": "58:40"
+  },
+  {
+   "canonical": "Bentonite",
+   "type": "ingredient",
+   "surface": "bentonite",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Bentonite",
+   "type": "ingredient",
+   "surface": "bentonite",
+   "ts": "1:00:19"
+  },
+  {
+   "canonical": "Bentonite",
+   "type": "ingredient",
+   "surface": "bentonite",
+   "ts": "1:00:54"
+  },
+  {
+   "canonical": "Paperbag Cooking",
+   "type": "technique",
+   "surface": "paperbag cooking",
+   "ts": "55:04"
+  },
+  {
+   "canonical": "Paperbag Cooking",
+   "type": "technique",
+   "surface": "paperbag cooking",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Paperbag Cooking",
+   "type": "technique",
+   "surface": "paperbag cookery",
+   "ts": "58:40"
+  },
+  {
+   "canonical": "Papillot",
+   "type": "technique",
+   "surface": "papillot",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "Moisture Management",
+   "type": "technique",
+   "surface": "Moisture Management",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Moisture Management",
+   "type": "technique",
+   "surface": "moisture management",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Sawyer's Paper Bags",
+   "type": "ingredient",
+   "surface": "Sawyer's paper bags",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Paper Bag",
+   "type": "equipment",
+   "surface": "paper bag",
+   "ts": "55:04"
+  },
+  {
+   "canonical": "Paper Bag",
+   "type": "equipment",
+   "surface": "paper bag",
+   "ts": "55:30"
+  },
+  {
+   "canonical": "Paper Bag",
+   "type": "equipment",
+   "surface": "paper bag",
+   "ts": "56:36"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "1:00:54"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "1:01:15"
+  },
+  {
+   "canonical": "Supercritical CO2",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "1:03:02"
+  },
+  {
+   "canonical": "Vacuum",
+   "type": "technique",
+   "surface": "vacuum",
+   "ts": "1:03:02"
+  },
+  {
+   "canonical": "Pot Distillation",
+   "type": "technique",
+   "surface": "pot distillation",
+   "ts": "1:03:02"
+  },
+  {
+   "canonical": "Pot Distillation",
+   "type": "technique",
+   "surface": "Pot distillation",
+   "ts": "1:03:18"
+  },
+  {
+   "canonical": "Heple Gin",
+   "type": "ingredient",
+   "surface": "Heple Gin",
+   "ts": "1:02:28"
+  },
+  {
+   "canonical": "Kiesel Sol",
+   "type": "ingredient",
+   "surface": "Kiesel Sol",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Kitasan",
+   "type": "ingredient",
+   "surface": "kitasan",
+   "ts": "1:02:03"
+  },
+  {
+   "canonical": "Spinzall",
+   "type": "equipment",
+   "surface": "spinzalls",
+   "ts": "1:02:03"
+  },
+  {
+   "canonical": "Supercritical CO2",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "1:03:02"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "1:02:03"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "Agar",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "1:01:15"
+  },
+  {
+   "canonical": "Casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "1:02:03"
+  },
+  {
+   "canonical": "Egg White",
+   "type": "ingredient",
+   "surface": "egg white",
+   "ts": "1:01:15"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "59:47"
+  },
+  {
+   "canonical": "Egg Yolk",
+   "type": "ingredient",
+   "surface": "egg yolk",
+   "ts": "1:00:19"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "58:40"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "1:00:19"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "Wine",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Cornell University",
+   "type": "place",
+   "surface": "Cornell",
+   "ts": "58:14"
+  },
+  {
+   "canonical": "University of Minnesota",
+   "type": "place",
+   "surface": "University of Minnesota",
+   "ts": "58:14"
+  },
+  {
+   "canonical": "Green Bay, Wisconsin",
+   "type": "place",
+   "surface": "Green Bay, Wisconsin",
+   "ts": "58:14"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "58:14"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "58:40"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "1:02:28"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "1:02:54"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "1:03:02"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "1:03:02"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:03:48"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "Facebook",
+   "type": "place",
+   "surface": "Facebook",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "Instagram",
+   "type": "place",
+   "surface": "Instagram",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "heritage underscore radio",
+   "type": "place",
+   "surface": "heritage underscore radio",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "nonprofit organization",
+   "type": "place",
+   "surface": "nonprofit organization",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "community",
+   "type": "place",
+   "surface": "community",
+   "ts": "1:04:12"
+  }
+ ]
+}

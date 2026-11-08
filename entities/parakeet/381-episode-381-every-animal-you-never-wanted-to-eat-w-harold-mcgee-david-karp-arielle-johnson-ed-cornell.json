@@ -1,0 +1,1861 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Ed Coronel",
+   "type": "person",
+   "surface": "Ed Coronel",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Ariel Johnson",
+   "type": "person",
+   "surface": "Ariel Johnson",
+   "ts": "2:35"
+  },
+  {
+   "canonical": "Ariel Johnson",
+   "type": "person",
+   "surface": "Ariel",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "NOMA",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "Milk Cult",
+   "type": "place",
+   "surface": "Milk Cult",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Good Eats",
+   "type": "place",
+   "surface": "Good Eats",
+   "ts": "2:35"
+  },
+  {
+   "canonical": "Feast Portland",
+   "type": "place",
+   "surface": "Feast Portland",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "MIT",
+   "type": "place",
+   "surface": "MIT",
+   "ts": "2:35"
+  },
+  {
+   "canonical": "MIT",
+   "type": "place",
+   "surface": "MIT",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "GCMS",
+   "type": "equipment",
+   "surface": "GCMS",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "David Carp",
+   "type": "person",
+   "surface": "David Carp",
+   "ts": "5:47"
+  },
+  {
+   "canonical": "David Carp",
+   "type": "person",
+   "surface": "David",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "Barhee Dates",
+   "type": "ingredient",
+   "surface": "Barhee uh dates",
+   "ts": "5:47"
+  },
+  {
+   "canonical": "Santa Monica Farmers Market",
+   "type": "place",
+   "surface": "Santa Monica Farmers Market",
+   "ts": "5:47"
+  },
+  {
+   "canonical": "Santa Monica Farmers Market",
+   "type": "place",
+   "surface": "Santa Monica Farmers Market",
+   "ts": "6:19"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Brogdale",
+   "type": "place",
+   "surface": "Brogdale",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Noah's Ark of Apples",
+   "type": "place",
+   "surface": "Noah's Ark of apples",
+   "ts": "7:01"
+  },
+  {
+   "canonical": "Corvalis",
+   "type": "place",
+   "surface": "Corvalis",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "Fairchild Tropical Botanic Garden",
+   "type": "place",
+   "surface": "Fairchild",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Campbell",
+   "type": "person",
+   "surface": "Campbell",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Fruit Journalism",
+   "type": "technique",
+   "surface": "fruit journalist",
+   "ts": "5:47"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Alex Cole",
+   "type": "person",
+   "surface": "Alex Cole",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Horse conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "14:22"
+  },
+  {
+   "canonical": "Horse conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Horse conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Horse conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Horse conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:22"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:48"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "Conch",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Welks",
+   "type": "ingredient",
+   "surface": "welks",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Ariel",
+   "type": "person",
+   "surface": "Ariel",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Ed Conks",
+   "type": "person",
+   "surface": "Ed Conks",
+   "ts": "14:48"
+  },
+  {
+   "canonical": "Horse Conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "14:22"
+  },
+  {
+   "canonical": "Horse Conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Horse Conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Horse Conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Horse Conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:22"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:48"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "Conch",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Paralytic Shellfish Poisoning",
+   "type": "technique",
+   "surface": "paralytic shellfish poisoning",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "FDA.gov",
+   "type": "place",
+   "surface": "FDA.gov",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Queen Conch",
+   "type": "ingredient",
+   "surface": "queen conch",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Anasakis Worm",
+   "type": "ingredient",
+   "surface": "Anasakis worm",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Immersion Circulator",
+   "type": "equipment",
+   "surface": "immersion circulator",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Dehydrator",
+   "type": "equipment",
+   "surface": "dehydrator",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Grill",
+   "type": "equipment",
+   "surface": "grill",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Smoker",
+   "type": "equipment",
+   "surface": "smoker",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Fish and Fishery Products, Hazards and Control Guidance",
+   "type": "place",
+   "surface": "fish and fishery products, hazards and control guidance",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Miss Florida",
+   "type": "person",
+   "surface": "Miss Florida",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Miss Florida",
+   "type": "person",
+   "surface": "Miss Florida",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:22"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:39"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "14:48"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "Conch",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "15:51"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Thawing",
+   "type": "technique",
+   "surface": "thaws",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Thawing",
+   "type": "technique",
+   "surface": "thaws",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Suction",
+   "type": "technique",
+   "surface": "suction",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Operculum",
+   "type": "ingredient",
+   "surface": "operculum",
+   "ts": "18:44"
+  },
+  {
+   "canonical": "Gooey Duck",
+   "type": "ingredient",
+   "surface": "gooey duck",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Gooey Duck",
+   "type": "ingredient",
+   "surface": "gooey duck",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Ceviche",
+   "type": "technique",
+   "surface": "ceviche",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Cleaver",
+   "type": "equipment",
+   "surface": "cleaver",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Gulf Coast",
+   "type": "place",
+   "surface": "Gulf Coast",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Gulf Coast",
+   "type": "place",
+   "surface": "Gulf Coast",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Louisiana",
+   "type": "place",
+   "surface": "Louisiana",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Alabama",
+   "type": "place",
+   "surface": "Alabama",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Mississippi",
+   "type": "place",
+   "surface": "Mississippi",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Texas",
+   "type": "place",
+   "surface": "Texas",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "Conch",
+   "ts": "19:59"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "21:00"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Queen Cock Conch",
+   "type": "ingredient",
+   "surface": "Queen Cock Conch",
+   "ts": "21:00"
+  },
+  {
+   "canonical": "Horse Conch",
+   "type": "ingredient",
+   "surface": "horse conch",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "22:06"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Trichinosis",
+   "type": "technique",
+   "surface": "trichinosis",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Shigella",
+   "type": "ingredient",
+   "surface": "shigella",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "19:59"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Freeze Thawing",
+   "type": "technique",
+   "surface": "freeze thawing",
+   "ts": "19:59"
+  },
+  {
+   "canonical": "Drip Loss",
+   "type": "technique",
+   "surface": "drip loss",
+   "ts": "20:23"
+  },
+  {
+   "canonical": "Drip Loss",
+   "type": "technique",
+   "surface": "drip loss",
+   "ts": "20:36"
+  },
+  {
+   "canonical": "Par Cook",
+   "type": "technique",
+   "surface": "par cook",
+   "ts": "20:36"
+  },
+  {
+   "canonical": "Cleaning",
+   "type": "technique",
+   "surface": "cleaning",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Cooking",
+   "type": "technique",
+   "surface": "cooking",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Cooking",
+   "type": "technique",
+   "surface": "cooking",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Cooking",
+   "type": "technique",
+   "surface": "cooking",
+   "ts": "23:23"
+  },
+  {
+   "canonical": "Parasites",
+   "type": "ingredient",
+   "surface": "parasites",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Pentasomiasis",
+   "type": "ingredient",
+   "surface": "Pentasomiasis",
+   "ts": "23:32"
+  },
+  {
+   "canonical": "Nathosomiasis",
+   "type": "ingredient",
+   "surface": "Nathosomiasis",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Sparganosis",
+   "type": "ingredient",
+   "surface": "Sparganosis",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "22:06"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Iguana",
+   "type": "ingredient",
+   "surface": "iguana",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Frog Legs",
+   "type": "ingredient",
+   "surface": "frog's legs",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Frog Legs",
+   "type": "ingredient",
+   "surface": "frog legs",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "Frog Legs",
+   "type": "ingredient",
+   "surface": "frog legs",
+   "ts": "25:51"
+  },
+  {
+   "canonical": "Alligator",
+   "type": "ingredient",
+   "surface": "alligator",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Alligator",
+   "type": "ingredient",
+   "surface": "alligator",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "Duck Breast",
+   "type": "ingredient",
+   "surface": "duck breast",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Duck Breast",
+   "type": "ingredient",
+   "surface": "duck breast",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "Parboiling",
+   "type": "technique",
+   "surface": "Parboiling",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "Slow Cooker",
+   "type": "equipment",
+   "surface": "slow cooker",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Cajun Kitchen",
+   "type": "place",
+   "surface": "Cajun Kitchen",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Liquid Chromatography",
+   "type": "technique",
+   "surface": "preparative liquid chromatography",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical extraction",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical extraction",
+   "ts": "36:38"
+  },
+  {
+   "canonical": "Supercritical CO2 Extraction",
+   "type": "technique",
+   "surface": "supercritical CO2",
+   "ts": "37:06"
+  },
+  {
+   "canonical": "Hexane",
+   "type": "ingredient",
+   "surface": "hexane",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Hexane",
+   "type": "ingredient",
+   "surface": "hexane",
+   "ts": "34:00"
+  },
+  {
+   "canonical": "Hexane",
+   "type": "ingredient",
+   "surface": "hexane",
+   "ts": "36:38"
+  },
+  {
+   "canonical": "Acetonitrile",
+   "type": "ingredient",
+   "surface": "acetonitrile",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Supercritical Fluid Extraction",
+   "type": "technique",
+   "surface": "supercritical",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Supercritical Fluid Extraction",
+   "type": "technique",
+   "surface": "supercritical",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Supercritical Fluid Extraction",
+   "type": "technique",
+   "surface": "supercritical",
+   "ts": "36:38"
+  },
+  {
+   "canonical": "Supercritical Fluid Extraction",
+   "type": "technique",
+   "surface": "supercritical",
+   "ts": "37:06"
+  },
+  {
+   "canonical": "Nourish and Flourish",
+   "type": "place",
+   "surface": "Nourish and Flourish",
+   "ts": "37:47"
+  },
+  {
+   "canonical": "Nourish and Flourish",
+   "type": "place",
+   "surface": "Nourish and Flourish",
+   "ts": "38:23"
+  },
+  {
+   "canonical": "Nourish and Flourish",
+   "type": "place",
+   "surface": "Nourish and flourish",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Svalbard Global Seed Bank",
+   "type": "place",
+   "surface": "Svalbard Global Seed Bank",
+   "ts": "38:23"
+  },
+  {
+   "canonical": "Fairchild Tropical Botanical Garden",
+   "type": "place",
+   "surface": "Fairchild Tropical Botanical Garden",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Fruit and Spice Park",
+   "type": "place",
+   "surface": "fruit and spice park",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Homestead, Florida",
+   "type": "place",
+   "surface": "Homestead",
+   "ts": "39:17"
+  },
+  {
+   "canonical": "Homestead, Florida",
+   "type": "place",
+   "surface": "Homestead",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "Piper Christensen",
+   "type": "person",
+   "surface": "Piper Christensen",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "Grace",
+   "type": "person",
+   "surface": "Grace",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "Papersmith",
+   "type": "person",
+   "surface": "Papersmith",
+   "ts": "43:53"
+  },
+  {
+   "canonical": "Duke Chase's",
+   "type": "place",
+   "surface": "Duke Chase's",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Napoleon House",
+   "type": "place",
+   "surface": "Napoleon House",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "Central Grocery",
+   "type": "place",
+   "surface": "central grocery",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "Couchon",
+   "type": "place",
+   "surface": "Couchon",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Starfruit",
+   "type": "ingredient",
+   "surface": "starfruits",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Jackfruit",
+   "type": "ingredient",
+   "surface": "jackfruits",
+   "ts": "40:37"
+  },
+  {
+   "canonical": "Mango",
+   "type": "ingredient",
+   "surface": "mangoes",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Lychee",
+   "type": "ingredient",
+   "surface": "lychees",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Longan",
+   "type": "ingredient",
+   "surface": "longan",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Muffaletta",
+   "type": "ingredient",
+   "surface": "muffalettas",
+   "ts": "42:30"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "42:16"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "42:30"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "42:30"
+  },
+  {
+   "canonical": "Fried Chicken",
+   "type": "ingredient",
+   "surface": "fried chicken",
+   "ts": "42:30"
+  },
+  {
+   "canonical": "Alligator",
+   "type": "ingredient",
+   "surface": "alligator",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Alligator",
+   "type": "ingredient",
+   "surface": "alligator",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "Motorhome",
+   "type": "equipment",
+   "surface": "motorhome",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Frozen Gator",
+   "type": "ingredient",
+   "surface": "frozen gator",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "Frozen Gator",
+   "type": "ingredient",
+   "surface": "frozen gator",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Plasti Thing",
+   "type": "equipment",
+   "surface": "plasti thing",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Carbigani LB502",
+   "type": "equipment",
+   "surface": "carbigani LB502",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Turnkey Parlor",
+   "type": "place",
+   "surface": "Turnkey Parlor",
+   "ts": "47:59"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "technique",
+   "surface": "liquid nitrogen",
+   "ts": "46:49"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "technique",
+   "surface": "liquid nitrogen",
+   "ts": "46:58"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "45:14"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "45:28"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "46:29"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "46:49"
+  },
+  {
+   "canonical": "Bone Broth",
+   "type": "ingredient",
+   "surface": "Bone broth",
+   "ts": "46:36"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Colts Coldstone",
+   "type": "place",
+   "surface": "Colts Coldstone",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Jambalaya",
+   "type": "ingredient",
+   "surface": "jambalaye",
+   "ts": "44:59"
+  },
+  {
+   "canonical": "Gator",
+   "type": "ingredient",
+   "surface": "gator",
+   "ts": "43:41"
+  },
+  {
+   "canonical": "Gator",
+   "type": "ingredient",
+   "surface": "gator",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Gator",
+   "type": "ingredient",
+   "surface": "gator",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "Gator",
+   "type": "ingredient",
+   "surface": "gator",
+   "ts": "44:59"
+  },
+  {
+   "canonical": "Gator",
+   "type": "ingredient",
+   "surface": "gator",
+   "ts": "45:14"
+  },
+  {
+   "canonical": "Frog",
+   "type": "ingredient",
+   "surface": "frog",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "52:55"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "54:27"
+  },
+  {
+   "canonical": "Aaron",
+   "type": "person",
+   "surface": "Aaron",
+   "ts": "52:55"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "49:57"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "52:18"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "52:37"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "53:07"
+  },
+  {
+   "canonical": "Parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Mint",
+   "type": "ingredient",
+   "surface": "mint",
+   "ts": "53:07"
+  },
+  {
+   "canonical": "Mint",
+   "type": "ingredient",
+   "surface": "mint",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Thai Basil",
+   "type": "ingredient",
+   "surface": "Thai basil",
+   "ts": "53:07"
+  },
+  {
+   "canonical": "Thai Basil",
+   "type": "ingredient",
+   "surface": "Thai basil",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Dipper Case",
+   "type": "equipment",
+   "surface": "dipper case",
+   "ts": "50:45"
+  },
+  {
+   "canonical": "Batch Freezer",
+   "type": "equipment",
+   "surface": "batch freezer",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Thermos",
+   "type": "equipment",
+   "surface": "thermos",
+   "ts": "52:37"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "49:57"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "52:18"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "52:37"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Vita Prep",
+   "type": "equipment",
+   "surface": "vita prep",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Nitro Muddling",
+   "type": "technique",
+   "surface": "nitro blender",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Classic City",
+   "type": "place",
+   "surface": "Classic City",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "Morrill Act",
+   "type": "place",
+   "surface": "Morrill Act",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "Land Grant Colleges",
+   "type": "place",
+   "surface": "land grant colleges",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "Land Grant Colleges",
+   "type": "place",
+   "surface": "land grant colleges",
+   "ts": "55:52"
+  },
+  {
+   "canonical": "Geneva Agricultural Extension",
+   "type": "place",
+   "surface": "Geneva Agricultural Extension",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "Geneva Agricultural Extension",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "56:51"
+  },
+  {
+   "canonical": "Geneva Agricultural Extension",
+   "type": "place",
+   "surface": "Geneva",
+   "ts": "58:20"
+  },
+  {
+   "canonical": "Apples of New York",
+   "type": "ingredient",
+   "surface": "Apples of New York",
+   "ts": "56:51"
+  },
+  {
+   "canonical": "Apples of New York",
+   "type": "ingredient",
+   "surface": "Apples of New York",
+   "ts": "58:20"
+  },
+  {
+   "canonical": "UP Hedrick",
+   "type": "person",
+   "surface": "UP Hedrick",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "UP Hedrick",
+   "type": "person",
+   "surface": "UP Hedrick",
+   "ts": "58:09"
+  },
+  {
+   "canonical": "UP Hedrick",
+   "type": "person",
+   "surface": "UP Hedrick",
+   "ts": "58:20"
+  },
+  {
+   "canonical": "S.A. Beach",
+   "type": "person",
+   "surface": "S.A. Beach",
+   "ts": "56:51"
+  },
+  {
+   "canonical": "Pomology",
+   "type": "technique",
+   "surface": "pomology",
+   "ts": "57:39"
+  },
+  {
+   "canonical": "Hedrick Orchard",
+   "type": "place",
+   "surface": "Hedrick Orchard",
+   "ts": "58:20"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:06:09"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:07:17"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:07:32"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:08:16"
+  },
+  {
+   "canonical": "Cornell University",
+   "type": "place",
+   "surface": "Cornell's",
+   "ts": "1:01:38"
+  },
+  {
+   "canonical": "New York State Agricultural Extension",
+   "type": "place",
+   "surface": "Ag extension",
+   "ts": "1:02:53"
+  },
+  {
+   "canonical": "Cucurbit",
+   "type": "ingredient",
+   "surface": "cucurbit",
+   "ts": "59:59"
+  },
+  {
+   "canonical": "Cucurbit",
+   "type": "ingredient",
+   "surface": "cucurbits",
+   "ts": "1:00:21"
+  },
+  {
+   "canonical": "Cucumbers",
+   "type": "ingredient",
+   "surface": "cucumbers",
+   "ts": "1:00:21"
+  },
+  {
+   "canonical": "Melons",
+   "type": "ingredient",
+   "surface": "melons",
+   "ts": "1:00:21"
+  },
+  {
+   "canonical": "Pumpkins",
+   "type": "ingredient",
+   "surface": "pumpkins",
+   "ts": "1:00:21"
+  },
+  {
+   "canonical": "Sweet Corn",
+   "type": "ingredient",
+   "surface": "sweet corn",
+   "ts": "1:01:38"
+  },
+  {
+   "canonical": "Dandelions",
+   "type": "ingredient",
+   "surface": "dandelions",
+   "ts": "1:03:42"
+  },
+  {
+   "canonical": "Dandelions",
+   "type": "ingredient",
+   "surface": "Dandelions",
+   "ts": "1:03:53"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "1:03:53"
+  },
+  {
+   "canonical": "Nasturtiums",
+   "type": "ingredient",
+   "surface": "nasturtiums",
+   "ts": "1:04:26"
+  },
+  {
+   "canonical": "Chive Flowers",
+   "type": "ingredient",
+   "surface": "Chive flowers",
+   "ts": "1:04:39"
+  },
+  {
+   "canonical": "Garlic Flowers",
+   "type": "ingredient",
+   "surface": "garlic flowers",
+   "ts": "1:04:39"
+  },
+  {
+   "canonical": "Elderflower",
+   "type": "ingredient",
+   "surface": "Elderflower",
+   "ts": "1:04:57"
+  },
+  {
+   "canonical": "Elderberries",
+   "type": "ingredient",
+   "surface": "elder berries",
+   "ts": "1:05:09"
+  },
+  {
+   "canonical": "Elderberries",
+   "type": "ingredient",
+   "surface": "elder berries",
+   "ts": "1:05:27"
+  },
+  {
+   "canonical": "Elderberries",
+   "type": "ingredient",
+   "surface": "elderberry",
+   "ts": "1:05:47"
+  },
+  {
+   "canonical": "Texas Red Osier Dogwood",
+   "type": "place",
+   "surface": "U tree",
+   "ts": "1:06:09"
+  },
+  {
+   "canonical": "Texas Red Osier Dogwood",
+   "type": "place",
+   "surface": "Texas",
+   "ts": "1:06:30"
+  },
+  {
+   "canonical": "Texas Red Osier Dogwood",
+   "type": "place",
+   "surface": "Texas",
+   "ts": "1:06:36"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "ingredient",
+   "surface": "haw",
+   "ts": "1:08:16"
+  },
+  {
+   "canonical": "Hawthorn",
+   "type": "ingredient",
+   "surface": "haw",
+   "ts": "1:08:46"
+  },
+  {
+   "canonical": "Taxodium",
+   "type": "ingredient",
+   "surface": "Taxodium",
+   "ts": "1:06:30"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:11:14"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:11:50"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:12:09"
+  },
+  {
+   "canonical": "Heritage Gala",
+   "type": "place",
+   "surface": "Heritage Gala",
+   "ts": "1:11:14"
+  },
+  {
+   "canonical": "Ferguson Home",
+   "type": "place",
+   "surface": "Ferguson Home",
+   "ts": "1:12:32"
+  },
+  {
+   "canonical": "Ferguson Home",
+   "type": "place",
+   "surface": "Ferguson Home",
+   "ts": "1:12:54"
+  },
+  {
+   "canonical": "Simplecast",
+   "type": "equipment",
+   "surface": "Simplecast",
+   "ts": "1:11:50"
+  },
+  {
+   "canonical": "Staghorn Sumac",
+   "type": "ingredient",
+   "surface": "staghorn sumac",
+   "ts": "1:09:16"
+  },
+  {
+   "canonical": "Staghorn Sumac",
+   "type": "ingredient",
+   "surface": "staghorn uh sumac things",
+   "ts": "1:09:39"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "1:09:16"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "1:09:39"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "1:10:08"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "1:10:27"
+  },
+  {
+   "canonical": "Sumac",
+   "type": "ingredient",
+   "surface": "sumac",
+   "ts": "1:10:53"
+  },
+  {
+   "canonical": "Poison Sumac",
+   "type": "ingredient",
+   "surface": "poison sumac",
+   "ts": "1:10:08"
+  },
+  {
+   "canonical": "Poison Sumac",
+   "type": "ingredient",
+   "surface": "poison sumac",
+   "ts": "1:10:27"
+  },
+  {
+   "canonical": "Poison Sumac",
+   "type": "ingredient",
+   "surface": "poison sumac",
+   "ts": "1:10:53"
+  },
+  {
+   "canonical": "Sumac Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "1:09:39"
+  },
+  {
+   "canonical": "Sumac Tea",
+   "type": "ingredient",
+   "surface": "tea",
+   "ts": "1:10:53"
+  },
+  {
+   "canonical": "Heritage Radio Network.org",
+   "type": "place",
+   "surface": "Heritage Radio Network.org",
+   "ts": "1:11:14"
+  }
+ ]
+}

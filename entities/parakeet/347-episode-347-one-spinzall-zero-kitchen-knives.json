@@ -1,0 +1,855 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [
+  4
+ ],
+ "mentions": [
+  {
+   "canonical": "Les Crusade",
+   "type": "place",
+   "surface": "Les Crusade",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Katie Mosman Wadler",
+   "type": "person",
+   "surface": "Katie Mosman Wadler",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "Duo Sharp Zone",
+   "type": "equipment",
+   "surface": "duo sharp zone",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "DMT",
+   "type": "equipment",
+   "surface": "DMT",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Victorinox Fyrox Chef's Knives",
+   "type": "equipment",
+   "surface": "Victorinox Fyrox Chef's knives",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Knives",
+   "type": "equipment",
+   "surface": "knives",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Knives",
+   "type": "equipment",
+   "surface": "knives",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Knives",
+   "type": "equipment",
+   "surface": "knives",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Knives",
+   "type": "equipment",
+   "surface": "knives",
+   "ts": "4:59"
+  },
+  {
+   "canonical": "Knives",
+   "type": "equipment",
+   "surface": "knives",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Knives",
+   "type": "equipment",
+   "surface": "knives",
+   "ts": "6:08"
+  },
+  {
+   "canonical": "Sharpener",
+   "type": "equipment",
+   "surface": "sharpener",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "5:13"
+  },
+  {
+   "canonical": "Stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Magnifier",
+   "type": "equipment",
+   "surface": "magnifier",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Sharpie",
+   "type": "equipment",
+   "surface": "sharpie",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Burr",
+   "type": "technique",
+   "surface": "burr",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Burr",
+   "type": "technique",
+   "surface": "burr",
+   "ts": "9:40"
+  },
+  {
+   "canonical": "Edge Pro",
+   "type": "equipment",
+   "surface": "Edge Pro",
+   "ts": "12:23"
+  },
+  {
+   "canonical": "Edge Pro",
+   "type": "equipment",
+   "surface": "Edge Pro",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Edge Pro",
+   "type": "equipment",
+   "surface": "edge pro",
+   "ts": "14:06"
+  },
+  {
+   "canonical": "Edge Sharp",
+   "type": "equipment",
+   "surface": "Edge Sharp",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "Japanese knives",
+   "type": "equipment",
+   "surface": "Japanese knives",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "sharpening stone",
+   "type": "equipment",
+   "surface": "sharpening stone",
+   "ts": "14:06"
+  },
+  {
+   "canonical": "sharpening stone",
+   "type": "equipment",
+   "surface": "sharpening stone",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "11:44"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "14:06"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "knife",
+   "type": "equipment",
+   "surface": "knife",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "burr",
+   "type": "technique",
+   "surface": "burr",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "burr",
+   "type": "technique",
+   "surface": "burr",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "burr",
+   "type": "technique",
+   "surface": "burr",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "sharpening",
+   "type": "technique",
+   "surface": "Sharpening",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "sharpening",
+   "type": "technique",
+   "surface": "sharpening",
+   "ts": "13:14"
+  },
+  {
+   "canonical": "sharpening",
+   "type": "technique",
+   "surface": "sharpening",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "sharpening",
+   "type": "technique",
+   "surface": "sharpening",
+   "ts": "14:06"
+  },
+  {
+   "canonical": "sharpening",
+   "type": "technique",
+   "surface": "sharpening",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "sharpening",
+   "type": "technique",
+   "surface": "sharpening",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "14:06"
+  },
+  {
+   "canonical": "stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "stone",
+   "type": "equipment",
+   "surface": "stone",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "steels",
+   "type": "ingredient",
+   "surface": "steels",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Mac",
+   "type": "equipment",
+   "surface": "Mac",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Wustof",
+   "type": "equipment",
+   "surface": "Wustof",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Henkles",
+   "type": "equipment",
+   "surface": "Henkles",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Sabatier",
+   "type": "equipment",
+   "surface": "sabatier",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Sharpening stone",
+   "type": "equipment",
+   "surface": "sharpening stone",
+   "ts": "14:06"
+  },
+  {
+   "canonical": "Sharpening stone",
+   "type": "equipment",
+   "surface": "sharpening stone",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "Cast iron pot",
+   "type": "equipment",
+   "surface": "cast iron pot",
+   "ts": "15:10"
+  },
+  {
+   "canonical": "Dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "15:46"
+  },
+  {
+   "canonical": "Dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Single bevel",
+   "type": "technique",
+   "surface": "single bevel",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "liquid intelligence",
+   "ts": "18:26"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "technique",
+   "surface": "red hot poker",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "Piper",
+   "type": "person",
+   "surface": "Piper",
+   "ts": "20:21"
+  },
+  {
+   "canonical": "Le Crusade",
+   "type": "place",
+   "surface": "Le Crusade",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Le Crusade",
+   "type": "place",
+   "surface": "Le Crusade",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "Le Crusade",
+   "type": "place",
+   "surface": "Le Crusade",
+   "ts": "25:31"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Copper Slug",
+   "type": "ingredient",
+   "surface": "copper slug",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Copper Slug",
+   "type": "ingredient",
+   "surface": "copper slug",
+   "ts": "21:35"
+  },
+  {
+   "canonical": "Copper Slug",
+   "type": "ingredient",
+   "surface": "copper slug",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "equipment",
+   "surface": "red hot poker",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "equipment",
+   "surface": "red hot poker",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "equipment",
+   "surface": "red hot poker",
+   "ts": "21:35"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "equipment",
+   "surface": "red hot poker",
+   "ts": "21:58"
+  },
+  {
+   "canonical": "Red Hot Poker",
+   "type": "equipment",
+   "surface": "red hot poker",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "19:19"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "20:15"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "21:35"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Copper Salt",
+   "type": "ingredient",
+   "surface": "copper salts",
+   "ts": "19:19"
+  },
+  {
+   "canonical": "Enamel Cast Iron",
+   "type": "equipment",
+   "surface": "enamel cast iron",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "Dutch Oven",
+   "type": "equipment",
+   "surface": "Dutch oven",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "Longan",
+   "type": "ingredient",
+   "surface": "longans",
+   "ts": "25:54"
+  },
+  {
+   "canonical": "Rambutan",
+   "type": "ingredient",
+   "surface": "ramboutans",
+   "ts": "25:54"
+  },
+  {
+   "canonical": "Mango",
+   "type": "ingredient",
+   "surface": "mango steam",
+   "ts": "25:54"
+  },
+  {
+   "canonical": "Pectanex",
+   "type": "ingredient",
+   "surface": "pectanex",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "Enzyme",
+   "type": "ingredient",
+   "surface": "enzyme",
+   "ts": "27:28"
+  },
+  {
+   "canonical": "Masticane Juicer",
+   "type": "equipment",
+   "surface": "masticane juicer",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarify",
+   "ts": "26:19"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "lychee",
+   "type": "ingredient",
+   "surface": "lychee",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "lychee",
+   "type": "ingredient",
+   "surface": "lychee",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "lychee",
+   "type": "ingredient",
+   "surface": "lychee",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "lychee",
+   "type": "ingredient",
+   "surface": "Lychee",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "lychee",
+   "type": "ingredient",
+   "surface": "lychee",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "mangostine",
+   "type": "ingredient",
+   "surface": "mangastine",
+   "ts": "28:51"
+  },
+  {
+   "canonical": "mangostine",
+   "type": "ingredient",
+   "surface": "mangustines",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "mangostine",
+   "type": "ingredient",
+   "surface": "mangastine",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "mangostine",
+   "type": "ingredient",
+   "surface": "mangastines",
+   "ts": "29:55"
+  },
+  {
+   "canonical": "Thai",
+   "type": "place",
+   "surface": "Thailand",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Anastasia",
+   "type": "person",
+   "surface": "Anastasia",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Jacques Pepin",
+   "type": "person",
+   "surface": "Jacques a papin",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Jacques Pepin",
+   "type": "person",
+   "surface": "Jacques Popin",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Instapot Max",
+   "type": "equipment",
+   "surface": "Instapot Max",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "33:33"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Kuhn Rikon",
+   "type": "equipment",
+   "surface": "Kuhn Recon",
+   "ts": "32:42"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "St. Pete",
+   "type": "place",
+   "surface": "St. Pete",
+   "ts": "31:58"
+  },
+  {
+   "canonical": "St. Pete",
+   "type": "place",
+   "surface": "St. Pete",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "Bedsty",
+   "type": "place",
+   "surface": "Bedsty",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "35:21"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Chicken",
+   "type": "ingredient",
+   "surface": "chicken",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Sausage",
+   "type": "ingredient",
+   "surface": "sausage",
+   "ts": "35:12"
+  },
+  {
+   "canonical": "Mandarin Orange",
+   "type": "ingredient",
+   "surface": "mandarin orange slices",
+   "ts": "35:21"
+  },
+  {
+   "canonical": "Tendons",
+   "type": "ingredient",
+   "surface": "tendons",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Tendons",
+   "type": "ingredient",
+   "surface": "tendons",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "33:33"
+  },
+  {
+   "canonical": "Pressure",
+   "type": "technique",
+   "surface": "pressure",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Debone",
+   "type": "technique",
+   "surface": "debone",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "Rolling",
+   "type": "technique",
+   "surface": "rolling",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Rolling",
+   "type": "technique",
+   "surface": "rolling",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Natural Release",
+   "type": "technique",
+   "surface": "natural release",
+   "ts": "34:13"
+  }
+ ]
+}

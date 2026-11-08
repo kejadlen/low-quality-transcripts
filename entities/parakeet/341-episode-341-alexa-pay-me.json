@@ -1,0 +1,679 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:28"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:13"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:30"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "2:01"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "5:13"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "5:33"
+  },
+  {
+   "canonical": "Bob's Redmill",
+   "type": "place",
+   "surface": "Bob'sRedmill",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "ingredient",
+   "surface": "Sears all",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "ingredient",
+   "surface": "Sears all",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "ingredient",
+   "surface": "Sears All",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Sears All",
+   "type": "ingredient",
+   "surface": "Sears all",
+   "ts": "6:01"
+  },
+  {
+   "canonical": "Ramazon",
+   "type": "place",
+   "surface": "Ramazon",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Death Valley",
+   "type": "place",
+   "surface": "Death Valley",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "San Burr",
+   "type": "place",
+   "surface": "San Burr",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "7:16"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Staten Island",
+   "type": "place",
+   "surface": "Staten Island",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Staten Island",
+   "type": "place",
+   "surface": "Staten Island",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "Staten Island",
+   "type": "place",
+   "surface": "Staten Island",
+   "ts": "8:45"
+  },
+  {
+   "canonical": "Staten Island",
+   "type": "place",
+   "surface": "Staten Island",
+   "ts": "8:51"
+  },
+  {
+   "canonical": "Sri Lanka",
+   "type": "place",
+   "surface": "Sri Lanka",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "Sri Lanka",
+   "type": "place",
+   "surface": "Sri Lanka",
+   "ts": "8:32"
+  },
+  {
+   "canonical": "Sri Lanka",
+   "type": "place",
+   "surface": "Sri Lanka",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "4:20"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "7:16"
+  },
+  {
+   "canonical": "Queens",
+   "type": "place",
+   "surface": "Queens",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Queens",
+   "type": "place",
+   "surface": "Queens",
+   "ts": "8:00"
+  },
+  {
+   "canonical": "Covina",
+   "type": "place",
+   "surface": "Covina",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "10:49"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "10:49"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "11:54"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob'sRedmill",
+   "ts": "12:09"
+  },
+  {
+   "canonical": "Faro",
+   "type": "ingredient",
+   "surface": "faro",
+   "ts": "10:49"
+  },
+  {
+   "canonical": "Faro",
+   "type": "ingredient",
+   "surface": "faro",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "Faro",
+   "type": "ingredient",
+   "surface": "faro",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Faro",
+   "type": "ingredient",
+   "surface": "faro",
+   "ts": "12:09"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "14:02"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "14:43"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "Liquid nitrogen",
+   "ts": "14:58"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "FDA",
+   "type": "place",
+   "surface": "FDA",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "FDA",
+   "type": "place",
+   "surface": "FDA",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "FDA",
+   "type": "place",
+   "surface": "FDA",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "FDA",
+   "type": "place",
+   "surface": "FDA",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Dragon's Breath",
+   "type": "ingredient",
+   "surface": "dragon's breath",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "Dragon's Breath",
+   "type": "ingredient",
+   "surface": "Dragon's Breath",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "12:09"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "Sears All barbecue",
+   "type": "place",
+   "surface": "Sears All barbecue",
+   "ts": "10:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "Asbestos",
+   "type": "ingredient",
+   "surface": "asbestos",
+   "ts": "20:09"
+  },
+  {
+   "canonical": "Asbestos",
+   "type": "ingredient",
+   "surface": "asbestos",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "Asbestos",
+   "type": "ingredient",
+   "surface": "asbestos",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "23:43"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "Coconut oil",
+   "ts": "24:17"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "24:46"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "24:55"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "Coconut oil",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "Nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Nitrogen",
+   "type": "ingredient",
+   "surface": "Nitrogen",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "University of Freiburg",
+   "type": "place",
+   "surface": "University of Freiburg",
+   "ts": "22:24"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "25:46"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "ingredient",
+   "surface": "liquid nitrogen",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Asbestosis",
+   "type": "ingredient",
+   "surface": "asbestosis",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Misotheelioma",
+   "type": "ingredient",
+   "surface": "Misotheelioma",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Saturated Fat",
+   "type": "ingredient",
+   "surface": "saturated fat",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Saturated Fat",
+   "type": "ingredient",
+   "surface": "saturated fat",
+   "ts": "25:26"
+  },
+  {
+   "canonical": "Protein",
+   "type": "ingredient",
+   "surface": "protein",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "Protein",
+   "type": "ingredient",
+   "surface": "protein",
+   "ts": "26:53"
+  },
+  {
+   "canonical": "Jane",
+   "type": "person",
+   "surface": "Jane",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Applejack",
+   "type": "ingredient",
+   "surface": "Applejack",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "distill",
+   "type": "technique",
+   "surface": "distill",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Freeze Concentration",
+   "type": "technique",
+   "surface": "freeze concentration",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Freeze Concentration",
+   "type": "technique",
+   "surface": "freeze concentration",
+   "ts": "31:21"
+  },
+  {
+   "canonical": "Apple Cider",
+   "type": "ingredient",
+   "surface": "apple cider",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Apple Cider",
+   "type": "ingredient",
+   "surface": "apple cider",
+   "ts": "31:21"
+  },
+  {
+   "canonical": "Apple Cider",
+   "type": "ingredient",
+   "surface": "apple cider",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Dry Ice",
+   "type": "ingredient",
+   "surface": "dry ice",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Chest Freezer",
+   "type": "equipment",
+   "surface": "chest freezer",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "32:17"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "32:42"
+  }
+ ]
+}

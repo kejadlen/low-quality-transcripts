@@ -1,0 +1,2215 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Nick Morganstern",
+   "type": "person",
+   "surface": "Nick Morganstern",
+   "ts": "1:29"
+  },
+  {
+   "canonical": "Nick Morganstern",
+   "type": "person",
+   "surface": "Morgan Stern's Ice Creams",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Morgan Stern's Ice Creams",
+   "type": "place",
+   "surface": "Morgan Stern's Ice Creams",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Four Story Hill Farms",
+   "type": "place",
+   "surface": "Four Story Hill Farms",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "Durian",
+   "ts": "8:45"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "8:53"
+  },
+  {
+   "canonical": "Stone Beyond Belief",
+   "type": "ingredient",
+   "surface": "Stone Beyond Belief",
+   "ts": "9:05"
+  },
+  {
+   "canonical": "ASMR",
+   "type": "technique",
+   "surface": "ASMR",
+   "ts": "8:25"
+  },
+  {
+   "canonical": "Creme Anglaise",
+   "type": "technique",
+   "surface": "creme anglaise",
+   "ts": "3:39"
+  },
+  {
+   "canonical": "Stabilizer",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "3:39"
+  },
+  {
+   "canonical": "Stabilizer",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "4:00"
+  },
+  {
+   "canonical": "Stabilizer",
+   "type": "ingredient",
+   "surface": "stabilizing",
+   "ts": "4:08"
+  },
+  {
+   "canonical": "Stabilizer",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "6:32"
+  },
+  {
+   "canonical": "Stabilizer",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "7:27"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "1:45"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "3:24"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "3:39"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "6:02"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "7:27"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "9:05"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "Aglis",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Harvey's Bristol Cream Sherry",
+   "type": "ingredient",
+   "surface": "Harvey's Bristol Cream Sherry",
+   "ts": "11:10"
+  },
+  {
+   "canonical": "Harvey's Bristol Cream Sherry",
+   "type": "ingredient",
+   "surface": "Harvey's Bristol Cream Sherry",
+   "ts": "11:54"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "10:52"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley Carpenter",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Food Network magazine",
+   "type": "place",
+   "surface": "Food Network magazine",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Bertillon",
+   "type": "place",
+   "surface": "Bertillon",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Ille Saint-Louis",
+   "type": "place",
+   "surface": "Ille Saint-Louis",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Jaliti",
+   "type": "place",
+   "surface": "Jaliti",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Giolato Girlotteria",
+   "type": "place",
+   "surface": "Giolato Girlotteria",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Dairy Queen",
+   "type": "place",
+   "surface": "Dairy Queen",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Dairy Queen",
+   "type": "place",
+   "surface": "Dairy Queen",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "Kith",
+   "type": "place",
+   "surface": "Kith",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "Hudson Yard",
+   "type": "place",
+   "surface": "Hudson Yard",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "salted chocolate ice cream",
+   "type": "ingredient",
+   "surface": "salted chocolate ice cream",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "14:01"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "Ice cream",
+   "ts": "14:01"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "15:50"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "blizzard",
+   "type": "technique",
+   "surface": "blizzard",
+   "ts": "15:50"
+  },
+  {
+   "canonical": "blizzard",
+   "type": "technique",
+   "surface": "blizzard",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "chocolate sauce",
+   "type": "ingredient",
+   "surface": "chocolate sauce",
+   "ts": "15:50"
+  },
+  {
+   "canonical": "peanut butter",
+   "type": "ingredient",
+   "surface": "peanut butter",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "vanilla ice cream",
+   "type": "ingredient",
+   "surface": "vanilla ice cream",
+   "ts": "15:50"
+  },
+  {
+   "canonical": "peanut",
+   "type": "ingredient",
+   "surface": "peanut",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "sundae",
+   "type": "technique",
+   "surface": "sundae",
+   "ts": "15:50"
+  },
+  {
+   "canonical": "soft surf",
+   "type": "technique",
+   "surface": "soft surf",
+   "ts": "16:42"
+  },
+  {
+   "canonical": "soft surf",
+   "type": "technique",
+   "surface": "soft surf",
+   "ts": "17:03"
+  },
+  {
+   "canonical": "frosted",
+   "type": "technique",
+   "surface": "fro the remember the frosty",
+   "ts": "17:25"
+  },
+  {
+   "canonical": "frosty",
+   "type": "technique",
+   "surface": "frosty",
+   "ts": "17:25"
+  },
+  {
+   "canonical": "salted chocolate ice cream",
+   "type": "ingredient",
+   "surface": "salted chocolate ice cream",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:54"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastassi",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Matthew",
+   "type": "person",
+   "surface": "Matthew",
+   "ts": "19:54"
+  },
+  {
+   "canonical": "Falkland",
+   "type": "place",
+   "surface": "Falkland",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Emmy Cheese",
+   "type": "place",
+   "surface": "Emmy Cheese",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "cocoa powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "20:41"
+  },
+  {
+   "canonical": "cocoa powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "cocoa powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "cocoa powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "cocoa powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "milk chocolate",
+   "type": "ingredient",
+   "surface": "milk chocolate",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "milk chocolate",
+   "type": "ingredient",
+   "surface": "milk chocolate",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "caramel",
+   "type": "ingredient",
+   "surface": "Caramel",
+   "ts": "18:01"
+  },
+  {
+   "canonical": "caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "milk powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "19:32"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "20:00"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "26:03"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "20:41"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "fudge",
+   "type": "ingredient",
+   "surface": "fudge",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "chocolate chocolate ice cream",
+   "type": "ingredient",
+   "surface": "chocolate chocolate ice cream",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "dry ice",
+   "type": "equipment",
+   "surface": "dry ice",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "cooler",
+   "type": "equipment",
+   "surface": "cooler",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "walk-in freezer",
+   "type": "equipment",
+   "surface": "walk-in freezer",
+   "ts": "20:15"
+  },
+  {
+   "canonical": "blast freezer",
+   "type": "equipment",
+   "surface": "blast freezer",
+   "ts": "20:15"
+  },
+  {
+   "canonical": "home jerk freezer",
+   "type": "equipment",
+   "surface": "home jerk freezer",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "right-aid freezer",
+   "type": "equipment",
+   "surface": "right-aid freezer",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Switzerland",
+   "type": "place",
+   "surface": "Switzerland",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "M E USA.com",
+   "type": "place",
+   "surface": "M E USA.com",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "Grier",
+   "type": "place",
+   "surface": "Grier",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "appenzeller",
+   "type": "place",
+   "surface": "appenzeller",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "cottbalt cave age cheeses",
+   "type": "place",
+   "surface": "cottbalt cave age cheeses",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "tete monitional Emman Toller",
+   "type": "place",
+   "surface": "tete monitional Emman Toller",
+   "ts": "22:23"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "24:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "19:54"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick Coleman",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Oleologist",
+   "type": "person",
+   "surface": "oleologist",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Oleologist",
+   "type": "person",
+   "surface": "Oleologist",
+   "ts": "25:13"
+  },
+  {
+   "canonical": "Grove and Vine",
+   "type": "place",
+   "surface": "Grove and Vine",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Babo",
+   "type": "place",
+   "surface": "Babo",
+   "ts": "24:41"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurize",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "26:47"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "24:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "25:21"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "20:41"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "Chocolate",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Chocolate",
+   "type": "ingredient",
+   "surface": "chocolate",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Cocoa Powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "20:41"
+  },
+  {
+   "canonical": "Cocoa Powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "Cocoa Powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "Cocoa Powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Cocoa Powder",
+   "type": "ingredient",
+   "surface": "cocoa powder",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Milk Powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Milk Powder",
+   "type": "ingredient",
+   "surface": "milk powder",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "20:41"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "21:04"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "20:41"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "24:18"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "24:41"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "23:55"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "24:06"
+  },
+  {
+   "canonical": "Plantain",
+   "type": "ingredient",
+   "surface": "plantains",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Olive Oil Gelato",
+   "type": "ingredient",
+   "surface": "olive oil gelato",
+   "ts": "24:41"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Ticaloid 210",
+   "type": "ingredient",
+   "surface": "Ticaloid 210",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "gum arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Coco Lopez",
+   "type": "ingredient",
+   "surface": "Coco Lopez",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "Coco Lopez",
+   "type": "ingredient",
+   "surface": "Coco Lopez",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "stabilizers",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "stabilizers",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "syrups",
+   "type": "ingredient",
+   "surface": "syrups",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "oil-based syrups",
+   "type": "ingredient",
+   "surface": "oil-based syrups",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "butter syrups",
+   "type": "ingredient",
+   "surface": "butter syrups",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "agitation",
+   "type": "technique",
+   "surface": "agitation",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "29:38"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "30:14"
+  },
+  {
+   "canonical": "calamancy",
+   "type": "ingredient",
+   "surface": "calamancy",
+   "ts": "29:38"
+  },
+  {
+   "canonical": "calamancy",
+   "type": "ingredient",
+   "surface": "Calamancy",
+   "ts": "29:53"
+  },
+  {
+   "canonical": "calamancy",
+   "type": "ingredient",
+   "surface": "Calamancy",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "peanut praline ice cream",
+   "type": "ingredient",
+   "surface": "peanut praline ice cream",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Picosos",
+   "type": "ingredient",
+   "surface": "Picosos",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Virginia peanut",
+   "type": "ingredient",
+   "surface": "Virginia peanut",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Spanish redskin",
+   "type": "ingredient",
+   "surface": "Spanish redskin",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "small peanut",
+   "type": "ingredient",
+   "surface": "small peanut",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "small peanut",
+   "type": "ingredient",
+   "surface": "small peanut",
+   "ts": "28:30"
+  },
+  {
+   "canonical": "small peanut",
+   "type": "ingredient",
+   "surface": "small peanut",
+   "ts": "30:41"
+  },
+  {
+   "canonical": "hot tin roof",
+   "type": "place",
+   "surface": "hot tin roof",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "San Antonio, Texas",
+   "type": "place",
+   "surface": "San Antonio, Texas",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "tycoloid 210",
+   "type": "ingredient",
+   "surface": "tycoloid 210",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "30:33"
+  },
+  {
+   "canonical": "Tyler",
+   "type": "person",
+   "surface": "Tyler",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Coco Lopez",
+   "type": "ingredient",
+   "surface": "Coco Lopez",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "Coco Lopez",
+   "type": "ingredient",
+   "surface": "Coco Lopez",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Ticoloid",
+   "type": "ingredient",
+   "surface": "Ticaloid",
+   "ts": "30:50"
+  },
+  {
+   "canonical": "Ticoloid",
+   "type": "ingredient",
+   "surface": "ticaloid",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "Ticoloid",
+   "type": "ingredient",
+   "surface": "Ticoloid",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Ticoloid",
+   "type": "ingredient",
+   "surface": "ticaloid",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "Gum Arabic",
+   "type": "ingredient",
+   "surface": "gum arabic",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "xanthan",
+   "ts": "31:16"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "31:48"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dak's",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "30:14"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "Durian",
+   "type": "ingredient",
+   "surface": "durian",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "Caramel",
+   "type": "ingredient",
+   "surface": "caramel",
+   "ts": "34:33"
+  },
+  {
+   "canonical": "Pistachio Pesto",
+   "type": "ingredient",
+   "surface": "pistachio pesto",
+   "ts": "33:44"
+  },
+  {
+   "canonical": "Strawberry",
+   "type": "ingredient",
+   "surface": "Strawberry",
+   "ts": "33:44"
+  },
+  {
+   "canonical": "Stabilizers",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Stabilizers",
+   "type": "ingredient",
+   "surface": "stabilizers",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "Tic",
+   "type": "place",
+   "surface": "T I C",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "St. John's Bread and Life",
+   "type": "place",
+   "surface": "St. John's",
+   "ts": "36:28"
+  },
+  {
+   "canonical": "St. John's Bread and Life",
+   "type": "place",
+   "surface": "St. John's",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "Millicent Soros",
+   "type": "person",
+   "surface": "Millicent Soros",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Jessica Che",
+   "type": "person",
+   "surface": "Jessica Che",
+   "ts": "37:59"
+  },
+  {
+   "canonical": "Corvid",
+   "type": "place",
+   "surface": "Corvid",
+   "ts": "38:35"
+  },
+  {
+   "canonical": "Raven",
+   "type": "ingredient",
+   "surface": "raven",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Raven",
+   "type": "ingredient",
+   "surface": "raven",
+   "ts": "38:43"
+  },
+  {
+   "canonical": "Pie a la mode",
+   "type": "ingredient",
+   "surface": "pie a la mode",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "38:56"
+  },
+  {
+   "canonical": "Cigarette",
+   "type": "ingredient",
+   "surface": "cigarette",
+   "ts": "38:56"
+  },
+  {
+   "canonical": "Cigarette",
+   "type": "ingredient",
+   "surface": "cigarette",
+   "ts": "39:05"
+  },
+  {
+   "canonical": "Cigarette",
+   "type": "ingredient",
+   "surface": "Cigarette",
+   "ts": "39:10"
+  },
+  {
+   "canonical": "Cigarette",
+   "type": "ingredient",
+   "surface": "cigarette",
+   "ts": "39:31"
+  },
+  {
+   "canonical": "Smoky ice cream",
+   "type": "ingredient",
+   "surface": "smoky ice cream",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "39:10"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "39:31"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "Ice cream",
+   "ts": "40:09"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "Ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "Axon Bronson",
+   "type": "place",
+   "surface": "Axon Bronson",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "Shopsons",
+   "type": "place",
+   "surface": "Shopsons",
+   "ts": "43:50"
+  },
+  {
+   "canonical": "Morganstern's",
+   "type": "place",
+   "surface": "Morganstern's",
+   "ts": "42:13"
+  },
+  {
+   "canonical": "Second Avenue Delhi",
+   "type": "place",
+   "surface": "Second Avenue Delhi",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "Katz's",
+   "type": "place",
+   "surface": "Katz's",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "Essex Street market",
+   "type": "place",
+   "surface": "Essex Street market",
+   "ts": "44:24"
+  },
+  {
+   "canonical": "It's It",
+   "type": "place",
+   "surface": "It's It",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "It's It",
+   "type": "place",
+   "surface": "It's it",
+   "ts": "42:13"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "Shopson's",
+   "type": "place",
+   "surface": "Shopson's",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "banana pudding ice cream",
+   "type": "ingredient",
+   "surface": "banana pudding ice cream",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "banana caramel",
+   "type": "ingredient",
+   "surface": "banana caramel",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "Nilla wafer",
+   "type": "ingredient",
+   "surface": "Nilla wafer",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "chocolate shell",
+   "type": "ingredient",
+   "surface": "chocolate shell",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "Ice cream sandwich",
+   "ts": "40:09"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "ice cream sandwich",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "ice cream sandwich",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "ice cream sandwich",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "40:56"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "low butter fat cream",
+   "type": "ingredient",
+   "surface": "low butter fat cream",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "menu matrix",
+   "type": "technique",
+   "surface": "menu matrix",
+   "ts": "42:13"
+  },
+  {
+   "canonical": "overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "banana caramel",
+   "type": "ingredient",
+   "surface": "banana caramel",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "banana pudding ice cream",
+   "type": "ingredient",
+   "surface": "banana pudding ice cream",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "chocolate shell",
+   "type": "ingredient",
+   "surface": "chocolate shell",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "Nilla wafer",
+   "type": "ingredient",
+   "surface": "Nilla wafer",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "Ice cream sandwich",
+   "ts": "40:09"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "ice cream sandwich",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "ice cream sandwich",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "ice cream sandwich",
+   "type": "ingredient",
+   "surface": "ice cream sandwich",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "40:56"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "41:19"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "41:38"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "low butter fat cream",
+   "type": "ingredient",
+   "surface": "low butter fat cream",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "menu matrix",
+   "type": "technique",
+   "surface": "menu matrix",
+   "ts": "42:13"
+  },
+  {
+   "canonical": "overrun",
+   "type": "technique",
+   "surface": "overrun",
+   "ts": "40:18"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "49:36"
+  },
+  {
+   "canonical": "Saratoga Springs",
+   "type": "place",
+   "surface": "Saratoga",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Saratoga Springs",
+   "type": "place",
+   "surface": "Saratoga",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Saratoga Springs",
+   "type": "place",
+   "surface": "Saratoga",
+   "ts": "50:59"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "49:10"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "49:36"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "50:28"
+  },
+  {
+   "canonical": "clarified grapefruit juice",
+   "type": "ingredient",
+   "surface": "clarified grapefruit juice",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "clarified grapefruit juice",
+   "type": "ingredient",
+   "surface": "clarified grapefruit juice",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "Paloma",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "Paloma",
+   "ts": "49:10"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "Paloma",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "paloma",
+   "ts": "49:36"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "paloma",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "paloma",
+   "ts": "50:41"
+  },
+  {
+   "canonical": "Paloma",
+   "type": "ingredient",
+   "surface": "Paloma",
+   "ts": "50:59"
+  },
+  {
+   "canonical": "tequila",
+   "type": "ingredient",
+   "surface": "tequila",
+   "ts": "49:36"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "49:36"
+  },
+  {
+   "canonical": "Saratoga Paloma",
+   "type": "technique",
+   "surface": "Saratoga Paloma",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Saratoga Paloma",
+   "type": "technique",
+   "surface": "Saratoga Paloma",
+   "ts": "50:59"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonated",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonated",
+   "ts": "45:53"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "clarification",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "negroni",
+   "type": "ingredient",
+   "surface": "Negroni",
+   "ts": "51:39"
+  },
+  {
+   "canonical": "old fashioned",
+   "type": "ingredient",
+   "surface": "old fashioned",
+   "ts": "52:06"
+  },
+  {
+   "canonical": "fig",
+   "type": "ingredient",
+   "surface": "fig",
+   "ts": "52:06"
+  },
+  {
+   "canonical": "date",
+   "type": "ingredient",
+   "surface": "date",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "date",
+   "type": "ingredient",
+   "surface": "date",
+   "ts": "52:06"
+  },
+  {
+   "canonical": "Houstino",
+   "type": "ingredient",
+   "surface": "Houstino",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Professor Plum",
+   "type": "ingredient",
+   "surface": "Professor Plum",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Elijah Craig Bourbon",
+   "type": "ingredient",
+   "surface": "Elijah Craig Bourbon",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "compass box",
+   "type": "ingredient",
+   "surface": "compass box",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "44:30"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "47:43"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "48:07"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "48:21"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "49:10"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "51:07"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "51:25"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "51:39"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "52:06"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "52:21"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "52:55"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "53:03"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "53:13"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "53:22"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "57:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "58:15"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "58:51"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "59:08"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "56:01"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "57:14"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "56:01"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "liquid intelligence",
+   "ts": "58:24"
+  },
+  {
+   "canonical": "Liquid Intelligence",
+   "type": "ingredient",
+   "surface": "liquid intelligence",
+   "ts": "58:51"
+  },
+  {
+   "canonical": "Sodium carbonate",
+   "type": "ingredient",
+   "surface": "sodium carbonate",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Lye",
+   "type": "ingredient",
+   "surface": "lie",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Lye",
+   "type": "ingredient",
+   "surface": "lie",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Lye",
+   "type": "ingredient",
+   "surface": "lie",
+   "ts": "1:00:12"
+  },
+  {
+   "canonical": "Banana split",
+   "type": "ingredient",
+   "surface": "banana split",
+   "ts": "1:00:40"
+  },
+  {
+   "canonical": "Banana split",
+   "type": "ingredient",
+   "surface": "banana split",
+   "ts": "1:00:56"
+  },
+  {
+   "canonical": "Banana split",
+   "type": "ingredient",
+   "surface": "Banana split",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Banana boat",
+   "type": "equipment",
+   "surface": "banana boat",
+   "ts": "1:00:56"
+  },
+  {
+   "canonical": "Liquid nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "1:00:26"
+  },
+  {
+   "canonical": "Styrofoam",
+   "type": "equipment",
+   "surface": "styrofoam",
+   "ts": "58:51"
+  },
+  {
+   "canonical": "Fry",
+   "type": "technique",
+   "surface": "fry",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Fry",
+   "type": "technique",
+   "surface": "fry",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Deep fry",
+   "type": "technique",
+   "surface": "deep fry",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Par bake",
+   "type": "technique",
+   "surface": "par bake",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Saponification",
+   "type": "technique",
+   "surface": "saponify",
+   "ts": "1:00:12"
+  },
+  {
+   "canonical": "Soda",
+   "type": "ingredient",
+   "surface": "soda",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Cleveland",
+   "type": "place",
+   "surface": "Cleveland",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Toronto",
+   "type": "place",
+   "surface": "Toronto",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Paris",
+   "type": "person",
+   "surface": "Paris",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Paris",
+   "type": "person",
+   "surface": "Paris",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Matthew",
+   "type": "person",
+   "surface": "Matthew",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Hong Kong Chris",
+   "type": "person",
+   "surface": "Hong Kong Chris",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Matt Hall",
+   "type": "person",
+   "surface": "Matt Hall",
+   "ts": "58:24"
+  },
+  {
+   "canonical": "Matt Hall",
+   "type": "person",
+   "surface": "Matt Hall",
+   "ts": "58:51"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "1:00:26"
+  },
+  {
+   "canonical": "Rebecca",
+   "type": "person",
+   "surface": "Rebecca",
+   "ts": "1:00:40"
+  },
+  {
+   "canonical": "Mr. Morgan Stern",
+   "type": "person",
+   "surface": "Mr. Morgan Stern",
+   "ts": "1:00:26"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:01:36"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:02:01"
+  },
+  {
+   "canonical": "Muckle Shoot Casino Resort",
+   "type": "place",
+   "surface": "Muckle Shoot Casino Resort",
+   "ts": "1:02:51"
+  },
+  {
+   "canonical": "HRN",
+   "type": "place",
+   "surface": "HRN",
+   "ts": "1:02:29"
+  }
+ ]
+}

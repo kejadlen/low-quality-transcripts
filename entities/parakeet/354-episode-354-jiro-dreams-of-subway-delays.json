@@ -1,0 +1,907 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Katie Moseman Waddler",
+   "type": "person",
+   "surface": "Katie Moseman Waddler",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "HRN",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Meet and Three",
+   "type": "place",
+   "surface": "Meet and Three",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Meet and Three",
+   "type": "place",
+   "surface": "Meet and Three",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:52"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:27"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:27"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Jiro",
+   "type": "person",
+   "surface": "Jiro",
+   "ts": "1:27"
+  },
+  {
+   "canonical": "Jiro",
+   "type": "person",
+   "surface": "Jiro",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "Devin",
+   "type": "person",
+   "surface": "Devin",
+   "ts": "5:21"
+  },
+  {
+   "canonical": "Quenelle",
+   "type": "technique",
+   "surface": "canal",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Quenelle",
+   "type": "technique",
+   "surface": "canal",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Quenelle",
+   "type": "technique",
+   "surface": "canal",
+   "ts": "9:43"
+  },
+  {
+   "canonical": "Gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "5:27"
+  },
+  {
+   "canonical": "Gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "Gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Sausage",
+   "type": "ingredient",
+   "surface": "sausages",
+   "ts": "5:27"
+  },
+  {
+   "canonical": "Sausage",
+   "type": "ingredient",
+   "surface": "sausages",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:27"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "1:54"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Blood sausage",
+   "type": "ingredient",
+   "surface": "blood sausage",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "Blood sausage",
+   "type": "ingredient",
+   "surface": "blood sausage",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Blood sausage",
+   "type": "ingredient",
+   "surface": "blood sausage",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Korean blood sausage",
+   "type": "ingredient",
+   "surface": "Korean blood sausage",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "Korean blood sausage",
+   "type": "ingredient",
+   "surface": "Korean blood sausage",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Polish type",
+   "type": "ingredient",
+   "surface": "Polish type",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Morcia",
+   "type": "ingredient",
+   "surface": "morcia",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Emulsified sausage",
+   "type": "technique",
+   "surface": "emulsified sausage",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "Emulsified sausage",
+   "type": "technique",
+   "surface": "emulsified sausage",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Sausage casing",
+   "type": "equipment",
+   "surface": "sausage casings",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Seafood",
+   "type": "ingredient",
+   "surface": "seafood",
+   "ts": "8:04"
+  },
+  {
+   "canonical": "Seafood",
+   "type": "ingredient",
+   "surface": "seafood",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Seafood",
+   "type": "ingredient",
+   "surface": "seafood",
+   "ts": "9:43"
+  },
+  {
+   "canonical": "Roux",
+   "type": "technique",
+   "surface": "roux",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "2:44"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "2:55"
+  },
+  {
+   "canonical": "Subway",
+   "type": "place",
+   "surface": "subway",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Hair salon",
+   "type": "place",
+   "surface": "hair salon",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Army tent",
+   "type": "equipment",
+   "surface": "army tent",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Ray Manzarek",
+   "type": "person",
+   "surface": "Ray Manzaric",
+   "ts": "12:37"
+  },
+  {
+   "canonical": "Ray Manzarek",
+   "type": "person",
+   "surface": "Ray Manzarek",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Ray Manzarek",
+   "type": "person",
+   "surface": "Ray Manzarek",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Jim Morrison",
+   "type": "person",
+   "surface": "Jim Morrison",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Jim Morrison",
+   "type": "person",
+   "surface": "Jim Morrison",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Jim Morrison",
+   "type": "person",
+   "surface": "Jim Morrison",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "reverse osmosis",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Emulsification",
+   "type": "technique",
+   "surface": "emulsified",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Emulsification",
+   "type": "technique",
+   "surface": "emulsified",
+   "ts": "10:27"
+  },
+  {
+   "canonical": "Emulsification",
+   "type": "technique",
+   "surface": "emulsification",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Pressure Canning",
+   "type": "technique",
+   "surface": "pressure canning",
+   "ts": "13:29"
+  },
+  {
+   "canonical": "Pressure Canning",
+   "type": "technique",
+   "surface": "pressure canning",
+   "ts": "15:47"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "15:47"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "13:29"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "Sausage",
+   "type": "ingredient",
+   "surface": "sausage",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Sausage",
+   "type": "ingredient",
+   "surface": "sausage",
+   "ts": "10:27"
+  },
+  {
+   "canonical": "RO",
+   "type": "equipment",
+   "surface": "RO",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "RO",
+   "type": "equipment",
+   "surface": "RO",
+   "ts": "15:47"
+  },
+  {
+   "canonical": "RO",
+   "type": "equipment",
+   "surface": "RO",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "RO",
+   "type": "equipment",
+   "surface": "RO",
+   "ts": "18:41"
+  },
+  {
+   "canonical": "Reverse Osmosis Membranes",
+   "type": "equipment",
+   "surface": "reverse osmosis membranes",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "University of Canterbury",
+   "type": "place",
+   "surface": "University of Canterbury",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "New Zealand",
+   "type": "place",
+   "surface": "New Zealand",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Dairy Industry",
+   "type": "place",
+   "surface": "dairy industry",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "RO",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "RO",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "RO",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "RO",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "RO",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Reverse Osmosis",
+   "type": "technique",
+   "surface": "RO",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "23:20"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "maple syrup",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "25:31"
+  },
+  {
+   "canonical": "Shacksbury Cider",
+   "type": "place",
+   "surface": "Shacksbury Cider",
+   "ts": "25:31"
+  },
+  {
+   "canonical": "Reverse Osmosis Unit",
+   "type": "equipment",
+   "surface": "RO unit",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Sap",
+   "type": "ingredient",
+   "surface": "sap",
+   "ts": "21:56"
+  },
+  {
+   "canonical": "Sap",
+   "type": "ingredient",
+   "surface": "sap",
+   "ts": "22:31"
+  },
+  {
+   "canonical": "Sap",
+   "type": "ingredient",
+   "surface": "sap",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Sap",
+   "type": "ingredient",
+   "surface": "sap",
+   "ts": "23:20"
+  },
+  {
+   "canonical": "Sugar Shacks",
+   "type": "place",
+   "surface": "sugar shack",
+   "ts": "22:31"
+  },
+  {
+   "canonical": "Corn Syrup",
+   "type": "ingredient",
+   "surface": "corn syrup",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Pancake Syrup",
+   "type": "ingredient",
+   "surface": "pancake syrup",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Mason Jars",
+   "type": "equipment",
+   "surface": "mason stars",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Jimmy Carboni",
+   "type": "person",
+   "surface": "Jimmy Carboni",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Beer Sessions Radio",
+   "type": "place",
+   "surface": "Beer Sessions Radio",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Beer Sessions Radio",
+   "type": "place",
+   "surface": "Beer Sessions Radio",
+   "ts": "26:26"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radion Network.org",
+   "ts": "26:26"
+  },
+  {
+   "canonical": "Shacksbury",
+   "type": "place",
+   "surface": "Shaksbury",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Petnat Cider",
+   "type": "ingredient",
+   "surface": "Petnat Cider",
+   "ts": "26:01"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastassi's",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "Rent the Runway",
+   "type": "place",
+   "surface": "Rent the runway",
+   "ts": "28:17"
+  },
+  {
+   "canonical": "Rent the Runway",
+   "type": "place",
+   "surface": "rent the runway",
+   "ts": "28:30"
+  },
+  {
+   "canonical": "Rent the Runway",
+   "type": "place",
+   "surface": "rent the runway",
+   "ts": "28:39"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "28:58"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "29:33"
+  },
+  {
+   "canonical": "Heat Lamp",
+   "type": "equipment",
+   "surface": "heat lamp",
+   "ts": "29:33"
+  },
+  {
+   "canonical": "Sasha's",
+   "type": "place",
+   "surface": "Sasha's",
+   "ts": "29:45"
+  },
+  {
+   "canonical": "Claire",
+   "type": "person",
+   "surface": "Claire",
+   "ts": "30:43"
+  },
+  {
+   "canonical": "pop chips",
+   "type": "ingredient",
+   "surface": "pop chip",
+   "ts": "30:55"
+  },
+  {
+   "canonical": "pop chips",
+   "type": "ingredient",
+   "surface": "pop chip",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "pop chips",
+   "type": "ingredient",
+   "surface": "pop chips",
+   "ts": "32:18"
+  },
+  {
+   "canonical": "pop chips",
+   "type": "ingredient",
+   "surface": "pop chips",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "pop chips",
+   "type": "ingredient",
+   "surface": "pop chip",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "sour patch kids",
+   "type": "ingredient",
+   "surface": "sour patch kids",
+   "ts": "32:03"
+  },
+  {
+   "canonical": "sour patch kids",
+   "type": "ingredient",
+   "surface": "sour patch kid",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "salt and vinegar potato chips",
+   "type": "ingredient",
+   "surface": "salt and vinegar potato chips",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "salt and vinegar potato chips",
+   "type": "ingredient",
+   "surface": "salt and vinegar potato chips",
+   "ts": "32:53"
+  },
+  {
+   "canonical": "bread box",
+   "type": "equipment",
+   "surface": "bread box",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "oatmeal",
+   "type": "ingredient",
+   "surface": "oatmeal",
+   "ts": "34:03"
+  },
+  {
+   "canonical": "oatmeal",
+   "type": "ingredient",
+   "surface": "oatmeal",
+   "ts": "34:16"
+  },
+  {
+   "canonical": "oatmeal",
+   "type": "ingredient",
+   "surface": "oatmeal",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "blunch",
+   "type": "technique",
+   "surface": "blunch",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "blunch",
+   "type": "technique",
+   "surface": "blunch",
+   "ts": "37:17"
+  },
+  {
+   "canonical": "blunch",
+   "type": "technique",
+   "surface": "blunch",
+   "ts": "37:44"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "39:48"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "heritage radio network",
+   "ts": "39:48"
+  }
+ ]
+}

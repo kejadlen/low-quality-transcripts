@@ -1,0 +1,1483 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "6:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:16"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:54"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "3:27"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:03"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "6:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "8:46"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "7:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Roberta's Pizzeria",
+   "type": "place",
+   "surface": "Roberta's Pizzeria",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob'sRedmill",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Baba Deep Singh",
+   "type": "person",
+   "surface": "Baba Deep Singh",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Sikh",
+   "type": "person",
+   "surface": "Sikh",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Concrete Masonry Unit",
+   "type": "ingredient",
+   "surface": "concrete masonry unit",
+   "ts": "4:03"
+  },
+  {
+   "canonical": "Concrete Masonry Unit",
+   "type": "ingredient",
+   "surface": "CMU unit",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Concrete Masonry Unit",
+   "type": "ingredient",
+   "surface": "concrete masonry unit",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "10:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "10:26"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "15:13"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "15:43"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "16:12"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "16:19"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Pecan Pie",
+   "type": "ingredient",
+   "surface": "pecan pie",
+   "ts": "16:48"
+  },
+  {
+   "canonical": "Hickory Nuts",
+   "type": "ingredient",
+   "surface": "hickory nuts",
+   "ts": "17:19"
+  },
+  {
+   "canonical": "Hickory Nuts",
+   "type": "ingredient",
+   "surface": "hickory nuts",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Hickory Nuts",
+   "type": "ingredient",
+   "surface": "hickory nuts",
+   "ts": "17:51"
+  },
+  {
+   "canonical": "Hickory Nuts",
+   "type": "ingredient",
+   "surface": "hickory nuts",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Cornstarch",
+   "type": "ingredient",
+   "surface": "cornstarch",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Flax Meal",
+   "type": "ingredient",
+   "surface": "flax meal",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "Flax Meal",
+   "type": "ingredient",
+   "surface": "flax meal",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Flax Meal",
+   "type": "ingredient",
+   "surface": "flax meal",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Coconut Milk",
+   "type": "ingredient",
+   "surface": "coconut milk",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Coconut Milk",
+   "type": "ingredient",
+   "surface": "coconut milk",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Arrowroot",
+   "type": "ingredient",
+   "surface": "arrowroot",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "Silken Tofu",
+   "type": "ingredient",
+   "surface": "Silken tofu",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "Cracker Crust",
+   "type": "ingredient",
+   "surface": "cracker crust",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "12:22"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "14:32"
+  },
+  {
+   "canonical": "Whipped Cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "16:19"
+  },
+  {
+   "canonical": "Whipped Cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Whipped Cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "17:05"
+  },
+  {
+   "canonical": "Ice Cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Pumpkin Pie",
+   "type": "ingredient",
+   "surface": "pumpkin pie",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Pumpkin Pie",
+   "type": "ingredient",
+   "surface": "pumpkin pie",
+   "ts": "16:48"
+  },
+  {
+   "canonical": "Hickory Nut Milk",
+   "type": "ingredient",
+   "surface": "hickory nut milk",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Shag Bark Hickory Nuts",
+   "type": "ingredient",
+   "surface": "Shag Bark Hickory nuts",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Native Americans",
+   "type": "person",
+   "surface": "Native Americans",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Jams Beer House",
+   "type": "place",
+   "surface": "Jams Beer House",
+   "ts": "15:43"
+  },
+  {
+   "canonical": "Hickory Nut",
+   "type": "ingredient",
+   "surface": "hickory nut",
+   "ts": "17:05"
+  },
+  {
+   "canonical": "Hickory Nut",
+   "type": "ingredient",
+   "surface": "hickory nut",
+   "ts": "17:19"
+  },
+  {
+   "canonical": "Hickory Nut",
+   "type": "ingredient",
+   "surface": "hickory nut",
+   "ts": "18:42"
+  },
+  {
+   "canonical": "Piper",
+   "type": "person",
+   "surface": "Piper",
+   "ts": "18:20"
+  },
+  {
+   "canonical": "Tweaky",
+   "type": "person",
+   "surface": "Tweaky",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Tweaky",
+   "type": "person",
+   "surface": "tweaky",
+   "ts": "14:14"
+  },
+  {
+   "canonical": "Flavor Flav",
+   "type": "person",
+   "surface": "Flavor Flav",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Buck Rogers",
+   "type": "person",
+   "surface": "Buck Rogers",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Wheel of Fortune",
+   "type": "place",
+   "surface": "Wheel of Fortune",
+   "ts": "17:51"
+  },
+  {
+   "canonical": "Nursing Home",
+   "type": "place",
+   "surface": "nursing home",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Ohio",
+   "type": "place",
+   "surface": "Ohio",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "1491",
+   "type": "place",
+   "surface": "1491",
+   "ts": "19:10"
+  },
+  {
+   "canonical": "1491",
+   "type": "place",
+   "surface": "1491",
+   "ts": "20:36"
+  },
+  {
+   "canonical": "Confederate in the Attic",
+   "type": "place",
+   "surface": "Confederate in the Attic",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Confederate in the Attic",
+   "type": "place",
+   "surface": "Confederate in the Attic",
+   "ts": "20:10"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "21:36"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "26:52"
+  },
+  {
+   "canonical": "Matt Patterson",
+   "type": "person",
+   "surface": "Matt Patterson",
+   "ts": "23:20"
+  },
+  {
+   "canonical": "Matt Patterson",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "27:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "23:04"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "23:20"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "Sorghum",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Gluten-Free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Quick Bread",
+   "type": "ingredient",
+   "surface": "quick breads",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Pancakes",
+   "type": "ingredient",
+   "surface": "pancakes",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Egg",
+   "type": "ingredient",
+   "surface": "egg",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Cocotte",
+   "type": "equipment",
+   "surface": "cocott",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Jawar Roti",
+   "type": "ingredient",
+   "surface": "Jawar roties",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Jawar Roti",
+   "type": "ingredient",
+   "surface": "Jawar Roti",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Sorghum Flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "27:07"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "27:33"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:33"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "27:17"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "19:52"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "21:36"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "26:52"
+  },
+  {
+   "canonical": "Heritage Stories",
+   "type": "place",
+   "surface": "Heritage Stories",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "32:04"
+  },
+  {
+   "canonical": "Chris",
+   "type": "person",
+   "surface": "Chris",
+   "ts": "28:45"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "30:31"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "30:45"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "Santa",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Santa",
+   "type": "place",
+   "surface": "santa",
+   "ts": "32:17"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "28:33"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "Wine Santa",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "29:43"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "31:06"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine Santa",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Wine Santa",
+   "type": "place",
+   "surface": "wine santa",
+   "ts": "32:17"
+  },
+  {
+   "canonical": "Jeff Given",
+   "type": "person",
+   "surface": "Jeff Given",
+   "ts": "31:50"
+  },
+  {
+   "canonical": "Bo Jack Horseman",
+   "type": "place",
+   "surface": "Bo Jack Horseman",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "33:56"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "34:26"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Colenchyma",
+   "type": "technique",
+   "surface": "colinchyma",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Colenchyma",
+   "type": "technique",
+   "surface": "colinchoma",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Colenchyma",
+   "type": "technique",
+   "surface": "colynchy",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Colenchyma",
+   "type": "technique",
+   "surface": "colynchy",
+   "ts": "34:58"
+  },
+  {
+   "canonical": "Parechyma",
+   "type": "technique",
+   "surface": "par uh",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Sclerenchyma",
+   "type": "technique",
+   "surface": "scleranchyma",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Sclerenchyma",
+   "type": "technique",
+   "surface": "scleranchyma",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Orange Syrup",
+   "type": "ingredient",
+   "surface": "orange syrup",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Orange Syrup",
+   "type": "ingredient",
+   "surface": "orange syrup",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Nitro Muddling",
+   "type": "technique",
+   "surface": "nitro muddle",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Nitro Muddling",
+   "type": "technique",
+   "surface": "nitro muddle",
+   "ts": "37:46"
+  },
+  {
+   "canonical": "Celery Stock",
+   "type": "ingredient",
+   "surface": "celery stock",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Cellulase",
+   "type": "ingredient",
+   "surface": "cellulase",
+   "ts": "34:26"
+  },
+  {
+   "canonical": "Lignin",
+   "type": "ingredient",
+   "surface": "lignin",
+   "ts": "34:58"
+  },
+  {
+   "canonical": "Lignin",
+   "type": "ingredient",
+   "surface": "lignin",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Refractometer",
+   "type": "equipment",
+   "surface": "refractometer",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "International Space Station",
+   "type": "place",
+   "surface": "international space station",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "International Space Station",
+   "type": "place",
+   "surface": "International Space Station",
+   "ts": "33:56"
+  },
+  {
+   "canonical": "Hydroponic",
+   "type": "technique",
+   "surface": "hydroponic",
+   "ts": "34:26"
+  },
+  {
+   "canonical": "American Celery",
+   "type": "ingredient",
+   "surface": "American celery",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Chinese Celery",
+   "type": "ingredient",
+   "surface": "Chinese celery",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Chinese Celery",
+   "type": "ingredient",
+   "surface": "Chinese celery",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Navel Orange",
+   "type": "ingredient",
+   "surface": "navel cultivar",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "Brick",
+   "type": "ingredient",
+   "surface": "bricks",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Brick",
+   "type": "ingredient",
+   "surface": "bricks",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Orange Juice",
+   "type": "ingredient",
+   "surface": "orange juice",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Celery Leaves",
+   "type": "ingredient",
+   "surface": "celery leaves",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Celery Stem",
+   "type": "ingredient",
+   "surface": "stem",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Celery Stem",
+   "type": "ingredient",
+   "surface": "stem",
+   "ts": "35:27"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "33:56"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "34:26"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Celery",
+   "type": "ingredient",
+   "surface": "celery",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "39:40"
+  },
+  {
+   "canonical": "Peter Schweiger",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Peter Schweiger",
+   "type": "person",
+   "surface": "Peter",
+   "ts": "42:38"
+  },
+  {
+   "canonical": "Tyler Klanow",
+   "type": "person",
+   "surface": "Tyler Klanow",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Nitro Muddling",
+   "type": "technique",
+   "surface": "nitro muddle",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Blender Muddling",
+   "type": "technique",
+   "surface": "blender muddle",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "38:50"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "Wine",
+   "ts": "40:34"
+  },
+  {
+   "canonical": "Vodka",
+   "type": "ingredient",
+   "surface": "vodka",
+   "ts": "39:30"
+  },
+  {
+   "canonical": "T-bone Steak",
+   "type": "ingredient",
+   "surface": "T-bone",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Bone-in T-bone",
+   "type": "ingredient",
+   "surface": "bone-in T-bone",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Dry Aged Beef",
+   "type": "ingredient",
+   "surface": "dry aged",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Fingernail",
+   "type": "ingredient",
+   "surface": "fingernail",
+   "ts": "40:16"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Santa",
+   "type": "person",
+   "surface": "Santa",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Santa",
+   "type": "person",
+   "surface": "Santa",
+   "ts": "40:56"
+  },
+  {
+   "canonical": "Marvel Bar",
+   "type": "place",
+   "surface": "Marvel Bar",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Existing Conditions",
+   "type": "place",
+   "surface": "existing conditions",
+   "ts": "42:18"
+  },
+  {
+   "canonical": "Existing Conditions",
+   "type": "place",
+   "surface": "existing conditions",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "41:47"
+  }
+ ]
+}
