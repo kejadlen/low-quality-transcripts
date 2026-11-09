@@ -1,0 +1,1843 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Nastasia The Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:41"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:47"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "1:22"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "7:53"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "8:25"
+  },
+  {
+   "canonical": "Hearst Lifestyle Magazines",
+   "type": "place",
+   "surface": "Hearst Lifestyle Magazines",
+   "ts": "1:58"
+  },
+  {
+   "canonical": "Food Network magazine",
+   "type": "place",
+   "surface": "Food Network magazine",
+   "ts": "2:10"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "no",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "1:58"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "2:19"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "3:42"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "5:36"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "no",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "No",
+   "ts": "7:00"
+  },
+  {
+   "canonical": "No",
+   "type": "place",
+   "surface": "no",
+   "ts": "8:12"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "3:09"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "5:00"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Saltines",
+   "type": "ingredient",
+   "surface": "saltines",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Bananas",
+   "type": "ingredient",
+   "surface": "bananas",
+   "ts": "3:09"
+  },
+  {
+   "canonical": "Bananas",
+   "type": "ingredient",
+   "surface": "Bananas",
+   "ts": "3:32"
+  },
+  {
+   "canonical": "Bananas",
+   "type": "ingredient",
+   "surface": "bananas",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "Bananas",
+   "type": "ingredient",
+   "surface": "bananas",
+   "ts": "7:14"
+  },
+  {
+   "canonical": "Bananas",
+   "type": "ingredient",
+   "surface": "bananas",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Toast",
+   "type": "ingredient",
+   "surface": "toast",
+   "ts": "3:09"
+  },
+  {
+   "canonical": "Toast",
+   "type": "ingredient",
+   "surface": "toast",
+   "ts": "3:32"
+  },
+  {
+   "canonical": "Brat Diet",
+   "type": "technique",
+   "surface": "brat diet",
+   "ts": "3:32"
+  },
+  {
+   "canonical": "Fine Fair",
+   "type": "place",
+   "surface": "Fine Fair",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Cheddar",
+   "type": "ingredient",
+   "surface": "cheddar",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "Propass",
+   "type": "ingredient",
+   "surface": "propass",
+   "ts": "5:53"
+  },
+  {
+   "canonical": "Kryptonite",
+   "type": "ingredient",
+   "surface": "kryptonite",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Melanite",
+   "type": "ingredient",
+   "surface": "melanite",
+   "ts": "6:11"
+  },
+  {
+   "canonical": "Avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "Radish",
+   "type": "ingredient",
+   "surface": "radish",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Raw Starch",
+   "type": "ingredient",
+   "surface": "raw starch",
+   "ts": "8:50"
+  },
+  {
+   "canonical": "Raw Starch",
+   "type": "ingredient",
+   "surface": "raw starch",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Pea Shoots",
+   "type": "ingredient",
+   "surface": "pea shoots",
+   "ts": "8:50"
+  },
+  {
+   "canonical": "Milo",
+   "type": "person",
+   "surface": "Milo",
+   "ts": "9:58"
+  },
+  {
+   "canonical": "Marie's",
+   "type": "place",
+   "surface": "Marie's",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "Marie's",
+   "type": "place",
+   "surface": "Marie's",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "Marie's",
+   "type": "place",
+   "surface": "Marie's",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "12:30"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Monroe Boston Strauss",
+   "type": "person",
+   "surface": "Monroe Boston Strauss",
+   "ts": "12:30"
+  },
+  {
+   "canonical": "Monroe Boston Strauss",
+   "type": "person",
+   "surface": "Monroe Boston Strauss",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Ray Croc",
+   "type": "person",
+   "surface": "Ray Croc",
+   "ts": "12:30"
+  },
+  {
+   "canonical": "Roy Kroc",
+   "type": "person",
+   "surface": "Roy Kroc",
+   "ts": "12:30"
+  },
+  {
+   "canonical": "Marie Calendars",
+   "type": "person",
+   "surface": "Marie calendars",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "Marie Calendars",
+   "type": "person",
+   "surface": "Marie Calendars",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Sinoacrylate",
+   "type": "ingredient",
+   "surface": "sinoacrolet",
+   "ts": "14:37"
+  },
+  {
+   "canonical": "Sinoacrylate",
+   "type": "ingredient",
+   "surface": "sinoacryl",
+   "ts": "15:21"
+  },
+  {
+   "canonical": "Super Glue",
+   "type": "ingredient",
+   "surface": "super glue",
+   "ts": "14:37"
+  },
+  {
+   "canonical": "Super Glue",
+   "type": "ingredient",
+   "surface": "super glue",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Super Glue",
+   "type": "ingredient",
+   "surface": "super glue",
+   "ts": "15:45"
+  },
+  {
+   "canonical": "Acetone",
+   "type": "ingredient",
+   "surface": "acetone",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Arthur Ashe Stadium",
+   "type": "place",
+   "surface": "Arthur Ash Stadium",
+   "ts": "17:03"
+  },
+  {
+   "canonical": "NYPD",
+   "type": "place",
+   "surface": "NYPD",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "NYPD",
+   "type": "place",
+   "surface": "NYPD",
+   "ts": "17:13"
+  },
+  {
+   "canonical": "Paint Scraper",
+   "type": "equipment",
+   "surface": "paint scraper",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "Paint Scraper",
+   "type": "equipment",
+   "surface": "scraper blades",
+   "ts": "17:49"
+  },
+  {
+   "canonical": "Super Glue",
+   "type": "ingredient",
+   "surface": "super glue",
+   "ts": "14:37"
+  },
+  {
+   "canonical": "Super Glue",
+   "type": "ingredient",
+   "surface": "super glue",
+   "ts": "15:04"
+  },
+  {
+   "canonical": "Super Glue",
+   "type": "ingredient",
+   "surface": "super glue",
+   "ts": "15:45"
+  },
+  {
+   "canonical": "Acetone",
+   "type": "ingredient",
+   "surface": "acetone",
+   "ts": "16:25"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "21:29"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "22:09"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Wiley Dufrain",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food network",
+   "ts": "19:03"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "food network",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Pizza ovens",
+   "type": "equipment",
+   "surface": "pizza ovens",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "Pizza ovens",
+   "type": "equipment",
+   "surface": "pizza ovens",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Pizza ovens",
+   "type": "equipment",
+   "surface": "pizza ovens",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Pizza book",
+   "type": "ingredient",
+   "surface": "pizza book",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Pizza book",
+   "type": "ingredient",
+   "surface": "pizza book",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Uni Electric",
+   "type": "equipment",
+   "surface": "Uni Electric",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Dingman's Ferry",
+   "type": "place",
+   "surface": "Dingman's Ferry",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "Stretch Pizza",
+   "type": "place",
+   "surface": "Stretch Pizza",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Alder",
+   "type": "place",
+   "surface": "Alder",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Dews Donuts",
+   "type": "place",
+   "surface": "Dews Donuts",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "WD50",
+   "type": "place",
+   "surface": "WD50",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Pennsylvania",
+   "type": "place",
+   "surface": "Pennsylvania",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "National TV",
+   "type": "place",
+   "surface": "national TV",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "New York Post",
+   "type": "place",
+   "surface": "New York Post",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Food Network Magazine",
+   "type": "place",
+   "surface": "food network magazine",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food network",
+   "ts": "19:03"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "food network",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Spam",
+   "type": "ingredient",
+   "surface": "spam",
+   "ts": "24:58"
+  },
+  {
+   "canonical": "Spam",
+   "type": "ingredient",
+   "surface": "Spam",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Canadian bacon",
+   "type": "ingredient",
+   "surface": "Canadian bacon",
+   "ts": "24:58"
+  },
+  {
+   "canonical": "Deli ham",
+   "type": "ingredient",
+   "surface": "deli ham",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Deli ham",
+   "type": "ingredient",
+   "surface": "Deli ham",
+   "ts": "24:58"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "23:50"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Pineapple pizza",
+   "type": "technique",
+   "surface": "pineapple pizza",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Pineapple pizza",
+   "type": "technique",
+   "surface": "pineapple pizza",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Pineapple pizza",
+   "type": "technique",
+   "surface": "pineapple pizza",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Pineapple pizza",
+   "type": "technique",
+   "surface": "pineapple pizza",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Pineapple pizza",
+   "type": "technique",
+   "surface": "pineapple pizza",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Hawaiian pizza",
+   "type": "technique",
+   "surface": "Hawaiian pizza",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Sheet pizza",
+   "type": "technique",
+   "surface": "sheet pizza",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "Pizza",
+   "ts": "19:39"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "19:56"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "20:25"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "20:40"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "21:29"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "22:26"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "technique",
+   "surface": "pizza",
+   "ts": "26:45"
+  },
+  {
+   "canonical": "Wasabi mashed potatoes",
+   "type": "technique",
+   "surface": "wasabi mashed potatoes",
+   "ts": "23:39"
+  },
+  {
+   "canonical": "Barefoot Merlot",
+   "type": "ingredient",
+   "surface": "barefoot merlot",
+   "ts": "24:09"
+  },
+  {
+   "canonical": "Barefoot Merlot",
+   "type": "ingredient",
+   "surface": "barefoot Merlot",
+   "ts": "24:21"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "27:43"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "34:30"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "34:40"
+  },
+  {
+   "canonical": "Claxton",
+   "type": "place",
+   "surface": "Cla Claxton",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Spiral Binding",
+   "type": "equipment",
+   "surface": "spiral",
+   "ts": "28:57"
+  },
+  {
+   "canonical": "Spiral Binding",
+   "type": "equipment",
+   "surface": "spiral",
+   "ts": "29:02"
+  },
+  {
+   "canonical": "Spiral Binding",
+   "type": "equipment",
+   "surface": "spiral",
+   "ts": "29:12"
+  },
+  {
+   "canonical": "Fruit Cake",
+   "type": "ingredient",
+   "surface": "fruit cake",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Fruit Cake",
+   "type": "ingredient",
+   "surface": "fruit cake",
+   "ts": "30:06"
+  },
+  {
+   "canonical": "Roasted Carrots",
+   "type": "ingredient",
+   "surface": "roasted carrot",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "Roasted Carrots",
+   "type": "ingredient",
+   "surface": "roasted carrot",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Washington Post",
+   "type": "place",
+   "surface": "Washington Post",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "Arizona Republic",
+   "type": "place",
+   "surface": "Arizona Republic",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "Wilmington Star",
+   "type": "place",
+   "surface": "Wilmington Star",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "Raleigh News & Observer",
+   "type": "place",
+   "surface": "Raleigh News News and Observer",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "Modern Farmer",
+   "type": "place",
+   "surface": "Modern Farmer",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Modern Farmer",
+   "type": "place",
+   "surface": "Modern Farmer",
+   "ts": "32:54"
+  },
+  {
+   "canonical": "Sports Illustrated",
+   "type": "place",
+   "surface": "Sports Illustrated",
+   "ts": "32:48"
+  },
+  {
+   "canonical": "Fortune",
+   "type": "place",
+   "surface": "Fortune",
+   "ts": "32:54"
+  },
+  {
+   "canonical": "FYI",
+   "type": "place",
+   "surface": "FYI",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "FYI",
+   "type": "place",
+   "surface": "FYI",
+   "ts": "32:57"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "31:26"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "34:13"
+  },
+  {
+   "canonical": "Time Inc. building",
+   "type": "place",
+   "surface": "Time Inc. building",
+   "ts": "32:08"
+  },
+  {
+   "canonical": "car service",
+   "type": "equipment",
+   "surface": "car service",
+   "ts": "32:18"
+  },
+  {
+   "canonical": "freezer",
+   "type": "equipment",
+   "surface": "freezer",
+   "ts": "34:53"
+  },
+  {
+   "canonical": "cookies",
+   "type": "ingredient",
+   "surface": "cookies",
+   "ts": "34:40"
+  },
+  {
+   "canonical": "cookies",
+   "type": "ingredient",
+   "surface": "cookies",
+   "ts": "34:53"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "36:06"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Rachel Ray",
+   "type": "place",
+   "surface": "Rachel Ray",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Lehman Brothers",
+   "type": "place",
+   "surface": "Lehman Brothers",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Food Network magazine",
+   "type": "place",
+   "surface": "Food Network magazine",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "James Beard Foundation",
+   "type": "place",
+   "surface": "James Beard",
+   "ts": "37:27"
+  },
+  {
+   "canonical": "James Beard Foundation",
+   "type": "place",
+   "surface": "James Beard",
+   "ts": "37:42"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "35:34"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "35:34"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "37:42"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "43:39"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "48:45"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "49:25"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Andre Saltner",
+   "type": "person",
+   "surface": "Andre Saltner",
+   "ts": "50:00"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "50:05"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "Pioneer Woman",
+   "type": "place",
+   "surface": "Pioneer Woman",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Reed",
+   "type": "person",
+   "surface": "re",
+   "ts": "44:18"
+  },
+  {
+   "canonical": "Reed",
+   "type": "person",
+   "surface": "re",
+   "ts": "44:36"
+  },
+  {
+   "canonical": "Reed",
+   "type": "person",
+   "surface": "re",
+   "ts": "48:18"
+  },
+  {
+   "canonical": "Reed",
+   "type": "person",
+   "surface": "re",
+   "ts": "51:18"
+  },
+  {
+   "canonical": "Reed",
+   "type": "person",
+   "surface": "Re",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Woods Hole",
+   "type": "place",
+   "surface": "Woods Hole",
+   "ts": "46:14"
+  },
+  {
+   "canonical": "saffron",
+   "type": "ingredient",
+   "surface": "Saffron",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "46:14"
+  },
+  {
+   "canonical": "lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "46:35"
+  },
+  {
+   "canonical": "lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "47:01"
+  },
+  {
+   "canonical": "lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "lobster",
+   "type": "ingredient",
+   "surface": "lobster",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "hemoliths",
+   "type": "ingredient",
+   "surface": "hemoliths",
+   "ts": "48:03"
+  },
+  {
+   "canonical": "mana",
+   "type": "ingredient",
+   "surface": "mana",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "mana",
+   "type": "ingredient",
+   "surface": "mana",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "saffron king",
+   "type": "person",
+   "surface": "Saffron King",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "Beirus Shafiri",
+   "type": "person",
+   "surface": "Beirus Shafiri",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "Numidian chicken",
+   "type": "ingredient",
+   "surface": "Numidian chicken",
+   "ts": "45:34"
+  },
+  {
+   "canonical": "Roman chicken",
+   "type": "ingredient",
+   "surface": "Roman chicken",
+   "ts": "45:34"
+  },
+  {
+   "canonical": "jelly roll",
+   "type": "ingredient",
+   "surface": "jelly roll",
+   "ts": "50:05"
+  },
+  {
+   "canonical": "jelly roll",
+   "type": "ingredient",
+   "surface": "jelly roll",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "ice cream",
+   "type": "ingredient",
+   "surface": "ice cream",
+   "ts": "50:30"
+  },
+  {
+   "canonical": "anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "49:25"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "49:25"
+  },
+  {
+   "canonical": "banyacauta",
+   "type": "ingredient",
+   "surface": "banyacauta",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "50:05"
+  },
+  {
+   "canonical": "muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "50:30"
+  },
+  {
+   "canonical": "print",
+   "type": "place",
+   "surface": "print",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "print",
+   "type": "place",
+   "surface": "print",
+   "ts": "51:01"
+  },
+  {
+   "canonical": "print",
+   "type": "place",
+   "surface": "print",
+   "ts": "51:18"
+  },
+  {
+   "canonical": "print",
+   "type": "place",
+   "surface": "print",
+   "ts": "51:32"
+  },
+  {
+   "canonical": "print",
+   "type": "place",
+   "surface": "print",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "digital",
+   "type": "place",
+   "surface": "digital",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "magazine",
+   "type": "place",
+   "surface": "magazine",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "magazine",
+   "type": "place",
+   "surface": "magazine",
+   "ts": "51:18"
+  },
+  {
+   "canonical": "magazine",
+   "type": "place",
+   "surface": "magazine",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "magazine",
+   "type": "place",
+   "surface": "magazine",
+   "ts": "52:47"
+  },
+  {
+   "canonical": "social media",
+   "type": "place",
+   "surface": "social media",
+   "ts": "51:59"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "53:56"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "56:24"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "57:03"
+  },
+  {
+   "canonical": "Miley Carpenter",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "57:17"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Phil and Jim's",
+   "type": "place",
+   "surface": "Phil and Jim's",
+   "ts": "1:00:44"
+  },
+  {
+   "canonical": "Phil and Jim's",
+   "type": "place",
+   "surface": "Phil and Jim's",
+   "ts": "1:01:20"
+  },
+  {
+   "canonical": "Hoagie",
+   "type": "ingredient",
+   "surface": "hoagie",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "Hoagie",
+   "type": "ingredient",
+   "surface": "hoagie",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Hoagie",
+   "type": "ingredient",
+   "surface": "hoagie",
+   "ts": "1:00:44"
+  },
+  {
+   "canonical": "Hoagie",
+   "type": "ingredient",
+   "surface": "hoagie",
+   "ts": "1:01:01"
+  },
+  {
+   "canonical": "Dried Oregano",
+   "type": "ingredient",
+   "surface": "dried oregano",
+   "ts": "1:01:20"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "55:27"
+  },
+  {
+   "canonical": "Key Lime Pie",
+   "type": "ingredient",
+   "surface": "key lime pie",
+   "ts": "54:30"
+  },
+  {
+   "canonical": "Key Lime Pie",
+   "type": "ingredient",
+   "surface": "key lime pie",
+   "ts": "55:11"
+  },
+  {
+   "canonical": "Citric Acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "54:47"
+  },
+  {
+   "canonical": "Passion Fruit",
+   "type": "ingredient",
+   "surface": "passion fruit",
+   "ts": "54:47"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "54:47"
+  },
+  {
+   "canonical": "Tallow",
+   "type": "ingredient",
+   "surface": "tallow",
+   "ts": "55:27"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "55:27"
+  },
+  {
+   "canonical": "Duck Fat",
+   "type": "ingredient",
+   "surface": "duck fat",
+   "ts": "55:27"
+  },
+  {
+   "canonical": "Corn Pie",
+   "type": "ingredient",
+   "surface": "corn pie",
+   "ts": "54:21"
+  },
+  {
+   "canonical": "Mint Pie",
+   "type": "ingredient",
+   "surface": "mint pie",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Toothpaste Pie",
+   "type": "ingredient",
+   "surface": "toothpaste pie",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Shrooms",
+   "type": "ingredient",
+   "surface": "shrooms",
+   "ts": "53:36"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "53:36"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "54:30"
+  },
+  {
+   "canonical": "East River",
+   "type": "place",
+   "surface": "East River",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "East River",
+   "type": "place",
+   "surface": "East River",
+   "ts": "57:53"
+  },
+  {
+   "canonical": "East River",
+   "type": "place",
+   "surface": "East River",
+   "ts": "58:13"
+  },
+  {
+   "canonical": "Miley and the Fisherman",
+   "type": "place",
+   "surface": "Miley and the Fisherman",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "Miley and the Fisherman",
+   "type": "place",
+   "surface": "Miley and the Fisherman",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Miley and the Fisherman",
+   "type": "place",
+   "surface": "Miley and the Fisherman",
+   "ts": "57:03"
+  },
+  {
+   "canonical": "Artificial Intelligence",
+   "type": "technique",
+   "surface": "artificial intelligence",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Food Network",
+   "type": "place",
+   "surface": "Food Network",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Philadelphi",
+   "type": "place",
+   "surface": "Philly",
+   "ts": "59:36"
+  },
+  {
+   "canonical": "Philadelphi",
+   "type": "place",
+   "surface": "Philly",
+   "ts": "1:00:44"
+  },
+  {
+   "canonical": "Subway",
+   "type": "ingredient",
+   "surface": "subway",
+   "ts": "1:01:01"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "1:01:01"
+  },
+  {
+   "canonical": "Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "1:01:20"
+  },
+  {
+   "canonical": "Vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "1:01:20"
+  },
+  {
+   "canonical": "Oregano",
+   "type": "ingredient",
+   "surface": "oregano",
+   "ts": "1:01:20"
+  },
+  {
+   "canonical": "Phil and Gyms",
+   "type": "place",
+   "surface": "Phil and Gyms",
+   "ts": "1:01:46"
+  },
+  {
+   "canonical": "Hoagie",
+   "type": "ingredient",
+   "surface": "hoagie",
+   "ts": "1:01:38"
+  }
+ ]
+}

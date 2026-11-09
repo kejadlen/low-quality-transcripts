@@ -1,0 +1,2401 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:21"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Diane Cochillis",
+   "type": "person",
+   "surface": "Cochillis",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Food Stories, Love, Athens",
+   "type": "ingredient",
+   "surface": "Food Stories, Love, Athens",
+   "ts": "1:41"
+  },
+  {
+   "canonical": "My Greek Table",
+   "type": "place",
+   "surface": "My Greek Table",
+   "ts": "1:10"
+  },
+  {
+   "canonical": "Baltimore pit beef",
+   "type": "ingredient",
+   "surface": "Baltimore pit beef",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Baltimore pit beef",
+   "type": "ingredient",
+   "surface": "Baltimore pit beef",
+   "ts": "3:48"
+  },
+  {
+   "canonical": "Baltimore pit beef",
+   "type": "ingredient",
+   "surface": "Baltimore pit beef",
+   "ts": "4:45"
+  },
+  {
+   "canonical": "tiger sauce",
+   "type": "ingredient",
+   "surface": "tiger sauce",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "horseradish",
+   "type": "ingredient",
+   "surface": "Horseradish",
+   "ts": "3:57"
+  },
+  {
+   "canonical": "horseradish",
+   "type": "ingredient",
+   "surface": "horseradish",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "horseradish",
+   "type": "ingredient",
+   "surface": "Horseradish",
+   "ts": "4:15"
+  },
+  {
+   "canonical": "horseradish",
+   "type": "ingredient",
+   "surface": "horseradish",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "Martin's potato rolls",
+   "type": "ingredient",
+   "surface": "Martin's potato rolls",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Kaiser Roll",
+   "type": "ingredient",
+   "surface": "Kaiser Roll",
+   "ts": "4:57"
+  },
+  {
+   "canonical": "Kaiser Roll",
+   "type": "ingredient",
+   "surface": "Kaiser Old Connecticut",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "binsha tan",
+   "type": "ingredient",
+   "surface": "binsha tan",
+   "ts": "5:46"
+  },
+  {
+   "canonical": "heavy cream",
+   "type": "ingredient",
+   "surface": "heavy cream",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "heavy cream",
+   "type": "ingredient",
+   "surface": "heavy cream",
+   "ts": "6:23"
+  },
+  {
+   "canonical": "Canadian hardwood coal",
+   "type": "ingredient",
+   "surface": "Canadian hardwood coal",
+   "ts": "6:48"
+  },
+  {
+   "canonical": "leidenfrost effect",
+   "type": "technique",
+   "surface": "leidenfrost effect",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Joy",
+   "type": "ingredient",
+   "surface": "Joy",
+   "ts": "11:38"
+  },
+  {
+   "canonical": "Joy",
+   "type": "ingredient",
+   "surface": "Joy",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Joy",
+   "type": "ingredient",
+   "surface": "joy",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "Orjat",
+   "type": "ingredient",
+   "surface": "orjat",
+   "ts": "10:09"
+  },
+  {
+   "canonical": "Orjat",
+   "type": "ingredient",
+   "surface": "orjat",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Sagittarius B2",
+   "type": "ingredient",
+   "surface": "Sagittarius B2",
+   "ts": "10:09"
+  },
+  {
+   "canonical": "Almond Milk",
+   "type": "ingredient",
+   "surface": "almond milk",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "Arabic",
+   "type": "ingredient",
+   "surface": "Arabic",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "Almond Butter",
+   "type": "ingredient",
+   "surface": "almond butter",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Raspberry Jam",
+   "type": "ingredient",
+   "surface": "raspberry jam",
+   "ts": "10:09"
+  },
+  {
+   "canonical": "Raspberry Juice",
+   "type": "ingredient",
+   "surface": "raspberry juice",
+   "ts": "10:09"
+  },
+  {
+   "canonical": "Rum",
+   "type": "ingredient",
+   "surface": "rum",
+   "ts": "10:09"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "10:50"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "11:27"
+  },
+  {
+   "canonical": "Almonds",
+   "type": "ingredient",
+   "surface": "almonds",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Straining",
+   "type": "technique",
+   "surface": "straining",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Blending",
+   "type": "technique",
+   "surface": "blending",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Soaking",
+   "type": "technique",
+   "surface": "soaking",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Creme Brulee",
+   "type": "ingredient",
+   "surface": "creme brulee",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Lop Sang Suchang",
+   "type": "ingredient",
+   "surface": "Lop Sang Suchang",
+   "ts": "8:54"
+  },
+  {
+   "canonical": "Belgium",
+   "type": "place",
+   "surface": "Belgium",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "Joy Brand",
+   "type": "place",
+   "surface": "Joy brand",
+   "ts": "11:48"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:22"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:59"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Icaria",
+   "type": "place",
+   "surface": "Icaria",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:22"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:59"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "United States",
+   "type": "place",
+   "surface": "United States",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "13:22"
+  },
+  {
+   "canonical": "European Union",
+   "type": "place",
+   "surface": "EU",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:06"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:22"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "13:59"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "16:01"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "17:14"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Californianization",
+   "type": "technique",
+   "surface": "Californianization",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Nikos Telemendez",
+   "type": "person",
+   "surface": "Nikos Telemendez",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Nikos Telemendez",
+   "type": "person",
+   "surface": "telemendes",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Barba Mitsos",
+   "type": "place",
+   "surface": "Barba Mitsos",
+   "ts": "25:34"
+  },
+  {
+   "canonical": "Athenian Mayonnaise",
+   "type": "ingredient",
+   "surface": "Athenian mayonnaise",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "Athenian Mayonnaise",
+   "type": "ingredient",
+   "surface": "Athenian mayonnaise",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Athinaikima Yonesa",
+   "type": "ingredient",
+   "surface": "Athinaikima Yonesa",
+   "ts": "22:40"
+  },
+  {
+   "canonical": "False Souffle",
+   "type": "ingredient",
+   "surface": "false souffle",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "False Souffle",
+   "type": "ingredient",
+   "surface": "false souffle",
+   "ts": "20:37"
+  },
+  {
+   "canonical": "Chickpea Soup",
+   "type": "ingredient",
+   "surface": "chickpea soup",
+   "ts": "24:46"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "25:58"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "26:07"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "26:23"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "26:30"
+  },
+  {
+   "canonical": "Cast Iron Pan",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "26:30"
+  },
+  {
+   "canonical": "Porto",
+   "type": "place",
+   "surface": "Porto",
+   "ts": "23:34"
+  },
+  {
+   "canonical": "Lefteris",
+   "type": "person",
+   "surface": "Lefteris",
+   "ts": "25:49"
+  },
+  {
+   "canonical": "Ice Shock",
+   "type": "technique",
+   "surface": "ice shocked",
+   "ts": "27:11"
+  },
+  {
+   "canonical": "Bunt Pan",
+   "type": "equipment",
+   "surface": "bunt pan",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "21:43"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "22:11"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "22:40"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "22:55"
+  },
+  {
+   "canonical": "Bechamel Sauce",
+   "type": "ingredient",
+   "surface": "bechamel",
+   "ts": "21:03"
+  },
+  {
+   "canonical": "Bechamel Sauce",
+   "type": "ingredient",
+   "surface": "bechamel",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "27:33"
+  },
+  {
+   "canonical": "Miley",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "27:33"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "30:08"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "orange",
+   "type": "ingredient",
+   "surface": "oranges",
+   "ts": "30:08"
+  },
+  {
+   "canonical": "orange",
+   "type": "ingredient",
+   "surface": "oranges",
+   "ts": "30:37"
+  },
+  {
+   "canonical": "orange",
+   "type": "ingredient",
+   "surface": "oranges",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "seawater",
+   "type": "ingredient",
+   "surface": "seawater",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "30:08"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "33:23"
+  },
+  {
+   "canonical": "Leftetis Lazaro",
+   "type": "person",
+   "surface": "Leftetis Lazaro",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "34:37"
+  },
+  {
+   "canonical": "International Aval Council",
+   "type": "place",
+   "surface": "International Aval Council",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "rigor mortis",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "rigor mortis",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "32:21"
+  },
+  {
+   "canonical": "rigor mortis",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "32:36"
+  },
+  {
+   "canonical": "rigor mortis",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "31:45"
+  },
+  {
+   "canonical": "tenderizing",
+   "type": "technique",
+   "surface": "tenderizing",
+   "ts": "31:45"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:30"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:22"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "octopus",
+   "type": "ingredient",
+   "surface": "octopus",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "27:33"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "31:45"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "31:59"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "32:21"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "32:36"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "32:58"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "33:30"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "34:19"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "34:37"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "34:55"
+  },
+  {
+   "canonical": "Greek cheeses",
+   "type": "ingredient",
+   "surface": "Greek cheeses",
+   "ts": "35:15"
+  },
+  {
+   "canonical": "cycladic eggs",
+   "type": "ingredient",
+   "surface": "cyclot the cycladic eggs",
+   "ts": "35:15"
+  },
+  {
+   "canonical": "Leftetis Lazaro",
+   "type": "person",
+   "surface": "Leftetis Lazaro",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Japan",
+   "type": "place",
+   "surface": "Japan",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "International Aval Council",
+   "type": "place",
+   "surface": "International Aval Council",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "40:35"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Pine Tree",
+   "type": "ingredient",
+   "surface": "pine trees",
+   "ts": "39:38"
+  },
+  {
+   "canonical": "Pine Tree",
+   "type": "ingredient",
+   "surface": "pine trees",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Honeydew Honey",
+   "type": "ingredient",
+   "surface": "honeydew honey",
+   "ts": "39:38"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "37:26"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "37:43"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "38:41"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "38:57"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "39:06"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "42:33"
+  },
+  {
+   "canonical": "Greek Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Sifnos",
+   "type": "place",
+   "surface": "Sifnos",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "39:06"
+  },
+  {
+   "canonical": "Bulgaria",
+   "type": "place",
+   "surface": "Bulgarians",
+   "ts": "38:41"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "38:41"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "39:06"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Greece",
+   "type": "place",
+   "surface": "Greece",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Wisconsin",
+   "type": "place",
+   "surface": "Wisconsin",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Goat's Milk",
+   "type": "ingredient",
+   "surface": "goat's milk",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Cheese Culture",
+   "type": "technique",
+   "surface": "cheese culture",
+   "ts": "38:57"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "40:35"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Pine Honey",
+   "type": "ingredient",
+   "surface": "pine honey",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Greek Salad",
+   "type": "place",
+   "surface": "Greek salad",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Greek Salad",
+   "type": "place",
+   "surface": "Greek salad",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Greek Salad",
+   "type": "place",
+   "surface": "Greek salad",
+   "ts": "42:33"
+  },
+  {
+   "canonical": "Greek Salad",
+   "type": "place",
+   "surface": "Greek salad",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "Greek Salad",
+   "type": "place",
+   "surface": "Greek salad",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Ikaria",
+   "type": "place",
+   "surface": "Ikaria",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "39:38"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "39:55"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:35"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:45"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "37:26"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "37:43"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "38:41"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Oregano",
+   "type": "ingredient",
+   "surface": "oregano",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "Anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "42:33"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "43:37"
+  },
+  {
+   "canonical": "Pepper",
+   "type": "ingredient",
+   "surface": "pepper",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "42:33"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "43:07"
+  },
+  {
+   "canonical": "Potato Salad",
+   "type": "ingredient",
+   "surface": "potato salad",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "Capers",
+   "type": "ingredient",
+   "surface": "capers",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Pepperoncini",
+   "type": "ingredient",
+   "surface": "pepperoncini",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Crete",
+   "type": "place",
+   "surface": "Crete",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Tarpon Springs",
+   "type": "place",
+   "surface": "Tarpon Springs",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "GIs",
+   "type": "person",
+   "surface": "GIs",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "48:45"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "49:17"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Taramasalata",
+   "type": "ingredient",
+   "surface": "terra musselata",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Taramasalata",
+   "type": "ingredient",
+   "surface": "tarmasalata",
+   "ts": "47:52"
+  },
+  {
+   "canonical": "Taramasalata",
+   "type": "ingredient",
+   "surface": "tar musselath",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "47:52"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "48:26"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "48:32"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "48:45"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Seltzer",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Seltzer",
+   "type": "ingredient",
+   "surface": "seltzer",
+   "ts": "46:59"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "47:52"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Greek Diner",
+   "type": "place",
+   "surface": "Greek diner",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "Greek Diner",
+   "type": "place",
+   "surface": "Greek diner",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "French Fry",
+   "type": "ingredient",
+   "surface": "French fry",
+   "ts": "48:32"
+  },
+  {
+   "canonical": "Oregano",
+   "type": "ingredient",
+   "surface": "oregano",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "47:24"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "52:52"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "53:04"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Tomato Paste",
+   "type": "ingredient",
+   "surface": "tomato paste",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Emulsion",
+   "type": "technique",
+   "surface": "emulsion",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Lowell, Massachusetts",
+   "type": "place",
+   "surface": "Lowell, Massachusetts",
+   "ts": "45:53"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "45:53"
+  },
+  {
+   "canonical": "International Grocery",
+   "type": "place",
+   "surface": "international grocery",
+   "ts": "46:59"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "47:52"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "48:26"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "48:32"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "48:45"
+  },
+  {
+   "canonical": "Sweet Potato",
+   "type": "ingredient",
+   "surface": "sweet potato",
+   "ts": "49:01"
+  },
+  {
+   "canonical": "Dips",
+   "type": "ingredient",
+   "surface": "dips",
+   "ts": "49:17"
+  },
+  {
+   "canonical": "Dips",
+   "type": "ingredient",
+   "surface": "dips",
+   "ts": "49:28"
+  },
+  {
+   "canonical": "Trahana",
+   "type": "ingredient",
+   "surface": "Trahana",
+   "ts": "49:33"
+  },
+  {
+   "canonical": "Trahana",
+   "type": "ingredient",
+   "surface": "Trahana",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Trahana",
+   "type": "ingredient",
+   "surface": "trahana",
+   "ts": "51:29"
+  },
+  {
+   "canonical": "Greek",
+   "type": "place",
+   "surface": "Greek",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "Greek",
+   "type": "place",
+   "surface": "Greek",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "Greek",
+   "type": "place",
+   "surface": "Greek",
+   "ts": "45:53"
+  },
+  {
+   "canonical": "Greek",
+   "type": "place",
+   "surface": "Greek",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Greek",
+   "type": "place",
+   "surface": "Greek",
+   "ts": "47:52"
+  },
+  {
+   "canonical": "Greek",
+   "type": "place",
+   "surface": "Greek",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "51:07"
+  },
+  {
+   "canonical": "Goat's Milk",
+   "type": "ingredient",
+   "surface": "goat's milk",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Buttermilk",
+   "type": "ingredient",
+   "surface": "buttermilk",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Yogurt",
+   "type": "ingredient",
+   "surface": "yogurt",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Wheat",
+   "type": "ingredient",
+   "surface": "wheat",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "Porridge",
+   "type": "technique",
+   "surface": "porridge",
+   "ts": "50:31"
+  },
+  {
+   "canonical": "Porridge",
+   "type": "technique",
+   "surface": "porridge",
+   "ts": "51:20"
+  },
+  {
+   "canonical": "Dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "50:01"
+  },
+  {
+   "canonical": "Dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "50:31"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "51:29"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "48:45"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "49:17"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Taverna",
+   "type": "place",
+   "surface": "Taverna's",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Katopolo",
+   "type": "place",
+   "surface": "katopolo",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Lemon Chicken Ribs",
+   "type": "technique",
+   "surface": "lemon chicken ribs",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Chicken Thigh",
+   "type": "ingredient",
+   "surface": "thighs",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Chicken Thigh",
+   "type": "ingredient",
+   "surface": "thigh",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "Chicken Thigh",
+   "type": "ingredient",
+   "surface": "thigh",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Chicken Thigh",
+   "type": "ingredient",
+   "surface": "thigh",
+   "ts": "52:52"
+  },
+  {
+   "canonical": "Chicken Thigh",
+   "type": "ingredient",
+   "surface": "thigh",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "53:04"
+  },
+  {
+   "canonical": "Lemon Juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "53:04"
+  },
+  {
+   "canonical": "Mustard",
+   "type": "ingredient",
+   "surface": "mustard",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "47:52"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "48:45"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Mustokulura",
+   "type": "ingredient",
+   "surface": "Mustokulura",
+   "ts": "53:57"
+  },
+  {
+   "canonical": "Petimesi",
+   "type": "ingredient",
+   "surface": "petimesi",
+   "ts": "53:57"
+  },
+  {
+   "canonical": "Grape Must",
+   "type": "ingredient",
+   "surface": "grape must",
+   "ts": "53:57"
+  },
+  {
+   "canonical": "Mesoya Region",
+   "type": "place",
+   "surface": "Mesoya region",
+   "ts": "54:18"
+  },
+  {
+   "canonical": "Attica",
+   "type": "place",
+   "surface": "Attica",
+   "ts": "54:18"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "54:18"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "56:23"
+  },
+  {
+   "canonical": "Athens",
+   "type": "place",
+   "surface": "Athens",
+   "ts": "58:58"
+  },
+  {
+   "canonical": "Chicago Sunday",
+   "type": "ingredient",
+   "surface": "Chicago Sunday",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Tom Carvel",
+   "ts": "57:22"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "57:40"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "57:54"
+  },
+  {
+   "canonical": "Tom Carvel",
+   "type": "person",
+   "surface": "Carvel",
+   "ts": "58:08"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "57:22"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "57:40"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "57:54"
+  },
+  {
+   "canonical": "Carvel",
+   "type": "place",
+   "surface": "Carvel",
+   "ts": "58:08"
+  },
+  {
+   "canonical": "Rock Baker",
+   "type": "person",
+   "surface": "Rock Baker",
+   "ts": "58:13"
+  },
+  {
+   "canonical": "My Greek Table",
+   "type": "place",
+   "surface": "My Greek Table",
+   "ts": "58:58"
+  },
+  {
+   "canonical": "PBS",
+   "type": "place",
+   "surface": "PBS",
+   "ts": "58:58"
+  },
+  {
+   "canonical": "October 24th",
+   "type": "place",
+   "surface": "October 24th",
+   "ts": "58:58"
+  }
+ ]
+}

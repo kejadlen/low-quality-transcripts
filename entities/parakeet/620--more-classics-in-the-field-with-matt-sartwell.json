@@ -1,0 +1,955 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia the hammer Lopez",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:49"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "2:44"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:48"
+  },
+  {
+   "canonical": "Matt Sartwell",
+   "type": "person",
+   "surface": "Matt Sartwell",
+   "ts": "0:55"
+  },
+  {
+   "canonical": "Heartwood",
+   "type": "place",
+   "surface": "Heartwood",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Andre Soltner",
+   "type": "person",
+   "surface": "Andre Soltner",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Andre Soltner",
+   "type": "person",
+   "surface": "Andre Soltner",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "5:16"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "Mad Men",
+   "type": "place",
+   "surface": "Mad Men",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "0:55"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "9:50"
+  },
+  {
+   "canonical": "Mother Jaffrey",
+   "type": "place",
+   "surface": "Mother Jaffrey",
+   "ts": "9:50"
+  },
+  {
+   "canonical": "Yamuna Devi",
+   "type": "person",
+   "surface": "Yamuna Devi",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Nikki Sanguich",
+   "type": "person",
+   "surface": "Nikki Sanguich",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Penguin USA",
+   "type": "place",
+   "surface": "Penguin",
+   "ts": "11:21"
+  },
+  {
+   "canonical": "Penguin USA",
+   "type": "place",
+   "surface": "penguin",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "Penguin USA",
+   "type": "place",
+   "surface": "penguin",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "E. P. Thutton",
+   "type": "place",
+   "surface": "E. P. Thutton",
+   "ts": "11:21"
+  },
+  {
+   "canonical": "Bala Books",
+   "type": "place",
+   "surface": "Bala books",
+   "ts": "10:57"
+  },
+  {
+   "canonical": "Commercial oven",
+   "type": "equipment",
+   "surface": "commercial oven",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "Convection oven",
+   "type": "equipment",
+   "surface": "convection unit",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "Convection oven",
+   "type": "equipment",
+   "surface": "convection unit",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "Stainless steel",
+   "type": "ingredient",
+   "surface": "stainless steel",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "Gas oven",
+   "type": "equipment",
+   "surface": "gas",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "12:43"
+  },
+  {
+   "canonical": "Hannanese chicken",
+   "type": "ingredient",
+   "surface": "Hannanese chicken",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "French Colonial Institute",
+   "type": "place",
+   "surface": "French Colonial Institute",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "convection unit",
+   "type": "equipment",
+   "surface": "convection unit",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "convection unit",
+   "type": "equipment",
+   "surface": "convection unit",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "silicone",
+   "type": "ingredient",
+   "surface": "silicone",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "15:01"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "fan",
+   "type": "equipment",
+   "surface": "fan",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "motor",
+   "type": "equipment",
+   "surface": "motor",
+   "ts": "14:24"
+  },
+  {
+   "canonical": "motor",
+   "type": "equipment",
+   "surface": "motor",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "chicken rice",
+   "type": "ingredient",
+   "surface": "chicken rice",
+   "ts": "18:00"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "18:00"
+  },
+  {
+   "canonical": "broth",
+   "type": "ingredient",
+   "surface": "broth",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "chicken salad",
+   "type": "ingredient",
+   "surface": "chicken salad",
+   "ts": "19:19"
+  },
+  {
+   "canonical": "chicken salad",
+   "type": "ingredient",
+   "surface": "chicken salad",
+   "ts": "19:32"
+  },
+  {
+   "canonical": "aspic",
+   "type": "ingredient",
+   "surface": "aspic",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "20:16"
+  },
+  {
+   "canonical": "agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "hydrocolloids",
+   "type": "technique",
+   "surface": "hydrocolloids",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "thick water",
+   "type": "ingredient",
+   "surface": "thick water",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "thick water",
+   "type": "ingredient",
+   "surface": "Thick water",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "raindrop cake",
+   "type": "technique",
+   "surface": "raindrop cake",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "22:06"
+  },
+  {
+   "canonical": "quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "24:00"
+  },
+  {
+   "canonical": "glasgow aspic",
+   "type": "technique",
+   "surface": "GLA, aspic",
+   "ts": "22:06"
+  },
+  {
+   "canonical": "cornish cross",
+   "type": "ingredient",
+   "surface": "cornish cross",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "spent laying hen",
+   "type": "ingredient",
+   "surface": "spent laying",
+   "ts": "23:34"
+  },
+  {
+   "canonical": "spent laying hen",
+   "type": "ingredient",
+   "surface": "spent laying",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "spent laying hen",
+   "type": "ingredient",
+   "surface": "spent layer",
+   "ts": "24:29"
+  },
+  {
+   "canonical": "rooster",
+   "type": "ingredient",
+   "surface": "roosters",
+   "ts": "25:37"
+  },
+  {
+   "canonical": "rooster",
+   "type": "ingredient",
+   "surface": "roosters",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "rooster",
+   "type": "ingredient",
+   "surface": "roosters",
+   "ts": "26:04"
+  },
+  {
+   "canonical": "rooster",
+   "type": "ingredient",
+   "surface": "roosters",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "minced lamb",
+   "type": "ingredient",
+   "surface": "minced lamb",
+   "ts": "26:52"
+  },
+  {
+   "canonical": "minced lamb",
+   "type": "ingredient",
+   "surface": "Minced lamb",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Turkish lamb",
+   "type": "ingredient",
+   "surface": "Turkish lamb",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Jim Meehan",
+   "type": "person",
+   "surface": "Jim Meean",
+   "ts": "28:49"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve Sando",
+   "ts": "29:54"
+  },
+  {
+   "canonical": "Joe Beef",
+   "type": "place",
+   "surface": "Joe Beef",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Rancho Gordo",
+   "type": "place",
+   "surface": "Rancho Gordo",
+   "ts": "31:34"
+  },
+  {
+   "canonical": "Camille Becerra",
+   "type": "person",
+   "surface": "Camille Becerra",
+   "ts": "32:57"
+  },
+  {
+   "canonical": "Bright Cooking",
+   "type": "place",
+   "surface": "Bright Cooking",
+   "ts": "32:57"
+  },
+  {
+   "canonical": "MRE",
+   "type": "equipment",
+   "surface": "MRE",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "MRE",
+   "type": "equipment",
+   "surface": "MRE",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "MRE",
+   "type": "equipment",
+   "surface": "MRE",
+   "ts": "35:27"
+  },
+  {
+   "canonical": "Sichuan hot pot",
+   "type": "ingredient",
+   "surface": "Sichuan hot pot",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "Sichuan hot pot",
+   "type": "ingredient",
+   "surface": "Sichuan hot pot",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Crop Cycle",
+   "type": "place",
+   "surface": "Crop Cycle",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "Crop Cycle",
+   "type": "place",
+   "surface": "Crop Cycle",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Shane Mitchell",
+   "type": "person",
+   "surface": "Shane Mitchell",
+   "ts": "35:48"
+  },
+  {
+   "canonical": "The Editor",
+   "type": "place",
+   "surface": "The Editor",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Judith Jones",
+   "type": "person",
+   "surface": "Judith Jones",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Sarah Franklin",
+   "type": "person",
+   "surface": "Sarah Franklin",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Sarah Franklin",
+   "type": "person",
+   "surface": "Sarah Franklin",
+   "ts": "39:14"
+  },
+  {
+   "canonical": "Judith Jones",
+   "type": "person",
+   "surface": "Judith",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Judith Jones",
+   "type": "person",
+   "surface": "Judith",
+   "ts": "39:14"
+  },
+  {
+   "canonical": "Judith Jones",
+   "type": "person",
+   "surface": "Judith",
+   "ts": "39:40"
+  },
+  {
+   "canonical": "Judith Newman",
+   "type": "person",
+   "surface": "Judith",
+   "ts": "39:59"
+  },
+  {
+   "canonical": "Judith Newman",
+   "type": "person",
+   "surface": "Judith",
+   "ts": "40:31"
+  },
+  {
+   "canonical": "Judith Newman",
+   "type": "person",
+   "surface": "Judith",
+   "ts": "41:11"
+  },
+  {
+   "canonical": "Sarah",
+   "type": "person",
+   "surface": "Sarah",
+   "ts": "39:59"
+  },
+  {
+   "canonical": "Sarah",
+   "type": "person",
+   "surface": "Sarah",
+   "ts": "41:11"
+  },
+  {
+   "canonical": "Edna Lewis",
+   "type": "person",
+   "surface": "Edna Lewis",
+   "ts": "39:59"
+  },
+  {
+   "canonical": "Ariel Johnson",
+   "type": "person",
+   "surface": "Ariel Johnson",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Austin Bush",
+   "type": "person",
+   "surface": "Austin Bush",
+   "ts": "42:24"
+  },
+  {
+   "canonical": "Flavorama",
+   "type": "place",
+   "surface": "Flavorama",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "Food of Southern Thailand",
+   "type": "place",
+   "surface": "Food of Southern Thailand",
+   "ts": "42:24"
+  },
+  {
+   "canonical": "Islas",
+   "type": "place",
+   "surface": "Islas",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Pitt and Steam Cooking",
+   "type": "technique",
+   "surface": "Pitt and Steam Cooking",
+   "ts": "44:18"
+  },
+  {
+   "canonical": "Carolina Barbecue",
+   "type": "place",
+   "surface": "Carolina barbecue",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Carolina Barbecue",
+   "type": "place",
+   "surface": "Carolina Barbecue",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "University of North Carolina Press",
+   "type": "place",
+   "surface": "University of North Carolina press",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "Jang",
+   "type": "person",
+   "surface": "Jang",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "Minju Kong",
+   "type": "person",
+   "surface": "Minju Kong",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "JDS",
+   "type": "person",
+   "surface": "JDS",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Gary He",
+   "type": "person",
+   "surface": "Gary He",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "Morgan Spurlock",
+   "type": "person",
+   "surface": "Morgan Spurlock",
+   "ts": "49:46"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "49:46"
+  },
+  {
+   "canonical": "McDonald's",
+   "type": "place",
+   "surface": "McDonald's",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Kazakhstan",
+   "type": "place",
+   "surface": "Kazakhstan",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "Christopher Tan",
+   "type": "person",
+   "surface": "Christopher Tan",
+   "ts": "50:46"
+  },
+  {
+   "canonical": "Epigram Books",
+   "type": "place",
+   "surface": "Epigram Books",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Kinkos",
+   "type": "place",
+   "surface": "Kinkos",
+   "ts": "53:44"
+  },
+  {
+   "canonical": "Kinkos",
+   "type": "place",
+   "surface": "Kinkos",
+   "ts": "54:00"
+  },
+  {
+   "canonical": "Kinkos",
+   "type": "place",
+   "surface": "Kinkos",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "Spam",
+   "type": "ingredient",
+   "surface": "spam",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Spam",
+   "type": "ingredient",
+   "surface": "spam",
+   "ts": "58:48"
+  },
+  {
+   "canonical": "Spam",
+   "type": "ingredient",
+   "surface": "spam",
+   "ts": "59:07"
+  },
+  {
+   "canonical": "Brooklyn Botanical Garden",
+   "type": "place",
+   "surface": "Brooklyn Botanical Garden",
+   "ts": "57:17"
+  },
+  {
+   "canonical": "Michael Zee",
+   "type": "person",
+   "surface": "Michael Zee",
+   "ts": "58:06"
+  },
+  {
+   "canonical": "Ned Palmer",
+   "type": "person",
+   "surface": "Ned Palmer",
+   "ts": "59:25"
+  },
+  {
+   "canonical": "Masubi",
+   "type": "technique",
+   "surface": "Masubi",
+   "ts": "58:48"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "Apple",
+   "ts": "55:05"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "56:49"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "57:10"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "57:32"
+  },
+  {
+   "canonical": "Lichen",
+   "type": "ingredient",
+   "surface": "lichen",
+   "ts": "52:24"
+  },
+  {
+   "canonical": "Nepal",
+   "type": "place",
+   "surface": "Nepal",
+   "ts": "52:24"
+  },
+  {
+   "canonical": "Nepal",
+   "type": "place",
+   "surface": "Nepal",
+   "ts": "52:48"
+  },
+  {
+   "canonical": "Nepal",
+   "type": "place",
+   "surface": "Nepal",
+   "ts": "53:16"
+  },
+  {
+   "canonical": "Nepal",
+   "type": "place",
+   "surface": "Nepal",
+   "ts": "53:28"
+  },
+  {
+   "canonical": "Kos",
+   "type": "place",
+   "surface": "Kos",
+   "ts": "53:44"
+  },
+  {
+   "canonical": "Pomologists",
+   "type": "person",
+   "surface": "pomologists",
+   "ts": "56:06"
+  },
+  {
+   "canonical": "Leonti",
+   "type": "person",
+   "surface": "Leonti's",
+   "ts": "59:53"
+  },
+  {
+   "canonical": "Leonti",
+   "type": "person",
+   "surface": "Leonti's",
+   "ts": "1:00:25"
+  },
+  {
+   "canonical": "Richard Hart",
+   "type": "person",
+   "surface": "Richard Hart",
+   "ts": "1:00:49"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Hayden Flour Mills",
+   "type": "place",
+   "surface": "Hayden Flour Mills",
+   "ts": "1:00:25"
+  }
+ ]
+}

@@ -1,0 +1,2401 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:07"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "2:07"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "5:31"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "8:13"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Monsieur Le Molecule",
+   "type": "person",
+   "surface": "Monsieur Le Molecule",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "JJ Basil",
+   "type": "person",
+   "surface": "JJ Basil",
+   "ts": "6:00"
+  },
+  {
+   "canonical": "JJ Basil",
+   "type": "person",
+   "surface": "JJ Basil",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "JJ Basil",
+   "type": "person",
+   "surface": "JJ Basil",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "JJ Basil",
+   "type": "person",
+   "surface": "JJ Basil",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "7:13"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Andrea Nguyen",
+   "type": "person",
+   "surface": "Andrea Nguyen",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Nori",
+   "type": "ingredient",
+   "surface": "Nori",
+   "ts": "4:40"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "WD 50",
+   "type": "place",
+   "surface": "WD 50",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "Agnes and Sherman",
+   "type": "place",
+   "surface": "Agnes and Sherman",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Momo",
+   "type": "place",
+   "surface": "Momo",
+   "ts": "5:51"
+  },
+  {
+   "canonical": "Momo",
+   "type": "place",
+   "surface": "Momo",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "Momo",
+   "type": "place",
+   "surface": "Momo",
+   "ts": "7:50"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "2:37"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "4:06"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "Fish Sauce",
+   "ts": "4:40"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "4:57"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "Fish sauce",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "Fish sauce",
+   "ts": "8:57"
+  },
+  {
+   "canonical": "Voice Acting",
+   "type": "technique",
+   "surface": "voice acting",
+   "ts": "8:30"
+  },
+  {
+   "canonical": "Reverb",
+   "type": "technique",
+   "surface": "reverb",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea's",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "Asian Tofu",
+   "type": "ingredient",
+   "surface": "Asian tofu",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "Asian Tofu",
+   "type": "ingredient",
+   "surface": "Asian tofu",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "David Kent",
+   "type": "person",
+   "surface": "David Kent",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "David Kent",
+   "type": "person",
+   "surface": "David Kent",
+   "ts": "14:55"
+  },
+  {
+   "canonical": "Firstborn",
+   "type": "place",
+   "surface": "Firstborn",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Aaron Polski",
+   "type": "person",
+   "surface": "Aaron Polski",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Aaron Polski",
+   "type": "person",
+   "surface": "Aaron Polski",
+   "ts": "18:08"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "11:19"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "11:34"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "12:02"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "13:03"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "13:50"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "14:15"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Quinlet",
+   "type": "person",
+   "surface": "Quinlet",
+   "ts": "15:14"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "15:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "15:14"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "15:14"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Costco",
+   "type": "place",
+   "surface": "Costco",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Mapo Tofu",
+   "type": "ingredient",
+   "surface": "Mapo tofu",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Sweetbreads",
+   "type": "ingredient",
+   "surface": "sweetbreads",
+   "ts": "16:27"
+  },
+  {
+   "canonical": "Jesus Christ Superstar",
+   "type": "technique",
+   "surface": "Jesus Christ Superstar",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "Judas",
+   "type": "person",
+   "surface": "Judas",
+   "ts": "18:23"
+  },
+  {
+   "canonical": "Judas",
+   "type": "person",
+   "surface": "Judas",
+   "ts": "18:41"
+  },
+  {
+   "canonical": "Marquette restaurant",
+   "type": "place",
+   "surface": "Marquette restaurant",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Inc. 48 hotel",
+   "type": "place",
+   "surface": "Inc. 48 hotel",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Quinn McQuinn",
+   "type": "person",
+   "surface": "Quinny Quinn McQuinn",
+   "ts": "20:10"
+  },
+  {
+   "canonical": "Dennis Andrea",
+   "type": "person",
+   "surface": "Dennis Andrea",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Christine Mulkey",
+   "type": "person",
+   "surface": "Christine Mulkey",
+   "ts": "21:26"
+  },
+  {
+   "canonical": "Williamsburg",
+   "type": "place",
+   "surface": "Williamsburg",
+   "ts": "21:36"
+  },
+  {
+   "canonical": "Williamsburg",
+   "type": "place",
+   "surface": "Williamsburg",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "East Williamsburg",
+   "type": "place",
+   "surface": "East Williamsburg",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "Old Williamsburg",
+   "type": "place",
+   "surface": "Old Williamsburg",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "Greenpoint",
+   "type": "place",
+   "surface": "Greenpoint",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "McGlueric",
+   "type": "place",
+   "surface": "McGlueric",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "McGuinness",
+   "type": "place",
+   "surface": "McGuinness",
+   "ts": "21:45"
+  },
+  {
+   "canonical": "Bay Yard",
+   "type": "place",
+   "surface": "Bay Yard",
+   "ts": "21:59"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:27"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Thai cuisine",
+   "type": "ingredient",
+   "surface": "Thai",
+   "ts": "21:26"
+  },
+  {
+   "canonical": "Thai cuisine",
+   "type": "ingredient",
+   "surface": "Thai",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Thai cuisine",
+   "type": "ingredient",
+   "surface": "Thai",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Thai cuisine",
+   "type": "ingredient",
+   "surface": "Thai",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "Vietnamese cuisine",
+   "type": "ingredient",
+   "surface": "Vietnamese",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Vietnamese cuisine",
+   "type": "ingredient",
+   "surface": "Vietnamese",
+   "ts": "21:22"
+  },
+  {
+   "canonical": "Vietnamese cuisine",
+   "type": "ingredient",
+   "surface": "Vietnamese",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Vietnamese cuisine",
+   "type": "ingredient",
+   "surface": "Vietnamese",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "Ming Dynasty",
+   "type": "place",
+   "surface": "Ming Dynasty",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "chili peppers",
+   "type": "ingredient",
+   "surface": "chili peppers",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "black pepper",
+   "type": "ingredient",
+   "surface": "black pepper",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "spicy chicken",
+   "type": "ingredient",
+   "surface": "spicy chicken",
+   "ts": "20:19"
+  },
+  {
+   "canonical": "Vietnamese food",
+   "type": "ingredient",
+   "surface": "Vietnamese food",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Vietnamese food",
+   "type": "ingredient",
+   "surface": "Vietnamese food",
+   "ts": "21:22"
+  },
+  {
+   "canonical": "Thai cookbook",
+   "type": "ingredient",
+   "surface": "Thai cookbook",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Pim Tashamami",
+   "type": "person",
+   "surface": "Pim Tashamami",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "21:36"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "26:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:27"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Thai Fish Sauce",
+   "type": "ingredient",
+   "surface": "Thai stuff",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "Cambodian Fish Sauce",
+   "type": "ingredient",
+   "surface": "Cambodian stuff",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "Scorecards",
+   "type": "equipment",
+   "surface": "scorecards",
+   "ts": "25:30"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "25:57"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "21:10"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "21:22"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "26:12"
+  },
+  {
+   "canonical": "Andrea",
+   "type": "person",
+   "surface": "Andrea",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "20:10"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "26:41"
+  },
+  {
+   "canonical": "Union 76",
+   "type": "place",
+   "surface": "Union 76",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:27"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "24:49"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "sea salt",
+   "type": "ingredient",
+   "surface": "sea salt",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "26:27"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "autolytic process",
+   "type": "technique",
+   "surface": "autolytic process",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "red boat people",
+   "type": "place",
+   "surface": "red boat people",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Union 76",
+   "type": "place",
+   "surface": "Union 76",
+   "ts": "28:16"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick Coleman",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick Coleman",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "36:25"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "36:25"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "monosodium glutamate",
+   "ts": "36:12"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "29:40"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "30:08"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "30:20"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "30:38"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "31:31"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "31:53"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "33:11"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "33:30"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "35:08"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "29:24"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "29:40"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "33:11"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "35:50"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "37:15"
+  },
+  {
+   "canonical": "yeast extract",
+   "type": "ingredient",
+   "surface": "yeast extract",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Mega Chef",
+   "type": "place",
+   "surface": "mega chef",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Mega Chef",
+   "type": "place",
+   "surface": "Mega chef",
+   "ts": "36:37"
+  },
+  {
+   "canonical": "Mega Chef",
+   "type": "place",
+   "surface": "Mega Chef",
+   "ts": "37:06"
+  },
+  {
+   "canonical": "Mega Chef",
+   "type": "place",
+   "surface": "Mega Chef",
+   "ts": "37:27"
+  },
+  {
+   "canonical": "Mega Chef",
+   "type": "place",
+   "surface": "Mega Chef",
+   "ts": "38:00"
+  },
+  {
+   "canonical": "Squid brand",
+   "type": "place",
+   "surface": "squid brand",
+   "ts": "30:20"
+  },
+  {
+   "canonical": "Squid brand",
+   "type": "place",
+   "surface": "Squid brand",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "technique",
+   "surface": "N",
+   "ts": "28:50"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "technique",
+   "surface": "N",
+   "ts": "29:08"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "technique",
+   "surface": "nitrogen",
+   "ts": "32:20"
+  },
+  {
+   "canonical": "ABV",
+   "type": "technique",
+   "surface": "ABV",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "Banchan shop",
+   "type": "place",
+   "surface": "Banchan shop",
+   "ts": "31:40"
+  },
+  {
+   "canonical": "Huni Kim",
+   "type": "person",
+   "surface": "Huni Kim",
+   "ts": "31:40"
+  },
+  {
+   "canonical": "Ayu",
+   "type": "ingredient",
+   "surface": "Ayu",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Ayu",
+   "type": "ingredient",
+   "surface": "Ayu",
+   "ts": "30:38"
+  },
+  {
+   "canonical": "freshwater fish",
+   "type": "ingredient",
+   "surface": "freshwater fish",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "freshwater fish",
+   "type": "ingredient",
+   "surface": "freshwater fish",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "30:20"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "Squid",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "37:06"
+  },
+  {
+   "canonical": "anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "34:50"
+  },
+  {
+   "canonical": "pho",
+   "type": "ingredient",
+   "surface": "pho",
+   "ts": "33:57"
+  },
+  {
+   "canonical": "Lee Sandwich",
+   "type": "place",
+   "surface": "Lee Sandwich people",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Lee Sandwich",
+   "type": "place",
+   "surface": "Lee Sandwich",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Fanti",
+   "type": "place",
+   "surface": "Fanti",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "38:48"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "47:27"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "48:06"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "Vietnamese",
+   "type": "place",
+   "surface": "Vietnamese",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Vietnamese",
+   "type": "place",
+   "surface": "Vietnamese",
+   "ts": "38:48"
+  },
+  {
+   "canonical": "Vietnamese",
+   "type": "place",
+   "surface": "Vietnamese",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Vietnamese",
+   "type": "place",
+   "surface": "Vietnamese",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Vietnamese",
+   "type": "place",
+   "surface": "Vietnamese",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Thai",
+   "type": "place",
+   "surface": "Thai",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Thai",
+   "type": "place",
+   "surface": "Thai",
+   "ts": "38:48"
+  },
+  {
+   "canonical": "Thai",
+   "type": "place",
+   "surface": "Thai",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "Nampla Prick",
+   "type": "ingredient",
+   "surface": "Nampla Prick",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "40:07"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Vietnam",
+   "type": "place",
+   "surface": "Vietnam",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "Vietnam",
+   "type": "place",
+   "surface": "Vietnam",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Vietnam",
+   "type": "place",
+   "surface": "Vietnam",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Vietnam",
+   "type": "place",
+   "surface": "Vietnam",
+   "ts": "48:29"
+  },
+  {
+   "canonical": "Andrew",
+   "type": "person",
+   "surface": "Andrew",
+   "ts": "41:49"
+  },
+  {
+   "canonical": "Andrew",
+   "type": "person",
+   "surface": "Andrew",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "Mega Chef Blue",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "Mega Chef Blue",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "mega chef blue",
+   "ts": "47:27"
+  },
+  {
+   "canonical": "tin fish sauce",
+   "type": "ingredient",
+   "surface": "tin fish sauce",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "Vietnamese people",
+   "type": "place",
+   "surface": "Vietnamese people",
+   "ts": "38:48"
+  },
+  {
+   "canonical": "Vietnamese people",
+   "type": "place",
+   "surface": "Vietnamese people",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Vietnamese people",
+   "type": "place",
+   "surface": "Vietnamese people",
+   "ts": "42:40"
+  },
+  {
+   "canonical": "Costco",
+   "type": "place",
+   "surface": "Costco's",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Lee Sandwich grocery stores",
+   "type": "place",
+   "surface": "Lee Sandwich grocery stores",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "Bay Area",
+   "type": "place",
+   "surface": "Bay Area",
+   "ts": "42:00"
+  },
+  {
+   "canonical": "41 nitrogen",
+   "type": "ingredient",
+   "surface": "41 nitrogen",
+   "ts": "42:31"
+  },
+  {
+   "canonical": "Danny",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Danny",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "Danny",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "Sun Island",
+   "type": "place",
+   "surface": "Sun Island",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "Dear Mom",
+   "type": "ingredient",
+   "surface": "Dear Mom",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Dear Mom",
+   "type": "ingredient",
+   "surface": "Dear Mom",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "Dear Mom",
+   "type": "ingredient",
+   "surface": "dear mom",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "American anchovies",
+   "type": "ingredient",
+   "surface": "American anchovies",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "American anchovies",
+   "type": "ingredient",
+   "surface": "American anchovies",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "American anchovies",
+   "type": "ingredient",
+   "surface": "American anchovies",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "38:48"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "40:23"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "43:49"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "44:44"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "47:06"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "47:27"
+  },
+  {
+   "canonical": "fish sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "48:06"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "Mega Chef Blue",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "Mega Chef Blue",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "mega chef blue",
+   "ts": "47:27"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "46:27"
+  },
+  {
+   "canonical": "apple juice",
+   "type": "ingredient",
+   "surface": "apple juice",
+   "ts": "46:27"
+  },
+  {
+   "canonical": "cucumber",
+   "type": "ingredient",
+   "surface": "cucumbers",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "cucumber",
+   "type": "ingredient",
+   "surface": "cucumbers",
+   "ts": "46:08"
+  },
+  {
+   "canonical": "cracker",
+   "type": "ingredient",
+   "surface": "crackers",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "50:50"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Dennis",
+   "type": "person",
+   "surface": "Dennis",
+   "ts": "55:26"
+  },
+  {
+   "canonical": "Danny",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Danny",
+   "type": "person",
+   "surface": "Danny",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:42"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "50:50"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "53:03"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "53:26"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "ingredient",
+   "surface": "red boat",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "Gung Fam",
+   "type": "place",
+   "surface": "Gung Fam",
+   "ts": "53:26"
+  },
+  {
+   "canonical": "Fukuok Island",
+   "type": "place",
+   "surface": "Fukuok Island",
+   "ts": "53:26"
+  },
+  {
+   "canonical": "Fremont",
+   "type": "place",
+   "surface": "Fremont",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "53:44"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "54:01"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "55:09"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "55:26"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "57:38"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "59:08"
+  },
+  {
+   "canonical": "Anchovy",
+   "type": "ingredient",
+   "surface": "anchovy",
+   "ts": "48:49"
+  },
+  {
+   "canonical": "Anchovy",
+   "type": "ingredient",
+   "surface": "anchovy",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "48:49"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "49:45"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "50:24"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:49"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:59"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "57:21"
+  },
+  {
+   "canonical": "Nitrogen",
+   "type": "ingredient",
+   "surface": "N",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "51:22"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "50:24"
+  },
+  {
+   "canonical": "Katsobushi",
+   "type": "ingredient",
+   "surface": "katsobushi",
+   "ts": "50:50"
+  },
+  {
+   "canonical": "Mega Chef Blue",
+   "type": "ingredient",
+   "surface": "Mega Chef Blue",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Mega Chef Brown",
+   "type": "ingredient",
+   "surface": "Mega Chef Brown",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Apple",
+   "type": "place",
+   "surface": "Apple",
+   "ts": "53:44"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "50:50"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "53:03"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "53:26"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "54:08"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Red Boat",
+   "type": "place",
+   "surface": "red boat",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "Main Garum",
+   "type": "ingredient",
+   "surface": "main garum",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Main Garum",
+   "type": "ingredient",
+   "surface": "main garum",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "58:53"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "53:44"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "54:01"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "55:09"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "55:26"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "57:38"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "59:08"
+  },
+  {
+   "canonical": "Ishiri",
+   "type": "ingredient",
+   "surface": "ishiri",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Ishiri",
+   "type": "ingredient",
+   "surface": "ishiri",
+   "ts": "58:35"
+  },
+  {
+   "canonical": "Ayu",
+   "type": "ingredient",
+   "surface": "Ayu",
+   "ts": "58:35"
+  },
+  {
+   "canonical": "Red Bow",
+   "type": "place",
+   "surface": "Red Bow",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Mitica",
+   "type": "place",
+   "surface": "Mitica",
+   "ts": "58:53"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "57:38"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "57:58"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "58:14"
+  },
+  {
+   "canonical": "Eel",
+   "type": "ingredient",
+   "surface": "eel",
+   "ts": "56:02"
+  },
+  {
+   "canonical": "Eel",
+   "type": "ingredient",
+   "surface": "eel",
+   "ts": "56:11"
+  },
+  {
+   "canonical": "Eel",
+   "type": "ingredient",
+   "surface": "eel",
+   "ts": "58:30"
+  },
+  {
+   "canonical": "Eel",
+   "type": "ingredient",
+   "surface": "eel",
+   "ts": "58:35"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "Di Palos",
+   "type": "place",
+   "surface": "Di Paolo",
+   "ts": "59:34"
+  },
+  {
+   "canonical": "Kolatura",
+   "type": "ingredient",
+   "surface": "Kolatura",
+   "ts": "1:00:56"
+  },
+  {
+   "canonical": "Kolatura",
+   "type": "ingredient",
+   "surface": "Kolatura",
+   "ts": "1:01:14"
+  },
+  {
+   "canonical": "Yondu",
+   "type": "ingredient",
+   "surface": "yondu",
+   "ts": "1:00:56"
+  },
+  {
+   "canonical": "Yondu",
+   "type": "ingredient",
+   "surface": "yondu",
+   "ts": "1:02:09"
+  },
+  {
+   "canonical": "Yondu",
+   "type": "ingredient",
+   "surface": "yondu",
+   "ts": "1:02:15"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "59:16"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "59:50"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "1:01:14"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "1:01:55"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "1:03:51"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "1:04:02"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "1:04:12"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "1:02:24"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "1:03:03"
+  },
+  {
+   "canonical": "Squid",
+   "type": "ingredient",
+   "surface": "squid",
+   "ts": "1:03:11"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:00:49"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:03:25"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "1:04:23"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "1:02:34"
+  },
+  {
+   "canonical": "Beacon",
+   "type": "place",
+   "surface": "Beacon",
+   "ts": "1:04:58"
+  },
+  {
+   "canonical": "Beacon",
+   "type": "place",
+   "surface": "Beacon",
+   "ts": "1:05:10"
+  },
+  {
+   "canonical": "Humana",
+   "type": "place",
+   "surface": "Humana",
+   "ts": "1:05:10"
+  },
+  {
+   "canonical": "Humana",
+   "type": "place",
+   "surface": "Humana",
+   "ts": "1:05:24"
+  },
+  {
+   "canonical": "Humana",
+   "type": "place",
+   "surface": "Humana",
+   "ts": "1:05:37"
+  },
+  {
+   "canonical": "ACast",
+   "type": "place",
+   "surface": "ACAST",
+   "ts": "1:05:37"
+  },
+  {
+   "canonical": "ACast",
+   "type": "place",
+   "surface": "ACast",
+   "ts": "1:06:22"
+  }
+ ]
+}

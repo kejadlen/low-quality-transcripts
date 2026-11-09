@@ -1,0 +1,2071 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "Quinn Fuse",
+   "type": "person",
+   "surface": "Quinn Fuse",
+   "ts": "0:25"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:35"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:49"
+  },
+  {
+   "canonical": "Hanamakali",
+   "type": "person",
+   "surface": "Hanamakali",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Alice Jun",
+   "type": "person",
+   "surface": "Alice Jun",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "Makali",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "dry January",
+   "type": "place",
+   "surface": "dry January",
+   "ts": "2:02"
+  },
+  {
+   "canonical": "dry January",
+   "type": "place",
+   "surface": "dry January",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "Bar Contra",
+   "type": "place",
+   "surface": "Bar Contra",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "New Stand Studio",
+   "type": "place",
+   "surface": "New Stand Studio",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "demo",
+   "type": "place",
+   "surface": "demo",
+   "ts": "2:55"
+  },
+  {
+   "canonical": "demo",
+   "type": "place",
+   "surface": "demo",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Chef Q",
+   "type": "person",
+   "surface": "Chef Q",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "Dina",
+   "type": "person",
+   "surface": "Dina",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "Julia Turtion",
+   "type": "person",
+   "surface": "Julia Turtion",
+   "ts": "4:19"
+  },
+  {
+   "canonical": "kimchi",
+   "type": "ingredient",
+   "surface": "kimchi",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "steak chicken",
+   "type": "ingredient",
+   "surface": "steak chicken",
+   "ts": "4:38"
+  },
+  {
+   "canonical": "rice bran",
+   "type": "ingredient",
+   "surface": "rice bran",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "rice bran",
+   "type": "ingredient",
+   "surface": "rice bran",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "wheat bran",
+   "type": "ingredient",
+   "surface": "wheat bran",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "rice polisher",
+   "type": "equipment",
+   "surface": "rice polisher",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "8:42"
+  },
+  {
+   "canonical": "starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "yogurt culture",
+   "type": "ingredient",
+   "surface": "yogurt culture",
+   "ts": "8:42"
+  },
+  {
+   "canonical": "rice-based Korean alcoholic beverage",
+   "type": "ingredient",
+   "surface": "Makali",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "butter beans",
+   "type": "ingredient",
+   "surface": "butter beans",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "butter beans",
+   "type": "ingredient",
+   "surface": "butter beans",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "wax beans",
+   "type": "ingredient",
+   "surface": "Wax beans",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "bacon",
+   "type": "ingredient",
+   "surface": "bacon",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "bacon",
+   "type": "ingredient",
+   "surface": "bacon",
+   "ts": "4:12"
+  },
+  {
+   "canonical": "parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "parsley",
+   "type": "ingredient",
+   "surface": "parsley",
+   "ts": "4:12"
+  },
+  {
+   "canonical": "vital wheat gluten",
+   "type": "ingredient",
+   "surface": "vital wheat gluten",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "6:41"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "8:42"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "starter",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "stone mill",
+   "type": "equipment",
+   "surface": "stone mill",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "roller mill",
+   "type": "equipment",
+   "surface": "roller mill",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "extrusion",
+   "type": "technique",
+   "surface": "extraction",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "baking",
+   "type": "technique",
+   "surface": "baking",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "Makali",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "New Stand Studio",
+   "type": "place",
+   "surface": "New Stand Studio",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Bar Contra",
+   "type": "place",
+   "surface": "Bar Contra",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "demo",
+   "type": "place",
+   "surface": "demo",
+   "ts": "2:55"
+  },
+  {
+   "canonical": "demo",
+   "type": "place",
+   "surface": "demo",
+   "ts": "3:03"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "Wiley Dufrey",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "9:49"
+  },
+  {
+   "canonical": "Nishiki Brown",
+   "type": "ingredient",
+   "surface": "Nishiki Brown",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Sammy Brown",
+   "type": "ingredient",
+   "surface": "Sammy Brown",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Oracle salmon",
+   "type": "ingredient",
+   "surface": "Oracle salmon",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Osai Endelin",
+   "type": "person",
+   "surface": "Osai Endelin",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "Black Flower Kitchen",
+   "type": "place",
+   "surface": "Black Flower Kitchen",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "sushi",
+   "type": "ingredient",
+   "surface": "sushi",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "sushi",
+   "type": "ingredient",
+   "surface": "sushi",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "rice polisher",
+   "type": "equipment",
+   "surface": "rice polisher",
+   "ts": "9:49"
+  },
+  {
+   "canonical": "brown rice",
+   "type": "ingredient",
+   "surface": "brown rice",
+   "ts": "10:02"
+  },
+  {
+   "canonical": "jasmine rice",
+   "type": "ingredient",
+   "surface": "jasmine rice",
+   "ts": "10:02"
+  },
+  {
+   "canonical": "rice miller",
+   "type": "equipment",
+   "surface": "rice miller",
+   "ts": "10:02"
+  },
+  {
+   "canonical": "semi-brown rice",
+   "type": "ingredient",
+   "surface": "semi-brown",
+   "ts": "10:21"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "Makoli",
+   "type": "ingredient",
+   "surface": "makuli",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "Makoli",
+   "type": "ingredient",
+   "surface": "makuli",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Makoli",
+   "type": "ingredient",
+   "surface": "makuli",
+   "ts": "16:47"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "nuduk",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "16:47"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Aspergillus",
+   "type": "ingredient",
+   "surface": "aspergillus",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Lactobacillus",
+   "type": "ingredient",
+   "surface": "lactobacillus",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Undor",
+   "type": "place",
+   "surface": "undor",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Rice-based spirits",
+   "type": "ingredient",
+   "surface": "rice-based spirits",
+   "ts": "14:19"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "13:45"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "Microbial culture",
+   "type": "technique",
+   "surface": "starter",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Microbial culture",
+   "type": "technique",
+   "surface": "starter",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Microbial culture",
+   "type": "technique",
+   "surface": "microbially diverse starter",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Korean breweries",
+   "type": "place",
+   "surface": "breweries",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "South Korea",
+   "type": "place",
+   "surface": "South Korea",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "9:49"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "10:02"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "11:03"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "14:19"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "15:02"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Tapioca starches",
+   "type": "ingredient",
+   "surface": "tapioca starches",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Bleached wheat flowers",
+   "type": "ingredient",
+   "surface": "bleached wheat flowers",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Enzymes",
+   "type": "ingredient",
+   "surface": "refined enzymes",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Yeast inoculates",
+   "type": "ingredient",
+   "surface": "yeast inoculates",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Aspartame",
+   "type": "ingredient",
+   "surface": "aspartan",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Sugarcane",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Starch conversion",
+   "type": "technique",
+   "surface": "conversion of starch to sugar",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Alcohol fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "18:56"
+  },
+  {
+   "canonical": "Microbial diversity",
+   "type": "technique",
+   "surface": "microbially diverse starter",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Polyculture",
+   "type": "technique",
+   "surface": "polyculture",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Wild yeast",
+   "type": "ingredient",
+   "surface": "wild yeast",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Wild fungi",
+   "type": "ingredient",
+   "surface": "wild fungi",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Fermentation starter",
+   "type": "equipment",
+   "surface": "starter",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Fermentation starter",
+   "type": "equipment",
+   "surface": "starter",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Fermentation starter",
+   "type": "equipment",
+   "surface": "starter",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Curing process",
+   "type": "technique",
+   "surface": "curing process",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Fermentation time",
+   "type": "technique",
+   "surface": "production process",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Fermentation temperature",
+   "type": "technique",
+   "surface": "brewed hot",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Fermentation duration",
+   "type": "technique",
+   "surface": "three to six months production process",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Fermentation environment",
+   "type": "place",
+   "surface": "open air",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "Fermentation balance",
+   "type": "technique",
+   "surface": "balance",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "Fermentation style",
+   "type": "technique",
+   "surface": "style",
+   "ts": "14:19"
+  },
+  {
+   "canonical": "Fermentation style",
+   "type": "technique",
+   "surface": "style",
+   "ts": "16:02"
+  },
+  {
+   "canonical": "Fermentation style",
+   "type": "technique",
+   "surface": "style",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "Fermentation acidity",
+   "type": "technique",
+   "surface": "high acid",
+   "ts": "19:41"
+  },
+  {
+   "canonical": "Fermentation filtration",
+   "type": "technique",
+   "surface": "filter",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Fermentation adjuncts",
+   "type": "ingredient",
+   "surface": "adjuncts",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Fermentation origin",
+   "type": "ingredient",
+   "surface": "rice from",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Hanamakali",
+   "type": "place",
+   "surface": "Hanamakali",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "nuduk",
+   "ts": "21:17"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "Nuduk",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "Nuduk",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "sou",
+   "type": "place",
+   "surface": "sou",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "sou",
+   "type": "place",
+   "surface": "sou",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "mokli",
+   "type": "ingredient",
+   "surface": "mokli",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "potju",
+   "type": "ingredient",
+   "surface": "pot ju",
+   "ts": "26:03"
+  },
+  {
+   "canonical": "potju",
+   "type": "ingredient",
+   "surface": "pochu",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "potju",
+   "type": "ingredient",
+   "surface": "pochu",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "potju",
+   "type": "ingredient",
+   "surface": "pochu",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "chrysanthemum",
+   "type": "ingredient",
+   "surface": "chrysanthemum",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "hydrangea",
+   "type": "ingredient",
+   "surface": "hydrangea",
+   "ts": "24:24"
+  },
+  {
+   "canonical": "sour cherry",
+   "type": "ingredient",
+   "surface": "sour cherries",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "sour cherry",
+   "type": "ingredient",
+   "surface": "sour cherry",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "clarify",
+   "type": "technique",
+   "surface": "clarify",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "clarify",
+   "type": "technique",
+   "surface": "clarified",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "co-ferment",
+   "type": "technique",
+   "surface": "co-ferments",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "ferment",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "ferment",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "ferment",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "ferment",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "chongju",
+   "type": "ingredient",
+   "surface": "chongju",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "yakchu",
+   "type": "ingredient",
+   "surface": "yakchu",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Rose Hill Farm",
+   "type": "place",
+   "surface": "Rose Hill Farm",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "25:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "28:10"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "34:13"
+  },
+  {
+   "canonical": "Mocktail",
+   "type": "ingredient",
+   "surface": "mockly",
+   "ts": "31:40"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurize",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurized",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurize",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "Pasteurization",
+   "type": "technique",
+   "surface": "pasteurize",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Steam",
+   "type": "equipment",
+   "surface": "steam",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Steam",
+   "type": "equipment",
+   "surface": "steam",
+   "ts": "38:59"
+  },
+  {
+   "canonical": "Steam",
+   "type": "equipment",
+   "surface": "steam",
+   "ts": "39:54"
+  },
+  {
+   "canonical": "Water Bath",
+   "type": "equipment",
+   "surface": "water baths",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "Acidity",
+   "type": "ingredient",
+   "surface": "acidity",
+   "ts": "32:47"
+  },
+  {
+   "canonical": "ABV",
+   "type": "ingredient",
+   "surface": "ABVs",
+   "ts": "34:13"
+  },
+  {
+   "canonical": "Korean Grocery Stores",
+   "type": "place",
+   "surface": "Korean grocery stores",
+   "ts": "31:04"
+  },
+  {
+   "canonical": "KMS Imports",
+   "type": "place",
+   "surface": "KMS imports",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "Kim Som",
+   "type": "person",
+   "surface": "Kim Som",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "Kung Moon Kim",
+   "type": "person",
+   "surface": "Kung Moon Kim",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "30:31"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "31:04"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "Georgia",
+   "type": "place",
+   "surface": "Georgia",
+   "ts": "32:00"
+  },
+  {
+   "canonical": "John Lynn",
+   "type": "person",
+   "surface": "John",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "John Lynn",
+   "type": "person",
+   "surface": "John",
+   "ts": "35:58"
+  },
+  {
+   "canonical": "Pollet Farms",
+   "type": "place",
+   "surface": "Pollet Farms",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "35:58"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "rice wine",
+   "type": "ingredient",
+   "surface": "rice wine",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "rice wine",
+   "type": "ingredient",
+   "surface": "rice-based wines",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "rice wine",
+   "type": "ingredient",
+   "surface": "rice wine",
+   "ts": "35:58"
+  },
+  {
+   "canonical": "sake",
+   "type": "ingredient",
+   "surface": "soot",
+   "ts": "35:58"
+  },
+  {
+   "canonical": "sweet white rice",
+   "type": "ingredient",
+   "surface": "sweet and and short grain",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "sweet white rice",
+   "type": "ingredient",
+   "surface": "sweet white rice",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "sweet white rice",
+   "type": "ingredient",
+   "surface": "sweet white rice",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "medium grain white rice",
+   "type": "ingredient",
+   "surface": "medium grain white rice",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "medium grain white rice",
+   "type": "ingredient",
+   "surface": "medium grain white rice",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "starch content",
+   "type": "ingredient",
+   "surface": "starch content",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Sauvignon yeast",
+   "type": "ingredient",
+   "surface": "Sauvignon yeast",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Californian Farmers",
+   "type": "place",
+   "surface": "Californian farmers",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "Dry Farming",
+   "type": "technique",
+   "surface": "dry farming",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "Sweet Rice",
+   "type": "ingredient",
+   "surface": "sweet rice",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Medium Grain White Rice",
+   "type": "ingredient",
+   "surface": "medium grain white rice",
+   "ts": "36:24"
+  },
+  {
+   "canonical": "Medium Grain White Rice",
+   "type": "ingredient",
+   "surface": "medium grain white rice",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "36:44"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "39:54"
+  },
+  {
+   "canonical": "Methane",
+   "type": "ingredient",
+   "surface": "methane",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "Alcohol",
+   "type": "ingredient",
+   "surface": "alcohol",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "39:54"
+  },
+  {
+   "canonical": "Aroma",
+   "type": "technique",
+   "surface": "aromas",
+   "ts": "38:25"
+  },
+  {
+   "canonical": "Peksuji",
+   "type": "technique",
+   "surface": "peksuki",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Pombok",
+   "type": "technique",
+   "surface": "pombok",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Iwa Ju",
+   "type": "ingredient",
+   "surface": "iwa ju",
+   "ts": "39:54"
+  },
+  {
+   "canonical": "Porridge",
+   "type": "technique",
+   "surface": "porridge",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Mitsu",
+   "type": "technique",
+   "surface": "mitsu",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "Pied de Couve",
+   "type": "technique",
+   "surface": "pied de couve",
+   "ts": "39:13"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "45:50"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "48:21"
+  },
+  {
+   "canonical": "Jordan",
+   "type": "person",
+   "surface": "Jordan",
+   "ts": "48:27"
+  },
+  {
+   "canonical": "Jordan",
+   "type": "person",
+   "surface": "Jordan",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "46:21"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Aspergillus",
+   "type": "ingredient",
+   "surface": "aspergilla",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Aspergillus",
+   "type": "ingredient",
+   "surface": "aspergillus",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Aspergillus",
+   "type": "ingredient",
+   "surface": "aspergillus",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Meju",
+   "type": "ingredient",
+   "surface": "meju",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Meju",
+   "type": "ingredient",
+   "surface": "meju",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "44:53"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "45:50"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "46:10"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Takchu",
+   "type": "ingredient",
+   "surface": "takchu",
+   "ts": "43:18"
+  },
+  {
+   "canonical": "Takchu",
+   "type": "ingredient",
+   "surface": "takchu",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Takchu",
+   "type": "ingredient",
+   "surface": "takchu",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Takchu",
+   "type": "ingredient",
+   "surface": "takchu",
+   "ts": "47:09"
+  },
+  {
+   "canonical": "Mockley",
+   "type": "ingredient",
+   "surface": "mockley",
+   "ts": "46:31"
+  },
+  {
+   "canonical": "Mock Eight",
+   "type": "ingredient",
+   "surface": "mock eight",
+   "ts": "47:48"
+  },
+  {
+   "canonical": "Sediment",
+   "type": "ingredient",
+   "surface": "sediment",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Sediment",
+   "type": "ingredient",
+   "surface": "sediment",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Sediment",
+   "type": "ingredient",
+   "surface": "sediment",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Glucose",
+   "type": "ingredient",
+   "surface": "glucose",
+   "ts": "46:31"
+  },
+  {
+   "canonical": "Glucose",
+   "type": "ingredient",
+   "surface": "glucose",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Sucrose",
+   "type": "ingredient",
+   "surface": "sucrose",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Fructose",
+   "type": "ingredient",
+   "surface": "fructose",
+   "ts": "46:54"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "42:05"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "40:37"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "41:13"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "Clarification",
+   "type": "technique",
+   "surface": "clarification",
+   "ts": "43:58"
+  },
+  {
+   "canonical": "Koji Spores",
+   "type": "ingredient",
+   "surface": "koji spores",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Japanese Sake Industry",
+   "type": "place",
+   "surface": "Japanese sake industry",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Korean Meju",
+   "type": "ingredient",
+   "surface": "meju",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Korean Meju",
+   "type": "ingredient",
+   "surface": "meju",
+   "ts": "49:07"
+  },
+  {
+   "canonical": "Traditional Jang Production",
+   "type": "place",
+   "surface": "traditional jang production",
+   "ts": "48:34"
+  },
+  {
+   "canonical": "Hanamakoli",
+   "type": "place",
+   "surface": "Hanamakoli",
+   "ts": "54:26"
+  },
+  {
+   "canonical": "Hanamakoli",
+   "type": "place",
+   "surface": "Hanamakley",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "makali",
+   "ts": "55:38"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "Makali",
+   "ts": "56:16"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "Makali",
+   "ts": "58:11"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "Makali",
+   "ts": "58:59"
+  },
+  {
+   "canonical": "Makali",
+   "type": "ingredient",
+   "surface": "makali",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "nuduk",
+   "ts": "50:29"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "nuduk",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Nuduk",
+   "type": "ingredient",
+   "surface": "nuduk",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "50:29"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Saison",
+   "type": "ingredient",
+   "surface": "Saison",
+   "ts": "58:11"
+  },
+  {
+   "canonical": "Lambic",
+   "type": "ingredient",
+   "surface": "lambic",
+   "ts": "58:11"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "natural wine",
+   "ts": "58:11"
+  },
+  {
+   "canonical": "John Lim",
+   "type": "person",
+   "surface": "John",
+   "ts": "54:26"
+  },
+  {
+   "canonical": "John Lim",
+   "type": "person",
+   "surface": "John",
+   "ts": "56:16"
+  },
+  {
+   "canonical": "John Lim",
+   "type": "person",
+   "surface": "John",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "John Lim",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don Lee",
+   "ts": "55:38"
+  },
+  {
+   "canonical": "Alice Joan",
+   "type": "person",
+   "surface": "Alice Joan",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "DuPont",
+   "type": "place",
+   "surface": "DuPont",
+   "ts": "58:29"
+  },
+  {
+   "canonical": "Greenpoint",
+   "type": "place",
+   "surface": "Greenpoint",
+   "ts": "58:29"
+  },
+  {
+   "canonical": "Hanosoji 60",
+   "type": "ingredient",
+   "surface": "Hanosoji 60",
+   "ts": "58:50"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "54:03"
+  },
+  {
+   "canonical": "Incheon",
+   "type": "place",
+   "surface": "Incheon",
+   "ts": "56:16"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "50:29"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "52:44"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "54:03"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "54:26"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "55:38"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "1:00:01"
+  },
+  {
+   "canonical": "Korean rice wine",
+   "type": "ingredient",
+   "surface": "Korean rice wine",
+   "ts": "57:03"
+  },
+  {
+   "canonical": "Korean rice wine",
+   "type": "ingredient",
+   "surface": "Korean rice wine",
+   "ts": "59:17"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "50:29"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "56:16"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "57:51"
+  },
+  {
+   "canonical": "Monoculture",
+   "type": "technique",
+   "surface": "monoculture",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "58:50"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "50:29"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "51:11"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "54:03"
+  },
+  {
+   "canonical": "Brewing",
+   "type": "technique",
+   "surface": "brewing",
+   "ts": "56:16"
+  },
+  {
+   "canonical": "Homebrewing",
+   "type": "technique",
+   "surface": "homebrewing",
+   "ts": "55:38"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "50:29"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "53:27"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "57:51"
+  },
+  {
+   "canonical": "Fungi",
+   "type": "ingredient",
+   "surface": "fungi",
+   "ts": "51:53"
+  },
+  {
+   "canonical": "Fungi",
+   "type": "ingredient",
+   "surface": "fungi",
+   "ts": "57:51"
+  },
+  {
+   "canonical": "Enzymes",
+   "type": "ingredient",
+   "surface": "enzymes",
+   "ts": "57:51"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "54:03"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "Los Angeles",
+   "ts": "58:59"
+  }
+ ]
+}

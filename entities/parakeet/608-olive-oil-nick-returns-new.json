@@ -1,0 +1,1855 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick Coleman",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick Coleman",
+   "ts": "3:50"
+  },
+  {
+   "canonical": "Nick Coleman",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:42"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Temperance Wine Bar",
+   "type": "place",
+   "surface": "temperance wine bar",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Temperance Wine Bar",
+   "type": "place",
+   "surface": "Temperance Wine Bar",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "agromegally",
+   "type": "technique",
+   "surface": "Acromegally",
+   "ts": "1:51"
+  },
+  {
+   "canonical": "HGH",
+   "type": "ingredient",
+   "surface": "HGH",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "HGH",
+   "type": "ingredient",
+   "surface": "HGH",
+   "ts": "2:17"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "6:29"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "cream",
+   "type": "ingredient",
+   "surface": "cream",
+   "ts": "9:00"
+  },
+  {
+   "canonical": "fish stock",
+   "type": "ingredient",
+   "surface": "fish stock",
+   "ts": "6:29"
+  },
+  {
+   "canonical": "leeks",
+   "type": "ingredient",
+   "surface": "leaks",
+   "ts": "6:29"
+  },
+  {
+   "canonical": "sauce",
+   "type": "technique",
+   "surface": "sauce",
+   "ts": "6:29"
+  },
+  {
+   "canonical": "sauce",
+   "type": "technique",
+   "surface": "sauce",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "2:58"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "4:13"
+  },
+  {
+   "canonical": "Joni Mitchell",
+   "type": "person",
+   "surface": "Joni Mitchell",
+   "ts": "3:06"
+  },
+  {
+   "canonical": "James Beard Award",
+   "type": "place",
+   "surface": "James Beard award",
+   "ts": "8:36"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "9:19"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "14:28"
+  },
+  {
+   "canonical": "Vichy Sois",
+   "type": "ingredient",
+   "surface": "Vichy Soise",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "Vichy Sois",
+   "type": "ingredient",
+   "surface": "Vichy Soise",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Vichy Sois",
+   "type": "ingredient",
+   "surface": "Vichy Swaz",
+   "ts": "10:37"
+  },
+  {
+   "canonical": "Vichy Sois",
+   "type": "ingredient",
+   "surface": "Vichy soif",
+   "ts": "10:46"
+  },
+  {
+   "canonical": "Borscht",
+   "type": "ingredient",
+   "surface": "borscht",
+   "ts": "10:46"
+  },
+  {
+   "canonical": "Borscht",
+   "type": "ingredient",
+   "surface": "borscht",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "Foie Gras",
+   "type": "ingredient",
+   "surface": "Foie gras",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Salmorejo",
+   "type": "ingredient",
+   "surface": "salmorejo",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "Gazpacho",
+   "type": "ingredient",
+   "surface": "gazpacho",
+   "ts": "11:19"
+  },
+  {
+   "canonical": "Ritz Carlton",
+   "type": "place",
+   "surface": "Ritz Carlton",
+   "ts": "10:15"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "12:05"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "13:31"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "12:37"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "13:07"
+  },
+  {
+   "canonical": "Creme Fra\u00eeche",
+   "type": "ingredient",
+   "surface": "creme frage",
+   "ts": "12:05"
+  },
+  {
+   "canonical": "Creme Fra\u00eeche",
+   "type": "ingredient",
+   "surface": "creme fra\u00eeche",
+   "ts": "12:14"
+  },
+  {
+   "canonical": "Borscht",
+   "type": "ingredient",
+   "surface": "borscht",
+   "ts": "10:46"
+  },
+  {
+   "canonical": "Borscht",
+   "type": "ingredient",
+   "surface": "borscht",
+   "ts": "11:31"
+  },
+  {
+   "canonical": "Borscht",
+   "type": "ingredient",
+   "surface": "white borsche",
+   "ts": "11:44"
+  },
+  {
+   "canonical": "Sour Cream",
+   "type": "ingredient",
+   "surface": "sour cream",
+   "ts": "11:44"
+  },
+  {
+   "canonical": "Sour Cream",
+   "type": "ingredient",
+   "surface": "sour cream",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Pen Clickers",
+   "type": "place",
+   "surface": "Pen clickers",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "Drix",
+   "type": "ingredient",
+   "surface": "Drix",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Deitch",
+   "type": "place",
+   "surface": "Deitch",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Dita's",
+   "type": "place",
+   "surface": "Dita's",
+   "ts": "14:46"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Fritos",
+   "ts": "15:32"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Fritos",
+   "ts": "15:39"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Fritos",
+   "ts": "15:56"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Frito",
+   "ts": "16:09"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Fritos",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Fritos",
+   "ts": "16:32"
+  },
+  {
+   "canonical": "Frito Lay",
+   "type": "ingredient",
+   "surface": "Fritos",
+   "ts": "16:39"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "19:19"
+  },
+  {
+   "canonical": "corona",
+   "type": "equipment",
+   "surface": "corona",
+   "ts": "18:03"
+  },
+  {
+   "canonical": "Massa",
+   "type": "ingredient",
+   "surface": "Massa",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "15:39"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "masa",
+   "type": "ingredient",
+   "surface": "masa",
+   "ts": "17:37"
+  },
+  {
+   "canonical": "Naruk",
+   "type": "ingredient",
+   "surface": "Naruk",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Naruk",
+   "type": "ingredient",
+   "surface": "Naruk",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "Mockly",
+   "type": "ingredient",
+   "surface": "mockly",
+   "ts": "19:38"
+  },
+  {
+   "canonical": "Mockly",
+   "type": "ingredient",
+   "surface": "mockly",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Mockly",
+   "type": "ingredient",
+   "surface": "mockly",
+   "ts": "20:58"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "20:13"
+  },
+  {
+   "canonical": "Rich She",
+   "type": "person",
+   "surface": "Rich She",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Flavor Freaks.net",
+   "type": "place",
+   "surface": "Flavor Freaks.net",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "21:36"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Puff Tortillas",
+   "type": "ingredient",
+   "surface": "puff tortillas",
+   "ts": "23:08"
+  },
+  {
+   "canonical": "Breadtopia",
+   "type": "place",
+   "surface": "Breadtopia",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Breadtopia",
+   "type": "place",
+   "surface": "breadtopia",
+   "ts": "24:42"
+  },
+  {
+   "canonical": "Sonoran white wheat",
+   "type": "ingredient",
+   "surface": "Sonoran white wheat",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Sonoran white wheat",
+   "type": "ingredient",
+   "surface": "Sonor and white",
+   "ts": "24:42"
+  },
+  {
+   "canonical": "Sonoran white wheat",
+   "type": "ingredient",
+   "surface": "Sonoran white wheat",
+   "ts": "27:22"
+  },
+  {
+   "canonical": "Yakora wheat",
+   "type": "ingredient",
+   "surface": "Yakora wheat",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Flour mill",
+   "type": "equipment",
+   "surface": "mill",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortillas",
+   "ts": "23:08"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortillas",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortillas",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "26:59"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortillas",
+   "ts": "27:22"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Chipati",
+   "type": "technique",
+   "surface": "chipati",
+   "ts": "27:22"
+  },
+  {
+   "canonical": "Chipati",
+   "type": "technique",
+   "surface": "chipati",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Tortilla press",
+   "type": "equipment",
+   "surface": "tortilla press",
+   "ts": "28:19"
+  },
+  {
+   "canonical": "Griddle",
+   "type": "equipment",
+   "surface": "griddle",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Griddle",
+   "type": "equipment",
+   "surface": "griddle",
+   "ts": "28:32"
+  },
+  {
+   "canonical": "Olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "27:22"
+  },
+  {
+   "canonical": "Olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "White rice",
+   "type": "ingredient",
+   "surface": "white rice",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "White rice",
+   "type": "ingredient",
+   "surface": "white rice",
+   "ts": "26:34"
+  },
+  {
+   "canonical": "Clay balls",
+   "type": "ingredient",
+   "surface": "clay balls",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Clay balls",
+   "type": "ingredient",
+   "surface": "clay balls",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "Entilter",
+   "type": "technique",
+   "surface": "entilter",
+   "ts": "25:22"
+  },
+  {
+   "canonical": "Ridgewood Pork Store",
+   "type": "place",
+   "surface": "Ridgewood Pork Store",
+   "ts": "29:44"
+  },
+  {
+   "canonical": "Ridgewood Pork Store",
+   "type": "place",
+   "surface": "Ridgewood pork store",
+   "ts": "29:53"
+  },
+  {
+   "canonical": "fermented cabbage",
+   "type": "ingredient",
+   "surface": "fermented cabbage",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "fermented cabbage",
+   "type": "ingredient",
+   "surface": "fermented cabbage",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "31:30"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:49"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:56"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "33:10"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "31:05"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "Stuffed cabbage",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:30"
+  },
+  {
+   "canonical": "pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "33:10"
+  },
+  {
+   "canonical": "pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "31:30"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "31:49"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:14"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:49"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "32:56"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "33:10"
+  },
+  {
+   "canonical": "lasagna",
+   "type": "technique",
+   "surface": "lasagna",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "chili",
+   "type": "ingredient",
+   "surface": "chili",
+   "ts": "29:18"
+  },
+  {
+   "canonical": "chili",
+   "type": "ingredient",
+   "surface": "chili",
+   "ts": "33:10"
+  },
+  {
+   "canonical": "tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "33:10"
+  },
+  {
+   "canonical": "enchilada pie",
+   "type": "technique",
+   "surface": "enchilada pie",
+   "ts": "33:21"
+  },
+  {
+   "canonical": "nacho",
+   "type": "technique",
+   "surface": "nacho",
+   "ts": "33:41"
+  },
+  {
+   "canonical": "Jackie Peeps",
+   "type": "person",
+   "surface": "Jackie Peeps",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "Dental floss",
+   "type": "ingredient",
+   "surface": "dental floss",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "Dental floss",
+   "type": "ingredient",
+   "surface": "dental floss",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Dental floss",
+   "type": "ingredient",
+   "surface": "dental floss",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Truffle oil",
+   "type": "ingredient",
+   "surface": "Truffle oil",
+   "ts": "36:05"
+  },
+  {
+   "canonical": "Truffle oil",
+   "type": "ingredient",
+   "surface": "truffle oil",
+   "ts": "36:29"
+  },
+  {
+   "canonical": "Two four dithiapentane",
+   "type": "ingredient",
+   "surface": "Two four dithiapentane",
+   "ts": "36:10"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "35:56"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "Truffle",
+   "ts": "36:05"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "36:18"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "36:29"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "36:59"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "Truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "38:11"
+  },
+  {
+   "canonical": "Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "Parmigiano Reggiano",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "Massa",
+   "type": "ingredient",
+   "surface": "massa",
+   "ts": "34:05"
+  },
+  {
+   "canonical": "Piping bag",
+   "type": "equipment",
+   "surface": "piping bag",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "Pot",
+   "type": "equipment",
+   "surface": "pot",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "Dental floss tycoon",
+   "type": "person",
+   "surface": "dental floss tycoon",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Dan Tana",
+   "type": "place",
+   "surface": "Dan Tana",
+   "ts": "39:57"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "41:21"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "42:22"
+  },
+  {
+   "canonical": "Nick",
+   "type": "person",
+   "surface": "Nick",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Sciabica",
+   "type": "ingredient",
+   "surface": "Shabika",
+   "ts": "46:02"
+  },
+  {
+   "canonical": "Sciabica",
+   "type": "ingredient",
+   "surface": "Shabika",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "Olive Oil",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "42:46"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "46:02"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "48:04"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "48:43"
+  },
+  {
+   "canonical": "Oleo Secondo",
+   "type": "technique",
+   "surface": "Oleo Secondo",
+   "ts": "42:46"
+  },
+  {
+   "canonical": "Fustiness",
+   "type": "technique",
+   "surface": "Fustiness",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Fustiness",
+   "type": "technique",
+   "surface": "fustiness",
+   "ts": "46:50"
+  },
+  {
+   "canonical": "Frute Noir",
+   "type": "ingredient",
+   "surface": "Frute Noir",
+   "ts": "46:50"
+  },
+  {
+   "canonical": "Perilla",
+   "type": "ingredient",
+   "surface": "Perilla",
+   "ts": "47:21"
+  },
+  {
+   "canonical": "Grovenvine.com",
+   "type": "place",
+   "surface": "Grovenvine.com",
+   "ts": "48:37"
+  },
+  {
+   "canonical": "Southern Hemisphere",
+   "type": "place",
+   "surface": "Southern Hemisphere",
+   "ts": "48:43"
+  },
+  {
+   "canonical": "Chile",
+   "type": "place",
+   "surface": "Chile",
+   "ts": "48:43"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "41:37"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "Olive Leaf Extract",
+   "type": "ingredient",
+   "surface": "olive leaf extract",
+   "ts": "44:58"
+  },
+  {
+   "canonical": "Olipine",
+   "type": "ingredient",
+   "surface": "olipine",
+   "ts": "44:58"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Fiscoli",
+   "type": "technique",
+   "surface": "fiscoli",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Dinocciolate",
+   "type": "technique",
+   "surface": "dinocciolate",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "First Cold Pressed",
+   "type": "technique",
+   "surface": "first cold pressed",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "Nunez de Prado",
+   "type": "ingredient",
+   "surface": "Nunez de Prado",
+   "ts": "47:34"
+  },
+  {
+   "canonical": "Alonzo",
+   "type": "person",
+   "surface": "Alonzo",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Monte Olivo",
+   "type": "person",
+   "surface": "Monte Olivo",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Piqual Olive",
+   "type": "ingredient",
+   "surface": "piqual olive",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Piqual Olive",
+   "type": "ingredient",
+   "surface": "pequal",
+   "ts": "49:52"
+  },
+  {
+   "canonical": "Piqual Olive",
+   "type": "ingredient",
+   "surface": "pequal",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Susan Minot",
+   "type": "person",
+   "surface": "Susan Minot",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuges",
+   "ts": "50:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "49:52"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "51:19"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "51:45"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "52:04"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "54:24"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "54:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "55:23"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "55:57"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "57:46"
+  },
+  {
+   "canonical": "Oleocanthol",
+   "type": "ingredient",
+   "surface": "oleocanthol",
+   "ts": "52:04"
+  },
+  {
+   "canonical": "Ant Rubies",
+   "type": "ingredient",
+   "surface": "ant rubies",
+   "ts": "51:30"
+  },
+  {
+   "canonical": "Stracciatella",
+   "type": "ingredient",
+   "surface": "stracciatella",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Chilean",
+   "type": "place",
+   "surface": "Chilean",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Modern Method",
+   "type": "technique",
+   "surface": "modern method",
+   "ts": "50:41"
+  },
+  {
+   "canonical": "Modern Method",
+   "type": "technique",
+   "surface": "modern method",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Vacuum",
+   "type": "technique",
+   "surface": "vacuums",
+   "ts": "50:41"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "51:19"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "Olive",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "54:24"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "55:02"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "55:57"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "49:28"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "51:19"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "51:30"
+  },
+  {
+   "canonical": "Tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "Bread",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Bread",
+   "type": "ingredient",
+   "surface": "bread",
+   "ts": "55:57"
+  },
+  {
+   "canonical": "Polyphenol",
+   "type": "ingredient",
+   "surface": "polyphenol",
+   "ts": "52:04"
+  },
+  {
+   "canonical": "Antioxidant",
+   "type": "ingredient",
+   "surface": "antioxidant",
+   "ts": "52:04"
+  },
+  {
+   "canonical": "Antioxidant",
+   "type": "ingredient",
+   "surface": "antioxidant",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Oleocanthol",
+   "type": "ingredient",
+   "surface": "oleocanthol",
+   "ts": "52:04"
+  },
+  {
+   "canonical": "Chile",
+   "type": "ingredient",
+   "surface": "chile",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Chile",
+   "type": "ingredient",
+   "surface": "Chile",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Coratina Olive",
+   "type": "ingredient",
+   "surface": "Coratina olive",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Coratina Olive",
+   "type": "ingredient",
+   "surface": "Coratina olive",
+   "ts": "54:24"
+  },
+  {
+   "canonical": "Coratina Olive",
+   "type": "ingredient",
+   "surface": "Coratina olive",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "Hexanal",
+   "type": "ingredient",
+   "surface": "hexanal",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "49:52"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:02"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "50:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "51:19"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "51:45"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "52:04"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "54:02"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "54:24"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "54:41"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "55:23"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "55:57"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "57:46"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "57:10"
+  },
+  {
+   "canonical": "Xanthan",
+   "type": "ingredient",
+   "surface": "Xanthan",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Groveandvine.com",
+   "type": "place",
+   "surface": "Groveandvine.com",
+   "ts": "57:46"
+  },
+  {
+   "canonical": "Magic Pork",
+   "type": "ingredient",
+   "surface": "magic pork",
+   "ts": "54:24"
+  },
+  {
+   "canonical": "Magic Pork",
+   "type": "ingredient",
+   "surface": "magic pork",
+   "ts": "54:41"
+  },
+  {
+   "canonical": "Sizzle Platter",
+   "type": "equipment",
+   "surface": "sizzle platter",
+   "ts": "55:23"
+  },
+  {
+   "canonical": "Chili Oil",
+   "type": "ingredient",
+   "surface": "chili oil",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Vanilla Beans",
+   "type": "ingredient",
+   "surface": "vanilla beans",
+   "ts": "57:46"
+  },
+  {
+   "canonical": "Calabrian Chilies",
+   "type": "ingredient",
+   "surface": "Calabrian chilies",
+   "ts": "56:38"
+  }
+ ]
+}

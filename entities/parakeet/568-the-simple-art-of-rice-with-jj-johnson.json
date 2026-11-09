@@ -1,0 +1,1741 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Rock",
+   "type": "person",
+   "surface": "Joe Rock",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "Jack Molecules",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Jack Molecules",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:02"
+  },
+  {
+   "canonical": "JJ Johnson",
+   "type": "person",
+   "surface": "JJ",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "JJ Johnson",
+   "type": "person",
+   "surface": "JJ",
+   "ts": "7:20"
+  },
+  {
+   "canonical": "The Simple Art of Rice",
+   "type": "ingredient",
+   "surface": "The Simple Art of Rice",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "1:53"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "Combi Oven",
+   "type": "equipment",
+   "surface": "combi oven",
+   "ts": "4:05"
+  },
+  {
+   "canonical": "Regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "Regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "2:53"
+  },
+  {
+   "canonical": "Regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "3:26"
+  },
+  {
+   "canonical": "Regulator",
+   "type": "equipment",
+   "surface": "regulator",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "Gas Pressure",
+   "type": "technique",
+   "surface": "gas pressure",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Gas Pressure",
+   "type": "technique",
+   "surface": "gas pressure",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "Paco Jets",
+   "type": "equipment",
+   "surface": "Paco jets",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "Paco Jets",
+   "type": "equipment",
+   "surface": "Paco jets",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale sashimi",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale",
+   "ts": "6:01"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale",
+   "ts": "6:15"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale",
+   "ts": "7:52"
+  },
+  {
+   "canonical": "Whale Sashimi",
+   "type": "ingredient",
+   "surface": "whale",
+   "ts": "8:11"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse sashimi",
+   "ts": "5:18"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse sashimi",
+   "ts": "6:43"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "7:04"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "7:25"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "7:52"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "Horse Sashimi",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "8:55"
+  },
+  {
+   "canonical": "Yak",
+   "type": "ingredient",
+   "surface": "yak",
+   "ts": "7:43"
+  },
+  {
+   "canonical": "Yak",
+   "type": "ingredient",
+   "surface": "yak",
+   "ts": "7:52"
+  },
+  {
+   "canonical": "Donkey",
+   "type": "ingredient",
+   "surface": "donkey",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "1:34"
+  },
+  {
+   "canonical": "Columbia University",
+   "type": "place",
+   "surface": "Columbia University",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Han",
+   "type": "person",
+   "surface": "Han",
+   "ts": "13:50"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker in Dax",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "Temperance",
+   "ts": "16:24"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French culinary",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Pauly Shore",
+   "type": "person",
+   "surface": "Pauly Shore",
+   "ts": "10:24"
+  },
+  {
+   "canonical": "Pauly Shore",
+   "type": "person",
+   "surface": "Pauly Shore",
+   "ts": "10:41"
+  },
+  {
+   "canonical": "Pauly Shore",
+   "type": "person",
+   "surface": "Pauly Shore",
+   "ts": "11:22"
+  },
+  {
+   "canonical": "Pauly Shore",
+   "type": "person",
+   "surface": "Pauli Shore",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Pauly Shore",
+   "type": "person",
+   "surface": "Pauly Shore",
+   "ts": "12:12"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia Lopez",
+   "ts": "10:24"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia Lopez",
+   "ts": "10:41"
+  },
+  {
+   "canonical": "Ray Waffles",
+   "type": "person",
+   "surface": "Ray Waffles",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "Ray Waffles",
+   "type": "person",
+   "surface": "Ray Waffles",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Zoji Rushi",
+   "type": "equipment",
+   "surface": "Zoji Rushi",
+   "ts": "17:57"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "waffle iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "16:43"
+  },
+  {
+   "canonical": "waffle iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "16:53"
+  },
+  {
+   "canonical": "waffle iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "waffle iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "oatmeal",
+   "type": "ingredient",
+   "surface": "oatmeal",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "oatmeal",
+   "type": "ingredient",
+   "surface": "oatmeal",
+   "ts": "12:47"
+  },
+  {
+   "canonical": "Elijah Craig",
+   "type": "ingredient",
+   "surface": "Elijah Craig",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Kampari",
+   "type": "ingredient",
+   "surface": "Kampari",
+   "ts": "14:52"
+  },
+  {
+   "canonical": "Porchlight",
+   "type": "place",
+   "surface": "Porchlight",
+   "ts": "14:25"
+  },
+  {
+   "canonical": "Robert Simonson",
+   "type": "person",
+   "surface": "Robert Simonson",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Punch",
+   "type": "place",
+   "surface": "Punch",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Punch",
+   "type": "place",
+   "surface": "Punch",
+   "ts": "15:06"
+  },
+  {
+   "canonical": "Punch",
+   "type": "place",
+   "surface": "punch",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Punch",
+   "type": "place",
+   "surface": "punch",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Gohan",
+   "type": "place",
+   "surface": "Gohan",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "Heaven Hill",
+   "type": "place",
+   "surface": "Heaven Hill",
+   "ts": "14:52"
+  },
+  {
+   "canonical": "Zojirushi",
+   "type": "place",
+   "surface": "Zojirushi",
+   "ts": "19:09"
+  },
+  {
+   "canonical": "Rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "18:47"
+  },
+  {
+   "canonical": "Rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "Rice cooker",
+   "type": "equipment",
+   "surface": "rice cookers",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "19:22"
+  },
+  {
+   "canonical": "Rice cooker",
+   "type": "equipment",
+   "surface": "rice cookers",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Rice cooker",
+   "type": "equipment",
+   "surface": "rice cookers",
+   "ts": "20:03"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuges",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Belgian fryer",
+   "type": "equipment",
+   "surface": "Belgian fryer",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "Deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "Deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "21:35"
+  },
+  {
+   "canonical": "Deep fryer",
+   "type": "equipment",
+   "surface": "deep fryers",
+   "ts": "21:57"
+  },
+  {
+   "canonical": "Deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "23:08"
+  },
+  {
+   "canonical": "Deep fryer",
+   "type": "equipment",
+   "surface": "deep fryer",
+   "ts": "24:40"
+  },
+  {
+   "canonical": "Electric deep fryer",
+   "type": "equipment",
+   "surface": "electric deep fryer",
+   "ts": "21:21"
+  },
+  {
+   "canonical": "Cast iron",
+   "type": "equipment",
+   "surface": "cast iron",
+   "ts": "21:07"
+  },
+  {
+   "canonical": "220-volt",
+   "type": "equipment",
+   "surface": "220",
+   "ts": "23:26"
+  },
+  {
+   "canonical": "220-volt",
+   "type": "equipment",
+   "surface": "220",
+   "ts": "24:03"
+  },
+  {
+   "canonical": "Gas",
+   "type": "equipment",
+   "surface": "gas",
+   "ts": "25:39"
+  },
+  {
+   "canonical": "Gas",
+   "type": "equipment",
+   "surface": "gas",
+   "ts": "25:52"
+  },
+  {
+   "canonical": "New Orleans",
+   "type": "place",
+   "surface": "New Orleans",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "New Orleans",
+   "type": "place",
+   "surface": "New Orleans",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Essence Festival",
+   "type": "place",
+   "surface": "Essence Festival",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Essence Festival",
+   "type": "place",
+   "surface": "Essence Festival",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "Kala's",
+   "type": "place",
+   "surface": "Kala's",
+   "ts": "27:43"
+  },
+  {
+   "canonical": "Callus",
+   "type": "ingredient",
+   "surface": "callus",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Callus",
+   "type": "ingredient",
+   "surface": "callus",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Callus",
+   "type": "ingredient",
+   "surface": "collas",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Beignet",
+   "type": "ingredient",
+   "surface": "beignet",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Simple Art of Rice",
+   "type": "place",
+   "surface": "Simple Art of Rice",
+   "ts": "29:23"
+  },
+  {
+   "canonical": "Anson Mills",
+   "type": "place",
+   "surface": "Anson Mills",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "Glenn Roberts",
+   "type": "person",
+   "surface": "Glenn",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "David Chang",
+   "type": "person",
+   "surface": "David Chang",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "Dr. Jessica Harris",
+   "type": "person",
+   "surface": "Dr. Jessica Harris",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "Rice",
+   "ts": "29:23"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "Rice",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:35"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:20"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "Wild Rice",
+   "type": "ingredient",
+   "surface": "wild rice",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "Long Grain Rice",
+   "type": "ingredient",
+   "surface": "long grain",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "Long Grain Rice",
+   "type": "ingredient",
+   "surface": "long grain",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Short Grain Rice",
+   "type": "ingredient",
+   "surface": "short grain",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "Medium Grain Rice",
+   "type": "ingredient",
+   "surface": "medium grain",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "Zoshi Rushi",
+   "type": "place",
+   "surface": "Zoshi Rushi",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Zoshi Rushi",
+   "type": "place",
+   "surface": "Zoshi Rushi",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "Blue Moon Rice",
+   "type": "ingredient",
+   "surface": "Blue Moon",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "Blue Moon Rice",
+   "type": "ingredient",
+   "surface": "Blue Moon",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "New Jersey rice",
+   "type": "ingredient",
+   "surface": "New Jersey rice",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "27:49"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "Rice",
+   "ts": "29:23"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "Rice",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:16"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "30:39"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:11"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:19"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:35"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:20"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:33"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:46"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "36:03"
+  },
+  {
+   "canonical": "stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "finger trick",
+   "type": "technique",
+   "surface": "finger trick",
+   "ts": "33:22"
+  },
+  {
+   "canonical": "finger trick",
+   "type": "technique",
+   "surface": "finger trick",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "33:35"
+  },
+  {
+   "canonical": "cups",
+   "type": "equipment",
+   "surface": "cups",
+   "ts": "32:13"
+  },
+  {
+   "canonical": "cups",
+   "type": "equipment",
+   "surface": "cup",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "cups",
+   "type": "equipment",
+   "surface": "cups",
+   "ts": "32:59"
+  },
+  {
+   "canonical": "cups",
+   "type": "equipment",
+   "surface": "cups",
+   "ts": "33:52"
+  },
+  {
+   "canonical": "Anson Mill",
+   "type": "place",
+   "surface": "Anson Mill",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Hudson Valley",
+   "type": "place",
+   "surface": "Hudson Valley",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Martha's Vineyard",
+   "type": "place",
+   "surface": "Martha's Vineyard",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Mount Airy Lodge",
+   "type": "place",
+   "surface": "Mount Erie Lodge",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Mount Airy Lodge",
+   "type": "place",
+   "surface": "Mount Every Lodge",
+   "ts": "41:32"
+  },
+  {
+   "canonical": "Mount Airy Lodge",
+   "type": "place",
+   "surface": "Mount Airy Lodge",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "New Jersey",
+   "type": "place",
+   "surface": "New Jersey",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "39:00"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "39:06"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "39:22"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poca nose",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Pokenos",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "43:16"
+  },
+  {
+   "canonical": "Poconos",
+   "type": "place",
+   "surface": "Poconos",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "Scranton",
+   "type": "place",
+   "surface": "Scranton",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "Scranton",
+   "type": "place",
+   "surface": "Scranton",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "Wilmington",
+   "type": "place",
+   "surface": "Wilkesbury",
+   "ts": "42:44"
+  },
+  {
+   "canonical": "Arkansas",
+   "type": "place",
+   "surface": "Arkansas",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Arkansas",
+   "type": "place",
+   "surface": "Arkansas",
+   "ts": "36:46"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "39:06"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Catskill Mountains",
+   "type": "place",
+   "surface": "Catskilly",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Delaware Water Gap",
+   "type": "place",
+   "surface": "Delaware Water Gap",
+   "ts": "42:32"
+  },
+  {
+   "canonical": "Catskill Mountains",
+   "type": "place",
+   "surface": "Catskilly",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Koji Alchemy",
+   "type": "place",
+   "surface": "Koji Alchemy",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Anson Mill",
+   "type": "place",
+   "surface": "Anson Mill",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "Mount Airy Lodge",
+   "type": "place",
+   "surface": "Mount Erie Lodge",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Mount Airy Lodge",
+   "type": "place",
+   "surface": "Mount Every Lodge",
+   "ts": "41:32"
+  },
+  {
+   "canonical": "Mount Airy Lodge",
+   "type": "place",
+   "surface": "Mount Airy Lodge",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "JJ",
+   "type": "person",
+   "surface": "JJ",
+   "ts": "45:36"
+  },
+  {
+   "canonical": "JJ",
+   "type": "person",
+   "surface": "JJ",
+   "ts": "47:42"
+  },
+  {
+   "canonical": "Sean Oliver",
+   "type": "person",
+   "surface": "Sean Oliver",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "Romaine",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "Mixed greens",
+   "type": "ingredient",
+   "surface": "mixed greens",
+   "ts": "47:17"
+  },
+  {
+   "canonical": "Mixed greens",
+   "type": "ingredient",
+   "surface": "mixed greens",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "48:54"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "45:36"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "45:49"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "49:20"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "Spinach",
+   "type": "ingredient",
+   "surface": "spinach",
+   "ts": "48:12"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "45:42"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "45:49"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "technique",
+   "surface": "risotto",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Rinsing",
+   "type": "technique",
+   "surface": "rinsing",
+   "ts": "45:36"
+  },
+  {
+   "canonical": "Rinsing",
+   "type": "technique",
+   "surface": "rinsing",
+   "ts": "45:49"
+  },
+  {
+   "canonical": "Prep cooking",
+   "type": "technique",
+   "surface": "prep cooking",
+   "ts": "48:12"
+  },
+  {
+   "canonical": "Field trip",
+   "type": "place",
+   "surface": "field trip",
+   "ts": "44:58"
+  },
+  {
+   "canonical": "Field trip",
+   "type": "place",
+   "surface": "field trip",
+   "ts": "45:49"
+  },
+  {
+   "canonical": "Field trip",
+   "type": "place",
+   "surface": "field trip",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Filtrip",
+   "type": "place",
+   "surface": "Filtrip",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Rock Center",
+   "type": "place",
+   "surface": "Rock Center",
+   "ts": "45:58"
+  },
+  {
+   "canonical": "Colander",
+   "type": "equipment",
+   "surface": "colander",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Flatiron",
+   "type": "place",
+   "surface": "Flatiron",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "McMillan",
+   "type": "place",
+   "surface": "McMillan",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "Flatiron random house",
+   "type": "place",
+   "surface": "Flatiron random house",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "John John Mushroom",
+   "type": "ingredient",
+   "surface": "John John",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "John John Mushroom",
+   "type": "ingredient",
+   "surface": "John John",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "John John Mushroom",
+   "type": "ingredient",
+   "surface": "Jean Jean",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Pierre Chiam",
+   "type": "place",
+   "surface": "Pierre Chiam",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "Merlett",
+   "type": "place",
+   "surface": "Merlett",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "bouillon cube",
+   "type": "ingredient",
+   "surface": "bouillon cube",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "black trumpet mushrooms",
+   "type": "ingredient",
+   "surface": "black trumpet mushrooms",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Haitian cuisine",
+   "type": "place",
+   "surface": "Haitian",
+   "ts": "53:51"
+  },
+  {
+   "canonical": "Haitian cuisine",
+   "type": "place",
+   "surface": "Haitian",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Haitian cuisine",
+   "type": "place",
+   "surface": "Haitian",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "spork",
+   "type": "equipment",
+   "surface": "spork",
+   "ts": "53:34"
+  },
+  {
+   "canonical": "Glabberima rice",
+   "type": "ingredient",
+   "surface": "Glabarima rice",
+   "ts": "56:58"
+  },
+  {
+   "canonical": "Glabberima rice",
+   "type": "ingredient",
+   "surface": "Glabberima rice",
+   "ts": "57:24"
+  },
+  {
+   "canonical": "sorghum leaves",
+   "type": "ingredient",
+   "surface": "sorghum leaves",
+   "ts": "57:34"
+  },
+  {
+   "canonical": "sorghum leaves",
+   "type": "ingredient",
+   "surface": "sorghum leaves",
+   "ts": "57:40"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "57:50"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "58:10"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "58:23"
+  },
+  {
+   "canonical": "baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "Pierre",
+   "type": "person",
+   "surface": "Pierre",
+   "ts": "57:07"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "57:34"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "57:40"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "58:50"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "57:50"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "58:10"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "58:23"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Caribbean Rice and Peas",
+   "type": "technique",
+   "surface": "Caribbean rice and peas",
+   "ts": "58:50"
+  },
+  {
+   "canonical": "Golden Mountain Sauce",
+   "type": "ingredient",
+   "surface": "Golden Mountain sauce",
+   "ts": "59:15"
+  },
+  {
+   "canonical": "Golden Mountain Sauce",
+   "type": "ingredient",
+   "surface": "Golden Mountain sauce",
+   "ts": "59:19"
+  },
+  {
+   "canonical": "Galapinto",
+   "type": "ingredient",
+   "surface": "Galapinto",
+   "ts": "59:26"
+  },
+  {
+   "canonical": "Lozano Sauce",
+   "type": "ingredient",
+   "surface": "Lozano sauce",
+   "ts": "59:26"
+  },
+  {
+   "canonical": "Sea Towns",
+   "type": "place",
+   "surface": "Sea Towns",
+   "ts": "59:52"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Okra",
+   "type": "ingredient",
+   "surface": "okra",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Okra",
+   "type": "ingredient",
+   "surface": "okra",
+   "ts": "1:00:06"
+  },
+  {
+   "canonical": "Gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "1:00:06"
+  },
+  {
+   "canonical": "Fermented Foods",
+   "type": "ingredient",
+   "surface": "fermented geggy stuff",
+   "ts": "1:01:01"
+  },
+  {
+   "canonical": "Fermented Foods",
+   "type": "ingredient",
+   "surface": "fermenty stuff",
+   "ts": "1:01:10"
+  },
+  {
+   "canonical": "Yield Rice",
+   "type": "ingredient",
+   "surface": "yield rice",
+   "ts": "1:01:17"
+  },
+  {
+   "canonical": "South African Rice",
+   "type": "ingredient",
+   "surface": "South African yield",
+   "ts": "1:01:17"
+  },
+  {
+   "canonical": "JJ Johnson",
+   "type": "person",
+   "surface": "JJ Johnson",
+   "ts": "1:01:27"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:01:27"
+  },
+  {
+   "canonical": "The Art of Rice",
+   "type": "place",
+   "surface": "the book is simple art of rice",
+   "ts": "1:01:27"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:01:27"
+  }
+ ]
+}

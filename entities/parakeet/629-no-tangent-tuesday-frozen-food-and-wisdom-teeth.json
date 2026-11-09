@@ -1,0 +1,1339 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arald",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:27"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "8:07"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Whole Foods",
+   "type": "place",
+   "surface": "Whole Foods",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "frozen broccoli",
+   "type": "ingredient",
+   "surface": "frozen broccoli",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "frozen broccoli",
+   "type": "ingredient",
+   "surface": "frozen broccoli",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "frozen broccoli",
+   "type": "ingredient",
+   "surface": "frozen broccoli",
+   "ts": "9:58"
+  },
+  {
+   "canonical": "pre-seasoned chicken",
+   "type": "ingredient",
+   "surface": "pre-seasoned chicken",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "cooked rice",
+   "type": "ingredient",
+   "surface": "a bag of rice that's already been cooked",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "frozen corn",
+   "type": "ingredient",
+   "surface": "Corn",
+   "ts": "10:04"
+  },
+  {
+   "canonical": "frozen Brussels sprouts",
+   "type": "ingredient",
+   "surface": "Frozen Brussels sprouts",
+   "ts": "9:39"
+  },
+  {
+   "canonical": "cob salad",
+   "type": "ingredient",
+   "surface": "cob salad",
+   "ts": "8:41"
+  },
+  {
+   "canonical": "cob salad",
+   "type": "ingredient",
+   "surface": "cob salad",
+   "ts": "9:03"
+  },
+  {
+   "canonical": "retro detox",
+   "type": "technique",
+   "surface": "detoxing",
+   "ts": "5:26"
+  },
+  {
+   "canonical": "retro detox",
+   "type": "technique",
+   "surface": "retoxing",
+   "ts": "5:36"
+  },
+  {
+   "canonical": "retro detox",
+   "type": "technique",
+   "surface": "retox",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Norwegian death metal",
+   "type": "technique",
+   "surface": "Norwegian death metal",
+   "ts": "6:51"
+  },
+  {
+   "canonical": "Norwegian death metal",
+   "type": "technique",
+   "surface": "Norwegian death metal",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "Norwegian death metal",
+   "type": "technique",
+   "surface": "Norwegian death metal",
+   "ts": "7:19"
+  },
+  {
+   "canonical": "Miley",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Miley",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "11:01"
+  },
+  {
+   "canonical": "Ellery",
+   "type": "person",
+   "surface": "Ellery",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Chicken Pot Pie",
+   "type": "ingredient",
+   "surface": "chicken pot pie",
+   "ts": "10:42"
+  },
+  {
+   "canonical": "Chicken Pot Pie",
+   "type": "ingredient",
+   "surface": "chicken pot pie",
+   "ts": "11:01"
+  },
+  {
+   "canonical": "Turkey Pot Pie",
+   "type": "ingredient",
+   "surface": "turkey pot pie",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Pork Pot Pie",
+   "type": "ingredient",
+   "surface": "pork pot pie",
+   "ts": "11:14"
+  },
+  {
+   "canonical": "Beef Pot Pie",
+   "type": "ingredient",
+   "surface": "beef pot pie",
+   "ts": "11:24"
+  },
+  {
+   "canonical": "Frozen Fruit",
+   "type": "ingredient",
+   "surface": "frozen fruit",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "Frozen Blueberries",
+   "type": "ingredient",
+   "surface": "frozen blueberries",
+   "ts": "12:01"
+  },
+  {
+   "canonical": "Frozen Broccoli",
+   "type": "ingredient",
+   "surface": "frozen broccoli",
+   "ts": "12:19"
+  },
+  {
+   "canonical": "Chicken Breast",
+   "type": "ingredient",
+   "surface": "chicken breast",
+   "ts": "12:31"
+  },
+  {
+   "canonical": "Veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "12:39"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "15:35"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Prosciutto",
+   "type": "ingredient",
+   "surface": "prosciutto",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "Prosciutto",
+   "type": "ingredient",
+   "surface": "prosciutto",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Meat Glue",
+   "type": "ingredient",
+   "surface": "meat glue",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Toothpicks",
+   "type": "equipment",
+   "surface": "toothpicks",
+   "ts": "13:17"
+  },
+  {
+   "canonical": "Plastic Wrap",
+   "type": "equipment",
+   "surface": "plastic wrap",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "Sweet Wine",
+   "type": "ingredient",
+   "surface": "sweet wine",
+   "ts": "13:27"
+  },
+  {
+   "canonical": "Precooked Rice",
+   "type": "ingredient",
+   "surface": "precooked rice",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "Korean Brands",
+   "type": "place",
+   "surface": "Korean brands",
+   "ts": "14:04"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "15:22"
+  },
+  {
+   "canonical": "Greg Blonder",
+   "type": "person",
+   "surface": "Greg Blonder",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Fidel Toldre",
+   "type": "person",
+   "surface": "Fidel Toldre",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Mike Capoferi",
+   "type": "person",
+   "surface": "Mike Capoferi",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Thunderbolt and Night on Earth",
+   "type": "place",
+   "surface": "Thunderbolt and Night on Earth",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Essential Oils",
+   "type": "ingredient",
+   "surface": "Essential Oils",
+   "ts": "16:55"
+  },
+  {
+   "canonical": "Essential Oils",
+   "type": "ingredient",
+   "surface": "essential oils",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "Essential Oils",
+   "type": "ingredient",
+   "surface": "essential oils",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Sage Essential Oil",
+   "type": "ingredient",
+   "surface": "sage essential oil",
+   "ts": "15:35"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "12:57"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "15:35"
+  },
+  {
+   "canonical": "Sage",
+   "type": "ingredient",
+   "surface": "sage",
+   "ts": "19:16"
+  },
+  {
+   "canonical": "Macaroni",
+   "type": "ingredient",
+   "surface": "macaroni",
+   "ts": "19:46"
+  },
+  {
+   "canonical": "Macaroni",
+   "type": "ingredient",
+   "surface": "macaroni",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "Dried Pasta",
+   "type": "ingredient",
+   "surface": "dried pasta",
+   "ts": "19:32"
+  },
+  {
+   "canonical": "Citrus Essential Oils",
+   "type": "ingredient",
+   "surface": "citrus essential oils",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Acid Adjusting",
+   "type": "technique",
+   "surface": "acid adjusting",
+   "ts": "20:22"
+  },
+  {
+   "canonical": "Vacuum Bag",
+   "type": "equipment",
+   "surface": "vacuum bag",
+   "ts": "15:35"
+  },
+  {
+   "canonical": "Sharp Knife",
+   "type": "equipment",
+   "surface": "sharp knife",
+   "ts": "18:33"
+  },
+  {
+   "canonical": "Diffusion",
+   "type": "technique",
+   "surface": "diffusion",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Diffusion Coefficient",
+   "type": "technique",
+   "surface": "diffusion coefficient",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "17:07"
+  },
+  {
+   "canonical": "Fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "17:56"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidation",
+   "ts": "17:38"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "26:14"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "21:37"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "25:12"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "25:24"
+  },
+  {
+   "canonical": "Thunderbolt",
+   "type": "place",
+   "surface": "Thunderbolt",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Thunderbolt",
+   "type": "place",
+   "surface": "Thunderbolt",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Night on Earth",
+   "type": "place",
+   "surface": "Night on Earth",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Night on Earth",
+   "type": "place",
+   "surface": "night on earth",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "23andMe",
+   "type": "place",
+   "surface": "23andMe",
+   "ts": "26:14"
+  },
+  {
+   "canonical": "Volpe",
+   "type": "place",
+   "surface": "Volpe",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Guanchali",
+   "type": "ingredient",
+   "surface": "guanchali",
+   "ts": "26:45"
+  },
+  {
+   "canonical": "Guanchali",
+   "type": "ingredient",
+   "surface": "guanchali",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Guanchali",
+   "type": "ingredient",
+   "surface": "guanchali",
+   "ts": "27:55"
+  },
+  {
+   "canonical": "Guanchali",
+   "type": "ingredient",
+   "surface": "guanchali",
+   "ts": "28:23"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "Pizza",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "Cure",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "29:18"
+  },
+  {
+   "canonical": "Cure",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "29:26"
+  },
+  {
+   "canonical": "Moisture loss",
+   "type": "technique",
+   "surface": "moisture loss",
+   "ts": "28:06"
+  },
+  {
+   "canonical": "Moisture loss",
+   "type": "technique",
+   "surface": "moisture loss",
+   "ts": "28:23"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "28:52"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "Fat content",
+   "type": "technique",
+   "surface": "fat content",
+   "ts": "28:23"
+  },
+  {
+   "canonical": "Uncious",
+   "type": "ingredient",
+   "surface": "Uncious",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Spinzall 2.0",
+   "type": "equipment",
+   "surface": "spinzall 2.0s",
+   "ts": "34:42"
+  },
+  {
+   "canonical": "Spinzall 2.0",
+   "type": "equipment",
+   "surface": "spinzall 2.0",
+   "ts": "35:01"
+  },
+  {
+   "canonical": "Spinzall 2.0",
+   "type": "equipment",
+   "surface": "spinzall 2.0",
+   "ts": "35:19"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "36:17"
+  },
+  {
+   "canonical": "Diamond Kosher Salt",
+   "type": "ingredient",
+   "surface": "diamond co kosher salt",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Diamond Kosher Salt",
+   "type": "ingredient",
+   "surface": "diamond kosher salt",
+   "ts": "39:08"
+  },
+  {
+   "canonical": "Domino Sugar",
+   "type": "ingredient",
+   "surface": "Domino's brand",
+   "ts": "36:53"
+  },
+  {
+   "canonical": "Domino Sugar",
+   "type": "ingredient",
+   "surface": "dominoes",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Cane Sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Cane Sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Beet Sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "41:00"
+  },
+  {
+   "canonical": "Fidel Toldra",
+   "type": "person",
+   "surface": "Fidel Toldra",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Beota Feti Berico",
+   "type": "place",
+   "surface": "Beota Feti Berico",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "fructose",
+   "type": "ingredient",
+   "surface": "fructose",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "glucose",
+   "type": "ingredient",
+   "surface": "glucose",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "sugar inversion",
+   "type": "technique",
+   "surface": "sugar inversion",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "Fidel Toldra",
+   "type": "person",
+   "surface": "Fidel Toldra",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "Beota Feti Berico",
+   "type": "place",
+   "surface": "Beota Feti Berico",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "cane sugar",
+   "type": "ingredient",
+   "surface": "cane sugar",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "beet sugar",
+   "type": "ingredient",
+   "surface": "beet sugar",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "44:00"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "sucrose",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "fructose",
+   "type": "ingredient",
+   "surface": "fructose",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "glucose",
+   "type": "ingredient",
+   "surface": "glucose",
+   "ts": "45:19"
+  },
+  {
+   "canonical": "sugar inversion",
+   "type": "technique",
+   "surface": "sugar inversion",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "Kev",
+   "type": "person",
+   "surface": "Kev",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Kev",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "Kev",
+   "type": "person",
+   "surface": "Kev",
+   "ts": "50:26"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzole",
+   "ts": "49:49"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "50:08"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "centrifuge",
+   "type": "equipment",
+   "surface": "centrifuge",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "milk separator",
+   "type": "equipment",
+   "surface": "milk separator",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "goat milk",
+   "type": "ingredient",
+   "surface": "goat milk",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "goat milk",
+   "type": "ingredient",
+   "surface": "goat milk",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "goat milk",
+   "type": "ingredient",
+   "surface": "goat milk",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "goat milk",
+   "type": "ingredient",
+   "surface": "goat milk",
+   "ts": "50:26"
+  },
+  {
+   "canonical": "homogenization",
+   "type": "technique",
+   "surface": "homogenized",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "homogenization",
+   "type": "technique",
+   "surface": "homogenized",
+   "ts": "50:49"
+  },
+  {
+   "canonical": "fat globule",
+   "type": "ingredient",
+   "surface": "fat globule",
+   "ts": "50:49"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "48:33"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzole",
+   "ts": "49:49"
+  },
+  {
+   "canonical": "spinzall",
+   "type": "equipment",
+   "surface": "spinzall",
+   "ts": "50:08"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Rockaway Beach",
+   "type": "place",
+   "surface": "Rockaway Beach",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "Taylor",
+   "type": "place",
+   "surface": "Taylor",
+   "ts": "53:25"
+  },
+  {
+   "canonical": "Soho",
+   "type": "place",
+   "surface": "Soho",
+   "ts": "53:25"
+  },
+  {
+   "canonical": "cobblestone streets",
+   "type": "place",
+   "surface": "cobblestone streets",
+   "ts": "53:25"
+  },
+  {
+   "canonical": "rotovap",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "53:52"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "52:10"
+  },
+  {
+   "canonical": "carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "Adderall",
+   "type": "ingredient",
+   "surface": "Adderalls",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "Kampari",
+   "type": "ingredient",
+   "surface": "Kampari",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "jungle birds",
+   "type": "ingredient",
+   "surface": "jungle birds",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "bitter compounds",
+   "type": "ingredient",
+   "surface": "bitter compounds",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "bitter compounds",
+   "type": "ingredient",
+   "surface": "bitter compounds",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "lime juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "Sous vide",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "rotary evaporator",
+   "type": "equipment",
+   "surface": "rotovap",
+   "ts": "53:52"
+  },
+  {
+   "canonical": "Scott",
+   "type": "person",
+   "surface": "Scott",
+   "ts": "54:17"
+  },
+  {
+   "canonical": "Scott",
+   "type": "person",
+   "surface": "Scott",
+   "ts": "55:49"
+  },
+  {
+   "canonical": "Nitrogen Infusion",
+   "type": "technique",
+   "surface": "nitrogen infusing",
+   "ts": "55:49"
+  },
+  {
+   "canonical": "Nitrogen Infusion",
+   "type": "technique",
+   "surface": "nitrogen infusing",
+   "ts": "56:15"
+  },
+  {
+   "canonical": "Nitro Infusion",
+   "type": "technique",
+   "surface": "nitro infusure",
+   "ts": "55:49"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous",
+   "ts": "56:15"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous",
+   "ts": "56:58"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous",
+   "ts": "59:51"
+  },
+  {
+   "canonical": "Nitro Press",
+   "type": "equipment",
+   "surface": "nitro press",
+   "ts": "59:51"
+  },
+  {
+   "canonical": "Semolina",
+   "type": "ingredient",
+   "surface": "semolina",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Semolina",
+   "type": "ingredient",
+   "surface": "Semolina",
+   "ts": "57:38"
+  },
+  {
+   "canonical": "Semolina",
+   "type": "ingredient",
+   "surface": "semolina",
+   "ts": "58:16"
+  },
+  {
+   "canonical": "Semolina",
+   "type": "ingredient",
+   "surface": "semolina",
+   "ts": "58:47"
+  },
+  {
+   "canonical": "Semolina Bread",
+   "type": "technique",
+   "surface": "baking semolina-based breads",
+   "ts": "57:23"
+  },
+  {
+   "canonical": "Durum Flour",
+   "type": "ingredient",
+   "surface": "semola",
+   "ts": "58:16"
+  },
+  {
+   "canonical": "Durum Flour",
+   "type": "ingredient",
+   "surface": "semola",
+   "ts": "58:47"
+  },
+  {
+   "canonical": "Chicken Stock",
+   "type": "ingredient",
+   "surface": "chicken stock",
+   "ts": "59:08"
+  },
+  {
+   "canonical": "Emulsified Stock",
+   "type": "technique",
+   "surface": "emulsified stocks",
+   "ts": "59:26"
+  },
+  {
+   "canonical": "Emulsified Stock",
+   "type": "technique",
+   "surface": "emulsified stocks",
+   "ts": "59:51"
+  },
+  {
+   "canonical": "Nitro Infusion Equipment",
+   "type": "equipment",
+   "surface": "nitro press",
+   "ts": "59:51"
+  }
+ ]
+}

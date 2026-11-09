@@ -1,0 +1,1807 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "2:57"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "AJ",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "2:24"
+  },
+  {
+   "canonical": "AJ",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "AJ",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "4:29"
+  },
+  {
+   "canonical": "Kev",
+   "type": "person",
+   "surface": "Kev",
+   "ts": "3:37"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Steve Hubachek",
+   "type": "person",
+   "surface": "Steve Hubachek",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "1:36"
+  },
+  {
+   "canonical": "Mush Foods",
+   "type": "place",
+   "surface": "Mush Foods",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "50 Cut",
+   "type": "place",
+   "surface": "50 Cut",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Quisine Solutions",
+   "type": "place",
+   "surface": "Quisine Solutions",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Suvian Empire",
+   "type": "place",
+   "surface": "Suvian Empire",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "2:57"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "3:37"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "FDM",
+   "type": "equipment",
+   "surface": "FDM",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "3D printing",
+   "type": "equipment",
+   "surface": "3D printing",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "giant jigger",
+   "type": "equipment",
+   "surface": "giant jigger",
+   "ts": "3:56"
+  },
+  {
+   "canonical": "tropical fruit",
+   "type": "ingredient",
+   "surface": "tropical fruit",
+   "ts": "4:48"
+  },
+  {
+   "canonical": "apple banana",
+   "type": "ingredient",
+   "surface": "apple banana",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "mandano",
+   "type": "ingredient",
+   "surface": "mandano",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "9:07"
+  },
+  {
+   "canonical": "banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "9:59"
+  },
+  {
+   "canonical": "Monstera",
+   "type": "ingredient",
+   "surface": "Monstera",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "bread fruit",
+   "type": "ingredient",
+   "surface": "bread fruit",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "tree tomato",
+   "type": "ingredient",
+   "surface": "tree tomato",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "goldenberry",
+   "type": "ingredient",
+   "surface": "goldenberry",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "pink pineapple",
+   "type": "ingredient",
+   "surface": "pink pineapple",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "Grom Michelle",
+   "type": "ingredient",
+   "surface": "grom Michelle",
+   "ts": "9:07"
+  },
+  {
+   "canonical": "Cavendish banana",
+   "type": "ingredient",
+   "surface": "Cavendish",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Cavendish banana",
+   "type": "ingredient",
+   "surface": "Cavendish",
+   "ts": "9:48"
+  },
+  {
+   "canonical": "Cavendish banana",
+   "type": "ingredient",
+   "surface": "Cavendish",
+   "ts": "9:59"
+  },
+  {
+   "canonical": "acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "7:03"
+  },
+  {
+   "canonical": "acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "8:27"
+  },
+  {
+   "canonical": "acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "9:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "AJ",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "AJ",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "18:21"
+  },
+  {
+   "canonical": "Forsyth Farmers Market",
+   "type": "place",
+   "surface": "Forsyth Farmers Market",
+   "ts": "13:57"
+  },
+  {
+   "canonical": "Savannah",
+   "type": "place",
+   "surface": "Savannah",
+   "ts": "13:57"
+  },
+  {
+   "canonical": "Bitterballen",
+   "type": "technique",
+   "surface": "bitter ballin",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Bitterballen",
+   "type": "technique",
+   "surface": "Bitterballen",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "Bitterballen",
+   "type": "technique",
+   "surface": "bitter ballin",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Monsteras",
+   "type": "ingredient",
+   "surface": "Monsteras",
+   "ts": "10:24"
+  },
+  {
+   "canonical": "Cavendish banana",
+   "type": "ingredient",
+   "surface": "Cavendish banana",
+   "ts": "10:11"
+  },
+  {
+   "canonical": "Tree tomato",
+   "type": "ingredient",
+   "surface": "Tree tomato",
+   "ts": "11:00"
+  },
+  {
+   "canonical": "Goldenberry",
+   "type": "ingredient",
+   "surface": "Goldenberry",
+   "ts": "11:00"
+  },
+  {
+   "canonical": "tomatillo",
+   "type": "ingredient",
+   "surface": "tomatillo",
+   "ts": "11:53"
+  },
+  {
+   "canonical": "taxodium",
+   "type": "ingredient",
+   "surface": "taxodium",
+   "ts": "12:16"
+  },
+  {
+   "canonical": "spruce tips",
+   "type": "ingredient",
+   "surface": "spruce tips",
+   "ts": "12:16"
+  },
+  {
+   "canonical": "purple asparagus",
+   "type": "ingredient",
+   "surface": "purple asparagus",
+   "ts": "13:57"
+  },
+  {
+   "canonical": "veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "16:15"
+  },
+  {
+   "canonical": "veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "veal",
+   "type": "ingredient",
+   "surface": "veal",
+   "ts": "17:42"
+  },
+  {
+   "canonical": "mushroom gravy",
+   "type": "technique",
+   "surface": "mushroom gravy",
+   "ts": "14:35"
+  },
+  {
+   "canonical": "nutmeg",
+   "type": "ingredient",
+   "surface": "nutmeg",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "nutmeg",
+   "type": "ingredient",
+   "surface": "Nutmeg",
+   "ts": "15:05"
+  },
+  {
+   "canonical": "nutmeg",
+   "type": "ingredient",
+   "surface": "Nutmeg",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "mace",
+   "type": "ingredient",
+   "surface": "mace",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "mace",
+   "type": "ingredient",
+   "surface": "mace",
+   "ts": "15:05"
+  },
+  {
+   "canonical": "mace",
+   "type": "ingredient",
+   "surface": "mace",
+   "ts": "15:20"
+  },
+  {
+   "canonical": "bitterballen",
+   "type": "technique",
+   "surface": "Bitterballen",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "glass fan glasses",
+   "type": "equipment",
+   "surface": "glass fan glasses",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "espresso machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "18:32"
+  },
+  {
+   "canonical": "espresso machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "19:02"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker's",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Sylvia",
+   "type": "person",
+   "surface": "Sylvia",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Bean Pot",
+   "type": "equipment",
+   "surface": "bean pot",
+   "ts": "21:28"
+  },
+  {
+   "canonical": "Bean Pot",
+   "type": "equipment",
+   "surface": "bean pot",
+   "ts": "21:39"
+  },
+  {
+   "canonical": "Bean Pot",
+   "type": "equipment",
+   "surface": "bean pot",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "Tar Bay Bean",
+   "type": "ingredient",
+   "surface": "tar bay bean",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "pH meter",
+   "type": "equipment",
+   "surface": "pH meter",
+   "ts": "22:09"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Espresso Machine",
+   "type": "equipment",
+   "surface": "espresso machine",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Versailles",
+   "type": "place",
+   "surface": "Versailles",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Pinto Beans",
+   "type": "ingredient",
+   "surface": "pinto",
+   "ts": "23:34"
+  },
+  {
+   "canonical": "Kidney Beans",
+   "type": "ingredient",
+   "surface": "kidney",
+   "ts": "23:34"
+  },
+  {
+   "canonical": "Kidney Beans",
+   "type": "ingredient",
+   "surface": "kidney",
+   "ts": "23:45"
+  },
+  {
+   "canonical": "Kidney Beans",
+   "type": "ingredient",
+   "surface": "kidney",
+   "ts": "23:51"
+  },
+  {
+   "canonical": "Freeze Concentration",
+   "type": "technique",
+   "surface": "freeze con",
+   "ts": "24:33"
+  },
+  {
+   "canonical": "Freeze Concentration",
+   "type": "technique",
+   "surface": "cryoconcentration",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Cryoconcentration",
+   "type": "technique",
+   "surface": "cryoconcentration",
+   "ts": "24:47"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "24:59"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "Centrifugal Force",
+   "type": "technique",
+   "surface": "centrifugal force",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Mushroom Mycelium",
+   "type": "ingredient",
+   "surface": "mycelium",
+   "ts": "27:42"
+  },
+  {
+   "canonical": "Mushrooms",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "Mushrooms",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Mushrooms",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "27:42"
+  },
+  {
+   "canonical": "Mushroom Strains",
+   "type": "ingredient",
+   "surface": "mushroom strains",
+   "ts": "27:42"
+  },
+  {
+   "canonical": "Mushroom Species",
+   "type": "ingredient",
+   "surface": "oyster trumpage",
+   "ts": "27:42"
+  },
+  {
+   "canonical": "Spincil",
+   "type": "equipment",
+   "surface": "spincil",
+   "ts": "27:20"
+  },
+  {
+   "canonical": "Slushy Machines",
+   "type": "equipment",
+   "surface": "slushy machines",
+   "ts": "26:55"
+  },
+  {
+   "canonical": "Mush Foods",
+   "type": "place",
+   "surface": "mush foods",
+   "ts": "27:42"
+  },
+  {
+   "canonical": "Kevin Statemeyer",
+   "type": "person",
+   "surface": "Kevin Statemeyer",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "31:51"
+  },
+  {
+   "canonical": "McGee",
+   "type": "person",
+   "surface": "McGee",
+   "ts": "33:18"
+  },
+  {
+   "canonical": "Shalom",
+   "type": "person",
+   "surface": "Shalom",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "50 Cut",
+   "type": "ingredient",
+   "surface": "50 Cut",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "28:09"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "29:12"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "29:29"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "30:11"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "31:51"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "32:02"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "mycelium",
+   "type": "ingredient",
+   "surface": "mycelium",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "mycelium",
+   "type": "ingredient",
+   "surface": "mycelium",
+   "ts": "30:27"
+  },
+  {
+   "canonical": "mycelium",
+   "type": "ingredient",
+   "surface": "mycelium",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "mycelium",
+   "type": "ingredient",
+   "surface": "mycelium",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "mycelium",
+   "type": "ingredient",
+   "surface": "mycelium",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "saprophilic mushrooms",
+   "type": "ingredient",
+   "surface": "saprophilic mushrooms",
+   "ts": "29:12"
+  },
+  {
+   "canonical": "oyster mushrooms",
+   "type": "ingredient",
+   "surface": "oyster mushrooms",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "lion's mane mushrooms",
+   "type": "ingredient",
+   "surface": "lion's mane mushrooms",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "32:28"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "32:50"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffle",
+   "ts": "33:24"
+  },
+  {
+   "canonical": "truffle",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "33:45"
+  },
+  {
+   "canonical": "beta glucan",
+   "type": "ingredient",
+   "surface": "beta glucan",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "soybean shells",
+   "type": "ingredient",
+   "surface": "soybean shells",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "hotel pan",
+   "type": "equipment",
+   "surface": "hotel pan",
+   "ts": "29:29"
+  },
+  {
+   "canonical": "gastronorm",
+   "type": "equipment",
+   "surface": "gastronorm",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "gastronorm",
+   "type": "equipment",
+   "surface": "Gastronorm",
+   "ts": "36:26"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "34:13"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "34:24"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "35:24"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "substrate",
+   "type": "ingredient",
+   "surface": "substrate",
+   "ts": "36:01"
+  },
+  {
+   "canonical": "spawn culture",
+   "type": "ingredient",
+   "surface": "spawn culture",
+   "ts": "34:13"
+  },
+  {
+   "canonical": "Nebraska",
+   "type": "place",
+   "surface": "Nebraska",
+   "ts": "37:09"
+  },
+  {
+   "canonical": "Goldenrod",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "37:09"
+  },
+  {
+   "canonical": "psilocybin",
+   "type": "ingredient",
+   "surface": "psilocybin",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "Psilocybin",
+   "type": "ingredient",
+   "surface": "psilocybin",
+   "ts": "37:35"
+  },
+  {
+   "canonical": "Ascomite",
+   "type": "ingredient",
+   "surface": "ascomite",
+   "ts": "37:35"
+  },
+  {
+   "canonical": "Truffles",
+   "type": "ingredient",
+   "surface": "truffles",
+   "ts": "37:35"
+  },
+  {
+   "canonical": "Mycoral Mushrooms",
+   "type": "ingredient",
+   "surface": "mycoral mushrooms",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "Chanterelle",
+   "type": "ingredient",
+   "surface": "chanterelle",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "Morelles",
+   "type": "ingredient",
+   "surface": "morelles",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "Duck Cell",
+   "type": "ingredient",
+   "surface": "duck cell",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Duck Cell",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "41:05"
+  },
+  {
+   "canonical": "Duck Cell",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "Duck Cell",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "Lion's Mean",
+   "type": "ingredient",
+   "surface": "lion's mean",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Oyster",
+   "type": "ingredient",
+   "surface": "oyster",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Oyster",
+   "type": "ingredient",
+   "surface": "oyster",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Trumpet Mushroom",
+   "type": "ingredient",
+   "surface": "trumpet",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "Trumpet Mushroom",
+   "type": "ingredient",
+   "surface": "trumpet",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Hudson Valley",
+   "type": "place",
+   "surface": "Hudson Valley",
+   "ts": "40:50"
+  },
+  {
+   "canonical": "Shalom",
+   "type": "person",
+   "surface": "Shalom",
+   "ts": "41:26"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "41:05"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "37:35"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "38:01"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushrooms",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "43:37"
+  },
+  {
+   "canonical": "mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "vegan",
+   "type": "place",
+   "surface": "vegan",
+   "ts": "41:26"
+  },
+  {
+   "canonical": "vegan",
+   "type": "place",
+   "surface": "vegan",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "vegan",
+   "type": "place",
+   "surface": "vegan",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "meatball",
+   "type": "ingredient",
+   "surface": "meatballs",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "bitter ball",
+   "type": "ingredient",
+   "surface": "bitter balls",
+   "ts": "42:14"
+  },
+  {
+   "canonical": "risotto",
+   "type": "ingredient",
+   "surface": "risotto",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "chili",
+   "type": "ingredient",
+   "surface": "chili",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "chili",
+   "type": "ingredient",
+   "surface": "chili",
+   "ts": "43:08"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "42:35"
+  },
+  {
+   "canonical": "George Motz",
+   "type": "person",
+   "surface": "George Motz",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "Cupie",
+   "type": "place",
+   "surface": "Cupie",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "Lindera Farms",
+   "type": "place",
+   "surface": "Lindera Farms",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "transglutaminase",
+   "type": "ingredient",
+   "surface": "transglutaminase",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "casein",
+   "type": "ingredient",
+   "surface": "casein",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "bechamel",
+   "type": "ingredient",
+   "surface": "bechamel",
+   "ts": "46:11"
+  },
+  {
+   "canonical": "mushroom ketchup",
+   "type": "ingredient",
+   "surface": "mushroom ketchup",
+   "ts": "43:37"
+  },
+  {
+   "canonical": "loose meat",
+   "type": "ingredient",
+   "surface": "loose meat",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "loose meat",
+   "type": "ingredient",
+   "surface": "loose meat",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "olive burger",
+   "type": "ingredient",
+   "surface": "olive burger",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "steaming dome",
+   "type": "equipment",
+   "surface": "steaming dome",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "Pat Lafrida",
+   "type": "person",
+   "surface": "Pat Lafrida",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Aurelion Dufour",
+   "type": "person",
+   "surface": "Aurelion Dufour",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Dufour Gourmet",
+   "type": "place",
+   "surface": "Dufour Gourmet",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Shill Bro",
+   "type": "place",
+   "surface": "Shill Bro",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Daniel Belude",
+   "type": "person",
+   "surface": "Daniel Belude",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "National Restaurant Association show",
+   "type": "place",
+   "surface": "National Restaurant Association show",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "JJ Johnson",
+   "type": "person",
+   "surface": "JJ Johnson",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:10"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:52"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "52:34"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "53:56"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "53:43"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "47:00"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "50 cut",
+   "type": "ingredient",
+   "surface": "50 cut",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "Quebec pork",
+   "type": "ingredient",
+   "surface": "Quebec pork",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "milk fed pork",
+   "type": "ingredient",
+   "surface": "milk fed pork",
+   "ts": "47:26"
+  },
+  {
+   "canonical": "botwurst seasoning",
+   "type": "ingredient",
+   "surface": "botwurst seasoning",
+   "ts": "47:26"
+  },
+  {
+   "canonical": "cheesy grits",
+   "type": "ingredient",
+   "surface": "cheesy grits",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "cheesy grits",
+   "type": "ingredient",
+   "surface": "cheesy grits",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "breakfast sausage",
+   "type": "ingredient",
+   "surface": "breakfast sausage",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "breakfast sausage",
+   "type": "ingredient",
+   "surface": "breakfast sausage",
+   "ts": "47:44"
+  },
+  {
+   "canonical": "bratwurst",
+   "type": "ingredient",
+   "surface": "bratwurst",
+   "ts": "46:51"
+  },
+  {
+   "canonical": "chicken sausage",
+   "type": "ingredient",
+   "surface": "chicken and Italian sausages",
+   "ts": "46:51"
+  },
+  {
+   "canonical": "Wellington",
+   "type": "technique",
+   "surface": "Wellingtons",
+   "ts": "48:17"
+  },
+  {
+   "canonical": "Cryovac",
+   "type": "equipment",
+   "surface": "Cryovac",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "Arboreo rice",
+   "type": "ingredient",
+   "surface": "arboreo rice",
+   "ts": "49:34"
+  },
+  {
+   "canonical": "sauerkraut",
+   "type": "ingredient",
+   "surface": "fermented cabbage leaves",
+   "ts": "50:23"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "50:00"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "50:23"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "50:50"
+  },
+  {
+   "canonical": "stuffed cabbage",
+   "type": "technique",
+   "surface": "stuffed cabbage",
+   "ts": "51:10"
+  },
+  {
+   "canonical": "John John mushrooms",
+   "type": "ingredient",
+   "surface": "John John",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "John John mushrooms",
+   "type": "ingredient",
+   "surface": "John John",
+   "ts": "51:52"
+  },
+  {
+   "canonical": "John John mushrooms",
+   "type": "ingredient",
+   "surface": "John John",
+   "ts": "52:34"
+  },
+  {
+   "canonical": "John John mushrooms",
+   "type": "ingredient",
+   "surface": "John John",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "freeze-dried",
+   "type": "technique",
+   "surface": "freeze-dry",
+   "ts": "51:37"
+  },
+  {
+   "canonical": "freeze-dried",
+   "type": "technique",
+   "surface": "freeze-dried",
+   "ts": "51:52"
+  },
+  {
+   "canonical": "freeze-dried",
+   "type": "technique",
+   "surface": "freeze-dried",
+   "ts": "52:34"
+  },
+  {
+   "canonical": "mushroom puns",
+   "type": "technique",
+   "surface": "mushroom related pun",
+   "ts": "53:07"
+  },
+  {
+   "canonical": "mushroom puns",
+   "type": "technique",
+   "surface": "mushroom puns",
+   "ts": "53:23"
+  },
+  {
+   "canonical": "fungus among us",
+   "type": "technique",
+   "surface": "fungus among us",
+   "ts": "53:27"
+  },
+  {
+   "canonical": "fungus among us",
+   "type": "technique",
+   "surface": "fungus among us",
+   "ts": "53:56"
+  },
+  {
+   "canonical": "Mathman",
+   "type": "person",
+   "surface": "Mathman",
+   "ts": "56:07"
+  },
+  {
+   "canonical": "Christian Sacco",
+   "type": "person",
+   "surface": "Christian Sacco",
+   "ts": "56:59"
+  },
+  {
+   "canonical": "AJ Quinn",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "57:13"
+  },
+  {
+   "canonical": "AJ Quinn",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "AJ Quinn",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "57:47"
+  },
+  {
+   "canonical": "AJ Quinn",
+   "type": "person",
+   "surface": "AJ",
+   "ts": "59:48"
+  },
+  {
+   "canonical": "Bryce",
+   "type": "person",
+   "surface": "Bryce",
+   "ts": "57:59"
+  },
+  {
+   "canonical": "Sola",
+   "type": "person",
+   "surface": "Sola",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Garmer station",
+   "type": "place",
+   "surface": "Garmer station",
+   "ts": "58:19"
+  },
+  {
+   "canonical": "Danielle",
+   "type": "place",
+   "surface": "Danielle",
+   "ts": "58:19"
+  },
+  {
+   "canonical": "Masubi",
+   "type": "ingredient",
+   "surface": "masubi",
+   "ts": "58:43"
+  },
+  {
+   "canonical": "Masubi",
+   "type": "ingredient",
+   "surface": "masubi",
+   "ts": "59:23"
+  },
+  {
+   "canonical": "Sushi rice",
+   "type": "ingredient",
+   "surface": "sushi rice",
+   "ts": "58:54"
+  },
+  {
+   "canonical": "Sushi rice",
+   "type": "ingredient",
+   "surface": "sushi rice",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Ameloplectin",
+   "type": "ingredient",
+   "surface": "Amelopectin",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Amylose",
+   "type": "ingredient",
+   "surface": "amylose",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Bacilla series serious",
+   "type": "ingredient",
+   "surface": "Bacilla series serious",
+   "ts": "59:23"
+  },
+  {
+   "canonical": "Wooden bowl",
+   "type": "equipment",
+   "surface": "wooden bowl",
+   "ts": "57:59"
+  },
+  {
+   "canonical": "Wooden bowl",
+   "type": "equipment",
+   "surface": "wooden bowl",
+   "ts": "58:35"
+  },
+  {
+   "canonical": "Stainless steel bowl",
+   "type": "equipment",
+   "surface": "stainless steel bowl",
+   "ts": "57:59"
+  },
+  {
+   "canonical": "Pastry cream",
+   "type": "ingredient",
+   "surface": "pastry cream",
+   "ts": "56:59"
+  },
+  {
+   "canonical": "Pastry cream",
+   "type": "ingredient",
+   "surface": "pastry cream",
+   "ts": "57:13"
+  },
+  {
+   "canonical": "Pastry cream",
+   "type": "ingredient",
+   "surface": "pastry cream",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "Egg",
+   "type": "ingredient",
+   "surface": "Egg",
+   "ts": "57:39"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "57:13"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "57:39"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "58:54"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "56:59"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "57:13"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "57:19"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "Beef tallow",
+   "type": "ingredient",
+   "surface": "beef tallow",
+   "ts": "56:07"
+  },
+  {
+   "canonical": "Kidney fat",
+   "type": "ingredient",
+   "surface": "kidney fat",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Beef stock",
+   "type": "ingredient",
+   "surface": "beef stock",
+   "ts": "56:07"
+  },
+  {
+   "canonical": "Crust",
+   "type": "ingredient",
+   "surface": "crust",
+   "ts": "56:07"
+  },
+  {
+   "canonical": "Carbonation",
+   "type": "technique",
+   "surface": "carbonation",
+   "ts": "57:47"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "57:59"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "58:19"
+  },
+  {
+   "canonical": "Caesar salad",
+   "type": "ingredient",
+   "surface": "Caesar salad",
+   "ts": "58:19"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "ingredient",
+   "surface": "risotto",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Freezing",
+   "type": "technique",
+   "surface": "freezing",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Storage",
+   "type": "technique",
+   "surface": "storage",
+   "ts": "59:43"
+  }
+ ]
+}

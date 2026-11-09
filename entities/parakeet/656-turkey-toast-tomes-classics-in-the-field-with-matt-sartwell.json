@@ -1,0 +1,901 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Harlow",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Matt Sardwell",
+   "type": "person",
+   "surface": "Matt Matt",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Matt Sardwell",
+   "type": "person",
+   "surface": "Matt Sartwell",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Matt Sardwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "2:12"
+  },
+  {
+   "canonical": "Matt Sardwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "3:41"
+  },
+  {
+   "canonical": "Matt Sardwell",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "8:21"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:27"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:45"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "3:09"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "0:58"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "2:30"
+  },
+  {
+   "canonical": "Instant Ramen Kitchen",
+   "type": "ingredient",
+   "surface": "Instant Ramen Kitchen",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "Annette Tomey",
+   "type": "person",
+   "surface": "Annette Tomey",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "Pam Abrams",
+   "type": "person",
+   "surface": "Pam Abrams",
+   "ts": "4:53"
+  },
+  {
+   "canonical": "Julie Nixon Eisen",
+   "type": "person",
+   "surface": "Julie Eisenhower",
+   "ts": "5:43"
+  },
+  {
+   "canonical": "Paper Bag Chicken",
+   "type": "ingredient",
+   "surface": "paper bag chicken",
+   "ts": "6:01"
+  },
+  {
+   "canonical": "McCormick Curry Spice",
+   "type": "ingredient",
+   "surface": "McCormick curry spice",
+   "ts": "6:21"
+  },
+  {
+   "canonical": "Paprika",
+   "type": "ingredient",
+   "surface": "paprika",
+   "ts": "6:36"
+  },
+  {
+   "canonical": "Paperbag Cooking",
+   "type": "technique",
+   "surface": "paperbag cooking",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Georgia Pacific",
+   "type": "place",
+   "surface": "Georgia Pacific",
+   "ts": "8:08"
+  },
+  {
+   "canonical": "Alexis Sawyer",
+   "type": "person",
+   "surface": "Alexis Sawyer",
+   "ts": "7:09"
+  },
+  {
+   "canonical": "Mrs. Marshall",
+   "type": "person",
+   "surface": "Mrs. Marshall",
+   "ts": "7:46"
+  },
+  {
+   "canonical": "Jacob Reese",
+   "type": "person",
+   "surface": "Jacob Reese",
+   "ts": "8:39"
+  },
+  {
+   "canonical": "Titanium Dioxide",
+   "type": "ingredient",
+   "surface": "titanium dioxide",
+   "ts": "9:02"
+  },
+  {
+   "canonical": "Dynamite",
+   "type": "ingredient",
+   "surface": "dynamite",
+   "ts": "9:02"
+  },
+  {
+   "canonical": "Five Points",
+   "type": "place",
+   "surface": "five points",
+   "ts": "10:19"
+  },
+  {
+   "canonical": "Five Points",
+   "type": "place",
+   "surface": "five points",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Moscow",
+   "type": "place",
+   "surface": "Moscow",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Thai Grocery Store",
+   "type": "place",
+   "surface": "Thai grocery store",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Maria Guarnicelli",
+   "type": "person",
+   "surface": "Maria Guanashelli",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Maria Guarnicelli",
+   "type": "person",
+   "surface": "Maria Guarnicelli",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Dirty French",
+   "type": "place",
+   "surface": "Dirty French",
+   "ts": "13:20"
+  },
+  {
+   "canonical": "Jean George",
+   "type": "place",
+   "surface": "Jean George",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "B Dunn",
+   "type": "person",
+   "surface": "B Dunn",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Parker House rolls",
+   "type": "ingredient",
+   "surface": "Parker House rolls",
+   "ts": "13:51"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "13:00"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "13:58"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Thanksgiving",
+   "type": "place",
+   "surface": "Thanksgiving",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "cranberry sauce",
+   "type": "ingredient",
+   "surface": "cranberry sauce",
+   "ts": "13:58"
+  },
+  {
+   "canonical": "steamed pudding",
+   "type": "technique",
+   "surface": "steamed pudding",
+   "ts": "15:28"
+  },
+  {
+   "canonical": "steamed pudding",
+   "type": "technique",
+   "surface": "steamed pudding",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "crab cake",
+   "type": "technique",
+   "surface": "crab cake",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "crab cake",
+   "type": "technique",
+   "surface": "crab cake",
+   "ts": "17:30"
+  },
+  {
+   "canonical": "sourdough bread",
+   "type": "ingredient",
+   "surface": "sourdough bread",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "turkey stock",
+   "type": "ingredient",
+   "surface": "turkey stock",
+   "ts": "16:50"
+  },
+  {
+   "canonical": "turkey stock",
+   "type": "ingredient",
+   "surface": "turkey stock",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "poultry seasoning",
+   "type": "ingredient",
+   "surface": "poultry seasoning",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Dave Broom",
+   "type": "person",
+   "surface": "Dave Broom",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Gin A Manual",
+   "type": "ingredient",
+   "surface": "gin a manual",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Rum Emanuel",
+   "type": "ingredient",
+   "surface": "Rum Emanuel",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Whiskey Emanual",
+   "type": "ingredient",
+   "surface": "whiskey emanual",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "The Most Noble Water",
+   "type": "ingredient",
+   "surface": "most noble water",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "25:05"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "Spatchcocking",
+   "type": "technique",
+   "surface": "spatch cocking",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "18:01"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "18:51"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "19:05"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "19:29"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "19:45"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "20:07"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "21:20"
+  },
+  {
+   "canonical": "Oysters",
+   "type": "ingredient",
+   "surface": "oysters",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "18:17"
+  },
+  {
+   "canonical": "Stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "Deep Fry",
+   "type": "technique",
+   "surface": "Deep fry",
+   "ts": "19:05"
+  },
+  {
+   "canonical": "Chicken Fried Turkey",
+   "type": "technique",
+   "surface": "Chicken fried turkey",
+   "ts": "19:05"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "24:50"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "25:30"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "26:20"
+  },
+  {
+   "canonical": "Lavender",
+   "type": "ingredient",
+   "surface": "lavender",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Sherbet",
+   "type": "ingredient",
+   "surface": "Sherbet",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Sherbet",
+   "type": "ingredient",
+   "surface": "Sherbet",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "27:11"
+  },
+  {
+   "canonical": "Classics in the Field",
+   "type": "place",
+   "surface": "Classics in the Field",
+   "ts": "27:11"
+  },
+  {
+   "canonical": "Spanish Cuisine",
+   "type": "ingredient",
+   "surface": "Spanish cuisine",
+   "ts": "27:11"
+  },
+  {
+   "canonical": "Claudia Roden",
+   "type": "person",
+   "surface": "Claudia Roden",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "Culinaria",
+   "type": "place",
+   "surface": "Culinaria",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Kathy Mitchell",
+   "type": "person",
+   "surface": "Kathy Mitchell",
+   "ts": "30:07"
+  },
+  {
+   "canonical": "Kathy Mitchell",
+   "type": "person",
+   "surface": "The dumpstress",
+   "ts": "30:21"
+  },
+  {
+   "canonical": "Japanese parfait",
+   "type": "ingredient",
+   "surface": "parfait",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Japanese parfait",
+   "type": "ingredient",
+   "surface": "Japanese parfait",
+   "ts": "30:42"
+  },
+  {
+   "canonical": "Japanese parfait",
+   "type": "ingredient",
+   "surface": "parfait",
+   "ts": "32:02"
+  },
+  {
+   "canonical": "Kakigori",
+   "type": "ingredient",
+   "surface": "Kakigori",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "Kinokania",
+   "type": "place",
+   "surface": "Kinokania",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Kinikanuya",
+   "type": "place",
+   "surface": "Kinikanuya",
+   "ts": "32:38"
+  },
+  {
+   "canonical": "Kinikanuya",
+   "type": "place",
+   "surface": "Kini Kanoya",
+   "ts": "34:17"
+  },
+  {
+   "canonical": "Zaya",
+   "type": "place",
+   "surface": "Zaya",
+   "ts": "33:37"
+  },
+  {
+   "canonical": "Bardane",
+   "type": "person",
+   "surface": "Bardane",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Province Town Seafood Cookbook",
+   "type": "place",
+   "surface": "Province Town Seafood Cookbook",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "Howard Mitchell",
+   "type": "person",
+   "surface": "Howard Mitchell",
+   "ts": "35:16"
+  },
+  {
+   "canonical": "Cape Cod",
+   "type": "place",
+   "surface": "Cape Cod",
+   "ts": "34:57"
+  },
+  {
+   "canonical": "Cape Cod",
+   "type": "place",
+   "surface": "Cape Cod",
+   "ts": "35:25"
+  },
+  {
+   "canonical": "Cape Cod",
+   "type": "place",
+   "surface": "Cape Cod",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "New England",
+   "type": "place",
+   "surface": "New England",
+   "ts": "34:57"
+  },
+  {
+   "canonical": "lobster",
+   "type": "ingredient",
+   "surface": "Lobster",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "wharf",
+   "type": "place",
+   "surface": "wharfs",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "Puritans",
+   "type": "person",
+   "surface": "Puritans",
+   "ts": "35:40"
+  },
+  {
+   "canonical": "Hatches",
+   "type": "place",
+   "surface": "Hatches",
+   "ts": "36:47"
+  },
+  {
+   "canonical": "Penices Island School",
+   "type": "place",
+   "surface": "Penices Island School",
+   "ts": "37:38"
+  },
+  {
+   "canonical": "Cooking the Catch",
+   "type": "place",
+   "surface": "Cooking the Catch",
+   "ts": "38:52"
+  },
+  {
+   "canonical": "John Thorne",
+   "type": "person",
+   "surface": "John Thorne",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "Simple Cooking",
+   "type": "place",
+   "surface": "Simple Cooking",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "Simple Cooking",
+   "type": "place",
+   "surface": "Simple Cooking",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Simple Cooking",
+   "type": "place",
+   "surface": "Simple Cooking",
+   "ts": "44:51"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "42:25"
+  },
+  {
+   "canonical": "John Thorne",
+   "type": "person",
+   "surface": "John Thorne",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "Nock Waxman",
+   "type": "person",
+   "surface": "Nock Waxman",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "45:48"
+  },
+  {
+   "canonical": "MFK Fisher",
+   "type": "person",
+   "surface": "MFK Fisher",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Thorne",
+   "type": "person",
+   "surface": "Thorne",
+   "ts": "46:48"
+  },
+  {
+   "canonical": "Thorne",
+   "type": "person",
+   "surface": "Thorne",
+   "ts": "47:39"
+  },
+  {
+   "canonical": "Thorne",
+   "type": "person",
+   "surface": "Thorne",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Quintessential Toast",
+   "type": "technique",
+   "surface": "Quintessential Toast",
+   "ts": "47:39"
+  },
+  {
+   "canonical": "Quintessential Toast",
+   "type": "technique",
+   "surface": "quintessential toast",
+   "ts": "48:04"
+  },
+  {
+   "canonical": "Quintessential Toast",
+   "type": "technique",
+   "surface": "quintessential toast",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Toaster Agonis",
+   "type": "technique",
+   "surface": "Toaster Agonis",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "William Moyce Weaver",
+   "type": "person",
+   "surface": "William Moyce Weaver",
+   "ts": "50:58"
+  },
+  {
+   "canonical": "Kohnemann",
+   "type": "place",
+   "surface": "Kohnemann",
+   "ts": "54:57"
+  },
+  {
+   "canonical": "Borders",
+   "type": "place",
+   "surface": "borders",
+   "ts": "55:25"
+  },
+  {
+   "canonical": "Borders",
+   "type": "place",
+   "surface": "Borders",
+   "ts": "55:53"
+  },
+  {
+   "canonical": "Borders",
+   "type": "place",
+   "surface": "borders",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Borders",
+   "type": "place",
+   "surface": "Borders",
+   "ts": "56:42"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:00:27"
+  },
+  {
+   "canonical": "poly D",
+   "type": "ingredient",
+   "surface": "poly D",
+   "ts": "1:00:07"
+  },
+  {
+   "canonical": "wormwood",
+   "type": "ingredient",
+   "surface": "wormwood",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "wormwood",
+   "type": "ingredient",
+   "surface": "wormwood",
+   "ts": "1:00:07"
+  },
+  {
+   "canonical": "pomegranate cordial",
+   "type": "ingredient",
+   "surface": "pomegranate cordial",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "pomegranate cordial",
+   "type": "ingredient",
+   "surface": "pomegranate cordial",
+   "ts": "59:16"
+  },
+  {
+   "canonical": "cranberry cordial",
+   "type": "ingredient",
+   "surface": "cranberry cordial",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "cranberry cordial",
+   "type": "ingredient",
+   "surface": "cranberry cordial",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "green bean juice",
+   "type": "ingredient",
+   "surface": "green bean juice",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "green bean juice",
+   "type": "ingredient",
+   "surface": "green bean juice",
+   "ts": "59:39"
+  },
+  {
+   "canonical": "rhubarb root",
+   "type": "ingredient",
+   "surface": "rhubarb root",
+   "ts": "59:39"
+  },
+  {
+   "canonical": "poly D recipe",
+   "type": "technique",
+   "surface": "poly D recipe",
+   "ts": "1:00:07"
+  },
+  {
+   "canonical": "nut milk bag",
+   "type": "equipment",
+   "surface": "nut milk bag",
+   "ts": "59:39"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking issues",
+   "ts": "1:00:31"
+  }
+ ]
+}
