@@ -13,7 +13,7 @@
         {
           default = pkgs.mkShell {
             # sqlite for bin/fts-search; uv runs the Python scripts in bin/.
-            packages = [ pkgs.ruby_3_4 pkgs.uv pkgs.sqlite ];
+            packages = [ pkgs.ruby_4_0 pkgs.uv pkgs.sqlite ];
           };
         });
     };
