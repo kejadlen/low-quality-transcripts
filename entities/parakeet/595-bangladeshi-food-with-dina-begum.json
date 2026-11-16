@@ -1,0 +1,1819 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "6:53"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:46"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:37"
+  },
+  {
+   "canonical": "Dina Bagum",
+   "type": "person",
+   "surface": "Dina Bagum",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "1:14"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "Singara",
+   "type": "ingredient",
+   "surface": "Singara's",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "Narjella seeds",
+   "type": "ingredient",
+   "surface": "Narjella seeds",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "Bengali 5 spice",
+   "type": "ingredient",
+   "surface": "Bengali 5 spice",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "fenugreek",
+   "type": "ingredient",
+   "surface": "fenugreek",
+   "ts": "2:18"
+  },
+  {
+   "canonical": "fenugreek",
+   "type": "ingredient",
+   "surface": "fenigreek",
+   "ts": "2:39"
+  },
+  {
+   "canonical": "Kitchuri",
+   "type": "ingredient",
+   "surface": "Kitchuri",
+   "ts": "2:49"
+  },
+  {
+   "canonical": "tacos",
+   "type": "ingredient",
+   "surface": "tacos",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "tacos",
+   "type": "ingredient",
+   "surface": "tacos",
+   "ts": "3:53"
+  },
+  {
+   "canonical": "tacos",
+   "type": "ingredient",
+   "surface": "tacos",
+   "ts": "4:03"
+  },
+  {
+   "canonical": "tacos",
+   "type": "ingredient",
+   "surface": "tacos",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "fish tacos",
+   "type": "ingredient",
+   "surface": "fish tacos",
+   "ts": "4:03"
+  },
+  {
+   "canonical": "gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "gumbo",
+   "type": "ingredient",
+   "surface": "gumbo",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "okra",
+   "type": "ingredient",
+   "surface": "okra",
+   "ts": "5:30"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "Temperance",
+   "ts": "6:53"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "temperance",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "6:53"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "7:44"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Switzerland",
+   "type": "place",
+   "surface": "Switzerland",
+   "ts": "8:43"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Air Vatis",
+   "type": "person",
+   "surface": "Air Vatis",
+   "ts": "9:00"
+  },
+  {
+   "canonical": "Air Vatis",
+   "type": "person",
+   "surface": "Airvatis",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Air Vatis",
+   "type": "person",
+   "surface": "Air V man",
+   "ts": "9:33"
+  },
+  {
+   "canonical": "Ervett",
+   "type": "person",
+   "surface": "Ervitis",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Superiority",
+   "type": "place",
+   "surface": "Superiority",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Verde Mart",
+   "type": "place",
+   "surface": "Verde Mart",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Verde Mart",
+   "type": "place",
+   "surface": "Verdi Mart",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Confederacy of Dunces",
+   "type": "place",
+   "surface": "Confederacy of Dunce",
+   "ts": "10:54"
+  },
+  {
+   "canonical": "Confederacy of Dunces",
+   "type": "place",
+   "surface": "Confederacy of Dunks Dunce",
+   "ts": "11:35"
+  },
+  {
+   "canonical": "Molecules",
+   "type": "person",
+   "surface": "Molecules",
+   "ts": "10:54"
+  },
+  {
+   "canonical": "Po boy",
+   "type": "ingredient",
+   "surface": "Po boy",
+   "ts": "11:51"
+  },
+  {
+   "canonical": "Oyster",
+   "type": "ingredient",
+   "surface": "Oyster",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "Oyster",
+   "type": "ingredient",
+   "surface": "Oyster",
+   "ts": "12:20"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "12:20"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "12:45"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "13:01"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "13:11"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "13:34"
+  },
+  {
+   "canonical": "Shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "13:46"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "9:09"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "9:46"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "Mayonnaise",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Fries",
+   "type": "ingredient",
+   "surface": "fries",
+   "ts": "10:25"
+  },
+  {
+   "canonical": "Fries",
+   "type": "ingredient",
+   "surface": "fries",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Fries",
+   "type": "ingredient",
+   "surface": "fries",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Dunce Cap",
+   "type": "equipment",
+   "surface": "Dunce cap",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Dunce Cap",
+   "type": "equipment",
+   "surface": "Dunce Cap",
+   "ts": "10:54"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "13:56"
+  },
+  {
+   "canonical": "elder flour",
+   "type": "ingredient",
+   "surface": "local elder flour",
+   "ts": "14:11"
+  },
+  {
+   "canonical": "flavored salt",
+   "type": "ingredient",
+   "surface": "flavored salt",
+   "ts": "14:11"
+  },
+  {
+   "canonical": "flavored salt",
+   "type": "ingredient",
+   "surface": "flavored salt",
+   "ts": "15:03"
+  },
+  {
+   "canonical": "flavored salt",
+   "type": "ingredient",
+   "surface": "flavored salt",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "flavored sugar",
+   "type": "ingredient",
+   "surface": "flavored sugar",
+   "ts": "14:11"
+  },
+  {
+   "canonical": "extract",
+   "type": "ingredient",
+   "surface": "extract",
+   "ts": "14:11"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermenting",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "14:55"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "spindle",
+   "type": "ingredient",
+   "surface": "spindle",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "DiPalo's",
+   "type": "place",
+   "surface": "DiPalo's",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "glass jars",
+   "type": "equipment",
+   "surface": "glass jars",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "seeds",
+   "type": "ingredient",
+   "surface": "sesame",
+   "ts": "18:15"
+  },
+  {
+   "canonical": "grain neutral",
+   "type": "ingredient",
+   "surface": "grain neutral",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "everclair",
+   "type": "ingredient",
+   "surface": "everclair",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "16:57"
+  },
+  {
+   "canonical": "cheese and prosciutto stuffed peppers",
+   "type": "ingredient",
+   "surface": "cheese and prosciutto stuffed uh peppers",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "glass",
+   "type": "equipment",
+   "surface": "glass",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "glass",
+   "type": "equipment",
+   "surface": "glass",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "ziplock",
+   "type": "equipment",
+   "surface": "ziplocks",
+   "ts": "16:26"
+  },
+  {
+   "canonical": "gallon",
+   "type": "equipment",
+   "surface": "gallon",
+   "ts": "16:26"
+  },
+  {
+   "canonical": "gallon",
+   "type": "equipment",
+   "surface": "gallon",
+   "ts": "17:22"
+  },
+  {
+   "canonical": "gallon",
+   "type": "equipment",
+   "surface": "gallon",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "gallon",
+   "type": "equipment",
+   "surface": "gallon",
+   "ts": "17:52"
+  },
+  {
+   "canonical": "Ellery",
+   "type": "person",
+   "surface": "Ellery",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "Ellery",
+   "type": "person",
+   "surface": "Ellery",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "Dutch Crunch",
+   "type": "technique",
+   "surface": "Dutch Crunch",
+   "ts": "19:08"
+  },
+  {
+   "canonical": "Dutch Crunch",
+   "type": "technique",
+   "surface": "Dutch Crunch",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "20:29"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "20:46"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "21:09"
+  },
+  {
+   "canonical": "AJ Schaller",
+   "type": "person",
+   "surface": "AJ Shower",
+   "ts": "21:27"
+  },
+  {
+   "canonical": "Mush",
+   "type": "place",
+   "surface": "Mush",
+   "ts": "21:27"
+  },
+  {
+   "canonical": "Cuisine Solutions",
+   "type": "place",
+   "surface": "Cuisine Solutions",
+   "ts": "21:27"
+  },
+  {
+   "canonical": "Noma Projects",
+   "type": "place",
+   "surface": "Noma Projects",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "vinaigrette",
+   "type": "technique",
+   "surface": "vinaigrette",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "flour vinegar",
+   "type": "ingredient",
+   "surface": "flour vinegar",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "oil",
+   "type": "ingredient",
+   "surface": "oil",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "19:21"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "22:28"
+  },
+  {
+   "canonical": "fat washing",
+   "type": "technique",
+   "surface": "fat washing",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "enfourage",
+   "type": "technique",
+   "surface": "enfourage",
+   "ts": "22:02"
+  },
+  {
+   "canonical": "Brick Lane",
+   "type": "place",
+   "surface": "Brick Lane",
+   "ts": "22:57"
+  },
+  {
+   "canonical": "Brick Lane",
+   "type": "place",
+   "surface": "Brick Lane",
+   "ts": "24:50"
+  },
+  {
+   "canonical": "Brick Lane",
+   "type": "place",
+   "surface": "Brick Lane",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Bangladeshi cuisine",
+   "type": "ingredient",
+   "surface": "Bangladeshi",
+   "ts": "25:08"
+  },
+  {
+   "canonical": "Bangladeshi cuisine",
+   "type": "ingredient",
+   "surface": "Bangladeshi",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Bangladeshi cuisine",
+   "type": "ingredient",
+   "surface": "Bangladeshi",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "fusion",
+   "type": "technique",
+   "surface": "fusion",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "fusion",
+   "type": "technique",
+   "surface": "fusion",
+   "ts": "26:39"
+  },
+  {
+   "canonical": "Ash Gourd",
+   "type": "ingredient",
+   "surface": "ash gourd",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Ash Gourd",
+   "type": "ingredient",
+   "surface": "ash gourd",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Winter Melon",
+   "type": "ingredient",
+   "surface": "winter melon",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Chutney",
+   "type": "ingredient",
+   "surface": "Chutneese",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Preserve",
+   "type": "ingredient",
+   "surface": "preserves",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Preserve",
+   "type": "ingredient",
+   "surface": "preserves",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Preserve",
+   "type": "ingredient",
+   "surface": "preserves",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay",
+   "ts": "29:06"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Coconut Morabh",
+   "type": "ingredient",
+   "surface": "coconut morabh",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Sticky Rice",
+   "type": "ingredient",
+   "surface": "sticky rice",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Sticky Rice",
+   "type": "ingredient",
+   "surface": "sticky rice",
+   "ts": "30:17"
+  },
+  {
+   "canonical": "Sticky Rice",
+   "type": "ingredient",
+   "surface": "sticky rice",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Sticky Rice",
+   "type": "ingredient",
+   "surface": "sticky rice",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Red Sticky Rice",
+   "type": "ingredient",
+   "surface": "red sticky rice",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Red Sticky Rice",
+   "type": "ingredient",
+   "surface": "red sticky rice",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Chinigura Rice",
+   "type": "ingredient",
+   "surface": "chinigura",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Kalojira Rice",
+   "type": "ingredient",
+   "surface": "kalojira",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Gobindabog Rice",
+   "type": "ingredient",
+   "surface": "Gobindabog",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "32:22"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "32:54"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Mutton",
+   "type": "ingredient",
+   "surface": "mutton",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "32:22"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "32:29"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "33:09"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Lamb",
+   "type": "ingredient",
+   "surface": "lamb",
+   "ts": "33:59"
+  },
+  {
+   "canonical": "Oil Pickle",
+   "type": "ingredient",
+   "surface": "oil pickles",
+   "ts": "34:04"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "34:04"
+  },
+  {
+   "canonical": "Lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Pickling",
+   "type": "technique",
+   "surface": "pickles",
+   "ts": "34:04"
+  },
+  {
+   "canonical": "Pickling",
+   "type": "technique",
+   "surface": "pickles",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Preserving",
+   "type": "technique",
+   "surface": "preserving",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Preserving",
+   "type": "technique",
+   "surface": "preserving",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Birani",
+   "type": "ingredient",
+   "surface": "birani",
+   "ts": "33:20"
+  },
+  {
+   "canonical": "Pudding",
+   "type": "ingredient",
+   "surface": "puddings",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Pudding",
+   "type": "ingredient",
+   "surface": "puddings",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Bangan",
+   "type": "place",
+   "surface": "Bangladeshi cuisine",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Bangan",
+   "type": "place",
+   "surface": "Bangladeshi cuisine",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Bangan",
+   "type": "place",
+   "surface": "Bangladeshi cuisine",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Bangan",
+   "type": "place",
+   "surface": "Bangladeshi cuisine",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Silet",
+   "type": "place",
+   "surface": "Silet's region",
+   "ts": "29:36"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "28:35"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Keene's",
+   "type": "place",
+   "surface": "Keene's",
+   "ts": "32:54"
+  },
+  {
+   "canonical": "Hawksmore",
+   "type": "place",
+   "surface": "Hawksmore",
+   "ts": "32:54"
+  },
+  {
+   "canonical": "Popula",
+   "type": "place",
+   "surface": "Popula",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Brick Lane",
+   "type": "place",
+   "surface": "Brick Lane",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "West Bengal",
+   "type": "place",
+   "surface": "West Bengal",
+   "ts": "30:32"
+  },
+  {
+   "canonical": "West Bengal",
+   "type": "place",
+   "surface": "West Bengal",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "England",
+   "type": "place",
+   "surface": "England",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "England",
+   "type": "place",
+   "surface": "England",
+   "ts": "32:22"
+  },
+  {
+   "canonical": "Bangladeshi cooking",
+   "type": "place",
+   "surface": "Bangladeshi cooking",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "kitchuri",
+   "type": "ingredient",
+   "surface": "kitchuri",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "lemon pickle",
+   "type": "ingredient",
+   "surface": "lemon pickle",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "lemon oil",
+   "type": "ingredient",
+   "surface": "lemon oil",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "mustard seeds",
+   "type": "ingredient",
+   "surface": "mustard seeds",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "chilies",
+   "type": "ingredient",
+   "surface": "chilies",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "chili oil",
+   "type": "ingredient",
+   "surface": "chili oil",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "fish wedding",
+   "type": "technique",
+   "surface": "fish wedding",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "shutki",
+   "type": "ingredient",
+   "surface": "shut ki",
+   "ts": "41:22"
+  },
+  {
+   "canonical": "shutki",
+   "type": "ingredient",
+   "surface": "shut ki",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "shidol",
+   "type": "ingredient",
+   "surface": "shidol",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "shidol",
+   "type": "ingredient",
+   "surface": "shidol",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "fermented fish",
+   "type": "ingredient",
+   "surface": "fermented fish",
+   "ts": "41:22"
+  },
+  {
+   "canonical": "fermented fish",
+   "type": "ingredient",
+   "surface": "fermented fish",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "Thai fish paste",
+   "type": "ingredient",
+   "surface": "Thai fish paste",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "Bombay duck",
+   "type": "ingredient",
+   "surface": "Bombay duck",
+   "ts": "42:56"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "lentils",
+   "type": "ingredient",
+   "surface": "lentil",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "39:47"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "39:58"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "40:35"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "40:57"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "41:22"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "41:43"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "42:56"
+  },
+  {
+   "canonical": "anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "41:36"
+  },
+  {
+   "canonical": "anchovies",
+   "type": "ingredient",
+   "surface": "anchovies",
+   "ts": "41:57"
+  },
+  {
+   "canonical": "sardines",
+   "type": "ingredient",
+   "surface": "sardines",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Hilsa",
+   "type": "ingredient",
+   "surface": "Hilsa slash Illish",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "shad",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "Shad",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "Shad",
+   "ts": "50:27"
+  },
+  {
+   "canonical": "Allotment",
+   "type": "place",
+   "surface": "allotment",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Allotment",
+   "type": "place",
+   "surface": "allotment",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "43:23"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "46:13"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "46:34"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "47:17"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "49:15"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Bangladesh",
+   "type": "place",
+   "surface": "Bangladesh",
+   "ts": "50:57"
+  },
+  {
+   "canonical": "Shutki",
+   "type": "ingredient",
+   "surface": "shutki",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "Shutki",
+   "type": "ingredient",
+   "surface": "shutki",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Boremach",
+   "type": "ingredient",
+   "surface": "boremach",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Bombay Duck",
+   "type": "ingredient",
+   "surface": "bombay duck",
+   "ts": "43:23"
+  },
+  {
+   "canonical": "Sambal",
+   "type": "ingredient",
+   "surface": "sambal",
+   "ts": "44:39"
+  },
+  {
+   "canonical": "Gourd",
+   "type": "ingredient",
+   "surface": "gourd",
+   "ts": "45:53"
+  },
+  {
+   "canonical": "Gourd",
+   "type": "ingredient",
+   "surface": "gourd",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Gourd",
+   "type": "ingredient",
+   "surface": "gourd",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "Gourd",
+   "type": "ingredient",
+   "surface": "gourd",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Queens",
+   "type": "place",
+   "surface": "Queens",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "48:30"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "48:42"
+  },
+  {
+   "canonical": "Stasia",
+   "type": "person",
+   "surface": "Stasia",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Hilsa",
+   "type": "ingredient",
+   "surface": "Hilsa",
+   "ts": "45:38"
+  },
+  {
+   "canonical": "Hilsa",
+   "type": "ingredient",
+   "surface": "hilsa",
+   "ts": "49:15"
+  },
+  {
+   "canonical": "Hilsa",
+   "type": "ingredient",
+   "surface": "hilsa",
+   "ts": "50:00"
+  },
+  {
+   "canonical": "Hilsa",
+   "type": "ingredient",
+   "surface": "Hilsa",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "shad",
+   "ts": "45:45"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "Shad",
+   "ts": "50:14"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "Shad",
+   "ts": "50:27"
+  },
+  {
+   "canonical": "Bangladeshi",
+   "type": "place",
+   "surface": "Bangladeshi",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "Bangladeshi",
+   "type": "place",
+   "surface": "Bangladeshi",
+   "ts": "50:36"
+  },
+  {
+   "canonical": "Community garden",
+   "type": "place",
+   "surface": "community garden",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Community garden",
+   "type": "place",
+   "surface": "community garden",
+   "ts": "48:30"
+  },
+  {
+   "canonical": "Allotment",
+   "type": "place",
+   "surface": "allotment",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Allotment",
+   "type": "place",
+   "surface": "allotment",
+   "ts": "47:46"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "52:39"
+  },
+  {
+   "canonical": "Jali Kebab",
+   "type": "technique",
+   "surface": "jali kebab",
+   "ts": "52:58"
+  },
+  {
+   "canonical": "Jali Kebab",
+   "type": "technique",
+   "surface": "jali kebab",
+   "ts": "53:06"
+  },
+  {
+   "canonical": "Pantabat",
+   "type": "ingredient",
+   "surface": "pantabat",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Pantabat",
+   "type": "ingredient",
+   "surface": "pantabat",
+   "ts": "55:17"
+  },
+  {
+   "canonical": "Gondaraj Lebu",
+   "type": "ingredient",
+   "surface": "Bangladeshi lemon",
+   "ts": "58:11"
+  },
+  {
+   "canonical": "Mustard Oil",
+   "type": "ingredient",
+   "surface": "mustard oil",
+   "ts": "57:18"
+  },
+  {
+   "canonical": "Mustard Oil",
+   "type": "ingredient",
+   "surface": "mustard oil",
+   "ts": "57:43"
+  },
+  {
+   "canonical": "Bortas",
+   "type": "ingredient",
+   "surface": "bortas",
+   "ts": "55:32"
+  },
+  {
+   "canonical": "Bird's Eye Chilies",
+   "type": "ingredient",
+   "surface": "bird's eye chilies",
+   "ts": "57:00"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "54:28"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "54:51"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "55:17"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "56:02"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermented",
+   "ts": "56:35"
+  },
+  {
+   "canonical": "Fermented Rice",
+   "type": "ingredient",
+   "surface": "fermented rice",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Dina",
+   "type": "person",
+   "surface": "Dina",
+   "ts": "1:01:38"
+  },
+  {
+   "canonical": "MoFad",
+   "type": "place",
+   "surface": "MoFad",
+   "ts": "1:01:38"
+  },
+  {
+   "canonical": "Radhuni",
+   "type": "ingredient",
+   "surface": "Radhuni",
+   "ts": "59:52"
+  },
+  {
+   "canonical": "Celery Seed",
+   "type": "ingredient",
+   "surface": "celery seed",
+   "ts": "59:52"
+  },
+  {
+   "canonical": "Saffron",
+   "type": "ingredient",
+   "surface": "Saffron",
+   "ts": "59:37"
+  },
+  {
+   "canonical": "Cardamom",
+   "type": "ingredient",
+   "surface": "cardamom",
+   "ts": "59:02"
+  },
+  {
+   "canonical": "Cardamom",
+   "type": "ingredient",
+   "surface": "cardamom",
+   "ts": "59:37"
+  },
+  {
+   "canonical": "Clementine Peel",
+   "type": "ingredient",
+   "surface": "clementine peel",
+   "ts": "59:02"
+  },
+  {
+   "canonical": "Fish Recipe",
+   "type": "technique",
+   "surface": "fish recipe",
+   "ts": "59:02"
+  },
+  {
+   "canonical": "Chicken Braised Recipe",
+   "type": "technique",
+   "surface": "chicken braised recipe",
+   "ts": "59:02"
+  },
+  {
+   "canonical": "Shandesh",
+   "type": "ingredient",
+   "surface": "Shandesh",
+   "ts": "59:25"
+  },
+  {
+   "canonical": "Five Spice",
+   "type": "ingredient",
+   "surface": "five spice",
+   "ts": "59:37"
+  },
+  {
+   "canonical": "Five Spice",
+   "type": "ingredient",
+   "surface": "five spice",
+   "ts": "1:00:17"
+  },
+  {
+   "canonical": "Matate",
+   "type": "equipment",
+   "surface": "matate",
+   "ts": "1:00:39"
+  },
+  {
+   "canonical": "Matate",
+   "type": "equipment",
+   "surface": "matate",
+   "ts": "1:00:54"
+  },
+  {
+   "canonical": "Seal Bata Grinder",
+   "type": "equipment",
+   "surface": "seal bata grinder",
+   "ts": "1:00:39"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "1:00:17"
+  }
+ ]
+}

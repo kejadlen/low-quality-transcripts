@@ -1,0 +1,1603 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:32"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "2:28"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "2:34"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "3:11"
+  },
+  {
+   "canonical": "James Hoffman",
+   "type": "person",
+   "surface": "James Hoffman",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "James Hoffman",
+   "type": "person",
+   "surface": "James Hoffman",
+   "ts": "3:58"
+  },
+  {
+   "canonical": "Victoria Arduino",
+   "type": "equipment",
+   "surface": "Victoria Arduino",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Arduino",
+   "type": "equipment",
+   "surface": "Arduino",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Nova Simonelli",
+   "type": "equipment",
+   "surface": "Nova Simonelli",
+   "ts": "8:01"
+  },
+  {
+   "canonical": "Maple Syrup",
+   "type": "ingredient",
+   "surface": "Maple syrup",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "Coffee",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "3:37"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "Coffee",
+   "ts": "3:42"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "Coffee",
+   "ts": "3:58"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "5:27"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "6:25"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "8:01"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "7:32"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "8:33"
+  },
+  {
+   "canonical": "Drip Coffee",
+   "type": "ingredient",
+   "surface": "drip coffee",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Drip Coffee",
+   "type": "ingredient",
+   "surface": "drip coffee",
+   "ts": "7:24"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "New Stance Studios",
+   "type": "place",
+   "surface": "New Stance Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Connecticut",
+   "type": "place",
+   "surface": "Connecticut",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Connecticut",
+   "type": "place",
+   "surface": "Connecticut",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Albany",
+   "type": "place",
+   "surface": "Albany",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Saratoga",
+   "type": "place",
+   "surface": "Saratoga",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Burlington",
+   "type": "place",
+   "surface": "Burlington",
+   "ts": "1:15"
+  },
+  {
+   "canonical": "Orwell",
+   "type": "place",
+   "surface": "Orwell",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Raymond Road",
+   "type": "place",
+   "surface": "Raymond Road",
+   "ts": "1:59"
+  },
+  {
+   "canonical": "Stanford",
+   "type": "place",
+   "surface": "Stanford",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "2:34"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "2:41"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Washington, D.C.",
+   "type": "place",
+   "surface": "DC",
+   "ts": "2:28"
+  },
+  {
+   "canonical": "Seattle",
+   "type": "place",
+   "surface": "Seattle",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "London",
+   "type": "place",
+   "surface": "London",
+   "ts": "5:27"
+  },
+  {
+   "canonical": "London",
+   "type": "place",
+   "surface": "London",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "United Kingdom",
+   "type": "place",
+   "surface": "UK",
+   "ts": "3:42"
+  },
+  {
+   "canonical": "United Kingdom",
+   "type": "place",
+   "surface": "UK",
+   "ts": "3:58"
+  },
+  {
+   "canonical": "United Kingdom",
+   "type": "place",
+   "surface": "UK",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "4:33"
+  },
+  {
+   "canonical": "Stanford University",
+   "type": "place",
+   "surface": "Stanford",
+   "ts": "2:46"
+  },
+  {
+   "canonical": "Paul River",
+   "type": "ingredient",
+   "surface": "Paul River",
+   "ts": "6:54"
+  },
+  {
+   "canonical": "Shomer",
+   "type": "person",
+   "surface": "Shomer",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "Vivace",
+   "type": "place",
+   "surface": "Vivace",
+   "ts": "9:24"
+  },
+  {
+   "canonical": "McCormick Place",
+   "type": "place",
+   "surface": "McCormick Place",
+   "ts": "9:24"
+  },
+  {
+   "canonical": "Victoria Arduino",
+   "type": "place",
+   "surface": "Victoria Arduino",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "Simonelli",
+   "type": "person",
+   "surface": "Simonelli",
+   "ts": "10:19"
+  },
+  {
+   "canonical": "Simonelli",
+   "type": "person",
+   "surface": "Simonelli",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Las and Marco",
+   "type": "person",
+   "surface": "Las and Marco",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "La San Marco",
+   "type": "place",
+   "surface": "La San Marco",
+   "ts": "13:49"
+  },
+  {
+   "canonical": "World Atlas of Coffee",
+   "type": "place",
+   "surface": "World Atlas of Coffee",
+   "ts": "14:12"
+  },
+  {
+   "canonical": "Uganda",
+   "type": "place",
+   "surface": "Uganda",
+   "ts": "15:12"
+  },
+  {
+   "canonical": "James",
+   "type": "person",
+   "surface": "James",
+   "ts": "13:04"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "Hario V60",
+   "type": "equipment",
+   "surface": "Hario V60",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "Yama Vacpot",
+   "type": "equipment",
+   "surface": "Yama Vacpot",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Aero Press",
+   "type": "equipment",
+   "surface": "Aero Press",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Mocha Pot",
+   "type": "equipment",
+   "surface": "Mocha Pot",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Mocha Pot",
+   "type": "equipment",
+   "surface": "mocha pot",
+   "ts": "21:49"
+  },
+  {
+   "canonical": "Mocha Pot",
+   "type": "equipment",
+   "surface": "mocha pot",
+   "ts": "22:38"
+  },
+  {
+   "canonical": "Atomic Coffee Maker",
+   "type": "equipment",
+   "surface": "atomic",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Atomic Coffee Maker",
+   "type": "equipment",
+   "surface": "atomic",
+   "ts": "22:20"
+  },
+  {
+   "canonical": "Atomic Coffee Maker",
+   "type": "equipment",
+   "surface": "atomic",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "Bripe",
+   "type": "equipment",
+   "surface": "bripe",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Bripe",
+   "type": "equipment",
+   "surface": "bripe",
+   "ts": "21:23"
+  },
+  {
+   "canonical": "Cold Dripper",
+   "type": "equipment",
+   "surface": "cold dripper",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Lever Espresso Machine",
+   "type": "equipment",
+   "surface": "lever espresso machine",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Lever Espresso Machine",
+   "type": "equipment",
+   "surface": "lever espresso machine",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Pavoni",
+   "type": "equipment",
+   "surface": "Pavoni",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Pavoni",
+   "type": "equipment",
+   "surface": "pavoni",
+   "ts": "24:15"
+  },
+  {
+   "canonical": "Sylvia",
+   "type": "equipment",
+   "surface": "Sylvia",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Fire Mina",
+   "type": "equipment",
+   "surface": "Fire Mina",
+   "ts": "23:37"
+  },
+  {
+   "canonical": "Passivation",
+   "type": "technique",
+   "surface": "passivated",
+   "ts": "21:18"
+  },
+  {
+   "canonical": "Cold Brewing",
+   "type": "technique",
+   "surface": "cold brewing",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Manual Coffee Makers",
+   "type": "equipment",
+   "surface": "manual coffee makers",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "18:19"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "19:00"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "23:18"
+  },
+  {
+   "canonical": "Copper",
+   "type": "ingredient",
+   "surface": "copper",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "22:20"
+  },
+  {
+   "canonical": "Aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Steel Wool",
+   "type": "equipment",
+   "surface": "steel wool",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Calcium Deposits",
+   "type": "ingredient",
+   "surface": "calcium",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Salt Deposits",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "26:44"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "32:18"
+  },
+  {
+   "canonical": "James Hoffmann",
+   "type": "person",
+   "surface": "James",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Michael Fabro",
+   "type": "person",
+   "surface": "Michael Fabro",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Oura King Salmon",
+   "type": "place",
+   "surface": "Oura King Salmon",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Aura King Salmon",
+   "type": "place",
+   "surface": "Aura King Salmon",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Cafe Lambre",
+   "type": "place",
+   "surface": "Cafe Lambre",
+   "ts": "27:10"
+  },
+  {
+   "canonical": "staccato espresso shot",
+   "type": "technique",
+   "surface": "staccato espresso shot",
+   "ts": "34:47"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "28:22"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "29:13"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "29:46"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "roasting",
+   "type": "technique",
+   "surface": "roasting",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "home roasting",
+   "type": "technique",
+   "surface": "home roasting",
+   "ts": "28:22"
+  },
+  {
+   "canonical": "home roasting",
+   "type": "technique",
+   "surface": "home roasting",
+   "ts": "29:13"
+  },
+  {
+   "canonical": "home roasting",
+   "type": "technique",
+   "surface": "home roasting",
+   "ts": "30:12"
+  },
+  {
+   "canonical": "afterburner",
+   "type": "equipment",
+   "surface": "afterburner",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "afterburner",
+   "type": "equipment",
+   "surface": "afterburner",
+   "ts": "34:13"
+  },
+  {
+   "canonical": "vortex",
+   "type": "equipment",
+   "surface": "vortex",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "electrostatic precipitator",
+   "type": "equipment",
+   "surface": "electrostatic precipitators",
+   "ts": "33:44"
+  },
+  {
+   "canonical": "popcorn popper",
+   "type": "equipment",
+   "surface": "popcorn poppers",
+   "ts": "28:22"
+  },
+  {
+   "canonical": "Hatchery",
+   "type": "place",
+   "surface": "hatchery",
+   "ts": "30:59"
+  },
+  {
+   "canonical": "Hatchery",
+   "type": "place",
+   "surface": "hatchery",
+   "ts": "31:18"
+  },
+  {
+   "canonical": "Hatchery",
+   "type": "place",
+   "surface": "hatchery",
+   "ts": "31:35"
+  },
+  {
+   "canonical": "coffee shop",
+   "type": "place",
+   "surface": "coffee shop",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Koto",
+   "type": "person",
+   "surface": "Koto",
+   "ts": "26:44"
+  },
+  {
+   "canonical": "Ray",
+   "type": "person",
+   "surface": "Ray",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Turkish Coffee",
+   "type": "ingredient",
+   "surface": "Turkish coffee",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Turkish Coffee",
+   "type": "ingredient",
+   "surface": "Turkish coffee",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Turkish Coffee",
+   "type": "ingredient",
+   "surface": "Turkish coffee",
+   "ts": "38:29"
+  },
+  {
+   "canonical": "Turkish Coffee",
+   "type": "ingredient",
+   "surface": "Turkish style of coffee",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Turkish Coffee",
+   "type": "ingredient",
+   "surface": "Turkish coffee",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Turkish Coffee",
+   "type": "ingredient",
+   "surface": "Turkish coffee",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "Specialty Coffee",
+   "type": "ingredient",
+   "surface": "specialty coffee",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Specialty Coffee",
+   "type": "ingredient",
+   "surface": "specialty coffee",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Specialty Coffee",
+   "type": "ingredient",
+   "surface": "specialty Turkish coffee",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Specialty Coffee",
+   "type": "ingredient",
+   "surface": "specialty Turkish coffee",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "37:27"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "37:32"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "35:50"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "36:04"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "37:07"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "Coffee",
+   "ts": "37:27"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "38:13"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "38:29"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "40:12"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "44:08"
+  },
+  {
+   "canonical": "Ben Rahim",
+   "type": "place",
+   "surface": "Ben Rahim",
+   "ts": "39:33"
+  },
+  {
+   "canonical": "James",
+   "type": "person",
+   "surface": "James",
+   "ts": "37:55"
+  },
+  {
+   "canonical": "James",
+   "type": "person",
+   "surface": "James",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "36:20"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "40:43"
+  },
+  {
+   "canonical": "Commercial Refrigerator",
+   "type": "equipment",
+   "surface": "Commercial refrigerators",
+   "ts": "42:18"
+  },
+  {
+   "canonical": "Commercial Refrigerator",
+   "type": "equipment",
+   "surface": "commercial fridge",
+   "ts": "42:30"
+  },
+  {
+   "canonical": "Home Refrigerator",
+   "type": "equipment",
+   "surface": "home ones",
+   "ts": "42:18"
+  },
+  {
+   "canonical": "Hand Towels",
+   "type": "equipment",
+   "surface": "hand towels",
+   "ts": "42:53"
+  },
+  {
+   "canonical": "Hand Towels",
+   "type": "equipment",
+   "surface": "hand towel",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "Hand Towels",
+   "type": "equipment",
+   "surface": "hand towels",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Maillard Reaction",
+   "type": "technique",
+   "surface": "Maillard crossover",
+   "ts": "36:41"
+  },
+  {
+   "canonical": "Jocomo",
+   "type": "equipment",
+   "surface": "Jocomo",
+   "ts": "42:30"
+  },
+  {
+   "canonical": "Sand Thing",
+   "type": "technique",
+   "surface": "sand uh thing",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Lebanese Coffee",
+   "type": "ingredient",
+   "surface": "Lebanese",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Greek Coffee",
+   "type": "ingredient",
+   "surface": "Greek coffee",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "Greek Coffee",
+   "type": "ingredient",
+   "surface": "Greek coffee",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Caf\u00e9 Roaster",
+   "type": "place",
+   "surface": "cafe roaster",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Barista",
+   "type": "person",
+   "surface": "barista",
+   "ts": "40:29"
+  },
+  {
+   "canonical": "Barista",
+   "type": "person",
+   "surface": "barista",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Devin Patel",
+   "type": "person",
+   "surface": "Devin Patel",
+   "ts": "40:59"
+  },
+  {
+   "canonical": "Sandwich",
+   "type": "ingredient",
+   "surface": "sand",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Josh Kuhn",
+   "type": "person",
+   "surface": "Josh Kuhn",
+   "ts": "44:27"
+  },
+  {
+   "canonical": "Josh Kuhn",
+   "type": "person",
+   "surface": "Joshua",
+   "ts": "45:15"
+  },
+  {
+   "canonical": "Americano",
+   "type": "ingredient",
+   "surface": "Americano",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Lito",
+   "type": "equipment",
+   "surface": "Lito",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Breville Grinders",
+   "type": "equipment",
+   "surface": "brevel grinders",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "A Eucharce",
+   "type": "person",
+   "surface": "A Eucharce",
+   "ts": "50:48"
+  },
+  {
+   "canonical": "Stenophila",
+   "type": "ingredient",
+   "surface": "stenophila",
+   "ts": "50:48"
+  },
+  {
+   "canonical": "Stenophila",
+   "type": "ingredient",
+   "surface": "Stenophila",
+   "ts": "51:30"
+  },
+  {
+   "canonical": "Stenophila",
+   "type": "ingredient",
+   "surface": "stenophila",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Arabica",
+   "type": "ingredient",
+   "surface": "Arabica",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "Arabica",
+   "type": "ingredient",
+   "surface": "arabica",
+   "ts": "50:48"
+  },
+  {
+   "canonical": "Arabica",
+   "type": "ingredient",
+   "surface": "Arabica",
+   "ts": "51:30"
+  },
+  {
+   "canonical": "Arabica",
+   "type": "ingredient",
+   "surface": "Arabica",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Robusta",
+   "type": "ingredient",
+   "surface": "Robusta",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Climate change",
+   "type": "technique",
+   "surface": "climate change",
+   "ts": "49:41"
+  },
+  {
+   "canonical": "Climate change",
+   "type": "technique",
+   "surface": "climate change",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "Climate change",
+   "type": "technique",
+   "surface": "climate change",
+   "ts": "50:37"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "45:15"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "45:25"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "45:35"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "45:56"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "46:26"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "46:57"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "47:51"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "48:14"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "48:47"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "50:37"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "50:48"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "51:30"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Countrywide cooperatives",
+   "type": "place",
+   "surface": "countrywide cooperatives",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Columbia",
+   "type": "place",
+   "surface": "Columbia",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Columbia",
+   "type": "place",
+   "surface": "Columbia",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "Climate resilient coffee",
+   "type": "technique",
+   "surface": "climate resilient coffee",
+   "ts": "51:55"
+  },
+  {
+   "canonical": "Miguel Kunz",
+   "type": "person",
+   "surface": "Miguel Kunz",
+   "ts": "54:11"
+  },
+  {
+   "canonical": "Linnea Classic Espresso Machine",
+   "type": "equipment",
+   "surface": "Linnea classic espresso machine",
+   "ts": "54:11"
+  },
+  {
+   "canonical": "Maser Jolly",
+   "type": "equipment",
+   "surface": "Maz",
+   "ts": "54:37"
+  },
+  {
+   "canonical": "Prashan Kanesh",
+   "type": "person",
+   "surface": "Prashan Kanesh",
+   "ts": "56:22"
+  },
+  {
+   "canonical": "Hario Manual Grinder",
+   "type": "equipment",
+   "surface": "Hario manual grinder",
+   "ts": "56:22"
+  },
+  {
+   "canonical": "Electric Coffee Bean Grinder",
+   "type": "equipment",
+   "surface": "first electric coffee bean grinder",
+   "ts": "56:22"
+  },
+  {
+   "canonical": "Burr Grinder",
+   "type": "equipment",
+   "surface": "burr versus blade",
+   "ts": "56:22"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "54:11"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "Espresso",
+   "ts": "54:37"
+  },
+  {
+   "canonical": "Espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "57:34"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "53:05"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "53:56"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "54:11"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "55:29"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "56:22"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "58:31"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Climate Change",
+   "type": "place",
+   "surface": "climate change",
+   "ts": "53:56"
+  },
+  {
+   "canonical": "Yemenia",
+   "type": "ingredient",
+   "surface": "Yemenia",
+   "ts": "53:05"
+  },
+  {
+   "canonical": "Arabica",
+   "type": "ingredient",
+   "surface": "Arabica",
+   "ts": "53:05"
+  },
+  {
+   "canonical": "Stenophylla",
+   "type": "ingredient",
+   "surface": "stenophyllla",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "Stenophila",
+   "type": "ingredient",
+   "surface": "stenophila",
+   "ts": "52:49"
+  },
+  {
+   "canonical": "James",
+   "type": "person",
+   "surface": "James",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "57:58"
+  },
+  {
+   "canonical": "Mark Stegelman",
+   "type": "person",
+   "surface": "Mark uh Stegelman",
+   "ts": "57:58"
+  },
+  {
+   "canonical": "Sean Mayo",
+   "type": "person",
+   "surface": "Sean Mayo",
+   "ts": "58:31"
+  },
+  {
+   "canonical": "Jacob P",
+   "type": "person",
+   "surface": "Jacob P",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Barazzo Encore",
+   "type": "equipment",
+   "surface": "Barazzo Encore",
+   "ts": "57:00"
+  },
+  {
+   "canonical": "Gogia",
+   "type": "equipment",
+   "surface": "Gogia",
+   "ts": "57:58"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifugion",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Centrifuge",
+   "type": "equipment",
+   "surface": "centrifuges",
+   "ts": "59:25"
+  },
+  {
+   "canonical": "Pre-infusion hacks",
+   "type": "technique",
+   "surface": "pre-infusion hacks",
+   "ts": "57:58"
+  },
+  {
+   "canonical": "PID control",
+   "type": "technique",
+   "surface": "PID control",
+   "ts": "57:58"
+  },
+  {
+   "canonical": "Grind",
+   "type": "technique",
+   "surface": "grind",
+   "ts": "56:45"
+  },
+  {
+   "canonical": "Grind",
+   "type": "technique",
+   "surface": "grind",
+   "ts": "58:31"
+  },
+  {
+   "canonical": "Grind",
+   "type": "technique",
+   "surface": "grind",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Ratio",
+   "type": "technique",
+   "surface": "ratio",
+   "ts": "58:31"
+  },
+  {
+   "canonical": "Ratio",
+   "type": "technique",
+   "surface": "ratio",
+   "ts": "58:52"
+  },
+  {
+   "canonical": "Cold brew",
+   "type": "technique",
+   "surface": "cold brew",
+   "ts": "59:25"
+  },
+  {
+   "canonical": "Over pressure valve spring",
+   "type": "equipment",
+   "surface": "over pressure valve spring",
+   "ts": "58:31"
+  }
+ ]
+}

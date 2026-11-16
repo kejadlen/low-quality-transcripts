@@ -1,0 +1,1501 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:30"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Kevin Jung",
+   "type": "person",
+   "surface": "Kevin Jung",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "DOMA",
+   "type": "place",
+   "surface": "DOMA",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Tolden Schnapps",
+   "type": "place",
+   "surface": "Tolden Schnapps",
+   "ts": "1:24"
+  },
+  {
+   "canonical": "Tolden Schnapps",
+   "type": "place",
+   "surface": "Tolden Schnapps",
+   "ts": "7:26"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "News State Studios",
+   "type": "place",
+   "surface": "News State Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "6:00"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Remolade",
+   "type": "ingredient",
+   "surface": "remelade",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "Pretzelized",
+   "type": "technique",
+   "surface": "pretzelized",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Sodium Carbonate",
+   "type": "ingredient",
+   "surface": "sodium carbonate",
+   "ts": "4:59"
+  },
+  {
+   "canonical": "Brioche",
+   "type": "ingredient",
+   "surface": "brioche",
+   "ts": "4:37"
+  },
+  {
+   "canonical": "Brioche",
+   "type": "ingredient",
+   "surface": "brioche",
+   "ts": "5:21"
+  },
+  {
+   "canonical": "Christmas Tree",
+   "type": "place",
+   "surface": "Christmas tree",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "12:38"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Migoya",
+   "type": "place",
+   "surface": "Migoya",
+   "ts": "13:16"
+  },
+  {
+   "canonical": "Greenhouse",
+   "type": "place",
+   "surface": "greenhouse",
+   "ts": "12:38"
+  },
+  {
+   "canonical": "Greenhouse",
+   "type": "place",
+   "surface": "greenhouse",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Greenhouse",
+   "type": "place",
+   "surface": "Greenhouse",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Aarhus",
+   "type": "place",
+   "surface": "Aarhus",
+   "ts": "11:39"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "9:25"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "11:50"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "16:36"
+  },
+  {
+   "canonical": "Tree sap",
+   "type": "ingredient",
+   "surface": "tree sap",
+   "ts": "13:16"
+  },
+  {
+   "canonical": "Tree sap",
+   "type": "ingredient",
+   "surface": "tree sap",
+   "ts": "13:54"
+  },
+  {
+   "canonical": "Tree sap",
+   "type": "ingredient",
+   "surface": "tree sap",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "9:47"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "10:17"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Pork",
+   "type": "ingredient",
+   "surface": "pork",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "Induction",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Induction",
+   "type": "equipment",
+   "surface": "induction",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Research and Development",
+   "type": "place",
+   "surface": "research and development",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Head Chef",
+   "type": "person",
+   "surface": "head chef",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "12:46"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "15:37"
+  },
+  {
+   "canonical": "Noma Projects",
+   "type": "place",
+   "surface": "Noma projects",
+   "ts": "12:38"
+  },
+  {
+   "canonical": "Noma Projects",
+   "type": "place",
+   "surface": "Noma projects",
+   "ts": "15:49"
+  },
+  {
+   "canonical": "Bunker",
+   "type": "place",
+   "surface": "bunker",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "Bunker",
+   "type": "place",
+   "surface": "bunker",
+   "ts": "16:16"
+  },
+  {
+   "canonical": "Bunker",
+   "type": "place",
+   "surface": "bunker",
+   "ts": "16:29"
+  },
+  {
+   "canonical": "Bunker",
+   "type": "place",
+   "surface": "bunker",
+   "ts": "16:36"
+  },
+  {
+   "canonical": "Gas stove",
+   "type": "equipment",
+   "surface": "gas stove",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Gas stove",
+   "type": "equipment",
+   "surface": "gas stove",
+   "ts": "18:52"
+  },
+  {
+   "canonical": "Induction burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Walk-in oven",
+   "type": "equipment",
+   "surface": "walk",
+   "ts": "16:36"
+  },
+  {
+   "canonical": "Walk-in oven",
+   "type": "equipment",
+   "surface": "walk",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Walk-in oven",
+   "type": "equipment",
+   "surface": "walk",
+   "ts": "17:47"
+  },
+  {
+   "canonical": "Walk-in oven",
+   "type": "equipment",
+   "surface": "walk",
+   "ts": "18:10"
+  },
+  {
+   "canonical": "Walk-in oven",
+   "type": "equipment",
+   "surface": "walk",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Walk-in oven",
+   "type": "equipment",
+   "surface": "walk",
+   "ts": "18:52"
+  },
+  {
+   "canonical": "Starship Enterprise",
+   "type": "equipment",
+   "surface": "Starship Enterprise",
+   "ts": "18:36"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "20:08"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Gene Lester",
+   "type": "person",
+   "surface": "Gene Lester",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "Gene Lester",
+   "type": "person",
+   "surface": "Gene Lester",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Santa Monta Market",
+   "type": "place",
+   "surface": "Santa Monta Market",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "25:43"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "Los Angeles",
+   "ts": "20:08"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "20:55"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Joe",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "20:55"
+  },
+  {
+   "canonical": "Nick Fullman",
+   "type": "person",
+   "surface": "Nick Fullman",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "Carp",
+   "type": "person",
+   "surface": "Carp",
+   "ts": "23:48"
+  },
+  {
+   "canonical": "Carp",
+   "type": "person",
+   "surface": "carp",
+   "ts": "24:37"
+  },
+  {
+   "canonical": "Breville",
+   "type": "equipment",
+   "surface": "Breville",
+   "ts": "19:38"
+  },
+  {
+   "canonical": "T2",
+   "type": "equipment",
+   "surface": "T2",
+   "ts": "19:38"
+  },
+  {
+   "canonical": "induction",
+   "type": "technique",
+   "surface": "induction",
+   "ts": "19:19"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "olive oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "avocados",
+   "type": "ingredient",
+   "surface": "avocados",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "citrus",
+   "type": "ingredient",
+   "surface": "citrus",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "strawberries",
+   "type": "ingredient",
+   "surface": "strawberries",
+   "ts": "22:35"
+  },
+  {
+   "canonical": "strawberries",
+   "type": "ingredient",
+   "surface": "strawberries",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "strawberries",
+   "type": "ingredient",
+   "surface": "strawberries",
+   "ts": "25:43"
+  },
+  {
+   "canonical": "strawberries",
+   "type": "ingredient",
+   "surface": "strawberries",
+   "ts": "26:06"
+  },
+  {
+   "canonical": "Berries",
+   "type": "ingredient",
+   "surface": "berries",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "stone fruit",
+   "type": "ingredient",
+   "surface": "stone fruit",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "citrus season",
+   "type": "technique",
+   "surface": "citrus season",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "season",
+   "type": "technique",
+   "surface": "season",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "season",
+   "type": "technique",
+   "surface": "season",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "season",
+   "type": "technique",
+   "surface": "season",
+   "ts": "23:02"
+  },
+  {
+   "canonical": "season",
+   "type": "technique",
+   "surface": "season",
+   "ts": "23:19"
+  },
+  {
+   "canonical": "season",
+   "type": "technique",
+   "surface": "season",
+   "ts": "25:43"
+  },
+  {
+   "canonical": "season",
+   "type": "technique",
+   "surface": "season",
+   "ts": "27:40"
+  },
+  {
+   "canonical": "growing season",
+   "type": "technique",
+   "surface": "growing season",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "growing season",
+   "type": "technique",
+   "surface": "growing season",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "NOMA book guide to flavor",
+   "type": "place",
+   "surface": "NOMA book guide to flavor",
+   "ts": "20:33"
+  },
+  {
+   "canonical": "David",
+   "type": "person",
+   "surface": "David",
+   "ts": "24:02"
+  },
+  {
+   "canonical": "Andy Mariani",
+   "type": "person",
+   "surface": "Andy's Orchard",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "San Martin",
+   "type": "place",
+   "surface": "San Martin",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Andy's Orchard",
+   "type": "place",
+   "surface": "Andy's Orchard",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "25:16"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma projects",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Dash Dashi RX",
+   "type": "ingredient",
+   "surface": "Dash Dashi RX",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Yuzu corn hot sauce",
+   "type": "ingredient",
+   "surface": "Yuzu corn hot sauce",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Blanche Calvados",
+   "type": "ingredient",
+   "surface": "Blanche Calvados",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "19:19"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "cranberry cordial",
+   "type": "ingredient",
+   "surface": "cranberry cordial",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "unsweetened cranberry juice",
+   "type": "ingredient",
+   "surface": "unsweetened cranberry juice",
+   "ts": "28:21"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "28:21"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "21:53"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "25:43"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "26:25"
+  },
+  {
+   "canonical": "Copenhagen",
+   "type": "place",
+   "surface": "Copenhagen",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Contemporary Copenhagen Art Museum",
+   "type": "place",
+   "surface": "contemporary Copenhagen art museum",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "James Tyrrell",
+   "type": "person",
+   "surface": "James Tyrrell",
+   "ts": "27:04"
+  },
+  {
+   "canonical": "Druin",
+   "type": "place",
+   "surface": "Druin",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "bar Contras",
+   "type": "place",
+   "surface": "bar Contras",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "brandy savage drink",
+   "type": "ingredient",
+   "surface": "brandy savage drink",
+   "ts": "27:53"
+  },
+  {
+   "canonical": "Drouin Blanche",
+   "type": "ingredient",
+   "surface": "Drouan Blanche",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Brouillo",
+   "type": "ingredient",
+   "surface": "brouillo",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Reduced cranberry cordial",
+   "type": "ingredient",
+   "surface": "reduced cranberry cordial",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Nicon Nora",
+   "type": "equipment",
+   "surface": "Nicon Nora",
+   "ts": "28:56"
+  },
+  {
+   "canonical": "Citric acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Citric acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "29:41"
+  },
+  {
+   "canonical": "Whipped cream",
+   "type": "ingredient",
+   "surface": "whipped cream",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Fluid gel",
+   "type": "technique",
+   "surface": "fluid gel",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "29:58"
+  },
+  {
+   "canonical": "Moxie",
+   "type": "ingredient",
+   "surface": "Moxie",
+   "ts": "32:43"
+  },
+  {
+   "canonical": "Tim Tam",
+   "type": "ingredient",
+   "surface": "Tim Tam",
+   "ts": "33:54"
+  },
+  {
+   "canonical": "Tim Tam",
+   "type": "ingredient",
+   "surface": "Tim Tam",
+   "ts": "34:05"
+  },
+  {
+   "canonical": "Tim Tam",
+   "type": "ingredient",
+   "surface": "Tim Tams",
+   "ts": "34:44"
+  },
+  {
+   "canonical": "Tim Tam",
+   "type": "ingredient",
+   "surface": "Tim Tam",
+   "ts": "35:00"
+  },
+  {
+   "canonical": "Tim Tam",
+   "type": "ingredient",
+   "surface": "Tim Tam",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Tim Tam Slam",
+   "type": "technique",
+   "surface": "Tim Tam Slam",
+   "ts": "34:05"
+  },
+  {
+   "canonical": "Tim Tam Slam",
+   "type": "technique",
+   "surface": "Tim Tam Slam",
+   "ts": "35:09"
+  },
+  {
+   "canonical": "Bishop's Wife",
+   "type": "technique",
+   "surface": "Bishop's Wife",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "Bronca Menta",
+   "type": "ingredient",
+   "surface": "bronca menta",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "Demarara",
+   "type": "ingredient",
+   "surface": "Demarara",
+   "ts": "33:39"
+  },
+  {
+   "canonical": "French fries",
+   "type": "ingredient",
+   "surface": "French fries",
+   "ts": "36:13"
+  },
+  {
+   "canonical": "Pizza",
+   "type": "ingredient",
+   "surface": "pizza",
+   "ts": "36:13"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "36:13"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "Resist development",
+   "type": "technique",
+   "surface": "resist development",
+   "ts": "37:21"
+  },
+  {
+   "canonical": "Jelly beans",
+   "type": "ingredient",
+   "surface": "jelly beans",
+   "ts": "38:05"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "Zero",
+   "type": "person",
+   "surface": "zero",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "Zero",
+   "type": "person",
+   "surface": "Zero",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "41:59"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "43:28"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "43:50"
+  },
+  {
+   "canonical": "Jiro",
+   "type": "place",
+   "surface": "Jiro",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Stars",
+   "type": "place",
+   "surface": "Stars",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "foie gras",
+   "type": "ingredient",
+   "surface": "foie gras",
+   "ts": "39:37"
+  },
+  {
+   "canonical": "squillamantis",
+   "type": "ingredient",
+   "surface": "squillamantis",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "squillamantis",
+   "type": "ingredient",
+   "surface": "squillamantis",
+   "ts": "41:23"
+  },
+  {
+   "canonical": "manta shrimp",
+   "type": "ingredient",
+   "surface": "manta shrimp",
+   "ts": "41:23"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "NOMA",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "44:27"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "calcium hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "spin ball",
+   "type": "equipment",
+   "surface": "spin ball",
+   "ts": "48:07"
+  },
+  {
+   "canonical": "avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "45:59"
+  },
+  {
+   "canonical": "cactus",
+   "type": "ingredient",
+   "surface": "cactus",
+   "ts": "47:03"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "45:59"
+  },
+  {
+   "canonical": "marijuana",
+   "type": "ingredient",
+   "surface": "marijuana",
+   "ts": "45:59"
+  },
+  {
+   "canonical": "calcium hydroxide",
+   "type": "ingredient",
+   "surface": "calcium hydroxide",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "spin ball",
+   "type": "equipment",
+   "surface": "spin ball",
+   "ts": "48:07"
+  },
+  {
+   "canonical": "spinach all",
+   "type": "equipment",
+   "surface": "spinz all",
+   "ts": "49:12"
+  },
+  {
+   "canonical": "opuntia",
+   "type": "ingredient",
+   "surface": "opuntias",
+   "ts": "51:41"
+  },
+  {
+   "canonical": "mulberry",
+   "type": "ingredient",
+   "surface": "mulberries",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "mulberry",
+   "type": "ingredient",
+   "surface": "mulberries",
+   "ts": "52:45"
+  },
+  {
+   "canonical": "mulberry",
+   "type": "ingredient",
+   "surface": "mulberries",
+   "ts": "53:14"
+  },
+  {
+   "canonical": "mulberry",
+   "type": "ingredient",
+   "surface": "mulberries",
+   "ts": "53:20"
+  },
+  {
+   "canonical": "California Corona bean",
+   "type": "ingredient",
+   "surface": "California Corona bean",
+   "ts": "49:58"
+  },
+  {
+   "canonical": "Rancho Gordo Miso",
+   "type": "ingredient",
+   "surface": "Rancho Gordo Miso",
+   "ts": "49:37"
+  },
+  {
+   "canonical": "cactus",
+   "type": "ingredient",
+   "surface": "cactus",
+   "ts": "49:37"
+  },
+  {
+   "canonical": "cactus",
+   "type": "ingredient",
+   "surface": "cactus",
+   "ts": "50:42"
+  },
+  {
+   "canonical": "cactus",
+   "type": "ingredient",
+   "surface": "cactus",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "cactus",
+   "type": "ingredient",
+   "surface": "cactus",
+   "ts": "51:27"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "54:41"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "54:52"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "55:38"
+  },
+  {
+   "canonical": "Paul Wall",
+   "type": "person",
+   "surface": "Paul Wall",
+   "ts": "53:20"
+  },
+  {
+   "canonical": "Paul Wall",
+   "type": "person",
+   "surface": "Paul Wall",
+   "ts": "53:37"
+  },
+  {
+   "canonical": "T2",
+   "type": "technique",
+   "surface": "T2",
+   "ts": "53:58"
+  },
+  {
+   "canonical": "T2",
+   "type": "technique",
+   "surface": "T2",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "cat scratch fever machine",
+   "type": "equipment",
+   "surface": "cat scratch fever machine",
+   "ts": "54:16"
+  },
+  {
+   "canonical": "ANOVA",
+   "type": "equipment",
+   "surface": "ANOVA",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "pressure cooking",
+   "type": "technique",
+   "surface": "pressure cook it",
+   "ts": "57:05"
+  },
+  {
+   "canonical": "pressure cooking",
+   "type": "technique",
+   "surface": "pressure cooked",
+   "ts": "57:30"
+  },
+  {
+   "canonical": "stuffing plug",
+   "type": "ingredient",
+   "surface": "stuffing plug",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "richarelli cookies",
+   "type": "ingredient",
+   "surface": "richarelli cookies",
+   "ts": "58:21"
+  },
+  {
+   "canonical": "pecans",
+   "type": "ingredient",
+   "surface": "pecans",
+   "ts": "58:21"
+  },
+  {
+   "canonical": "almond cookie",
+   "type": "ingredient",
+   "surface": "almond cookie",
+   "ts": "58:21"
+  },
+  {
+   "canonical": "sugared",
+   "type": "technique",
+   "surface": "sugared",
+   "ts": "57:30"
+  },
+  {
+   "canonical": "pre-salted",
+   "type": "technique",
+   "surface": "pre-salted",
+   "ts": "57:30"
+  },
+  {
+   "canonical": "injected",
+   "type": "technique",
+   "surface": "injected",
+   "ts": "57:30"
+  },
+  {
+   "canonical": "injected",
+   "type": "technique",
+   "surface": "injected",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "roasted",
+   "type": "technique",
+   "surface": "roasted",
+   "ts": "57:05"
+  },
+  {
+   "canonical": "roasted",
+   "type": "technique",
+   "surface": "roasted",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "seared",
+   "type": "technique",
+   "surface": "sears all the Sears",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "T2",
+   "type": "technique",
+   "surface": "T2",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Kevin",
+   "type": "person",
+   "surface": "Kevin",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Noma",
+   "type": "place",
+   "surface": "Noma",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "59:35"
+  },
+  {
+   "canonical": "Mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Compound Butter",
+   "type": "ingredient",
+   "surface": "compound butter",
+   "ts": "59:35"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "57:05"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "57:30"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "59:04"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "59:35"
+  },
+  {
+   "canonical": "Pistachios",
+   "type": "ingredient",
+   "surface": "pistachios",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "Cashews",
+   "type": "ingredient",
+   "surface": "cashews",
+   "ts": "58:38"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "Los Angeles",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "McGillakudi",
+   "type": "place",
+   "surface": "McGillakudi",
+   "ts": "1:00:00"
+  }
+ ]
+}

@@ -1,0 +1,1849 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "5:48"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "3:39"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "4:14"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "5:26"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "Goldenrod Um Pastries",
+   "type": "place",
+   "surface": "Goldenrod Um Pastries",
+   "ts": "3:39"
+  },
+  {
+   "canonical": "K1 Speed",
+   "type": "place",
+   "surface": "K1 Speed",
+   "ts": "0:01"
+  },
+  {
+   "canonical": "K1 Speed",
+   "type": "place",
+   "surface": "K1 speed",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Bend the Table",
+   "type": "place",
+   "surface": "Bend the Table",
+   "ts": "0:24"
+  },
+  {
+   "canonical": "Spinzall and Sears",
+   "type": "place",
+   "surface": "Spinzall and Sears",
+   "ts": "2:56"
+  },
+  {
+   "canonical": "Jean-George",
+   "type": "place",
+   "surface": "Jean-George",
+   "ts": "9:32"
+  },
+  {
+   "canonical": "Ukrainian butcher",
+   "type": "place",
+   "surface": "Ukrainian butcher",
+   "ts": "9:32"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "10:57"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "18:24"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Goldenrod Pastries",
+   "type": "place",
+   "surface": "Goldenrod Pastries",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "12:00"
+  },
+  {
+   "canonical": "dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "dairy",
+   "type": "ingredient",
+   "surface": "dairy",
+   "ts": "17:07"
+  },
+  {
+   "canonical": "eggs",
+   "type": "ingredient",
+   "surface": "eggs",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "kalbasa",
+   "type": "ingredient",
+   "surface": "Kalbasa",
+   "ts": "10:32"
+  },
+  {
+   "canonical": "kalbasa",
+   "type": "ingredient",
+   "surface": "Kalasa",
+   "ts": "10:39"
+  },
+  {
+   "canonical": "kalbasa",
+   "type": "ingredient",
+   "surface": "kilbasa",
+   "ts": "10:57"
+  },
+  {
+   "canonical": "kalbasa",
+   "type": "ingredient",
+   "surface": "kilbasa",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "East Village Meat Market",
+   "type": "place",
+   "surface": "East Village Meat Market",
+   "ts": "10:22"
+  },
+  {
+   "canonical": "Second Avenue",
+   "type": "place",
+   "surface": "Second Avenue",
+   "ts": "10:22"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "10:57"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "Angela Garbitz",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "18:24"
+  },
+  {
+   "canonical": "Bob's Red Mill",
+   "type": "place",
+   "surface": "Bob's Red Mill",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "sorghum flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "sorghum flour",
+   "type": "ingredient",
+   "surface": "sorghum flour",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "rice flour blend",
+   "type": "ingredient",
+   "surface": "rice flour blend",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "shortening",
+   "type": "ingredient",
+   "surface": "shortening",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "shortening",
+   "type": "ingredient",
+   "surface": "shortening",
+   "ts": "16:05"
+  },
+  {
+   "canonical": "shortening",
+   "type": "ingredient",
+   "surface": "shortening",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "vegan butter",
+   "type": "ingredient",
+   "surface": "vegan butter",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "gluten free",
+   "type": "ingredient",
+   "surface": "gluten free",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "gluten free",
+   "type": "ingredient",
+   "surface": "gluten free",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "gluten free",
+   "type": "ingredient",
+   "surface": "gluten free",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "dairy free",
+   "type": "ingredient",
+   "surface": "dairy free",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "dairy free",
+   "type": "ingredient",
+   "surface": "dairy free",
+   "ts": "16:51"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "15:19"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "15:41"
+  },
+  {
+   "canonical": "fat",
+   "type": "ingredient",
+   "surface": "fat",
+   "ts": "17:51"
+  },
+  {
+   "canonical": "flour mixes",
+   "type": "ingredient",
+   "surface": "flour mixes",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "Bob Redmill",
+   "type": "place",
+   "surface": "Bob Redmill",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "Pamela's",
+   "type": "place",
+   "surface": "Pamela's",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "New Life",
+   "type": "place",
+   "surface": "New Life",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "King Arthur",
+   "type": "place",
+   "surface": "King Arthur",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "sorghum",
+   "type": "ingredient",
+   "surface": "sorghum",
+   "ts": "14:18"
+  },
+  {
+   "canonical": "commercial mixes",
+   "type": "ingredient",
+   "surface": "commercial mixes",
+   "ts": "18:49"
+  },
+  {
+   "canonical": "technique",
+   "type": "technique",
+   "surface": "technique",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "technique",
+   "type": "technique",
+   "surface": "technique",
+   "ts": "18:24"
+  },
+  {
+   "canonical": "Pamela's Gluten-Free All-Purpose Baking Flour",
+   "type": "ingredient",
+   "surface": "Pamela's gluten-free",
+   "ts": "21:35"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "22:15"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "22:46"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "guar",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Guar Gum",
+   "type": "ingredient",
+   "surface": "Guar",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Jimmy Red Grits",
+   "type": "ingredient",
+   "surface": "Jimmy Red Grits",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Jimmy Red Grits",
+   "type": "ingredient",
+   "surface": "Jimmy Red Grits",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "Bend to Table",
+   "type": "place",
+   "surface": "Bend to Table",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Bend to Table",
+   "type": "place",
+   "surface": "Bend to Table",
+   "ts": "24:32"
+  },
+  {
+   "canonical": "XCON",
+   "type": "place",
+   "surface": "XCON",
+   "ts": "25:13"
+  },
+  {
+   "canonical": "Goldenrod",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "25:13"
+  },
+  {
+   "canonical": "Jen",
+   "type": "person",
+   "surface": "Jen",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Jenny",
+   "type": "person",
+   "surface": "Jenny",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Bob's Redmill",
+   "type": "place",
+   "surface": "Bob's Redmill",
+   "ts": "20:57"
+  },
+  {
+   "canonical": "King Arthur",
+   "type": "place",
+   "surface": "King Arthur",
+   "ts": "20:57"
+  },
+  {
+   "canonical": "Co-op",
+   "type": "place",
+   "surface": "co-op",
+   "ts": "20:57"
+  },
+  {
+   "canonical": "Geechee Boy Mill",
+   "type": "place",
+   "surface": "Geechee Boy Mill",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Rice Cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "23:58"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "John Matt",
+   "type": "person",
+   "surface": "John Matt",
+   "ts": "32:11"
+  },
+  {
+   "canonical": "Liege waffle",
+   "type": "ingredient",
+   "surface": "liege waffle",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "Liege waffle",
+   "type": "ingredient",
+   "surface": "Liege waffles",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Liege waffle",
+   "type": "ingredient",
+   "surface": "Liege waffle",
+   "ts": "32:11"
+  },
+  {
+   "canonical": "Belgian waffle",
+   "type": "ingredient",
+   "surface": "Belgian waffle",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "Belgian waffle",
+   "type": "ingredient",
+   "surface": "Belgian waffle",
+   "ts": "32:11"
+  },
+  {
+   "canonical": "Belgian waffle",
+   "type": "ingredient",
+   "surface": "Belgian waffle",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "waffle iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "30:34"
+  },
+  {
+   "canonical": "waffle iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "31:44"
+  },
+  {
+   "canonical": "cup measure",
+   "type": "equipment",
+   "surface": "cup measure",
+   "ts": "33:22"
+  },
+  {
+   "canonical": "cup",
+   "type": "ingredient",
+   "surface": "cup",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "cup",
+   "type": "ingredient",
+   "surface": "cup",
+   "ts": "33:22"
+  },
+  {
+   "canonical": "cup",
+   "type": "ingredient",
+   "surface": "cup",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "Lyrian",
+   "type": "person",
+   "surface": "Lyrian",
+   "ts": "34:27"
+  },
+  {
+   "canonical": "Lyrian",
+   "type": "person",
+   "surface": "Lyrian",
+   "ts": "34:49"
+  },
+  {
+   "canonical": "Mindy Lavoff",
+   "type": "person",
+   "surface": "Mindy Lavoff",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "Goldenrod",
+   "type": "place",
+   "surface": "goldenrod",
+   "ts": "32:11"
+  },
+  {
+   "canonical": "Goldenrod",
+   "type": "place",
+   "surface": "Goldenrod",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "convection oven",
+   "type": "equipment",
+   "surface": "convection oven",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "oven timer",
+   "type": "equipment",
+   "surface": "oven timers",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "gluten-free dough",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "gluten-free dough",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "35:41"
+  },
+  {
+   "canonical": "gluten-free dough",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "dairy milk",
+   "type": "ingredient",
+   "surface": "dairy milk",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "almond milk",
+   "type": "ingredient",
+   "surface": "almond milk",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "coconut milk",
+   "type": "ingredient",
+   "surface": "coconut milk",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "oat milk",
+   "type": "ingredient",
+   "surface": "oat milk",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "whole milk",
+   "type": "ingredient",
+   "surface": "whole milk",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "cinnamon rolls",
+   "type": "ingredient",
+   "surface": "cinnamon rolls",
+   "ts": "35:41"
+  },
+  {
+   "canonical": "buns",
+   "type": "ingredient",
+   "surface": "buns",
+   "ts": "35:41"
+  },
+  {
+   "canonical": "buns",
+   "type": "ingredient",
+   "surface": "buns",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "impossibly fluffy",
+   "type": "technique",
+   "surface": "impossibly fluffy",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "impossibly fluffy",
+   "type": "technique",
+   "surface": "impossibly fluffy",
+   "ts": "35:41"
+  },
+  {
+   "canonical": "proofing",
+   "type": "technique",
+   "surface": "proofing",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "first proof",
+   "type": "technique",
+   "surface": "first proof",
+   "ts": "35:41"
+  },
+  {
+   "canonical": "first proof",
+   "type": "technique",
+   "surface": "first proof",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "rise",
+   "type": "technique",
+   "surface": "rise",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "baking",
+   "type": "technique",
+   "surface": "baking",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "baking",
+   "type": "technique",
+   "surface": "baking",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "convection oven",
+   "type": "equipment",
+   "surface": "convection oven",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "35:06"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "timers",
+   "type": "equipment",
+   "surface": "timers",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "timers",
+   "type": "equipment",
+   "surface": "timers",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "book",
+   "type": "place",
+   "surface": "book",
+   "ts": "33:08"
+  },
+  {
+   "canonical": "book",
+   "type": "place",
+   "surface": "book",
+   "ts": "35:41"
+  },
+  {
+   "canonical": "book",
+   "type": "place",
+   "surface": "book",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "book",
+   "type": "place",
+   "surface": "book",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "41:48"
+  },
+  {
+   "canonical": "salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "potassium-based leaveners",
+   "type": "ingredient",
+   "surface": "Potassium-based leaveners",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "yeast breads",
+   "type": "ingredient",
+   "surface": "yeast breads",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "banana bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "43:14"
+  },
+  {
+   "canonical": "banana bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "43:59"
+  },
+  {
+   "canonical": "banana bread",
+   "type": "ingredient",
+   "surface": "banana bread",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Dosing Scoops",
+   "type": "equipment",
+   "surface": "dosing scoops",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Dosing Scoops",
+   "type": "equipment",
+   "surface": "dosing scoops",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffins",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "46:22"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "46:46"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "47:19"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "47:31"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Muffin",
+   "type": "ingredient",
+   "surface": "muffin",
+   "ts": "48:20"
+  },
+  {
+   "canonical": "Chunk",
+   "type": "ingredient",
+   "surface": "chunk",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Crumble",
+   "type": "ingredient",
+   "surface": "crumble",
+   "ts": "46:22"
+  },
+  {
+   "canonical": "Crumble",
+   "type": "ingredient",
+   "surface": "crumble",
+   "ts": "47:31"
+  },
+  {
+   "canonical": "Scoop",
+   "type": "equipment",
+   "surface": "scoop",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Scoop",
+   "type": "equipment",
+   "surface": "scoop",
+   "ts": "45:24"
+  },
+  {
+   "canonical": "Poppy Seed",
+   "type": "ingredient",
+   "surface": "poppy seed",
+   "ts": "47:08"
+  },
+  {
+   "canonical": "Muffin Tin",
+   "type": "equipment",
+   "surface": "muffin tin",
+   "ts": "48:20"
+  },
+  {
+   "canonical": "Muffin Person",
+   "type": "person",
+   "surface": "muffin person",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Muffin Person",
+   "type": "person",
+   "surface": "muffin person",
+   "ts": "46:22"
+  },
+  {
+   "canonical": "Muffin Person",
+   "type": "person",
+   "surface": "muffin person",
+   "ts": "47:41"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "52:56"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "54:35"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "Angela",
+   "type": "person",
+   "surface": "Angela",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "51:34"
+  },
+  {
+   "canonical": "Monroe Boston Strauss",
+   "type": "person",
+   "surface": "Monroe Boston Strauss",
+   "ts": "51:05"
+  },
+  {
+   "canonical": "Monroe Boston Strauss",
+   "type": "person",
+   "surface": "Monroe Boston Strauss",
+   "ts": "52:29"
+  },
+  {
+   "canonical": "Shirley Corriher",
+   "type": "person",
+   "surface": "Shirley Corriher",
+   "ts": "51:34"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "54:27"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "50:44"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "55:42"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "50:44"
+  },
+  {
+   "canonical": "Waffle Iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "57:32"
+  },
+  {
+   "canonical": "Waffle Iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Flax Eggs",
+   "type": "technique",
+   "surface": "flax eggs",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "Flax Eggs",
+   "type": "technique",
+   "surface": "flax eggs",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Blind Baking",
+   "type": "technique",
+   "surface": "blind baking",
+   "ts": "51:49"
+  },
+  {
+   "canonical": "Graham Cracker Crust",
+   "type": "technique",
+   "surface": "graham cracker crust",
+   "ts": "53:12"
+  },
+  {
+   "canonical": "Custard",
+   "type": "ingredient",
+   "surface": "custardy",
+   "ts": "56:26"
+  },
+  {
+   "canonical": "Coconut Oil",
+   "type": "ingredient",
+   "surface": "coconut oil",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Peanut Butter",
+   "type": "ingredient",
+   "surface": "peanut butter",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Canned Peaches",
+   "type": "ingredient",
+   "surface": "canned peaches",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Coconut Flour",
+   "type": "ingredient",
+   "surface": "coconut flour",
+   "ts": "55:08"
+  },
+  {
+   "canonical": "Cardamom Pistachios",
+   "type": "ingredient",
+   "surface": "cardamom pistachios",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Strawberry",
+   "type": "ingredient",
+   "surface": "strawberry",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Rose",
+   "type": "ingredient",
+   "surface": "rose",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Brownie Batter",
+   "type": "ingredient",
+   "surface": "brownie batter",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Coconut Oil Crumble",
+   "type": "ingredient",
+   "surface": "coconut oil crumble",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Eastern European",
+   "type": "place",
+   "surface": "eastern European",
+   "ts": "56:04"
+  },
+  {
+   "canonical": "Polish",
+   "type": "place",
+   "surface": "Polish",
+   "ts": "56:26"
+  },
+  {
+   "canonical": "Custardy",
+   "type": "ingredient",
+   "surface": "custardy",
+   "ts": "56:26"
+  },
+  {
+   "canonical": "Brown Alloys",
+   "type": "ingredient",
+   "surface": "brown alloys",
+   "ts": "57:32"
+  },
+  {
+   "canonical": "Waffle Iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "57:32"
+  },
+  {
+   "canonical": "Waffle Iron",
+   "type": "equipment",
+   "surface": "waffle iron",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Brownie Batter",
+   "type": "ingredient",
+   "surface": "brownie batter",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Peanut Butter Crossing",
+   "type": "ingredient",
+   "surface": "peanut butter crossing",
+   "ts": "57:52"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "58:12"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "jack",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:01:45"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "1:04:10"
+  },
+  {
+   "canonical": "Patricia Polacco",
+   "type": "person",
+   "surface": "Patricia Polacco",
+   "ts": "59:27"
+  },
+  {
+   "canonical": "Thundercake",
+   "type": "ingredient",
+   "surface": "Thundercake",
+   "ts": "59:27"
+  },
+  {
+   "canonical": "Hummingbird Cake",
+   "type": "ingredient",
+   "surface": "Hummingbird Cake",
+   "ts": "1:01:45"
+  },
+  {
+   "canonical": "Hummingbird Cake",
+   "type": "ingredient",
+   "surface": "hummingbird cake",
+   "ts": "1:02:07"
+  },
+  {
+   "canonical": "Boston Monroe Strauss",
+   "type": "person",
+   "surface": "Boston Monroe Strauss",
+   "ts": "1:02:18"
+  },
+  {
+   "canonical": "Chiffon Pie",
+   "type": "technique",
+   "surface": "chiffon pie",
+   "ts": "1:02:52"
+  },
+  {
+   "canonical": "Nochino",
+   "type": "ingredient",
+   "surface": "nochino",
+   "ts": "1:04:34"
+  },
+  {
+   "canonical": "Biscotti",
+   "type": "ingredient",
+   "surface": "biscotti",
+   "ts": "1:05:30"
+  },
+  {
+   "canonical": "Biscotti",
+   "type": "ingredient",
+   "surface": "biscotti",
+   "ts": "1:05:46"
+  },
+  {
+   "canonical": "Biscotti",
+   "type": "ingredient",
+   "surface": "Biscotti",
+   "ts": "1:06:18"
+  },
+  {
+   "canonical": "Biscotti",
+   "type": "ingredient",
+   "surface": "biscotti",
+   "ts": "1:06:25"
+  },
+  {
+   "canonical": "Biscotti",
+   "type": "ingredient",
+   "surface": "biscotti",
+   "ts": "1:06:45"
+  },
+  {
+   "canonical": "Baked Donuts",
+   "type": "technique",
+   "surface": "Baked donuts",
+   "ts": "1:05:06"
+  },
+  {
+   "canonical": "Gluten-Free",
+   "type": "technique",
+   "surface": "gluten-free",
+   "ts": "1:03:14"
+  },
+  {
+   "canonical": "Coconut Cake",
+   "type": "ingredient",
+   "surface": "coconut cake",
+   "ts": "1:03:14"
+  },
+  {
+   "canonical": "Cheesecake",
+   "type": "ingredient",
+   "surface": "cheesecake",
+   "ts": "1:03:03"
+  },
+  {
+   "canonical": "Tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "1:03:03"
+  },
+  {
+   "canonical": "Banana Cream Pie",
+   "type": "technique",
+   "surface": "banana cream pie",
+   "ts": "1:02:18"
+  },
+  {
+   "canonical": "Banana Cream Pie",
+   "type": "technique",
+   "surface": "Banana cream pie",
+   "ts": "1:02:52"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "1:01:45"
+  },
+  {
+   "canonical": "Coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "1:06:45"
+  },
+  {
+   "canonical": "Chocolate Ganache",
+   "type": "ingredient",
+   "surface": "chocolate ganache",
+   "ts": "1:00:12"
+  },
+  {
+   "canonical": "Chocolate Ganache",
+   "type": "ingredient",
+   "surface": "chocolate ganache",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Chocolate Crumble",
+   "type": "ingredient",
+   "surface": "chocolate crumble",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Funeral Brownies",
+   "type": "ingredient",
+   "surface": "funeral brownies",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "Nuts",
+   "type": "ingredient",
+   "surface": "nuts",
+   "ts": "1:01:14"
+  },
+  {
+   "canonical": "Nuts",
+   "type": "ingredient",
+   "surface": "nuts",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Nuts",
+   "type": "ingredient",
+   "surface": "nuts",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Nuts",
+   "type": "ingredient",
+   "surface": "nuts",
+   "ts": "1:01:45"
+  },
+  {
+   "canonical": "Nuts",
+   "type": "ingredient",
+   "surface": "nuts",
+   "ts": "1:02:07"
+  },
+  {
+   "canonical": "Brownie",
+   "type": "ingredient",
+   "surface": "brownie",
+   "ts": "1:00:38"
+  },
+  {
+   "canonical": "Brownie",
+   "type": "ingredient",
+   "surface": "brownie",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "Buckwheat",
+   "ts": "58:12"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "58:36"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "58:56"
+  },
+  {
+   "canonical": "Chocolate Chunk Cookies",
+   "type": "ingredient",
+   "surface": "chocolate chunk cookies",
+   "ts": "58:12"
+  },
+  {
+   "canonical": "Chocolate Thunder Cake",
+   "type": "ingredient",
+   "surface": "chocolate thunder cake",
+   "ts": "59:27"
+  },
+  {
+   "canonical": "Death by Chocolate",
+   "type": "technique",
+   "surface": "death by chocolate",
+   "ts": "1:00:12"
+  },
+  {
+   "canonical": "Death by Chocolate",
+   "type": "technique",
+   "surface": "death by chocolate",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Shortbread Crust",
+   "type": "technique",
+   "surface": "shortbread crust",
+   "ts": "1:00:24"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "1:02:07"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "1:02:18"
+  },
+  {
+   "canonical": "Pineapple",
+   "type": "ingredient",
+   "surface": "pineapple",
+   "ts": "1:02:36"
+  },
+  {
+   "canonical": "Tomato Puree",
+   "type": "ingredient",
+   "surface": "tomato puree",
+   "ts": "59:45"
+  },
+  {
+   "canonical": "Eggs",
+   "type": "ingredient",
+   "surface": "eggs",
+   "ts": "59:45"
+  },
+  {
+   "canonical": "Coconut",
+   "type": "ingredient",
+   "surface": "coconut",
+   "ts": "1:02:07"
+  },
+  {
+   "canonical": "Coconut",
+   "type": "ingredient",
+   "surface": "coconut",
+   "ts": "1:03:14"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "1:02:07"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "1:02:18"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "banana",
+   "ts": "1:02:36"
+  },
+  {
+   "canonical": "Banana",
+   "type": "ingredient",
+   "surface": "Banana",
+   "ts": "1:02:52"
+  },
+  {
+   "canonical": "Coconut Cake",
+   "type": "ingredient",
+   "surface": "coconut cake",
+   "ts": "1:03:14"
+  },
+  {
+   "canonical": "Criscio",
+   "type": "ingredient",
+   "surface": "Crisco",
+   "ts": "1:08:13"
+  },
+  {
+   "canonical": "Criscio",
+   "type": "ingredient",
+   "surface": "crisco",
+   "ts": "1:08:47"
+  },
+  {
+   "canonical": "Criscio",
+   "type": "ingredient",
+   "surface": "Crisco",
+   "ts": "1:09:11"
+  },
+  {
+   "canonical": "almond extract",
+   "type": "ingredient",
+   "surface": "almond extract",
+   "ts": "1:08:13"
+  },
+  {
+   "canonical": "lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "1:08:13"
+  },
+  {
+   "canonical": "lemon",
+   "type": "ingredient",
+   "surface": "Lemon",
+   "ts": "1:08:35"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "1:08:35"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "1:08:47"
+  },
+  {
+   "canonical": "butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "1:08:35"
+  },
+  {
+   "canonical": "butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "1:09:11"
+  },
+  {
+   "canonical": "pound cake",
+   "type": "technique",
+   "surface": "pound cake",
+   "ts": "1:07:49"
+  },
+  {
+   "canonical": "pound cake",
+   "type": "technique",
+   "surface": "pound cake",
+   "ts": "1:08:13"
+  },
+  {
+   "canonical": "pound cake",
+   "type": "technique",
+   "surface": "pound cake",
+   "ts": "1:08:47"
+  },
+  {
+   "canonical": "gluten-free",
+   "type": "technique",
+   "surface": "gluten-free",
+   "ts": "1:07:24"
+  },
+  {
+   "canonical": "gluten-free",
+   "type": "technique",
+   "surface": "gluten-free",
+   "ts": "1:09:11"
+  },
+  {
+   "canonical": "sugar buttercream",
+   "type": "technique",
+   "surface": "standard sugar buttercream",
+   "ts": "1:08:35"
+  },
+  {
+   "canonical": "aeration",
+   "type": "technique",
+   "surface": "aeration",
+   "ts": "1:08:47"
+  },
+  {
+   "canonical": "Angela Garbats",
+   "type": "person",
+   "surface": "Angela Garbats",
+   "ts": "1:09:11"
+  },
+  {
+   "canonical": "Jack Shram",
+   "type": "person",
+   "surface": "Jack Shram",
+   "ts": "1:09:41"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:09:41"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:09:41"
+  },
+  {
+   "canonical": "Royal Island",
+   "type": "place",
+   "surface": "Royal Island",
+   "ts": "1:09:41"
+  },
+  {
+   "canonical": "Lincoln, Nebraska",
+   "type": "place",
+   "surface": "Lincoln, Nebraska",
+   "ts": "1:09:41"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:10:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:10:21"
+  },
+  {
+   "canonical": "Simplecast",
+   "type": "place",
+   "surface": "Simplecast",
+   "ts": "1:10:07"
+  },
+  {
+   "canonical": "Instagram",
+   "type": "place",
+   "surface": "Instagram",
+   "ts": "1:10:21"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "1:10:21"
+  },
+  {
+   "canonical": "Facebook",
+   "type": "place",
+   "surface": "Facebook",
+   "ts": "1:10:21"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:10:07"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:10:21"
+  },
+  {
+   "canonical": "Food",
+   "type": "ingredient",
+   "surface": "Food",
+   "ts": "1:10:07"
+  },
+  {
+   "canonical": "Food",
+   "type": "ingredient",
+   "surface": "food",
+   "ts": "1:10:43"
+  }
+ ]
+}

@@ -1,0 +1,1321 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Don Shaffner",
+   "type": "person",
+   "surface": "Don Shaffner",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Don Shaffner",
+   "type": "person",
+   "surface": "Bug Counter",
+   "ts": "1:25"
+  },
+  {
+   "canonical": "Don Shaffner",
+   "type": "person",
+   "surface": "bug counter",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Rutgers University",
+   "type": "place",
+   "surface": "Rutgers",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Risk Assessment",
+   "type": "technique",
+   "surface": "risk assessment",
+   "ts": "3:49"
+  },
+  {
+   "canonical": "Microbiology",
+   "type": "technique",
+   "surface": "microbiology",
+   "ts": "3:49"
+  },
+  {
+   "canonical": "Foodborne Illness",
+   "type": "technique",
+   "surface": "food poisoning",
+   "ts": "6:31"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "7:27"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "8:16"
+  },
+  {
+   "canonical": "Leafy Greens",
+   "type": "ingredient",
+   "surface": "leafy greens",
+   "ts": "7:27"
+  },
+  {
+   "canonical": "Leafy Greens",
+   "type": "ingredient",
+   "surface": "leafy greens",
+   "ts": "8:35"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "4:20"
+  },
+  {
+   "canonical": "Cross-contamination",
+   "type": "technique",
+   "surface": "cross-contaminated",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "left out of temperature control",
+   "ts": "7:41"
+  },
+  {
+   "canonical": "New Stand Studios",
+   "type": "place",
+   "surface": "New Stand Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "0:38"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitters",
+   "ts": "1:25"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "Romaine",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "romaine",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "romaine",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "romaine",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Arugula",
+   "type": "ingredient",
+   "surface": "arugula",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Arugula",
+   "type": "ingredient",
+   "surface": "arugula",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Spinach",
+   "type": "ingredient",
+   "surface": "spinach",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Spinach",
+   "type": "ingredient",
+   "surface": "spinach",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Spinach",
+   "type": "ingredient",
+   "surface": "spinach",
+   "ts": "14:56"
+  },
+  {
+   "canonical": "Escarole",
+   "type": "ingredient",
+   "surface": "escarole",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "Escarole",
+   "type": "ingredient",
+   "surface": "Escarole",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "15:15"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "15:44"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "15:55"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Lettuce",
+   "type": "ingredient",
+   "surface": "lettuce",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Salad",
+   "type": "ingredient",
+   "surface": "salad",
+   "ts": "15:15"
+  },
+  {
+   "canonical": "Bagged lettuce",
+   "type": "ingredient",
+   "surface": "bagged lettuce",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Sanitizers",
+   "type": "ingredient",
+   "surface": "sanitizers",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Pathogen",
+   "type": "ingredient",
+   "surface": "pathogen",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Pathogen",
+   "type": "ingredient",
+   "surface": "pathogen",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Pre-washed lettuce",
+   "type": "ingredient",
+   "surface": "pre-washed lettuce",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Washwater",
+   "type": "ingredient",
+   "surface": "washwater",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Yuma, Arizona",
+   "type": "place",
+   "surface": "Yuma, Arizona",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "9:49"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Arizona",
+   "type": "place",
+   "surface": "Arizona",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Arizona",
+   "type": "place",
+   "surface": "Arizona",
+   "ts": "9:49"
+  },
+  {
+   "canonical": "Arizona",
+   "type": "place",
+   "surface": "Arizona",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "10:35"
+  },
+  {
+   "canonical": "Supermarket",
+   "type": "place",
+   "surface": "supermarket",
+   "ts": "16:48"
+  },
+  {
+   "canonical": "Farmers market",
+   "type": "place",
+   "surface": "farmers market",
+   "ts": "16:48"
+  },
+  {
+   "canonical": "Organic",
+   "type": "ingredient",
+   "surface": "organic",
+   "ts": "16:48"
+  },
+  {
+   "canonical": "Bacillus cereus",
+   "type": "ingredient",
+   "surface": "bacillus serious cereal",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Bacillus cereus",
+   "type": "ingredient",
+   "surface": "B serious",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Bacillus cereus",
+   "type": "ingredient",
+   "surface": "bacillus cereal",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "place",
+   "surface": "sushi",
+   "ts": "21:12"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "place",
+   "surface": "sushi",
+   "ts": "21:34"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "place",
+   "surface": "sushi",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "place",
+   "surface": "sushi",
+   "ts": "23:28"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "place",
+   "surface": "sushi",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "place",
+   "surface": "sushi",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "23:10"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "23:28"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "23:42"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "24:39"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Acidification",
+   "type": "technique",
+   "surface": "acidification",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Food Code",
+   "type": "place",
+   "surface": "food code",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "Vinegar",
+   "type": "ingredient",
+   "surface": "vinegar",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Food Safety",
+   "type": "place",
+   "surface": "food safety",
+   "ts": "18:29"
+  },
+  {
+   "canonical": "Health Department",
+   "type": "place",
+   "surface": "health department",
+   "ts": "22:22"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "technique",
+   "surface": "botulism",
+   "ts": "29:19"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "listeria",
+   "ts": "29:19"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "listeria",
+   "ts": "29:35"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "listeria",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "Listeria",
+   "ts": "32:04"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "31:37"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "33:24"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "26:49"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "26:49"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "33:24"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "34:02"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Temperature Control",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature work",
+   "ts": "26:49"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature work",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Precision Cooking",
+   "type": "technique",
+   "surface": "precise temperature cooking",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Bruno Goussot",
+   "type": "person",
+   "surface": "Bruno Gusot",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Juscatans",
+   "type": "place",
+   "surface": "Juscatans",
+   "ts": "34:39"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "salmonella",
+   "ts": "37:40"
+  },
+  {
+   "canonical": "Salmonella",
+   "type": "ingredient",
+   "surface": "Salmonella",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "listeria",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "Listeria",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "Bacillus",
+   "type": "ingredient",
+   "surface": "Bacillus",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "Bacillus",
+   "type": "ingredient",
+   "surface": "Bacillus",
+   "ts": "38:32"
+  },
+  {
+   "canonical": "Bacillus",
+   "type": "ingredient",
+   "surface": "bacillus",
+   "ts": "38:51"
+  },
+  {
+   "canonical": "Freeze drying",
+   "type": "technique",
+   "surface": "freeze drying",
+   "ts": "39:24"
+  },
+  {
+   "canonical": "Freeze drying",
+   "type": "technique",
+   "surface": "freeze drying",
+   "ts": "39:44"
+  },
+  {
+   "canonical": "Freeze dryer",
+   "type": "equipment",
+   "surface": "freeze dryer",
+   "ts": "39:24"
+  },
+  {
+   "canonical": "Dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "40:56"
+  },
+  {
+   "canonical": "Dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Wooden cutting boards",
+   "type": "equipment",
+   "surface": "wooden cutting boards",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Plastic cutting boards",
+   "type": "equipment",
+   "surface": "plastic cutting boards",
+   "ts": "41:41"
+  },
+  {
+   "canonical": "Sanitizer",
+   "type": "ingredient",
+   "surface": "sanitizer",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "Clorox",
+   "type": "ingredient",
+   "surface": "Clorox",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "Sink drain",
+   "type": "place",
+   "surface": "sink drain",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "Jordan",
+   "type": "person",
+   "surface": "Jordan",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Ben",
+   "type": "person",
+   "surface": "Ben",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Slim Joe",
+   "type": "person",
+   "surface": "Slim Joe",
+   "ts": "48:24"
+  },
+  {
+   "canonical": "Slim Joe",
+   "type": "person",
+   "surface": "Slim Joe",
+   "ts": "49:17"
+  },
+  {
+   "canonical": "Slim Joe",
+   "type": "person",
+   "surface": "Slim Joe",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "Slim Joe",
+   "type": "person",
+   "surface": "Slim Joe",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Jeremy",
+   "type": "person",
+   "surface": "Jeremy",
+   "ts": "52:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Sanitization",
+   "type": "technique",
+   "surface": "sanitize",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "Sanitization",
+   "type": "technique",
+   "surface": "sanitized",
+   "ts": "45:11"
+  },
+  {
+   "canonical": "Sanitization",
+   "type": "technique",
+   "surface": "sanitized",
+   "ts": "45:41"
+  },
+  {
+   "canonical": "Sanitization",
+   "type": "technique",
+   "surface": "sanitized",
+   "ts": "46:41"
+  },
+  {
+   "canonical": "Sanitization",
+   "type": "technique",
+   "surface": "sanitizing",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Sanitization",
+   "type": "technique",
+   "surface": "sanitizing",
+   "ts": "50:31"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "45:11"
+  },
+  {
+   "canonical": "Microwave",
+   "type": "equipment",
+   "surface": "microwave",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "44:40"
+  },
+  {
+   "canonical": "Dishwasher",
+   "type": "equipment",
+   "surface": "dishwasher",
+   "ts": "45:11"
+  },
+  {
+   "canonical": "Wooden Cutting Board",
+   "type": "equipment",
+   "surface": "wood",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Wooden Cutting Board",
+   "type": "equipment",
+   "surface": "wood",
+   "ts": "46:41"
+  },
+  {
+   "canonical": "Wooden Cutting Board",
+   "type": "equipment",
+   "surface": "wood",
+   "ts": "47:29"
+  },
+  {
+   "canonical": "Scotch Bright Pad",
+   "type": "equipment",
+   "surface": "scotch bright pad",
+   "ts": "46:41"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "46:41"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "47:55"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "52:59"
+  },
+  {
+   "canonical": "Scotch Price",
+   "type": "ingredient",
+   "surface": "Scotch price",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Foodborne Pathogens",
+   "type": "ingredient",
+   "surface": "foodborne pathogens",
+   "ts": "48:24"
+  },
+  {
+   "canonical": "Norovirus",
+   "type": "ingredient",
+   "surface": "norovirus",
+   "ts": "49:17"
+  },
+  {
+   "canonical": "SARS-CoV-2",
+   "type": "ingredient",
+   "surface": "SARS-CoV-2",
+   "ts": "49:17"
+  },
+  {
+   "canonical": "HACCP",
+   "type": "technique",
+   "surface": "HACC plans",
+   "ts": "52:59"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentations",
+   "ts": "52:59"
+  },
+  {
+   "canonical": "Dry Aging",
+   "type": "technique",
+   "surface": "dry aging",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Dry Aging",
+   "type": "technique",
+   "surface": "dry aging",
+   "ts": "52:34"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "pH",
+   "type": "ingredient",
+   "surface": "pH",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Relative Humidity",
+   "type": "ingredient",
+   "surface": "relative humidity",
+   "ts": "52:34"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "ingredient",
+   "surface": "temperature",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Temperature",
+   "type": "ingredient",
+   "surface": "temperature",
+   "ts": "52:34"
+  },
+  {
+   "canonical": "Devin Patel",
+   "type": "person",
+   "surface": "Devin Patel",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Devin Patel",
+   "type": "person",
+   "surface": "Devin Patel",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Jeremy",
+   "type": "person",
+   "surface": "Jeremy",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Doc",
+   "type": "person",
+   "surface": "Doc",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "58:33"
+  },
+  {
+   "canonical": "Jennifer Mallon",
+   "type": "person",
+   "surface": "Jennifer Mallon",
+   "ts": "56:44"
+  },
+  {
+   "canonical": "Ahuva",
+   "type": "person",
+   "surface": "Ahuva",
+   "ts": "58:33"
+  },
+  {
+   "canonical": "Dina Road",
+   "type": "person",
+   "surface": "Dina Road",
+   "ts": "58:33"
+  },
+  {
+   "canonical": "Jared Johnson",
+   "type": "person",
+   "surface": "Jared Johnson",
+   "ts": "1:00:31"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:00:31"
+  },
+  {
+   "canonical": "Capri San",
+   "type": "person",
+   "surface": "Capri San",
+   "ts": "1:01:27"
+  },
+  {
+   "canonical": "Bacillus",
+   "type": "ingredient",
+   "surface": "Bacillus",
+   "ts": "59:05"
+  },
+  {
+   "canonical": "Bacillus",
+   "type": "ingredient",
+   "surface": "bacillus",
+   "ts": "59:22"
+  },
+  {
+   "canonical": "Bacillus",
+   "type": "ingredient",
+   "surface": "Bacillus",
+   "ts": "1:00:11"
+  },
+  {
+   "canonical": "Staphylococcus aureus",
+   "type": "ingredient",
+   "surface": "Staphylococcus aureus",
+   "ts": "59:22"
+  },
+  {
+   "canonical": "Clostridium botulinum",
+   "type": "ingredient",
+   "surface": "Clostridium botulinum",
+   "ts": "56:01"
+  },
+  {
+   "canonical": "Bacillus spores",
+   "type": "ingredient",
+   "surface": "Bacillus spores",
+   "ts": "59:05"
+  },
+  {
+   "canonical": "Aflatoxins",
+   "type": "ingredient",
+   "surface": "aflatoxins",
+   "ts": "1:01:27"
+  },
+  {
+   "canonical": "High pressure processing",
+   "type": "technique",
+   "surface": "high pressure sterilization",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Brining",
+   "type": "technique",
+   "surface": "brine",
+   "ts": "55:26"
+  },
+  {
+   "canonical": "Defrosting",
+   "type": "technique",
+   "surface": "defrosting",
+   "ts": "56:44"
+  },
+  {
+   "canonical": "Defrosting",
+   "type": "technique",
+   "surface": "defrosting",
+   "ts": "56:58"
+  },
+  {
+   "canonical": "Pressure cooking",
+   "type": "technique",
+   "surface": "pressure cooking",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Pressure cooking",
+   "type": "technique",
+   "surface": "pressure cooking",
+   "ts": "1:00:11"
+  },
+  {
+   "canonical": "Thawing",
+   "type": "technique",
+   "surface": "thawing",
+   "ts": "57:15"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:01"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:13"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:26"
+  },
+  {
+   "canonical": "Acidified drinks",
+   "type": "ingredient",
+   "surface": "acidified drinks",
+   "ts": "56:01"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "Yeast",
+   "ts": "56:44"
+  },
+  {
+   "canonical": "Paper bag",
+   "type": "equipment",
+   "surface": "paper bag",
+   "ts": "57:15"
+  },
+  {
+   "canonical": "Paper bag",
+   "type": "equipment",
+   "surface": "paper bag",
+   "ts": "57:49"
+  },
+  {
+   "canonical": "Pressure cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "59:22"
+  },
+  {
+   "canonical": "Risky or Not",
+   "type": "place",
+   "surface": "risky or not",
+   "ts": "56:58"
+  },
+  {
+   "canonical": "Food Safety Talk",
+   "type": "place",
+   "surface": "food safety talk",
+   "ts": "56:58"
+  },
+  {
+   "canonical": "Dr. Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "1:02:49"
+  },
+  {
+   "canonical": "Dr. Don",
+   "type": "person",
+   "surface": "Dr. Don",
+   "ts": "1:03:21"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:03:35"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "1:03:54"
+  },
+  {
+   "canonical": "Eric Wareheim",
+   "type": "person",
+   "surface": "Eric Wareheim",
+   "ts": "1:04:10"
+  },
+  {
+   "canonical": "Ann Saxelby",
+   "type": "person",
+   "surface": "Ann Saxelby",
+   "ts": "1:04:10"
+  },
+  {
+   "canonical": "Saxobe Cheesemongers",
+   "type": "place",
+   "surface": "Saxobe Cheesemongers",
+   "ts": "1:04:10"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:03:35"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "patreon",
+   "ts": "1:03:54"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "1:03:54"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "1:03:35"
+  },
+  {
+   "canonical": "Foodheim",
+   "type": "place",
+   "surface": "Foodheim",
+   "ts": "1:04:10"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "1:02:11"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "1:02:49"
+  },
+  {
+   "canonical": "Miso Paste",
+   "type": "ingredient",
+   "surface": "miso paste",
+   "ts": "1:02:33"
+  },
+  {
+   "canonical": "Miso Paste",
+   "type": "ingredient",
+   "surface": "miso paste",
+   "ts": "1:02:49"
+  },
+  {
+   "canonical": "Water Bottles",
+   "type": "ingredient",
+   "surface": "water bottles",
+   "ts": "1:02:33"
+  },
+  {
+   "canonical": "Water Bottles",
+   "type": "ingredient",
+   "surface": "water bottles",
+   "ts": "1:02:49"
+  }
+ ]
+}

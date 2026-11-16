@@ -1,0 +1,1681 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:17"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "5:01"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "5:40"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "7:02"
+  },
+  {
+   "canonical": "Quinny Quinn McQuinn",
+   "type": "person",
+   "surface": "Quinny Quinn McQuinn",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:50"
+  },
+  {
+   "canonical": "Casey Boyle",
+   "type": "person",
+   "surface": "Casey Boyle",
+   "ts": "1:05"
+  },
+  {
+   "canonical": "Doc to Dish Rhymes with Fish",
+   "type": "place",
+   "surface": "Doc to Dish Rhymes with Fish",
+   "ts": "1:05"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:20"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "patreon",
+   "ts": "1:45"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "1:32"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "1:45"
+  },
+  {
+   "canonical": "Union Square Green Market",
+   "type": "place",
+   "surface": "Union Square Green Market",
+   "ts": "4:15"
+  },
+  {
+   "canonical": "Stokes Farms",
+   "type": "place",
+   "surface": "Stokes",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Stokes Farms",
+   "type": "place",
+   "surface": "Stokes",
+   "ts": "4:15"
+  },
+  {
+   "canonical": "Aunt Ruby's",
+   "type": "ingredient",
+   "surface": "Aunt Ruby's",
+   "ts": "4:15"
+  },
+  {
+   "canonical": "German Stripes",
+   "type": "ingredient",
+   "surface": "German stripes",
+   "ts": "4:15"
+  },
+  {
+   "canonical": "Ron Benagi",
+   "type": "person",
+   "surface": "Ron Benagi",
+   "ts": "4:15"
+  },
+  {
+   "canonical": "Peak Design",
+   "type": "place",
+   "surface": "Peak Design",
+   "ts": "3:40"
+  },
+  {
+   "canonical": "Peak Design",
+   "type": "place",
+   "surface": "Peak design",
+   "ts": "4:07"
+  },
+  {
+   "canonical": "Ozone Generator",
+   "type": "equipment",
+   "surface": "ozone generator",
+   "ts": "3:23"
+  },
+  {
+   "canonical": "Suzuki Farm",
+   "type": "place",
+   "surface": "Suzuki farm",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "Suzuki Farm",
+   "type": "place",
+   "surface": "Suzuki farm",
+   "ts": "7:02"
+  },
+  {
+   "canonical": "Mizu Eggplant",
+   "type": "ingredient",
+   "surface": "Mizu eggplant",
+   "ts": "5:09"
+  },
+  {
+   "canonical": "Mizu Eggplant",
+   "type": "ingredient",
+   "surface": "Mizunasu",
+   "ts": "5:20"
+  },
+  {
+   "canonical": "Air Fryer",
+   "type": "equipment",
+   "surface": "air fryer",
+   "ts": "6:27"
+  },
+  {
+   "canonical": "Natura",
+   "type": "place",
+   "surface": "Natura",
+   "ts": "7:02"
+  },
+  {
+   "canonical": "Baba Ganoush",
+   "type": "ingredient",
+   "surface": "Baba Ganoush",
+   "ts": "7:58"
+  },
+  {
+   "canonical": "Forsyth Street",
+   "type": "place",
+   "surface": "Forsyth Street",
+   "ts": "8:13"
+  },
+  {
+   "canonical": "Forsyth Street",
+   "type": "place",
+   "surface": "Forsyth Street",
+   "ts": "8:29"
+  },
+  {
+   "canonical": "Forsyth Street",
+   "type": "place",
+   "surface": "Forsyth Street",
+   "ts": "8:56"
+  },
+  {
+   "canonical": "Forsyth Street",
+   "type": "place",
+   "surface": "Forsyth Street",
+   "ts": "9:04"
+  },
+  {
+   "canonical": "Andy Ricker",
+   "type": "person",
+   "surface": "Andy Ricker",
+   "ts": "8:13"
+  },
+  {
+   "canonical": "Mom",
+   "type": "place",
+   "surface": "Mom",
+   "ts": "8:13"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "7:51"
+  },
+  {
+   "canonical": "Rob Lex",
+   "type": "person",
+   "surface": "Rob Lex",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Chengdu",
+   "type": "place",
+   "surface": "Chengdu",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Chengdu",
+   "type": "place",
+   "surface": "Chengdu",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Chongqing",
+   "type": "place",
+   "surface": "Chongqing",
+   "ts": "9:41"
+  },
+  {
+   "canonical": "Taiwan",
+   "type": "place",
+   "surface": "Taiwan",
+   "ts": "9:56"
+  },
+  {
+   "canonical": "Taiwan",
+   "type": "place",
+   "surface": "Taiwan",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Taiwan",
+   "type": "place",
+   "surface": "Taiwan",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Hong Kong",
+   "type": "place",
+   "surface": "Hong Kong",
+   "ts": "9:56"
+  },
+  {
+   "canonical": "Hong Kong",
+   "type": "place",
+   "surface": "Hong Kong",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Hong Kong",
+   "type": "place",
+   "surface": "Hong Kong",
+   "ts": "12:21"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "9:56"
+  },
+  {
+   "canonical": "China",
+   "type": "place",
+   "surface": "China",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Stinky Tofu",
+   "type": "ingredient",
+   "surface": "stinky tofu",
+   "ts": "10:03"
+  },
+  {
+   "canonical": "Stinky Tofu",
+   "type": "ingredient",
+   "surface": "stinky tofu",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Abalone",
+   "type": "ingredient",
+   "surface": "abalone",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Abalone",
+   "type": "ingredient",
+   "surface": "Able",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Abalone",
+   "type": "ingredient",
+   "surface": "abalone",
+   "ts": "12:21"
+  },
+  {
+   "canonical": "Fish Maw",
+   "type": "ingredient",
+   "surface": "fish maw",
+   "ts": "12:36"
+  },
+  {
+   "canonical": "Fish Maw",
+   "type": "ingredient",
+   "surface": "Fish maw",
+   "ts": "12:45"
+  },
+  {
+   "canonical": "Bird's Nest",
+   "type": "ingredient",
+   "surface": "Imperial Bird's Nest",
+   "ts": "12:53"
+  },
+  {
+   "canonical": "U Yuji Lan",
+   "type": "place",
+   "surface": "U Yuji Lan",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Michelin",
+   "type": "place",
+   "surface": "Michelin",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Fruit Game",
+   "type": "place",
+   "surface": "fruit game",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Ray Ban",
+   "type": "equipment",
+   "surface": "Ray Ban",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Doc Martins",
+   "type": "equipment",
+   "surface": "Doc Martins",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "19:13"
+  },
+  {
+   "canonical": "Andy Ringer",
+   "type": "person",
+   "surface": "Andy Ringer",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Quinn Fish",
+   "type": "person",
+   "surface": "Quinn Fish",
+   "ts": "21:06"
+  },
+  {
+   "canonical": "Quinn Fish",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Oats",
+   "type": "ingredient",
+   "surface": "Oats",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "22:36"
+  },
+  {
+   "canonical": "Oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "23:47"
+  },
+  {
+   "canonical": "Oats",
+   "type": "ingredient",
+   "surface": "oats",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "technique",
+   "surface": "risotto",
+   "ts": "21:14"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "technique",
+   "surface": "risotto",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "technique",
+   "surface": "risotto",
+   "ts": "23:21"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "technique",
+   "surface": "risotto",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Risotto",
+   "type": "technique",
+   "surface": "risotto",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Oat groats",
+   "type": "ingredient",
+   "surface": "oat groats",
+   "ts": "21:54"
+  },
+  {
+   "canonical": "Stock",
+   "type": "ingredient",
+   "surface": "stock",
+   "ts": "22:13"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "22:13"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "29:25"
+  },
+  {
+   "canonical": "Milk",
+   "type": "ingredient",
+   "surface": "milk",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Smoked cheddar",
+   "type": "ingredient",
+   "surface": "smoked cheddar",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "26:36"
+  },
+  {
+   "canonical": "Carrots",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onion",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "CSA box",
+   "type": "place",
+   "surface": "CSA box",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Pete's Greens",
+   "type": "place",
+   "surface": "Pete's Greens",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "24:14"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "26:36"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "26:44"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrots",
+   "ts": "27:01"
+  },
+  {
+   "canonical": "Parsnip",
+   "type": "ingredient",
+   "surface": "parsnip",
+   "ts": "26:36"
+  },
+  {
+   "canonical": "Parsnip",
+   "type": "ingredient",
+   "surface": "parsnip",
+   "ts": "26:44"
+  },
+  {
+   "canonical": "Turnip",
+   "type": "ingredient",
+   "surface": "turnip",
+   "ts": "27:08"
+  },
+  {
+   "canonical": "Northern Latitude Carrots",
+   "type": "ingredient",
+   "surface": "northern latitude carrots",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Vermont",
+   "type": "place",
+   "surface": "Vermont",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Maine",
+   "type": "place",
+   "surface": "Maine",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "Cheddar Risotto",
+   "type": "ingredient",
+   "surface": "Cheddar risotto",
+   "ts": "25:02"
+  },
+  {
+   "canonical": "Dan Barber",
+   "type": "person",
+   "surface": "Dan Barber",
+   "ts": "27:52"
+  },
+  {
+   "canonical": "Community Supported Fishery",
+   "type": "place",
+   "surface": "CSA",
+   "ts": "23:56"
+  },
+  {
+   "canonical": "Community Supported Fishery",
+   "type": "place",
+   "surface": "community supported fishery",
+   "ts": "27:34"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "Cape",
+   "type": "place",
+   "surface": "Cape",
+   "ts": "28:29"
+  },
+  {
+   "canonical": "Cape",
+   "type": "place",
+   "surface": "Cape",
+   "ts": "28:43"
+  },
+  {
+   "canonical": "Cape",
+   "type": "place",
+   "surface": "Cape",
+   "ts": "29:25"
+  },
+  {
+   "canonical": "Surf Casting",
+   "type": "technique",
+   "surface": "surf casting",
+   "ts": "29:16"
+  },
+  {
+   "canonical": "Jaws (movie)",
+   "type": "place",
+   "surface": "Jaws the movie",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "Race Point",
+   "type": "place",
+   "surface": "Race Point",
+   "ts": "29:25"
+  },
+  {
+   "canonical": "Newcomb Hollow",
+   "type": "place",
+   "surface": "Newcomb Hollow",
+   "ts": "29:25"
+  },
+  {
+   "canonical": "Boston Beach",
+   "type": "place",
+   "surface": "Boston Beach",
+   "ts": "29:25"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "29:37"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Chesapeake",
+   "type": "place",
+   "surface": "Chesapeake",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Chesapeake",
+   "type": "place",
+   "surface": "Chesapeake",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Maryland",
+   "type": "place",
+   "surface": "Maryland",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Indonesia",
+   "type": "place",
+   "surface": "Indonesia",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Carolinas",
+   "type": "place",
+   "surface": "Carolinas",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Gulf",
+   "type": "place",
+   "surface": "Gulf",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Topeka",
+   "type": "place",
+   "surface": "Topeka",
+   "ts": "31:08"
+  },
+  {
+   "canonical": "Blue Crab",
+   "type": "ingredient",
+   "surface": "blue crab",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Blue Crab",
+   "type": "ingredient",
+   "surface": "blue crab",
+   "ts": "30:37"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Crab",
+   "type": "ingredient",
+   "surface": "crab",
+   "ts": "30:37"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "31:08"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "33:32"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "35:28"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "35:54"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Fishery",
+   "type": "place",
+   "surface": "fishery",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "Restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "32:56"
+  },
+  {
+   "canonical": "Restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Fine Dining",
+   "type": "place",
+   "surface": "fine dining",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Dock",
+   "type": "place",
+   "surface": "dock",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Office",
+   "type": "place",
+   "surface": "office",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Office",
+   "type": "place",
+   "surface": "office",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Fish Cutter",
+   "type": "person",
+   "surface": "fish cutter",
+   "ts": "33:19"
+  },
+  {
+   "canonical": "Fishermen",
+   "type": "person",
+   "surface": "fishermen",
+   "ts": "29:37"
+  },
+  {
+   "canonical": "Fishermen",
+   "type": "person",
+   "surface": "fishermen",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Fishermen",
+   "type": "person",
+   "surface": "fishermen",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Fishermen",
+   "type": "person",
+   "surface": "fishermen",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Chefs",
+   "type": "person",
+   "surface": "chefs",
+   "ts": "32:10"
+  },
+  {
+   "canonical": "Weather",
+   "type": "technique",
+   "surface": "weather",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Leon's 1909",
+   "type": "place",
+   "surface": "Leon's 1909",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Main Garam",
+   "type": "place",
+   "surface": "Main Garam",
+   "ts": "36:40"
+  },
+  {
+   "canonical": "Spearing",
+   "type": "technique",
+   "surface": "spearing",
+   "ts": "35:54"
+  },
+  {
+   "canonical": "Buy Catch Box",
+   "type": "technique",
+   "surface": "buy catch box",
+   "ts": "35:28"
+  },
+  {
+   "canonical": "Spear Fish",
+   "type": "technique",
+   "surface": "spear fish",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Sardine",
+   "type": "ingredient",
+   "surface": "sardine",
+   "ts": "36:16"
+  },
+  {
+   "canonical": "Bait Fish",
+   "type": "ingredient",
+   "surface": "bait fish",
+   "ts": "35:54"
+  },
+  {
+   "canonical": "Bait Fish",
+   "type": "ingredient",
+   "surface": "bait fish",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Curing",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Shelter Island",
+   "type": "place",
+   "surface": "Shelter Island",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "29:49"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "30:05"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Sally Granger",
+   "type": "person",
+   "surface": "Sally Granger",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "garum",
+   "type": "ingredient",
+   "surface": "garum",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "eel guts",
+   "type": "ingredient",
+   "surface": "eel guts",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "American anagi",
+   "type": "place",
+   "surface": "American anagi",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "American anagiol",
+   "type": "place",
+   "surface": "American anagiol",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "sea robin",
+   "type": "ingredient",
+   "surface": "sea robin",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Dina Lippman",
+   "type": "person",
+   "surface": "Dina Lippman",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "Shinnecock",
+   "type": "place",
+   "surface": "Shinnecock",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "blowfish",
+   "type": "ingredient",
+   "surface": "blowfish",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "blowfish",
+   "type": "ingredient",
+   "surface": "blowfish",
+   "ts": "40:04"
+  },
+  {
+   "canonical": "Pacific Fugu",
+   "type": "ingredient",
+   "surface": "Pacific Fugu",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Tetrodotoxin",
+   "type": "ingredient",
+   "surface": "tetrodotoxin",
+   "ts": "39:35"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "souson",
+   "ts": "39:35"
+  },
+  {
+   "canonical": "Blowfish",
+   "type": "ingredient",
+   "surface": "blowfish",
+   "ts": "38:55"
+  },
+  {
+   "canonical": "Blowfish",
+   "type": "ingredient",
+   "surface": "blowfish",
+   "ts": "40:04"
+  },
+  {
+   "canonical": "Fugu",
+   "type": "ingredient",
+   "surface": "Fugu",
+   "ts": "39:21"
+  },
+  {
+   "canonical": "Fugu",
+   "type": "ingredient",
+   "surface": "fugu",
+   "ts": "39:49"
+  },
+  {
+   "canonical": "Peconics",
+   "type": "place",
+   "surface": "Peconics",
+   "ts": "40:04"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "40:26"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "40:26"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "41:02"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "41:14"
+  },
+  {
+   "canonical": "Jeremiah",
+   "type": "person",
+   "surface": "Jeremiah",
+   "ts": "41:02"
+  },
+  {
+   "canonical": "Red Shrimp",
+   "type": "ingredient",
+   "surface": "red shrimp",
+   "ts": "41:02"
+  },
+  {
+   "canonical": "Red Shrimp",
+   "type": "ingredient",
+   "surface": "red shrimp",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Dr. Dish",
+   "type": "person",
+   "surface": "Dr. Dish",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Sicilian tiger ponds",
+   "type": "ingredient",
+   "surface": "Sicilian tiger ponds",
+   "ts": "43:02"
+  },
+  {
+   "canonical": "Silver Hake",
+   "type": "ingredient",
+   "surface": "Silver Hake",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Silver Hake",
+   "type": "ingredient",
+   "surface": "sow saw hake",
+   "ts": "42:11"
+  },
+  {
+   "canonical": "Silver Hake",
+   "type": "ingredient",
+   "surface": "silver hake",
+   "ts": "42:19"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "40:26"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Fulton Fish market",
+   "type": "place",
+   "surface": "Fulton Fish market",
+   "ts": "41:29"
+  },
+  {
+   "canonical": "New York Times",
+   "type": "place",
+   "surface": "New York Times",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "Eater",
+   "type": "place",
+   "surface": "eater",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "aquaculture",
+   "type": "technique",
+   "surface": "aquaculture",
+   "ts": "43:02"
+  },
+  {
+   "canonical": "aquaculture",
+   "type": "technique",
+   "surface": "aquaculture",
+   "ts": "44:04"
+  },
+  {
+   "canonical": "aquaculture",
+   "type": "technique",
+   "surface": "aquaculture",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "bycatch",
+   "type": "technique",
+   "surface": "bycatch",
+   "ts": "41:45"
+  },
+  {
+   "canonical": "iodine poisoning",
+   "type": "ingredient",
+   "surface": "iodine poisoning",
+   "ts": "44:52"
+  },
+  {
+   "canonical": "Fulton Fish Market",
+   "type": "place",
+   "surface": "Fulton Fish Market",
+   "ts": "52:14"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "45:10"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "48:58"
+  },
+  {
+   "canonical": "Montauk",
+   "type": "place",
+   "surface": "Montauk",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "Jersey Shore",
+   "type": "place",
+   "surface": "Jersey Shore",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "Cape",
+   "type": "place",
+   "surface": "Cape",
+   "ts": "45:33"
+  },
+  {
+   "canonical": "Cape",
+   "type": "place",
+   "surface": "Cape",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "52:14"
+  },
+  {
+   "canonical": "periwinkle",
+   "type": "ingredient",
+   "surface": "periwinkle",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "periwinkle",
+   "type": "ingredient",
+   "surface": "periwinkle",
+   "ts": "52:45"
+  },
+  {
+   "canonical": "welk",
+   "type": "ingredient",
+   "surface": "welk",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "welk",
+   "type": "ingredient",
+   "surface": "welk",
+   "ts": "52:45"
+  },
+  {
+   "canonical": "conk",
+   "type": "ingredient",
+   "surface": "conk",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "shellfish",
+   "type": "ingredient",
+   "surface": "shellfish",
+   "ts": "49:45"
+  },
+  {
+   "canonical": "shellfish",
+   "type": "ingredient",
+   "surface": "shellfish",
+   "ts": "49:59"
+  },
+  {
+   "canonical": "fluke",
+   "type": "ingredient",
+   "surface": "fluke",
+   "ts": "48:58"
+  },
+  {
+   "canonical": "sea robin",
+   "type": "ingredient",
+   "surface": "sea robin",
+   "ts": "51:01"
+  },
+  {
+   "canonical": "Michael Fabro",
+   "type": "person",
+   "surface": "Michael Fabro",
+   "ts": "1:00:37"
+  },
+  {
+   "canonical": "Tani",
+   "type": "person",
+   "surface": "Tani",
+   "ts": "59:57"
+  },
+  {
+   "canonical": "Tommy Garpy",
+   "type": "person",
+   "surface": "Tommy Garpy",
+   "ts": "59:57"
+  },
+  {
+   "canonical": "Ug DeFor",
+   "type": "person",
+   "surface": "Ug DeFor",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "NOMA",
+   "type": "place",
+   "surface": "NOMA",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "long island",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "54:23"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "59:57"
+  },
+  {
+   "canonical": "Great South Bay",
+   "type": "place",
+   "surface": "Great South Bay",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Mauritus Bay",
+   "type": "place",
+   "surface": "Mauritus Bay",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Shinnocock",
+   "type": "place",
+   "surface": "Shinnocock",
+   "ts": "55:46"
+  },
+  {
+   "canonical": "Shad",
+   "type": "ingredient",
+   "surface": "Shad",
+   "ts": "1:00:10"
+  },
+  {
+   "canonical": "Cobia",
+   "type": "ingredient",
+   "surface": "cobia",
+   "ts": "58:04"
+  },
+  {
+   "canonical": "Cobia",
+   "type": "ingredient",
+   "surface": "Cobia",
+   "ts": "58:12"
+  },
+  {
+   "canonical": "Cusk",
+   "type": "ingredient",
+   "surface": "Cusk",
+   "ts": "58:46"
+  },
+  {
+   "canonical": "Razor Clam",
+   "type": "ingredient",
+   "surface": "razor clam",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Razor Clam",
+   "type": "ingredient",
+   "surface": "Razor Clam",
+   "ts": "59:57"
+  },
+  {
+   "canonical": "Mantis Shrimp",
+   "type": "ingredient",
+   "surface": "mantis shrimp",
+   "ts": "57:38"
+  },
+  {
+   "canonical": "Mantis Shrimp",
+   "type": "ingredient",
+   "surface": "mantis shrimp",
+   "ts": "57:45"
+  },
+  {
+   "canonical": "Mantis Shrimp",
+   "type": "ingredient",
+   "surface": "mantis shrimp",
+   "ts": "57:57"
+  },
+  {
+   "canonical": "Clam",
+   "type": "ingredient",
+   "surface": "clam",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Clam",
+   "type": "ingredient",
+   "surface": "clam",
+   "ts": "57:08"
+  },
+  {
+   "canonical": "Clam",
+   "type": "ingredient",
+   "surface": "clam",
+   "ts": "57:26"
+  },
+  {
+   "canonical": "Clam",
+   "type": "ingredient",
+   "surface": "clam",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Clam",
+   "type": "ingredient",
+   "surface": "Clam",
+   "ts": "59:57"
+  },
+  {
+   "canonical": "Whelk",
+   "type": "ingredient",
+   "surface": "whelk",
+   "ts": "53:58"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "54:23"
+  },
+  {
+   "canonical": "Conch",
+   "type": "ingredient",
+   "surface": "conch",
+   "ts": "54:37"
+  },
+  {
+   "canonical": "Ikajima",
+   "type": "equipment",
+   "surface": "Ikajima",
+   "ts": "1:00:37"
+  },
+  {
+   "canonical": "Dr. Dish",
+   "type": "equipment",
+   "surface": "Dr. Dish",
+   "ts": "53:58"
+  },
+  {
+   "canonical": "Fishing",
+   "type": "technique",
+   "surface": "fishing",
+   "ts": "58:17"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking issues",
+   "ts": "1:00:58"
+  }
+ ]
+}

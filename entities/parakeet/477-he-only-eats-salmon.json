@@ -1,0 +1,883 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia Lopez",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "Jackie Molikos",
+   "type": "person",
+   "surface": "Jackie Molikos",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Eskimole",
+   "type": "ingredient",
+   "surface": "Eskimole",
+   "ts": "6:24"
+  },
+  {
+   "canonical": "Eskimole",
+   "type": "ingredient",
+   "surface": "Eskimole",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Ant larva",
+   "type": "ingredient",
+   "surface": "ant larva",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Ant larva",
+   "type": "ingredient",
+   "surface": "ant larva",
+   "ts": "6:55"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortillas",
+   "ts": "6:33"
+  },
+  {
+   "canonical": "Ketamine",
+   "type": "ingredient",
+   "surface": "ketamine",
+   "ts": "5:28"
+  },
+  {
+   "canonical": "Ketamine",
+   "type": "ingredient",
+   "surface": "ketamine",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Ketamine",
+   "type": "ingredient",
+   "surface": "ketamine",
+   "ts": "5:54"
+  },
+  {
+   "canonical": "PCP",
+   "type": "ingredient",
+   "surface": "PCP",
+   "ts": "4:13"
+  },
+  {
+   "canonical": "PCP",
+   "type": "ingredient",
+   "surface": "PCP",
+   "ts": "4:31"
+  },
+  {
+   "canonical": "PCP",
+   "type": "ingredient",
+   "surface": "PCP",
+   "ts": "4:39"
+  },
+  {
+   "canonical": "PCP",
+   "type": "ingredient",
+   "surface": "PCP",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "Fava beans",
+   "type": "ingredient",
+   "surface": "favas",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "Fava beans",
+   "type": "ingredient",
+   "surface": "favas",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "Lima beans",
+   "type": "ingredient",
+   "surface": "limas",
+   "ts": "8:20"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rock Center",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rock Center",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Victoria's Secret",
+   "type": "place",
+   "surface": "Victoria's Secret",
+   "ts": "2:26"
+  },
+  {
+   "canonical": "Newstand Studios",
+   "type": "place",
+   "surface": "Newstand Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Plaza",
+   "type": "place",
+   "surface": "Rockefeller Plaza",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "Met Life Building",
+   "type": "place",
+   "surface": "Met Life Building",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Disney World",
+   "type": "place",
+   "surface": "Disney World",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Disney World",
+   "type": "place",
+   "surface": "Disney World",
+   "ts": "3:32"
+  },
+  {
+   "canonical": "Indiegogo",
+   "type": "place",
+   "surface": "indiegogo",
+   "ts": "0:22"
+  },
+  {
+   "canonical": "Indiegogo",
+   "type": "place",
+   "surface": "Indiegogo",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dacks",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Sears All Pro",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Sears All Pro",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "searzole",
+   "ts": "12:30"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Searzole",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "searsol",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Sears All Pro",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "18:06"
+  },
+  {
+   "canonical": "Indiegogo",
+   "type": "place",
+   "surface": "Indiegogo",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "9:55"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "18:48"
+  },
+  {
+   "canonical": "Cocktail Shaker",
+   "type": "equipment",
+   "surface": "cocktail shaker",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Cocktail Shaker",
+   "type": "equipment",
+   "surface": "cocktail shake",
+   "ts": "16:33"
+  },
+  {
+   "canonical": "CAD",
+   "type": "equipment",
+   "surface": "CAD",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Reduction Flame",
+   "type": "technique",
+   "surface": "reducing flame",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Flame Shaping",
+   "type": "technique",
+   "surface": "flame shaping",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Flame Shaping",
+   "type": "technique",
+   "surface": "flame shaping",
+   "ts": "15:30"
+  },
+  {
+   "canonical": "Metal Dusting",
+   "type": "technique",
+   "surface": "metal dusting",
+   "ts": "14:30"
+  },
+  {
+   "canonical": "Bunsen Burner",
+   "type": "equipment",
+   "surface": "Bunsen burner",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "Bunsen Burner",
+   "type": "equipment",
+   "surface": "Bunsen burner",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "ANOVA precision oven",
+   "type": "equipment",
+   "surface": "ANOVA precision oven",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "ANOVA precision oven",
+   "type": "equipment",
+   "surface": "ANOVA precision oven",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "ANOVA precision oven",
+   "type": "equipment",
+   "surface": "ANOVA precision oven",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "ANOVA precision oven",
+   "type": "equipment",
+   "surface": "APO",
+   "ts": "22:01"
+  },
+  {
+   "canonical": "ANOVA precision oven",
+   "type": "equipment",
+   "surface": "APO",
+   "ts": "22:37"
+  },
+  {
+   "canonical": "Breville",
+   "type": "equipment",
+   "surface": "Brevel",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Booker",
+   "type": "person",
+   "surface": "Booker",
+   "ts": "20:56"
+  },
+  {
+   "canonical": "Booker",
+   "type": "person",
+   "surface": "Booker",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "Booker",
+   "type": "person",
+   "surface": "Booker",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Booker",
+   "type": "person",
+   "surface": "Booker",
+   "ts": "23:13"
+  },
+  {
+   "canonical": "Jen",
+   "type": "person",
+   "surface": "Jen",
+   "ts": "20:27"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "19:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "19:28"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "19:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:55"
+  },
+  {
+   "canonical": "salmon fillets",
+   "type": "ingredient",
+   "surface": "salmon fillets",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "salmon roux",
+   "type": "ingredient",
+   "surface": "salmon roux",
+   "ts": "21:13"
+  },
+  {
+   "canonical": "silicone slip cover",
+   "type": "equipment",
+   "surface": "silicone slip cover",
+   "ts": "19:28"
+  },
+  {
+   "canonical": "Wi-Fi",
+   "type": "equipment",
+   "surface": "Wi-Fi",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Anti-Griddle",
+   "type": "equipment",
+   "surface": "anti-griddle",
+   "ts": "37:29"
+  },
+  {
+   "canonical": "Anti-Griddle",
+   "type": "equipment",
+   "surface": "anti-griddle",
+   "ts": "38:02"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "29:39"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "32:11"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "32:51"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "37:29"
+  },
+  {
+   "canonical": "Induction Burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "28:48"
+  },
+  {
+   "canonical": "Induction Burner",
+   "type": "equipment",
+   "surface": "induction burner",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Apo",
+   "type": "equipment",
+   "surface": "APO",
+   "ts": "29:47"
+  },
+  {
+   "canonical": "Apo",
+   "type": "equipment",
+   "surface": "APO",
+   "ts": "30:28"
+  },
+  {
+   "canonical": "Apo",
+   "type": "equipment",
+   "surface": "APO",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "31:10"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Cast Iron",
+   "type": "ingredient",
+   "surface": "cast iron",
+   "ts": "32:37"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "33:14"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "Pressure cooker",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "Lorna Sass",
+   "type": "person",
+   "surface": "Lorna Sass",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Lorna Sass",
+   "type": "person",
+   "surface": "Lorna Sass",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Lorna Sass",
+   "type": "person",
+   "surface": "Lorna Sass",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Cuisinart",
+   "type": "place",
+   "surface": "Cuisinart",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Nova Circulators",
+   "type": "equipment",
+   "surface": "Nova circulators",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "37:23"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "34:14"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "instapot",
+   "ts": "35:36"
+  },
+  {
+   "canonical": "Instapot",
+   "type": "equipment",
+   "surface": "Instapot",
+   "ts": "35:50"
+  },
+  {
+   "canonical": "Cloud Chamber",
+   "type": "technique",
+   "surface": "cloud chamber",
+   "ts": "37:29"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "Nova circulators",
+   "ts": "36:45"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Anti-Griddle",
+   "type": "equipment",
+   "surface": "anti-griddle",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Mini Melt",
+   "type": "technique",
+   "surface": "mini melt",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Cotton Candy Flavor",
+   "type": "ingredient",
+   "surface": "cotton candy flavors",
+   "ts": "38:54"
+  },
+  {
+   "canonical": "Ethyl Maltol",
+   "type": "ingredient",
+   "surface": "ethyl maltol",
+   "ts": "38:54"
+  },
+  {
+   "canonical": "Michael's Craft",
+   "type": "place",
+   "surface": "Michael's craft",
+   "ts": "38:54"
+  },
+  {
+   "canonical": "Co-Extruder",
+   "type": "equipment",
+   "surface": "co-extruder",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Spherification",
+   "type": "technique",
+   "surface": "spherification",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "40:00"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "44:10"
+  },
+  {
+   "canonical": "Rudolph Pez Dispenser",
+   "type": "equipment",
+   "surface": "Rudolph Pez dispenser",
+   "ts": "40:00"
+  },
+  {
+   "canonical": "Paisley",
+   "type": "technique",
+   "surface": "paisley",
+   "ts": "39:23"
+  },
+  {
+   "canonical": "Paisley",
+   "type": "technique",
+   "surface": "paisley",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Fruit Fly",
+   "type": "ingredient",
+   "surface": "fruit fly",
+   "ts": "42:05"
+  },
+  {
+   "canonical": "MSG",
+   "type": "place",
+   "surface": "MSG",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "Long Island Boy",
+   "type": "person",
+   "surface": "Long Island boy",
+   "ts": "43:04"
+  },
+  {
+   "canonical": "Billy Joel",
+   "type": "person",
+   "surface": "Billy Joel",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Billy Joel",
+   "type": "person",
+   "surface": "Billy Joel",
+   "ts": "42:49"
+  },
+  {
+   "canonical": "Billy Joel",
+   "type": "person",
+   "surface": "Billy Joel",
+   "ts": "44:58"
+  },
+  {
+   "canonical": "Billy Joel",
+   "type": "person",
+   "surface": "Billy Joel",
+   "ts": "45:50"
+  },
+  {
+   "canonical": "Instagram Live",
+   "type": "technique",
+   "surface": "Instagram live",
+   "ts": "41:03"
+  },
+  {
+   "canonical": "Instagram Live",
+   "type": "technique",
+   "surface": "Instagram Live",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "Liquid Nitrogen",
+   "type": "equipment",
+   "surface": "liquid nitrogen",
+   "ts": "46:59"
+  },
+  {
+   "canonical": "Dipping Dots",
+   "type": "technique",
+   "surface": "dipping dots",
+   "ts": "38:37"
+  },
+  {
+   "canonical": "Dipping Dots",
+   "type": "technique",
+   "surface": "dipping dots",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Dipping Dots",
+   "type": "technique",
+   "surface": "dipping dots",
+   "ts": "46:59"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "47:18"
+  },
+  {
+   "canonical": "Semifreddo",
+   "type": "ingredient",
+   "surface": "semifredo",
+   "ts": "48:13"
+  },
+  {
+   "canonical": "Semifreddo",
+   "type": "ingredient",
+   "surface": "semifredo",
+   "ts": "48:43"
+  },
+  {
+   "canonical": "Pharynograph",
+   "type": "equipment",
+   "surface": "pharynograph",
+   "ts": "54:56"
+  },
+  {
+   "canonical": "Pharynograph",
+   "type": "equipment",
+   "surface": "pharynograph",
+   "ts": "55:14"
+  },
+  {
+   "canonical": "Infrared",
+   "type": "equipment",
+   "surface": "infrared",
+   "ts": "55:52"
+  },
+  {
+   "canonical": "Cordial",
+   "type": "ingredient",
+   "surface": "cordial",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Semifreddo",
+   "type": "technique",
+   "surface": "semifredo",
+   "ts": "48:13"
+  },
+  {
+   "canonical": "Semifreddo",
+   "type": "technique",
+   "surface": "semifredo",
+   "ts": "48:43"
+  },
+  {
+   "canonical": "Agar",
+   "type": "ingredient",
+   "surface": "agar",
+   "ts": "57:29"
+  },
+  {
+   "canonical": "Fluid Gel",
+   "type": "technique",
+   "surface": "fluid gel",
+   "ts": "57:29"
+  },
+  {
+   "canonical": "Fluid Gel",
+   "type": "technique",
+   "surface": "fluid gel",
+   "ts": "57:56"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "place",
+   "surface": "Sears All Pro",
+   "ts": "58:24"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "58:58"
+  }
+ ]
+}

@@ -1,0 +1,1453 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:44"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:39"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:51"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Ariel Jonathan",
+   "type": "person",
+   "surface": "Ariel Jonathan",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Josh",
+   "type": "person",
+   "surface": "Josh",
+   "ts": "1:08"
+  },
+  {
+   "canonical": "Cholula",
+   "type": "ingredient",
+   "surface": "cholula",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Cholula",
+   "type": "ingredient",
+   "surface": "cholula",
+   "ts": "6:30"
+  },
+  {
+   "canonical": "Cholula",
+   "type": "ingredient",
+   "surface": "Cholula",
+   "ts": "7:59"
+  },
+  {
+   "canonical": "Meyer lemons",
+   "type": "ingredient",
+   "surface": "Meyer lemons",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Meyer lemons",
+   "type": "ingredient",
+   "surface": "Meyer lemons",
+   "ts": "9:20"
+  },
+  {
+   "canonical": "Tamales",
+   "type": "ingredient",
+   "surface": "tamales",
+   "ts": "4:39"
+  },
+  {
+   "canonical": "Tamales",
+   "type": "ingredient",
+   "surface": "tamales",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Tamales",
+   "type": "ingredient",
+   "surface": "tamales",
+   "ts": "5:57"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "equipment",
+   "surface": "ANOVA steam oven",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Steam oven",
+   "type": "equipment",
+   "surface": "ANOVA steam oven",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Styrofoam",
+   "type": "ingredient",
+   "surface": "styrofoam",
+   "ts": "4:39"
+  },
+  {
+   "canonical": "Tabasco",
+   "type": "ingredient",
+   "surface": "Tabasco",
+   "ts": "6:48"
+  },
+  {
+   "canonical": "Tabasco",
+   "type": "ingredient",
+   "surface": "Tabasco",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "Tabasco",
+   "type": "ingredient",
+   "surface": "Tabasco",
+   "ts": "7:40"
+  },
+  {
+   "canonical": "Tabasco",
+   "type": "ingredient",
+   "surface": "Tabasco",
+   "ts": "7:47"
+  },
+  {
+   "canonical": "Chili",
+   "type": "ingredient",
+   "surface": "cholula",
+   "ts": "6:22"
+  },
+  {
+   "canonical": "Chili",
+   "type": "ingredient",
+   "surface": "cholula",
+   "ts": "6:30"
+  },
+  {
+   "canonical": "Chili",
+   "type": "ingredient",
+   "surface": "Cholula",
+   "ts": "7:59"
+  },
+  {
+   "canonical": "Feta",
+   "type": "ingredient",
+   "surface": "feta",
+   "ts": "3:43"
+  },
+  {
+   "canonical": "Flying Tigers",
+   "type": "place",
+   "surface": "Flying Tigers",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "Flying Tigers",
+   "type": "place",
+   "surface": "Flying Tigers",
+   "ts": "2:52"
+  },
+  {
+   "canonical": "Avery Island",
+   "type": "place",
+   "surface": "Avery Island",
+   "ts": "7:05"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "1:58"
+  },
+  {
+   "canonical": "New York City",
+   "type": "place",
+   "surface": "New York City",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "New Stan Studios",
+   "type": "place",
+   "surface": "New Stan Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Uber",
+   "type": "equipment",
+   "surface": "Uber",
+   "ts": "2:23"
+  },
+  {
+   "canonical": "Uber",
+   "type": "equipment",
+   "surface": "Uber",
+   "ts": "3:12"
+  },
+  {
+   "canonical": "Uber",
+   "type": "equipment",
+   "surface": "Uber",
+   "ts": "3:16"
+  },
+  {
+   "canonical": "Uber",
+   "type": "equipment",
+   "surface": "Uber",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "Uber",
+   "type": "equipment",
+   "surface": "Uber",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "18:15"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "18:46"
+  },
+  {
+   "canonical": "Damascus",
+   "type": "place",
+   "surface": "Damascus",
+   "ts": "10:55"
+  },
+  {
+   "canonical": "Damascus",
+   "type": "place",
+   "surface": "Damascus",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "Damascus",
+   "type": "place",
+   "surface": "Damascus",
+   "ts": "11:27"
+  },
+  {
+   "canonical": "Damascus",
+   "type": "place",
+   "surface": "Damascus",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Sahadi's",
+   "type": "place",
+   "surface": "Sahadi's",
+   "ts": "11:11"
+  },
+  {
+   "canonical": "O. Sicilia",
+   "type": "place",
+   "surface": "O. Sicilia",
+   "ts": "11:36"
+  },
+  {
+   "canonical": "Puffy Taco",
+   "type": "technique",
+   "surface": "puffy taco",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "Puffy Taco",
+   "type": "technique",
+   "surface": "puffy tacos",
+   "ts": "14:59"
+  },
+  {
+   "canonical": "Sasparilla",
+   "type": "ingredient",
+   "surface": "Sasparilla",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Lemonata",
+   "type": "ingredient",
+   "surface": "limonata",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Lemonata",
+   "type": "ingredient",
+   "surface": "Lemonata",
+   "ts": "11:36"
+  },
+  {
+   "canonical": "Myers Lemon",
+   "type": "ingredient",
+   "surface": "Myers lemon",
+   "ts": "9:58"
+  },
+  {
+   "canonical": "Galavina",
+   "type": "ingredient",
+   "surface": "galavina",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Panot Ricard",
+   "type": "place",
+   "surface": "Panot Ricard",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "13:24"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Jack Shram",
+   "type": "person",
+   "surface": "Jack Shram",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "Henry's Puffy Taco",
+   "type": "place",
+   "surface": "Henry's Puffy Taco",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "Tamales",
+   "type": "ingredient",
+   "surface": "tamales",
+   "ts": "18:28"
+  },
+  {
+   "canonical": "Sicilian Lemonata",
+   "type": "ingredient",
+   "surface": "Sicilian Lemonata",
+   "ts": "11:36"
+  },
+  {
+   "canonical": "Sasaparilla",
+   "type": "ingredient",
+   "surface": "Sasparilla",
+   "ts": "10:44"
+  },
+  {
+   "canonical": "Guayabara",
+   "type": "ingredient",
+   "surface": "Guayabara",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "Panabrisas",
+   "type": "place",
+   "surface": "Panabrisas",
+   "ts": "13:42"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "12:26"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "12:29"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "14:09"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "14:31"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "18:15"
+  },
+  {
+   "canonical": "San Antonio",
+   "type": "place",
+   "surface": "San Antonio",
+   "ts": "18:46"
+  },
+  {
+   "canonical": "Alamo Lager",
+   "type": "ingredient",
+   "surface": "Alamo Lager",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "19:37"
+  },
+  {
+   "canonical": "Giuliano Buggiali",
+   "type": "person",
+   "surface": "Giuliano Buggiali",
+   "ts": "23:44"
+  },
+  {
+   "canonical": "Guanciale",
+   "type": "ingredient",
+   "surface": "guancholi",
+   "ts": "20:42"
+  },
+  {
+   "canonical": "Guanciale",
+   "type": "ingredient",
+   "surface": "guanchale",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "Guanciale",
+   "type": "ingredient",
+   "surface": "guanciale",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "Lactose",
+   "ts": "21:31"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "lactose",
+   "ts": "21:42"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "lactose",
+   "ts": "21:56"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "lactose",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "lactate",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "lactose",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Lactose",
+   "type": "ingredient",
+   "surface": "lactose",
+   "ts": "23:14"
+  },
+  {
+   "canonical": "Dextrose",
+   "type": "ingredient",
+   "surface": "dextrose",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "Dextrose",
+   "type": "ingredient",
+   "surface": "dextrose",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "sweetness",
+   "ts": "22:42"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "Sha shugar",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "Sugar",
+   "ts": "23:00"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Nucleotides",
+   "type": "ingredient",
+   "surface": "nucleotides",
+   "ts": "21:08"
+  },
+  {
+   "canonical": "Bocatini",
+   "type": "ingredient",
+   "surface": "Bocatini",
+   "ts": "25:00"
+  },
+  {
+   "canonical": "Pacquet",
+   "type": "ingredient",
+   "surface": "Pacquet",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "Radiators",
+   "type": "equipment",
+   "surface": "radiators",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "Radiators",
+   "type": "equipment",
+   "surface": "radiators",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Radiators",
+   "type": "equipment",
+   "surface": "radiators",
+   "ts": "25:31"
+  },
+  {
+   "canonical": "Radiators",
+   "type": "equipment",
+   "surface": "radiators",
+   "ts": "25:41"
+  },
+  {
+   "canonical": "Spirals",
+   "type": "equipment",
+   "surface": "spirals",
+   "ts": "25:14"
+  },
+  {
+   "canonical": "Spirals",
+   "type": "equipment",
+   "surface": "Spirals",
+   "ts": "25:24"
+  },
+  {
+   "canonical": "Nuhaus",
+   "type": "place",
+   "surface": "Nuhaus",
+   "ts": "27:44"
+  },
+  {
+   "canonical": "Belgian Palinet",
+   "type": "ingredient",
+   "surface": "Belgian Palinet",
+   "ts": "28:42"
+  },
+  {
+   "canonical": "Praline",
+   "type": "ingredient",
+   "surface": "praline",
+   "ts": "28:01"
+  },
+  {
+   "canonical": "Praline",
+   "type": "ingredient",
+   "surface": "praline",
+   "ts": "28:31"
+  },
+  {
+   "canonical": "Praline",
+   "type": "ingredient",
+   "surface": "praline",
+   "ts": "28:37"
+  },
+  {
+   "canonical": "Advil",
+   "type": "ingredient",
+   "surface": "Advil",
+   "ts": "29:00"
+  },
+  {
+   "canonical": "Advil",
+   "type": "ingredient",
+   "surface": "Advil",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Advil",
+   "type": "ingredient",
+   "surface": "Advil",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Office candy",
+   "type": "ingredient",
+   "surface": "office candy",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Office candy",
+   "type": "ingredient",
+   "surface": "office candy",
+   "ts": "29:21"
+  },
+  {
+   "canonical": "St. Joe's",
+   "type": "place",
+   "surface": "St. Joe's",
+   "ts": "29:34"
+  },
+  {
+   "canonical": "Grande Galerie",
+   "type": "place",
+   "surface": "Grande Galerie",
+   "ts": "27:51"
+  },
+  {
+   "canonical": "Maison d'Andois",
+   "type": "place",
+   "surface": "Maison d'Andois",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "Maison d'Andois",
+   "type": "place",
+   "surface": "Maison d'andois",
+   "ts": "30:57"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "ingredient",
+   "surface": "speculos",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "ingredient",
+   "surface": "Speculus",
+   "ts": "30:53"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "ingredient",
+   "surface": "speculos",
+   "ts": "32:19"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "ingredient",
+   "surface": "speculos",
+   "ts": "32:35"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "ingredient",
+   "surface": "speculos",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "technique",
+   "surface": "speculos",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "technique",
+   "surface": "speculos",
+   "ts": "32:19"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "technique",
+   "surface": "speculos",
+   "ts": "32:35"
+  },
+  {
+   "canonical": "Speculos",
+   "type": "technique",
+   "surface": "speculos",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Trader Joe's",
+   "type": "place",
+   "surface": "Trader Joe's",
+   "ts": "30:40"
+  },
+  {
+   "canonical": "Brussels mix",
+   "type": "ingredient",
+   "surface": "Brussels mix",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Liege",
+   "type": "ingredient",
+   "surface": "Liege",
+   "ts": "31:55"
+  },
+  {
+   "canonical": "Grand Central",
+   "type": "place",
+   "surface": "Grand Central",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "speculum",
+   "type": "equipment",
+   "surface": "speculum",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "Greg Blonder",
+   "type": "person",
+   "surface": "Greg Blonder",
+   "ts": "37:37"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "34:09"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "37:37"
+  },
+  {
+   "canonical": "Duck Confit",
+   "type": "ingredient",
+   "surface": "duck confit",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Duck Confit",
+   "type": "ingredient",
+   "surface": "Confit",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Equilibrium Salting",
+   "type": "technique",
+   "surface": "equilibrium salting",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Equilibrium Salting",
+   "type": "technique",
+   "surface": "equilibrium salting",
+   "ts": "37:37"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salting",
+   "ts": "37:37"
+  },
+  {
+   "canonical": "Salting",
+   "type": "technique",
+   "surface": "salt",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "37:13"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "37:37"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Cure",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "36:57"
+  },
+  {
+   "canonical": "Cure",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "Cure",
+   "type": "technique",
+   "surface": "cure",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confit",
+   "ts": "36:31"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "Confit",
+   "ts": "36:42"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "France",
+   "type": "place",
+   "surface": "France",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Bistro",
+   "type": "place",
+   "surface": "bistro",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "41:08"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "41:35"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "41:59"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "42:08"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "Confi",
+   "ts": "43:05"
+  },
+  {
+   "canonical": "Confit",
+   "type": "technique",
+   "surface": "confie",
+   "ts": "45:04"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous- vide",
+   "ts": "40:41"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous- vide",
+   "ts": "41:08"
+  },
+  {
+   "canonical": "Sous Vide",
+   "type": "technique",
+   "surface": "sous-vide",
+   "ts": "41:59"
+  },
+  {
+   "canonical": "Thermocouple",
+   "type": "equipment",
+   "surface": "thermocouple",
+   "ts": "47:37"
+  },
+  {
+   "canonical": "Thermocouple",
+   "type": "equipment",
+   "surface": "thermocouple",
+   "ts": "48:00"
+  },
+  {
+   "canonical": "Gas Oven",
+   "type": "equipment",
+   "surface": "gas oven",
+   "ts": "48:00"
+  },
+  {
+   "canonical": "Oven Thermometer",
+   "type": "equipment",
+   "surface": "oven thermometer",
+   "ts": "47:14"
+  },
+  {
+   "canonical": "Oven Thermometer",
+   "type": "equipment",
+   "surface": "oven thermometer",
+   "ts": "47:27"
+  },
+  {
+   "canonical": "Samsung Range",
+   "type": "equipment",
+   "surface": "Samsung range",
+   "ts": "45:55"
+  },
+  {
+   "canonical": "Thermopen",
+   "type": "equipment",
+   "surface": "thermopen",
+   "ts": "47:27"
+  },
+  {
+   "canonical": "Infrared Thermometer",
+   "type": "equipment",
+   "surface": "infrared thermometer",
+   "ts": "47:14"
+  },
+  {
+   "canonical": "Tony Tony",
+   "type": "person",
+   "surface": "Tony Tony",
+   "ts": "45:29"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "39:15"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "40:24"
+  },
+  {
+   "canonical": "Robertshaw",
+   "type": "equipment",
+   "surface": "Robertshaw",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "thermocouple",
+   "type": "equipment",
+   "surface": "thermocouple",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "thermocouple",
+   "type": "equipment",
+   "surface": "thermocouples",
+   "ts": "49:09"
+  },
+  {
+   "canonical": "thermocouple",
+   "type": "equipment",
+   "surface": "thermocouples",
+   "ts": "49:48"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "sourdough starter",
+   "ts": "51:01"
+  },
+  {
+   "canonical": "sourdough starter",
+   "type": "ingredient",
+   "surface": "sourdough starter",
+   "ts": "51:42"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "51:01"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "51:14"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "53:17"
+  },
+  {
+   "canonical": "dough",
+   "type": "ingredient",
+   "surface": "dough",
+   "ts": "54:46"
+  },
+  {
+   "canonical": "sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "51:01"
+  },
+  {
+   "canonical": "sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "51:42"
+  },
+  {
+   "canonical": "sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "53:35"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "55:53"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "56:10"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "49:09"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "49:48"
+  },
+  {
+   "canonical": "oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "52:53"
+  },
+  {
+   "canonical": "thermometer",
+   "type": "equipment",
+   "surface": "thermometer",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "thermometer",
+   "type": "equipment",
+   "surface": "thermometer",
+   "ts": "49:09"
+  },
+  {
+   "canonical": "calibration",
+   "type": "technique",
+   "surface": "calibration",
+   "ts": "49:09"
+  },
+  {
+   "canonical": "calibration",
+   "type": "technique",
+   "surface": "calibration",
+   "ts": "49:48"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "54:26"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "54:46"
+  },
+  {
+   "canonical": "bag juice",
+   "type": "ingredient",
+   "surface": "bag juice",
+   "ts": "55:28"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "55:28"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "55:41"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "55:53"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "56:43"
+  },
+  {
+   "canonical": "sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "57:25"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Kenji",
+   "type": "person",
+   "surface": "Kenji",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Gruyere",
+   "type": "ingredient",
+   "surface": "grier",
+   "ts": "59:47"
+  },
+  {
+   "canonical": "Sherry Vinegar",
+   "type": "ingredient",
+   "surface": "sherry vinegar",
+   "ts": "59:50"
+  },
+  {
+   "canonical": "Sherry Vinegar",
+   "type": "ingredient",
+   "surface": "sherry",
+   "ts": "1:00:00"
+  },
+  {
+   "canonical": "Veal Stock",
+   "type": "ingredient",
+   "surface": "veal stock",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Dashi",
+   "type": "ingredient",
+   "surface": "dashi",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "59:06"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "1:00:04"
+  },
+  {
+   "canonical": "Sharpener Stone",
+   "type": "equipment",
+   "surface": "sharpening stone",
+   "ts": "1:00:15"
+  },
+  {
+   "canonical": "DMT",
+   "type": "equipment",
+   "surface": "DMT",
+   "ts": "1:00:15"
+  },
+  {
+   "canonical": "DMT",
+   "type": "equipment",
+   "surface": "DMT",
+   "ts": "1:00:36"
+  }
+ ]
+}

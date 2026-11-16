@@ -1,0 +1,1747 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:26"
+  },
+  {
+   "canonical": "Joshua McFadden",
+   "type": "person",
+   "surface": "Joshua McFadden",
+   "ts": "1:07"
+  },
+  {
+   "canonical": "Mark Ladner",
+   "type": "person",
+   "surface": "Mark Ladner",
+   "ts": "1:38"
+  },
+  {
+   "canonical": "Babbo",
+   "type": "place",
+   "surface": "Babbo",
+   "ts": "2:02"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "Andre Sultner",
+   "type": "person",
+   "surface": "Andre Sultner",
+   "ts": "4:09"
+  },
+  {
+   "canonical": "Alzatian Mafia",
+   "type": "place",
+   "surface": "Alzatian food mafia",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "sandbagging",
+   "type": "technique",
+   "surface": "sandbagging",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "sandbagging",
+   "type": "technique",
+   "surface": "sandbagging",
+   "ts": "3:14"
+  },
+  {
+   "canonical": "sandbagging",
+   "type": "technique",
+   "surface": "sandbagging",
+   "ts": "4:23"
+  },
+  {
+   "canonical": "sandbagging",
+   "type": "technique",
+   "surface": "sandbagging",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "onion tarts",
+   "type": "ingredient",
+   "surface": "onion tarts",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "onion tarts",
+   "type": "ingredient",
+   "surface": "onion tarts",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "onion tarts",
+   "type": "ingredient",
+   "surface": "onion tarts",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "onion tarts",
+   "type": "ingredient",
+   "surface": "onion tarts",
+   "ts": "6:56"
+  },
+  {
+   "canonical": "rondeau",
+   "type": "equipment",
+   "surface": "rondeau",
+   "ts": "5:32"
+  },
+  {
+   "canonical": "rondeau",
+   "type": "equipment",
+   "surface": "rondeau",
+   "ts": "7:47"
+  },
+  {
+   "canonical": "cooking wine",
+   "type": "ingredient",
+   "surface": "cooking wine",
+   "ts": "7:34"
+  },
+  {
+   "canonical": "cooking wine",
+   "type": "ingredient",
+   "surface": "cooking wine",
+   "ts": "8:03"
+  },
+  {
+   "canonical": "Western Culinary Institute",
+   "type": "place",
+   "surface": "Western Culinary Institute",
+   "ts": "8:03"
+  },
+  {
+   "canonical": "Lee Corn Blue",
+   "type": "place",
+   "surface": "Lee Corn Blue",
+   "ts": "8:03"
+  },
+  {
+   "canonical": "DiPalos",
+   "type": "place",
+   "surface": "DiPalos",
+   "ts": "9:52"
+  },
+  {
+   "canonical": "DiPalos",
+   "type": "place",
+   "surface": "DiPalos",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Provador",
+   "type": "place",
+   "surface": "Provador",
+   "ts": "11:37"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "15:59"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "16:23"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "16:40"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Steve Jenkins",
+   "type": "person",
+   "surface": "Steve Jenkins",
+   "ts": "13:35"
+  },
+  {
+   "canonical": "Mark",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "8:37"
+  },
+  {
+   "canonical": "Wiley",
+   "type": "person",
+   "surface": "Wiley",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "Burrata",
+   "type": "ingredient",
+   "surface": "burrata",
+   "ts": "11:55"
+  },
+  {
+   "canonical": "Burrata",
+   "type": "ingredient",
+   "surface": "burrata",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Burrata",
+   "type": "ingredient",
+   "surface": "burrata",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Stracciatella",
+   "type": "ingredient",
+   "surface": "stracciatella",
+   "ts": "12:13"
+  },
+  {
+   "canonical": "Stracciatella",
+   "type": "ingredient",
+   "surface": "stracciatella",
+   "ts": "12:54"
+  },
+  {
+   "canonical": "Stracciatella",
+   "type": "ingredient",
+   "surface": "stracciatella",
+   "ts": "13:05"
+  },
+  {
+   "canonical": "Soba",
+   "type": "ingredient",
+   "surface": "soba",
+   "ts": "14:21"
+  },
+  {
+   "canonical": "Soba",
+   "type": "ingredient",
+   "surface": "soba",
+   "ts": "14:38"
+  },
+  {
+   "canonical": "Soba",
+   "type": "ingredient",
+   "surface": "soba",
+   "ts": "14:57"
+  },
+  {
+   "canonical": "Soba",
+   "type": "ingredient",
+   "surface": "soba",
+   "ts": "15:18"
+  },
+  {
+   "canonical": "Soba",
+   "type": "ingredient",
+   "surface": "Soba",
+   "ts": "15:34"
+  },
+  {
+   "canonical": "Soba",
+   "type": "ingredient",
+   "surface": "soba",
+   "ts": "15:38"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "14:08"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "14:38"
+  },
+  {
+   "canonical": "Buckwheat",
+   "type": "ingredient",
+   "surface": "buckwheat",
+   "ts": "14:57"
+  },
+  {
+   "canonical": "Organic Valley",
+   "type": "ingredient",
+   "surface": "organic valley",
+   "ts": "10:13"
+  },
+  {
+   "canonical": "Organic Valley",
+   "type": "ingredient",
+   "surface": "organic valley",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Organic Valley",
+   "type": "ingredient",
+   "surface": "organic valley",
+   "ts": "10:52"
+  },
+  {
+   "canonical": "Carrie Kerry Gold",
+   "type": "ingredient",
+   "surface": "Carrie Kerry Gold",
+   "ts": "10:28"
+  },
+  {
+   "canonical": "Beppiocino",
+   "type": "place",
+   "surface": "Beppiocino's",
+   "ts": "9:37"
+  },
+  {
+   "canonical": "Franny's",
+   "type": "place",
+   "surface": "Franny's",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Willama Valley",
+   "type": "place",
+   "surface": "Willama Valley",
+   "ts": "19:00"
+  },
+  {
+   "canonical": "Corvallis",
+   "type": "place",
+   "surface": "Corvalis",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "USDA GRN",
+   "type": "place",
+   "surface": "USDA GRN",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "New Jersey Farmers Almanac",
+   "type": "place",
+   "surface": "New Jersey farmers almanac",
+   "ts": "17:15"
+  },
+  {
+   "canonical": "Marionberry",
+   "type": "ingredient",
+   "surface": "marion berries",
+   "ts": "20:06"
+  },
+  {
+   "canonical": "Marionberry",
+   "type": "ingredient",
+   "surface": "Marionberry",
+   "ts": "20:28"
+  },
+  {
+   "canonical": "Salmon berry",
+   "type": "ingredient",
+   "surface": "salmon berries",
+   "ts": "20:39"
+  },
+  {
+   "canonical": "Umbrella berry",
+   "type": "ingredient",
+   "surface": "Umberries",
+   "ts": "20:53"
+  },
+  {
+   "canonical": "Pear",
+   "type": "ingredient",
+   "surface": "pears",
+   "ts": "18:53"
+  },
+  {
+   "canonical": "Pear",
+   "type": "ingredient",
+   "surface": "pear",
+   "ts": "19:00"
+  },
+  {
+   "canonical": "Pear",
+   "type": "ingredient",
+   "surface": "pear",
+   "ts": "19:07"
+  },
+  {
+   "canonical": "Pear",
+   "type": "ingredient",
+   "surface": "pear",
+   "ts": "19:23"
+  },
+  {
+   "canonical": "Pear",
+   "type": "ingredient",
+   "surface": "pear",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "Apple",
+   "type": "ingredient",
+   "surface": "apple",
+   "ts": "19:07"
+  },
+  {
+   "canonical": "Peach",
+   "type": "ingredient",
+   "surface": "Peach",
+   "ts": "19:31"
+  },
+  {
+   "canonical": "Nectarine",
+   "type": "ingredient",
+   "surface": "nectarine",
+   "ts": "19:31"
+  },
+  {
+   "canonical": "Fuzzy Crab",
+   "type": "ingredient",
+   "surface": "Fuzzy Crab",
+   "ts": "19:40"
+  },
+  {
+   "canonical": "Josta berry",
+   "type": "ingredient",
+   "surface": "josta berries",
+   "ts": "20:20"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "24:56"
+  },
+  {
+   "canonical": "Alex Camp",
+   "type": "person",
+   "surface": "Alex Camp",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Spetzel",
+   "type": "ingredient",
+   "surface": "spetzel",
+   "ts": "25:10"
+  },
+  {
+   "canonical": "Ravioli",
+   "type": "ingredient",
+   "surface": "Ravioli",
+   "ts": "25:23"
+  },
+  {
+   "canonical": "Brad's",
+   "type": "place",
+   "surface": "Brad's",
+   "ts": "24:34"
+  },
+  {
+   "canonical": "Corn-based noodles",
+   "type": "ingredient",
+   "surface": "corn-based noodles",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Corn zine",
+   "type": "ingredient",
+   "surface": "corn zine",
+   "ts": "24:01"
+  },
+  {
+   "canonical": "Corn pasta",
+   "type": "ingredient",
+   "surface": "corn pasta",
+   "ts": "24:34"
+  },
+  {
+   "canonical": "Dried noodles",
+   "type": "ingredient",
+   "surface": "dried noodles",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Gluten-free",
+   "type": "ingredient",
+   "surface": "gluten-free",
+   "ts": "23:52"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "21:01"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "21:16"
+  },
+  {
+   "canonical": "Eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "Eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Eggplant",
+   "type": "ingredient",
+   "surface": "eggplant",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Shorty",
+   "type": "place",
+   "surface": "Shorty",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Shenzhen",
+   "type": "place",
+   "surface": "Shenzhen",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Stanley Tucci",
+   "type": "person",
+   "surface": "Stanley Tucci",
+   "ts": "23:30"
+  },
+  {
+   "canonical": "Bluefish",
+   "type": "ingredient",
+   "surface": "bluefish",
+   "ts": "23:07"
+  },
+  {
+   "canonical": "Rakota",
+   "type": "ingredient",
+   "surface": "Rakota",
+   "ts": "25:35"
+  },
+  {
+   "canonical": "Tagatelli",
+   "type": "ingredient",
+   "surface": "Tagatelli",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "Gnoccchi",
+   "type": "ingredient",
+   "surface": "gnocchi",
+   "ts": "26:00"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "26:42"
+  },
+  {
+   "canonical": "Pork Belly",
+   "type": "ingredient",
+   "surface": "pork belly",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "27:47"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "28:07"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "28:21"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "28:44"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "28:59"
+  },
+  {
+   "canonical": "Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "Parmigiano Reggiano",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino romano",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino romano",
+   "ts": "32:42"
+  },
+  {
+   "canonical": "Microplane",
+   "type": "equipment",
+   "surface": "microplane",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Casserole",
+   "type": "equipment",
+   "surface": "casserole",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Zucchini",
+   "type": "ingredient",
+   "surface": "zucchini",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Summer Squash",
+   "type": "ingredient",
+   "surface": "summer squatch",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "31:21"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "31:43"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Alex Camp",
+   "type": "person",
+   "surface": "Alex Camp",
+   "ts": "31:33"
+  },
+  {
+   "canonical": "Ken Oranger",
+   "type": "person",
+   "surface": "Ken Ken Oranger",
+   "ts": "29:20"
+  },
+  {
+   "canonical": "Clio",
+   "type": "place",
+   "surface": "Clio",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "Parmigiano Reggiano",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino romano",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Pecorino Romano",
+   "type": "ingredient",
+   "surface": "pecorino romano",
+   "ts": "32:42"
+  },
+  {
+   "canonical": "50-50 Parmigiano Reggiano",
+   "type": "ingredient",
+   "surface": "50-50 Parmigiano Reggiano",
+   "ts": "32:01"
+  },
+  {
+   "canonical": "Marcella Hazan",
+   "type": "person",
+   "surface": "Marcella Hazan",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "34:59"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "35:05"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "35:14"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "35:31"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "35:51"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "36:52"
+  },
+  {
+   "canonical": "Kale",
+   "type": "ingredient",
+   "surface": "kale",
+   "ts": "36:58"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "35:39"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "Pizza Hut",
+   "ts": "35:51"
+  },
+  {
+   "canonical": "Pizza Hut",
+   "type": "place",
+   "surface": "pizza hut",
+   "ts": "36:33"
+  },
+  {
+   "canonical": "Sourdough Starter",
+   "type": "ingredient",
+   "surface": "sourdough starter",
+   "ts": "38:36"
+  },
+  {
+   "canonical": "Pressure Cooker",
+   "type": "equipment",
+   "surface": "pressure cooker",
+   "ts": "38:17"
+  },
+  {
+   "canonical": "Presto Steam Canner",
+   "type": "equipment",
+   "surface": "presto steam canner",
+   "ts": "39:12"
+  },
+  {
+   "canonical": "Pullman Pans",
+   "type": "equipment",
+   "surface": "Pullman pans",
+   "ts": "39:43"
+  },
+  {
+   "canonical": "Pullman Pans",
+   "type": "equipment",
+   "surface": "Pullman pans",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "equipment",
+   "surface": "Coon Recon",
+   "ts": "40:38"
+  },
+  {
+   "canonical": "Coon Recon",
+   "type": "equipment",
+   "surface": "Kun Recon",
+   "ts": "40:48"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "33:56"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "41:28"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "41:33"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Joshua's Master Lamon",
+   "type": "technique",
+   "surface": "Joshua's Master Lamon",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Pecorino",
+   "type": "ingredient",
+   "surface": "pecorino",
+   "ts": "42:06"
+  },
+  {
+   "canonical": "Meyer Lemon",
+   "type": "ingredient",
+   "surface": "Meyer lemon",
+   "ts": "42:43"
+  },
+  {
+   "canonical": "Meyer Lemon",
+   "type": "ingredient",
+   "surface": "Meyer Lemon",
+   "ts": "43:01"
+  },
+  {
+   "canonical": "Carbonara",
+   "type": "ingredient",
+   "surface": "Carbonara",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Carbonara",
+   "type": "ingredient",
+   "surface": "Carbonara",
+   "ts": "43:57"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "43:57"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "44:18"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "48:13"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "49:35"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "49:53"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "51:33"
+  },
+  {
+   "canonical": "Glug",
+   "type": "ingredient",
+   "surface": "Glug",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "Olive",
+   "type": "ingredient",
+   "surface": "olive",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Condiment",
+   "type": "ingredient",
+   "surface": "condiment",
+   "ts": "45:03"
+  },
+  {
+   "canonical": "Portion",
+   "type": "technique",
+   "surface": "portion",
+   "ts": "44:18"
+  },
+  {
+   "canonical": "Scaling",
+   "type": "technique",
+   "surface": "scaling",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Recipe",
+   "type": "technique",
+   "surface": "recipe",
+   "ts": "43:57"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Kitchen",
+   "type": "place",
+   "surface": "kitchen",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "Knob",
+   "type": "ingredient",
+   "surface": "knob",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Knob",
+   "type": "ingredient",
+   "surface": "knob",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "47:20"
+  },
+  {
+   "canonical": "Sun-Dried Tomato",
+   "type": "ingredient",
+   "surface": "sun-dried tomato",
+   "ts": "48:01"
+  },
+  {
+   "canonical": "Sun-Dried Tomato",
+   "type": "ingredient",
+   "surface": "sun-dried tomato",
+   "ts": "48:05"
+  },
+  {
+   "canonical": "Sun-Dried Tomato",
+   "type": "ingredient",
+   "surface": "sun-dried tomato",
+   "ts": "48:13"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "43:57"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "44:18"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "44:35"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "48:13"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "49:35"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "49:53"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "51:33"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "45:37"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "45:57"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Butter",
+   "type": "ingredient",
+   "surface": "butter",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "45:17"
+  },
+  {
+   "canonical": "Cheese",
+   "type": "ingredient",
+   "surface": "cheese",
+   "ts": "46:45"
+  },
+  {
+   "canonical": "Sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "45:37"
+  },
+  {
+   "canonical": "Sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "45:57"
+  },
+  {
+   "canonical": "Sauce",
+   "type": "ingredient",
+   "surface": "sauce",
+   "ts": "48:48"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "ingredient",
+   "surface": "pesto",
+   "ts": "47:20"
+  },
+  {
+   "canonical": "Breadcrumbs",
+   "type": "ingredient",
+   "surface": "breadcrumbs",
+   "ts": "47:39"
+  },
+  {
+   "canonical": "Fried Shallots",
+   "type": "ingredient",
+   "surface": "fried shallots",
+   "ts": "47:39"
+  },
+  {
+   "canonical": "Josh Warren",
+   "type": "person",
+   "surface": "Josh Warren",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Peachy",
+   "type": "ingredient",
+   "surface": "peachy",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "Peachy",
+   "type": "ingredient",
+   "surface": "peachy",
+   "ts": "50:58"
+  },
+  {
+   "canonical": "Peachy",
+   "type": "ingredient",
+   "surface": "peachy",
+   "ts": "51:15"
+  },
+  {
+   "canonical": "Torchino",
+   "type": "ingredient",
+   "surface": "torchino",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Bugatini",
+   "type": "ingredient",
+   "surface": "bugatini",
+   "ts": "50:47"
+  },
+  {
+   "canonical": "Angel Hair Pasta",
+   "type": "ingredient",
+   "surface": "angel hair pasta",
+   "ts": "49:35"
+  },
+  {
+   "canonical": "Alex Camp",
+   "type": "person",
+   "surface": "Alex Camp",
+   "ts": "49:35"
+  },
+  {
+   "canonical": "Chicken Liver",
+   "type": "ingredient",
+   "surface": "chicken liver",
+   "ts": "49:16"
+  },
+  {
+   "canonical": "Chicken Liver",
+   "type": "ingredient",
+   "surface": "chicken liver",
+   "ts": "49:35"
+  },
+  {
+   "canonical": "Fish Sauce",
+   "type": "ingredient",
+   "surface": "fish sauce",
+   "ts": "48:48"
+  },
+  {
+   "canonical": "Dandan Noodles",
+   "type": "ingredient",
+   "surface": "dandan noodle",
+   "ts": "48:48"
+  },
+  {
+   "canonical": "Bolinese",
+   "type": "technique",
+   "surface": "bolinese",
+   "ts": "49:16"
+  },
+  {
+   "canonical": "Farfalle",
+   "type": "ingredient",
+   "surface": "Farfale",
+   "ts": "52:10"
+  },
+  {
+   "canonical": "Farfalle",
+   "type": "ingredient",
+   "surface": "farfale",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "52:51"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "53:01"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "53:26"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "56:23"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "57:04"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Pasta",
+   "type": "ingredient",
+   "surface": "pasta",
+   "ts": "58:07"
+  },
+  {
+   "canonical": "Double Zero Flour",
+   "type": "ingredient",
+   "surface": "double zero",
+   "ts": "56:23"
+  },
+  {
+   "canonical": "Double Zero Flour",
+   "type": "ingredient",
+   "surface": "double zero",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "Double Zero Flour",
+   "type": "ingredient",
+   "surface": "double zero",
+   "ts": "57:14"
+  },
+  {
+   "canonical": "Egg Dough",
+   "type": "ingredient",
+   "surface": "egg dough",
+   "ts": "56:23"
+  },
+  {
+   "canonical": "Egg Dough",
+   "type": "ingredient",
+   "surface": "egg dough",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "Egg Dough",
+   "type": "ingredient",
+   "surface": "egg dough",
+   "ts": "57:14"
+  },
+  {
+   "canonical": "Wheat",
+   "type": "ingredient",
+   "surface": "wheats",
+   "ts": "57:14"
+  },
+  {
+   "canonical": "Fresh Pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Fresh Pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Fresh Pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "58:07"
+  },
+  {
+   "canonical": "Pasta Dough",
+   "type": "ingredient",
+   "surface": "pasta dough",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Saffron",
+   "type": "ingredient",
+   "surface": "saffron",
+   "ts": "53:16"
+  },
+  {
+   "canonical": "Ketchup",
+   "type": "ingredient",
+   "surface": "Ketchup",
+   "ts": "53:01"
+  },
+  {
+   "canonical": "Ketchup",
+   "type": "ingredient",
+   "surface": "ketchup",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:06"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:31"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:40"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "55:52"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "53:26"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "54:00"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "54:33"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "58:07"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "59:38"
+  },
+  {
+   "canonical": "Pasta Boiler",
+   "type": "equipment",
+   "surface": "pasta boilers",
+   "ts": "54:53"
+  },
+  {
+   "canonical": "Stone Mill",
+   "type": "equipment",
+   "surface": "stone mill",
+   "ts": "57:14"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freeze",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Freezer",
+   "type": "equipment",
+   "surface": "freeze",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "58:42"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "59:23"
+  },
+  {
+   "canonical": "Pan",
+   "type": "equipment",
+   "surface": "pan",
+   "ts": "55:40"
+  },
+  {
+   "canonical": "Pan",
+   "type": "equipment",
+   "surface": "pan",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "Fond",
+   "type": "ingredient",
+   "surface": "fond",
+   "ts": "58:54"
+  },
+  {
+   "canonical": "Lasagna",
+   "type": "ingredient",
+   "surface": "lasagna",
+   "ts": "58:54"
+  },
+  {
+   "canonical": "Ravioli",
+   "type": "ingredient",
+   "surface": "ravioli",
+   "ts": "58:07"
+  },
+  {
+   "canonical": "Meatballs",
+   "type": "ingredient",
+   "surface": "meatballs",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "Double Zero",
+   "type": "ingredient",
+   "surface": "double zero",
+   "ts": "56:23"
+  },
+  {
+   "canonical": "Double Zero",
+   "type": "ingredient",
+   "surface": "double zero",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "Double Zero",
+   "type": "ingredient",
+   "surface": "double zero",
+   "ts": "57:14"
+  },
+  {
+   "canonical": "Wit",
+   "type": "ingredient",
+   "surface": "wit",
+   "ts": "57:42"
+  },
+  {
+   "canonical": "Maddie",
+   "type": "person",
+   "surface": "Maddie",
+   "ts": "59:46"
+  },
+  {
+   "canonical": "Six Seasons of Pasta",
+   "type": "ingredient",
+   "surface": "Six Seasons of Pasta",
+   "ts": "1:00:23"
+  },
+  {
+   "canonical": "Six Seasons of Pasta",
+   "type": "ingredient",
+   "surface": "Six Seasons of Pasta",
+   "ts": "1:00:35"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:00:23"
+  },
+  {
+   "canonical": "Snapback",
+   "type": "technique",
+   "surface": "snap back",
+   "ts": "59:46"
+  },
+  {
+   "canonical": "Extensibility",
+   "type": "technique",
+   "surface": "extensibility",
+   "ts": "59:46"
+  }
+ ]
+}

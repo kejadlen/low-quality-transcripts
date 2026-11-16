@@ -1,0 +1,979 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "2:38"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "5:41"
+  },
+  {
+   "canonical": "Jack Inslee",
+   "type": "person",
+   "surface": "Jack Inslee",
+   "ts": "2:50"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "Roberta's",
+   "type": "place",
+   "surface": "Roberta's",
+   "ts": "3:17"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "4:49"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "1:00"
+  },
+  {
+   "canonical": "Whole Foods Market",
+   "type": "place",
+   "surface": "Whole Foods Market",
+   "ts": "1:21"
+  },
+  {
+   "canonical": "ASU Online",
+   "type": "place",
+   "surface": "Arizona State University",
+   "ts": "1:49"
+  },
+  {
+   "canonical": "ASU Online",
+   "type": "place",
+   "surface": "asu online",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "3:59"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "4:17"
+  },
+  {
+   "canonical": "ASU",
+   "type": "place",
+   "surface": "Arizona State University",
+   "ts": "1:49"
+  },
+  {
+   "canonical": "ASU",
+   "type": "place",
+   "surface": "asu",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "365 brand",
+   "type": "place",
+   "surface": "365 brand",
+   "ts": "1:21"
+  },
+  {
+   "canonical": "Cover",
+   "type": "equipment",
+   "surface": "cover",
+   "ts": "7:20"
+  },
+  {
+   "canonical": "Cover",
+   "type": "equipment",
+   "surface": "cover",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold McGee",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold McGee",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold McGee",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "11:17"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "11:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:55"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "12:34"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "13:10"
+  },
+  {
+   "canonical": "Petaluma",
+   "type": "place",
+   "surface": "Petaluma",
+   "ts": "18:09"
+  },
+  {
+   "canonical": "Perceptin",
+   "type": "ingredient",
+   "surface": "Pervertin",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Amphetamine",
+   "type": "ingredient",
+   "surface": "amphetamines",
+   "ts": "17:33"
+  },
+  {
+   "canonical": "Temler",
+   "type": "equipment",
+   "surface": "Temler",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Sistine Chapel",
+   "type": "place",
+   "surface": "Sistine Chapel",
+   "ts": "12:08"
+  },
+  {
+   "canonical": "Sistine Chapel",
+   "type": "place",
+   "surface": "Sistine Chapel",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Bayer",
+   "type": "equipment",
+   "surface": "Bayer",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "Bayer",
+   "type": "equipment",
+   "surface": "Bayer",
+   "ts": "17:33"
+  },
+  {
+   "canonical": "Rock Baker",
+   "type": "person",
+   "surface": "Rock Baker",
+   "ts": "21:56"
+  },
+  {
+   "canonical": "Public Provisions",
+   "type": "place",
+   "surface": "Public Provisions",
+   "ts": "21:56"
+  },
+  {
+   "canonical": "Rochester",
+   "type": "place",
+   "surface": "Rochester",
+   "ts": "21:56"
+  },
+  {
+   "canonical": "Botulism",
+   "type": "ingredient",
+   "surface": "botulism",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Honey",
+   "type": "ingredient",
+   "surface": "honey",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "22:34"
+  },
+  {
+   "canonical": "Food Safety Expert",
+   "type": "person",
+   "surface": "food safety expert",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "Zoji Rushi",
+   "type": "ingredient",
+   "surface": "Zoji Rushi",
+   "ts": "25:15"
+  },
+  {
+   "canonical": "arsenic",
+   "type": "ingredient",
+   "surface": "arsenic",
+   "ts": "24:12"
+  },
+  {
+   "canonical": "arsenic",
+   "type": "ingredient",
+   "surface": "arsenic",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "rice cooker",
+   "type": "equipment",
+   "surface": "rice cooker",
+   "ts": "24:41"
+  },
+  {
+   "canonical": "sushi rice",
+   "type": "ingredient",
+   "surface": "sushi rice",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "spores",
+   "type": "ingredient",
+   "surface": "spores",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "spores",
+   "type": "ingredient",
+   "surface": "spores",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "spores",
+   "type": "ingredient",
+   "surface": "spores",
+   "ts": "27:23"
+  },
+  {
+   "canonical": "spores",
+   "type": "ingredient",
+   "surface": "spores",
+   "ts": "28:02"
+  },
+  {
+   "canonical": "toxin",
+   "type": "ingredient",
+   "surface": "toxin",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "toxin",
+   "type": "ingredient",
+   "surface": "toxin",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "bacteria",
+   "type": "ingredient",
+   "surface": "bacteria",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "26:49"
+  },
+  {
+   "canonical": "fridge",
+   "type": "equipment",
+   "surface": "fridge",
+   "ts": "28:41"
+  },
+  {
+   "canonical": "Brooks Headley",
+   "type": "person",
+   "surface": "Brooks",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Brooks Headley",
+   "type": "person",
+   "surface": "Brooks",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Brooks Headley",
+   "type": "person",
+   "surface": "Brooks",
+   "ts": "36:15"
+  },
+  {
+   "canonical": "Brooks Headley",
+   "type": "person",
+   "surface": "Brooks",
+   "ts": "36:32"
+  },
+  {
+   "canonical": "Elizabeth Faulkner",
+   "type": "person",
+   "surface": "Elizabeth Faulkner",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Elizabeth Faulkner",
+   "type": "person",
+   "surface": "Elizabeth Faulkner",
+   "ts": "36:32"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "32:04"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "37:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Elliot",
+   "type": "person",
+   "surface": "Elliot",
+   "ts": "30:38"
+  },
+  {
+   "canonical": "Elliot",
+   "type": "person",
+   "surface": "Elliot",
+   "ts": "36:55"
+  },
+  {
+   "canonical": "cooler",
+   "type": "equipment",
+   "surface": "coil chillers",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "vacuum machine",
+   "type": "equipment",
+   "surface": "vacuum machine",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "baguette",
+   "type": "ingredient",
+   "surface": "baguette",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "baguette",
+   "type": "ingredient",
+   "surface": "baguette",
+   "ts": "32:04"
+  },
+  {
+   "canonical": "broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "32:38"
+  },
+  {
+   "canonical": "pepperoni pizza",
+   "type": "ingredient",
+   "surface": "pepperoni pizza",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "pepperoni pizza",
+   "type": "ingredient",
+   "surface": "pepperoni pizza",
+   "ts": "34:32"
+  },
+  {
+   "canonical": "spring rolls",
+   "type": "ingredient",
+   "surface": "spring rolls",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "31:13"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "31:41"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "Wine",
+   "ts": "37:04"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "37:44"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "38:09"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "white",
+   "ts": "38:22"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "38:44"
+  },
+  {
+   "canonical": "chocolate",
+   "type": "ingredient",
+   "surface": "chocolates",
+   "ts": "37:44"
+  },
+  {
+   "canonical": "candy",
+   "type": "ingredient",
+   "surface": "box of candy",
+   "ts": "37:44"
+  },
+  {
+   "canonical": "ice water",
+   "type": "ingredient",
+   "surface": "ice water",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "chopping",
+   "type": "technique",
+   "surface": "knead",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "chilling",
+   "type": "technique",
+   "surface": "chill the stuff down",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "freezing",
+   "type": "technique",
+   "surface": "freeze the paddles",
+   "ts": "29:15"
+  },
+  {
+   "canonical": "cooking",
+   "type": "technique",
+   "surface": "cooking",
+   "ts": "36:32"
+  },
+  {
+   "canonical": "Superiority Burger",
+   "type": "place",
+   "surface": "Superiority Burger",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Del Posto",
+   "type": "place",
+   "surface": "Del Posto",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York people",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "New York",
+   "type": "place",
+   "surface": "New York people",
+   "ts": "32:38"
+  },
+  {
+   "canonical": "Los Angeles",
+   "type": "place",
+   "surface": "LA people",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "Labor Day",
+   "type": "place",
+   "surface": "Labor Day",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Labor Day",
+   "type": "place",
+   "surface": "Labor Day",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Superiority Burger",
+   "type": "place",
+   "surface": "Superiority Burger",
+   "ts": "35:30"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "29:59"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Randy Newman",
+   "type": "person",
+   "surface": "Randy Newman",
+   "ts": "39:32"
+  },
+  {
+   "canonical": "Lemmy",
+   "type": "person",
+   "surface": "Lemmy",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Motorhead",
+   "type": "place",
+   "surface": "Motorhead",
+   "ts": "40:33"
+  },
+  {
+   "canonical": "Stanford",
+   "type": "place",
+   "surface": "Stanford",
+   "ts": "40:08"
+  },
+  {
+   "canonical": "Miley",
+   "type": "person",
+   "surface": "Miley",
+   "ts": "41:47"
+  },
+  {
+   "canonical": "North Carolina",
+   "type": "place",
+   "surface": "North Carolina",
+   "ts": "42:09"
+  },
+  {
+   "canonical": "pulled pork",
+   "type": "ingredient",
+   "surface": "pulled pork",
+   "ts": "42:09"
+  },
+  {
+   "canonical": "Fleischmann's",
+   "type": "ingredient",
+   "surface": "Fleischmann's",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Fleischmann's",
+   "type": "ingredient",
+   "surface": "Fleischmann's",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "SAF Red",
+   "type": "ingredient",
+   "surface": "SAF red",
+   "ts": "43:29"
+  },
+  {
+   "canonical": "SAF Red",
+   "type": "ingredient",
+   "surface": "SAF red",
+   "ts": "44:22"
+  },
+  {
+   "canonical": "Red Star",
+   "type": "ingredient",
+   "surface": "red star",
+   "ts": "43:54"
+  },
+  {
+   "canonical": "Red Star",
+   "type": "ingredient",
+   "surface": "red star",
+   "ts": "44:12"
+  },
+  {
+   "canonical": "Rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Rotisserie",
+   "type": "equipment",
+   "surface": "rotisserie",
+   "ts": "46:20"
+  },
+  {
+   "canonical": "Double Rotisserie",
+   "type": "technique",
+   "surface": "double rotisserie",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Double Rotisserie",
+   "type": "technique",
+   "surface": "double rotisserie",
+   "ts": "46:20"
+  },
+  {
+   "canonical": "Pollo a la Brasa",
+   "type": "place",
+   "surface": "pollo a la brasa",
+   "ts": "45:32"
+  },
+  {
+   "canonical": "Masonry Oven",
+   "type": "equipment",
+   "surface": "masonry oven",
+   "ts": "47:42"
+  },
+  {
+   "canonical": "Terracotta Oven",
+   "type": "equipment",
+   "surface": "terracotta oven",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Firebrick",
+   "type": "equipment",
+   "surface": "fire brick",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Roman Recreation",
+   "type": "place",
+   "surface": "Roman recreation",
+   "ts": "48:02"
+  },
+  {
+   "canonical": "Kampari Academy",
+   "type": "place",
+   "surface": "Kampari Academy",
+   "ts": "52:12"
+  },
+  {
+   "canonical": "Kampari Academy",
+   "type": "place",
+   "surface": "Kampari Academy",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Kampari Academy",
+   "type": "place",
+   "surface": "Kampari Academy",
+   "ts": "54:29"
+  },
+  {
+   "canonical": "Agnes and Sherman",
+   "type": "place",
+   "surface": "Agnes and Sherman",
+   "ts": "54:48"
+  },
+  {
+   "canonical": "Agnes and Sherman",
+   "type": "place",
+   "surface": "Agnes and Sherman",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Domocase",
+   "type": "place",
+   "surface": "Domocase",
+   "ts": "55:44"
+  },
+  {
+   "canonical": "Major Domo",
+   "type": "place",
+   "surface": "Major Domo",
+   "ts": "55:44"
+  },
+  {
+   "canonical": "Maison Dandoi",
+   "type": "place",
+   "surface": "Maison Dandoi",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "50:12"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "51:25"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "55:33"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "55:33"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "55:44"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "56:38"
+  },
+  {
+   "canonical": "Nick Wong",
+   "type": "person",
+   "surface": "Nick Wong",
+   "ts": "54:48"
+  },
+  {
+   "canonical": "Polydextrose",
+   "type": "ingredient",
+   "surface": "polydextrose",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Polydextrose",
+   "type": "ingredient",
+   "surface": "polydextrose",
+   "ts": "53:40"
+  },
+  {
+   "canonical": "Glycerin",
+   "type": "ingredient",
+   "surface": "glycerin",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Glycerin",
+   "type": "ingredient",
+   "surface": "glycerin",
+   "ts": "53:40"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "52:12"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "53:40"
+  },
+  {
+   "canonical": "Body",
+   "type": "technique",
+   "surface": "body",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Foam",
+   "type": "technique",
+   "surface": "foam",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Emulsifying",
+   "type": "technique",
+   "surface": "emulsifying",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Chilling",
+   "type": "technique",
+   "surface": "chilling",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Dilution",
+   "type": "technique",
+   "surface": "dilution",
+   "ts": "52:30"
+  },
+  {
+   "canonical": "Sim City",
+   "type": "place",
+   "surface": "Sim City",
+   "ts": "51:07"
+  },
+  {
+   "canonical": "ACast",
+   "type": "place",
+   "surface": "ACast",
+   "ts": "59:05"
+  },
+  {
+   "canonical": "ACast",
+   "type": "place",
+   "surface": "ACast",
+   "ts": "1:00:08"
+  }
+ ]
+}

@@ -1,0 +1,2797 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "your host",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Arnold",
+   "ts": "1:58"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "2:30"
+  },
+  {
+   "canonical": "Nastasia Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "4:22"
+  },
+  {
+   "canonical": "Meyer Lemon",
+   "type": "ingredient",
+   "surface": "Meyer lemons",
+   "ts": "4:02"
+  },
+  {
+   "canonical": "Meyer Lemon",
+   "type": "ingredient",
+   "surface": "Meyer Lemons",
+   "ts": "4:22"
+  },
+  {
+   "canonical": "New Zealand King Salmon",
+   "type": "ingredient",
+   "surface": "New Zealand King salmon",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Ikura",
+   "type": "ingredient",
+   "surface": "Ikura",
+   "ts": "6:38"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "technique",
+   "surface": "sushi",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "technique",
+   "surface": "sushi",
+   "ts": "6:38"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "technique",
+   "surface": "sushi",
+   "ts": "6:55"
+  },
+  {
+   "canonical": "Rotary Cutting",
+   "type": "technique",
+   "surface": "rotary cut",
+   "ts": "6:55"
+  },
+  {
+   "canonical": "Rotary Cutting",
+   "type": "technique",
+   "surface": "rotary cut",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "Rotary Cutting",
+   "type": "technique",
+   "surface": "Rotary cutting",
+   "ts": "7:27"
+  },
+  {
+   "canonical": "Avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "7:21"
+  },
+  {
+   "canonical": "Avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "7:27"
+  },
+  {
+   "canonical": "Avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "7:58"
+  },
+  {
+   "canonical": "Avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Haas Avocado",
+   "type": "ingredient",
+   "surface": "Haas avocado",
+   "ts": "7:38"
+  },
+  {
+   "canonical": "Haas Avocado",
+   "type": "ingredient",
+   "surface": "Haas avocado",
+   "ts": "7:58"
+  },
+  {
+   "canonical": "Colombian Avocado",
+   "type": "ingredient",
+   "surface": "Colombian avocados",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "9:27"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "Booker's",
+   "type": "place",
+   "surface": "Booker's",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Framani",
+   "type": "place",
+   "surface": "Framani",
+   "ts": "6:06"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "5:11"
+  },
+  {
+   "canonical": "Fair Kitchens",
+   "type": "place",
+   "surface": "Fair Kitchens",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "MREs",
+   "type": "ingredient",
+   "surface": "MREs",
+   "ts": "5:11"
+  },
+  {
+   "canonical": "Sand Pear",
+   "type": "ingredient",
+   "surface": "sand pears",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Asian Pear",
+   "type": "ingredient",
+   "surface": "Asian pears",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Asian Pear",
+   "type": "ingredient",
+   "surface": "Asian pears",
+   "ts": "8:49"
+  },
+  {
+   "canonical": "Watermelon",
+   "type": "ingredient",
+   "surface": "watermelon",
+   "ts": "9:45"
+  },
+  {
+   "canonical": "Sand Pear",
+   "type": "ingredient",
+   "surface": "sand pears",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "11:23"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "10:07"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "10:40"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "10:57"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Water Chestnut",
+   "type": "ingredient",
+   "surface": "water chestnuts",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Lotus Root",
+   "type": "ingredient",
+   "surface": "lotus root",
+   "ts": "10:40"
+  },
+  {
+   "canonical": "Lotus Root",
+   "type": "ingredient",
+   "surface": "lotus root",
+   "ts": "10:57"
+  },
+  {
+   "canonical": "Baby Corn",
+   "type": "ingredient",
+   "surface": "baby corn",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Baby Corn",
+   "type": "ingredient",
+   "surface": "baby corn",
+   "ts": "11:23"
+  },
+  {
+   "canonical": "Baby Corn",
+   "type": "ingredient",
+   "surface": "baby corn",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Baby Corn",
+   "type": "ingredient",
+   "surface": "baby corn",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Baby Corn",
+   "type": "ingredient",
+   "surface": "baby corn",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "Baby Corn",
+   "type": "ingredient",
+   "surface": "baby corn",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "11:04"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "11:23"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "Corn",
+   "ts": "11:35"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "12:18"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "12:56"
+  },
+  {
+   "canonical": "Corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Corn Meal",
+   "type": "ingredient",
+   "surface": "corn meal",
+   "ts": "11:43"
+  },
+  {
+   "canonical": "Hearts of Palm",
+   "type": "ingredient",
+   "surface": "hearts of palm",
+   "ts": "12:30"
+  },
+  {
+   "canonical": "Hearts of Palm",
+   "type": "ingredient",
+   "surface": "hearts of Palm",
+   "ts": "12:41"
+  },
+  {
+   "canonical": "Hearts of Palm",
+   "type": "ingredient",
+   "surface": "hearts of palm",
+   "ts": "13:12"
+  },
+  {
+   "canonical": "Hearts of Palm",
+   "type": "ingredient",
+   "surface": "hearts of palm",
+   "ts": "13:56"
+  },
+  {
+   "canonical": "Hearts of Palm",
+   "type": "ingredient",
+   "surface": "hearts of palm",
+   "ts": "14:05"
+  },
+  {
+   "canonical": "Hearts of Palm",
+   "type": "ingredient",
+   "surface": "hearts of palm",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Artichoke Hearts",
+   "type": "ingredient",
+   "surface": "artichoke hearts",
+   "ts": "13:12"
+  },
+  {
+   "canonical": "Canned Artichoke Hearts",
+   "type": "ingredient",
+   "surface": "canned artichoke hearts",
+   "ts": "13:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Josh",
+   "type": "person",
+   "surface": "Josh",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Chuck Roast",
+   "type": "ingredient",
+   "surface": "chuck roast",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temp cook",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "Low Temperature Cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "18:34"
+  },
+  {
+   "canonical": "Collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "16:08"
+  },
+  {
+   "canonical": "Sarasota",
+   "type": "place",
+   "surface": "Sarasota",
+   "ts": "15:16"
+  },
+  {
+   "canonical": "Sarasota",
+   "type": "place",
+   "surface": "Sarasota",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "Bradenton",
+   "type": "place",
+   "surface": "Bradenton",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "Venice",
+   "type": "place",
+   "surface": "Venice",
+   "ts": "16:38"
+  },
+  {
+   "canonical": "Venice",
+   "type": "place",
+   "surface": "Venice",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Nicomis",
+   "type": "place",
+   "surface": "Nicomis",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Shark's Teeth",
+   "type": "ingredient",
+   "surface": "sharks' teeth",
+   "ts": "16:58"
+  },
+  {
+   "canonical": "Shark's Teeth",
+   "type": "ingredient",
+   "surface": "sharks' teeth",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Shark's Teeth",
+   "type": "ingredient",
+   "surface": "sharks' teeth",
+   "ts": "17:39"
+  },
+  {
+   "canonical": "Shark's Teeth",
+   "type": "ingredient",
+   "surface": "shark's teeth",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Sand Fleas",
+   "type": "ingredient",
+   "surface": "sand fleas",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Belgium",
+   "type": "place",
+   "surface": "Belgium",
+   "ts": "18:01"
+  },
+  {
+   "canonical": "Belgium",
+   "type": "place",
+   "surface": "Belgium",
+   "ts": "18:27"
+  },
+  {
+   "canonical": "Zillions",
+   "type": "ingredient",
+   "surface": "zillions",
+   "ts": "18:01"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "braised short rib",
+   "type": "ingredient",
+   "surface": "braised short rib",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "connective tissue",
+   "type": "ingredient",
+   "surface": "connective tissue",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "connective tissue",
+   "type": "ingredient",
+   "surface": "connective tissue",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "connective tissue",
+   "type": "ingredient",
+   "surface": "connective tissue",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "gelatin",
+   "type": "ingredient",
+   "surface": "gelatin",
+   "ts": "19:47"
+  },
+  {
+   "canonical": "collagen",
+   "type": "ingredient",
+   "surface": "collagen",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "muscle",
+   "type": "ingredient",
+   "surface": "muscle",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "protein",
+   "type": "ingredient",
+   "surface": "protein",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "temperature",
+   "type": "technique",
+   "surface": "temperature",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "slow cooking",
+   "type": "technique",
+   "surface": "slow cooked",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "texture",
+   "type": "technique",
+   "surface": "texture",
+   "ts": "22:30"
+  },
+  {
+   "canonical": "tenderness",
+   "type": "technique",
+   "surface": "tenderness",
+   "ts": "22:58"
+  },
+  {
+   "canonical": "flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "20:44"
+  },
+  {
+   "canonical": "cooking issues",
+   "type": "place",
+   "surface": "cooking issues",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "Patrick Cullen",
+   "type": "person",
+   "surface": "Patrick Cullen",
+   "ts": "23:40"
+  },
+  {
+   "canonical": "Cuisinar",
+   "type": "place",
+   "surface": "Cuisinar",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "steaming",
+   "type": "technique",
+   "surface": "steaming",
+   "ts": "23:46"
+  },
+  {
+   "canonical": "steaming",
+   "type": "technique",
+   "surface": "steaming",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "steaming",
+   "type": "technique",
+   "surface": "steaming",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "combi oven",
+   "type": "equipment",
+   "surface": "combi",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "bamboo steamer baskets",
+   "type": "equipment",
+   "surface": "bamboo steamer baskets",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "condensation",
+   "type": "ingredient",
+   "surface": "condensation",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "John Darragon",
+   "type": "person",
+   "surface": "John Darragon",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "18:57"
+  },
+  {
+   "canonical": "low temperature cooking",
+   "type": "technique",
+   "surface": "low temperature cooking",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "steam",
+   "type": "technique",
+   "surface": "steam",
+   "ts": "25:56"
+  },
+  {
+   "canonical": "steam",
+   "type": "technique",
+   "surface": "steam",
+   "ts": "26:16"
+  },
+  {
+   "canonical": "steam",
+   "type": "technique",
+   "surface": "steam",
+   "ts": "26:54"
+  },
+  {
+   "canonical": "steam",
+   "type": "technique",
+   "surface": "steam",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "CVAP oven",
+   "type": "equipment",
+   "surface": "CVAP oven",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "combi oven",
+   "type": "equipment",
+   "surface": "combi",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "combi oven",
+   "type": "equipment",
+   "surface": "combi ovens",
+   "ts": "29:55"
+  },
+  {
+   "canonical": "combi oven",
+   "type": "equipment",
+   "surface": "combi",
+   "ts": "32:44"
+  },
+  {
+   "canonical": "combi oven",
+   "type": "equipment",
+   "surface": "combi",
+   "ts": "36:50"
+  },
+  {
+   "canonical": "Nova",
+   "type": "place",
+   "surface": "Nova",
+   "ts": "32:44"
+  },
+  {
+   "canonical": "Cuisinart",
+   "type": "equipment",
+   "surface": "cuisinart",
+   "ts": "29:31"
+  },
+  {
+   "canonical": "Cuisinart",
+   "type": "equipment",
+   "surface": "cuisin art",
+   "ts": "29:55"
+  },
+  {
+   "canonical": "QuisNart",
+   "type": "equipment",
+   "surface": "QuisNart",
+   "ts": "32:44"
+  },
+  {
+   "canonical": "city ham",
+   "type": "ingredient",
+   "surface": "city ham",
+   "ts": "33:04"
+  },
+  {
+   "canonical": "city ham",
+   "type": "ingredient",
+   "surface": "city ham",
+   "ts": "33:30"
+  },
+  {
+   "canonical": "city ham",
+   "type": "ingredient",
+   "surface": "city ham",
+   "ts": "33:53"
+  },
+  {
+   "canonical": "city ham",
+   "type": "ingredient",
+   "surface": "city ham",
+   "ts": "34:29"
+  },
+  {
+   "canonical": "country ham",
+   "type": "ingredient",
+   "surface": "country ham",
+   "ts": "34:29"
+  },
+  {
+   "canonical": "steamed black roast",
+   "type": "technique",
+   "surface": "steamed black roast",
+   "ts": "35:47"
+  },
+  {
+   "canonical": "Atlas style pasta roller",
+   "type": "equipment",
+   "surface": "Atlas style pasta roller",
+   "ts": "37:58"
+  },
+  {
+   "canonical": "fresh noodles",
+   "type": "ingredient",
+   "surface": "fresh noodles",
+   "ts": "37:30"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Fresh pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Fresh pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "Fresh pasta",
+   "type": "ingredient",
+   "surface": "fresh pasta",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Dry pasta",
+   "type": "ingredient",
+   "surface": "dry pasta",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Pasta dough",
+   "type": "ingredient",
+   "surface": "pasta dough",
+   "ts": "38:35"
+  },
+  {
+   "canonical": "Pasta dough",
+   "type": "ingredient",
+   "surface": "pasta dough",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Egg",
+   "type": "ingredient",
+   "surface": "egg",
+   "ts": "38:35"
+  },
+  {
+   "canonical": "Egg",
+   "type": "ingredient",
+   "surface": "Egg",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Egg",
+   "type": "ingredient",
+   "surface": "egg",
+   "ts": "40:05"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "39:27"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "39:46"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "39:53"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "41:33"
+  },
+  {
+   "canonical": "Flour",
+   "type": "ingredient",
+   "surface": "flour",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "38:35"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "38:47"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "42:10"
+  },
+  {
+   "canonical": "Mixing",
+   "type": "technique",
+   "surface": "mix",
+   "ts": "38:21"
+  },
+  {
+   "canonical": "Mixing",
+   "type": "technique",
+   "surface": "mixing",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Rolling",
+   "type": "technique",
+   "surface": "rolling",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "Low hydration dough",
+   "type": "technique",
+   "surface": "low hydration dough",
+   "ts": "40:28"
+  },
+  {
+   "canonical": "Cavitelli",
+   "type": "ingredient",
+   "surface": "Cavitelli",
+   "ts": "39:11"
+  },
+  {
+   "canonical": "Cavitelli",
+   "type": "ingredient",
+   "surface": "Cavitelli",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "Gnocchi",
+   "type": "ingredient",
+   "surface": "gnocchi",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "Gnocchi",
+   "type": "ingredient",
+   "surface": "gnocchi",
+   "ts": "44:25"
+  },
+  {
+   "canonical": "Gnocchi",
+   "type": "ingredient",
+   "surface": "gnocchi",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "Potato gnocchi",
+   "type": "ingredient",
+   "surface": "Potato gnocchi",
+   "ts": "39:16"
+  },
+  {
+   "canonical": "Al dente pasta",
+   "type": "ingredient",
+   "surface": "al dente pasta",
+   "ts": "40:14"
+  },
+  {
+   "canonical": "Kitchen aid",
+   "type": "equipment",
+   "surface": "kitchen aid",
+   "ts": "38:21"
+  },
+  {
+   "canonical": "Kitchen aid",
+   "type": "equipment",
+   "surface": "kitchen aid",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Fair Kitchens",
+   "type": "place",
+   "surface": "Fair Kitchens",
+   "ts": "42:58"
+  },
+  {
+   "canonical": "Fair Kitchens",
+   "type": "place",
+   "surface": "Fair Kitchens",
+   "ts": "43:18"
+  },
+  {
+   "canonical": "Fair Kitchens",
+   "type": "place",
+   "surface": "Fair Kitchens",
+   "ts": "43:40"
+  },
+  {
+   "canonical": "Yuri",
+   "type": "person",
+   "surface": "Yuri",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Yuri",
+   "type": "person",
+   "surface": "Yuri",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave Nastasia",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Methassell",
+   "type": "ingredient",
+   "surface": "Methassell",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Fairkitchens.com",
+   "type": "place",
+   "surface": "Fairkitchens.com",
+   "ts": "43:40"
+  },
+  {
+   "canonical": "Joy of Cooking",
+   "type": "place",
+   "surface": "joy of cooking",
+   "ts": "44:47"
+  },
+  {
+   "canonical": "Joy of Cooking",
+   "type": "place",
+   "surface": "joy of cooking",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Carrot",
+   "type": "ingredient",
+   "surface": "carrot",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Kitchen Aid Sheeter",
+   "type": "equipment",
+   "surface": "kitchen aid sheeter",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Ebay",
+   "type": "place",
+   "surface": "eBay",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "ingredient",
+   "surface": "sushi",
+   "ts": "44:54"
+  },
+  {
+   "canonical": "Sushi",
+   "type": "ingredient",
+   "surface": "sushi",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Salt Water",
+   "type": "ingredient",
+   "surface": "salt water",
+   "ts": "45:08"
+  },
+  {
+   "canonical": "Potato Lasagna",
+   "type": "technique",
+   "surface": "potato lasagna",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Veg Sheets",
+   "type": "ingredient",
+   "surface": "veg sheets",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "person",
+   "surface": "vegetti",
+   "ts": "45:31"
+  },
+  {
+   "canonical": "Vegetti",
+   "type": "person",
+   "surface": "vegetti",
+   "ts": "46:19"
+  },
+  {
+   "canonical": "Yuri",
+   "type": "person",
+   "surface": "Yuri",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Yuri",
+   "type": "person",
+   "surface": "Yuri",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "47:12"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methysol",
+   "ts": "47:22"
+  },
+  {
+   "canonical": "Wiley Dufresne",
+   "type": "person",
+   "surface": "Wiley Dufresne",
+   "ts": "47:22"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "47:22"
+  },
+  {
+   "canonical": "Dow Chemical",
+   "type": "place",
+   "surface": "Dow chemical",
+   "ts": "47:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "met what they're doing with their uh another caveat from methels",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcellulose",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:00"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "E4M",
+   "ts": "52:50"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl cell",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methacel",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "47:58"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methell",
+   "ts": "49:36"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "49:51"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "50:39"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "51:08"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "53:09"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methel",
+   "ts": "54:22"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methylcel",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methyl",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Methylcellulose",
+   "type": "ingredient",
+   "surface": "methole",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "F50",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "50:18"
+  },
+  {
+   "canonical": "F50",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "51:43"
+  },
+  {
+   "canonical": "F50",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "52:28"
+  },
+  {
+   "canonical": "F50",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "F50",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "F50",
+   "type": "ingredient",
+   "surface": "F50",
+   "ts": "55:45"
+  },
+  {
+   "canonical": "Xanthan Gum",
+   "type": "ingredient",
+   "surface": "Xanthan gum",
+   "ts": "56:19"
+  },
+  {
+   "canonical": "Chef Steps",
+   "type": "place",
+   "surface": "Chef Steps",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Chef Steps",
+   "type": "place",
+   "surface": "Chef Steps",
+   "ts": "54:43"
+  },
+  {
+   "canonical": "Ghostbusters",
+   "type": "place",
+   "surface": "Ghostbusters",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "There Will Be Blood",
+   "type": "place",
+   "surface": "there will be blood",
+   "ts": "57:06"
+  },
+  {
+   "canonical": "Daniel Day Lewis",
+   "type": "person",
+   "surface": "Daniel Day Lewis",
+   "ts": "57:06"
+  },
+  {
+   "canonical": "Daniel Day Lewis",
+   "type": "person",
+   "surface": "Daniel Day Lewis",
+   "ts": "57:16"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "56:57"
+  },
+  {
+   "canonical": "Sus",
+   "type": "person",
+   "surface": "Sus",
+   "ts": "57:31"
+  },
+  {
+   "canonical": "Mike",
+   "type": "person",
+   "surface": "Mike",
+   "ts": "57:31"
+  },
+  {
+   "canonical": "Nastasi Lopez",
+   "type": "person",
+   "surface": "Nastasi Lopez",
+   "ts": "58:13"
+  },
+  {
+   "canonical": "Brandon",
+   "type": "person",
+   "surface": "Brandon",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "spice grinder",
+   "type": "equipment",
+   "surface": "spice grinder",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "spice grinder",
+   "type": "equipment",
+   "surface": "spice grinder",
+   "ts": "58:56"
+  },
+  {
+   "canonical": "Serious Eats",
+   "type": "place",
+   "surface": "serious seeds",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "Hario",
+   "type": "equipment",
+   "surface": "Hario",
+   "ts": "1:00:28"
+  },
+  {
+   "canonical": "Mortar Pestle",
+   "type": "equipment",
+   "surface": "mortar pestle",
+   "ts": "58:39"
+  },
+  {
+   "canonical": "Mortar Pestle",
+   "type": "equipment",
+   "surface": "Mortar Pestle",
+   "ts": "59:57"
+  },
+  {
+   "canonical": "Burrs",
+   "type": "equipment",
+   "surface": "burrs",
+   "ts": "1:00:28"
+  },
+  {
+   "canonical": "Cinnamon",
+   "type": "ingredient",
+   "surface": "cinnamon",
+   "ts": "58:39"
+  },
+  {
+   "canonical": "Cinnamon",
+   "type": "ingredient",
+   "surface": "cinnamon",
+   "ts": "1:00:28"
+  },
+  {
+   "canonical": "Cinnamon",
+   "type": "ingredient",
+   "surface": "cinnamon",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "Cardamom",
+   "type": "ingredient",
+   "surface": "cardamom",
+   "ts": "1:00:28"
+  },
+  {
+   "canonical": "Star Anise",
+   "type": "ingredient",
+   "surface": "Star Anis",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "Coffee Grinder",
+   "type": "equipment",
+   "surface": "coffee grinder",
+   "ts": "58:56"
+  },
+  {
+   "canonical": "Coffee Grinder",
+   "type": "equipment",
+   "surface": "coffee grinder",
+   "ts": "1:00:28"
+  },
+  {
+   "canonical": "Spice Grinder",
+   "type": "equipment",
+   "surface": "spice grinder",
+   "ts": "58:25"
+  },
+  {
+   "canonical": "Spice Grinder",
+   "type": "equipment",
+   "surface": "spice grinder",
+   "ts": "58:56"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "57:41"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "57:59"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "59:43"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "1:05:56"
+  },
+  {
+   "canonical": "David Gabois",
+   "type": "person",
+   "surface": "David Gabois",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "David Gabois",
+   "type": "person",
+   "surface": "David Gabois",
+   "ts": "1:02:02"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "58:13"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:02:02"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "1:04:45"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "1:05:56"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:02:37"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "1:01:29"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "1:02:02"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "1:02:53"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Searsol",
+   "ts": "1:04:45"
+  },
+  {
+   "canonical": "Burn Zomatic TS-8000",
+   "type": "equipment",
+   "surface": "burn zomatic TS-8000",
+   "ts": "1:02:53"
+  },
+  {
+   "canonical": "FLIR camera",
+   "type": "equipment",
+   "surface": "FLIR camera",
+   "ts": "1:03:35"
+  },
+  {
+   "canonical": "Kapabashi Kitchenware street",
+   "type": "place",
+   "surface": "Kapabashi Kitchenware street",
+   "ts": "1:05:41"
+  },
+  {
+   "canonical": "ice shaver",
+   "type": "equipment",
+   "surface": "ice shaver",
+   "ts": "1:05:56"
+  },
+  {
+   "canonical": "Japanese smallwares",
+   "type": "ingredient",
+   "surface": "Japanese smallwares",
+   "ts": "1:06:36"
+  },
+  {
+   "canonical": "salamander burner",
+   "type": "equipment",
+   "surface": "salamander burner",
+   "ts": "1:04:45"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "nastasia",
+   "ts": "1:07:02"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:08:34"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "1:09:07"
+  },
+  {
+   "canonical": "Joey Lopez",
+   "type": "person",
+   "surface": "Joey Lopez",
+   "ts": "1:07:02"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey Steingarden",
+   "ts": "1:08:34"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey Steingarden",
+   "ts": "1:10:24"
+  },
+  {
+   "canonical": "Cook's Illustrated",
+   "type": "place",
+   "surface": "Cook's Illustrated",
+   "ts": "1:08:17"
+  },
+  {
+   "canonical": "Vogue",
+   "type": "place",
+   "surface": "Vogue",
+   "ts": "1:09:07"
+  },
+  {
+   "canonical": "Harvard",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "1:09:33"
+  },
+  {
+   "canonical": "Carol Smith",
+   "type": "person",
+   "surface": "Carol Smith",
+   "ts": "1:12:32"
+  },
+  {
+   "canonical": "Rubin Museum",
+   "type": "place",
+   "surface": "Rubin Museum",
+   "ts": "1:12:53"
+  },
+  {
+   "canonical": "Simplecast",
+   "type": "equipment",
+   "surface": "Simplecast",
+   "ts": "1:13:24"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:13:24"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:13:39"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:14:00"
+  }
+ ]
+}

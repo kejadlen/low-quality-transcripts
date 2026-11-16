@@ -1,0 +1,2413 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "3:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "5:55"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:28"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "9:57"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "0:41"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:51"
+  },
+  {
+   "canonical": "John Nahool",
+   "type": "person",
+   "surface": "John Nahool",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Rich She",
+   "type": "person",
+   "surface": "Rich She",
+   "ts": "1:51"
+  },
+  {
+   "canonical": "Rich She",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Rich She",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "3:07"
+  },
+  {
+   "canonical": "Rich She",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Jeremy Omansky",
+   "type": "person",
+   "surface": "Jeremy Omansky",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Bend the Table",
+   "type": "place",
+   "surface": "Bend the Table",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "3:07"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "3:29"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "5:02"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "5:19"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "7:42"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Book of Miso",
+   "type": "place",
+   "surface": "book of Miso",
+   "ts": "7:57"
+  },
+  {
+   "canonical": "Book of Miso",
+   "type": "place",
+   "surface": "Book of Miso",
+   "ts": "8:38"
+  },
+  {
+   "canonical": "Larder",
+   "type": "place",
+   "surface": "Larder",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Stasenfreude",
+   "type": "technique",
+   "surface": "Stasenfreude",
+   "ts": "9:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Rich Collenteach",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Rich Collenteach",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "11:23"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "13:26"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Aspergillus",
+   "type": "ingredient",
+   "surface": "aspergillus",
+   "ts": "16:07"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "11:23"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "12:04"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "15:27"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "11:23"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "12:04"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "13:07"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "13:26"
+  },
+  {
+   "canonical": "Spore",
+   "type": "ingredient",
+   "surface": "spore",
+   "ts": "14:29"
+  },
+  {
+   "canonical": "Fungus",
+   "type": "ingredient",
+   "surface": "fungus",
+   "ts": "12:04"
+  },
+  {
+   "canonical": "Fungus",
+   "type": "ingredient",
+   "surface": "fungus",
+   "ts": "19:26"
+  },
+  {
+   "canonical": "Autolysis",
+   "type": "technique",
+   "surface": "autolysis",
+   "ts": "20:38"
+  },
+  {
+   "canonical": "Autolysis",
+   "type": "technique",
+   "surface": "autolysis",
+   "ts": "21:05"
+  },
+  {
+   "canonical": "Autolysis",
+   "type": "technique",
+   "surface": "autolysis",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Enzyme",
+   "type": "ingredient",
+   "surface": "enzyme",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Enzyme",
+   "type": "ingredient",
+   "surface": "enzyme",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Amylase",
+   "type": "ingredient",
+   "surface": "amylase",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Amylase",
+   "type": "ingredient",
+   "surface": "amylase",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Barley",
+   "type": "ingredient",
+   "surface": "barley",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Barley",
+   "type": "ingredient",
+   "surface": "barley",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Barley",
+   "type": "ingredient",
+   "surface": "barley",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Soy",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Lactobacillus",
+   "type": "ingredient",
+   "surface": "Lactobacillus",
+   "ts": "18:31"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Yeast",
+   "type": "ingredient",
+   "surface": "yeast",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Acetobacter",
+   "type": "ingredient",
+   "surface": "acetobacter",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Ferment",
+   "type": "technique",
+   "surface": "ferment",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Ferments",
+   "type": "technique",
+   "surface": "ferments",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Koji Alchemy",
+   "type": "place",
+   "surface": "Koji Alchemy",
+   "ts": "17:35"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "soy sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "soy sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "soy sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "soy sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "chakrarone",
+   "type": "technique",
+   "surface": "chakrarone",
+   "ts": "22:37"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "22:50"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Shoju",
+   "type": "ingredient",
+   "surface": "shoju",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Soy",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Soy",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Soy",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Soy",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Soy",
+   "type": "ingredient",
+   "surface": "soy",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Katsuabushi",
+   "type": "ingredient",
+   "surface": "katsuabushi",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Katsuabushi",
+   "type": "ingredient",
+   "surface": "Katsuabushi",
+   "ts": "23:54"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "22:50"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "katsuabushi",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Katsuabushi",
+   "ts": "23:54"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Aspergillus",
+   "type": "ingredient",
+   "surface": "aspergellous reparins",
+   "ts": "23:54"
+  },
+  {
+   "canonical": "Aspergillus oryzae",
+   "type": "ingredient",
+   "surface": "glaucus",
+   "ts": "23:54"
+  },
+  {
+   "canonical": "Gem Cultures",
+   "type": "place",
+   "surface": "Gem Cultures",
+   "ts": "24:54"
+  },
+  {
+   "canonical": "Gem Cultures",
+   "type": "place",
+   "surface": "gem cultures",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "Rich",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Amazake",
+   "type": "ingredient",
+   "surface": "amazake",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Light Rice Koji",
+   "type": "ingredient",
+   "surface": "light light rice koji",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Pickles",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Rich",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Rich",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "don",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Don Lee",
+   "type": "person",
+   "surface": "Don",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "22:50"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Awamori",
+   "type": "ingredient",
+   "surface": "Awamori",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Okinawan Koji",
+   "type": "ingredient",
+   "surface": "Okinawan Koji",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Amino Paste",
+   "type": "ingredient",
+   "surface": "amino paste",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Protease Enzymes",
+   "type": "ingredient",
+   "surface": "protease enzymes",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Amylase",
+   "type": "ingredient",
+   "surface": "amylase",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Amylase",
+   "type": "ingredient",
+   "surface": "amylase",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Hydrocolloids",
+   "type": "ingredient",
+   "surface": "hydrocolloids",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Hacho Miso",
+   "type": "ingredient",
+   "surface": "hacho miso",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Cocktails",
+   "type": "place",
+   "surface": "cocktails",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Cocktails",
+   "type": "place",
+   "surface": "cocktails",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Existing Conditions",
+   "type": "place",
+   "surface": "existing conditions",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Distillation",
+   "type": "technique",
+   "surface": "distillation",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "Lactobacillus",
+   "type": "ingredient",
+   "surface": "lactobacillus",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "22:21"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "Don",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "don",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "Don",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Don",
+   "type": "person",
+   "surface": "Don",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "22:50"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "22:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "25:18"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:04"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Shiokoji",
+   "type": "ingredient",
+   "surface": "shiokoji",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Cucumber water",
+   "type": "ingredient",
+   "surface": "cucumber water",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Watermelon",
+   "type": "ingredient",
+   "surface": "watermelon",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "29:28"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Malt",
+   "type": "ingredient",
+   "surface": "malt",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Amylase enzyme",
+   "type": "ingredient",
+   "surface": "amylase enzyme",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Citric acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "28:55"
+  },
+  {
+   "canonical": "Citric acid",
+   "type": "ingredient",
+   "surface": "citric acid",
+   "ts": "30:22"
+  },
+  {
+   "canonical": "Sour patch kids",
+   "type": "ingredient",
+   "surface": "sour patch kids",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Honeysuckle",
+   "type": "ingredient",
+   "surface": "honeysuckle",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Mushroom",
+   "type": "ingredient",
+   "surface": "mushroom",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Amazaki",
+   "type": "technique",
+   "surface": "amazaki",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Amazaki",
+   "type": "technique",
+   "surface": "amazaki",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "ferment out",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Inoculated grain",
+   "type": "ingredient",
+   "surface": "inoculated grain",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "23:25"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Cocktail",
+   "type": "technique",
+   "surface": "cocktail",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "31:20"
+  },
+  {
+   "canonical": "Cucumber",
+   "type": "ingredient",
+   "surface": "cucumber",
+   "ts": "31:52"
+  },
+  {
+   "canonical": "Will Hollingsworth",
+   "type": "person",
+   "surface": "Will Hollingsworth",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Spotted Owl",
+   "type": "place",
+   "surface": "spotted owl",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "33:05"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "36:11"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Shio Koji",
+   "type": "ingredient",
+   "surface": "shio koji",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Watermelon",
+   "type": "ingredient",
+   "surface": "watermelon",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Black Koji Rice",
+   "type": "ingredient",
+   "surface": "black koji rice",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Red Fife Wheat",
+   "type": "ingredient",
+   "surface": "red fife",
+   "ts": "34:03"
+  },
+  {
+   "canonical": "Red Fife Wheat",
+   "type": "ingredient",
+   "surface": "red fife",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Sylvester Graham",
+   "type": "person",
+   "surface": "Sylvester Graham",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Faro",
+   "type": "ingredient",
+   "surface": "faro",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Faro",
+   "type": "ingredient",
+   "surface": "Faro",
+   "ts": "34:57"
+  },
+  {
+   "canonical": "Maine Grains",
+   "type": "place",
+   "surface": "Maine Grains",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Bend a Table",
+   "type": "place",
+   "surface": "Bend a Table",
+   "ts": "33:26"
+  },
+  {
+   "canonical": "Bend a Table",
+   "type": "place",
+   "surface": "Bend a Table",
+   "ts": "34:57"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "34:25"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Dax",
+   "type": "person",
+   "surface": "Dax",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Pickles",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Pickles",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "35:42"
+  },
+  {
+   "canonical": "Pickles",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "35:59"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "miso",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Kraut",
+   "type": "ingredient",
+   "surface": "kraut",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Yogurt",
+   "type": "ingredient",
+   "surface": "yogurt",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Cultured Butter",
+   "type": "ingredient",
+   "surface": "cultured butter",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Kombucha",
+   "type": "ingredient",
+   "surface": "kombucha",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Protease Enzymes",
+   "type": "ingredient",
+   "surface": "protease enzymes",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Lacto",
+   "type": "ingredient",
+   "surface": "lacto",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Marinade",
+   "type": "technique",
+   "surface": "marinade",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Enzymes",
+   "type": "ingredient",
+   "surface": "enzymes",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Enzymes",
+   "type": "ingredient",
+   "surface": "enzymes",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "sugars",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Sugars",
+   "type": "ingredient",
+   "surface": "sugars",
+   "ts": "38:38"
+  },
+  {
+   "canonical": "Salinity",
+   "type": "ingredient",
+   "surface": "salinity",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "32:25"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "33:05"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "36:35"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "Starch",
+   "type": "ingredient",
+   "surface": "starch",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Fruit",
+   "type": "ingredient",
+   "surface": "fruit",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Vegetable",
+   "type": "ingredient",
+   "surface": "vegetable",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Aging",
+   "type": "technique",
+   "surface": "aging",
+   "ts": "41:40"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "46:39"
+  },
+  {
+   "canonical": "Rich Collenteur",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "48:39"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "42:15"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "43:21"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "44:06"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "46:39"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "42:15"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "45:34"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "46:14"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "46:39"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "Rice",
+   "type": "ingredient",
+   "surface": "rice",
+   "ts": "50:26"
+  },
+  {
+   "canonical": "Tadig",
+   "type": "technique",
+   "surface": "Tadig",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Amazake",
+   "type": "ingredient",
+   "surface": "amazake",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Amazake",
+   "type": "ingredient",
+   "surface": "amazake",
+   "ts": "45:34"
+  },
+  {
+   "canonical": "Shio Koji",
+   "type": "ingredient",
+   "surface": "shio koji",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "44:41"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Mush",
+   "type": "ingredient",
+   "surface": "mush",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Enzymatic Activity",
+   "type": "technique",
+   "surface": "enzymatic activity",
+   "ts": "47:05"
+  },
+  {
+   "canonical": "Enzymatic Activity",
+   "type": "technique",
+   "surface": "enzymatic activity",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "42:15"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "Oven",
+   "type": "equipment",
+   "surface": "oven",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Hotel Pan",
+   "type": "equipment",
+   "surface": "hotel pan",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Instant Marin",
+   "type": "ingredient",
+   "surface": "instant marin",
+   "ts": "46:39"
+  },
+  {
+   "canonical": "Instant Amazaki",
+   "type": "ingredient",
+   "surface": "instant amazaki",
+   "ts": "46:39"
+  },
+  {
+   "canonical": "Commodity Pork",
+   "type": "ingredient",
+   "surface": "commodity pork",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "Heritage Stirrock",
+   "type": "ingredient",
+   "surface": "heritage stirrock",
+   "ts": "49:05"
+  },
+  {
+   "canonical": "50 Best List",
+   "type": "place",
+   "surface": "50 best list",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "Delicatessen",
+   "type": "place",
+   "surface": "delicatessen",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "Quick Service Delicatessen",
+   "type": "place",
+   "surface": "quick service delicatessen",
+   "ts": "51:21"
+  },
+  {
+   "canonical": "Diana Clark",
+   "type": "person",
+   "surface": "Diana Clark",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Certified Angus Beef",
+   "type": "place",
+   "surface": "Certified Angus Beef",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "52:16"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Sake",
+   "type": "ingredient",
+   "surface": "sake",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Miso",
+   "type": "ingredient",
+   "surface": "Miso",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Amazake",
+   "type": "ingredient",
+   "surface": "amazake",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Aging",
+   "type": "technique",
+   "surface": "aging",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "Vacuum Marination",
+   "type": "technique",
+   "surface": "vacuum marinate",
+   "ts": "55:47"
+  },
+  {
+   "canonical": "Injection",
+   "type": "technique",
+   "surface": "inject",
+   "ts": "55:47"
+  },
+  {
+   "canonical": "Injection",
+   "type": "technique",
+   "surface": "inject",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Culturing",
+   "type": "technique",
+   "surface": "culturing",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Enzymatic Activity",
+   "type": "technique",
+   "surface": "enzymatic activity",
+   "ts": "55:47"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "55:47"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Mold",
+   "type": "ingredient",
+   "surface": "mold",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "55:47"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Meat",
+   "type": "ingredient",
+   "surface": "meat",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Seafood",
+   "type": "ingredient",
+   "surface": "seafoods",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Proteins",
+   "type": "ingredient",
+   "surface": "proteins",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Salt",
+   "type": "ingredient",
+   "surface": "salt",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Flavor",
+   "type": "technique",
+   "surface": "flavor",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Seasoning",
+   "type": "technique",
+   "surface": "seasoned",
+   "ts": "56:32"
+  },
+  {
+   "canonical": "Butchery",
+   "type": "technique",
+   "surface": "butcher",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Anatomist",
+   "type": "person",
+   "surface": "anatomist",
+   "ts": "58:37"
+  },
+  {
+   "canonical": "Dr. Phil Bass",
+   "type": "person",
+   "surface": "Dr. Phil Bass",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "52:16"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Enterotoxins",
+   "type": "ingredient",
+   "surface": "enterotoxins",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Staph-based enterotoxin",
+   "type": "ingredient",
+   "surface": "staph-based enterotoxin",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Dry aged steak",
+   "type": "ingredient",
+   "surface": "dry aged",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Aged products",
+   "type": "ingredient",
+   "surface": "aged products",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "52:16"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "53:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "53:59"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "54:32"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "59:01"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Scientist",
+   "type": "person",
+   "surface": "scientists",
+   "ts": "1:00:15"
+  },
+  {
+   "canonical": "Scientist",
+   "type": "person",
+   "surface": "scientists",
+   "ts": "1:00:51"
+  },
+  {
+   "canonical": "Scientist",
+   "type": "person",
+   "surface": "scientists",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Staph",
+   "type": "ingredient",
+   "surface": "staph",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Enterotoxin",
+   "type": "ingredient",
+   "surface": "enterotoxin",
+   "ts": "1:01:25"
+  },
+  {
+   "canonical": "Long-term laboratory viability",
+   "type": "technique",
+   "surface": "long-term laboratory viability",
+   "ts": "1:02:52"
+  },
+  {
+   "canonical": "Five or 10-year study",
+   "type": "technique",
+   "surface": "five or 10-year study",
+   "ts": "1:02:52"
+  },
+  {
+   "canonical": "Rich",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "1:07:08"
+  },
+  {
+   "canonical": "Rich",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "1:07:39"
+  },
+  {
+   "canonical": "Rich",
+   "type": "person",
+   "surface": "Rich",
+   "ts": "1:08:08"
+  },
+  {
+   "canonical": "Jeremy",
+   "type": "person",
+   "surface": "Jeremy",
+   "ts": "1:07:39"
+  },
+  {
+   "canonical": "Jeremy",
+   "type": "person",
+   "surface": "Jeremy",
+   "ts": "1:08:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "1:04:42"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "1:05:43"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "1:08:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "1:09:31"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "1:10:08"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "koji",
+   "ts": "1:10:30"
+  },
+  {
+   "canonical": "Koji",
+   "type": "ingredient",
+   "surface": "Koji",
+   "ts": "1:11:03"
+  },
+  {
+   "canonical": "Andy Ricker",
+   "type": "person",
+   "surface": "Andy Ricker",
+   "ts": "1:05:43"
+  },
+  {
+   "canonical": "Cleveland",
+   "type": "place",
+   "surface": "Cleveland",
+   "ts": "1:07:08"
+  },
+  {
+   "canonical": "Visible Voice Books",
+   "type": "place",
+   "surface": "Visible Voice Books",
+   "ts": "1:07:08"
+  },
+  {
+   "canonical": "Chelsea Green",
+   "type": "place",
+   "surface": "Chelsea Green",
+   "ts": "1:07:08"
+  },
+  {
+   "canonical": "Chelsea Green",
+   "type": "place",
+   "surface": "Chelsea Green",
+   "ts": "1:07:39"
+  },
+  {
+   "canonical": "Soy Sauce",
+   "type": "ingredient",
+   "surface": "soy sauce",
+   "ts": "1:10:08"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "1:09:31"
+  },
+  {
+   "canonical": "Acid Ferment",
+   "type": "technique",
+   "surface": "acid ferment",
+   "ts": "1:05:43"
+  },
+  {
+   "canonical": "Fermentation Starter",
+   "type": "ingredient",
+   "surface": "fermentation starter",
+   "ts": "1:09:31"
+  },
+  {
+   "canonical": "Enzymes",
+   "type": "ingredient",
+   "surface": "enzymes",
+   "ts": "1:09:31"
+  },
+  {
+   "canonical": "Koji Alchemy",
+   "type": "place",
+   "surface": "Koji Alchemy",
+   "ts": "1:08:08"
+  },
+  {
+   "canonical": "Simplecast",
+   "type": "equipment",
+   "surface": "Simplecast",
+   "ts": "1:11:03"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:11:03"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:11:28"
+  },
+  {
+   "canonical": "Instagram",
+   "type": "place",
+   "surface": "Instagram",
+   "ts": "1:11:03"
+  },
+  {
+   "canonical": "Twitter",
+   "type": "place",
+   "surface": "Twitter",
+   "ts": "1:11:03"
+  },
+  {
+   "canonical": "Facebook",
+   "type": "place",
+   "surface": "Facebook",
+   "ts": "1:11:28"
+  }
+ ]
+}

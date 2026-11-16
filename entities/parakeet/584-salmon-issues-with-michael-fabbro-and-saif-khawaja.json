@@ -1,0 +1,1519 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "0:22"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "2:15"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:27"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:34"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "2:34"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "2:41"
+  },
+  {
+   "canonical": "Safe Kawaja",
+   "type": "person",
+   "surface": "Safe",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Michael Fabro",
+   "type": "person",
+   "surface": "Michael Fabro",
+   "ts": "3:37"
+  },
+  {
+   "canonical": "Ikajime",
+   "type": "technique",
+   "surface": "Ikajime",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "Paxlovid",
+   "type": "ingredient",
+   "surface": "Paxlovid",
+   "ts": "2:48"
+  },
+  {
+   "canonical": "Paxlovid",
+   "type": "ingredient",
+   "surface": "Paxlovid",
+   "ts": "3:04"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "Salmon",
+   "ts": "3:21"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "Salmon",
+   "ts": "3:42"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "4:01"
+  },
+  {
+   "canonical": "Coho",
+   "type": "ingredient",
+   "surface": "Coho",
+   "ts": "3:42"
+  },
+  {
+   "canonical": "oleo sacrums",
+   "type": "technique",
+   "surface": "oleo sacrums",
+   "ts": "8:13"
+  },
+  {
+   "canonical": "oleo sacrums",
+   "type": "technique",
+   "surface": "oleo sacrums",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "citrus peel",
+   "type": "ingredient",
+   "surface": "citrus peel",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "8:22"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "8:31"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "8:48"
+  },
+  {
+   "canonical": "grapefruit",
+   "type": "ingredient",
+   "surface": "grapefruit",
+   "ts": "9:07"
+  },
+  {
+   "canonical": "white wine",
+   "type": "ingredient",
+   "surface": "white wine",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Chinese style cooking wine",
+   "type": "ingredient",
+   "surface": "Chinese style cooking wine",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "regou",
+   "type": "technique",
+   "surface": "regou",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "regurjay vive",
+   "type": "technique",
+   "surface": "regurjay vive",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Bianco Pizza",
+   "type": "place",
+   "surface": "Bianco Pizza",
+   "ts": "7:12"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "10:32"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "10:43"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "9:29"
+  },
+  {
+   "canonical": "lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "9:16"
+  },
+  {
+   "canonical": "lemon",
+   "type": "ingredient",
+   "surface": "lemon",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "peel",
+   "type": "ingredient",
+   "surface": "peel",
+   "ts": "9:29"
+  },
+  {
+   "canonical": "peel",
+   "type": "ingredient",
+   "surface": "peel",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "9:29"
+  },
+  {
+   "canonical": "syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "9:29"
+  },
+  {
+   "canonical": "water",
+   "type": "ingredient",
+   "surface": "water",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "sugar",
+   "type": "ingredient",
+   "surface": "sugar",
+   "ts": "9:29"
+  },
+  {
+   "canonical": "syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "9:29"
+  },
+  {
+   "canonical": "syrup",
+   "type": "ingredient",
+   "surface": "syrup",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "weight",
+   "type": "ingredient",
+   "surface": "weight",
+   "ts": "10:05"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "11:33"
+  },
+  {
+   "canonical": "Michael",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Tony Paco",
+   "type": "place",
+   "surface": "Tony Paco's",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Tony Paco",
+   "type": "place",
+   "surface": "Tony Paco's",
+   "ts": "15:03"
+  },
+  {
+   "canonical": "Tony Paco",
+   "type": "place",
+   "surface": "Tony Paco's",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Brooklyn",
+   "type": "place",
+   "surface": "Brooklyn",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "San Francisco",
+   "type": "place",
+   "surface": "San Francisco",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Super Bowl",
+   "type": "place",
+   "surface": "Super Bowl",
+   "ts": "10:56"
+  },
+  {
+   "canonical": "Super Bowl",
+   "type": "place",
+   "surface": "Super Bowl",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Pretzel",
+   "type": "ingredient",
+   "surface": "pretzels",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Pickle",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Pickle",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Pickle",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "16:57"
+  },
+  {
+   "canonical": "Pickle",
+   "type": "ingredient",
+   "surface": "pickles",
+   "ts": "17:12"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Steak",
+   "type": "ingredient",
+   "surface": "steak",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Drumstick",
+   "type": "ingredient",
+   "surface": "drumstick",
+   "ts": "11:33"
+  },
+  {
+   "canonical": "Drumstick",
+   "type": "ingredient",
+   "surface": "drumstick",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Drumstick",
+   "type": "ingredient",
+   "surface": "drumstick",
+   "ts": "12:11"
+  },
+  {
+   "canonical": "Drumstick",
+   "type": "ingredient",
+   "surface": "drumstick",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "Drumstick",
+   "type": "ingredient",
+   "surface": "drumstick",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Poultry Shears",
+   "type": "equipment",
+   "surface": "poultry shears",
+   "ts": "11:42"
+  },
+  {
+   "canonical": "Tendon",
+   "type": "ingredient",
+   "surface": "tendons",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "Tendon",
+   "type": "ingredient",
+   "surface": "tendons",
+   "ts": "13:19"
+  },
+  {
+   "canonical": "Tendon",
+   "type": "ingredient",
+   "surface": "tendons",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "12:51"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "13:19"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Jacques Papin",
+   "type": "person",
+   "surface": "Jacques Papin",
+   "ts": "13:19"
+  },
+  {
+   "canonical": "Needle-Nosed Pliers",
+   "type": "equipment",
+   "surface": "needle-nosed pliers",
+   "ts": "13:19"
+  },
+  {
+   "canonical": "Butchering",
+   "type": "technique",
+   "surface": "butchering",
+   "ts": "13:36"
+  },
+  {
+   "canonical": "Pan Seared",
+   "type": "technique",
+   "surface": "pan seared",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Tony Paco's",
+   "type": "place",
+   "surface": "Tony Paco's",
+   "ts": "14:34"
+  },
+  {
+   "canonical": "Tony Paco's",
+   "type": "place",
+   "surface": "Tony Paco's",
+   "ts": "15:03"
+  },
+  {
+   "canonical": "Tony Paco's",
+   "type": "place",
+   "surface": "Tony Paco's",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "17:31"
+  },
+  {
+   "canonical": "California",
+   "type": "place",
+   "surface": "California",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "New York State",
+   "type": "place",
+   "surface": "New York State",
+   "ts": "17:41"
+  },
+  {
+   "canonical": "clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "16:49"
+  },
+  {
+   "canonical": "clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "16:57"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "Ikijime",
+   "ts": "23:05"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikiji May",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikojime",
+   "ts": "25:58"
+  },
+  {
+   "canonical": "Ikijime",
+   "type": "technique",
+   "surface": "ikijime",
+   "ts": "26:10"
+  },
+  {
+   "canonical": "Electro-stunning",
+   "type": "technique",
+   "surface": "electrostunning",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Electro-stunning",
+   "type": "technique",
+   "surface": "electrostunning",
+   "ts": "25:29"
+  },
+  {
+   "canonical": "Local Coho",
+   "type": "place",
+   "surface": "local coho",
+   "ts": "22:10"
+  },
+  {
+   "canonical": "Local Coho",
+   "type": "place",
+   "surface": "local coho",
+   "ts": "22:25"
+  },
+  {
+   "canonical": "Pokkaido",
+   "type": "place",
+   "surface": "Pokkaido",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Wagyu",
+   "type": "ingredient",
+   "surface": "Wagyu",
+   "ts": "24:16"
+  },
+  {
+   "canonical": "Tuna",
+   "type": "ingredient",
+   "surface": "tuna",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Sardine",
+   "type": "ingredient",
+   "surface": "sardine",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Sherry",
+   "type": "ingredient",
+   "surface": "sherry",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Carbon Monoxide",
+   "type": "ingredient",
+   "surface": "carbon monoxide",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Peter Singer",
+   "type": "person",
+   "surface": "Peter Singer",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "Andrew Troi",
+   "type": "person",
+   "surface": "Andrew Troi",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Iki Jime",
+   "type": "technique",
+   "surface": "Iki Jime",
+   "ts": "30:21"
+  },
+  {
+   "canonical": "Nitrogen Hypoxia",
+   "type": "technique",
+   "surface": "nitrogen",
+   "ts": "30:21"
+  },
+  {
+   "canonical": "Nitrogen Hypoxia",
+   "type": "technique",
+   "surface": "nitrogen",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Nitrogen Hypoxia",
+   "type": "technique",
+   "surface": "nitrogen",
+   "ts": "31:07"
+  },
+  {
+   "canonical": "Nitrous Oxide",
+   "type": "ingredient",
+   "surface": "nitrous oxide",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "CO2",
+   "type": "ingredient",
+   "surface": "CO2",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "EKG May",
+   "type": "technique",
+   "surface": "EKG May",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Suffocation",
+   "type": "technique",
+   "surface": "suffocation",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "Nitrogen Gas",
+   "type": "ingredient",
+   "surface": "nitrogen gas",
+   "ts": "30:49"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "29:42"
+  },
+  {
+   "canonical": "EKG May Awareness",
+   "type": "technique",
+   "surface": "EKG May awareness",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Ethics of Meat",
+   "type": "technique",
+   "surface": "ethics of meat",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Wild Cotton Industry",
+   "type": "place",
+   "surface": "wild cotton industry",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Red Sea",
+   "type": "place",
+   "surface": "Red Sea",
+   "ts": "27:59"
+  },
+  {
+   "canonical": "Shinkei Systems",
+   "type": "place",
+   "surface": "Shinkei systems",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Nervous Systems",
+   "type": "place",
+   "surface": "nervous systems",
+   "ts": "32:26"
+  },
+  {
+   "canonical": "Motor Cortex",
+   "type": "technique",
+   "surface": "motor cortex",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "Motor Cortex",
+   "type": "technique",
+   "surface": "motor cortex",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Prefrontal Cortex",
+   "type": "technique",
+   "surface": "prefrontal cortex",
+   "ts": "32:55"
+  },
+  {
+   "canonical": "Prefrontal Cortex",
+   "type": "technique",
+   "surface": "prefrontal cortex",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Brain Spike",
+   "type": "equipment",
+   "surface": "brain spike",
+   "ts": "32:08"
+  },
+  {
+   "canonical": "Brain Spike",
+   "type": "equipment",
+   "surface": "brain spike",
+   "ts": "34:08"
+  },
+  {
+   "canonical": "Spinal Ablation",
+   "type": "technique",
+   "surface": "spinal ablation",
+   "ts": "32:08"
+  },
+  {
+   "canonical": "Rigor Mortis",
+   "type": "technique",
+   "surface": "rigor mortise",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "ATP",
+   "type": "ingredient",
+   "surface": "ATP",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "Salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "36:01"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "27:59"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "28:38"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "29:14"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "30:21"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "31:56"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "32:08"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "32:39"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "33:12"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "33:32"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "34:30"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "34:56"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "35:04"
+  },
+  {
+   "canonical": "Fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "35:10"
+  },
+  {
+   "canonical": "EKGMA",
+   "type": "technique",
+   "surface": "EKGMA",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "EKGMA",
+   "type": "technique",
+   "surface": "EK G May",
+   "ts": "38:19"
+  },
+  {
+   "canonical": "EKGMA",
+   "type": "technique",
+   "surface": "EKGMA",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "EKGMA",
+   "type": "technique",
+   "surface": "EKG May",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "EKGMA",
+   "type": "technique",
+   "surface": "EKGMA",
+   "ts": "42:03"
+  },
+  {
+   "canonical": "spinal ablation",
+   "type": "technique",
+   "surface": "spinal ablation",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "spinal ablation",
+   "type": "technique",
+   "surface": "spinal ablation",
+   "ts": "37:26"
+  },
+  {
+   "canonical": "spinal ablation",
+   "type": "technique",
+   "surface": "spinal ablation",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "spinal ablation",
+   "type": "technique",
+   "surface": "spinal ablation",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "brain spike",
+   "type": "technique",
+   "surface": "brain spike",
+   "ts": "36:54"
+  },
+  {
+   "canonical": "brain spike",
+   "type": "technique",
+   "surface": "brain spike",
+   "ts": "37:26"
+  },
+  {
+   "canonical": "gill cut",
+   "type": "technique",
+   "surface": "gill cut",
+   "ts": "37:26"
+  },
+  {
+   "canonical": "tail cut",
+   "type": "technique",
+   "surface": "tail cut",
+   "ts": "37:26"
+  },
+  {
+   "canonical": "suffocation",
+   "type": "technique",
+   "surface": "suffocation",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "suffocation",
+   "type": "technique",
+   "surface": "suffocating",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "suffocation",
+   "type": "technique",
+   "surface": "suffocation",
+   "ts": "43:26"
+  },
+  {
+   "canonical": "suffocation",
+   "type": "technique",
+   "surface": "suffocation",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "rigor",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "38:19"
+  },
+  {
+   "canonical": "rigor",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "rigor",
+   "type": "technique",
+   "surface": "rigor",
+   "ts": "40:54"
+  },
+  {
+   "canonical": "dry aging",
+   "type": "technique",
+   "surface": "dry aging",
+   "ts": "39:50"
+  },
+  {
+   "canonical": "humidity controlled fridge",
+   "type": "equipment",
+   "surface": "humidity controlled fridges",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Randall FX fridges",
+   "type": "equipment",
+   "surface": "Randall FX fridges",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "41:17"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "41:51"
+  },
+  {
+   "canonical": "ice",
+   "type": "ingredient",
+   "surface": "ice",
+   "ts": "42:03"
+  },
+  {
+   "canonical": "clove oil",
+   "type": "ingredient",
+   "surface": "clove oil",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Aque S",
+   "type": "ingredient",
+   "surface": "Aque S",
+   "ts": "45:01"
+  },
+  {
+   "canonical": "coho fish",
+   "type": "ingredient",
+   "surface": "coho fish",
+   "ts": "43:46"
+  },
+  {
+   "canonical": "Ora King",
+   "type": "place",
+   "surface": "Ora King",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "The Joint",
+   "type": "place",
+   "surface": "the joint",
+   "ts": "40:11"
+  },
+  {
+   "canonical": "Patron.com",
+   "type": "place",
+   "surface": "patreon.com",
+   "ts": "38:03"
+  },
+  {
+   "canonical": "Shinkei",
+   "type": "place",
+   "surface": "Shinkei",
+   "ts": "39:01"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "patreon.com",
+   "ts": "38:03"
+  },
+  {
+   "canonical": "Michael",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Michael",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "51:57"
+  },
+  {
+   "canonical": "Michael",
+   "type": "person",
+   "surface": "Michael",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "Jacob P",
+   "type": "person",
+   "surface": "Jacob P",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "RAS",
+   "type": "technique",
+   "surface": "RAS",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "recirculating aquaculture system",
+   "type": "technique",
+   "surface": "recirculating uh aquaculture system",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "aquaponic system",
+   "type": "technique",
+   "surface": "aquaponic system",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "hydroponics",
+   "type": "technique",
+   "surface": "hydroponics",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "feed conversion ratio",
+   "type": "technique",
+   "surface": "feed conversion ratio",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "Coho salmon",
+   "type": "ingredient",
+   "surface": "Coho",
+   "ts": "51:14"
+  },
+  {
+   "canonical": "Coho salmon",
+   "type": "ingredient",
+   "surface": "Coho",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "Coho salmon",
+   "type": "ingredient",
+   "surface": "Coho",
+   "ts": "52:58"
+  },
+  {
+   "canonical": "Atlantic salmon",
+   "type": "ingredient",
+   "surface": "Atlantic salmon",
+   "ts": "53:49"
+  },
+  {
+   "canonical": "recirculating system",
+   "type": "equipment",
+   "surface": "recirculating system",
+   "ts": "52:58"
+  },
+  {
+   "canonical": "Shinke system",
+   "type": "equipment",
+   "surface": "Shinke system",
+   "ts": "51:37"
+  },
+  {
+   "canonical": "robot",
+   "type": "equipment",
+   "surface": "robot",
+   "ts": "47:57"
+  },
+  {
+   "canonical": "robot",
+   "type": "equipment",
+   "surface": "robot",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "robot",
+   "type": "equipment",
+   "surface": "robot",
+   "ts": "50:37"
+  },
+  {
+   "canonical": "spike",
+   "type": "equipment",
+   "surface": "spike",
+   "ts": "46:49"
+  },
+  {
+   "canonical": "spike",
+   "type": "equipment",
+   "surface": "spike",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "spike",
+   "type": "equipment",
+   "surface": "Spike",
+   "ts": "51:57"
+  },
+  {
+   "canonical": "suction system",
+   "type": "equipment",
+   "surface": "suctioning around the fish",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "gravity fed system",
+   "type": "equipment",
+   "surface": "gravity fed",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "funnel",
+   "type": "equipment",
+   "surface": "funnel",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "nose plate",
+   "type": "equipment",
+   "surface": "nose plate",
+   "ts": "48:59"
+  },
+  {
+   "canonical": "water jet",
+   "type": "equipment",
+   "surface": "water jet",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "aluminum",
+   "type": "ingredient",
+   "surface": "aluminum",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "stainless steel",
+   "type": "ingredient",
+   "surface": "stainless steel",
+   "ts": "49:33"
+  },
+  {
+   "canonical": "salt water",
+   "type": "ingredient",
+   "surface": "salt water",
+   "ts": "49:13"
+  },
+  {
+   "canonical": "salt water",
+   "type": "ingredient",
+   "surface": "Salt water",
+   "ts": "49:33"
+  },
+  {
+   "canonical": "aquaculture",
+   "type": "technique",
+   "surface": "aquaculture",
+   "ts": "52:05"
+  },
+  {
+   "canonical": "aquaponics",
+   "type": "technique",
+   "surface": "aquaponic system",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "biofilters",
+   "type": "equipment",
+   "surface": "biofilters",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "nitrogen cycle",
+   "type": "technique",
+   "surface": "nitrogen cycle",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "feed conversion",
+   "type": "technique",
+   "surface": "feed conversion ratio",
+   "ts": "52:26"
+  },
+  {
+   "canonical": "fresh water",
+   "type": "technique",
+   "surface": "fresh water",
+   "ts": "53:15"
+  },
+  {
+   "canonical": "fresh water",
+   "type": "technique",
+   "surface": "fresh water",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "50:37"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "53:15"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "53:49"
+  },
+  {
+   "canonical": "salmon",
+   "type": "ingredient",
+   "surface": "salmon",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "45:23"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "46:30"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "46:49"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "47:07"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "47:38"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "48:17"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "48:46"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "50:09"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "50:37"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "51:14"
+  },
+  {
+   "canonical": "fish",
+   "type": "ingredient",
+   "surface": "fish",
+   "ts": "51:37"
+  },
+  {
+   "canonical": "Michael Favreau",
+   "type": "person",
+   "surface": "Michael Favreau",
+   "ts": "55:57"
+  },
+  {
+   "canonical": "Michael Favreau",
+   "type": "person",
+   "surface": "Michael Fabro",
+   "ts": "1:02:01"
+  },
+  {
+   "canonical": "Jasmin",
+   "type": "ingredient",
+   "surface": "Jasmin",
+   "ts": "59:40"
+  },
+  {
+   "canonical": "Superior Fresh",
+   "type": "place",
+   "surface": "Superior Fresh",
+   "ts": "56:13"
+  },
+  {
+   "canonical": "Superior Fresh",
+   "type": "place",
+   "surface": "fresh or superior",
+   "ts": "56:24"
+  },
+  {
+   "canonical": "Vera Maris",
+   "type": "place",
+   "surface": "Vera Maris",
+   "ts": "59:14"
+  },
+  {
+   "canonical": "sodium hydroxide",
+   "type": "ingredient",
+   "surface": "sodium hydroxide lye",
+   "ts": "1:02:22"
+  },
+  {
+   "canonical": "hydroponics",
+   "type": "technique",
+   "surface": "hydroponics",
+   "ts": "55:01"
+  },
+  {
+   "canonical": "RAS",
+   "type": "place",
+   "surface": "ras",
+   "ts": "55:57"
+  },
+  {
+   "canonical": "RAS",
+   "type": "place",
+   "surface": "RAS",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "RAS",
+   "type": "place",
+   "surface": "ras",
+   "ts": "1:02:01"
+  },
+  {
+   "canonical": "feed conversion ratio",
+   "type": "technique",
+   "surface": "feed conversion ratio",
+   "ts": "57:45"
+  },
+  {
+   "canonical": "feed conversion ratio",
+   "type": "technique",
+   "surface": "feed conversion ratio",
+   "ts": "58:08"
+  },
+  {
+   "canonical": "feed conversion ratio",
+   "type": "technique",
+   "surface": "FCR",
+   "ts": "59:21"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "55:01"
+  },
+  {
+   "canonical": "nitrogen",
+   "type": "ingredient",
+   "surface": "nitrogen",
+   "ts": "56:59"
+  },
+  {
+   "canonical": "ozone",
+   "type": "equipment",
+   "surface": "ozone",
+   "ts": "1:00:23"
+  }
+ ]
+}

@@ -1,0 +1,1441 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Katie Varn",
+   "type": "person",
+   "surface": "Katie Varn",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "0:20"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:39"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "2:45"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "8:05"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:48"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "1:01"
+  },
+  {
+   "canonical": "Luke Pyonson",
+   "type": "person",
+   "surface": "Luke Pyonson",
+   "ts": "1:31"
+  },
+  {
+   "canonical": "Parks Barbecue",
+   "type": "place",
+   "surface": "Parks Barbecue",
+   "ts": "4:25"
+  },
+  {
+   "canonical": "Google",
+   "type": "equipment",
+   "surface": "Google",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Google",
+   "type": "equipment",
+   "surface": "Google",
+   "ts": "6:37"
+  },
+  {
+   "canonical": "Plant ID app",
+   "type": "equipment",
+   "surface": "plant ID app",
+   "ts": "6:37"
+  },
+  {
+   "canonical": "Home Depot",
+   "type": "place",
+   "surface": "home depot",
+   "ts": "1:10"
+  },
+  {
+   "canonical": "Home Depot",
+   "type": "place",
+   "surface": "Home Depot",
+   "ts": "1:50"
+  },
+  {
+   "canonical": "Home Depot",
+   "type": "place",
+   "surface": "Home Depot",
+   "ts": "5:59"
+  },
+  {
+   "canonical": "New York Philharmonic",
+   "type": "place",
+   "surface": "New York Philharmonic",
+   "ts": "8:05"
+  },
+  {
+   "canonical": "New York Philharmonic",
+   "type": "place",
+   "surface": "New York Philharmonic",
+   "ts": "8:32"
+  },
+  {
+   "canonical": "Alice Tully Hall",
+   "type": "place",
+   "surface": "Alice Tully Hall",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "Carnegie Hall",
+   "type": "place",
+   "surface": "Carnegie Hall",
+   "ts": "8:32"
+  },
+  {
+   "canonical": "Google reverse search",
+   "type": "technique",
+   "surface": "Google reverse search",
+   "ts": "5:14"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "13:03"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "13:03"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Sears All Pro",
+   "ts": "13:03"
+  },
+  {
+   "canonical": "Sears All Pro",
+   "type": "equipment",
+   "surface": "Sears All Pro",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "3D printer",
+   "type": "equipment",
+   "surface": "3D printer",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "3D printer",
+   "type": "equipment",
+   "surface": "3D printer",
+   "ts": "15:47"
+  },
+  {
+   "canonical": "3D printer",
+   "type": "equipment",
+   "surface": "3D printers",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "ABS",
+   "type": "ingredient",
+   "surface": "ABS",
+   "ts": "15:58"
+  },
+  {
+   "canonical": "PLA",
+   "type": "ingredient",
+   "surface": "PLA",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "Booker Index.com",
+   "type": "place",
+   "surface": "Booker Index.com",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "12:50"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "13:03"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Discord",
+   "type": "place",
+   "surface": "Discord",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "Sears",
+   "type": "place",
+   "surface": "Sears",
+   "ts": "13:03"
+  },
+  {
+   "canonical": "Sears",
+   "type": "place",
+   "surface": "Sears",
+   "ts": "13:41"
+  },
+  {
+   "canonical": "Rocky grinder",
+   "type": "equipment",
+   "surface": "Rocky grinder",
+   "ts": "15:09"
+  },
+  {
+   "canonical": "Barazzasette",
+   "type": "equipment",
+   "surface": "Barazzasette",
+   "ts": "15:29"
+  },
+  {
+   "canonical": "space",
+   "type": "place",
+   "surface": "space",
+   "ts": "16:20"
+  },
+  {
+   "canonical": "space",
+   "type": "place",
+   "surface": "space",
+   "ts": "16:47"
+  },
+  {
+   "canonical": "Boeing",
+   "type": "place",
+   "surface": "Boeing",
+   "ts": "17:10"
+  },
+  {
+   "canonical": "Boeing",
+   "type": "place",
+   "surface": "Boeing",
+   "ts": "17:33"
+  },
+  {
+   "canonical": "Boeing",
+   "type": "place",
+   "surface": "Boeing",
+   "ts": "17:43"
+  },
+  {
+   "canonical": "sedan",
+   "type": "equipment",
+   "surface": "sedan",
+   "ts": "18:02"
+  },
+  {
+   "canonical": "sedan",
+   "type": "equipment",
+   "surface": "sedan",
+   "ts": "18:08"
+  },
+  {
+   "canonical": "sedan",
+   "type": "equipment",
+   "surface": "sedan",
+   "ts": "18:15"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escarol",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "Escarol",
+   "ts": "20:31"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "20:45"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "21:09"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "26:17"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "Escroll",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "Brussels sprouts",
+   "type": "ingredient",
+   "surface": "Brussels sprouts",
+   "ts": "21:09"
+  },
+  {
+   "canonical": "Brussels sprouts",
+   "type": "ingredient",
+   "surface": "Brussels sprouts",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Pistachios",
+   "type": "ingredient",
+   "surface": "pistachios",
+   "ts": "22:32"
+  },
+  {
+   "canonical": "Salad spinner",
+   "type": "equipment",
+   "surface": "salad spinner",
+   "ts": "22:54"
+  },
+  {
+   "canonical": "Strawberries",
+   "type": "ingredient",
+   "surface": "strawberries",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Baking soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "25:01"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "listeria",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "E. coli",
+   "type": "ingredient",
+   "surface": "E. coli",
+   "ts": "23:41"
+  },
+  {
+   "canonical": "Clorox",
+   "type": "ingredient",
+   "surface": "Clorox",
+   "ts": "24:38"
+  },
+  {
+   "canonical": "Green cabbage",
+   "type": "ingredient",
+   "surface": "green cabbage",
+   "ts": "26:58"
+  },
+  {
+   "canonical": "Green cabbage",
+   "type": "ingredient",
+   "surface": "green cabbage",
+   "ts": "27:09"
+  },
+  {
+   "canonical": "Green cabbage",
+   "type": "ingredient",
+   "surface": "green cabbage",
+   "ts": "27:18"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "romaine",
+   "ts": "26:47"
+  },
+  {
+   "canonical": "Romaine",
+   "type": "ingredient",
+   "surface": "romaine",
+   "ts": "26:58"
+  },
+  {
+   "canonical": "Green leaves",
+   "type": "ingredient",
+   "surface": "Green leaves",
+   "ts": "26:47"
+  },
+  {
+   "canonical": "Supermarket",
+   "type": "place",
+   "surface": "supermarket",
+   "ts": "19:34"
+  },
+  {
+   "canonical": "Supermarket",
+   "type": "place",
+   "surface": "supermarket",
+   "ts": "20:05"
+  },
+  {
+   "canonical": "Supermarket",
+   "type": "place",
+   "surface": "supermarket",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Cashier",
+   "type": "person",
+   "surface": "cashier",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Cashier",
+   "type": "person",
+   "surface": "cashier",
+   "ts": "27:32"
+  },
+  {
+   "canonical": "PLU",
+   "type": "equipment",
+   "surface": "PLU",
+   "ts": "26:17"
+  },
+  {
+   "canonical": "Union Market",
+   "type": "place",
+   "surface": "Union Market",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Union Market",
+   "type": "place",
+   "surface": "Union Market",
+   "ts": "28:21"
+  },
+  {
+   "canonical": "Brooklyn Fair",
+   "type": "place",
+   "surface": "Brooklyn Fair",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Calluccio Brothers",
+   "type": "place",
+   "surface": "Calluccio Brothers",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Portugalia Marketplace",
+   "type": "place",
+   "surface": "Portugalia Marketplace",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Fall River, Massachusetts",
+   "type": "place",
+   "surface": "Fall River Mass",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Baccala",
+   "type": "ingredient",
+   "surface": "baccala",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Baccala",
+   "type": "ingredient",
+   "surface": "Baccala",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "29:35"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "salt fish",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "Yam",
+   "type": "ingredient",
+   "surface": "yams",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "Poly",
+   "type": "ingredient",
+   "surface": "poly",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braised",
+   "ts": "28:47"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braise",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "Soaking",
+   "type": "technique",
+   "surface": "soak",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Soaking",
+   "type": "technique",
+   "surface": "soak",
+   "ts": "31:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:35"
+  },
+  {
+   "canonical": "Calluccio Brothers",
+   "type": "place",
+   "surface": "Calluccio Brothers",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Portugalia Marketplace",
+   "type": "place",
+   "surface": "Portugalia Marketplace",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Baccala",
+   "type": "ingredient",
+   "surface": "baccala",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Baccala",
+   "type": "ingredient",
+   "surface": "Baccala",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "29:35"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "29:51"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Cod",
+   "type": "ingredient",
+   "surface": "salt fish",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "Yam",
+   "type": "ingredient",
+   "surface": "yams",
+   "ts": "31:09"
+  },
+  {
+   "canonical": "Poly",
+   "type": "ingredient",
+   "surface": "poly",
+   "ts": "30:51"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braised",
+   "ts": "28:47"
+  },
+  {
+   "canonical": "Braising",
+   "type": "technique",
+   "surface": "braise",
+   "ts": "29:10"
+  },
+  {
+   "canonical": "Soaking",
+   "type": "technique",
+   "surface": "soak",
+   "ts": "30:19"
+  },
+  {
+   "canonical": "Soaking",
+   "type": "technique",
+   "surface": "soak",
+   "ts": "31:23"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "29:35"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "28:39"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "28:47"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escroll",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "escarol",
+   "ts": "32:35"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "Escroll",
+   "ts": "32:46"
+  },
+  {
+   "canonical": "Escarol",
+   "type": "ingredient",
+   "surface": "Escroll",
+   "ts": "32:54"
+  },
+  {
+   "canonical": "Bob Mould",
+   "type": "person",
+   "surface": "Bob Mould",
+   "ts": "33:15"
+  },
+  {
+   "canonical": "Bob Mould",
+   "type": "person",
+   "surface": "Bob Mould",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Bob Mould",
+   "type": "person",
+   "surface": "Bob Mould",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Sub Pop",
+   "type": "place",
+   "surface": "subpop",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Warner Brothers",
+   "type": "place",
+   "surface": "Warner Brothers",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Phoebe Bridges",
+   "type": "person",
+   "surface": "Phoebe Bridges",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Natalie",
+   "type": "person",
+   "surface": "Natalie",
+   "ts": "36:08"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "33:38"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "33:48"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "34:08"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "34:22"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "34:43"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "35:04"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Indie",
+   "type": "technique",
+   "surface": "indie",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "Natalie Maring",
+   "type": "person",
+   "surface": "Natalie",
+   "ts": "37:44"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "37:20"
+  },
+  {
+   "canonical": "Promoter pasta",
+   "type": "technique",
+   "surface": "promoter pasta",
+   "ts": "38:24"
+  },
+  {
+   "canonical": "Crudit\u00e9",
+   "type": "ingredient",
+   "surface": "crudete",
+   "ts": "40:15"
+  },
+  {
+   "canonical": "Crudit\u00e9",
+   "type": "ingredient",
+   "surface": "crudete",
+   "ts": "40:30"
+  },
+  {
+   "canonical": "Pre-washed arugula",
+   "type": "ingredient",
+   "surface": "Pre-washed arugula",
+   "ts": "41:09"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "Listeria",
+   "ts": "41:23"
+  },
+  {
+   "canonical": "Listeria",
+   "type": "ingredient",
+   "surface": "listeria",
+   "ts": "41:31"
+  },
+  {
+   "canonical": "Baby carrots",
+   "type": "ingredient",
+   "surface": "baby carrots",
+   "ts": "40:15"
+  },
+  {
+   "canonical": "Baby carrots",
+   "type": "ingredient",
+   "surface": "baby carrots",
+   "ts": "40:30"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "hummus",
+   "ts": "39:11"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "hummus",
+   "ts": "39:18"
+  },
+  {
+   "canonical": "Hummus",
+   "type": "ingredient",
+   "surface": "hummus",
+   "ts": "39:43"
+  },
+  {
+   "canonical": "Stephen Merritt",
+   "type": "person",
+   "surface": "Stephen Merritt",
+   "ts": "39:18"
+  },
+  {
+   "canonical": "Kiko Man",
+   "type": "person",
+   "surface": "Kiko Man",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Gluten-free panko",
+   "type": "ingredient",
+   "surface": "gluten free panko",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Gluten-free panko",
+   "type": "ingredient",
+   "surface": "gluten-free panko",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Panko",
+   "type": "ingredient",
+   "surface": "panko",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Panko",
+   "type": "ingredient",
+   "surface": "panko",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Panko",
+   "type": "ingredient",
+   "surface": "panko",
+   "ts": "44:42"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Rice flour",
+   "type": "ingredient",
+   "surface": "rice flour",
+   "ts": "44:42"
+  },
+  {
+   "canonical": "Potato starch",
+   "type": "ingredient",
+   "surface": "potato starch",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "43:44"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "44:42"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "Gluten",
+   "type": "ingredient",
+   "surface": "gluten",
+   "ts": "45:09"
+  },
+  {
+   "canonical": "Milanese",
+   "type": "technique",
+   "surface": "milanese",
+   "ts": "43:21"
+  },
+  {
+   "canonical": "Milanese",
+   "type": "technique",
+   "surface": "milanese",
+   "ts": "43:30"
+  },
+  {
+   "canonical": "Milanese",
+   "type": "technique",
+   "surface": "milanese",
+   "ts": "44:09"
+  },
+  {
+   "canonical": "Milanese",
+   "type": "technique",
+   "surface": "Milanese",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Frying",
+   "type": "technique",
+   "surface": "frying",
+   "ts": "44:33"
+  },
+  {
+   "canonical": "Japanese fried chicken",
+   "type": "technique",
+   "surface": "Japanese fried chicken",
+   "ts": "44:56"
+  },
+  {
+   "canonical": "Airbnb",
+   "type": "place",
+   "surface": "Airbnb",
+   "ts": "42:54"
+  },
+  {
+   "canonical": "Denver Airport",
+   "type": "place",
+   "surface": "Denver airport",
+   "ts": "41:59"
+  },
+  {
+   "canonical": "Denver Airport",
+   "type": "place",
+   "surface": "Denver Airport",
+   "ts": "42:28"
+  },
+  {
+   "canonical": "Denver Airport",
+   "type": "place",
+   "surface": "Denver airport",
+   "ts": "42:37"
+  },
+  {
+   "canonical": "Airport salad",
+   "type": "ingredient",
+   "surface": "Airport salad",
+   "ts": "41:50"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "48:15"
+  },
+  {
+   "canonical": "Nastasi",
+   "type": "person",
+   "surface": "Nastasi",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "habanero",
+   "ts": "47:18"
+  },
+  {
+   "canonical": "Habanero",
+   "type": "ingredient",
+   "surface": "Habanero",
+   "ts": "47:49"
+  },
+  {
+   "canonical": "Peach",
+   "type": "ingredient",
+   "surface": "peach",
+   "ts": "48:25"
+  },
+  {
+   "canonical": "Peach",
+   "type": "ingredient",
+   "surface": "peach",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "Peach",
+   "type": "ingredient",
+   "surface": "peach",
+   "ts": "49:22"
+  },
+  {
+   "canonical": "Peach",
+   "type": "ingredient",
+   "surface": "peach",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Cloves",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Cloves",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Cloves",
+   "type": "ingredient",
+   "surface": "Cloves",
+   "ts": "50:57"
+  },
+  {
+   "canonical": "Cloves",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Cloves",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "52:09"
+  },
+  {
+   "canonical": "Cinnamon",
+   "type": "ingredient",
+   "surface": "cinnamon",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Cinnamon",
+   "type": "ingredient",
+   "surface": "cinnamon",
+   "ts": "51:26"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "50:28"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "51:26"
+  },
+  {
+   "canonical": "Korea",
+   "type": "place",
+   "surface": "Korea",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Lower Manhattan",
+   "type": "place",
+   "surface": "Lower Manhattan",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Wormwood",
+   "type": "ingredient",
+   "surface": "Wormwood",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Wormwood",
+   "type": "ingredient",
+   "surface": "wormwood",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Artemesia",
+   "type": "ingredient",
+   "surface": "artemesia",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Weevils",
+   "type": "place",
+   "surface": "weevils",
+   "ts": "53:55"
+  },
+  {
+   "canonical": "Weevils",
+   "type": "place",
+   "surface": "weevils",
+   "ts": "54:04"
+  },
+  {
+   "canonical": "Weevils",
+   "type": "place",
+   "surface": "weevils",
+   "ts": "54:10"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaf",
+   "ts": "52:46"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaf",
+   "ts": "53:10"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "53:19"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "53:32"
+  },
+  {
+   "canonical": "Bay Leaf",
+   "type": "ingredient",
+   "surface": "bay leaves",
+   "ts": "53:42"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "cloves",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "50:28"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "Cloves",
+   "ts": "50:57"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "51:36"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "Clove",
+   "type": "ingredient",
+   "surface": "clove",
+   "ts": "52:09"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "49:40"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "50:28"
+  },
+  {
+   "canonical": "Orange",
+   "type": "ingredient",
+   "surface": "orange",
+   "ts": "51:26"
+  },
+  {
+   "canonical": "Sauerkraut",
+   "type": "ingredient",
+   "surface": "sauerkraut",
+   "ts": "52:09"
+  },
+  {
+   "canonical": "Spice Class",
+   "type": "place",
+   "surface": "spice class",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Essex Market",
+   "type": "place",
+   "surface": "Essex Market",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "Cheesecloth",
+   "type": "equipment",
+   "surface": "cheesecloth",
+   "ts": "52:40"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "55:48"
+  },
+  {
+   "canonical": "Superiority Burger",
+   "type": "place",
+   "surface": "Superiority Burger",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Ugly Baby",
+   "type": "place",
+   "surface": "Ugly Baby",
+   "ts": "57:11"
+  },
+  {
+   "canonical": "Pavement",
+   "type": "place",
+   "surface": "pavement",
+   "ts": "54:44"
+  },
+  {
+   "canonical": "Pavement",
+   "type": "place",
+   "surface": "Pavement",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Pavement",
+   "type": "place",
+   "surface": "pavement",
+   "ts": "56:34"
+  },
+  {
+   "canonical": "Pavement",
+   "type": "place",
+   "surface": "pavement",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Mark Dybold",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "55:06"
+  },
+  {
+   "canonical": "Mark Dybold",
+   "type": "person",
+   "surface": "Mark",
+   "ts": "55:18"
+  },
+  {
+   "canonical": "Malcolm",
+   "type": "person",
+   "surface": "Malcolmus",
+   "ts": "55:06"
+  },
+  {
+   "canonical": "Slandan Enchanter",
+   "type": "place",
+   "surface": "Slandan Enchanter",
+   "ts": "56:14"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "55:48"
+  },
+  {
+   "canonical": "Luke Pyanson",
+   "type": "person",
+   "surface": "Luke Pineson",
+   "ts": "1:01:04"
+  },
+  {
+   "canonical": "Hydraulic press",
+   "type": "equipment",
+   "surface": "hydraulic press",
+   "ts": "58:53"
+  },
+  {
+   "canonical": "Harbor Freight",
+   "type": "place",
+   "surface": "Harbor Freight",
+   "ts": "58:53"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "58:53"
+  },
+  {
+   "canonical": "French fry technique",
+   "type": "technique",
+   "surface": "French fry technique",
+   "ts": "59:16"
+  },
+  {
+   "canonical": "Taste in Music, Eating on Tour with Indie Musicians",
+   "type": "place",
+   "surface": "taste in Music, Eating on Tour with Indie Musicians",
+   "ts": "59:36"
+  }
+ ]
+}

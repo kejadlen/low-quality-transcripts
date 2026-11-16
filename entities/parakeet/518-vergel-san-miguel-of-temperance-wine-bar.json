@@ -1,0 +1,1855 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:29"
+  },
+  {
+   "canonical": "Nastasia Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:45"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "1:13"
+  },
+  {
+   "canonical": "John Hool",
+   "type": "person",
+   "surface": "John Hool",
+   "ts": "1:26"
+  },
+  {
+   "canonical": "Sargon",
+   "type": "person",
+   "surface": "Sargon",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "Temperance",
+   "ts": "1:38"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "temperance",
+   "ts": "5:36"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "temperance",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Twinkie",
+   "type": "ingredient",
+   "surface": "Twinkie",
+   "ts": "1:42"
+  },
+  {
+   "canonical": "Twinkie",
+   "type": "ingredient",
+   "surface": "Twinkie",
+   "ts": "1:58"
+  },
+  {
+   "canonical": "Twinkie",
+   "type": "ingredient",
+   "surface": "Twinkie",
+   "ts": "2:00"
+  },
+  {
+   "canonical": "Twinkie",
+   "type": "ingredient",
+   "surface": "Twinkie",
+   "ts": "2:17"
+  },
+  {
+   "canonical": "Twinkie",
+   "type": "ingredient",
+   "surface": "Twinkie",
+   "ts": "2:36"
+  },
+  {
+   "canonical": "Twinkie",
+   "type": "ingredient",
+   "surface": "Twinkie",
+   "ts": "3:05"
+  },
+  {
+   "canonical": "Mountain Dew",
+   "type": "ingredient",
+   "surface": "Mountain dew",
+   "ts": "3:27"
+  },
+  {
+   "canonical": "Diet Mountain Dew",
+   "type": "ingredient",
+   "surface": "Diet Mountain Dew",
+   "ts": "3:27"
+  },
+  {
+   "canonical": "Kippered Fish",
+   "type": "ingredient",
+   "surface": "kippered fish",
+   "ts": "3:33"
+  },
+  {
+   "canonical": "Quinn Futur",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "4:16"
+  },
+  {
+   "canonical": "Quinn Futur",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "Virgil Sam Miguel",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "Virgil Sam Miguel",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "5:03"
+  },
+  {
+   "canonical": "Virgil Sam Miguel",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "5:36"
+  },
+  {
+   "canonical": "Virgil Sam Miguel",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "Temperance",
+   "ts": "1:38"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "temperance",
+   "ts": "5:36"
+  },
+  {
+   "canonical": "Temperance",
+   "type": "place",
+   "surface": "temperance",
+   "ts": "5:50"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "6:52"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "6:59"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "8:39"
+  },
+  {
+   "canonical": "Aspen",
+   "type": "place",
+   "surface": "Aspen",
+   "ts": "8:49"
+  },
+  {
+   "canonical": "coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "6:35"
+  },
+  {
+   "canonical": "coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "7:28"
+  },
+  {
+   "canonical": "coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "6:17"
+  },
+  {
+   "canonical": "wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "9:02"
+  },
+  {
+   "canonical": "relative humidity",
+   "type": "technique",
+   "surface": "relative humidity",
+   "ts": "8:26"
+  },
+  {
+   "canonical": "altitude",
+   "type": "technique",
+   "surface": "altitude",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "sommelier",
+   "type": "person",
+   "surface": "Sommelier",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "sommelier",
+   "type": "person",
+   "surface": "Sommelier",
+   "ts": "4:36"
+  },
+  {
+   "canonical": "sommelier",
+   "type": "person",
+   "surface": "Sommelier",
+   "ts": "4:52"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Virgil",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "10:34"
+  },
+  {
+   "canonical": "Virgil",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "14:23"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "13:30"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "13:43"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "15:08"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "13:14"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "14:45"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "15:08"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "15:24"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "California Merlot",
+   "type": "ingredient",
+   "surface": "twelve dollar California Merlot",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "11:59"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "12:06"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "12:17"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "13:07"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "13:14"
+  },
+  {
+   "canonical": "horse",
+   "type": "ingredient",
+   "surface": "horse",
+   "ts": "13:30"
+  },
+  {
+   "canonical": "tubak chalk",
+   "type": "ingredient",
+   "surface": "tubak chalk",
+   "ts": "10:53"
+  },
+  {
+   "canonical": "Sicily",
+   "type": "place",
+   "surface": "island off the coast of Sicily",
+   "ts": "11:46"
+  },
+  {
+   "canonical": "Anti-Griddle",
+   "type": "equipment",
+   "surface": "potted plant",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "shot",
+   "type": "technique",
+   "surface": "shots",
+   "ts": "9:23"
+  },
+  {
+   "canonical": "shot",
+   "type": "technique",
+   "surface": "shots",
+   "ts": "9:52"
+  },
+  {
+   "canonical": "shot",
+   "type": "technique",
+   "surface": "shots",
+   "ts": "10:12"
+  },
+  {
+   "canonical": "Bagel Fest",
+   "type": "place",
+   "surface": "Bagel Fest",
+   "ts": "14:45"
+  },
+  {
+   "canonical": "Bagel Fest",
+   "type": "place",
+   "surface": "Bagel Fest",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Olmo",
+   "type": "place",
+   "surface": "Olmo",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Olmo",
+   "type": "place",
+   "surface": "Olmo",
+   "ts": "16:04"
+  },
+  {
+   "canonical": "Olmo",
+   "type": "place",
+   "surface": "Umo's",
+   "ts": "16:22"
+  },
+  {
+   "canonical": "Pop Up Bagel",
+   "type": "place",
+   "surface": "Pop Up Bagel",
+   "ts": "15:40"
+  },
+  {
+   "canonical": "Chinning Daughters",
+   "type": "place",
+   "surface": "Chinning Daughters",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "Finger Lakes",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "Finger Lakes",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "finger lakes",
+   "ts": "17:52"
+  },
+  {
+   "canonical": "Napa Valley",
+   "type": "place",
+   "surface": "Napa Valley",
+   "ts": "17:29"
+  },
+  {
+   "canonical": "Long Island",
+   "type": "place",
+   "surface": "Long Island",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Hamptons",
+   "type": "place",
+   "surface": "Hamptons",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Warthog",
+   "type": "ingredient",
+   "surface": "warthog",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Sourdough",
+   "type": "ingredient",
+   "surface": "sourdough",
+   "ts": "16:04"
+  },
+  {
+   "canonical": "82% Extraction Flour",
+   "type": "ingredient",
+   "surface": "82 uh percent extraction flour",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Stone Grind",
+   "type": "equipment",
+   "surface": "stone grime",
+   "ts": "16:28"
+  },
+  {
+   "canonical": "Sourdough Bagel",
+   "type": "ingredient",
+   "surface": "sourdough bagel",
+   "ts": "16:04"
+  },
+  {
+   "canonical": "Hickory",
+   "type": "ingredient",
+   "surface": "hickory",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "Diamond Variety",
+   "type": "ingredient",
+   "surface": "diamond uh variety",
+   "ts": "17:17"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "27:26"
+  },
+  {
+   "canonical": "Riesling",
+   "type": "ingredient",
+   "surface": "Riesling",
+   "ts": "26:51"
+  },
+  {
+   "canonical": "Riesling",
+   "type": "ingredient",
+   "surface": "Riesling",
+   "ts": "27:05"
+  },
+  {
+   "canonical": "Finger Lakes",
+   "type": "place",
+   "surface": "Fingerlakes",
+   "ts": "27:05"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tannic",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tannin",
+   "ts": "22:26"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tannin",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tannin",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tanning",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tanning",
+   "ts": "25:04"
+  },
+  {
+   "canonical": "Tannins",
+   "type": "technique",
+   "surface": "tannin",
+   "ts": "26:03"
+  },
+  {
+   "canonical": "Acetic Acid",
+   "type": "ingredient",
+   "surface": "acetic",
+   "ts": "20:31"
+  },
+  {
+   "canonical": "Acetic Acid",
+   "type": "ingredient",
+   "surface": "acetic",
+   "ts": "20:39"
+  },
+  {
+   "canonical": "Acetic Acid",
+   "type": "ingredient",
+   "surface": "acetic",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Hickory",
+   "type": "ingredient",
+   "surface": "hickory",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Hickory",
+   "type": "ingredient",
+   "surface": "hickory",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "Hickory",
+   "type": "ingredient",
+   "surface": "hickory",
+   "ts": "26:32"
+  },
+  {
+   "canonical": "Zinfandel",
+   "type": "ingredient",
+   "surface": "white zin",
+   "ts": "25:16"
+  },
+  {
+   "canonical": "Zinfandel",
+   "type": "ingredient",
+   "surface": "Zinfandel",
+   "ts": "25:42"
+  },
+  {
+   "canonical": "Diamond (grape)",
+   "type": "ingredient",
+   "surface": "diamond",
+   "ts": "18:40"
+  },
+  {
+   "canonical": "Diamond (grape)",
+   "type": "ingredient",
+   "surface": "Diamond",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Diamond (grape)",
+   "type": "ingredient",
+   "surface": "Diamond",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Concord",
+   "type": "ingredient",
+   "surface": "Concord",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Iona",
+   "type": "ingredient",
+   "surface": "Iona",
+   "ts": "18:50"
+  },
+  {
+   "canonical": "Shining Daughters",
+   "type": "place",
+   "surface": "Shining Daughters",
+   "ts": "19:51"
+  },
+  {
+   "canonical": "Grapes of New York",
+   "type": "place",
+   "surface": "Grapes of New York",
+   "ts": "19:11"
+  },
+  {
+   "canonical": "Grapes of New York",
+   "type": "place",
+   "surface": "Grapes of New York",
+   "ts": "19:18"
+  },
+  {
+   "canonical": "Turley",
+   "type": "place",
+   "surface": "Turley",
+   "ts": "25:16"
+  },
+  {
+   "canonical": "Turley",
+   "type": "place",
+   "surface": "Turley",
+   "ts": "25:30"
+  },
+  {
+   "canonical": "Justin Freud",
+   "type": "person",
+   "surface": "Justin Freud",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "Justin Freud",
+   "type": "person",
+   "surface": "Justin Freud",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "20:15"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "25:24"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Christina Turley",
+   "type": "person",
+   "surface": "Christina Turley",
+   "ts": "25:30"
+  },
+  {
+   "canonical": "Baga",
+   "type": "ingredient",
+   "surface": "baga",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Carbon (wine)",
+   "type": "ingredient",
+   "surface": "Carbon",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Scare Quotes",
+   "type": "technique",
+   "surface": "scare quotes",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "Scare Quotes",
+   "type": "technique",
+   "surface": "scare quotes",
+   "ts": "21:44"
+  },
+  {
+   "canonical": "Scare Quotes",
+   "type": "technique",
+   "surface": "Scare quotes",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Dry Mouth",
+   "type": "technique",
+   "surface": "dry mouth",
+   "ts": "21:30"
+  },
+  {
+   "canonical": "Dry Mouth",
+   "type": "technique",
+   "surface": "dry mouth",
+   "ts": "21:50"
+  },
+  {
+   "canonical": "Dry Mouth",
+   "type": "technique",
+   "surface": "dry mouth",
+   "ts": "22:04"
+  },
+  {
+   "canonical": "Acidity",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "20:39"
+  },
+  {
+   "canonical": "Volatile Acidity",
+   "type": "technique",
+   "surface": "volatile acidity",
+   "ts": "20:59"
+  },
+  {
+   "canonical": "Skin Contact",
+   "type": "technique",
+   "surface": "skin contact",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Polyphenols",
+   "type": "ingredient",
+   "surface": "polyphenols",
+   "ts": "22:51"
+  },
+  {
+   "canonical": "Anthocyanins",
+   "type": "ingredient",
+   "surface": "anthocyanins",
+   "ts": "22:26"
+  },
+  {
+   "canonical": "Oxidation",
+   "type": "technique",
+   "surface": "oxidize",
+   "ts": "27:21"
+  },
+  {
+   "canonical": "Unoxidized",
+   "type": "technique",
+   "surface": "unoxidized",
+   "ts": "27:05"
+  },
+  {
+   "canonical": "Steel Tank",
+   "type": "equipment",
+   "surface": "steel tank",
+   "ts": "26:15"
+  },
+  {
+   "canonical": "Hawkin Cheesies",
+   "type": "ingredient",
+   "surface": "Hawkin cheesies",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Sargon",
+   "type": "person",
+   "surface": "Sargon",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Sargon",
+   "type": "person",
+   "surface": "Sargon",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "Sargon",
+   "type": "person",
+   "surface": "Sargon",
+   "ts": "29:22"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "28:07"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "29:07"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "Virgil",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "Virgil",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "36:27"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "31:14"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "Sargon's",
+   "type": "place",
+   "surface": "Sargon's",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "sulfites",
+   "type": "ingredient",
+   "surface": "sulfuring agent",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "sulfites",
+   "type": "ingredient",
+   "surface": "sulfides",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "sulfites",
+   "type": "ingredient",
+   "surface": "sulfites",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "sulfites",
+   "type": "ingredient",
+   "surface": "sulfites",
+   "ts": "30:46"
+  },
+  {
+   "canonical": "MSG",
+   "type": "ingredient",
+   "surface": "MSG",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "sulfite concentration",
+   "type": "technique",
+   "surface": "sulfite concentration",
+   "ts": "29:22"
+  },
+  {
+   "canonical": "natural wine",
+   "type": "ingredient",
+   "surface": "natural wine",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "orange wine",
+   "type": "ingredient",
+   "surface": "orange wine",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "orange wine",
+   "type": "ingredient",
+   "surface": "orange wine",
+   "ts": "28:36"
+  },
+  {
+   "canonical": "Riesling",
+   "type": "ingredient",
+   "surface": "Riesling",
+   "ts": "27:43"
+  },
+  {
+   "canonical": "sulfur",
+   "type": "ingredient",
+   "surface": "sulfur",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "ketchup potato chips",
+   "type": "ingredient",
+   "surface": "ketchup potato chips",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "bullion cubes",
+   "type": "ingredient",
+   "surface": "bullion cubes",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "potato chips",
+   "type": "ingredient",
+   "surface": "potato chips",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "potato chips",
+   "type": "ingredient",
+   "surface": "potato chips",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:23"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "28:53"
+  },
+  {
+   "canonical": "fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "pasteurization",
+   "type": "technique",
+   "surface": "pasteurization",
+   "ts": "29:13"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "29:52"
+  },
+  {
+   "canonical": "hydration",
+   "type": "technique",
+   "surface": "hydration",
+   "ts": "30:18"
+  },
+  {
+   "canonical": "Sargon's",
+   "type": "place",
+   "surface": "Sargon's",
+   "ts": "28:24"
+  },
+  {
+   "canonical": "Senegal",
+   "type": "place",
+   "surface": "Senegal",
+   "ts": "31:36"
+  },
+  {
+   "canonical": "Canada",
+   "type": "place",
+   "surface": "Canada",
+   "ts": "32:06"
+  },
+  {
+   "canonical": "Wesley Willis",
+   "type": "person",
+   "surface": "Wesley Willis",
+   "ts": "32:52"
+  },
+  {
+   "canonical": "Wesley Willis",
+   "type": "person",
+   "surface": "Wesley Willis",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Wesley Willis",
+   "type": "person",
+   "surface": "Wesley Willis",
+   "ts": "34:08"
+  },
+  {
+   "canonical": "Wesley Willis",
+   "type": "person",
+   "surface": "Wesley Willis",
+   "ts": "36:02"
+  },
+  {
+   "canonical": "Sir Kensington's",
+   "type": "place",
+   "surface": "Sir Kensington's",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Heinz",
+   "type": "place",
+   "surface": "Heinz",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Heinz",
+   "type": "place",
+   "surface": "Heinz",
+   "ts": "34:58"
+  },
+  {
+   "canonical": "Drag City",
+   "type": "place",
+   "surface": "Drag City",
+   "ts": "33:22"
+  },
+  {
+   "canonical": "Lab L E B",
+   "type": "ingredient",
+   "surface": "Lab L E B",
+   "ts": "37:03"
+  },
+  {
+   "canonical": "box wine",
+   "type": "ingredient",
+   "surface": "box wine",
+   "ts": "36:27"
+  },
+  {
+   "canonical": "box wine",
+   "type": "ingredient",
+   "surface": "box wine",
+   "ts": "37:03"
+  },
+  {
+   "canonical": "Casio",
+   "type": "equipment",
+   "surface": "Casio",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "Casio",
+   "type": "equipment",
+   "surface": "Casio",
+   "ts": "34:35"
+  },
+  {
+   "canonical": "schizophrenia",
+   "type": "technique",
+   "surface": "schizophrenic",
+   "ts": "33:36"
+  },
+  {
+   "canonical": "schizophrenia",
+   "type": "technique",
+   "surface": "schizophrenic",
+   "ts": "35:17"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "39:39"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "43:15"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "44:16"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "44:34"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Virgil",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "37:22"
+  },
+  {
+   "canonical": "Virgil",
+   "type": "person",
+   "surface": "Virgil",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "40:46"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "41:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "42:24"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Stassi",
+   "type": "person",
+   "surface": "Stassi",
+   "ts": "39:26"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "39:39"
+  },
+  {
+   "canonical": "Wizmard",
+   "type": "person",
+   "surface": "Wizmard",
+   "ts": "44:16"
+  },
+  {
+   "canonical": "Wizmard",
+   "type": "person",
+   "surface": "Whimsard",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Madame Tussauds",
+   "type": "place",
+   "surface": "Madame Toussauds",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Hall of Horrors",
+   "type": "place",
+   "surface": "Hall of Horrors",
+   "ts": "41:08"
+  },
+  {
+   "canonical": "Hall of Horrors",
+   "type": "place",
+   "surface": "Hall of Horrors",
+   "ts": "41:26"
+  },
+  {
+   "canonical": "Rust",
+   "type": "place",
+   "surface": "Rust",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Austria",
+   "type": "place",
+   "surface": "Austria",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Austria",
+   "type": "place",
+   "surface": "Austria",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Hungary",
+   "type": "place",
+   "surface": "Hungary",
+   "ts": "46:16"
+  },
+  {
+   "canonical": "Hungary",
+   "type": "place",
+   "surface": "Hungary",
+   "ts": "46:32"
+  },
+  {
+   "canonical": "Hungary",
+   "type": "place",
+   "surface": "Hungary",
+   "ts": "46:55"
+  },
+  {
+   "canonical": "Moscatel",
+   "type": "ingredient",
+   "surface": "Moscata Pettigran",
+   "ts": "46:00"
+  },
+  {
+   "canonical": "Orange Wine",
+   "type": "technique",
+   "surface": "orange wine",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Skin Contact",
+   "type": "technique",
+   "surface": "skin contact",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Skin Contact",
+   "type": "technique",
+   "surface": "Skin contact",
+   "ts": "46:00"
+  },
+  {
+   "canonical": "Tontack",
+   "type": "ingredient",
+   "surface": "Tontack",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Hungarian Pepper Pastes",
+   "type": "ingredient",
+   "surface": "Hungarian pepper pastes",
+   "ts": "46:55"
+  },
+  {
+   "canonical": "Hungarian Pepper Pastes",
+   "type": "ingredient",
+   "surface": "Hungarian pepper pastes",
+   "ts": "47:02"
+  },
+  {
+   "canonical": "Eros Pista",
+   "type": "ingredient",
+   "surface": "Eros pista",
+   "ts": "47:02"
+  },
+  {
+   "canonical": "Coffee Crisp",
+   "type": "ingredient",
+   "surface": "coffee crisp",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Wine Gums",
+   "type": "ingredient",
+   "surface": "wine gums",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Smarties",
+   "type": "ingredient",
+   "surface": "Smarties",
+   "ts": "40:46"
+  },
+  {
+   "canonical": "Toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "39:39"
+  },
+  {
+   "canonical": "Toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "39:59"
+  },
+  {
+   "canonical": "Toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "40:58"
+  },
+  {
+   "canonical": "Toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "42:07"
+  },
+  {
+   "canonical": "Toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "42:24"
+  },
+  {
+   "canonical": "Toffee",
+   "type": "ingredient",
+   "surface": "toffee",
+   "ts": "43:00"
+  },
+  {
+   "canonical": "Ketchup Chip",
+   "type": "ingredient",
+   "surface": "ketchup chip",
+   "ts": "40:36"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "37:50"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "38:14"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "liquor",
+   "ts": "38:31"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "44:46"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "45:34"
+  },
+  {
+   "canonical": "Wine",
+   "type": "ingredient",
+   "surface": "wine",
+   "ts": "45:51"
+  },
+  {
+   "canonical": "Box Wine",
+   "type": "ingredient",
+   "surface": "box wine",
+   "ts": "37:31"
+  },
+  {
+   "canonical": "Box Wine",
+   "type": "ingredient",
+   "surface": "box wine",
+   "ts": "37:50"
+  },
+  {
+   "canonical": "Box Wine",
+   "type": "ingredient",
+   "surface": "box wine",
+   "ts": "38:14"
+  },
+  {
+   "canonical": "Hungarian Pepper Paste",
+   "type": "ingredient",
+   "surface": "Hungarian pepper paste",
+   "ts": "47:23"
+  },
+  {
+   "canonical": "Hungarian Pepper Paste",
+   "type": "ingredient",
+   "surface": "Hungarian pepper paste",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Ridgewood Pork Store",
+   "type": "place",
+   "surface": "Ridgewood Pork Store",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Ridgewood Pork Store",
+   "type": "place",
+   "surface": "Ridgewood pork store",
+   "ts": "47:47"
+  },
+  {
+   "canonical": "Monken Food Store",
+   "type": "place",
+   "surface": "Monken Food store",
+   "ts": "47:35"
+  },
+  {
+   "canonical": "Monken Food Store",
+   "type": "place",
+   "surface": "Munken",
+   "ts": "48:00"
+  },
+  {
+   "canonical": "Chicharr\u00f3n",
+   "type": "ingredient",
+   "surface": "chicharones",
+   "ts": "48:12"
+  },
+  {
+   "canonical": "Chicharr\u00f3n",
+   "type": "ingredient",
+   "surface": "chicharron",
+   "ts": "48:24"
+  },
+  {
+   "canonical": "Chicharr\u00f3n",
+   "type": "ingredient",
+   "surface": "chicharron",
+   "ts": "48:31"
+  },
+  {
+   "canonical": "Chicharr\u00f3n",
+   "type": "ingredient",
+   "surface": "chicharones",
+   "ts": "48:52"
+  },
+  {
+   "canonical": "Chicharr\u00f3n",
+   "type": "ingredient",
+   "surface": "chicharron",
+   "ts": "49:04"
+  },
+  {
+   "canonical": "Mang's All-Purpose Sauce",
+   "type": "ingredient",
+   "surface": "Mang's all-purpose sauce",
+   "ts": "49:14"
+  },
+  {
+   "canonical": "Mang's All-Purpose Sauce",
+   "type": "ingredient",
+   "surface": "Mang's all-purpose sauce",
+   "ts": "49:25"
+  },
+  {
+   "canonical": "Mang Thomas",
+   "type": "person",
+   "surface": "Mang Thomas",
+   "ts": "49:54"
+  },
+  {
+   "canonical": "Lockvogel",
+   "type": "ingredient",
+   "surface": "lockvogel",
+   "ts": "50:46"
+  },
+  {
+   "canonical": "Vensel",
+   "type": "person",
+   "surface": "Vensel",
+   "ts": "50:46"
+  },
+  {
+   "canonical": "Bayrada",
+   "type": "place",
+   "surface": "Bayrada",
+   "ts": "53:47"
+  },
+  {
+   "canonical": "Bayrada",
+   "type": "place",
+   "surface": "Bayrada",
+   "ts": "55:02"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "Natty wine",
+   "ts": "55:15"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "natty wine",
+   "ts": "55:36"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "natty wine",
+   "ts": "55:51"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "natural wine",
+   "ts": "56:12"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "natural wine",
+   "ts": "56:31"
+  },
+  {
+   "canonical": "Natural Wine",
+   "type": "ingredient",
+   "surface": "natural wine",
+   "ts": "56:56"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "58:41"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:02:14"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "58:55"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "quinn",
+   "ts": "59:41"
+  },
+  {
+   "canonical": "Cypress Hill",
+   "type": "person",
+   "surface": "Cypress Hill",
+   "ts": "1:02:43"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Sidonio",
+   "type": "person",
+   "surface": "Sidonio",
+   "ts": "58:15"
+  },
+  {
+   "canonical": "Bairada",
+   "type": "place",
+   "surface": "Bairada",
+   "ts": "58:55"
+  },
+  {
+   "canonical": "Vashon Corporation",
+   "type": "place",
+   "surface": "Vashon Corporation",
+   "ts": "59:41"
+  },
+  {
+   "canonical": "Joe Louis",
+   "type": "ingredient",
+   "surface": "Joe Louis",
+   "ts": "59:29"
+  },
+  {
+   "canonical": "Joe Louis",
+   "type": "ingredient",
+   "surface": "Joe Louis",
+   "ts": "59:41"
+  },
+  {
+   "canonical": "Cheeto Plus Plus",
+   "type": "ingredient",
+   "surface": "cheeto plus plus",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Cheeto Plus Plus",
+   "type": "ingredient",
+   "surface": "Cheeto Plus Plus",
+   "ts": "58:01"
+  },
+  {
+   "canonical": "Hawkins cheesies",
+   "type": "ingredient",
+   "surface": "Hawkins cheesies",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Sichuan pepper",
+   "type": "ingredient",
+   "surface": "Sichuan pepper",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "Sichuan pepper",
+   "type": "ingredient",
+   "surface": "Sichuan pepper",
+   "ts": "1:01:43"
+  },
+  {
+   "canonical": "Sichuan pepper",
+   "type": "ingredient",
+   "surface": "Sichuan pepper",
+   "ts": "1:03:58"
+  },
+  {
+   "canonical": "prickly ash oil",
+   "type": "ingredient",
+   "surface": "prickly ash oil",
+   "ts": "1:01:23"
+  },
+  {
+   "canonical": "prickly ash oil",
+   "type": "ingredient",
+   "surface": "prickly ash oil",
+   "ts": "1:02:43"
+  },
+  {
+   "canonical": "bag",
+   "type": "ingredient",
+   "surface": "Bag",
+   "ts": "58:45"
+  },
+  {
+   "canonical": "bag",
+   "type": "ingredient",
+   "surface": "bag",
+   "ts": "58:55"
+  },
+  {
+   "canonical": "Sausa",
+   "type": "ingredient",
+   "surface": "Sausa",
+   "ts": "58:15"
+  },
+  {
+   "canonical": "Foxy grape",
+   "type": "ingredient",
+   "surface": "Foxy grape",
+   "ts": "1:04:24"
+  },
+  {
+   "canonical": "Foxy grape",
+   "type": "ingredient",
+   "surface": "Foxy grape",
+   "ts": "1:04:47"
+  },
+  {
+   "canonical": "neutral",
+   "type": "ingredient",
+   "surface": "neutral",
+   "ts": "59:41"
+  },
+  {
+   "canonical": "hickory sticks",
+   "type": "ingredient",
+   "surface": "hickory sticks",
+   "ts": "59:41"
+  },
+  {
+   "canonical": "orange wine",
+   "type": "ingredient",
+   "surface": "orange wine",
+   "ts": "1:01:43"
+  },
+  {
+   "canonical": "orange wine",
+   "type": "ingredient",
+   "surface": "orange wine",
+   "ts": "1:03:58"
+  },
+  {
+   "canonical": "natural wine",
+   "type": "ingredient",
+   "surface": "natural wine",
+   "ts": "57:27"
+  },
+  {
+   "canonical": "BTU",
+   "type": "technique",
+   "surface": "BTU",
+   "ts": "1:03:14"
+  },
+  {
+   "canonical": "McGee test",
+   "type": "technique",
+   "surface": "McGee test",
+   "ts": "59:41"
+  }
+ ]
+}

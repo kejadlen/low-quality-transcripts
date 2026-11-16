@@ -1,0 +1,1483 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:10"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Hassan Moore",
+   "type": "person",
+   "surface": "Hassan Moore",
+   "ts": "1:03"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "Virgilio Martinez",
+   "ts": "3:13"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "chef",
+   "ts": "3:33"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "chef",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "chef",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "chef",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Lutes",
+   "type": "place",
+   "surface": "Lutes",
+   "ts": "5:10"
+  },
+  {
+   "canonical": "Central",
+   "type": "place",
+   "surface": "Central",
+   "ts": "3:33"
+  },
+  {
+   "canonical": "Central",
+   "type": "place",
+   "surface": "Central",
+   "ts": "5:39"
+  },
+  {
+   "canonical": "Central",
+   "type": "place",
+   "surface": "Central",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Central",
+   "type": "place",
+   "surface": "Central",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Miraflores",
+   "type": "place",
+   "surface": "Miraflores",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Barranco",
+   "type": "place",
+   "surface": "Barranco",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Mill",
+   "type": "place",
+   "surface": "Mill",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Ruy Cusco",
+   "type": "place",
+   "surface": "Ruy Cusco",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "New Stand Studios",
+   "type": "place",
+   "surface": "New Stand Studios",
+   "ts": "0:10"
+  },
+  {
+   "canonical": "New Stand Studios",
+   "type": "place",
+   "surface": "Newstand Studios",
+   "ts": "1:23"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:10"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Midtown",
+   "type": "place",
+   "surface": "Midtown",
+   "ts": "0:10"
+  },
+  {
+   "canonical": "Midtown",
+   "type": "place",
+   "surface": "Midtown",
+   "ts": "0:23"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "3:33"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "Lima",
+   "ts": "3:33"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "Lima",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "Lima",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "Lima",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Andes",
+   "type": "place",
+   "surface": "Andes",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Andes",
+   "type": "place",
+   "surface": "Andes",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "corn",
+   "type": "ingredient",
+   "surface": "corn",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "cacao",
+   "type": "ingredient",
+   "surface": "cacao",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "3:44"
+  },
+  {
+   "canonical": "coffee",
+   "type": "ingredient",
+   "surface": "coffee",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "altitude",
+   "type": "technique",
+   "surface": "altitude",
+   "ts": "6:42"
+  },
+  {
+   "canonical": "altitude",
+   "type": "technique",
+   "surface": "altitude",
+   "ts": "7:37"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "17:44"
+  },
+  {
+   "canonical": "Andes",
+   "type": "place",
+   "surface": "Andes",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Andes",
+   "type": "place",
+   "surface": "Andes",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "High altitude cooking",
+   "type": "technique",
+   "surface": "high altitude",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "High altitude cooking",
+   "type": "technique",
+   "surface": "high altitude",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "Pressure cooking",
+   "type": "technique",
+   "surface": "pressure cookers",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Foraging",
+   "type": "technique",
+   "surface": "foraging",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Molecular cuisine",
+   "type": "technique",
+   "surface": "molecular cucino",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Meal",
+   "type": "place",
+   "surface": "Meal",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Cordero Fundes",
+   "type": "place",
+   "surface": "Cordero Fundes",
+   "ts": "13:38"
+  },
+  {
+   "canonical": "P. Leon",
+   "type": "person",
+   "surface": "P. Leon",
+   "ts": "16:18"
+  },
+  {
+   "canonical": "Sultner",
+   "type": "person",
+   "surface": "Sultner",
+   "ts": "16:03"
+  },
+  {
+   "canonical": "Marlena",
+   "type": "person",
+   "surface": "Marlena",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "Malena",
+   "type": "person",
+   "surface": "Malena",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Inequiativa",
+   "type": "place",
+   "surface": "iniquiativa",
+   "ts": "18:45"
+  },
+  {
+   "canonical": "Andes",
+   "type": "place",
+   "surface": "Andes",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Andes",
+   "type": "place",
+   "surface": "Andes",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "Lima",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "10:18"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "local and indigenous products",
+   "type": "ingredient",
+   "surface": "local and indigenous products",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "research and interpretation center",
+   "type": "place",
+   "surface": "research and interpretation center",
+   "ts": "14:53"
+  },
+  {
+   "canonical": "cataloging",
+   "type": "technique",
+   "surface": "cataloging",
+   "ts": "19:40"
+  },
+  {
+   "canonical": "cataloging",
+   "type": "technique",
+   "surface": "cataloging",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "science and art",
+   "type": "technique",
+   "surface": "science and art",
+   "ts": "20:30"
+  },
+  {
+   "canonical": "Latin American cookbook",
+   "type": "place",
+   "surface": "Latin American cookbook",
+   "ts": "22:48"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "22:48"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "25:50"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "Cordillero Los Andes",
+   "type": "place",
+   "surface": "Cordillero Los Andes",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "Caribbean",
+   "type": "place",
+   "surface": "Caribbean",
+   "ts": "22:48"
+  },
+  {
+   "canonical": "Scandinavia",
+   "type": "place",
+   "surface": "Scandinavia",
+   "ts": "24:26"
+  },
+  {
+   "canonical": "Scandinavia",
+   "type": "place",
+   "surface": "Scandinavia",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Rio Grande",
+   "type": "place",
+   "surface": "Rio Grande",
+   "ts": "22:48"
+  },
+  {
+   "canonical": "Chiquiro",
+   "type": "ingredient",
+   "surface": "Chiquiro",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Capibera",
+   "type": "ingredient",
+   "surface": "Capibera",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Guinea peace",
+   "type": "ingredient",
+   "surface": "Guinea peace",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Rhea",
+   "type": "ingredient",
+   "surface": "Rhea",
+   "ts": "28:47"
+  },
+  {
+   "canonical": "Rhea",
+   "type": "ingredient",
+   "surface": "Rhea",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "Cartagena",
+   "type": "place",
+   "surface": "Cartagena",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "Venezuela",
+   "type": "place",
+   "surface": "Venezuela",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "22:48"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "28:14"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin America",
+   "ts": "21:51"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin America",
+   "ts": "24:43"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin America",
+   "ts": "25:03"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin America",
+   "ts": "25:28"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin America",
+   "ts": "25:50"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin America",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "South Morton Camel",
+   "type": "ingredient",
+   "surface": "South Morton Camel",
+   "ts": "32:16"
+  },
+  {
+   "canonical": "Astrid Gaston",
+   "type": "place",
+   "surface": "Astrid Gaston",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Astrid Gaston",
+   "type": "place",
+   "surface": "Astrid Ego",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Nicholas",
+   "type": "person",
+   "surface": "Nicholas",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Nicholas",
+   "type": "person",
+   "surface": "Nicholas",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "Ecuador",
+   "type": "place",
+   "surface": "Ecuador",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Ecuador",
+   "type": "place",
+   "surface": "Ecuador",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Cusco",
+   "type": "place",
+   "surface": "Cusco",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Colombia",
+   "type": "place",
+   "surface": "Colombia",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Mexico",
+   "type": "place",
+   "surface": "Mexico",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Mexico",
+   "type": "place",
+   "surface": "Mexico",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Brazil",
+   "type": "place",
+   "surface": "Brazil",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Brazil",
+   "type": "place",
+   "surface": "Brazil",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Brazil",
+   "type": "place",
+   "surface": "Brazil",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Argentina",
+   "type": "place",
+   "surface": "Argentina",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Uruguay",
+   "type": "place",
+   "surface": "Uruguay",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Paraguay",
+   "type": "place",
+   "surface": "Paraguay",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "36:19"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Latin America",
+   "type": "place",
+   "surface": "Latin American countries",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "gastronomy",
+   "type": "technique",
+   "surface": "gastronomy",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "food",
+   "type": "ingredient",
+   "surface": "food",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "food",
+   "type": "ingredient",
+   "surface": "food",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "food",
+   "type": "ingredient",
+   "surface": "food",
+   "ts": "36:19"
+  },
+  {
+   "canonical": "food",
+   "type": "ingredient",
+   "surface": "food",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "market",
+   "type": "place",
+   "surface": "market",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "street food vendors",
+   "type": "technique",
+   "surface": "street food vendors",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Alex Atala",
+   "type": "person",
+   "surface": "Alex",
+   "ts": "36:19"
+  },
+  {
+   "canonical": "Art Acurio",
+   "type": "person",
+   "surface": "Art Acurio",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Quinoa",
+   "type": "ingredient",
+   "surface": "quinoa",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Mata",
+   "type": "ingredient",
+   "surface": "mata",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Ajamarillo",
+   "type": "ingredient",
+   "surface": "ajamarillo",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Rocotto",
+   "type": "ingredient",
+   "surface": "rocotto",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Frozen Fish",
+   "type": "ingredient",
+   "surface": "frozen fish",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Chili Peppers",
+   "type": "ingredient",
+   "surface": "chili peppers",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Amazonian Ingredients",
+   "type": "ingredient",
+   "surface": "Amazonian ingredients",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "35:38"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "Brazil",
+   "type": "place",
+   "surface": "Brazil",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Brazil",
+   "type": "place",
+   "surface": "Brazil",
+   "ts": "33:50"
+  },
+  {
+   "canonical": "Brazil",
+   "type": "place",
+   "surface": "Brazil",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "34:48"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "36:19"
+  },
+  {
+   "canonical": "South America",
+   "type": "place",
+   "surface": "South America",
+   "ts": "37:10"
+  },
+  {
+   "canonical": "United States",
+   "type": "place",
+   "surface": "United States",
+   "ts": "40:03"
+  },
+  {
+   "canonical": "Pablo",
+   "type": "person",
+   "surface": "Pablo",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Pablo",
+   "type": "person",
+   "surface": "Pablo",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Alex Hazard",
+   "type": "person",
+   "surface": "Alex Hazard",
+   "ts": "48:43"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "LAX",
+   "ts": "47:47"
+  },
+  {
+   "canonical": "Lima",
+   "type": "place",
+   "surface": "LAX",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Australia",
+   "type": "place",
+   "surface": "Australia",
+   "ts": "50:15"
+  },
+  {
+   "canonical": "Australia",
+   "type": "place",
+   "surface": "Australia",
+   "ts": "50:44"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Ceviche",
+   "type": "technique",
+   "surface": "ceviche",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Acidity",
+   "type": "technique",
+   "surface": "acidity",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Acidity",
+   "type": "technique",
+   "surface": "acidity",
+   "ts": "44:42"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "44:19"
+  },
+  {
+   "canonical": "Lime Juice",
+   "type": "ingredient",
+   "surface": "lime juice",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Lemon Juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Lemon Juice",
+   "type": "ingredient",
+   "surface": "lemon juice",
+   "ts": "44:42"
+  },
+  {
+   "canonical": "Tigre",
+   "type": "ingredient",
+   "surface": "tigre",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Piranha",
+   "type": "ingredient",
+   "surface": "piranha",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Piranha",
+   "type": "ingredient",
+   "surface": "piranha",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Piranha",
+   "type": "ingredient",
+   "surface": "piranha",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "Leche de Tigre",
+   "type": "ingredient",
+   "surface": "leche the tigre",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Chunio",
+   "type": "ingredient",
+   "surface": "chunio",
+   "ts": "50:56"
+  },
+  {
+   "canonical": "Papa Seco",
+   "type": "ingredient",
+   "surface": "papa secus",
+   "ts": "51:16"
+  },
+  {
+   "canonical": "Fermentation",
+   "type": "technique",
+   "surface": "fermentation",
+   "ts": "51:36"
+  },
+  {
+   "canonical": "Freeze",
+   "type": "technique",
+   "surface": "freeze",
+   "ts": "42:20"
+  },
+  {
+   "canonical": "Customs",
+   "type": "place",
+   "surface": "customs",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Customs",
+   "type": "place",
+   "surface": "Customs",
+   "ts": "50:04"
+  },
+  {
+   "canonical": "US Customs",
+   "type": "place",
+   "surface": "US customs",
+   "ts": "48:09"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazonian",
+   "ts": "45:26"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "Virgilio Martinez",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "Virgilio Martinez",
+   "ts": "1:02:08"
+  },
+  {
+   "canonical": "Cassava",
+   "type": "ingredient",
+   "surface": "cassava",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Cassava",
+   "type": "ingredient",
+   "surface": "cassava",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Tapioca",
+   "type": "ingredient",
+   "surface": "tapioca",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Yucca",
+   "type": "ingredient",
+   "surface": "yucca",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Cassava Flour",
+   "type": "ingredient",
+   "surface": "cassava liquid",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Chicharron",
+   "type": "ingredient",
+   "surface": "chicharron",
+   "ts": "57:27"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "54:30"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "1:00:42"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "1:02:08"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "55:14"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "58:15"
+  },
+  {
+   "canonical": "Tambaki",
+   "type": "ingredient",
+   "surface": "tambaki",
+   "ts": "54:38"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:01:04"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Chilean hot dogs",
+   "type": "ingredient",
+   "surface": "Chilean hot dogs",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "57:49"
+  },
+  {
+   "canonical": "avocado",
+   "type": "ingredient",
+   "surface": "avocado",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "avocado",
+   "type": "ingredient",
+   "surface": "Avocado",
+   "ts": "59:31"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "59:31"
+  },
+  {
+   "canonical": "tomato",
+   "type": "ingredient",
+   "surface": "tomato",
+   "ts": "59:31"
+  },
+  {
+   "canonical": "ketchup",
+   "type": "ingredient",
+   "surface": "ketchup",
+   "ts": "59:31"
+  },
+  {
+   "canonical": "Chile",
+   "type": "place",
+   "surface": "Chile",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Chile",
+   "type": "place",
+   "surface": "Chile",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "54:30"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "59:44"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "1:00:42"
+  },
+  {
+   "canonical": "Peru",
+   "type": "place",
+   "surface": "Peru",
+   "ts": "1:02:08"
+  },
+  {
+   "canonical": "Hassan",
+   "type": "person",
+   "surface": "Hassan",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:01:04"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Cicherron",
+   "type": "ingredient",
+   "surface": "Cicherron",
+   "ts": "1:00:42"
+  },
+  {
+   "canonical": "Avocados",
+   "type": "ingredient",
+   "surface": "avocados",
+   "ts": "1:00:42"
+  },
+  {
+   "canonical": "Tamales",
+   "type": "ingredient",
+   "surface": "tamales",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Bananas",
+   "type": "ingredient",
+   "surface": "bananas",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Panadas",
+   "type": "ingredient",
+   "surface": "panadas",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Batabas",
+   "type": "ingredient",
+   "surface": "batabas",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "57:07"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "59:00"
+  },
+  {
+   "canonical": "Potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Legumes",
+   "type": "ingredient",
+   "surface": "legumes",
+   "ts": "52:25"
+  },
+  {
+   "canonical": "Legumes",
+   "type": "ingredient",
+   "surface": "legumes",
+   "ts": "58:15"
+  },
+  {
+   "canonical": "Legumes",
+   "type": "ingredient",
+   "surface": "legumes",
+   "ts": "59:58"
+  },
+  {
+   "canonical": "Ribs",
+   "type": "ingredient",
+   "surface": "ribs",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "Ribs",
+   "type": "ingredient",
+   "surface": "ribs",
+   "ts": "1:01:04"
+  },
+  {
+   "canonical": "Ribs",
+   "type": "ingredient",
+   "surface": "ribs",
+   "ts": "1:01:20"
+  },
+  {
+   "canonical": "Paraguay",
+   "type": "place",
+   "surface": "Paraguay",
+   "ts": "1:00:55"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "Virgilio Martinez",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Virgilio Martinez",
+   "type": "person",
+   "surface": "Virgilio Martinez",
+   "ts": "1:02:08"
+  },
+  {
+   "canonical": "Balloon Knot",
+   "type": "person",
+   "surface": "Balloon Knot",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Latin American Cookbook",
+   "type": "place",
+   "surface": "Latin American cookbook",
+   "ts": "56:00"
+  },
+  {
+   "canonical": "Latin American Cookbook",
+   "type": "place",
+   "surface": "Latin American Cookbook",
+   "ts": "1:02:08"
+  },
+  {
+   "canonical": "hemocyanin",
+   "type": "ingredient",
+   "surface": "hemocyanin",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:02:08"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:02:19"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Dax.com",
+   "ts": "1:02:40"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous vide",
+   "ts": "1:02:57"
+  },
+  {
+   "canonical": "livery",
+   "type": "ingredient",
+   "surface": "livery",
+   "ts": "1:02:57"
+  },
+  {
+   "canonical": "livery",
+   "type": "ingredient",
+   "surface": "livery",
+   "ts": "1:03:07"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:02:40"
+  }
+ ]
+}

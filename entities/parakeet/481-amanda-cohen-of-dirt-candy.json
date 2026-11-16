@@ -1,0 +1,949 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Amanda Cohen",
+   "type": "person",
+   "surface": "Amanda Cohen",
+   "ts": "2:42"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "Dirt Candy",
+   "ts": "2:42"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "3:02"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "Dirt Candy",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "Harvard University",
+   "type": "place",
+   "surface": "Harvard",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "New State Studios",
+   "type": "place",
+   "surface": "New State Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Indiegogo",
+   "type": "place",
+   "surface": "Indiegogo",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Sears Old Pro Indiegogo",
+   "type": "place",
+   "surface": "Sears Old Pro Indiegogo",
+   "ts": "1:04"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "2:25"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe Hazen",
+   "ts": "2:08"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "1:46"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:54"
+  },
+  {
+   "canonical": "Amanda",
+   "type": "person",
+   "surface": "Amanda",
+   "ts": "2:42"
+  },
+  {
+   "canonical": "Amanda",
+   "type": "person",
+   "surface": "Amanda",
+   "ts": "3:18"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "Dirt Candy",
+   "ts": "2:42"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "3:02"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "Dirt Candy",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "4:42"
+  },
+  {
+   "canonical": "vegetable restaurant",
+   "type": "place",
+   "surface": "vegetable restaurant",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "plant-based",
+   "type": "ingredient",
+   "surface": "plant-based",
+   "ts": "3:31"
+  },
+  {
+   "canonical": "plant-based",
+   "type": "ingredient",
+   "surface": "plant-based",
+   "ts": "3:54"
+  },
+  {
+   "canonical": "plant-based",
+   "type": "ingredient",
+   "surface": "Plant-based",
+   "ts": "4:13"
+  },
+  {
+   "canonical": "plant-based",
+   "type": "ingredient",
+   "surface": "plant-based",
+   "ts": "4:20"
+  },
+  {
+   "canonical": "plant-based",
+   "type": "ingredient",
+   "surface": "plant-based",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "photosynthesis",
+   "type": "technique",
+   "surface": "photosynthesis",
+   "ts": "4:26"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "Lecca",
+   "type": "place",
+   "surface": "Lecca",
+   "ts": "6:36"
+  },
+  {
+   "canonical": "Andre Kirzner",
+   "type": "person",
+   "surface": "Andre Kirzner",
+   "ts": "6:46"
+  },
+  {
+   "canonical": "Song dynasty",
+   "type": "place",
+   "surface": "Song dynasty",
+   "ts": "6:46"
+  },
+  {
+   "canonical": "Song dynasty",
+   "type": "place",
+   "surface": "Song dynasty",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "Ming dynasty",
+   "type": "place",
+   "surface": "Ming dynasty",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "vegetarian lung",
+   "type": "ingredient",
+   "surface": "vegetarian lung",
+   "ts": "9:11"
+  },
+  {
+   "canonical": "food historian",
+   "type": "person",
+   "surface": "food historian",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "New York University",
+   "type": "place",
+   "surface": "NYU",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "spring onions",
+   "type": "ingredient",
+   "surface": "spring onions",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasia",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi's",
+   "ts": "15:32"
+  },
+  {
+   "canonical": "Nastasia",
+   "type": "person",
+   "surface": "Nastasi's",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Goldbelly",
+   "type": "place",
+   "surface": "Goldbelly",
+   "ts": "10:47"
+  },
+  {
+   "canonical": "Goldbelly",
+   "type": "place",
+   "surface": "Gold Billy",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "graphic novel cookbook",
+   "type": "ingredient",
+   "surface": "graphic novel cookbook",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Museum of Food and Drink",
+   "type": "place",
+   "surface": "Museum of Food and Drink",
+   "ts": "13:21"
+  },
+  {
+   "canonical": "Amanda",
+   "type": "person",
+   "surface": "Amanda",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "liquid intelligence",
+   "type": "ingredient",
+   "surface": "liquid intelligence",
+   "ts": "12:55"
+  },
+  {
+   "canonical": "superhero martial arts training",
+   "type": "technique",
+   "surface": "superhero martial arts training",
+   "ts": "14:47"
+  },
+  {
+   "canonical": "restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "10:08"
+  },
+  {
+   "canonical": "restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "restaurant",
+   "type": "place",
+   "surface": "restaurant",
+   "ts": "17:36"
+  },
+  {
+   "canonical": "Eater",
+   "type": "place",
+   "surface": "Eater",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "coffee table books",
+   "type": "equipment",
+   "surface": "coffee table books",
+   "ts": "14:07"
+  },
+  {
+   "canonical": "coffee table books",
+   "type": "equipment",
+   "surface": "coffee table books",
+   "ts": "16:41"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey",
+   "ts": "19:11"
+  },
+  {
+   "canonical": "Jeffrey Steingarten",
+   "type": "person",
+   "surface": "Jeffrey",
+   "ts": "21:06"
+  },
+  {
+   "canonical": "Marcella Hazan",
+   "type": "person",
+   "surface": "Marcella Hazan",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "FCI",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "Iron Chef",
+   "type": "place",
+   "surface": "iron chef",
+   "ts": "20:26"
+  },
+  {
+   "canonical": "Iron Chef",
+   "type": "place",
+   "surface": "Iron Chef",
+   "ts": "20:57"
+  },
+  {
+   "canonical": "Iron Chef",
+   "type": "place",
+   "surface": "iron chef",
+   "ts": "22:05"
+  },
+  {
+   "canonical": "Iron Chef",
+   "type": "place",
+   "surface": "iron chef",
+   "ts": "22:28"
+  },
+  {
+   "canonical": "Human Centipede",
+   "type": "technique",
+   "surface": "human centipede",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "sous vide",
+   "type": "technique",
+   "surface": "sous",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "mustard ice cream",
+   "type": "ingredient",
+   "surface": "Mustard ice cream",
+   "ts": "24:11"
+  },
+  {
+   "canonical": "broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "19:11"
+  },
+  {
+   "canonical": "broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "19:24"
+  },
+  {
+   "canonical": "broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "cauliflower",
+   "type": "ingredient",
+   "surface": "cauliflower",
+   "ts": "23:27"
+  },
+  {
+   "canonical": "cauliflower",
+   "type": "ingredient",
+   "surface": "cauliflower",
+   "ts": "24:00"
+  },
+  {
+   "canonical": "11 Madison Park",
+   "type": "place",
+   "surface": "11 Madison Park",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Daniel Humm",
+   "type": "person",
+   "surface": "Daniel Hum a a l",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Amanda",
+   "type": "person",
+   "surface": "Amanda",
+   "ts": "27:31"
+  },
+  {
+   "canonical": "Time magazine",
+   "type": "place",
+   "surface": "Time magazine",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Vancouver",
+   "type": "place",
+   "surface": "Vancouver",
+   "ts": "24:28"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "28:03"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "31:12"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "33:55"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "dirt candy",
+   "ts": "36:00"
+  },
+  {
+   "canonical": "11 Madison Park",
+   "type": "place",
+   "surface": "11 Madison Park",
+   "ts": "30:25"
+  },
+  {
+   "canonical": "Daniel Hum",
+   "type": "person",
+   "surface": "Daniel Hum",
+   "ts": "29:11"
+  },
+  {
+   "canonical": "Amanda Cohen",
+   "type": "person",
+   "surface": "Amanda",
+   "ts": "43:15"
+  },
+  {
+   "canonical": "Amanda Cohen",
+   "type": "person",
+   "surface": "Amanda",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Jason",
+   "type": "person",
+   "surface": "Jason",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Jason",
+   "type": "person",
+   "surface": "Jason",
+   "ts": "42:50"
+  },
+  {
+   "canonical": "Panda Tadaka",
+   "type": "person",
+   "surface": "Panda Tadaka",
+   "ts": "43:07"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "43:36"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "44:15"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "44:37"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "44:58"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "45:13"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "46:09"
+  },
+  {
+   "canonical": "Onion",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "46:29"
+  },
+  {
+   "canonical": "Vacuum Machine",
+   "type": "equipment",
+   "surface": "vacuum machines",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "Vacuum Machine",
+   "type": "equipment",
+   "surface": "vacuum machines",
+   "ts": "42:36"
+  },
+  {
+   "canonical": "Omega 36 Tilapia",
+   "type": "ingredient",
+   "surface": "Omega 36 tilapia",
+   "ts": "46:58"
+  },
+  {
+   "canonical": "Omega 36 Tilapia",
+   "type": "ingredient",
+   "surface": "Omega 36 tilapia",
+   "ts": "47:15"
+  },
+  {
+   "canonical": "Plant-based Meat Analog",
+   "type": "ingredient",
+   "surface": "meat analogs",
+   "ts": "47:15"
+  },
+  {
+   "canonical": "Chef Cohen",
+   "type": "person",
+   "surface": "Chef Cohen",
+   "ts": "43:22"
+  },
+  {
+   "canonical": "Rick Bayless",
+   "type": "person",
+   "surface": "Rick Bayless",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Flash Pickling",
+   "type": "technique",
+   "surface": "flash pickle",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "Flash Pickling",
+   "type": "technique",
+   "surface": "flash pickle",
+   "ts": "45:59"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "53:20"
+  },
+  {
+   "canonical": "Stas",
+   "type": "person",
+   "surface": "Stas",
+   "ts": "49:44"
+  },
+  {
+   "canonical": "Essex Market",
+   "type": "place",
+   "surface": "Essex Market",
+   "ts": "50:46"
+  },
+  {
+   "canonical": "Vachera",
+   "type": "ingredient",
+   "surface": "Vachera",
+   "ts": "51:35"
+  },
+  {
+   "canonical": "nut paste",
+   "type": "ingredient",
+   "surface": "nut paste",
+   "ts": "50:46"
+  },
+  {
+   "canonical": "nut paste",
+   "type": "ingredient",
+   "surface": "nut paste",
+   "ts": "51:09"
+  },
+  {
+   "canonical": "nut paste",
+   "type": "ingredient",
+   "surface": "nut paste",
+   "ts": "51:48"
+  },
+  {
+   "canonical": "plant-based milk",
+   "type": "ingredient",
+   "surface": "plant-based milk",
+   "ts": "50:00"
+  },
+  {
+   "canonical": "meatloaf",
+   "type": "ingredient",
+   "surface": "meatloaf",
+   "ts": "49:28"
+  },
+  {
+   "canonical": "meatloaf",
+   "type": "ingredient",
+   "surface": "meatloaf",
+   "ts": "49:44"
+  },
+  {
+   "canonical": "tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "tofu",
+   "type": "ingredient",
+   "surface": "tofu",
+   "ts": "49:08"
+  },
+  {
+   "canonical": "flavored vodka",
+   "type": "ingredient",
+   "surface": "flavored vodka",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "gin",
+   "type": "ingredient",
+   "surface": "gin",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "Jacob",
+   "type": "person",
+   "surface": "Jacob",
+   "ts": "52:20"
+  },
+  {
+   "canonical": "Jacob",
+   "type": "person",
+   "surface": "Jacob",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Dave Chang",
+   "type": "person",
+   "surface": "Dave Chang",
+   "ts": "53:20"
+  },
+  {
+   "canonical": "Dirt Candy",
+   "type": "place",
+   "surface": "Dirt Candy",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Poutine",
+   "type": "ingredient",
+   "surface": "poutine",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Poutine",
+   "type": "ingredient",
+   "surface": "poutine",
+   "ts": "53:48"
+  },
+  {
+   "canonical": "Butter Tart",
+   "type": "ingredient",
+   "surface": "butter tart",
+   "ts": "52:51"
+  },
+  {
+   "canonical": "Butter Tart",
+   "type": "ingredient",
+   "surface": "butter tart",
+   "ts": "53:39"
+  },
+  {
+   "canonical": "Swiss Chalet",
+   "type": "place",
+   "surface": "Swiss Chalet",
+   "ts": "53:48"
+  },
+  {
+   "canonical": "Swiss Chalet",
+   "type": "place",
+   "surface": "Swiss chalet",
+   "ts": "54:15"
+  },
+  {
+   "canonical": "Canadian Day",
+   "type": "place",
+   "surface": "Canada Day",
+   "ts": "52:33"
+  },
+  {
+   "canonical": "Canadian Day",
+   "type": "place",
+   "surface": "Canadian Day",
+   "ts": "55:08"
+  },
+  {
+   "canonical": "Canadian Day",
+   "type": "place",
+   "surface": "Canadian Day",
+   "ts": "55:25"
+  },
+  {
+   "canonical": "Sneaky Bees",
+   "type": "place",
+   "surface": "Sneaky Bees",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Cheese Curds",
+   "type": "ingredient",
+   "surface": "cheese curds",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Cheese Curds",
+   "type": "ingredient",
+   "surface": "cheese curds",
+   "ts": "56:03"
+  },
+  {
+   "canonical": "Maple Broccoli",
+   "type": "ingredient",
+   "surface": "maple broccoli",
+   "ts": "55:37"
+  },
+  {
+   "canonical": "Pea Meal",
+   "type": "ingredient",
+   "surface": "pea meal",
+   "ts": "54:55"
+  },
+  {
+   "canonical": "Pea Meal",
+   "type": "ingredient",
+   "surface": "peat meal",
+   "ts": "55:02"
+  },
+  {
+   "canonical": "Sea Urchins",
+   "type": "ingredient",
+   "surface": "sea urchins",
+   "ts": "57:19"
+  },
+  {
+   "canonical": "Sea Urchins",
+   "type": "ingredient",
+   "surface": "sea urchins",
+   "ts": "57:40"
+  },
+  {
+   "canonical": "Santa Barbara",
+   "type": "place",
+   "surface": "Santa Barbara",
+   "ts": "57:40"
+  },
+  {
+   "canonical": "Guelph",
+   "type": "place",
+   "surface": "Guelph",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "University of Guelph",
+   "type": "place",
+   "surface": "University of Guelph",
+   "ts": "56:50"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "1:03:11"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "1:00:51"
+  },
+  {
+   "canonical": "Benicio Toro",
+   "type": "person",
+   "surface": "Benicio Toro",
+   "ts": "1:00:22"
+  },
+  {
+   "canonical": "Santa Barbara",
+   "type": "place",
+   "surface": "Santa Barbara",
+   "ts": "57:53"
+  },
+  {
+   "canonical": "Kentucky",
+   "type": "place",
+   "surface": "Kentucky",
+   "ts": "57:53"
+  },
+  {
+   "canonical": "Turkey",
+   "type": "place",
+   "surface": "Turkey",
+   "ts": "1:01:24"
+  },
+  {
+   "canonical": "smoking",
+   "type": "technique",
+   "surface": "smoking",
+   "ts": "58:50"
+  },
+  {
+   "canonical": "magic pistachios",
+   "type": "ingredient",
+   "surface": "magic pistachios",
+   "ts": "1:01:11"
+  },
+  {
+   "canonical": "Turkish pistachio",
+   "type": "ingredient",
+   "surface": "Turkish pistachio",
+   "ts": "1:01:44"
+  },
+  {
+   "canonical": "Epistachio",
+   "type": "ingredient",
+   "surface": "Epistachio",
+   "ts": "1:01:44"
+  },
+  {
+   "canonical": "macarons",
+   "type": "ingredient",
+   "surface": "macaroons",
+   "ts": "1:02:03"
+  },
+  {
+   "canonical": "anacardiacs",
+   "type": "ingredient",
+   "surface": "anacardacies",
+   "ts": "1:02:03"
+  },
+  {
+   "canonical": "Patreon",
+   "type": "place",
+   "surface": "Patreon",
+   "ts": "1:04:28"
+  },
+  {
+   "canonical": "Chef Virgilio Martinez",
+   "type": "person",
+   "surface": "Chef Virgilio Martinez",
+   "ts": "1:04:28"
+  },
+  {
+   "canonical": "Central (Peru)",
+   "type": "place",
+   "surface": "Central in Peru",
+   "ts": "1:04:28"
+  }
+ ]
+}

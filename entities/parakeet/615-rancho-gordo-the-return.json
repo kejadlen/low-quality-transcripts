@@ -1,0 +1,1387 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John Across",
+   "type": "person",
+   "surface": "John Across",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "John Across",
+   "type": "person",
+   "surface": "John",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "Joe Hazen",
+   "type": "person",
+   "surface": "Joe",
+   "ts": "0:21"
+  },
+  {
+   "canonical": "Nastasia the Hammer Lopez",
+   "type": "person",
+   "surface": "Nastasia the Hammer Lopez",
+   "ts": "0:27"
+  },
+  {
+   "canonical": "Jackie Molecules",
+   "type": "person",
+   "surface": "Jackie Molecules",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "0:43"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve Sando",
+   "ts": "0:57"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve Stando Sando",
+   "ts": "6:00"
+  },
+  {
+   "canonical": "Rancho Gordo Beans",
+   "type": "place",
+   "surface": "Rancho Gordo Beans",
+   "ts": "0:57"
+  },
+  {
+   "canonical": "Rockefeller Center",
+   "type": "place",
+   "surface": "Rockefeller Center",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "News Dan Studios",
+   "type": "place",
+   "surface": "News Dan Studios",
+   "ts": "0:11"
+  },
+  {
+   "canonical": "ANOVAs",
+   "type": "equipment",
+   "surface": "ANOVA",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "Knipecs",
+   "type": "equipment",
+   "surface": "Knipex",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "Cobras",
+   "type": "equipment",
+   "surface": "cobras",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "aquacolta",
+   "type": "ingredient",
+   "surface": "aquacolta",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "Chipino",
+   "type": "technique",
+   "surface": "Chipino",
+   "ts": "7:10"
+  },
+  {
+   "canonical": "Chipino",
+   "type": "technique",
+   "surface": "Chipino",
+   "ts": "7:36"
+  },
+  {
+   "canonical": "Buscan",
+   "type": "place",
+   "surface": "Buscan",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "T2",
+   "type": "ingredient",
+   "surface": "T2",
+   "ts": "3:41"
+  },
+  {
+   "canonical": "T2",
+   "type": "ingredient",
+   "surface": "T2",
+   "ts": "3:50"
+  },
+  {
+   "canonical": "green onion mayonnaise",
+   "type": "ingredient",
+   "surface": "green onion mayonnaise",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "5:28"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "3:55"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "5:37"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "6:00"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "6:20"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "8:03"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "8:19"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "8:46"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "turkey",
+   "type": "ingredient",
+   "surface": "turkey",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "7:36"
+  },
+  {
+   "canonical": "shrimp",
+   "type": "ingredient",
+   "surface": "shrimp",
+   "ts": "7:36"
+  },
+  {
+   "canonical": "cod",
+   "type": "ingredient",
+   "surface": "cod",
+   "ts": "7:36"
+  },
+  {
+   "canonical": "wild shrimp",
+   "type": "ingredient",
+   "surface": "wild shrimp",
+   "ts": "7:36"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "mayonnaise",
+   "type": "ingredient",
+   "surface": "mayonnaise",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "green onion",
+   "type": "ingredient",
+   "surface": "green onion",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "garlic",
+   "type": "ingredient",
+   "surface": "garlic",
+   "ts": "9:15"
+  },
+  {
+   "canonical": "butterfly",
+   "type": "technique",
+   "surface": "butterfly",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "stuffing",
+   "type": "ingredient",
+   "surface": "stuffing",
+   "ts": "4:47"
+  },
+  {
+   "canonical": "seasonings",
+   "type": "ingredient",
+   "surface": "seasonings",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "spatchcocks",
+   "type": "technique",
+   "surface": "spatchcocks",
+   "ts": "3:28"
+  },
+  {
+   "canonical": "smoking",
+   "type": "technique",
+   "surface": "smoke ring",
+   "ts": "3:38"
+  },
+  {
+   "canonical": "bone out",
+   "type": "technique",
+   "surface": "bone the whole sucker out",
+   "ts": "4:10"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "5:23"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "5:28"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "8:59"
+  },
+  {
+   "canonical": "gravy",
+   "type": "ingredient",
+   "surface": "gravy",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "leftovers",
+   "type": "ingredient",
+   "surface": "leftovers",
+   "ts": "3:41"
+  },
+  {
+   "canonical": "leftovers",
+   "type": "ingredient",
+   "surface": "leftovers",
+   "ts": "5:15"
+  },
+  {
+   "canonical": "rotisserie chicken",
+   "type": "ingredient",
+   "surface": "rotisserie chicken",
+   "ts": "9:53"
+  },
+  {
+   "canonical": "open face sandwich",
+   "type": "technique",
+   "surface": "open face sandwich",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "hot open face sandwich",
+   "type": "technique",
+   "surface": "hot open face sandwich",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "cold turkey lettuce tomato mayonnaise pepper guy mustard",
+   "type": "technique",
+   "surface": "cold turkey lettuce tomato mayonnaise pepper guy mustard",
+   "ts": "9:34"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "11:08"
+  },
+  {
+   "canonical": "Quinn",
+   "type": "person",
+   "surface": "Quinn",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Rancho Gordo",
+   "type": "place",
+   "surface": "Rancho Gordo",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Julia Newberry",
+   "type": "person",
+   "surface": "Julia Newberry",
+   "ts": "14:13"
+  },
+  {
+   "canonical": "Virginia peanuts",
+   "type": "ingredient",
+   "surface": "Virginia peanuts",
+   "ts": "12:45"
+  },
+  {
+   "canonical": "molasses",
+   "type": "ingredient",
+   "surface": "molasses",
+   "ts": "17:23"
+  },
+  {
+   "canonical": "molasses",
+   "type": "ingredient",
+   "surface": "molasses",
+   "ts": "17:48"
+  },
+  {
+   "canonical": "molasses",
+   "type": "ingredient",
+   "surface": "molasses",
+   "ts": "18:01"
+  },
+  {
+   "canonical": "molasses",
+   "type": "ingredient",
+   "surface": "molasses",
+   "ts": "18:30"
+  },
+  {
+   "canonical": "baked beans",
+   "type": "ingredient",
+   "surface": "baked beans",
+   "ts": "17:06"
+  },
+  {
+   "canonical": "baked beans",
+   "type": "ingredient",
+   "surface": "baked beans",
+   "ts": "18:58"
+  },
+  {
+   "canonical": "dog food",
+   "type": "ingredient",
+   "surface": "dog food",
+   "ts": "10:30"
+  },
+  {
+   "canonical": "dog food",
+   "type": "ingredient",
+   "surface": "dog food",
+   "ts": "11:02"
+  },
+  {
+   "canonical": "peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "11:41"
+  },
+  {
+   "canonical": "peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "12:03"
+  },
+  {
+   "canonical": "peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "12:45"
+  },
+  {
+   "canonical": "peanuts",
+   "type": "ingredient",
+   "surface": "peanuts",
+   "ts": "13:09"
+  },
+  {
+   "canonical": "eBay",
+   "type": "place",
+   "surface": "eBay",
+   "ts": "19:15"
+  },
+  {
+   "canonical": "French Culinary Institute",
+   "type": "place",
+   "surface": "French Culinary Institute",
+   "ts": "27:15"
+  },
+  {
+   "canonical": "Zampone",
+   "type": "ingredient",
+   "surface": "Zampone",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Cotechino",
+   "type": "ingredient",
+   "surface": "cotechino",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Rancho Gordo",
+   "type": "place",
+   "surface": "rancho gordo",
+   "ts": "27:15"
+  },
+  {
+   "canonical": "Essex Formaggio",
+   "type": "place",
+   "surface": "Essex Formaggio",
+   "ts": "21:52"
+  },
+  {
+   "canonical": "Essex Formaggio",
+   "type": "place",
+   "surface": "Essex Four Maggio",
+   "ts": "23:22"
+  },
+  {
+   "canonical": "Occhio della Capra",
+   "type": "ingredient",
+   "surface": "Occhio della Capra",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Eye of the Goat",
+   "type": "ingredient",
+   "surface": "eye of the goat",
+   "ts": "22:15"
+  },
+  {
+   "canonical": "Eye of the Goat",
+   "type": "ingredient",
+   "surface": "eye of the goat",
+   "ts": "23:01"
+  },
+  {
+   "canonical": "Eye of the Goat",
+   "type": "ingredient",
+   "surface": "eye of the goat",
+   "ts": "23:12"
+  },
+  {
+   "canonical": "Eye of the Goat",
+   "type": "ingredient",
+   "surface": "eye of the goat",
+   "ts": "23:29"
+  },
+  {
+   "canonical": "Marfax",
+   "type": "ingredient",
+   "surface": "Marfax",
+   "ts": "20:58"
+  },
+  {
+   "canonical": "Lachamba",
+   "type": "ingredient",
+   "surface": "lachamba",
+   "ts": "19:48"
+  },
+  {
+   "canonical": "Clay Pot",
+   "type": "equipment",
+   "surface": "clay pots",
+   "ts": "19:30"
+  },
+  {
+   "canonical": "Stoneware",
+   "type": "equipment",
+   "surface": "stoneware",
+   "ts": "20:11"
+  },
+  {
+   "canonical": "Ironware",
+   "type": "equipment",
+   "surface": "ironware",
+   "ts": "20:11"
+  },
+  {
+   "canonical": "Black-Eyed Peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Black-Eyed Peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "Black-Eyed Peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "27:15"
+  },
+  {
+   "canonical": "Black-Eyed Peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "27:37"
+  },
+  {
+   "canonical": "Black-Eyed Peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "25:25"
+  },
+  {
+   "canonical": "Lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "Lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "26:21"
+  },
+  {
+   "canonical": "Lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "27:03"
+  },
+  {
+   "canonical": "Cotaquino",
+   "type": "ingredient",
+   "surface": "cotaquino",
+   "ts": "25:40"
+  },
+  {
+   "canonical": "Cotaquino",
+   "type": "ingredient",
+   "surface": "cotaquino",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Pig's Trotter",
+   "type": "ingredient",
+   "surface": "pig's trotter",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Butcher",
+   "type": "place",
+   "surface": "butcher",
+   "ts": "26:29"
+  },
+  {
+   "canonical": "Butcher",
+   "type": "place",
+   "surface": "butcher",
+   "ts": "26:43"
+  },
+  {
+   "canonical": "Ethel Merman",
+   "type": "person",
+   "surface": "Ethel Merman",
+   "ts": "23:49"
+  },
+  {
+   "canonical": "Ethel Merman",
+   "type": "person",
+   "surface": "Ethel Merman",
+   "ts": "24:07"
+  },
+  {
+   "canonical": "Ethel Merman",
+   "type": "person",
+   "surface": "Ethel Merman",
+   "ts": "24:34"
+  },
+  {
+   "canonical": "Ethel Merman",
+   "type": "person",
+   "surface": "Ethel Merman",
+   "ts": "24:45"
+  },
+  {
+   "canonical": "Joan Crawford",
+   "type": "person",
+   "surface": "Joan Crawford",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Betty Davis",
+   "type": "person",
+   "surface": "Betty Davis",
+   "ts": "24:52"
+  },
+  {
+   "canonical": "Chateau Diane",
+   "type": "place",
+   "surface": "Chateau Diane",
+   "ts": "28:25"
+  },
+  {
+   "canonical": "Peter Kim",
+   "type": "person",
+   "surface": "Peter Kim",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "25:48"
+  },
+  {
+   "canonical": "Jack",
+   "type": "person",
+   "surface": "Jack",
+   "ts": "28:00"
+  },
+  {
+   "canonical": "Chateau Diane",
+   "type": "ingredient",
+   "surface": "Chateau Diane",
+   "ts": "28:59"
+  },
+  {
+   "canonical": "Boone's wine",
+   "type": "ingredient",
+   "surface": "Boone's wine",
+   "ts": "28:59"
+  },
+  {
+   "canonical": "black-eyed peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "29:20"
+  },
+  {
+   "canonical": "black-eyed peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "29:29"
+  },
+  {
+   "canonical": "black-eyed peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "29:44"
+  },
+  {
+   "canonical": "black-eyed peas",
+   "type": "ingredient",
+   "surface": "black-eyed peas",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "collarine range",
+   "type": "ingredient",
+   "surface": "collarine range",
+   "ts": "29:44"
+  },
+  {
+   "canonical": "lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "30:53"
+  },
+  {
+   "canonical": "lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "31:32"
+  },
+  {
+   "canonical": "lentils",
+   "type": "ingredient",
+   "surface": "lentils",
+   "ts": "31:42"
+  },
+  {
+   "canonical": "heirloom beans",
+   "type": "ingredient",
+   "surface": "heirloom stuff",
+   "ts": "32:35"
+  },
+  {
+   "canonical": "heirloom beans",
+   "type": "ingredient",
+   "surface": "heirloomes",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Native Seeds Search",
+   "type": "place",
+   "surface": "Native Seeds Search",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Baker's Creek",
+   "type": "place",
+   "surface": "Baker's Creek",
+   "ts": "33:29"
+  },
+  {
+   "canonical": "Baker's Creek",
+   "type": "place",
+   "surface": "Baker's Creek",
+   "ts": "33:49"
+  },
+  {
+   "canonical": "lima beans",
+   "type": "ingredient",
+   "surface": "limas",
+   "ts": "35:29"
+  },
+  {
+   "canonical": "lima beans",
+   "type": "ingredient",
+   "surface": "limas",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "succotash",
+   "type": "ingredient",
+   "surface": "succotash",
+   "ts": "36:01"
+  },
+  {
+   "canonical": "succotash",
+   "type": "ingredient",
+   "surface": "succotash",
+   "ts": "36:23"
+  },
+  {
+   "canonical": "corn stalk",
+   "type": "ingredient",
+   "surface": "corn stalk",
+   "ts": "36:14"
+  },
+  {
+   "canonical": "shared cultures",
+   "type": "place",
+   "surface": "shared cultures",
+   "ts": "37:45"
+  },
+  {
+   "canonical": "barley miso",
+   "type": "ingredient",
+   "surface": "barley miso",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "bean burgers",
+   "type": "ingredient",
+   "surface": "bean burgers",
+   "ts": "38:20"
+  },
+  {
+   "canonical": "bean burgers",
+   "type": "ingredient",
+   "surface": "bean burgers",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Norman Rose",
+   "type": "place",
+   "surface": "Norman Rose",
+   "ts": "38:42"
+  },
+  {
+   "canonical": "Superiority Burger",
+   "type": "place",
+   "surface": "Superiority Burger",
+   "ts": "39:02"
+  },
+  {
+   "canonical": "Superiority Burger",
+   "type": "place",
+   "surface": "Superiority Burger",
+   "ts": "39:38"
+  },
+  {
+   "canonical": "Harold McGee",
+   "type": "person",
+   "surface": "Harold",
+   "ts": "42:09"
+  },
+  {
+   "canonical": "FODMAP",
+   "type": "ingredient",
+   "surface": "FODMAP",
+   "ts": "41:53"
+  },
+  {
+   "canonical": "bean broth",
+   "type": "ingredient",
+   "surface": "bean broth",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "Scarlet Runner",
+   "type": "ingredient",
+   "surface": "Scarlet Runner",
+   "ts": "44:25"
+  },
+  {
+   "canonical": "Spasiolus vicinias",
+   "type": "ingredient",
+   "surface": "Spasiolus vicinias",
+   "ts": "45:44"
+  },
+  {
+   "canonical": "runner beans",
+   "type": "ingredient",
+   "surface": "runner beans",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "runner beans",
+   "type": "ingredient",
+   "surface": "runner beans",
+   "ts": "46:31"
+  },
+  {
+   "canonical": "runner beans",
+   "type": "ingredient",
+   "surface": "runner beans",
+   "ts": "46:50"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "39:44"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "40:02"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "40:19"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "41:06"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "42:23"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "43:03"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "bean",
+   "ts": "43:55"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "bean",
+   "ts": "44:25"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "44:39"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "45:16"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "bean",
+   "ts": "45:40"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "46:05"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "46:31"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "46:50"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "47:22"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "beans",
+   "ts": "47:55"
+  },
+  {
+   "canonical": "bean",
+   "type": "ingredient",
+   "surface": "bean",
+   "ts": "48:16"
+  },
+  {
+   "canonical": "soaking water",
+   "type": "ingredient",
+   "surface": "soaking water",
+   "ts": "41:33"
+  },
+  {
+   "canonical": "soaking water",
+   "type": "ingredient",
+   "surface": "soaking water",
+   "ts": "41:53"
+  },
+  {
+   "canonical": "soaking water",
+   "type": "ingredient",
+   "surface": "soaking water",
+   "ts": "44:39"
+  },
+  {
+   "canonical": "Steve",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "48:22"
+  },
+  {
+   "canonical": "Garbanzas",
+   "type": "ingredient",
+   "surface": "garbanzas",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "Cranberry Beans",
+   "type": "ingredient",
+   "surface": "cranberry beans",
+   "ts": "50:25"
+  },
+  {
+   "canonical": "Borlone Beans",
+   "type": "ingredient",
+   "surface": "borlone beans",
+   "ts": "49:27"
+  },
+  {
+   "canonical": "White Beans",
+   "type": "ingredient",
+   "surface": "white beans",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Dark Beans",
+   "type": "ingredient",
+   "surface": "dark beans",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Chickpeas",
+   "type": "ingredient",
+   "surface": "chickpeas",
+   "ts": "53:30"
+  },
+  {
+   "canonical": "Romesco Sauce",
+   "type": "technique",
+   "surface": "romesco sauce",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Pesto",
+   "type": "technique",
+   "surface": "pesto",
+   "ts": "50:03"
+  },
+  {
+   "canonical": "Refried Beans",
+   "type": "technique",
+   "surface": "refried beans",
+   "ts": "52:20"
+  },
+  {
+   "canonical": "Refried Beans",
+   "type": "technique",
+   "surface": "refried beans",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "Refried Beans",
+   "type": "technique",
+   "surface": "refried beans",
+   "ts": "53:13"
+  },
+  {
+   "canonical": "Immersion Blender",
+   "type": "equipment",
+   "surface": "immersion blender",
+   "ts": "52:20"
+  },
+  {
+   "canonical": "Lard",
+   "type": "ingredient",
+   "surface": "lard",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "Onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "Onions",
+   "type": "ingredient",
+   "surface": "onions",
+   "ts": "53:13"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "48:53"
+  },
+  {
+   "canonical": "Olive Oil",
+   "type": "ingredient",
+   "surface": "olive oil",
+   "ts": "49:47"
+  },
+  {
+   "canonical": "Tortilla",
+   "type": "ingredient",
+   "surface": "tortilla",
+   "ts": "52:20"
+  },
+  {
+   "canonical": "High Heat",
+   "type": "technique",
+   "surface": "high heat",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "High Heat",
+   "type": "technique",
+   "surface": "high heat",
+   "ts": "55:33"
+  },
+  {
+   "canonical": "Low and Slow",
+   "type": "technique",
+   "surface": "low and slow",
+   "ts": "51:28"
+  },
+  {
+   "canonical": "Low and Slow",
+   "type": "technique",
+   "surface": "low and slow",
+   "ts": "51:42"
+  },
+  {
+   "canonical": "Low and Slow",
+   "type": "technique",
+   "surface": "low and slow",
+   "ts": "52:08"
+  },
+  {
+   "canonical": "Mexican Butcher",
+   "type": "place",
+   "surface": "Mexican butcher",
+   "ts": "52:43"
+  },
+  {
+   "canonical": "Mixteca Salt",
+   "type": "ingredient",
+   "surface": "Mixteca salt",
+   "ts": "53:30"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "53:30"
+  },
+  {
+   "canonical": "Baking Soda",
+   "type": "ingredient",
+   "surface": "baking soda",
+   "ts": "54:15"
+  },
+  {
+   "canonical": "Acid",
+   "type": "ingredient",
+   "surface": "acid",
+   "ts": "54:15"
+  },
+  {
+   "canonical": "Serana Bean",
+   "type": "ingredient",
+   "surface": "Serana bean",
+   "ts": "54:39"
+  },
+  {
+   "canonical": "Marcella Bean",
+   "type": "ingredient",
+   "surface": "Marcella",
+   "ts": "54:39"
+  },
+  {
+   "canonical": "Granary Weevil",
+   "type": "equipment",
+   "surface": "weevil",
+   "ts": "56:09"
+  },
+  {
+   "canonical": "Granary Weevil",
+   "type": "equipment",
+   "surface": "granary weevil",
+   "ts": "56:25"
+  },
+  {
+   "canonical": "Banana Vinegar",
+   "type": "ingredient",
+   "surface": "banana vinegar",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "Vera Cruz",
+   "type": "place",
+   "surface": "Vera Cruz",
+   "ts": "57:28"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "59:56"
+  },
+  {
+   "canonical": "Steve Sando",
+   "type": "person",
+   "surface": "Steve",
+   "ts": "1:00:06"
+  },
+  {
+   "canonical": "Rancho Gordo Beans",
+   "type": "place",
+   "surface": "Rancho Gordo Beans",
+   "ts": "59:56"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "59:56"
+  },
+  {
+   "canonical": "Bean Book",
+   "type": "place",
+   "surface": "Bean Book",
+   "ts": "59:56"
+  },
+  {
+   "canonical": "Shakshuka",
+   "type": "technique",
+   "surface": "shaksuka",
+   "ts": "59:11"
+  },
+  {
+   "canonical": "Purgatory",
+   "type": "technique",
+   "surface": "purgatory",
+   "ts": "59:11"
+  },
+  {
+   "canonical": "Gorgonzola",
+   "type": "ingredient",
+   "surface": "gorgonzola",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Malden Salt",
+   "type": "ingredient",
+   "surface": "malden salt",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Chestnut Lima Beans",
+   "type": "ingredient",
+   "surface": "Christmas limas",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Garbanzo Beans",
+   "type": "ingredient",
+   "surface": "garbanzas",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Tahini",
+   "type": "ingredient",
+   "surface": "tahine",
+   "ts": "57:48"
+  },
+  {
+   "canonical": "Parmesan",
+   "type": "ingredient",
+   "surface": "parmesan",
+   "ts": "59:37"
+  }
+ ]
+}

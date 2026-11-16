@@ -1,0 +1,871 @@
+{
+ "model": "mlx-community/Qwen3-8B-4bit",
+ "prompt_version": 2,
+ "failed_chunks": [],
+ "mentions": [
+  {
+   "canonical": "Lisa Hald",
+   "type": "person",
+   "surface": "Lisa Hald",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "American Humane",
+   "type": "place",
+   "surface": "American Humane",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Springer Mountain Farms",
+   "type": "place",
+   "surface": "Springer Mountain Farms",
+   "ts": "0:00"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:43"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "2:12"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "2:47"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "Yeti blue microphone",
+   "type": "equipment",
+   "surface": "Yeti blue microphone",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "4:21"
+  },
+  {
+   "canonical": "espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "4:54"
+  },
+  {
+   "canonical": "espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "6:47"
+  },
+  {
+   "canonical": "espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "espresso",
+   "type": "ingredient",
+   "surface": "espresso",
+   "ts": "8:09"
+  },
+  {
+   "canonical": "RO water",
+   "type": "ingredient",
+   "surface": "RO",
+   "ts": "6:03"
+  },
+  {
+   "canonical": "RO water",
+   "type": "ingredient",
+   "surface": "RO",
+   "ts": "8:09"
+  },
+  {
+   "canonical": "Rao coffee books",
+   "type": "ingredient",
+   "surface": "Rao coffee books",
+   "ts": "6:09"
+  },
+  {
+   "canonical": "David Schulmer",
+   "type": "person",
+   "surface": "David Schulmer",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "Ely",
+   "type": "person",
+   "surface": "Ely",
+   "ts": "7:15"
+  },
+  {
+   "canonical": "New York water",
+   "type": "ingredient",
+   "surface": "New York water",
+   "ts": "7:49"
+  },
+  {
+   "canonical": "GoFundMe",
+   "type": "place",
+   "surface": "GoFundMe",
+   "ts": "9:22"
+  },
+  {
+   "canonical": "Dave Arnold",
+   "type": "person",
+   "surface": "Dave",
+   "ts": "18:41"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "16:52"
+  },
+  {
+   "canonical": "GoFundMe.com",
+   "type": "place",
+   "surface": "GoFundMe.com",
+   "ts": "12:35"
+  },
+  {
+   "canonical": "New York City Wine and Food Festival",
+   "type": "place",
+   "surface": "New York City Wine and Food Festival",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Star Chef Chefs Congress",
+   "type": "place",
+   "surface": "Star Chef Chefs Congress",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "New York Times Food Festival",
+   "type": "place",
+   "surface": "New York Times Food Festival",
+   "ts": "11:13"
+  },
+  {
+   "canonical": "Schlesinger Library",
+   "type": "place",
+   "surface": "Schleshinger library",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Radcliffe",
+   "type": "place",
+   "surface": "Radcliffe",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Jose Andres",
+   "type": "person",
+   "surface": "Jose Andres",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Cafe Atlantico",
+   "type": "place",
+   "surface": "Cafe Atlantico",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Daniel Balud",
+   "type": "person",
+   "surface": "Daniel Balud",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Michael Batterbury",
+   "type": "person",
+   "surface": "Michael Batterbury",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Food Arts",
+   "type": "place",
+   "surface": "food arts",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Food Arts",
+   "type": "place",
+   "surface": "food arts",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Planches",
+   "type": "ingredient",
+   "surface": "planches",
+   "ts": "15:00"
+  },
+  {
+   "canonical": "Planches",
+   "type": "ingredient",
+   "surface": "planches",
+   "ts": "16:34"
+  },
+  {
+   "canonical": "Charcuterie",
+   "type": "ingredient",
+   "surface": "charcuterie",
+   "ts": "16:52"
+  },
+  {
+   "canonical": "Jane Grigson",
+   "type": "person",
+   "surface": "Jane Grigson",
+   "ts": "16:52"
+  },
+  {
+   "canonical": "Carpatia",
+   "type": "ingredient",
+   "surface": "Carpatia",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Parwana",
+   "type": "ingredient",
+   "surface": "Parwana",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Tomological Explorers",
+   "type": "person",
+   "surface": "tomological explorers",
+   "ts": "19:12"
+  },
+  {
+   "canonical": "Massachusetts",
+   "type": "place",
+   "surface": "Massachusetts",
+   "ts": "19:57"
+  },
+  {
+   "canonical": "Romania",
+   "type": "place",
+   "surface": "Romania",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Afghanistan",
+   "type": "place",
+   "surface": "Afghan",
+   "ts": "20:35"
+  },
+  {
+   "canonical": "Ayubi",
+   "type": "person",
+   "surface": "Ayubi",
+   "ts": "21:03"
+  },
+  {
+   "canonical": "Carwana",
+   "type": "place",
+   "surface": "Carwana",
+   "ts": "21:24"
+  },
+  {
+   "canonical": "Hakka",
+   "type": "place",
+   "surface": "Hakka",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Hakka",
+   "type": "place",
+   "surface": "Hakka",
+   "ts": "23:03"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "25:24"
+  },
+  {
+   "canonical": "Searsol",
+   "type": "equipment",
+   "surface": "Sears all",
+   "ts": "26:28"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "22:47"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "24:19"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "24:31"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "24:44"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "25:06"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "25:24"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "26:08"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "26:28"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "27:50"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "29:20"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "29:37"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "30:01"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "30:15"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "30:29"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker and Axe",
+   "ts": "25:44"
+  },
+  {
+   "canonical": "Elizabeth Schneider",
+   "type": "person",
+   "surface": "Elizabeth Schneider",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "Elizabeth Schneider",
+   "type": "person",
+   "surface": "Elizabeth Schneider",
+   "ts": "37:12"
+  },
+  {
+   "canonical": "American Humane Certified Label",
+   "type": "place",
+   "surface": "American Humane Certified Label",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "32:21"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "32:41"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "40:04"
+  },
+  {
+   "canonical": "Amazon",
+   "type": "place",
+   "surface": "Amazon",
+   "ts": "40:51"
+  },
+  {
+   "canonical": "Booker and Dax",
+   "type": "place",
+   "surface": "Booker",
+   "ts": "32:30"
+  },
+  {
+   "canonical": "Springer Mountain Farms",
+   "type": "place",
+   "surface": "Springer Mountain Farms",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "Uncommon Fruits and Vegetables",
+   "type": "ingredient",
+   "surface": "Uncommon Fruits and Vegetables",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "Uncommon Fruits and Vegetables",
+   "type": "ingredient",
+   "surface": "uncommon fruits and vegetables",
+   "ts": "36:49"
+  },
+  {
+   "canonical": "American Humane",
+   "type": "place",
+   "surface": "American Humane",
+   "ts": "33:00"
+  },
+  {
+   "canonical": "American Humane",
+   "type": "place",
+   "surface": "American Humane",
+   "ts": "33:49"
+  },
+  {
+   "canonical": "Clarent",
+   "type": "ingredient",
+   "surface": "Clarent",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "ramps",
+   "type": "ingredient",
+   "surface": "ramps",
+   "ts": "39:09"
+  },
+  {
+   "canonical": "bitter melon",
+   "type": "ingredient",
+   "surface": "bitter melon",
+   "ts": "39:09"
+  },
+  {
+   "canonical": "horseradish tree",
+   "type": "ingredient",
+   "surface": "horseradish tree",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "New Zealand spinach",
+   "type": "ingredient",
+   "surface": "New Zealand spinach",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "tetragonia",
+   "type": "ingredient",
+   "surface": "tetragonia",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "banana buds",
+   "type": "ingredient",
+   "surface": "banana buds",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "broccoli",
+   "type": "ingredient",
+   "surface": "broccoli",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "turnips",
+   "type": "ingredient",
+   "surface": "turnips",
+   "ts": "35:37"
+  },
+  {
+   "canonical": "potatoes",
+   "type": "ingredient",
+   "surface": "potatoes",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "tomatoes",
+   "type": "ingredient",
+   "surface": "tomatoes",
+   "ts": "34:46"
+  },
+  {
+   "canonical": "Emer and Suzucchini",
+   "type": "place",
+   "surface": "Emer and Suzucchini",
+   "ts": "37:12"
+  },
+  {
+   "canonical": "Clarent",
+   "type": "ingredient",
+   "surface": "Clarent",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "cane",
+   "type": "ingredient",
+   "surface": "cane",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "Haiti",
+   "type": "place",
+   "surface": "Haiti",
+   "ts": "41:10"
+  },
+  {
+   "canonical": "Amazon reviews",
+   "type": "place",
+   "surface": "Amazon reviews",
+   "ts": "40:04"
+  },
+  {
+   "canonical": "Patience Gray",
+   "type": "person",
+   "surface": "Patience Gray",
+   "ts": "44:03"
+  },
+  {
+   "canonical": "Patience Gray",
+   "type": "person",
+   "surface": "Patience Gray",
+   "ts": "44:10"
+  },
+  {
+   "canonical": "Patience Gray",
+   "type": "person",
+   "surface": "Patience Gray",
+   "ts": "45:54"
+  },
+  {
+   "canonical": "Patience Gray",
+   "type": "person",
+   "surface": "Patience Gray",
+   "ts": "47:53"
+  },
+  {
+   "canonical": "Patience Gray",
+   "type": "person",
+   "surface": "Patience Gray",
+   "ts": "48:57"
+  },
+  {
+   "canonical": "Prospect Books",
+   "type": "place",
+   "surface": "Prospect Books",
+   "ts": "48:21"
+  },
+  {
+   "canonical": "Prospect Books",
+   "type": "equipment",
+   "surface": "Prospect Books",
+   "ts": "48:21"
+  },
+  {
+   "canonical": "MFK Fisher",
+   "type": "person",
+   "surface": "MFK Fisher",
+   "ts": "52:03"
+  },
+  {
+   "canonical": "MFK Fisher",
+   "type": "person",
+   "surface": "MFK Fisher",
+   "ts": "52:23"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "43:34"
+  },
+  {
+   "canonical": "Nathan Myhrvold",
+   "type": "person",
+   "surface": "Nathan Mirgold",
+   "ts": "45:54"
+  },
+  {
+   "canonical": "Alan Davidson",
+   "type": "person",
+   "surface": "Alan Davidson",
+   "ts": "46:44"
+  },
+  {
+   "canonical": "Alan Davidson",
+   "type": "person",
+   "surface": "Alan Davidson",
+   "ts": "47:11"
+  },
+  {
+   "canonical": "Elizabeth David",
+   "type": "person",
+   "surface": "Elizabeth David",
+   "ts": "48:21"
+  },
+  {
+   "canonical": "Petit Proculinaire",
+   "type": "place",
+   "surface": "Petit Proculinaire",
+   "ts": "48:21"
+  },
+  {
+   "canonical": "Strand Book Store",
+   "type": "place",
+   "surface": "Strand",
+   "ts": "49:33"
+  },
+  {
+   "canonical": "Strand Book Store",
+   "type": "place",
+   "surface": "Strand",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "galleys",
+   "type": "equipment",
+   "surface": "galleys",
+   "ts": "49:42"
+  },
+  {
+   "canonical": "galleys",
+   "type": "equipment",
+   "surface": "galleys",
+   "ts": "50:37"
+  },
+  {
+   "canonical": "galleys",
+   "type": "equipment",
+   "surface": "galleys",
+   "ts": "50:52"
+  },
+  {
+   "canonical": "Madeline Kammon",
+   "type": "person",
+   "surface": "Madeline Kammon",
+   "ts": "54:56"
+  },
+  {
+   "canonical": "Madeline Kammon",
+   "type": "person",
+   "surface": "Madeline",
+   "ts": "57:16"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "53:23"
+  },
+  {
+   "canonical": "John",
+   "type": "person",
+   "surface": "John",
+   "ts": "54:12"
+  },
+  {
+   "canonical": "MFK Fisher",
+   "type": "person",
+   "surface": "MFK Fisher",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "Simple Cooking",
+   "type": "place",
+   "surface": "simple cooking",
+   "ts": "54:12"
+  },
+  {
+   "canonical": "Simple Cooking",
+   "type": "place",
+   "surface": "Simple Cooking",
+   "ts": "54:24"
+  },
+  {
+   "canonical": "When French Women Cook",
+   "type": "place",
+   "surface": "When French Women Cook",
+   "ts": "55:07"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:02:28"
+  },
+  {
+   "canonical": "GoFundMe",
+   "type": "place",
+   "surface": "GoFundMe",
+   "ts": "1:02:28"
+  },
+  {
+   "canonical": "GoFundMe",
+   "type": "place",
+   "surface": "GoFundMe",
+   "ts": "1:02:59"
+  },
+  {
+   "canonical": "Yule Gibbons",
+   "type": "person",
+   "surface": "Yule Gibbons",
+   "ts": "52:41"
+  },
+  {
+   "canonical": "Madeline Kammon",
+   "type": "person",
+   "surface": "Madeline Kammon",
+   "ts": "54:56"
+  },
+  {
+   "canonical": "Peterson's Sauce",
+   "type": "ingredient",
+   "surface": "Peterson's sauce",
+   "ts": "1:00:02"
+  },
+  {
+   "canonical": "Matt",
+   "type": "person",
+   "surface": "Matt",
+   "ts": "1:04:04"
+  },
+  {
+   "canonical": "Kitchen Arts and Letters",
+   "type": "place",
+   "surface": "Kitchen Arts and Letters",
+   "ts": "1:03:38"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:04:11"
+  },
+  {
+   "canonical": "Heritage Radio Network",
+   "type": "place",
+   "surface": "Heritage Radio Network",
+   "ts": "1:04:26"
+  },
+  {
+   "canonical": "Simplecast",
+   "type": "equipment",
+   "surface": "Simplecast",
+   "ts": "1:04:11"
+  },
+  {
+   "canonical": "Cooking Issues",
+   "type": "place",
+   "surface": "Cooking Issues",
+   "ts": "1:04:11"
+  }
+ ]
+}
