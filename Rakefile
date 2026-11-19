@@ -182,6 +182,7 @@ EPISODE_TASKS.each do |et|
       title: et.episode.title.sub(/^Episode #{et.number}:\s+/, ""),
       slug: et.slug,
       audio_url: et.episode.audio_url,
+      summary: et.episode.summary,
       text: File.read(et.text_path)
     }
 
